@@ -194,9 +194,16 @@ export default function App() {
         <div className="mx-auto mt-3 max-w-7xl rounded-xl border border-stone-200 bg-white p-4 text-sm shadow-sm">
           <h2 className="font-semibold text-stone-900">Install on a phone</h2>
           <p className="mt-1 text-stone-600">
-            This is a web app. The Android APK wraps the same GUI and ships a bundled
-            season. Chrome can also install it from the menu as an app.
+            This is the same live board as the desktop web app. The sideload APK
+            wraps that GUI and ships a bundled season so the phone works without
+            Python. Chrome can also install this page from the menu as an app.
           </p>
+          <ol className="mt-3 list-decimal space-y-1 pl-5 text-stone-600">
+            <li>Copy <code className="rounded bg-stone-100 px-1">app-debug.apk</code> to the phone (USB, Drive, or Messages).</li>
+            <li>Settings → Install unknown apps → allow Files, Chrome, or Drive.</li>
+            <li>Tap the APK → Install. Replacing an older build is install-over (Update).</li>
+            <li>Open <strong>Six-Man Rankings</strong>. Leave the URL blank for the bundled snapshot.</li>
+          </ol>
           <label className="mt-3 block text-xs font-medium uppercase tracking-wide text-stone-500">
             Live server URL (optional)
           </label>
