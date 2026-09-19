@@ -88,6 +88,8 @@ The Vite board in `web/` is a static site. **Statewide / Districts / Regions, ch
 
 Every push to `main` rebuilds `web/` with `VITE_BASE=/ranking-tool/` and publishes the `gh-pages` branch (workflow `.github/workflows/pages.yml`). The build does **not** run Python or `export-offline`. The JSON under `web/public/offline/` must already be in git (`npm run prebuild` fails if they are missing).
 
+If Chrome shows **Site not found**, enable Pages once on the phone (no PC): GitHub → **rcullens/ranking-tool** → **Settings** → **Pages** → Deploy from a branch → `gh-pages` / `/` (root) → Save. Stay logged into GitHub in Chrome if the repo is private, or make the repo public so the site is open.
+
 ```bash
 # refresh snapshots before a release (on a machine with Python)
 sixman-rank export-offline --out web/public/offline
