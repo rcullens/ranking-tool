@@ -11,7 +11,7 @@ import re
 from dataclasses import dataclass
 from typing import Iterable, Optional
 
-from sixman_rankings.catalog import CatalogSchool, slugify
+from sixman_rankings.catalog import NAME_ALIASES, CatalogSchool, slugify
 
 SKIP_LINE = re.compile(
     r"^(?:"
@@ -94,6 +94,7 @@ def build_name_index(schools: Iterable[CatalogSchool]) -> dict[str, str]:
             keys.add("Three-Way")
         if school.name == "O'Donnell":
             keys.update({"ODonnell", "O Donnell", "O'Donnell Eagles"})
+        keys.update(NAME_ALIASES.get(school.team_id, ()))
         for key in keys:
             n = _norm(key)
             if n:
@@ -320,7 +321,7 @@ def games_to_rows(
     games: Iterable[SmfGame],
     schools: Iterable[CatalogSchool],
 ) -> list[dict]:
-    """Keep UIL-vs-UIL matchups; drop TAPPS / out-of-state / JV sides."""
+    """Keep catalog matchups; drop unresolved / JV / out-of-state sides."""
 
     roster = list(schools)
     index = build_name_index(roster)

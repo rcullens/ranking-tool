@@ -177,7 +177,7 @@ export function RankingBoards({
     return (
       <div className="overflow-hidden rounded-xl border border-stone-200 bg-white shadow-sm">
         <p className="border-b border-stone-100 px-3 py-2 text-xs text-stone-500">
-          {statewide.length} UIL six-man team{statewide.length === 1 ? "" : "s"} · ranks 1
+          {statewide.length} six-man team{statewide.length === 1 ? "" : "s"} · ranks 1
           {statewide.length ? `–${statewide.length}` : ""} · scroll for the full field
           {filterQuery.trim()
             ? ` · showing ${filtered.length} match${filtered.length === 1 ? "" : "es"} for “${filterQuery.trim()}”`

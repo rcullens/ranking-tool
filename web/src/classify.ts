@@ -16,12 +16,19 @@ export function classificationMatches(teamTag: string, query: string): boolean {
   if (teamTag.trim().toLowerCase() === q.toLowerCase()) return true;
   const qDiv = divisionOf(q);
   const tDiv = divisionOf(teamTag);
-  return Boolean(qDiv && tDiv && qDiv === tDiv);
+  if (!(qDiv && tDiv && qDiv === tDiv)) return false;
+  const bareUil = /^(di|dii|d1|d2)$/i.test(q) || /^1a\b/i.test(q);
+  if (bareUil) {
+    return /^1a\b/i.test(teamTag) && !/tapps|taiao|tcaf|tcal|\bind\b/i.test(teamTag);
+  }
+  return true;
 }
 
-export function filterRankRows<T extends { classification?: string; district?: string; region?: string }>(
+export function filterRankRows<
+  T extends { classification?: string; district?: string; region?: string; association?: string },
+>(
   rows: T[],
-  opts: { classification?: string; district?: string; region?: string } = {},
+  opts: { classification?: string; district?: string; region?: string; association?: string } = {},
 ): T[] {
   return rows.filter((row) => {
     if (opts.classification && !classificationMatches(row.classification || "", opts.classification)) {
@@ -29,6 +36,9 @@ export function filterRankRows<T extends { classification?: string; district?: s
     }
     if (opts.district && (row.district || "") !== opts.district) return false;
     if (opts.region && (row.region || "") !== opts.region) return false;
+    if (opts.association && (row.association || "UIL").toUpperCase() !== opts.association.toUpperCase()) {
+      return false;
+    }
     return true;
   });
 }

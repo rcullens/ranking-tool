@@ -12,12 +12,13 @@ from sixman_rankings.pipeline import rank_season
 
 def test_catalog_is_the_full_uil_1a_field_and_includes_aquilla():
     schools = uil_schools()
-    assert len(schools) >= 150
+    assert len(schools) > 250
     aquilla = next(s for s in schools if s.team_id == "aquilla")
     assert aquilla.name == "Aquilla"
     assert aquilla.district == "14-1A DI"
     assert aquilla.uil_region == 4
     assert aquilla.classification == "1A DI"
+    assert aquilla.association == "UIL"
 
 
 def test_uil_rankings_list_every_team_from_first_to_last():
@@ -54,10 +55,10 @@ def test_division_presets_include_every_di_and_dii_team():
     assert len(presets["division_di"]) > 12
     assert len(presets["division_dii"]) > 12
     assert "aquilla" in presets["division_di"]
-    assert len(presets["division_di"]) + len(presets["division_dii"]) == len(table)
+    assert "first-baptist-christian" not in presets["division_di"]
 
 
-def test_committed_offline_presets_cover_the_live_field():
+def test_committed_offline_presets_cover_uil_divisions():
     root = Path(__file__).resolve().parents[1] / "web" / "public" / "offline"
     teams = json.loads((root / "teams.json").read_text(encoding="utf-8"))["teams"]
     presets = json.loads((root / "presets.json").read_text(encoding="utf-8"))["presets"]
@@ -65,5 +66,5 @@ def test_committed_offline_presets_cover_the_live_field():
     dii = {row["team_id"] for row in teams if classification_matches(row["classification"], "DII")}
     assert set(presets["division_di"]) == di
     assert set(presets["division_dii"]) == dii
-    assert len(di) + len(dii) == len(teams)
     assert "aquilla" in presets["division_di"]
+    assert len(teams) > 159

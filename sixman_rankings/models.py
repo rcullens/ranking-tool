@@ -86,6 +86,7 @@ class Team:
     district: str
     region: str
     classification: str = "1A"
+    association: str = "UIL"
     city: str = ""
     lat: Optional[float] = None
     lon: Optional[float] = None
@@ -233,3 +234,4 @@ class RankedTeam:
     rank_delta: Optional[int] = None
     power_delta: Optional[float] = None
     prev_rank: Optional[int] = None
+    association: str = "UIL"

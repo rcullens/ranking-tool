@@ -41,6 +41,11 @@ const REGION_LABELS: Record<string, string> = {
   panhandle: "Panhandle / South Plains",
   "north-central": "North Central",
   "central-east-south": "Central / East / South",
+  tapps: "TAPPS",
+  taiao: "TAIAO",
+  tcaf: "TCAF",
+  tcal: "TCAL",
+  independent: "Independent",
 };
 
 function prettyPlace(raw: string) {
@@ -96,6 +101,7 @@ export default function App() {
   const [settingsOpen, setSettingsOpen] = useState(() => isNativeShell());
   const [apiBaseDraft, setApiBaseDraft] = useState(getStoredApiBase);
   const [classFilter, setClassFilter] = useState("");
+  const [assocFilter, setAssocFilter] = useState("");
   const [activePresetKey, setActivePresetKey] = useState<string | null>(null);
   const [scopeIds, setScopeIds] = useState<string[] | null>(null);
   const [chartNote, setChartNote] = useState<string | null>(null);
@@ -122,7 +128,10 @@ export default function App() {
       api.status(),
       api.teams(),
       api.presets(),
-      api.rankings(classFilter ? { classification: classFilter } : undefined),
+      api.rankings({
+        ...(classFilter ? { classification: classFilter } : {}),
+        ...(assocFilter ? { association: assocFilter } : {}),
+      }),
       api.boards(),
     ]);
     setStatus(st);
@@ -161,7 +170,7 @@ export default function App() {
     if (ids.length) {
       setCompare(await api.compare(ids, metricRef.current));
     }
-  }, [classFilter]);
+  }, [classFilter, assocFilter]);
 
   useEffect(() => {
     refresh().catch((err: Error) => setError(err.message));
@@ -338,15 +347,15 @@ export default function App() {
     <div className="min-h-screen px-4 py-6 md:px-8">
       <header className="mx-auto flex max-w-7xl flex-col gap-3 border-b border-stone-300 pb-4 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="text-xs uppercase tracking-[0.2em] text-stone-500">Texas UIL Six-Man</p>
+          <p className="text-xs uppercase tracking-[0.2em] text-stone-500">Texas Six-Man</p>
           <h1 className="font-sans text-3xl tracking-tight text-stone-900 md:text-4xl">
             Live power rankings
           </h1>
           <p className="mt-1 max-w-xl text-sm text-stone-600">
-            Every UIL 1A six-man program (Division I and II) is ranked from #1 to last,
-            including Aquilla. Live MaxPreps / SixManFootball finals land on this board
-            via GitHub Actions — no laptop required. Search the full list, or load last
-            week&apos;s Top 10.
+            Every Texas six-man program is ranked from #1 to last — UIL, TAPPS, TAIAO,
+            TCAF, TCAL, and independents, including Aquilla. Cross-association games
+            count. Live MaxPreps / SixManFootball finals land on this board via GitHub
+            Actions. Search the full list, or load last week&apos;s Top 10.
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-2">
@@ -618,21 +627,43 @@ export default function App() {
           <div className="flex flex-wrap items-center justify-between gap-2">
             <BoardSwitcher view={view} onView={setView} />
             {view === "statewide" ? (
-              <div className="flex rounded-md bg-stone-100 p-0.5 text-xs">
-                {[
-                  { id: "", label: "All" },
-                  { id: "DI", label: "DI" },
-                  { id: "DII", label: "DII" },
-                ].map((opt) => (
-                  <button
-                    key={opt.label}
-                    type="button"
-                    className={`rounded px-2 py-1 ${classFilter === opt.id ? "bg-white shadow-sm" : ""}`}
-                    onClick={() => setClassFilter(opt.id)}
-                  >
-                    {opt.label}
-                  </button>
-                ))}
+              <div className="flex flex-wrap items-center gap-2">
+                <div className="flex rounded-md bg-stone-100 p-0.5 text-xs">
+                  {[
+                    { id: "", label: "All" },
+                    { id: "UIL", label: "UIL" },
+                    { id: "TAPPS", label: "TAPPS" },
+                    { id: "TAIAO", label: "TAIAO" },
+                    { id: "TCAF", label: "TCAF" },
+                    { id: "TCAL", label: "TCAL" },
+                    { id: "IND", label: "IND" },
+                  ].map((opt) => (
+                    <button
+                      key={opt.label}
+                      type="button"
+                      className={`rounded px-2 py-1 ${assocFilter === opt.id ? "bg-white shadow-sm" : ""}`}
+                      onClick={() => setAssocFilter(opt.id)}
+                    >
+                      {opt.label}
+                    </button>
+                  ))}
+                </div>
+                <div className="flex rounded-md bg-stone-100 p-0.5 text-xs">
+                  {[
+                    { id: "", label: "Div" },
+                    { id: "DI", label: "DI" },
+                    { id: "DII", label: "DII" },
+                  ].map((opt) => (
+                    <button
+                      key={opt.label}
+                      type="button"
+                      className={`rounded px-2 py-1 ${classFilter === opt.id ? "bg-white shadow-sm" : ""}`}
+                      onClick={() => setClassFilter(opt.id)}
+                    >
+                      {opt.label}
+                    </button>
+                  ))}
+                </div>
               </div>
             ) : null}
           </div>

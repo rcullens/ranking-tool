@@ -2,9 +2,9 @@
 
 Canonical source: **https://github.com/rcullens/ranking-tool**
 
-A standalone Python toolkit that publishes **objective Texas UIL six-man high school football power rankings**, with a live Thu–Fri–Sat score pull so the list and comparison graph update as finals land.
+A standalone Python toolkit that publishes **objective Texas six-man high school football power rankings**, with a live Thu–Fri–Sat score pull so the list and comparison graph update as finals land.
 
-The default board is the **full UIL 1A six-man field (Division I + Division II)** — every program from #1 to last, including Aquilla (UIL I · Region 4 · District 14). The school directory is adapted from [`rcullens/sixmanmadness`](https://github.com/rcullens/sixmanmadness) `src/lib/schools/catalog.ts`. **Live current-season finals** come from the same sources sixmanmadness uses: MaxPreps school schedules (both scores) plus SixManFootball week scoreboards. Clubs with no finals yet still appear, ranked on SixManFootball Week 1 priors and flagged low-confidence. Invented district slates are not written.
+The default board is the **full Texas six-man field** from [`rcullens/sixmanmadness`](https://github.com/rcullens/sixmanmadness) `src/lib/schools/catalog.ts` — UIL 1A DI/DII, TAPPS (including Freelance), TAIAO, TCAF, TCAL, and independents, ranked 1…last, including Aquilla. **Cross-association games count** (Aquilla vs First Baptist Christian is a real result). Live finals come from MaxPreps school schedules plus SixManFootball week scoreboards. Clubs with no finals yet still appear, ranked on priors and flagged low-confidence. Invented district slates are not written.
 
 GitHub Actions (`.github/workflows/live-scores.yml`) refreshes that field on a **Thu–Sat America/Chicago cron** (hourly in the football window, plus a Monday catch-up) and on `workflow_dispatch`: fetch → rank → rewrite `web/public/offline/*.json` → push `main` → Pages republishes https://rcullens.github.io/ranking-tool/. The phone board is that Pages site — no laptop.
 

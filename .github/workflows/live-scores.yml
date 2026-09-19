@@ -1,8 +1,9 @@
 name: Live scores
 
 # Phone board stays current with no laptop: fetch MaxPreps / SMF, rerank the
-# full UIL field, rewrite web/public/offline/*.json, push to main so pages.yml
-# republishes https://rcullens.github.io/ranking-tool/
+# full Texas six-man field (UIL + TAPPS + TAIAO + others), rewrite
+# web/public/offline/*.json, push to main so pages.yml republishes
+# https://rcullens.github.io/ranking-tool/
 
 on:
   schedule:
