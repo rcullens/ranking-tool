@@ -86,7 +86,7 @@ sixman-rank --panel-mix 0.15
 
 ## Phone-only (Pixel / Chrome, no PC)
 
-**https://rcullens.github.io/ranking-tool/ is the live phone surface.** Statewide / Districts / Regions, charts, presets, and the full 1…N list load from `public/offline` snapshots. Those files are **not** a frozen demo: `.github/workflows/live-scores.yml` fetches real MaxPreps / SixManFootball scores, reranks every UIL club, and pushes an updated snapshot to `main`. `pages.yml` then republishes `gh-pages`. Tap **Sync scores now** on the phone to cache-bust and pull that latest snapshot.
+**https://rcullens.github.io/ranking-tool/ is the live phone surface.** Statewide / Districts / Regions / **Sources**, charts, presets, and the full 1…N list (UIL + TAPPS + others) load from `public/offline` snapshots. Those files are **not** a frozen demo: `.github/workflows/live-scores.yml` fetches real MaxPreps / SixManFootball scores and public ranks, reranks every catalogued club, and pushes an updated snapshot to `main`. `pages.yml` then republishes `gh-pages`. Tap **Sync scores now** on the phone to cache-bust and pull that latest snapshot. Open **Sources** to compare our ranks to MaxPreps, SMF, and DCTF.
 
 A hosted `sixman-rank serve` API is optional and only needed for what-if / webhook ingest. Leave **Phone / APK → Live server URL** blank for the cron-updated board.
 

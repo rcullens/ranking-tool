@@ -8,6 +8,7 @@ from typing import Any, Optional
 
 from sixman_rankings.export import ranked_record
 from sixman_rankings.live.service import LiveSeasonService
+from sixman_rankings.live.source_ranks import source_ranks_payload
 
 
 def teams_payload(service: LiveSeasonService) -> dict[str, Any]:
@@ -98,7 +99,11 @@ def status_payload(service: LiveSeasonService) -> dict[str, Any]:
     return status
 
 
-def snapshot(service: LiveSeasonService) -> dict[str, Any]:
+def snapshot(
+    service: LiveSeasonService,
+    *,
+    pull_sources: Optional[bool] = None,
+) -> dict[str, Any]:
     return {
         "status": status_payload(service),
         "teams": teams_payload(service),
@@ -106,13 +111,28 @@ def snapshot(service: LiveSeasonService) -> dict[str, Any]:
         "rankings": rankings_payload(service),
         "boards": service.boards(),
         "history": history_payload(service),
+        "source_ranks": source_ranks_payload(service, pull=pull_sources, persist=False),
     }
 
 
-def write_offline_bundle(dest: Path | str, *, service: Optional[LiveSeasonService] = None) -> Path:
+def write_offline_bundle(
+    dest: Path | str,
+    *,
+    service: Optional[LiveSeasonService] = None,
+    pull_sources: Optional[bool] = None,
+    persist_source_ranks: bool = False,
+) -> Path:
     root = Path(dest)
     root.mkdir(parents=True, exist_ok=True)
-    payload = snapshot(service or LiveSeasonService.from_sample())
+    live = service or LiveSeasonService.from_sample()
+    payload = snapshot(live, pull_sources=pull_sources)
     for name, body in payload.items():
         (root / f"{name}.json").write_text(json.dumps(body, indent=2) + "\n", encoding="utf-8")
+    if persist_source_ranks:
+        from sixman_rankings.live.source_ranks import save_last_good
+
+        try:
+            save_last_good(payload["source_ranks"])
+        except OSError:
+            pass
     return root

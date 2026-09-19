@@ -95,6 +95,41 @@ export type HistoryResponse = {
   history: Record<string, RankRow[]>;
 };
 
+export type SourceKey = "maxpreps" | "smf" | "dctf";
+
+export type SourceMeta = {
+  ok: boolean;
+  week: string;
+  label: string;
+  error: string | null;
+  count: number;
+  via?: string | null;
+};
+
+export type SourceRankRow = {
+  team_id: string;
+  name: string;
+  classification: string;
+  association?: string;
+  district: string;
+  region: string;
+  our_rank: number | null;
+  maxpreps: number | null;
+  smf: number | null;
+  dctf: number | null;
+  delta_maxpreps: number | null;
+  delta_smf: number | null;
+  delta_dctf: number | null;
+};
+
+export type SourceRanksResponse = {
+  week: number | null;
+  pulled_at: string | null;
+  note?: string;
+  sources: Record<SourceKey, SourceMeta>;
+  rows: SourceRankRow[];
+};
+
 export type CompareResponse = {
   metric: string;
   weeks: number[];
@@ -153,6 +188,7 @@ function offlinePath(path: string): string | null {
     "/api/rankings": "offline/rankings.json",
     "/api/boards": "offline/boards.json",
     "/api/history": "offline/history.json",
+    "/api/source-ranks": "offline/source_ranks.json",
   };
   const rel = map[route];
   if (!rel) return null;
@@ -329,6 +365,7 @@ export const api = {
     return get<{ week: number; rankings: RankRow[] }>(`/api/rankings${q ? `?${q}` : ""}`);
   },
   boards: () => get<BoardsResponse>("/api/boards"),
+  sourceRanks: () => get<SourceRanksResponse>("/api/source-ranks"),
   compare: (ids: string[], metric: "power" | "rank") =>
     get<CompareResponse>(`/api/compare?metric=${metric}&teams=${ids.join(",")}`),
   sync: async () => {

@@ -97,3 +97,8 @@ def test_committed_offline_rankings_include_tapps():
     assocs = {row.get("association") for row in rankings}
     assert "UIL" in assocs
     assert "TAPPS" in assocs
+    sources = json.loads((root / "source_ranks.json").read_text(encoding="utf-8"))
+    ids = {row["team_id"] for row in sources["rows"]}
+    assert "aquilla" in ids
+    assert "first-baptist-christian" in ids
+    assert len(sources["rows"]) > 159

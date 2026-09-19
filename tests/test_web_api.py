@@ -34,6 +34,13 @@ def test_status_and_rankings(client):
     assert table["rankings"][0]["team_id"]
 
 
+def test_source_ranks_covers_the_demo_field(client):
+    body = client.get("/api/source-ranks").json()
+    assert body["rows"]
+    assert "maxpreps" in body["sources"]
+    assert {row["team_id"] for row in body["rows"]}
+
+
 def test_compare_defaults_to_a_preset(client):
     body = client.get("/api/compare").json()
     assert body["series"]

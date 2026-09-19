@@ -337,7 +337,13 @@ def run_ingest(
         service.last_result = report.summary()
         service.last_sync = now_central()
         service.provider_name = "live-ingest"
-        write_offline_bundle(out, service=service)
+        pull_sources = os.environ.get("SIXMAN_SKIP_SOURCE_RANKS", "0") not in {"1", "true", "True"}
+        write_offline_bundle(
+            out,
+            service=service,
+            pull_sources=pull_sources,
+            persist_source_ranks=True,
+        )
         report.offline = str(out)
     return report
 
