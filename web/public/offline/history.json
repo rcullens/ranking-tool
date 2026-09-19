@@ -1,2 +1,1 @@
-{"weeks":[0,1,2,3,4],"history":{"0":[{"schema_version":"1.1","week":0,"season":2025,"rank":1,"rank_delta":null,"team_id":"rankin","name":"Rankin","district":"8-1A DI","region":"west-texas","classification":"1A DI","record":"0-0","district_record":"0-0","wins":0,"losses":0,"ties":0,"district_wins":0,"district_losses":0,"district_ties":0,"games_played":0,"power":1637.97,"power_delta":null,"elo":1672.25,"sos":0.0,"density":0.974,"capped_pd":0.0,"raw_pd":0.0,"sigma":85.62,"confidence":0.286,"low_confidence":true,"turnover_decay":0.35,"panel_weight":0.25,"notes":"one-hit-wonder decay, panel active, low confidence"}]
-}
+{"weeks":[0,1,2,3,4],"history":{"0":[],"1":[],"2":[],"3":[],"4":[]}}
