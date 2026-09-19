@@ -128,6 +128,7 @@ type Props = {
   districtSort: "power" | "standings";
   onDistrictSort: (sort: "power" | "standings") => void;
   filterQuery?: string;
+  focusBoardId?: string;
 };
 
 function matchesQuery(row: RankRow, query: string) {
@@ -169,6 +170,7 @@ export function RankingBoards({
   districtSort,
   onDistrictSort,
   filterQuery = "",
+  focusBoardId,
 }: Props) {
   if (view === "statewide") {
     const filtered = statewide.filter((row) => matchesQuery(row, filterQuery));
@@ -197,7 +199,11 @@ export function RankingBoards({
     );
   }
 
-  const boards = view === "districts" ? districts : regions;
+  const allBoards = view === "districts" ? districts : regions;
+  const focused = focusBoardId
+    ? allBoards.filter((board) => board.id === focusBoardId)
+    : [];
+  const boards = focused.length ? focused : allBoards;
   if (!boards.length) {
     return (
       <div className="rounded-xl border border-stone-200 bg-white p-6 text-sm text-stone-500 shadow-sm">
@@ -238,6 +244,12 @@ export function RankingBoards({
           Local power rank inside each region. St is the statewide rank.
         </p>
       )}
+      {focused.length ? (
+        <p className="text-xs text-stone-600">
+          Showing {focused[0].label}. Clear the compare chip to see every{" "}
+          {view === "districts" ? "district" : "region"}.
+        </p>
+      ) : null}
       <div className="grid gap-4 xl:grid-cols-2">
         {boards.map((board) => {
           const rows =
@@ -247,7 +259,11 @@ export function RankingBoards({
           return (
             <section
               key={`${board.kind}:${board.id}`}
-              className="overflow-hidden rounded-xl border border-stone-200 bg-white shadow-sm"
+              className={`overflow-hidden rounded-xl border bg-white shadow-sm ${
+                focusBoardId === board.id
+                  ? "border-stone-900 ring-2 ring-stone-900/15"
+                  : "border-stone-200"
+              }`}
             >
               <header className="flex items-center justify-between gap-2 border-b border-stone-100 px-3 py-2">
                 <div>
@@ -258,7 +274,7 @@ export function RankingBoards({
                 </div>
                 <button
                   type="button"
-                  className="rounded-full border border-stone-300 px-2 py-0.5 text-[11px] text-stone-700 hover:bg-stone-50"
+                  className="min-h-9 touch-manipulation rounded-full border border-stone-300 px-3 py-2 text-xs text-stone-700 hover:bg-stone-50"
                   onClick={() => onCompare(board.team_ids)}
                 >
                   Compare on chart
