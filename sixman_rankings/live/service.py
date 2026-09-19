@@ -304,6 +304,81 @@ class LiveSeasonService:
             self.provider_name = "webhook"
         return n
 
+    def resolve_team_id(self, raw: str) -> Optional[str]:
+        from sixman_rankings.live.names import build_alias_index, resolve_team_id
+
+        return resolve_team_id(raw, build_alias_index(self.teams))
+
+    def what_if(
+        self,
+        *,
+        home_id: str,
+        away_id: str,
+        home_score: Optional[int] = None,
+        away_score: Optional[int] = None,
+        margin: Optional[float] = None,
+        neutral: bool = False,
+        district_game: bool = False,
+    ) -> dict:
+        """Provisional Friday — does not write back to the live season."""
+
+        from sixman_rankings.whatif import simulate_what_if
+
+        home = self.resolve_team_id(home_id) or home_id
+        away = self.resolve_team_id(away_id) or away_id
+        with self._lock:
+            report = simulate_what_if(
+                self.teams,
+                self.games,
+                home_id=home,
+                away_id=away,
+                home_score=home_score,
+                away_score=away_score,
+                margin=margin,
+                neutral=neutral,
+                district_game=district_game,
+                roster=self.roster,
+                panel=self.panel,
+                priors=self.priors,
+                config=self.config,
+                season=self.season,
+            )
+        focus = {report.game.home_id, report.game.away_id}
+        movers = []
+        for row in report.after:
+            if row.team_id not in focus and not (row.rank_delta or 0):
+                continue
+            before = report.row_before(row.team_id)
+            movers.append(
+                {
+                    "team_id": row.team_id,
+                    "name": row.name,
+                    "rank_before": before.rank if before else None,
+                    "rank_after": row.rank,
+                    "rank_delta": row.rank_delta,
+                    "power_before": round(before.power, 2) if before else None,
+                    "power_after": round(row.power, 2),
+                    "power_delta": round(row.power_delta or 0.0, 2),
+                }
+            )
+        ordered = [m for tid in focus for m in movers if m["team_id"] == tid]
+        ordered.extend(m for m in movers if m["team_id"] not in focus)
+        return {
+            "provisional": True,
+            "writes_back": False,
+            "game": {
+                "home_id": report.game.home_id,
+                "away_id": report.game.away_id,
+                "home_score": report.game.home_score,
+                "away_score": report.game.away_score,
+                "week": report.game.week,
+                "neutral": report.game.neutral,
+                "district_game": report.game.district_game,
+            },
+            "through_week": report.through_week,
+            "movers": ordered,
+        }
+
     def sync(self, *, force_replay: bool = False) -> LiveStatus:
         """Pull the JSON feed if configured; otherwise release held sample finals.
 
