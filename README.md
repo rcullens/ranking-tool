@@ -80,13 +80,13 @@ sixman-rank --panel-mix 0.15
 
 The Vite board in `web/` is a static site. **Statewide / Districts / Regions, charts, presets, and tabs work from the bundled `public/offline` snapshots** — no local Python server. What-if, ingest, and live Thu–Sat sync need a remote API URL when you add one later.
 
-**Production (Vercel project `ranking-tool`, Root Directory `web`):** after deploy, open the HTTPS URL in **Chrome on the Pixel 9 Pro**:
+**Phone HTTPS (GitHub Pages, no Vercel):** open **https://rcullens.github.io/ranking-tool/** in **Chrome on the Pixel 9 Pro**:
 
 1. Chrome menu (⋮) → **Install app** / **Add to Home screen**.
-2. Open **Six-Man** from the home screen. Boards and charts load from `/offline/*.json`.
+2. Open **Six-Man** from the home screen. Boards and charts load from the bundled `offline/*.json` snapshot.
 3. Leave **Phone / APK → Live server URL** blank unless you have a public `sixman-rank serve` API.
 
-Vercel build is `npm run build` inside `web/`. It does **not** run Python or `export-offline`. The JSON under `web/public/offline/` must already be in git (`npm run prebuild` fails the build if they are missing).
+Every push to `main` rebuilds `web/` with `VITE_BASE=/ranking-tool/` and publishes the `gh-pages` branch (workflow `.github/workflows/pages.yml`). The build does **not** run Python or `export-offline`. The JSON under `web/public/offline/` must already be in git (`npm run prebuild` fails if they are missing).
 
 ```bash
 # refresh snapshots before a release (on a machine with Python)
@@ -100,7 +100,7 @@ This is a **browser GUI** (React). There is no Play Store listing. An APK is a C
 
 ### Fastest phone install (no APK file)
 
-1. On the Pixel, open the **production HTTPS URL** in **Chrome**.
+1. On the Pixel, open **https://rcullens.github.io/ranking-tool/** in **Chrome**.
 2. Chrome menu → **Install app** / **Add to Home screen**.
 3. Launch it from the home-screen icon. It runs fullscreen like a native app.
 

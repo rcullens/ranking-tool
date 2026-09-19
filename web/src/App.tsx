@@ -211,7 +211,7 @@ export default function App() {
             and live Thu–Sat sync need a remote <code className="rounded bg-stone-100 px-1">sixman-rank serve</code> URL when you have one.
           </p>
           <ol className="mt-3 list-decimal space-y-1 pl-5 text-stone-600">
-            <li>On a Pixel, open this site in <strong>Chrome</strong> (not the in-app browser).</li>
+            <li>On a Pixel, open <strong>https://rcullens.github.io/ranking-tool/</strong> in <strong>Chrome</strong> (not the in-app browser).</li>
             <li>Chrome menu (⋮) → <strong>Install app</strong> or <strong>Add to Home screen</strong>.</li>
             <li>Launch <strong>Six-Man</strong> from the home-screen icon. Boards and charts work offline after that first load.</li>
             <li>Optional APK: download <code className="rounded bg-stone-100 px-1">app-debug.apk</code> from the GitHub Release on rcullens/ranking-tool, then Settings → Install unknown apps → Chrome → Install.</li>
