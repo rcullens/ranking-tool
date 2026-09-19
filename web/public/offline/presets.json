@@ -3,14 +3,14 @@
     "this_week_top10": [
       "borden-county",
       "water-valley",
+      "strawn",
       "rankin",
       "richland-springs",
       "klondike",
       "whiteface",
       "jayton",
       "oglesby",
-      "menard",
-      "sands"
+      "menard"
     ],
     "last_week_top10": [
       "rankin",
@@ -87,8 +87,8 @@
       "aquilla",
       "robert-lee",
       "coolidge",
-      "abbott",
       "may",
+      "abbott",
       "bluff-dale",
       "milford",
       "jonesboro",
@@ -149,9 +149,9 @@
       "fruitvale"
     ],
     "division_dii": [
+      "strawn",
       "richland-springs",
       "motley-county",
-      "strawn",
       "paducah",
       "cherokee",
       "oakwood",
@@ -200,9 +200,9 @@
       "chillicothe",
       "forestburg",
       "woodson",
-      "marfa",
       "groom",
       "lazbuddie",
+      "marfa",
       "high-island",
       "amherst",
       "benavides",

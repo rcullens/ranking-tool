@@ -473,6 +473,7 @@ w04-bryson-rule,4,2026-09-18,bryson,rule,68,24,false,false
 w04-calvert-jonesboro,4,2026-09-18,calvert,jonesboro,7,52,false,false
 w04-christian-heritage-longview-apple-springs,4,2026-09-18,christian-heritage-longview,apple-springs,25,51,false,false
 w04-claude-groom,4,2026-09-18,claude,groom,64,0,false,false
+w04-community-christian-mineral-wells-dallas-academy,4,2026-09-18,community-christian-mineral-wells,dallas-academy,18,55,false,false
 w04-concordia-summit-christian,4,2026-09-18,concordia,summit-christian,40,37,false,false
 w04-cornerstone-lone-star-north,4,2026-09-18,cornerstone,lone-star-north,32,28,false,false
 w04-covenant-christian-founders-classical-conroe,4,2026-09-18,covenant-christian,founders-classical-conroe,56,0,false,false
@@ -480,10 +481,8 @@ w04-covenant-christian-trinity-school-of-texas,4,2026-09-18,covenant-christian,t
 w04-covenant-classical-nazarene-christian,4,2026-09-18,covenant-classical,nazarene-christian,72,70,false,false
 w04-covington-mount-calm,4,2026-09-18,covington,mount-calm,40,65,false,false
 w04-cranfills-gap-cherokee,4,2026-09-18,cranfills-gap,cherokee,8,58,false,false
-w04-dallas-academy-community-christian-mineral-wells,4,2026-09-18,dallas-academy,community-christian-mineral-wells,55,18,false,false
 w04-davinci-hill-country-knights,4,2026-09-18,davinci,hill-country-knights,,,false,false
 w04-eden-panther-creek,4,2026-09-18,eden,panther-creek,20,46,false,false
-w04-el-paso-leadership-strawn,4,2026-09-18,el-paso-leadership,strawn,0,0,false,false
 w04-evant-brookesmith,4,2026-09-18,evant,brookesmith,43,56,false,false
 w04-faith-academy-medina,4,2026-09-18,faith-academy,medina,8,58,false,false
 w04-faustina-newman-international,4,2026-09-18,faustina,newman-international,45,0,false,false
@@ -515,7 +514,7 @@ w04-leveretts-chapel-kings-academy,4,2026-09-18,leveretts-chapel,kings-academy,6
 w04-logos-prep-allen-academy,4,2026-09-18,logos-prep,allen-academy,57,12,false,false
 w04-loop-lazbuddie,4,2026-09-18,loop,lazbuddie,6,21,false,false
 w04-lubbock-titans-abilene-christian,4,2026-09-18,lubbock-titans,abilene-christian,65,0,false,false
-w04-lucas-christian-wylie-prep,4,2026-09-18,lucas-christian,wylie-prep,,,false,false
+w04-lucas-christian-wylie-prep,4,2026-09-18,lucas-christian,wylie-prep,0,0,false,false
 w04-marfa-buena-vista,4,2026-09-18,marfa,buena-vista,56,84,false,false
 w04-may-richland-springs,4,2026-09-18,may,richland-springs,28,53,false,false
 w04-methodist-childrens-home-brazos-valley-lions,4,2026-09-18,methodist-childrens-home,brazos-valley-lions,30,32,false,false
@@ -565,6 +564,7 @@ w04-whiteface-westbrook,4,2026-09-18,whiteface,westbrook,70,24,false,false
 w04-whitharral-jayton,4,2026-09-18,whitharral,jayton,0,47,false,false
 w04-zephyr-menard,4,2026-09-18,zephyr,menard,14,59,false,false
 w04-centex-homeschool-wise-county-homeschool,4,2026-09-19,centex-homeschool,wise-county-homeschool,,,false,false
+w04-el-paso-leadership-strawn,4,2026-09-19,el-paso-leadership,strawn,,,false,false
 w04-emery-weiner-alpha-omega,4,2026-09-19,emery-weiner,alpha-omega,,,false,false
 w04-tyler-heat-poetry-community,4,2026-09-19,tyler-heat,poetry-community,,,false,false
 w04-victoria-cobras-new-braunfels-thunder,4,2026-09-19,victoria-cobras,new-braunfels-thunder,,,false,false
