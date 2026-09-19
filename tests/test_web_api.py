@@ -7,7 +7,7 @@ from fastapi.testclient import TestClient
 
 from sixman_rankings.io import DEMO_DATA
 from sixman_rankings.live.service import reset_service
-from sixman_rankings.web.app import create_app
+from sixman_rankings.web.app import PAGES_ORIGIN, cors_allow_origins, create_app
 
 
 @pytest.fixture
@@ -23,6 +23,37 @@ def client(monkeypatch):
     with TestClient(app) as test_client:
         yield test_client
     reset_service()
+
+
+def test_cors_defaults_include_github_pages(monkeypatch):
+    monkeypatch.delenv("SIXMAN_CORS_ORIGINS", raising=False)
+    assert PAGES_ORIGIN in cors_allow_origins()
+    assert "*" in cors_allow_origins()
+
+
+def test_root_identifies_the_api(client):
+    body = client.get("/").json()
+    assert body["ok"] is True
+    assert body["health"] == "/api/health"
+    assert body["ui"].startswith("https://rcullens.github.io/")
+
+
+def test_cors_allows_github_pages_preflight(client):
+    res = client.options(
+        "/api/what-if",
+        headers={
+            "Origin": PAGES_ORIGIN,
+            "Access-Control-Request-Method": "POST",
+            "Access-Control-Request-Headers": "content-type",
+        },
+    )
+    assert res.status_code in {200, 204}
+    allowed = res.headers.get("access-control-allow-origin")
+    assert allowed in {PAGES_ORIGIN, "*"}
+
+
+def test_health_ok(client):
+    assert client.get("/api/health").json() == {"ok": True}
 
 
 def test_status_and_rankings(client):

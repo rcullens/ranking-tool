@@ -143,16 +143,55 @@ export type CompareResponse = {
 };
 
 export const API_BASE_KEY = "sixman_api_base";
+export const OFFLINE_API_SENTINEL = "offline";
 
+/** Public hosted `sixman-rank serve` (Vercel FastAPI). Override with VITE_API_BASE. */
+export const DEFAULT_API_BASE = String(
+  import.meta.env.VITE_API_BASE || "https://ranking-tool.vercel.app",
+).replace(/\/$/, "");
+
+function normalizeApiBase(url: string): string {
+  return url.trim().replace(/\/$/, "");
+}
+
+/** Resolved live API origin: localStorage override, else the public default. Empty = bundled snapshots only. */
 export function getStoredApiBase(): string {
-  if (typeof localStorage === "undefined") return "";
-  return (localStorage.getItem(API_BASE_KEY) || "").trim().replace(/\/$/, "");
+  if (typeof localStorage === "undefined") return DEFAULT_API_BASE;
+  const raw = localStorage.getItem(API_BASE_KEY);
+  if (raw === null) return DEFAULT_API_BASE;
+  const cleaned = normalizeApiBase(raw);
+  if (!cleaned || cleaned === OFFLINE_API_SENTINEL) return "";
+  return cleaned;
+}
+
+/** Value to show in Phone / APK settings (prefilled with the public API). */
+export function getApiBaseDraft(): string {
+  if (typeof localStorage === "undefined") return DEFAULT_API_BASE;
+  const raw = localStorage.getItem(API_BASE_KEY);
+  if (raw === null) return DEFAULT_API_BASE;
+  const cleaned = normalizeApiBase(raw);
+  if (!cleaned || cleaned === OFFLINE_API_SENTINEL) return "";
+  return cleaned;
 }
 
 export function setStoredApiBase(url: string) {
-  const cleaned = url.trim().replace(/\/$/, "");
-  if (cleaned) localStorage.setItem(API_BASE_KEY, cleaned);
-  else localStorage.removeItem(API_BASE_KEY);
+  if (typeof localStorage === "undefined") return;
+  const cleaned = normalizeApiBase(url);
+  if (!cleaned || cleaned === OFFLINE_API_SENTINEL) {
+    localStorage.setItem(API_BASE_KEY, OFFLINE_API_SENTINEL);
+  } else {
+    localStorage.setItem(API_BASE_KEY, cleaned);
+  }
+}
+
+/** True when Phone / APK points at a user LAN / custom serve, not the public default. */
+export function hasCustomApiBase(): boolean {
+  if (typeof localStorage === "undefined") return false;
+  const raw = localStorage.getItem(API_BASE_KEY);
+  if (raw === null) return false;
+  const cleaned = normalizeApiBase(raw);
+  if (!cleaned || cleaned === OFFLINE_API_SENTINEL) return false;
+  return cleaned !== DEFAULT_API_BASE;
 }
 
 export function isNativeShell(): boolean {
@@ -199,8 +238,11 @@ function liveRequired(action: string): Error {
   return new Error(`${action} needs a live sixman-rank serve URL (Phone / APK).`);
 }
 
-async function readJson<T>(url: string): Promise<T> {
-  const res = await fetch(url, { headers: { Accept: "application/json" } });
+async function readJson<T>(url: string, timeoutMs = 20_000): Promise<T> {
+  const res = await fetch(url, {
+    headers: { Accept: "application/json" },
+    signal: AbortSignal.timeout(timeoutMs),
+  });
   if (!res.ok) throw new Error(`${url} failed (${res.status})`);
   const text = await res.text();
   try {
@@ -286,7 +328,12 @@ async function loadHistory(base: string): Promise<HistoryResponse> {
 async function get<T>(path: string): Promise<T> {
   const base = getStoredApiBase();
   if (base) {
-    return readJson<T>(`${base}${path}`);
+    try {
+      const timeoutMs = hasCustomApiBase() ? 20_000 : 8_000;
+      return await readJson<T>(`${base}${path}`, timeoutMs);
+    } catch {
+      /* hosted API cold/down — fall through to same-origin / offline snapshots */
+    }
   }
   if (await shouldTrySameOrigin()) {
     try {
@@ -331,6 +378,7 @@ async function postLive<T>(path: string, body: unknown, action: string): Promise
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(body ?? {}),
+    signal: AbortSignal.timeout(60_000),
   });
   if (!res.ok) {
     let detail = `${action} failed`;
@@ -370,7 +418,9 @@ export const api = {
     get<CompareResponse>(`/api/compare?metric=${metric}&teams=${ids.join(",")}`),
   sync: async () => {
     const base = getStoredApiBase();
-    const tryLive = Boolean(base) || (await shouldTrySameOrigin());
+    // Default public API is serverless — do not POST a full MaxPreps ingest from the phone.
+    // Custom LAN serve (or same-origin FastAPI) still gets a live /api/sync.
+    const tryLive = hasCustomApiBase() || (await shouldTrySameOrigin());
     if (tryLive) {
       const res = await fetch(`${base}/api/sync`, { method: "POST" });
       if (!res.ok) throw new Error("sync failed");

@@ -1,0 +1,10 @@
+web/android
+web/node_modules
+web/dist
+.github
+.git
+tests
+scripts
+**/*.md
+**/*.apk
+**/*.aab

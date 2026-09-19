@@ -19,7 +19,10 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Topic :: Games/Entertainment",
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.27",
+]
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0", "httpx>=0.27"]
@@ -32,6 +35,9 @@ rank = "sixman_rankings.cli:main"
 [project.urls]
 Homepage = "https://github.com/rcullens/ranking-tool"
 Repository = "https://github.com/rcullens/ranking-tool"
+
+[tool.vercel]
+entrypoint = "sixman_rankings.web.app:app"
 
 [tool.setuptools.packages.find]
 include = ["sixman_rankings*"]

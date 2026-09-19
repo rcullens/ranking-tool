@@ -11,7 +11,8 @@ import {
 } from "recharts";
 import {
   api,
-  getStoredApiBase,
+  DEFAULT_API_BASE,
+  getApiBaseDraft,
   isNativeShell,
   setStoredApiBase,
   type Board,
@@ -101,7 +102,7 @@ export default function App() {
   const [regions, setRegions] = useState<Board[]>([]);
   const [districtSort, setDistrictSort] = useState<"power" | "standings">("power");
   const [settingsOpen, setSettingsOpen] = useState(() => isNativeShell());
-  const [apiBaseDraft, setApiBaseDraft] = useState(getStoredApiBase);
+  const [apiBaseDraft, setApiBaseDraft] = useState(getApiBaseDraft);
   const [classFilter, setClassFilter] = useState("");
   const [assocFilter, setAssocFilter] = useState("");
   const [sourceRanks, setSourceRanks] = useState<SourceRanksResponse | null>(null);
@@ -405,8 +406,9 @@ export default function App() {
             pulls MaxPreps / SixManFootball scores on Thursday, Friday, and Saturday
             (America/Chicago), reranks the full UIL field, and republishes these
             snapshots. Tap <strong>Sync scores now</strong> to fetch the latest Pages
-            JSON — no PC. What-if / ingest still need an optional{" "}
-            <code className="rounded bg-stone-100 px-1">sixman-rank serve</code> URL.
+            JSON — no PC. What-if / ingest use the public API at{" "}
+            <code className="rounded bg-stone-100 px-1">{DEFAULT_API_BASE}</code>{" "}
+            unless you override it.
           </p>
           <ol className="mt-3 list-decimal space-y-1 pl-5 text-stone-600">
             <li>On a Pixel, open <strong>https://rcullens.github.io/ranking-tool/</strong> in <strong>Chrome</strong> (not the in-app browser).</li>
@@ -415,13 +417,13 @@ export default function App() {
             <li>Optional APK: download <code className="rounded bg-stone-100 px-1">app-debug.apk</code> from the GitHub Release on rcullens/ranking-tool, then Settings → Install unknown apps → Chrome → Install.</li>
           </ol>
           <label className="mt-3 block text-xs font-medium uppercase tracking-wide text-stone-500">
-            Live server URL (optional)
+            Live server URL
           </label>
           <div className="mt-1 flex flex-col gap-2 sm:flex-row">
             <input
               value={apiBaseDraft}
               onChange={(e) => setApiBaseDraft(e.target.value)}
-              placeholder="http://192.168.1.20:43127"
+              placeholder={DEFAULT_API_BASE}
               className="min-w-0 flex-1 rounded-md border border-stone-300 px-2 py-1.5"
             />
             <button
@@ -446,9 +448,9 @@ export default function App() {
             </button>
           </div>
           <p className="mt-2 text-xs text-stone-500">
-            Leave blank to stay on the cron-updated Pages snapshots (the live phone
-            path). Paste a <code className="rounded bg-stone-100 px-1">sixman-rank serve</code>{" "}
-            URL only if you want on-device what-if and webhook ingest.
+            Prefills the public FastAPI host so What-if works from the phone with no
+            PC. Override to a LAN <code className="rounded bg-stone-100 px-1">sixman-rank serve</code>{" "}
+            URL if you want, or tap <strong>Use bundled data</strong> for snapshots only.
           </p>
         </div>
       ) : null}

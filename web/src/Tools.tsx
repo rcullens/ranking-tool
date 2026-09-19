@@ -215,8 +215,9 @@ export function BoardTools({ teams, onSeasonChanged }: Props) {
         <h2 className="text-sm font-semibold text-stone-900">Ingest a final</h2>
         <p className="mt-1 text-xs text-stone-500">
           Same payload as <code className="rounded bg-stone-100 px-1">POST /api/ingest</code> /{" "}
-          <code className="rounded bg-stone-100 px-1">SIXMAN_FEED_URL</code>. Writes into the live
-          season on the computer running <code className="rounded bg-stone-100 px-1">sixman-rank serve</code>.
+          <code className="rounded bg-stone-100 px-1">SIXMAN_FEED_URL</code>. Writes into the
+          hosted <code className="rounded bg-stone-100 px-1">sixman-rank serve</code> season
+          (ephemeral on the public API until the next cold start).
         </p>
         <div className="mt-3 grid gap-2 sm:grid-cols-2">
           <label className="text-xs text-stone-500">
