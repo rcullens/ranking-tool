@@ -78,7 +78,7 @@ sixman-rank --panel-mix 0.15
 
 ## Install and run as an Android APK
 
-This is a **browser GUI** (React). There is no Play Store listing. An APK is a Capacitor wrapper around that same GUI. The phone app ships a bundled ranking snapshot so it opens with no server. Point it at `sixman-rank serve` when you want live Thursday–Saturday pulls.
+This is a **browser GUI** (React). There is no Play Store listing. An APK is a Capacitor wrapper around **that same full GUI** — not a lite phone skin. Charts, Statewide / Districts / Regions, presets, classification splits, what-if, ingest, and every ranking column stay on the phone. The APK also ships a bundled ranking snapshot so it opens with no server. Point it at `sixman-rank serve` when you want live Thursday–Saturday sync.
 
 ### Fastest phone install (no APK file)
 
