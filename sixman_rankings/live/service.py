@@ -15,7 +15,7 @@ from sixman_rankings.history import (
     power_groups_by_district,
     region_groups,
 )
-from sixman_rankings.io import load_dataset, load_sample_dataset
+from sixman_rankings.io import load_dataset, load_sample_dataset, load_uil_dataset
 from sixman_rankings.live.merge import hide_scores_after, merge_finals
 from sixman_rankings.live.providers import FetchResult, default_feed_url, fetch_json_feed, parse_feed_payload
 from sixman_rankings.live.window import in_football_window, next_window_start, now_central, window_label
@@ -56,8 +56,8 @@ class LiveSeasonService:
     panel: list[PanelAdjustment] = field(default_factory=list)
     priors: list[PriorRating] = field(default_factory=list)
     config: EngineConfig = field(default_factory=EngineConfig)
-    season: Optional[int] = 2025
-    start_week: int = 4
+    season: Optional[int] = 2026
+    start_week: int = 99
     release_batch: int = 2
     feed_url: Optional[str] = None
     _held: dict[str, tuple[int, int]] = field(default_factory=dict)
@@ -68,7 +68,9 @@ class LiveSeasonService:
     provider_name: str = "replay"
 
     @classmethod
-    def from_sample(cls, *, start_week: Optional[int] = None) -> "LiveSeasonService":
+    def from_demo(cls, *, start_week: Optional[int] = None) -> "LiveSeasonService":
+        """20-team synthetic fixture used by engine tests and the football-night replay."""
+
         teams, games, roster, panel, priors = load_sample_dataset()
         week = start_week if start_week is not None else _env_int("SIXMAN_LIVE_START_WEEK", 4)
         trimmed, held = hide_scores_after(games, week)
@@ -78,12 +80,40 @@ class LiveSeasonService:
             roster=roster,
             panel=panel,
             priors=priors,
+            season=2025,
             start_week=week,
             release_batch=_env_int("SIXMAN_RELEASE_BATCH", 2),
             feed_url=default_feed_url(),
             _held=held,
             provider_name="json-feed" if default_feed_url() else "replay",
         )
+
+    @classmethod
+    def from_uil(cls, *, start_week: Optional[int] = None) -> "LiveSeasonService":
+        """Full UIL 1A six-man field (DI + DII) with ingested SixManFootball scores."""
+
+        teams, games, roster, panel, priors = load_uil_dataset()
+        week = start_week if start_week is not None else _env_int("SIXMAN_LIVE_START_WEEK", 99)
+        trimmed, held = hide_scores_after(games, week)
+        return cls(
+            teams=teams,
+            games=trimmed,
+            roster=roster,
+            panel=panel,
+            priors=priors,
+            season=2026,
+            start_week=week,
+            release_batch=_env_int("SIXMAN_RELEASE_BATCH", 2),
+            feed_url=default_feed_url(),
+            _held=held,
+            provider_name="json-feed" if default_feed_url() else "uil-snapshot",
+        )
+
+    @classmethod
+    def from_sample(cls, *, start_week: Optional[int] = None) -> "LiveSeasonService":
+        """Default board dataset: the full UIL field."""
+
+        return cls.from_uil(start_week=start_week)
 
     @classmethod
     def from_data_dir(cls, data_dir, *, start_week: Optional[int] = None) -> "LiveSeasonService":
@@ -97,7 +127,7 @@ class LiveSeasonService:
             panel_path=root / "panel_adjustments.csv" if (root / "panel_adjustments.csv").exists() else None,
             priors_path=root / "priors.csv" if (root / "priors.csv").exists() else None,
         )
-        week = start_week if start_week is not None else _env_int("SIXMAN_LIVE_START_WEEK", 4)
+        week = start_week if start_week is not None else _env_int("SIXMAN_LIVE_START_WEEK", 99)
         trimmed, held = hide_scores_after(games, week)
         return cls(
             teams=teams,

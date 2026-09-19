@@ -37,7 +37,9 @@ const REGION_LABELS: Record<string, string> = {
   "west-texas": "West Texas",
   "trans-pecos": "Trans-Pecos",
   "rolling-plains": "Rolling Plains",
-  panhandle: "Panhandle",
+  panhandle: "Panhandle / South Plains",
+  "north-central": "North Central",
+  "central-east-south": "Central / East / South",
 };
 
 function prettyPlace(raw: string) {
@@ -163,6 +165,7 @@ export default function App() {
             Live power rankings
           </h1>
           <p className="mt-1 max-w-xl text-sm text-stone-600">
+            Every UIL 1A six-man program (Division I and II) is ranked from #1 to last.
             Scores are pulled on Thursday, Friday, and Saturday. The model republishes as
             finals land — pick any clubs, or load last week&apos;s Top 10.
           </p>

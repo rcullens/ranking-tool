@@ -54,7 +54,7 @@ def test_json_feed_parses_and_merge_updates_scheduled_game():
 
 
 def test_replay_releases_held_finals_and_moves_week():
-    service = LiveSeasonService.from_sample(start_week=4)
+    service = LiveSeasonService.from_demo(start_week=4)
     assert service.current_week() == 4
     held_before = len(service._held)
     assert held_before > 0
@@ -67,7 +67,7 @@ def test_replay_releases_held_finals_and_moves_week():
 
 
 def test_compare_series_includes_selected_teams():
-    service = LiveSeasonService.from_sample(start_week=4)
+    service = LiveSeasonService.from_demo(start_week=4)
     data = service.compare_series(["borden-county", "marathon"], metric="power")
     assert data["weeks"][0] == 0
     assert data["current_week"] == 4

@@ -5,6 +5,7 @@ import pytest
 fastapi = pytest.importorskip("fastapi")
 from fastapi.testclient import TestClient
 
+from sixman_rankings.io import DEMO_DATA
 from sixman_rankings.live.service import reset_service
 from sixman_rankings.web.app import create_app
 
@@ -12,6 +13,7 @@ from sixman_rankings.web.app import create_app
 @pytest.fixture
 def client(monkeypatch):
     monkeypatch.delenv("SIXMAN_FEED_URL", raising=False)
+    monkeypatch.setenv("SIXMAN_DATA_DIR", str(DEMO_DATA))
     monkeypatch.setenv("SIXMAN_LIVE_START_WEEK", "4")
     monkeypatch.setenv("SIXMAN_DISABLE_POLLER", "1")
     reset_service()

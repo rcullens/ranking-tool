@@ -11,7 +11,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Optional, Sequence
 
-from sixman_rankings.io import PACKAGE_DATA, load_dataset, load_sample_dataset
+from sixman_rankings.io import DEMO_DATA, load_dataset, load_sample_dataset
 from sixman_rankings.models import EngineConfig, Game, RankedTeam, Team
 
 
@@ -158,7 +158,7 @@ def run_validation(
     cfg = config or EngineConfig()
     if data_dir is None:
         teams, games, roster, panel, priors = load_sample_dataset()
-        exp_path = expectations_path or (PACKAGE_DATA / "validation_expectations.json")
+        exp_path = expectations_path or (DEMO_DATA / "validation_expectations.json")
     else:
         teams, games, roster, panel, priors = load_dataset(
             teams_path=Path(data_dir) / "teams.csv",

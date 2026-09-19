@@ -81,7 +81,9 @@ def format_region_label(value: str) -> str:
         "west-texas": "West Texas",
         "trans-pecos": "Trans-Pecos",
         "rolling-plains": "Rolling Plains",
-        "panhandle": "Panhandle",
+        "panhandle": "Panhandle / South Plains",
+        "north-central": "North Central",
+        "central-east-south": "Central / East / South",
     }
     key = normalize_place(value)
     if key in special:

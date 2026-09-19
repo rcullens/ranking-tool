@@ -24,7 +24,7 @@ from sixman_rankings.history import (
     power_groups_by_district,
     region_groups,
 )
-from sixman_rankings.io import load_dataset, load_sample_dataset
+from sixman_rankings.io import load_dataset, load_uil_dataset
 from sixman_rankings.models import EngineConfig, RankedTeam
 from sixman_rankings.pipeline import RankingEngine
 from sixman_rankings.validate import run_validation
@@ -74,7 +74,12 @@ def build_parser() -> argparse.ArgumentParser:
     rank = sub.add_parser("rank", help="Publish power rankings (default command).")
     _add_data_args(rank)
     rank.add_argument("--format", choices=("table", "csv", "json"), default="table")
-    rank.add_argument("--top", type=int, default=None)
+    rank.add_argument(
+        "--top",
+        type=int,
+        default=None,
+        help="Optional table trim. Default is the full field (no cap).",
+    )
     rank.add_argument(
         "--classification",
         default=None,
@@ -189,7 +194,7 @@ def load_from_args(args: argparse.Namespace):
             priors_path=priors_p,
         )
 
-    teams, games, roster, panel, priors = load_sample_dataset()
+    teams, games, roster, panel, priors = load_uil_dataset()
     if getattr(args, "no_panel", False):
         panel = []
     return teams, games, roster, panel, priors
@@ -558,7 +563,7 @@ def _run_export_offline(args: argparse.Namespace) -> int:
     if args.data_dir:
         service = LiveSeasonService.from_data_dir(args.data_dir, start_week=args.start_week)
     else:
-        service = LiveSeasonService.from_sample(start_week=args.start_week)
+        service = LiveSeasonService.from_uil(start_week=args.start_week)
     dest = write_offline_bundle(args.out, service=service)
     sys.stdout.write(f"Wrote offline bundle to {dest}\n")
     return 0

@@ -4,7 +4,9 @@ Canonical source: **https://github.com/rcullens/ranking-tool**
 
 A standalone Python toolkit that publishes **objective Texas UIL six-man high school football power rankings**, with a live Thu–Fri–Sat score pull so the list and comparison graph update as finals land.
 
-The model is built for a league where Friday nights are high-scoring, mercy-rule endings are common, entire two-way lineups graduate in one May, and a 10–0 district champion may never have left its own county. Bundled synthetic fixtures — real program names, a fictional slate — let you run the pipeline without credentials. Point `SIXMAN_FEED_URL` at a JSON score feed (or `POST /api/ingest`) for a real Friday night.
+The default board is the **full UIL 1A six-man field (Division I + Division II)** — every program from #1 to last, including Aquilla (UIL I · Region 4 · District 14). The school directory is adapted from [`rcullens/sixmanmadness`](https://github.com/rcullens/sixmanmadness) `src/lib/schools/catalog.ts`. Games are ingested from SixManFootball week scoreboards (weeks on disk under `sixman_rankings/data/smf/`); clubs with no finals yet still appear, ranked on SixManFootball Week 1 priors and flagged low-confidence.
+
+A 20-team synthetic fixture still lives in `sixman_rankings/data/sample/` for engine tests (`sixman-rank validate`, `load_sample_dataset()`). Point `SIXMAN_FEED_URL` at a JSON score feed (or `POST /api/ingest`) for a live Friday night.
 
 ## Install
 
@@ -29,9 +31,12 @@ pip install -r requirements.txt
 ## Run
 
 ```bash
-# Bundled West Texas / Panhandle / Trans-Pecos sample season
+# Full UIL 1A six-man field (DI + DII), ranks 1…N
 sixman-rank
 python -m sixman_rankings
+
+# 20-team synthetic fixture (engine tests)
+sixman-rank --data-dir sixman_rankings/data/sample
 
 # Your weekly files
 sixman-rank --teams teams.csv --games games.csv \

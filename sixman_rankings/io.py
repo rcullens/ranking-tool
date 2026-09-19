@@ -16,6 +16,7 @@ from sixman_rankings.models import (
 )
 
 PACKAGE_DATA = Path(__file__).resolve().parent / "data"
+DEMO_DATA = PACKAGE_DATA / "sample"
 
 
 def _as_path(path: str | Path) -> Path:
@@ -183,9 +184,34 @@ def load_dataset(
 
 
 def sample_data_dir() -> Path:
-    """Directory of bundled synthetic Texas 6-man fixtures."""
+    """Directory of the 20-team synthetic fixture used by engine tests."""
+
+    return DEMO_DATA
+
+
+def uil_data_dir() -> Path:
+    """Directory of the full UIL 1A six-man field (default board / CLI)."""
 
     return PACKAGE_DATA
+
+
+def _load_dir(data: Path) -> tuple[
+    list[Team],
+    list[Game],
+    list[RosterFactor],
+    list[PanelAdjustment],
+    list[PriorRating],
+]:
+    roster = data / "roster_factors.csv"
+    panel = data / "panel_adjustments.csv"
+    priors = data / "priors.csv"
+    return load_dataset(
+        teams_path=data / "teams.csv",
+        games_path=data / "games.csv",
+        roster_path=roster if roster.exists() else None,
+        panel_path=panel if panel.exists() else None,
+        priors_path=priors if priors.exists() else None,
+    )
 
 
 def load_sample_dataset() -> tuple[
@@ -195,14 +221,21 @@ def load_sample_dataset() -> tuple[
     list[PanelAdjustment],
     list[PriorRating],
 ]:
-    data = sample_data_dir()
-    return load_dataset(
-        teams_path=data / "teams.csv",
-        games_path=data / "games.csv",
-        roster_path=data / "roster_factors.csv",
-        panel_path=data / "panel_adjustments.csv",
-        priors_path=data / "priors.csv",
-    )
+    """Load the 20-team synthetic season (engine / validate fixture)."""
+
+    return _load_dir(DEMO_DATA)
+
+
+def load_uil_dataset() -> tuple[
+    list[Team],
+    list[Game],
+    list[RosterFactor],
+    list[PanelAdjustment],
+    list[PriorRating],
+]:
+    """Load every UIL 1A six-man program (DI + DII) plus ingested scores."""
+
+    return _load_dir(PACKAGE_DATA)
 
 
 def iter_ranked_dicts(rows, **kwargs) -> Iterable[dict]:

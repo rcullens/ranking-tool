@@ -4,7 +4,9 @@ const REGION_LABELS: Record<string, string> = {
   "west-texas": "West Texas",
   "trans-pecos": "Trans-Pecos",
   "rolling-plains": "Rolling Plains",
-  panhandle: "Panhandle",
+  panhandle: "Panhandle / South Plains",
+  "north-central": "North Central",
+  "central-east-south": "Central / East / South",
 };
 
 function prettyRegion(raw: string) {
@@ -41,7 +43,7 @@ function RankTable({
     return <p className="px-3 py-6 text-sm text-stone-500">{empty}</p>;
   }
   return (
-    <div className="overflow-x-auto">
+    <div className="max-h-[70vh] overflow-auto">
       <table className="w-full text-left text-sm">
         <thead className="bg-stone-100 text-xs uppercase tracking-wide text-stone-500">
           <tr>
@@ -163,6 +165,10 @@ export function RankingBoards({
   if (view === "statewide") {
     return (
       <div className="overflow-hidden rounded-xl border border-stone-200 bg-white shadow-sm">
+        <p className="border-b border-stone-100 px-3 py-2 text-xs text-stone-500">
+          {statewide.length} UIL six-man team{statewide.length === 1 ? "" : "s"} · ranks 1
+          {statewide.length ? `–${statewide.length}` : ""} · scroll for the full field
+        </p>
         <RankTable
           rows={statewide}
           selected={selected}

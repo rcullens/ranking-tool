@@ -27,7 +27,7 @@ def teams_payload(service: LiveSeasonService) -> dict[str, Any]:
                 "power": round(ranked.power, 2) if ranked else None,
             }
         )
-    rows.sort(key=lambda r: (r["rank"] is None, r["rank"] or 99, r["name"]))
+    rows.sort(key=lambda r: (r["rank"] is None, r["rank"] if r["rank"] is not None else 10**9, r["name"]))
     return {"teams": rows}
 
 
