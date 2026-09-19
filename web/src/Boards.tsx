@@ -54,6 +54,9 @@ function RankTable({
             {showStatewide ? <th className="px-3 py-2">St</th> : null}
             <th className="px-3 py-2">Cls</th>
             <th className="px-3 py-2 text-right">Power</th>
+            <th className="px-3 py-2 text-right">Conf</th>
+            <th className="px-3 py-2 text-right">SOS</th>
+            <th className="px-3 py-2">Notes</th>
           </tr>
         </thead>
         <tbody>
@@ -92,6 +95,17 @@ function RankTable({
               ) : null}
               <td className="px-3 py-1.5 text-xs text-stone-500">{row.classification}</td>
               <td className="px-3 py-1.5 text-right tabular-nums">{row.power.toFixed(1)}</td>
+              <td className="px-3 py-1.5 text-right tabular-nums text-stone-600">
+                {row.confidence != null ? row.confidence.toFixed(2) : "—"}
+                {row.low_confidence ? "*" : ""}
+              </td>
+              <td className="px-3 py-1.5 text-right tabular-nums text-stone-600">
+                {row.sos != null ? row.sos.toFixed(2) : "—"}
+                {row.density != null ? (
+                  <span className="block text-[10px] text-stone-400">d {row.density.toFixed(2)}</span>
+                ) : null}
+              </td>
+              <td className="max-w-[12rem] px-3 py-1.5 text-xs text-stone-500">{row.notes || "—"}</td>
             </tr>
           ))}
         </tbody>
