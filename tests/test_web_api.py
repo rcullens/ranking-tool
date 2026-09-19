@@ -16,6 +16,7 @@ def client(monkeypatch):
     monkeypatch.setenv("SIXMAN_DISABLE_POLLER", "1")
     reset_service()
     app = create_app()
+    # Don't run the background poller in tests.
     app.router.on_startup.clear()
     with TestClient(app) as test_client:
         yield test_client
@@ -60,6 +61,30 @@ def test_rankings_accept_district_and_region_filters(client):
     assert district["rankings"][0]["rank"] == 1
     region = client.get("/api/rankings", params={"region": "panhandle"}).json()
     assert {row["region"] for row in region["rankings"]} == {"panhandle"}
+
+
+def test_what_if_is_provisional(client):
+    before = client.get("/api/rankings").json()["rankings"]
+    body = client.post(
+        "/api/what-if",
+        json={
+            "home": "Darrouzett",
+            "away": "Borden County",
+            "home_score": 70,
+            "away_score": 14,
+        },
+    ).json()
+    assert body["writes_back"] is False
+    assert body["movers"]
+    after = client.get("/api/rankings").json()["rankings"]
+    assert [row["power"] for row in before] == [row["power"] for row in after]
+
+
+def test_rankings_classification_split(client):
+    di = client.get("/api/rankings", params={"classification": "DI"}).json()
+    assert di["rankings"]
+    assert all("DII" not in row["classification"] for row in di["rankings"])
+    assert di["rankings"][0]["rank"] == 1
 
 
 def test_sync_and_ingest(client):

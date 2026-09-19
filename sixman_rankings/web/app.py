@@ -78,6 +78,24 @@ def create_app() -> FastAPI:
         n = service.ingest_and_merge(payload)
         return {"ok": True, "updates": n}
 
+    @app.post("/api/what-if")
+    async def what_if(request: Request):
+        body = await request.json()
+        if not isinstance(body, dict):
+            raise HTTPException(400, "expected a JSON object")
+        try:
+            return get_service().what_if(
+                home_id=str(body.get("home_id") or body.get("home") or ""),
+                away_id=str(body.get("away_id") or body.get("away") or ""),
+                home_score=body.get("home_score"),
+                away_score=body.get("away_score"),
+                margin=body.get("margin"),
+                neutral=bool(body.get("neutral")),
+                district_game=bool(body.get("district_game")),
+            )
+        except ValueError as exc:
+            raise HTTPException(400, str(exc)) from exc
+
     @app.get("/api/teams")
     def teams():
         service = get_service()
