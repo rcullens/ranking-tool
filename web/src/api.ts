@@ -141,9 +141,36 @@ function liveRequired(action: string): Error {
 }
 
 async function readJson<T>(url: string): Promise<T> {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`${url} failed`);
-  return res.json() as Promise<T>;
+  const res = await fetch(url, { headers: { Accept: "application/json" } });
+  if (!res.ok) throw new Error(`${url} failed (${res.status})`);
+  const text = await res.text();
+  try {
+    return JSON.parse(text) as T;
+  } catch {
+    throw new Error(`${url} is not JSON`);
+  }
+}
+
+let sameOriginLive: Promise<boolean> | null = null;
+
+/** True when this origin still serves the Python FastAPI (not a static Vercel host). */
+export async function sameOriginHasApi(): Promise<boolean> {
+  if (sameOriginLive) return sameOriginLive;
+  sameOriginLive = (async () => {
+    try {
+      const data = await readJson<{ current_week?: unknown }>("/api/status");
+      return typeof data.current_week === "number";
+    } catch {
+      return false;
+    }
+  })();
+  return sameOriginLive;
+}
+
+async function shouldTrySameOrigin(): Promise<boolean> {
+  if (getStoredApiBase()) return false;
+  if (isNativeShell()) return false;
+  return sameOriginHasApi();
 }
 
 export function compareFromHistory(
@@ -182,8 +209,12 @@ let historyCache: HistoryResponse | null = null;
 async function loadHistory(base: string): Promise<HistoryResponse> {
   if (historyCache) return historyCache;
   try {
-    if (base || !isNativeShell()) {
+    if (base) {
       historyCache = await readJson<HistoryResponse>(`${base}/api/history`);
+      return historyCache;
+    }
+    if (await shouldTrySameOrigin()) {
+      historyCache = await readJson<HistoryResponse>("/api/history");
       return historyCache;
     }
   } catch {
@@ -195,12 +226,14 @@ async function loadHistory(base: string): Promise<HistoryResponse> {
 
 async function get<T>(path: string): Promise<T> {
   const base = getStoredApiBase();
-  const tryLive = Boolean(base) || !isNativeShell();
-  if (tryLive) {
+  if (base) {
+    return readJson<T>(`${base}${path}`);
+  }
+  if (await shouldTrySameOrigin()) {
     try {
-      return await readJson<T>(`${base}${path}`);
-    } catch (err) {
-      if (base) throw err instanceof Error ? err : new Error(String(err));
+      return await readJson<T>(path);
+    } catch {
+      /* static host or stale API — fall through to bundled snapshots */
     }
   }
   if (path.startsWith("/api/compare")) {
@@ -233,8 +266,7 @@ async function get<T>(path: string): Promise<T> {
 
 async function postLive<T>(path: string, body: unknown, action: string): Promise<T> {
   const base = getStoredApiBase();
-  const tryLive = Boolean(base) || !isNativeShell();
-  if (!tryLive) throw liveRequired(action);
+  if (!base && !(await shouldTrySameOrigin())) throw liveRequired(action);
   const res = await fetch(`${base}${path}`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -271,7 +303,7 @@ export const api = {
     get<CompareResponse>(`/api/compare?metric=${metric}&teams=${ids.join(",")}`),
   sync: async () => {
     const base = getStoredApiBase();
-    const tryLive = Boolean(base) || !isNativeShell();
+    const tryLive = Boolean(base) || (await shouldTrySameOrigin());
     if (tryLive) {
       const res = await fetch(`${base}/api/sync`, { method: "POST" });
       if (!res.ok) throw new Error("sync failed");

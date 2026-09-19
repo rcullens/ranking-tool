@@ -203,20 +203,18 @@ export default function App() {
 
       {settingsOpen ? (
         <div className="mx-auto mt-3 max-w-7xl rounded-xl border border-stone-200 bg-white p-4 text-sm shadow-sm">
-          <h2 className="font-semibold text-stone-900">Install on a phone</h2>
+          <h2 className="font-semibold text-stone-900">Use from a phone (no PC)</h2>
           <p className="mt-1 text-stone-600">
-            This APK is the <strong>full board</strong> — same charts, Statewide /
-            Districts / Regions tabs, presets, classification splits, what-if, and
-            ingest as the desktop web app. Nothing is stripped for mobile. The
-            bundled snapshot opens without Python; point at{" "}
-            <code className="rounded bg-stone-100 px-1">sixman-rank serve</code> for
-            live Thu–Sat sync.
+            This is the <strong>full board</strong> — Statewide / Districts / Regions,
+            power and rank charts, presets, classification, confidence, and SOS.
+            Viewing uses the bundled snapshot on this HTTPS site. What-if, ingest,
+            and live Thu–Sat sync need a remote <code className="rounded bg-stone-100 px-1">sixman-rank serve</code> URL when you have one.
           </p>
           <ol className="mt-3 list-decimal space-y-1 pl-5 text-stone-600">
-            <li>Copy <code className="rounded bg-stone-100 px-1">app-debug.apk</code> to the phone (USB, Drive, or Messages).</li>
-            <li>Settings → Install unknown apps → allow Files, Chrome, or Drive.</li>
-            <li>Tap the APK → Install. Replacing an older build is install-over (Update).</li>
-            <li>Open <strong>Six-Man Rankings</strong>. Leave the URL blank for the bundled snapshot.</li>
+            <li>On a Pixel, open this site in <strong>Chrome</strong> (not the in-app browser).</li>
+            <li>Chrome menu (⋮) → <strong>Install app</strong> or <strong>Add to Home screen</strong>.</li>
+            <li>Launch <strong>Six-Man</strong> from the home-screen icon. Boards and charts work offline after that first load.</li>
+            <li>Optional APK: download <code className="rounded bg-stone-100 px-1">app-debug.apk</code> from the GitHub Release on rcullens/ranking-tool, then Settings → Install unknown apps → Chrome → Install.</li>
           </ol>
           <label className="mt-3 block text-xs font-medium uppercase tracking-wide text-stone-500">
             Live server URL (optional)
@@ -250,9 +248,10 @@ export default function App() {
             </button>
           </div>
           <p className="mt-2 text-xs text-stone-500">
-            On the same Wi-Fi as your computer, run{" "}
-            <code className="rounded bg-stone-100 px-1">sixman-rank serve --host 0.0.0.0 --port 43127</code>
-            {" "}and paste that machine&apos;s address. Leave blank for the snapshot inside the APK.
+            Leave blank to stay on the snapshot shipped with this site. When a live
+            API exists, paste its HTTPS URL here (or a LAN{" "}
+            <code className="rounded bg-stone-100 px-1">sixman-rank serve</code> address)
+            for what-if, ingest, and Friday-night sync.
           </p>
         </div>
       ) : null}
