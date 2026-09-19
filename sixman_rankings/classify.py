@@ -10,6 +10,15 @@ from sixman_rankings.models import RankedTeam, Team
 
 _DII = re.compile(r"dii|\bd2\b|division\s*ii\b|division\s*2\b", re.I)
 _DI = re.compile(r"\bdi\b|\bd1\b|division\s*i\b|division\s*1\b", re.I)
+_ASSOC = re.compile(r"^(UIL|TAPPS|TAIAO|TCAF|TCAL|IND)\b", re.I)
+ASSOCIATIONS = ("UIL", "TAPPS", "TAIAO", "TCAF", "TCAL", "IND")
+
+
+def association_of(tag: str, fallback: str = "UIL") -> str:
+    hit = _ASSOC.match((tag or "").strip())
+    if hit:
+        return hit.group(1).upper()
+    return fallback
 
 
 def division_of(tag: str) -> Optional[str]:
@@ -30,12 +39,15 @@ def canonical_classification(tag: str) -> str:
     raw = (tag or "").strip()
     if not raw:
         return ""
+    assoc = association_of(raw, "")
+    if assoc and assoc != "UIL":
+        return raw
     div = division_of(raw)
     if div and re.search(r"1a|six", raw, re.I):
         return f"1A {div}"
     if div and raw.upper() in {div, f"D{1 if div == 'DI' else 2}"}:
         return f"1A {div}"
-    if div:
+    if div and not assoc:
         return f"1A {div}"
     return raw
 
@@ -53,11 +65,12 @@ def classification_matches(team_tag: str, query: str) -> bool:
     q_div = division_of(q)
     t_div = division_of(team_tag)
     if q_div and t_div and q_div == t_div:
-        # Query was a bare "DI" / "DII" (or equivalent), not a different 2A tag.
+        # Bare "DI" / "DII" selects UIL 1A only — TAPPS/TAIAO have their own tags.
         q_canon = canonical_classification(q)
+        t_canon = canonical_classification(team_tag)
         if q_canon in {f"1A {q_div}", q_div}:
-            return True
-        if canonical_classification(team_tag) == q_canon:
+            return t_canon == f"1A {q_div}"
+        if t_canon == q_canon:
             return True
     return False
 

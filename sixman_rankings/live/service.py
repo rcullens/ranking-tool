@@ -90,7 +90,7 @@ class LiveSeasonService:
 
     @classmethod
     def from_uil(cls, *, start_week: Optional[int] = None) -> "LiveSeasonService":
-        """Full UIL 1A six-man field (DI + DII) with ingested SixManFootball scores."""
+        """Full Texas six-man catalog with ingested MaxPreps / SixManFootball scores."""
 
         teams, games, roster, panel, priors = load_uil_dataset()
         week = start_week if start_week is not None else _env_int("SIXMAN_LIVE_START_WEEK", 99)
@@ -162,6 +162,7 @@ class LiveSeasonService:
         classification: Optional[str] = None,
         district: Optional[str] = None,
         region: Optional[str] = None,
+        association: Optional[str] = None,
     ) -> list[RankedTeam]:
         with self._lock:
             engine = self._engine()
@@ -170,6 +171,7 @@ class LiveSeasonService:
                 classification=classification,
                 district=district,
                 region=region,
+                association=association,
                 with_movement=True,
             )
 
@@ -272,6 +274,9 @@ class LiveSeasonService:
         districts: dict[str, list[str]] = {}
         regions: dict[str, list[str]] = {}
         for team in self.teams:
+            assoc = getattr(team, "association", None) or "UIL"
+            if assoc != "UIL":
+                continue
             districts.setdefault(team.district, []).append(team.team_id)
             regions.setdefault(team.region, []).append(team.team_id)
         return {

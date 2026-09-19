@@ -197,6 +197,7 @@ class RankingEngine:
         classification: Optional[str] = None,
         district: Optional[str] = None,
         region: Optional[str] = None,
+        association: Optional[str] = None,
         with_movement: bool = True,
     ) -> list[RankedTeam]:
         """Process the season (or through ``through_week``) and return the table."""
@@ -204,18 +205,26 @@ class RankingEngine:
         if through_week is None:
             weeks = [g.week for g in self.games]
             through_week = max(weeks) if weeks else 0
-        scoped = bool(classification or district or region)
+        scoped = bool(classification or district or region or association)
         previous = None
         if with_movement and through_week > 0:
             previous = self.process_through_week(through_week - 1)
             if scoped:
                 previous = self._apply_scope(
-                    previous, classification=classification, district=district, region=region
+                    previous,
+                    classification=classification,
+                    district=district,
+                    region=region,
+                    association=association,
                 )
         current = self.process_through_week(through_week)
         if scoped:
             current = self._apply_scope(
-                current, classification=classification, district=district, region=region
+                current,
+                classification=classification,
+                district=district,
+                region=region,
+                association=association,
             )
         if with_movement:
             current = attach_movement(current, previous)
@@ -228,6 +237,7 @@ class RankingEngine:
         classification: Optional[str] = None,
         district: Optional[str] = None,
         region: Optional[str] = None,
+        association: Optional[str] = None,
     ) -> dict[int, list[RankedTeam]]:
         """Snapshot every week from 0 (preseason) through ``through_week``."""
 
@@ -236,13 +246,19 @@ class RankingEngine:
             through_week = max(weeks) if weeks else 0
         snaps: dict[int, list[RankedTeam]] = {}
         self.reset_preseason()
-        snaps[0] = self.table(classification=classification, district=district, region=region)
+        snaps[0] = self.table(
+            classification=classification, district=district, region=region, association=association
+        )
         prev = snaps[0]
         for week in range(1, through_week + 1):
             current = self.process_through_week(week)
-            if classification or district or region:
+            if classification or district or region or association:
                 current = self._apply_scope(
-                    current, classification=classification, district=district, region=region
+                    current,
+                    classification=classification,
+                    district=district,
+                    region=region,
+                    association=association,
                 )
             snaps[week] = attach_movement(current, prev)
             prev = snaps[week]
@@ -262,6 +278,7 @@ class RankingEngine:
         classification: Optional[str] = None,
         district: Optional[str] = None,
         region: Optional[str] = None,
+        association: Optional[str] = None,
     ) -> list[RankedTeam]:
         from dataclasses import replace
 
@@ -272,6 +289,11 @@ class RankingEngine:
             subset = [r for r in subset if place_matches(r.district, district)]
         if region:
             subset = [r for r in subset if place_matches(r.region, region)]
+        if association:
+            want = association.strip().upper()
+            subset = [
+                r for r in subset if (getattr(r, "association", None) or "UIL").upper() == want
+            ]
         return [replace(row, rank=i) for i, row in enumerate(subset, start=1)]
 
     def _recompute_components(
@@ -345,6 +367,7 @@ class RankingEngine:
         classification: Optional[str] = None,
         district: Optional[str] = None,
         region: Optional[str] = None,
+        association: Optional[str] = None,
     ) -> list[RankedTeam]:
         finals = self._games_through(self._as_of_week, finals_only=True)
         states = list(self.states.values())
@@ -362,6 +385,13 @@ class RankingEngine:
             states = [
                 s for s in states if place_matches(self.teams[s.team_id].region, region)
             ]
+        if association:
+            want = association.strip().upper()
+            states = [
+                s
+                for s in states
+                if (getattr(self.teams[s.team_id], "association", None) or "UIL").upper() == want
+            ]
         ordered = sorted(states, key=rank_key(finals, self.config))
         rows: list[RankedTeam] = []
         for rank, state in enumerate(ordered, start=1):
@@ -375,6 +405,7 @@ class RankingEngine:
                     district=team.district,
                     region=team.region,
                     classification=team.classification,
+                    association=getattr(team, "association", None) or "UIL",
                     record=state.record,
                     district_record=state.district_record,
                     power=state.power,
@@ -414,6 +445,7 @@ def rank_season(
     classification: Optional[str] = None,
     district: Optional[str] = None,
     region: Optional[str] = None,
+    association: Optional[str] = None,
     with_movement: bool = True,
 ) -> list[RankedTeam]:
     """Functional entry point used by the CLI and by library callers."""
@@ -432,6 +464,7 @@ def rank_season(
         classification=classification,
         district=district,
         region=region,
+        association=association,
         with_movement=with_movement,
     )
 

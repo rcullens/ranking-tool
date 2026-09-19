@@ -6,6 +6,7 @@ export type Team = {
   district: string;
   region: string;
   classification: string;
+  association?: string;
   rank: number | null;
   record: string;
   power: number | null;
@@ -36,6 +37,7 @@ export type RankRow = {
   region: string;
   district_record: string;
   classification: string;
+  association?: string;
   power: number;
   rank_delta: number | null;
   power_delta?: number | null;
@@ -279,6 +281,7 @@ async function get<T>(path: string): Promise<T> {
       classification: params.get("classification") || undefined,
       district: params.get("district") || undefined,
       region: params.get("region") || undefined,
+      association: params.get("association") || undefined,
     });
     return { ...body, rankings, classification: params.get("classification") } as T;
   }
@@ -311,11 +314,17 @@ export const api = {
   status: () => get<Status>("/api/status"),
   teams: () => get<{ teams: Team[] }>("/api/teams"),
   presets: () => get<{ presets: Record<string, string[]> }>("/api/presets"),
-  rankings: (opts?: { classification?: string; district?: string; region?: string }) => {
+  rankings: (opts?: {
+    classification?: string;
+    district?: string;
+    region?: string;
+    association?: string;
+  }) => {
     const params = new URLSearchParams();
     if (opts?.classification) params.set("classification", opts.classification);
     if (opts?.district) params.set("district", opts.district);
     if (opts?.region) params.set("region", opts.region);
+    if (opts?.association) params.set("association", opts.association);
     const q = params.toString();
     return get<{ week: number; rankings: RankRow[] }>(`/api/rankings${q ? `?${q}` : ""}`);
   },

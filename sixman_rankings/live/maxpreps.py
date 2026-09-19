@@ -205,7 +205,7 @@ def games_to_rows(
     games: Iterable[MaxPrepsGame],
     schools: Iterable[CatalogSchool],
 ) -> list[dict]:
-    """Keep UIL-vs-UIL matchups. Home/away follows MaxPreps site flags."""
+    """Keep catalog matchups (any association). Home/away follows MaxPreps site flags."""
 
     from sixman_rankings.catalog import slugify
     from sixman_rankings.smf import build_name_index, resolve_smf_name

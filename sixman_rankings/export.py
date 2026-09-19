@@ -44,6 +44,7 @@ RANKING_FIELDS: tuple[str, ...] = (
     "turnover_decay",
     "panel_weight",
     "notes",
+    "association",
 )
 
 
@@ -94,6 +95,7 @@ def ranked_record(
         "turnover_decay": round(row.turnover_decay, 3),
         "panel_weight": round(row.panel_weight, 3),
         "notes": row.notes,
+        "association": getattr(row, "association", None) or "UIL",
     }
 
 

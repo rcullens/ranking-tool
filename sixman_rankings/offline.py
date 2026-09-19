@@ -22,6 +22,7 @@ def teams_payload(service: LiveSeasonService) -> dict[str, Any]:
                 "district": team.district,
                 "region": team.region,
                 "classification": team.classification,
+                "association": getattr(team, "association", None) or "UIL",
                 "rank": ranked.rank if ranked else None,
                 "record": ranked.record if ranked else "",
                 "power": round(ranked.power, 2) if ranked else None,
@@ -37,14 +38,21 @@ def rankings_payload(
     classification: Optional[str] = None,
     district: Optional[str] = None,
     region: Optional[str] = None,
+    association: Optional[str] = None,
 ) -> dict[str, Any]:
-    rows = service.rankings(classification=classification, district=district, region=region)
+    rows = service.rankings(
+        classification=classification,
+        district=district,
+        region=region,
+        association=association,
+    )
     week = service.current_week()
     return {
         "week": week,
         "classification": classification,
         "district": district,
         "region": region,
+        "association": association,
         "rankings": [ranked_record(r, week=week, season=service.season) for r in rows],
     }
 

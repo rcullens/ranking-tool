@@ -1,6 +1,6 @@
 """MaxPreps contest / markdown schedule parsing and ingest merge."""
 
-from sixman_rankings.catalog import maxpreps_schedule_urls, uil_schools
+from sixman_rankings.catalog import catalog_schools, maxpreps_schedule_urls, uil_schools
 from sixman_rankings.live.ingest import merge_game_rows
 from sixman_rankings.live.maxpreps import date_to_week, games_to_rows, parse_contests, parse_schedule_table
 
@@ -52,15 +52,15 @@ def test_parse_contests_reads_both_scores():
     assert kopperl.site == "home"
 
 
-def test_markdown_table_keeps_uil_and_drops_tapps_on_row_convert():
+def test_markdown_table_keeps_uil_and_tapps_on_row_convert():
     games = parse_schedule_table(AQUILLA_MD, school_name="Aquilla", season=2026)
     assert len(games) == 5
-    rows = games_to_rows(games, uil_schools())
+    rows = games_to_rows(games, catalog_schools())
     ids = {(r["home_id"], r["away_id"], r["week"]) for r in rows}
     assert ("aquilla", "calvert", 2) in ids
     assert ("avalon", "aquilla", 3) in ids
     assert ("aquilla", "kopperl", 4) in ids
-    assert all("first" not in r["home_id"] and "first" not in r["away_id"] for r in rows)
+    assert ("aquilla", "first-baptist-christian", 1) in ids
     kopperl = next(r for r in rows if r["away_id"] == "kopperl")
     assert kopperl["home_score"] == 60
     assert kopperl["away_score"] == 6

@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1789802167,c8920eadd4868c0559a53b7d43e04101"
+	data-csrf="1789806386,758f2fe455d82824c4843e9f2f98ba3e"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1789802167,c8920eadd4868c0559a53b7d43e04101',
+				csrf: '1789806386,758f2fe455d82824c4843e9f2f98ba3e',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=c3f1f393":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1789802167,
+					now: 1789806386,
 					today: 1789794000,
 					todayDow: 6,
 					tomorrow: 1789880400,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1789802167,c8920eadd4868c0559a53b7d43e04101" />
+									<input type="hidden" name="_xfToken" value="1789806386,758f2fe455d82824c4843e9f2f98ba3e" />
 								</form>
 							</div>
 						
@@ -3200,7 +3200,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1789802167%2Cc8920eadd4868c0559a53b7d43e04101"
+	<a href="/misc/style-variation?reset=1&amp;t=1789806386%2C758f2fe455d82824c4843e9f2f98ba3e"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -3215,7 +3215,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1789802167%2Cc8920eadd4868c0559a53b7d43e04101"
+	<a href="/misc/style-variation?variation=default&amp;t=1789806386%2C758f2fe455d82824c4843e9f2f98ba3e"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -3230,7 +3230,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1789802167%2Cc8920eadd4868c0559a53b7d43e04101"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1789806386%2C758f2fe455d82824c4843e9f2f98ba3e"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -3430,7 +3430,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3d6cd9b6bdb824b',t:'MTc4OTgwMjE2Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3d7349be9dc8f22',t:'MTc4OTgwNjM4Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
