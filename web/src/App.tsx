@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   CartesianGrid,
   Legend,
@@ -46,6 +46,37 @@ function prettyPlace(raw: string) {
   return REGION_LABELS[raw] ?? raw.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
+function sameIdSet(a: string[], b: string[]) {
+  if (a.length !== b.length) return false;
+  const left = new Set(a);
+  return b.every((id) => left.has(id));
+}
+
+function chipLabel(key: string) {
+  if (PRESET_LABELS[key]) return PRESET_LABELS[key];
+  if (key.startsWith("district:")) return key.replace("district:", "");
+  if (key.startsWith("region:")) return prettyPlace(key.replace("region:", ""));
+  return key;
+}
+
+function chipClass(active: boolean, variant: "named" | "district" | "region" | "clear") {
+  const base =
+    "min-h-9 touch-manipulation rounded-full border px-3 py-2 text-xs leading-tight";
+  if (variant === "clear") {
+    return `${base} border-transparent text-stone-500 underline decoration-stone-400`;
+  }
+  if (active) {
+    return `${base} border-stone-900 bg-stone-900 text-white shadow-sm`;
+  }
+  if (variant === "district") {
+    return `${base} border-dashed border-stone-300 text-stone-600`;
+  }
+  if (variant === "region") {
+    return `${base} border-dashed border-stone-400 text-stone-600`;
+  }
+  return `${base} border-stone-300 bg-white text-stone-700`;
+}
+
 export default function App() {
   const [status, setStatus] = useState<Status | null>(null);
   const [teams, setTeams] = useState<Team[]>([]);
@@ -64,8 +95,20 @@ export default function App() {
   const [settingsOpen, setSettingsOpen] = useState(() => isNativeShell());
   const [apiBaseDraft, setApiBaseDraft] = useState(getStoredApiBase);
   const [classFilter, setClassFilter] = useState("");
+  const selectedRef = useRef<string[]>([]);
+  const clearedRef = useRef(false);
+  const metricRef = useRef(metric);
+  const teamListRef = useRef<HTMLUListElement>(null);
 
-  const refresh = useCallback(async (ids?: string[]) => {
+  useEffect(() => {
+    selectedRef.current = selected;
+  }, [selected]);
+
+  useEffect(() => {
+    metricRef.current = metric;
+  }, [metric]);
+
+  const refresh = useCallback(async () => {
     const [st, teamPayload, presetPayload, rankPayload, boardPayload] = await Promise.all([
       api.status(),
       api.teams(),
@@ -79,40 +122,41 @@ export default function App() {
     setRows(rankPayload.rankings);
     setDistricts(boardPayload.districts);
     setRegions(boardPayload.regions);
-    const nextIds =
-      ids ??
-      (selected.length
-        ? selected
-        : presetPayload.presets.last_week_top10?.length
-          ? presetPayload.presets.last_week_top10
-          : presetPayload.presets.this_week_top10);
-    if (ids || selected.length === 0) {
-      setSelected(nextIds);
+    const fallback =
+      presetPayload.presets.last_week_top10?.length
+        ? presetPayload.presets.last_week_top10
+        : (presetPayload.presets.this_week_top10 ?? []);
+    setSelected((cur) => {
+      if (clearedRef.current) return cur;
+      if (cur.length) return cur;
+      selectedRef.current = fallback;
+      return fallback;
+    });
+    const ids = selectedRef.current;
+    if (ids.length) {
+      setCompare(await api.compare(ids, metricRef.current));
     }
-    const series = await api.compare(nextIds, metric);
-    setCompare(series);
-  }, [metric, selected.length, classFilter]);
-
-  useEffect(() => {
-    refresh().catch((err: Error) => setError(err.message));
-  }, []);
-
-  useEffect(() => {
-    refresh(selected).catch((err: Error) => setError(err.message));
   }, [classFilter]);
 
   useEffect(() => {
-    if (!selected.length) return;
+    refresh().catch((err: Error) => setError(err.message));
+  }, [refresh]);
+
+  useEffect(() => {
+    if (!selected.length) {
+      setCompare(null);
+      return;
+    }
     api.compare(selected, metric).then(setCompare).catch((err: Error) => setError(err.message));
   }, [selected, metric]);
 
   useEffect(() => {
     const ms = Math.max(8, status?.interval_sec ?? 20) * 1000;
     const timer = window.setInterval(() => {
-      refresh(selected).catch(() => undefined);
+      refresh().catch(() => undefined);
     }, ms);
     return () => window.clearInterval(timer);
-  }, [refresh, selected, status?.interval_sec]);
+  }, [refresh, status?.interval_sec]);
 
   const chartRows = useMemo(() => {
     if (!compare) return [];
@@ -126,29 +170,96 @@ export default function App() {
     });
   }, [compare]);
 
-  const filteredTeams = teams.filter((team) => {
-    const blob = `${team.name} ${team.district} ${team.region} ${team.classification}`.toLowerCase();
-    return blob.includes(query.toLowerCase());
-  });
-
   const namedPresets = Object.entries(presets).filter(
     ([key]) => !key.startsWith("district:") && !key.startsWith("region:"),
   );
   const districtPresets = Object.entries(presets).filter(([key]) => key.startsWith("district:"));
   const regionPresets = Object.entries(presets).filter(([key]) => key.startsWith("region:"));
 
+  const activePresetKey = useMemo(() => {
+    if (!selected.length) return null;
+    const hit = Object.entries(presets).find(([, ids]) => sameIdSet(selected, ids));
+    return hit?.[0] ?? null;
+  }, [selected, presets]);
+
+  const filteredTeams = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    const scopedIds = !q && activePresetKey ? presets[activePresetKey] ?? [] : null;
+    const scope = scopedIds ? new Set(scopedIds) : null;
+    const rows = teams.filter((team) => {
+      if (scope && !scope.has(team.team_id)) return false;
+      if (!q) return true;
+      const blob = `${team.name} ${team.district} ${team.region} ${team.classification}`.toLowerCase();
+      return blob.includes(q);
+    });
+    if (scopedIds) {
+      const order = new Map(scopedIds.map((id, i) => [id, i]));
+      rows.sort((a, b) => (order.get(a.team_id) ?? 9999) - (order.get(b.team_id) ?? 9999));
+    }
+    return rows;
+  }, [teams, query, activePresetKey, presets]);
+
+  const focusBoardId =
+    activePresetKey?.startsWith("district:")
+      ? activePresetKey.replace("district:", "")
+      : activePresetKey?.startsWith("region:")
+        ? activePresetKey.replace("region:", "")
+        : undefined;
+
   async function onSync() {
     setSyncing(true);
     try {
       await api.sync();
-      await refresh(selected);
+      await refresh();
     } finally {
       setSyncing(false);
     }
   }
 
+  function selectIds(ids: string[]) {
+    clearedRef.current = ids.length === 0;
+    const next = ids.slice();
+    selectedRef.current = next;
+    setSelected(next);
+    requestAnimationFrame(() => teamListRef.current?.scrollTo({ top: 0 }));
+  }
+
+  function applyPreset(key: string, ids: string[]) {
+    selectIds(ids);
+    setQuery("");
+    if (key === "division_di") {
+      setClassFilter("DI");
+      setView("statewide");
+    } else if (key === "division_dii") {
+      setClassFilter("DII");
+      setView("statewide");
+    } else if (key.startsWith("district:")) {
+      setClassFilter("");
+      setView("districts");
+    } else if (key.startsWith("region:")) {
+      setClassFilter("");
+      setView("regions");
+    } else {
+      setClassFilter("");
+      setView("statewide");
+    }
+  }
+
+  function clearCompare() {
+    clearedRef.current = true;
+    selectedRef.current = [];
+    setSelected([]);
+    setQuery("");
+    setClassFilter("");
+  }
+
   function toggle(id: string) {
-    setSelected((cur) => (cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id]));
+    clearedRef.current = false;
+    setSelected((cur) => {
+      const next = cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id];
+      selectedRef.current = next;
+      return next;
+    });
   }
 
   const yReverse = metric === "rank";
@@ -290,63 +401,75 @@ export default function App() {
               </button>
             </div>
           </div>
-          <div className="mb-3 flex flex-wrap gap-1.5">
-            {namedPresets.map(([key, ids]) => (
-              <button
-                key={key}
-                type="button"
-                onClick={() => setSelected(ids)}
-                className="rounded-full border border-stone-300 px-2 py-0.5 text-[11px] text-stone-700 hover:bg-stone-50"
-              >
-                {PRESET_LABELS[key] ?? key}
-              </button>
-            ))}
-            {districtPresets.map(([key, ids]) => (
-              <button
-                key={key}
-                type="button"
-                onClick={() => {
-                  setSelected(ids);
-                  setView("districts");
-                }}
-                className="rounded-full border border-dashed border-stone-300 px-2 py-0.5 text-[11px] text-stone-600 hover:bg-stone-50"
-              >
-                {key.replace("district:", "")}
-              </button>
-            ))}
-            {regionPresets.map(([key, ids]) => (
-              <button
-                key={key}
-                type="button"
-                onClick={() => {
-                  setSelected(ids);
-                  setView("regions");
-                }}
-                className="rounded-full border border-dashed border-stone-400 px-2 py-0.5 text-[11px] text-stone-600 hover:bg-stone-50"
-              >
-                {prettyPlace(key.replace("region:", ""))}
-              </button>
-            ))}
+          <div className="relative z-10 mb-3 flex flex-wrap gap-2">
+            {namedPresets.map(([key, ids]) => {
+              const active = activePresetKey === key;
+              return (
+                <button
+                  key={key}
+                  type="button"
+                  aria-pressed={active}
+                  onClick={() => applyPreset(key, ids)}
+                  className={chipClass(active, "named")}
+                >
+                  {chipLabel(key)}
+                </button>
+              );
+            })}
+            {districtPresets.map(([key, ids]) => {
+              const active = activePresetKey === key;
+              return (
+                <button
+                  key={key}
+                  type="button"
+                  aria-pressed={active}
+                  onClick={() => applyPreset(key, ids)}
+                  className={chipClass(active, "district")}
+                >
+                  {chipLabel(key)}
+                </button>
+              );
+            })}
+            {regionPresets.map(([key, ids]) => {
+              const active = activePresetKey === key;
+              return (
+                <button
+                  key={key}
+                  type="button"
+                  aria-pressed={active}
+                  onClick={() => applyPreset(key, ids)}
+                  className={chipClass(active, "region")}
+                >
+                  {chipLabel(key)}
+                </button>
+              );
+            })}
             <button
               type="button"
-              onClick={() => setSelected([])}
-              className="rounded-full px-2 py-0.5 text-[11px] text-stone-500 underline"
+              onClick={clearCompare}
+              className={chipClass(false, "clear")}
             >
               Clear
             </button>
           </div>
+          {activePresetKey && !query.trim() ? (
+            <p className="mb-2 text-xs text-stone-600">
+              Showing {chipLabel(activePresetKey)} · {filteredTeams.length} team
+              {filteredTeams.length === 1 ? "" : "s"}
+            </p>
+          ) : null}
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search Aquilla, district, region…"
             className="mb-2 w-full rounded-md border border-stone-300 px-2 py-1.5 text-sm"
           />
-          <ul className="max-h-[28rem] space-y-1 overflow-auto text-sm">
+          <ul ref={teamListRef} className="max-h-[28rem] space-y-1 overflow-auto text-sm">
             {filteredTeams.map((team) => {
               const on = selected.includes(team.team_id);
               return (
                 <li key={team.team_id}>
-                  <label className="flex cursor-pointer items-center gap-2 rounded px-1 py-1 hover:bg-stone-50">
+                  <label className="flex min-h-10 cursor-pointer items-center gap-2 rounded px-1 py-2 hover:bg-stone-50">
                     <input
                       type="checkbox"
                       checked={on}
@@ -441,12 +564,13 @@ export default function App() {
             regions={regions}
             selected={selected}
             onToggle={toggle}
-            onCompare={setSelected}
+            onCompare={selectIds}
             districtSort={districtSort}
             onDistrictSort={setDistrictSort}
             filterQuery={query}
+            focusBoardId={focusBoardId}
           />
-          <BoardTools teams={teams} onSeasonChanged={() => refresh(selected)} />
+          <BoardTools teams={teams} onSeasonChanged={() => refresh()} />
         </section>
       </main>
     </div>

@@ -263,6 +263,8 @@ class LiveSeasonService:
         }
 
     def presets(self) -> dict[str, list[str]]:
+        from sixman_rankings.classify import classification_matches
+
         table = self.rankings()
         hist = self.history()
         week = self.current_week()
@@ -276,8 +278,8 @@ class LiveSeasonService:
             "this_week_top10": [r.team_id for r in table[:10]],
             "last_week_top10": [r.team_id for r in last[:10]],
             "undefeated": [r.team_id for r in table if r.losses == 0 and r.games_played > 0],
-            "division_di": [r.team_id for r in table if "DI" in r.classification and "DII" not in r.classification][:12],
-            "division_dii": [r.team_id for r in table if "DII" in r.classification][:12],
+            "division_di": [r.team_id for r in table if classification_matches(r.classification, "DI")],
+            "division_dii": [r.team_id for r in table if classification_matches(r.classification, "DII")],
             **{f"district:{key}": ids for key, ids in districts.items()},
             **{f"region:{key}": ids for key, ids in regions.items()},
         }

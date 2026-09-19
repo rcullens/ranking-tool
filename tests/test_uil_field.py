@@ -1,6 +1,10 @@
 """Full UIL 1A six-man field: catalog size, Aquilla, no silent truncation."""
 
+import json
+from pathlib import Path
+
 from sixman_rankings.catalog import uil_schools
+from sixman_rankings.classify import classification_matches
 from sixman_rankings.io import load_uil_dataset
 from sixman_rankings.live.service import LiveSeasonService
 from sixman_rankings.pipeline import rank_season
@@ -37,3 +41,29 @@ def test_offline_uil_snapshot_is_not_capped_at_twenty():
     assert len(table) > 20
     assert any(row.team_id == "aquilla" for row in table)
     assert [row.rank for row in table] == list(range(1, len(table) + 1))
+
+
+def test_division_presets_include_every_di_and_dii_team():
+    service = LiveSeasonService.from_uil(start_week=99)
+    presets = service.presets()
+    table = service.rankings()
+    di = [row.team_id for row in table if classification_matches(row.classification, "DI")]
+    dii = [row.team_id for row in table if classification_matches(row.classification, "DII")]
+    assert set(presets["division_di"]) == set(di)
+    assert set(presets["division_dii"]) == set(dii)
+    assert len(presets["division_di"]) > 12
+    assert len(presets["division_dii"]) > 12
+    assert "aquilla" in presets["division_di"]
+    assert len(presets["division_di"]) + len(presets["division_dii"]) == len(table)
+
+
+def test_committed_offline_presets_cover_the_live_field():
+    root = Path(__file__).resolve().parents[1] / "web" / "public" / "offline"
+    teams = json.loads((root / "teams.json").read_text(encoding="utf-8"))["teams"]
+    presets = json.loads((root / "presets.json").read_text(encoding="utf-8"))["presets"]
+    di = {row["team_id"] for row in teams if classification_matches(row["classification"], "DI")}
+    dii = {row["team_id"] for row in teams if classification_matches(row["classification"], "DII")}
+    assert set(presets["division_di"]) == di
+    assert set(presets["division_dii"]) == dii
+    assert len(di) + len(dii) == len(teams)
+    assert "aquilla" in presets["division_di"]
