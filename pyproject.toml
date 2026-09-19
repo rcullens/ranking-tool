@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sixman-rankings"
+version = "0.3.0"
+description = "Objective power rankings for Texas UIL six-man high school football."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Six-Man Rankings" }]
+keywords = ["football", "six-man", "texas", "uil", "rankings", "elo"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Games/Entertainment",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "httpx>=0.27"]
+web = ["fastapi>=0.110", "uvicorn[standard]>=0.27"]
+
+[project.scripts]
+sixman-rank = "sixman_rankings.cli:main"
+rank = "sixman_rankings.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/rcullens/ranking-tool"
+Repository = "https://github.com/rcullens/ranking-tool"
+
+[tool.setuptools.packages.find]
+include = ["sixman_rankings*"]
+
+[tool.setuptools.package-data]
+sixman_rankings = ["data/*.csv", "data/*.json", "py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

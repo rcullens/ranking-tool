@@ -1,0 +1,4 @@
+# Core ranking engine is stdlib. The live graph needs the web extra:
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pytest>=7.0
