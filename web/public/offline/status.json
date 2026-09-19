@@ -1,15 +1,1 @@
-{
-  "provider": "offline-snapshot",
-  "football_window": false,
-  "window_label": "off",
-  "last_sync": null,
-  "last_result": "bundled snapshot \u00b7 set a live server URL for Thu\u2013Sat pulls",
-  "current_week": 4,
-  "finals": 40,
-  "scheduled": 50,
-  "week_complete": true,
-  "next_window": "2026-09-19T10:00:00-05:00",
-  "updates_last_sync": 0,
-  "feed_url": null,
-  "interval_sec": 300.0
-}
+{"provider":"offline-snapshot","football_window":false,"window_label":"off","last_sync":null,"last_result":"bundled snapshot · set a live server URL for Thu–Sat pulls","current_week":4,"finals":40,"scheduled":50,"week_complete":true,"next_window":"2026-09-19T10:00:00-05:00","updates_last_sync":0,"feed_url":null,"interval_sec":300.0}
