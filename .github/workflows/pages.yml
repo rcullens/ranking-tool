@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -47,14 +47,28 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set +e
+          printf '%s\n' '{"source":{"branch":"gh-pages","path":"/"},"build_type":"legacy"}' > /tmp/pages.json
           gh api --method POST "/repos/${GITHUB_REPOSITORY}/pages" \
-            -H "Accept: application/vnd.github+json" \
-            -f "source[branch]=gh-pages" \
-            -f "source[path]=/"
+            -H "Accept: application/vnd.github+json" --input /tmp/pages.json
           gh api --method PUT "/repos/${GITHUB_REPOSITORY}/pages" \
-            -H "Accept: application/vnd.github+json" \
-            -f "source[branch]=gh-pages" \
-            -f "source[path]=/"
-          gh api "/repos/${GITHUB_REPOSITORY}/pages" \
-            -H "Accept: application/vnd.github+json" || true
+            -H "Accept: application/vnd.github+json" --input /tmp/pages.json
+          gh api "/repos/${GITHUB_REPOSITORY}/pages" -H "Accept: application/vnd.github+json" || true
           exit 0
+
+      - uses: actions/configure-pages@v5
+        continue-on-error: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
