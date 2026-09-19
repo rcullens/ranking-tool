@@ -21,6 +21,7 @@ import {
   type Team,
 } from "./api";
 import { BoardSwitcher, RankingBoards, type BoardView } from "./Boards";
+import { addChartTeam, CHART_TEAM_LIMIT, topTeamsByPower } from "./chartLimit";
 import { classificationMatches } from "./classify";
 import { COLORS } from "./lib/utils";
 import { BoardTools } from "./Tools";
@@ -95,14 +96,22 @@ export default function App() {
   const [settingsOpen, setSettingsOpen] = useState(() => isNativeShell());
   const [apiBaseDraft, setApiBaseDraft] = useState(getStoredApiBase);
   const [classFilter, setClassFilter] = useState("");
+  const [activePresetKey, setActivePresetKey] = useState<string | null>(null);
+  const [scopeIds, setScopeIds] = useState<string[] | null>(null);
+  const [chartNote, setChartNote] = useState<string | null>(null);
   const selectedRef = useRef<string[]>([]);
   const clearedRef = useRef(false);
   const metricRef = useRef(metric);
   const teamListRef = useRef<HTMLUListElement>(null);
+  const teamsRef = useRef<Team[]>([]);
 
   useEffect(() => {
     selectedRef.current = selected;
   }, [selected]);
+
+  useEffect(() => {
+    teamsRef.current = teams;
+  }, [teams]);
 
   useEffect(() => {
     metricRef.current = metric;
@@ -126,13 +135,29 @@ export default function App() {
       presetPayload.presets.last_week_top10?.length
         ? presetPayload.presets.last_week_top10
         : (presetPayload.presets.this_week_top10 ?? []);
+    let appliedDefault = false;
     setSelected((cur) => {
       if (clearedRef.current) return cur;
-      if (cur.length) return cur;
-      selectedRef.current = fallback;
-      return fallback;
+      if (cur.length) {
+        const capped = cur.slice(0, CHART_TEAM_LIMIT);
+        selectedRef.current = capped;
+        return capped;
+      }
+      appliedDefault = true;
+      const next = topTeamsByPower(fallback, teamPayload.teams);
+      selectedRef.current = next;
+      return next;
     });
-    const ids = selectedRef.current;
+    if (appliedDefault) {
+      const defaultKey = presetPayload.presets.last_week_top10?.length
+        ? "last_week_top10"
+        : presetPayload.presets.this_week_top10?.length
+          ? "this_week_top10"
+          : null;
+      setActivePresetKey(defaultKey);
+      setScopeIds(fallback);
+    }
+    const ids = selectedRef.current.slice(0, CHART_TEAM_LIMIT);
     if (ids.length) {
       setCompare(await api.compare(ids, metricRef.current));
     }
@@ -142,13 +167,15 @@ export default function App() {
     refresh().catch((err: Error) => setError(err.message));
   }, [refresh]);
 
+  const chartIds = useMemo(() => selected.slice(0, CHART_TEAM_LIMIT), [selected]);
+
   useEffect(() => {
-    if (!selected.length) {
+    if (!chartIds.length) {
       setCompare(null);
       return;
     }
-    api.compare(selected, metric).then(setCompare).catch((err: Error) => setError(err.message));
-  }, [selected, metric]);
+    api.compare(chartIds, metric).then(setCompare).catch((err: Error) => setError(err.message));
+  }, [chartIds, metric]);
 
   useEffect(() => {
     const ms = Math.max(8, status?.interval_sec ?? 20) * 1000;
@@ -158,17 +185,22 @@ export default function App() {
     return () => window.clearInterval(timer);
   }, [refresh, status?.interval_sec]);
 
+  const chartSeries = useMemo(
+    () => (compare?.series ?? []).slice(0, CHART_TEAM_LIMIT),
+    [compare],
+  );
+
   const chartRows = useMemo(() => {
     if (!compare) return [];
     return compare.weeks.map((week) => {
       const point: Record<string, number | string> = { week: `Wk ${week}` };
-      for (const series of compare.series) {
+      for (const series of chartSeries) {
         const hit = series.points.find((p) => p.week === week);
         if (hit?.value != null) point[series.team_id] = hit.value;
       }
       return point;
     });
-  }, [compare]);
+  }, [compare, chartSeries]);
 
   const namedPresets = Object.entries(presets).filter(
     ([key]) => !key.startsWith("district:") && !key.startsWith("region:"),
@@ -176,15 +208,16 @@ export default function App() {
   const districtPresets = Object.entries(presets).filter(([key]) => key.startsWith("district:"));
   const regionPresets = Object.entries(presets).filter(([key]) => key.startsWith("region:"));
 
-  const activePresetKey = useMemo(() => {
+  const highlightedPresetKey = useMemo(() => {
+    if (activePresetKey && presets[activePresetKey]) return activePresetKey;
     if (!selected.length) return null;
     const hit = Object.entries(presets).find(([, ids]) => sameIdSet(selected, ids));
     return hit?.[0] ?? null;
-  }, [selected, presets]);
+  }, [activePresetKey, selected, presets]);
 
   const filteredTeams = useMemo(() => {
     const q = query.trim().toLowerCase();
-    const scopedIds = !q && activePresetKey ? presets[activePresetKey] ?? [] : null;
+    const scopedIds = !q && highlightedPresetKey ? presets[highlightedPresetKey] ?? [] : null;
     const scope = scopedIds ? new Set(scopedIds) : null;
     const rows = teams.filter((team) => {
       if (scope && !scope.has(team.team_id)) return false;
@@ -197,14 +230,16 @@ export default function App() {
       rows.sort((a, b) => (order.get(a.team_id) ?? 9999) - (order.get(b.team_id) ?? 9999));
     }
     return rows;
-  }, [teams, query, activePresetKey, presets]);
+  }, [teams, query, highlightedPresetKey, presets]);
 
   const focusBoardId =
-    activePresetKey?.startsWith("district:")
-      ? activePresetKey.replace("district:", "")
-      : activePresetKey?.startsWith("region:")
-        ? activePresetKey.replace("region:", "")
+    highlightedPresetKey?.startsWith("district:")
+      ? highlightedPresetKey.replace("district:", "")
+      : highlightedPresetKey?.startsWith("region:")
+        ? highlightedPresetKey.replace("region:", "")
         : undefined;
+
+  const scopeCount = scopeIds?.length ?? 0;
 
   async function onSync() {
     setSyncing(true);
@@ -216,17 +251,38 @@ export default function App() {
     }
   }
 
-  function selectIds(ids: string[]) {
-    clearedRef.current = ids.length === 0;
-    const next = ids.slice();
+  function commitSelection(ids: string[]) {
+    const next = ids.slice(0, CHART_TEAM_LIMIT);
     selectedRef.current = next;
     setSelected(next);
     requestAnimationFrame(() => teamListRef.current?.scrollTo({ top: 0 }));
   }
 
+  function selectIds(ids: string[]) {
+    clearedRef.current = ids.length === 0;
+    const roster = teamsRef.current;
+    const match = Object.entries(presets).find(([, presetIds]) => sameIdSet(ids, presetIds));
+    setActivePresetKey(match?.[0] ?? null);
+    setScopeIds(ids.length ? ids : null);
+    commitSelection(ids.length > CHART_TEAM_LIMIT ? topTeamsByPower(ids, roster) : ids);
+    setChartNote(
+      ids.length > CHART_TEAM_LIMIT
+        ? `Charting top ${CHART_TEAM_LIMIT} of ${ids.length} — tap teams to change`
+        : null,
+    );
+  }
+
   function applyPreset(key: string, ids: string[]) {
-    selectIds(ids);
+    clearedRef.current = false;
+    setActivePresetKey(key);
+    setScopeIds(ids);
     setQuery("");
+    commitSelection(ids.length > CHART_TEAM_LIMIT ? topTeamsByPower(ids, teamsRef.current) : ids);
+    setChartNote(
+      ids.length > CHART_TEAM_LIMIT
+        ? `Charting top ${CHART_TEAM_LIMIT} of ${ids.length} — tap teams to change`
+        : null,
+    );
     if (key === "division_di") {
       setClassFilter("DI");
       setView("statewide");
@@ -249,17 +305,28 @@ export default function App() {
     clearedRef.current = true;
     selectedRef.current = [];
     setSelected([]);
+    setActivePresetKey(null);
+    setScopeIds(null);
+    setChartNote(null);
     setQuery("");
     setClassFilter("");
   }
 
   function toggle(id: string) {
     clearedRef.current = false;
-    setSelected((cur) => {
-      const next = cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id];
-      selectedRef.current = next;
-      return next;
-    });
+    const { next, dropped } = addChartTeam(selectedRef.current, id, teamsRef.current);
+    selectedRef.current = next;
+    setSelected(next);
+    if (dropped) {
+      const name = teamsRef.current.find((team) => team.team_id === dropped)?.name ?? dropped;
+      setChartNote(`Chart holds ${CHART_TEAM_LIMIT} — removed ${name}`);
+    } else if (scopeCount > CHART_TEAM_LIMIT) {
+      setChartNote(
+        `Charting ${Math.min(next.length, CHART_TEAM_LIMIT)} of ${scopeCount} — tap teams to change`,
+      );
+    } else {
+      setChartNote(null);
+    }
   }
 
   const yReverse = metric === "rank";
@@ -403,7 +470,7 @@ export default function App() {
           </div>
           <div className="relative z-10 mb-3 flex flex-wrap gap-2">
             {namedPresets.map(([key, ids]) => {
-              const active = activePresetKey === key;
+              const active = highlightedPresetKey === key;
               return (
                 <button
                   key={key}
@@ -417,7 +484,7 @@ export default function App() {
               );
             })}
             {districtPresets.map(([key, ids]) => {
-              const active = activePresetKey === key;
+              const active = highlightedPresetKey === key;
               return (
                 <button
                   key={key}
@@ -431,7 +498,7 @@ export default function App() {
               );
             })}
             {regionPresets.map(([key, ids]) => {
-              const active = activePresetKey === key;
+              const active = highlightedPresetKey === key;
               return (
                 <button
                   key={key}
@@ -452,10 +519,13 @@ export default function App() {
               Clear
             </button>
           </div>
-          {activePresetKey && !query.trim() ? (
+          {highlightedPresetKey && !query.trim() ? (
             <p className="mb-2 text-xs text-stone-600">
-              Showing {chipLabel(activePresetKey)} · {filteredTeams.length} team
+              Showing {chipLabel(highlightedPresetKey)} · {filteredTeams.length} team
               {filteredTeams.length === 1 ? "" : "s"}
+              {scopeCount > CHART_TEAM_LIMIT
+                ? ` · ${chartIds.length} on chart`
+                : ""}
             </p>
           ) : null}
           <input
@@ -488,15 +558,21 @@ export default function App() {
 
         <section className="space-y-6">
           <div className="rounded-xl border border-stone-200 bg-white p-4 shadow-sm">
-            <div className="mb-2 flex items-baseline justify-between">
+            <div className="mb-2 flex items-baseline justify-between gap-3">
               <h2 className="text-lg text-stone-900">
                 {metric === "power" ? "Power rating by week" : "Rank by week"}
               </h2>
               <p className="text-xs text-stone-500">
-                {selected.length} team{selected.length === 1 ? "" : "s"}
+                {chartIds.length} on chart
+                {scopeCount > CHART_TEAM_LIMIT ? ` · ${scopeCount} in filter` : ""}
               </p>
             </div>
-            <div className="h-[380px] w-full">
+            {chartNote ? (
+              <p className="mb-2 text-xs text-amber-800" role="status">
+                {chartNote}
+              </p>
+            ) : null}
+            <div className="h-[400px] w-full">
               <ResponsiveContainer width="100%" height="100%">
                 <LineChart data={chartRows} margin={{ top: 8, right: 12, left: 0, bottom: 8 }}>
                   <CartesianGrid stroke="#e7e5e4" strokeDasharray="3 3" />
@@ -510,16 +586,20 @@ export default function App() {
                   <Tooltip
                     contentStyle={{ borderRadius: 8, borderColor: "#d6d3d1" }}
                     formatter={(value: number, name: string) => {
-                      const series = compare?.series.find((s) => s.team_id === name);
+                      const series = chartSeries.find((s) => s.team_id === name);
                       return [value, series?.name ?? name];
                     }}
                   />
                   <Legend
+                    verticalAlign="bottom"
+                    align="center"
+                    iconSize={10}
+                    wrapperStyle={{ fontSize: 11, lineHeight: "16px", maxHeight: 72, overflow: "hidden" }}
                     formatter={(value: string) =>
-                      compare?.series.find((s) => s.team_id === value)?.name ?? value
+                      chartSeries.find((s) => s.team_id === value)?.name ?? value
                     }
                   />
-                  {compare?.series.map((series, i) => (
+                  {chartSeries.map((series, i) => (
                     <Line
                       key={series.team_id}
                       type="monotone"
