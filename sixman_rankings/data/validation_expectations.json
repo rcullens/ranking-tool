@@ -1,0 +1,18 @@
+{
+  "season": 2025,
+  "through_week": 9,
+  "description": "Sanity cards for the bundled synthetic 2025 six-man season. Not a live UIL scrape.",
+  "expectations": [
+    {"type": "top_n", "team_id": "borden-county", "n": 3},
+    {"type": "top_n", "team_id": "sterling-city", "n": 5},
+    {"type": "top_n", "team_id": "follett", "n": 5},
+    {"type": "not_rank", "team_id": "marathon", "rank": 1},
+    {"type": "min_rank", "team_id": "marathon", "n": 4},
+    {"type": "record", "team_id": "marathon", "record": "9-0"},
+    {"type": "record", "team_id": "borden-county", "record": "8-1"},
+    {"type": "density_below", "team_id": "marathon", "value": 0.85},
+    {"type": "note_contains", "team_id": "marathon", "text": "insular"},
+    {"type": "note_contains", "team_id": "rankin", "text": "one-hit-wonder"},
+    {"type": "turnover_at_least", "team_id": "rankin", "value": 0.3}
+  ]
+}

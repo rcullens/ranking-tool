@@ -1,0 +1,21 @@
+team_id,name,district,region,classification,city,lat,lon
+borden-county,Borden County,8-1A DI,west-texas,1A DI,Gail,32.77,-101.45
+rankin,Rankin,8-1A DI,west-texas,1A DI,Rankin,31.22,-101.94
+garden-city,Garden City,8-1A DI,west-texas,1A DI,Garden City,31.88,-101.48
+irion-county,Irion County,8-1A DI,west-texas,1A DI,Mertzon,31.26,-100.82
+sterling-city,Sterling City,9-1A DI,west-texas,1A DI,Sterling City,31.84,-100.99
+water-valley,Water Valley,9-1A DI,west-texas,1A DI,Water Valley,31.67,-100.72
+robert-lee,Robert Lee,9-1A DI,west-texas,1A DI,Robert Lee,31.90,-100.48
+bronte,Bronte,9-1A DI,west-texas,1A DI,Bronte,31.89,-100.29
+follett,Follett,2-1A DII,panhandle,1A DII,Follett,36.43,-100.14
+miami,Miami,2-1A DII,panhandle,1A DII,Miami,35.69,-100.64
+lefors,Lefors,2-1A DII,panhandle,1A DII,Lefors,35.44,-100.80
+darrouzett,Darrouzett,2-1A DII,panhandle,1A DII,Darrouzett,36.45,-100.33
+balmorhea,Balmorhea,1-1A DII,trans-pecos,1A DII,Balmorhea,30.98,-103.74
+dell-city,Dell City,1-1A DII,trans-pecos,1A DII,Dell City,31.94,-105.20
+sierra-blanca,Sierra Blanca,1-1A DII,trans-pecos,1A DII,Sierra Blanca,31.18,-105.36
+marathon,Marathon,1-1A DII,trans-pecos,1A DII,Marathon,30.21,-103.24
+jayton,Jayton,5-1A DI,rolling-plains,1A DI,Jayton,33.25,-100.57
+spur,Spur,5-1A DI,rolling-plains,1A DI,Spur,33.48,-100.86
+paducah,Paducah,5-1A DI,rolling-plains,1A DI,Paducah,34.01,-100.30
+guthrie,Guthrie,5-1A DI,rolling-plains,1A DI,Guthrie,33.62,-100.32
