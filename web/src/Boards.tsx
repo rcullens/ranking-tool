@@ -13,7 +13,7 @@ function prettyRegion(raw: string) {
   return REGION_LABELS[raw] ?? raw.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-export type BoardView = "statewide" | "districts" | "regions";
+export type BoardView = "statewide" | "districts" | "regions" | "sources";
 
 function formatDelta(delta: number | null) {
   if (delta == null || delta === 0) return "—";
@@ -142,6 +142,7 @@ export function BoardSwitcher({ view, onView }: Pick<Props, "view" | "onView">) 
     { id: "statewide", label: "Statewide" },
     { id: "districts", label: "Districts" },
     { id: "regions", label: "Regions" },
+    { id: "sources", label: "Sources" },
   ];
   return (
     <div className="flex rounded-md bg-stone-100 p-0.5 text-sm">

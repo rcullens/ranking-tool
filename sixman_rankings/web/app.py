@@ -163,6 +163,12 @@ def create_app() -> FastAPI:
             },
         }
 
+    @app.get("/api/source-ranks")
+    def source_ranks():
+        from sixman_rankings.live.source_ranks import source_ranks_payload
+
+        return source_ranks_payload(get_service(), pull=False, persist=False)
+
     @app.get("/api/compare")
     def compare(teams: str = "", metric: str = "power"):
         ids = [part.strip() for part in teams.split(",") if part.strip()]

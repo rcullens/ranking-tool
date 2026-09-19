@@ -7,6 +7,7 @@ scoreboards when a raw curl is challenged.
 
 from __future__ import annotations
 
+import json
 import os
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
@@ -88,6 +89,45 @@ def fetch_text(
     if is_challenge(body):
         raise FetchError("Cloudflare challenge", status=403)
     return body
+
+
+def post_json(
+    url: str,
+    payload: dict,
+    *,
+    timeout: float = 20.0,
+    referer: str | None = None,
+) -> dict | list | str:
+    """POST JSON to an allowlisted host. Returns parsed JSON when possible."""
+
+    safe = _assert_safe(url)
+    raw_body = json.dumps(payload).encode("utf-8")
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Content-Type": "application/json",
+    }
+    if referer:
+        headers["Referer"] = referer
+    req = Request(safe, data=raw_body, headers=headers, method="POST")
+    try:
+        with urlopen(req, timeout=timeout) as resp:
+            raw = resp.read()
+            status = getattr(resp, "status", 200)
+    except HTTPError as exc:
+        raise FetchError(f"HTTP {exc.code} from {safe}", status=exc.code) from exc
+    except URLError as exc:
+        raise FetchError(f"network error from {safe}: {exc.reason}") from exc
+    if status >= 400:
+        raise FetchError(f"HTTP {status} from {safe}", status=status)
+    text = raw.decode("utf-8", "replace")
+    if is_challenge(text):
+        raise FetchError("Cloudflare challenge", status=403)
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        return text
 
 
 def fetch_with_fallback(

@@ -165,6 +165,11 @@ def build_parser() -> argparse.ArgumentParser:
     offline.add_argument("--out", default="web/public/offline", help="Directory for status.json, boards.json, …")
     offline.add_argument("--data-dir", default=None)
     offline.add_argument("--start-week", type=int, default=None)
+    offline.add_argument(
+        "--pull-sources",
+        action="store_true",
+        help="Refresh MaxPreps / SMF / DCTF ranks while writing the snapshot.",
+    )
 
     return parser
 
@@ -627,7 +632,12 @@ def _run_export_offline(args: argparse.Namespace) -> int:
         service = LiveSeasonService.from_data_dir(args.data_dir, start_week=args.start_week)
     else:
         service = LiveSeasonService.from_uil(start_week=args.start_week)
-    dest = write_offline_bundle(args.out, service=service)
+    dest = write_offline_bundle(
+        args.out,
+        service=service,
+        pull_sources=args.pull_sources,
+        persist_source_ranks=True,
+    )
     sys.stdout.write(f"Wrote offline bundle to {dest}\n")
     return 0
 

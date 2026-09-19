@@ -17,6 +17,7 @@ const required = [
   "rankings.json",
   "boards.json",
   "history.json",
+  "source_ranks.json",
 ];
 
 const missing = required.filter((name) => {

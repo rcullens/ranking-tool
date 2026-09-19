@@ -53,6 +53,7 @@ jobs:
             sixman_rankings/data/games.csv \
             sixman_rankings/data/priors.csv \
             sixman_rankings/data/ingest_meta.json \
+            sixman_rankings/data/source_ranks.json \
             sixman_rankings/data/smf \
             web/public/offline
           if git diff --cached --quiet; then

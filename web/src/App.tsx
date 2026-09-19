@@ -17,10 +17,12 @@ import {
   type Board,
   type CompareResponse,
   type RankRow,
+  type SourceRanksResponse,
   type Status,
   type Team,
 } from "./api";
 import { BoardSwitcher, RankingBoards, type BoardView } from "./Boards";
+import { SourceCompare } from "./SourceCompare";
 import { addChartTeam, CHART_TEAM_LIMIT, topTeamsByPower } from "./chartLimit";
 import { classificationMatches } from "./classify";
 import { COLORS } from "./lib/utils";
@@ -102,6 +104,7 @@ export default function App() {
   const [apiBaseDraft, setApiBaseDraft] = useState(getStoredApiBase);
   const [classFilter, setClassFilter] = useState("");
   const [assocFilter, setAssocFilter] = useState("");
+  const [sourceRanks, setSourceRanks] = useState<SourceRanksResponse | null>(null);
   const [activePresetKey, setActivePresetKey] = useState<string | null>(null);
   const [scopeIds, setScopeIds] = useState<string[] | null>(null);
   const [chartNote, setChartNote] = useState<string | null>(null);
@@ -124,7 +127,7 @@ export default function App() {
   }, [metric]);
 
   const refresh = useCallback(async () => {
-    const [st, teamPayload, presetPayload, rankPayload, boardPayload] = await Promise.all([
+    const [st, teamPayload, presetPayload, rankPayload, boardPayload, sourcePayload] = await Promise.all([
       api.status(),
       api.teams(),
       api.presets(),
@@ -133,8 +136,10 @@ export default function App() {
         ...(assocFilter ? { association: assocFilter } : {}),
       }),
       api.boards(),
+      api.sourceRanks(),
     ]);
     setStatus(st);
+    setSourceRanks(sourcePayload);
     setTeams(teamPayload.teams);
     setPresets(presetPayload.presets);
     setRows(rankPayload.rankings);
@@ -667,20 +672,24 @@ export default function App() {
               </div>
             ) : null}
           </div>
-          <RankingBoards
-            view={view}
-            onView={setView}
-            statewide={statewideRows}
-            districts={districts}
-            regions={regions}
-            selected={selected}
-            onToggle={toggle}
-            onCompare={selectIds}
-            districtSort={districtSort}
-            onDistrictSort={setDistrictSort}
-            filterQuery={query}
-            focusBoardId={focusBoardId}
-          />
+          {view === "sources" ? (
+            <SourceCompare data={sourceRanks} query={query} />
+          ) : (
+            <RankingBoards
+              view={view}
+              onView={setView}
+              statewide={statewideRows}
+              districts={districts}
+              regions={regions}
+              selected={selected}
+              onToggle={toggle}
+              onCompare={selectIds}
+              districtSort={districtSort}
+              onDistrictSort={setDistrictSort}
+              filterQuery={query}
+              focusBoardId={focusBoardId}
+            />
+          )}
           <BoardTools teams={teams} onSeasonChanged={() => refresh()} />
         </section>
       </main>
