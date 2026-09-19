@@ -8,7 +8,14 @@ The default board is the **full Texas six-man field** from [`rcullens/sixmanmadn
 
 GitHub Actions (`.github/workflows/live-scores.yml`) refreshes that field on a **Thu–Sat America/Chicago cron** (hourly in the football window, plus a Monday catch-up) and on `workflow_dispatch`: fetch → rank → rewrite `web/public/offline/*.json` → push `main` → Pages republishes https://rcullens.github.io/ranking-tool/. The phone board is that Pages site — no laptop.
 
-A 20-team synthetic fixture still lives in `sixman_rankings/data/sample/` for engine tests (`sixman-rank validate`, `load_sample_dataset()`). Optional `SIXMAN_FEED_URL` / `POST /api/ingest` still work for a hosted `sixman-rank serve` API (what-if).
+A 20-team synthetic fixture still lives in `sixman_rankings/data/sample/` for engine tests (`sixman-rank validate`, `load_sample_dataset()`). `SIXMAN_FEED_URL` / `POST /api/ingest` still work on the hosted `sixman-rank serve` API (what-if).
+
+**Public API (phone What-if / Ingest, no PC):** **https://ranking-tool.vercel.app**
+
+- `GET https://ranking-tool.vercel.app/api/health` → `{"ok": true}`
+- `POST https://ranking-tool.vercel.app/api/what-if` and `POST /api/ingest`
+- CORS allows `https://rcullens.github.io` (and `*` for the APK / Capacitor shell)
+- GitHub Pages at https://rcullens.github.io/ranking-tool/ defaults Phone / APK → Live server URL to that origin. `localStorage` key `sixman_api_base` still overrides; **Use bundled data** stays on the cron snapshots.
 
 ## Install
 
@@ -88,7 +95,7 @@ sixman-rank --panel-mix 0.15
 
 **https://rcullens.github.io/ranking-tool/ is the live phone surface.** Statewide / Districts / Regions / **Sources**, charts, presets, and the full 1…N list (UIL + TAPPS + others) load from `public/offline` snapshots. Those files are **not** a frozen demo: `.github/workflows/live-scores.yml` fetches real MaxPreps / SixManFootball scores and public ranks, reranks every catalogued club, and pushes an updated snapshot to `main`. `pages.yml` then republishes `gh-pages`. Tap **Sync scores now** on the phone to cache-bust and pull that latest snapshot. Open **Sources** to compare our ranks to MaxPreps, SMF, and DCTF.
 
-A hosted `sixman-rank serve` API is optional and only needed for what-if / webhook ingest. Leave **Phone / APK → Live server URL** blank for the cron-updated board.
+What-if / webhook ingest hit the public FastAPI host **https://ranking-tool.vercel.app** (the existing Vercel git link for this repo, now the engine backend). **Phone / APK → Live server URL** is prefilled with that origin — no PC and no manual paste. Override it only for a LAN `sixman-rank serve`, or tap **Use bundled data** for snapshots only.
 
 **Refresh cadence (America/Chicago):** hourly 10:20–23:20 Thu–Sat, plus late-Saturday hours, plus Monday 11:20 catch-up, plus manual **Actions → Live scores → Run workflow**.
 
@@ -96,7 +103,7 @@ A hosted `sixman-rank serve` API is optional and only needed for what-if / webho
 
 1. Chrome menu (⋮) → **Install app** / **Add to Home screen**.
 2. Open **Six-Man** from the home screen. Search “Aquilla” — she is on the full scrollable list.
-3. Leave the live server URL blank. Sync pulls the same Pages JSON the cron just wrote.
+3. What-if is ready: the live server URL is already **https://ranking-tool.vercel.app**. Sync still pulls the cron-updated Pages JSON.
 
 Every push to `main` rebuilds `web/` with `VITE_BASE=/ranking-tool/` and publishes the `gh-pages` branch (workflow `.github/workflows/pages.yml`). The Pages build does **not** run Python; it ships whatever `web/public/offline/` is in git (`npm run prebuild` fails if they are missing). The live-scores workflow is what keeps those JSON files current.
 
@@ -170,18 +177,20 @@ On the Pixel, with no USB cable:
 3. Tap the APK → **Install** → **Open**. Installing over an older Six-Man Rankings build is the normal **Update** / install-over prompt.
 4. In-app: **Phone / APK** repeats these notes and accepts a live-server URL.
 
-The icon is **Six-Man Rankings**. Leave the live URL blank to stay on the snapshot inside the APK.
+The icon is **Six-Man Rankings**. The live URL prefills **https://ranking-tool.vercel.app**. Tap **Use bundled data** to stay on the snapshot inside the APK.
 
 ### Live scores from the phone
 
-The APK cannot run the Python engine. For Friday-night updates:
+The APK cannot run the Python engine. What-if / ingest use **https://ranking-tool.vercel.app** by default (same public API as Pages). No LAN serve and no PC.
+
+To point at your own process instead:
 
 1. On a computer on the same Wi-Fi: `sixman-rank serve --host 0.0.0.0 --port 43127`
 2. Allow the port through the computer firewall.
 3. Find the computer’s LAN address (`ipconfig` / `ip addr`, e.g. `192.168.1.20`).
 4. In the phone app: **Phone / APK** → Live server URL → `http://192.168.1.20:43127` → Save.
 
-Leave the URL blank to stay on the bundled snapshot.
+**Use bundled data** stays on the snapshot inside the APK / Pages `public/offline` JSON.
 
 ### Refresh the snapshot inside the APK
 
@@ -369,7 +378,7 @@ The **phone path** is GitHub Actions + Pages, not a laptop running `serve`.
 - Each run: `sixman-rank ingest --export-offline` → commit games + `web/public/offline` → `pages.yml` republishes
 - `sixman-rank sync --write` and **Sync scores now** on Pages cache-bust that same snapshot
 
-Optional `sixman-rank serve` (port 43127) still polls a JSON feed / webhook for what-if:
+The public host **https://ranking-tool.vercel.app** is `sixman-rank serve` on the existing Vercel git project (`app.py` → `sixman_rankings.web.app:app`). Season state is the committed UIL field (refreshed when `live-scores.yml` pushes `main`); in-memory ingest is ephemeral across serverless cold starts. Local `sixman-rank serve` (port 43127) still polls a JSON feed / webhook:
 
 - **Thu / Fri / Sat 10:00–23:59**, plus Sunday before 2am
 - Interval: 20 seconds inside the window, 2 minutes off-window (`SIXMAN_SYNC_INTERVAL_SEC` overrides)
@@ -553,6 +562,8 @@ Coverage that the architecture requires:
 ## Project layout
 
 ```
+app.py             Vercel / uvicorn ASGI entry (`sixman_rankings.web.app:app`)
+Dockerfile         optional Fly / Railway / Render fallback
 sixman_rankings/
   constants.py     knobs (mercy cap, K, SOS, recency, confidence)
   models.py        Team, Game, RosterFactor, PanelAdjustment, EngineConfig

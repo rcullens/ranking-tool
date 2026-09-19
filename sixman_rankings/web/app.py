@@ -17,6 +17,7 @@ from sixman_rankings.live.service import get_service
 from sixman_rankings.live.window import in_football_window
 
 DIST = Path(__file__).resolve().parents[2] / "web" / "dist"
+PAGES_ORIGIN = "https://rcullens.github.io"
 
 
 def _interval() -> float:
@@ -26,11 +27,30 @@ def _interval() -> float:
     return 20.0 if in_football_window() else 120.0
 
 
+def cors_allow_origins() -> list[str]:
+    """GitHub Pages is the phone UI; * still covers APK / Capacitor / LAN serve."""
+
+    raw = os.environ.get("SIXMAN_CORS_ORIGINS")
+    if raw is None:
+        return [PAGES_ORIGIN, "*"]
+    origins = [part.strip() for part in raw.split(",") if part.strip()]
+    return origins or [PAGES_ORIGIN, "*"]
+
+
+def _poller_enabled() -> bool:
+    if os.environ.get("SIXMAN_DISABLE_POLLER") == "1":
+        return False
+    # Fluid/serverless: no long-lived process. Season reloads from committed data.
+    if os.environ.get("VERCEL") == "1":
+        return False
+    return True
+
+
 def create_app() -> FastAPI:
     app = FastAPI(title="Six-Man Rankings", version="0.3.0")
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["*"],
+        allow_origins=cors_allow_origins(),
         allow_methods=["*"],
         allow_headers=["*"],
     )
@@ -47,7 +67,7 @@ def create_app() -> FastAPI:
                 except Exception:
                     continue
 
-        if os.environ.get("SIXMAN_DISABLE_POLLER") != "1":
+        if _poller_enabled():
             app.state.poller = asyncio.create_task(loop())
 
     @app.on_event("shutdown")
@@ -55,6 +75,16 @@ def create_app() -> FastAPI:
         task = getattr(app.state, "poller", None)
         if task:
             task.cancel()
+
+    @app.get("/")
+    def root():
+        return {
+            "ok": True,
+            "service": "sixman-rank",
+            "ui": "https://rcullens.github.io/ranking-tool/",
+            "health": "/api/health",
+            "docs": "/docs",
+        }
 
     @app.get("/api/health")
     def health():
