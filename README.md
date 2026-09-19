@@ -76,13 +76,31 @@ sixman-rank --panel-mix 0.15
 
 `rank` is an alias for `sixman-rank`. Bare flags still mean `sixman-rank rank …`.
 
+## Phone-only (Pixel / Chrome, no PC)
+
+The Vite board in `web/` is a static site. **Statewide / Districts / Regions, charts, presets, and tabs work from the bundled `public/offline` snapshots** — no local Python server. What-if, ingest, and live Thu–Sat sync need a remote API URL when you add one later.
+
+**Production (Vercel project `ranking-tool`, Root Directory `web`):** after deploy, open the HTTPS URL in **Chrome on the Pixel 9 Pro**:
+
+1. Chrome menu (⋮) → **Install app** / **Add to Home screen**.
+2. Open **Six-Man** from the home screen. Boards and charts load from `/offline/*.json`.
+3. Leave **Phone / APK → Live server URL** blank unless you have a public `sixman-rank serve` API.
+
+Vercel build is `npm run build` inside `web/`. It does **not** run Python or `export-offline`. The JSON under `web/public/offline/` must already be in git (`npm run prebuild` fails the build if they are missing).
+
+```bash
+# refresh snapshots before a release (on a machine with Python)
+sixman-rank export-offline --out web/public/offline
+git add web/public/offline && git commit && git push origin main
+```
+
 ## Install and run as an Android APK
 
 This is a **browser GUI** (React). There is no Play Store listing. An APK is a Capacitor wrapper around **that same full GUI** — not a lite phone skin. Charts, Statewide / Districts / Regions, presets, classification splits, what-if, ingest, and every ranking column stay on the phone. The APK also ships a bundled ranking snapshot so it opens with no server. Point it at `sixman-rank serve` when you want live Thursday–Saturday sync.
 
 ### Fastest phone install (no APK file)
 
-1. On the phone, open the live board in **Chrome** (this preview, or your own `sixman-rank serve` URL).
+1. On the Pixel, open the **production HTTPS URL** in **Chrome**.
 2. Chrome menu → **Install app** / **Add to Home screen**.
 3. Launch it from the home-screen icon. It runs fullscreen like a native app.
 
@@ -121,9 +139,19 @@ npx cap open android
 
 The wrapped app is **Six-Man Rankings** (`com.sixman.rankings`), version **0.3.0** (same as the Python package and the Vite board). The web server stays first-class: use `sixman-rank serve` on a computer for live Thu–Sat sync. The APK is that same board plus a bundled snapshot.
 
-### Put the APK on a phone
+### GitHub Release APK (phone download, no PC)
 
-1. Copy `app-debug.apk` to the phone (USB, Drive, Messages).
+Tag **v0.3.0** on https://github.com/rcullens/ranking-tool/releases. Attach `app-debug.apk` from a machine that has Android Studio (this cloud image has no Android SDK, so it cannot compile the APK).
+
+On the Pixel, with no USB cable:
+
+1. Chrome → the Release page → download `app-debug.apk`.
+2. Settings → **Install unknown apps** → allow **Chrome**.
+3. Tap the download → **Install** → **Open** Six-Man Rankings.
+
+### Put the APK on a phone (if you already have the file)
+
+1. Open `app-debug.apk` from Chrome Downloads, Drive, or Messages.
 2. Settings → **Install unknown apps** → allow the app you used to open the file (Files, Chrome, Drive).
 3. Tap the APK → **Install** → **Open**. Installing over an older Six-Man Rankings build is the normal **Update** / install-over prompt.
 4. In-app: **Phone / APK** repeats these notes and accepts a live-server URL.
