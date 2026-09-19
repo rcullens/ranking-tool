@@ -63,7 +63,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="sixman-rank",
         description=(
-            "Texas UIL six-man power rankings: mercy-capped differentials, "
+            "Texas six-man power rankings: mercy-capped differentials, "
             "3-tier SOS, Toy Elo, turnover decay, panel blend, recency, and "
             "week-to-week tooling."
         ),
@@ -137,14 +137,14 @@ def build_parser() -> argparse.ArgumentParser:
     sync.add_argument(
         "--write",
         action="store_true",
-        help="Persist fetched UIL games into the data dir and refresh offline JSON.",
+        help="Persist fetched games into the data dir and refresh offline JSON.",
     )
     sync.add_argument("--skip-maxpreps", action="store_true")
     sync.add_argument("--skip-smf", action="store_true")
 
     ingest = sub.add_parser(
         "ingest",
-        help="Fetch live MaxPreps / SixManFootball scores and rebuild the UIL field.",
+        help="Fetch live MaxPreps / SixManFootball scores and rebuild the combined field.",
     )
     ingest.add_argument("--data-dir", default=None)
     ingest.add_argument("--no-write", action="store_true")
@@ -372,7 +372,7 @@ def _run_rank(args: argparse.Namespace) -> int:
     if args.history_out or args.history_csv or args.split:
         history = engine.weekly_history(week, classification=None)
 
-    title = f"Texas UIL Six-Man Power Rankings  ·  through Week {week}"
+    title = f"Texas Six-Man Power Rankings  ·  through Week {week}"
     if args.classification and not args.split:
         title += f"  ·  {args.classification}"
     if args.district and not args.split_district:
@@ -562,7 +562,7 @@ def _run_sync(args: argparse.Namespace) -> int:
     if args.write:
         from pathlib import Path
 
-        from sixman_rankings.catalog import football_season_year, uil_schools
+        from sixman_rankings.catalog import all_schools, football_season_year
         from sixman_rankings.live.ingest import write_field
         from sixman_rankings.offline import write_offline_bundle
 
@@ -581,7 +581,7 @@ def _run_sync(args: argparse.Namespace) -> int:
             }
             for g in service.games
         ]
-        write_field(dest, uil_schools(), rows, season=service.season or football_season_year())
+        write_field(dest, all_schools(), rows, season=service.season or football_season_year())
         write_offline_bundle("web/public/offline", service=service)
         sys.stdout.write(f"Wrote {dest} and web/public/offline\n")
     sys.stdout.write(

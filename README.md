@@ -2,9 +2,9 @@
 
 Canonical source: **https://github.com/rcullens/ranking-tool**
 
-A standalone Python toolkit that publishes **objective Texas UIL six-man high school football power rankings**, with a live Thu–Fri–Sat score pull so the list and comparison graph update as finals land.
+A standalone Python toolkit that publishes **objective Texas six-man high school football power rankings**, with a live Thu–Fri–Sat score pull so the list and comparison graph update as finals land.
 
-The default board is the **full UIL 1A six-man field (Division I + Division II)** — every program from #1 to last, including Aquilla (UIL I · Region 4 · District 14). The school directory is adapted from [`rcullens/sixmanmadness`](https://github.com/rcullens/sixmanmadness) `src/lib/schools/catalog.ts`. **Live current-season finals** come from the same sources sixmanmadness uses: MaxPreps school schedules (both scores) plus SixManFootball week scoreboards. Clubs with no finals yet still appear, ranked on SixManFootball Week 1 priors and flagged low-confidence. Invented district slates are not written.
+The default board is the **full Texas six-man field** — UIL 1A (Division I + II), every TAPPS six-man division, TAIAO, TCAF, TCAL, and independents — ranked from #1 to last. That includes Aquilla (UIL I · Region 4 · District 14) and First Baptist Christian (TAPPS I). The school directory is adapted from [`rcullens/sixmanmadness`](https://github.com/rcullens/sixmanmadness) `src/lib/schools/catalog.ts`. **Live current-season finals** come from the same sources sixmanmadness uses: MaxPreps school schedules (both scores) plus SixManFootball week scoreboards, including UIL↔TAPPS and TAPPS↔TAPPS games. Clubs with no finals yet still appear, ranked on SixManFootball Week 1 priors and flagged low-confidence. Invented district slates are not written. An optional association chip (UIL / TAPPS / TAIAO / …) filters the list without reranking.
 
 GitHub Actions (`.github/workflows/live-scores.yml`) refreshes that field on a **Thu–Sat America/Chicago cron** (hourly in the football window, plus a Monday catch-up) and on `workflow_dispatch`: fetch → rank → rewrite `web/public/offline/*.json` → push `main` → Pages republishes https://rcullens.github.io/ranking-tool/. The phone board is that Pages site — no laptop.
 
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ## Run
 
 ```bash
-# Full UIL 1A six-man field (DI + DII), ranks 1…N
+# Full Texas six-man field (UIL + TAPPS + TAIAO + TCAF/TCAL + independents), ranks 1…N
 sixman-rank
 python -m sixman_rankings
 
@@ -66,7 +66,7 @@ sixman-rank serve --host 127.0.0.1 --port 43127
 # JSON snapshots for the Android APK (no phone-side Python)
 sixman-rank export-offline --out web/public/offline
 
-# Pull live MaxPreps / SixManFootball scores and rebuild the UIL field
+# Pull live MaxPreps / SixManFootball scores and rebuild the combined field
 sixman-rank ingest --export-offline
 sixman-rank sync --write
 SIXMAN_FEED_URL=https://example.com/sixman-scores.json sixman-rank sync
@@ -86,7 +86,7 @@ sixman-rank --panel-mix 0.15
 
 ## Phone-only (Pixel / Chrome, no PC)
 
-**https://rcullens.github.io/ranking-tool/ is the live phone surface.** Statewide / Districts / Regions, charts, presets, and the full 1…N list load from `public/offline` snapshots. Those files are **not** a frozen demo: `.github/workflows/live-scores.yml` fetches real MaxPreps / SixManFootball scores, reranks every UIL club, and pushes an updated snapshot to `main`. `pages.yml` then republishes `gh-pages`. Tap **Sync scores now** on the phone to cache-bust and pull that latest snapshot.
+**https://rcullens.github.io/ranking-tool/ is the live phone surface.** Statewide / Districts / Regions, charts, presets, and the full 1…N list load from `public/offline` snapshots. Those files are **not** a frozen demo: `.github/workflows/live-scores.yml` fetches real MaxPreps / SixManFootball scores, reranks every catalog club (UIL + privates), and pushes an updated snapshot to `main`. `pages.yml` then republishes `gh-pages`. Tap **Sync scores now** on the phone to cache-bust and pull that latest snapshot.
 
 A hosted `sixman-rank serve` API is optional and only needed for what-if / webhook ingest. Leave **Phone / APK → Live server URL** blank for the cron-updated board.
 

@@ -90,7 +90,7 @@ class LiveSeasonService:
 
     @classmethod
     def from_uil(cls, *, start_week: Optional[int] = None) -> "LiveSeasonService":
-        """Full UIL 1A six-man field (DI + DII) with ingested SixManFootball scores."""
+        """Full Texas six-man field (UIL + TAPPS + TAIAO + TCAF/TCAL + independents)."""
 
         teams, games, roster, panel, priors = load_uil_dataset()
         week = start_week if start_week is not None else _env_int("SIXMAN_LIVE_START_WEEK", 99)
@@ -111,7 +111,7 @@ class LiveSeasonService:
 
     @classmethod
     def from_sample(cls, *, start_week: Optional[int] = None) -> "LiveSeasonService":
-        """Default board dataset: the full UIL field."""
+        """Default board dataset: the full combined Texas six-man field."""
 
         return cls.from_uil(start_week=start_week)
 
@@ -280,6 +280,12 @@ class LiveSeasonService:
             "undefeated": [r.team_id for r in table if r.losses == 0 and r.games_played > 0],
             "division_di": [r.team_id for r in table if classification_matches(r.classification, "DI")],
             "division_dii": [r.team_id for r in table if classification_matches(r.classification, "DII")],
+            "assoc_uil": [r.team_id for r in table if classification_matches(r.classification, "UIL")],
+            "assoc_tapps": [r.team_id for r in table if classification_matches(r.classification, "TAPPS")],
+            "assoc_taiao": [r.team_id for r in table if classification_matches(r.classification, "TAIAO")],
+            "assoc_tcaf": [r.team_id for r in table if classification_matches(r.classification, "TCAF")],
+            "assoc_tcal": [r.team_id for r in table if classification_matches(r.classification, "TCAL")],
+            "assoc_ind": [r.team_id for r in table if classification_matches(r.classification, "IND")],
             **{f"district:{key}": ids for key, ids in districts.items()},
             **{f"region:{key}": ids for key, ids in regions.items()},
         }
@@ -439,10 +445,10 @@ class LiveSeasonService:
                     notes.append(f"feed failed: {fetched.detail}")
             if live_sources and len(self.teams) > 30 and os.environ.get("SIXMAN_SKIP_LIVE") != "1":
                 try:
-                    from sixman_rankings.catalog import uil_schools
+                    from sixman_rankings.catalog import all_schools
                     from sixman_rankings.live.ingest import merge_game_rows, pull_maxpreps, pull_smf, rows_as_games
 
-                    schools = uil_schools()
+                    schools = all_schools()
                     season = self.season or 2026
                     batches = []
                     if not skip_maxpreps:

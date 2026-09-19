@@ -12,6 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
+from sixman_rankings.catalog import association_of
 from sixman_rankings.export import ranked_record
 from sixman_rankings.live.service import get_service
 from sixman_rankings.live.window import in_football_window
@@ -110,6 +111,7 @@ def create_app() -> FastAPI:
                     "district": team.district,
                     "region": team.region,
                     "classification": team.classification,
+                    "association": team.association or association_of(team.classification),
                     "rank": ranked.rank if ranked else None,
                     "record": ranked.record if ranked else "",
                     "power": round(ranked.power, 2) if ranked else None,

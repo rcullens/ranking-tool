@@ -59,6 +59,7 @@ def load_teams_csv(path: str | Path) -> list[Team]:
                     city=(row.get("city") or "").strip(),
                     lat=_opt_float(row.get("lat")),
                     lon=_opt_float(row.get("lon")),
+                    association=(row.get("association") or "").strip(),
                 )
             )
     return teams
@@ -190,7 +191,7 @@ def sample_data_dir() -> Path:
 
 
 def uil_data_dir() -> Path:
-    """Directory of the full UIL 1A six-man field (default board / CLI)."""
+    """Directory of the full Texas six-man field (default board / CLI)."""
 
     return PACKAGE_DATA
 
@@ -233,7 +234,7 @@ def load_uil_dataset() -> tuple[
     list[PanelAdjustment],
     list[PriorRating],
 ]:
-    """Load every UIL 1A six-man program (DI + DII) plus ingested scores."""
+    """Load every catalog program (UIL + privates + homeschool) plus ingested scores."""
 
     return _load_dir(PACKAGE_DATA)
 

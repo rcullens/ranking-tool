@@ -205,9 +205,9 @@ def games_to_rows(
     games: Iterable[MaxPrepsGame],
     schools: Iterable[CatalogSchool],
 ) -> list[dict]:
-    """Keep UIL-vs-UIL matchups. Home/away follows MaxPreps site flags."""
+    """Keep catalog-vs-catalog matchups (UIL, TAPPS, TAIAO, cross-association)."""
 
-    from sixman_rankings.catalog import slugify
+    from sixman_rankings.catalog import same_district, slugify
     from sixman_rankings.smf import build_name_index, resolve_smf_name
 
     roster = list(schools)
@@ -231,7 +231,7 @@ def games_to_rows(
             continue
         seen.add(key)
         home, away = by_id[home_id], by_id[away_id]
-        district = game.district or home.district == away.district
+        district = game.district or same_district(home, away)
         final = game.final and home_score is not None and away_score is not None
         rows.append(
             {

@@ -11,7 +11,7 @@ import re
 from dataclasses import dataclass
 from typing import Iterable, Optional
 
-from sixman_rankings.catalog import CatalogSchool, slugify
+from sixman_rankings.catalog import SMF_ALIASES, CatalogSchool, same_district, slugify
 
 SKIP_LINE = re.compile(
     r"^(?:"
@@ -73,18 +73,22 @@ def _norm(value: str) -> str:
 
 
 def build_name_index(schools: Iterable[CatalogSchool]) -> dict[str, str]:
-    """Map messy SMF labels onto catalog team_id."""
+    """Map messy SMF / MaxPreps labels onto catalog team_id."""
 
+    by_name = {school.name: school.team_id for school in schools}
     index: dict[str, str] = {}
     for school in schools:
         keys = {
             school.name,
             f"{school.name} {school.mascot}",
-            school.city,
             f"{school.city} {school.name}",
+            f"{school.city} {school.name} {school.mascot}",
             school.name.replace("-", " "),
+            school.name.replace("/", " "),
             school.name.replace("'", "").replace("'", ""),
             school.name.replace("Leveretts", "Leverett's"),
+            school.name.replace("St.", "Saint"),
+            school.name.replace("St.", "St"),
         }
         if school.name == "Springlake-Earth":
             keys.add("Springlake Earth")
@@ -98,6 +102,10 @@ def build_name_index(schools: Iterable[CatalogSchool]) -> dict[str, str]:
             n = _norm(key)
             if n:
                 index[n] = school.team_id
+    for alias, name in SMF_ALIASES.items():
+        tid = by_name.get(name)
+        if tid:
+            index[_norm(alias)] = tid
     return index
 
 
@@ -105,6 +113,8 @@ def resolve_smf_name(raw: str, index: dict[str, str]) -> Optional[str]:
     text = re.sub(r"^#\d+\s+", "", (raw or "").strip())
     text = re.sub(r"\s+", " ", text)
     if not text:
+        return None
+    if re.search(r"\bjv\b|junior varsity|11-man", text, re.I):
         return None
     key = _norm(text)
     if key in index:
@@ -320,7 +330,7 @@ def games_to_rows(
     games: Iterable[SmfGame],
     schools: Iterable[CatalogSchool],
 ) -> list[dict]:
-    """Keep UIL-vs-UIL matchups; drop TAPPS / out-of-state / JV sides."""
+    """Keep catalog-vs-catalog matchups, including TAPPS and UIL↔TAPPS games."""
 
     roster = list(schools)
     index = build_name_index(roster)
@@ -338,7 +348,7 @@ def games_to_rows(
         seen.add(key)
         home = by_id[home_id]
         away = by_id[away_id]
-        district = home.district == away.district
+        district = same_district(home, away)
         gid = f"w{game.week:02d}-{slugify(home_id)}-{slugify(away_id)}"
         rows.append(
             {

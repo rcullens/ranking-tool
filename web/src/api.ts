@@ -6,6 +6,7 @@ export type Team = {
   district: string;
   region: string;
   classification: string;
+  association?: string;
   rank: number | null;
   record: string;
   power: number | null;

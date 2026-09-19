@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild the bundled UIL 1A field from live MaxPreps / SMF (or cached weeks)."""
+"""Rebuild the bundled Texas six-man field from live MaxPreps / SMF (or cached weeks)."""
 
 from __future__ import annotations
 
@@ -28,8 +28,14 @@ def main() -> int:
         persist_smf=True,
     )
     print(report.summary())
-    aquilla = next(s for s in __import__("sixman_rankings.catalog", fromlist=["uil_schools"]).uil_schools() if s.team_id == "aquilla")
+    from sixman_rankings.catalog import all_schools
+
+    schools = all_schools()
+    aquilla = next(s for s in schools if s.team_id == "aquilla")
+    fbc = next(s for s in schools if s.team_id == "first-baptist-christian")
+    print(f"Field: {len(schools)} teams")
     print(f"Aquilla: {aquilla.district} {aquilla.classification} region={aquilla.region}")
+    print(f"First Baptist Christian: {fbc.district} {fbc.classification}")
     return 0 if report.teams else 1
 
 

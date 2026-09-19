@@ -1,1 +1,1 @@
-"""Catalog import and SixManFootball score ingest for the full UIL field."""
+"""Catalog import and SixManFootball score ingest for the full Texas six-man field."""

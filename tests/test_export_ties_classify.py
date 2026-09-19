@@ -15,6 +15,11 @@ def test_classification_di_vs_dii():
     assert classification_matches("1A DII", "DII")
     assert not classification_matches("1A DII", "DI")
     assert classification_matches("1A Division II", "d2")
+    assert classification_matches("TAPPS DI", "TAPPS")
+    assert not classification_matches("TAPPS DI", "DI")
+    assert not classification_matches("TAPPS DII", "DII")
+    assert classification_matches("TAPPS DIII", "TAPPS")
+    assert division_of("TAPPS DIII") == "DIII"
 
 
 def test_split_rankings_are_within_class():

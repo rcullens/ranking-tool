@@ -1,10 +1,11 @@
-"""Pull current-season UIL six-man scores and rewrite the bundled field.
+"""Pull current-season six-man scores and rewrite the bundled field.
 
 Sources (same peers sixmanmadness uses):
   * MaxPreps school schedule contests (preferred — both scores, GHA-friendly)
   * SixManFootball week scoreboards (HTML or cached markdown)
   * optional JSON feed (``SIXMAN_FEED_URL``)
 
+The field is UIL 1A plus TAPPS / TAIAO / TCAF / TCAL / independents.
 Invented district slates are never written. Teams with no finals stay on
 the board via priors / low confidence.
 """
@@ -21,11 +22,11 @@ from typing import Iterable, Optional
 
 from sixman_rankings.catalog import (
     CatalogSchool,
+    all_schools,
     football_season_year,
     maxpreps_schedule_urls,
     maxpreps_season_path,
     prior_rating,
-    uil_schools,
 )
 from sixman_rankings.live.http import FetchError, fetch_text, fetch_with_fallback
 from sixman_rankings.live.maxpreps import MaxPrepsGame, games_to_rows as mp_to_rows, parse_contests
@@ -58,7 +59,7 @@ class IngestReport:
     offline: Optional[str] = None
 
     def summary(self) -> str:
-        bits = [f"{self.teams} UIL teams", f"{self.finals} finals / {self.games} games"]
+        bits = [f"{self.teams} teams", f"{self.finals} finals / {self.games} games"]
         for src in self.sources:
             mark = "ok" if src.ok else "fail"
             bits.append(f"{src.name} {mark}: {src.detail}")
@@ -79,7 +80,7 @@ def current_week(season: Optional[int] = None) -> int:
 
 
 def merge_game_rows(batches: Iterable[list[dict]]) -> list[dict]:
-    """Deduplicate UIL-vs-UIL games; prefer a two-score final over a scheduled row."""
+    """Deduplicate catalog-vs-catalog games; prefer a two-score final over a scheduled row."""
 
     best: dict[tuple, dict] = {}
     rank = {"maxpreps": 3, "smf": 2, "feed": 2, "cache": 1}
@@ -166,7 +167,7 @@ def pull_maxpreps(
     report = SourceReport(
         name="maxpreps",
         ok=ok > 0,
-        detail=f"{ok} school pages, {failed} missed, {finals} UIL-vs-UIL finals",
+        detail=f"{ok} school pages, {failed} missed, {finals} catalog finals",
         games=len(rows),
         finals=finals,
     )
@@ -234,7 +235,7 @@ def write_field(data_dir: Path, schools: list[CatalogSchool], rows: list[dict], 
 
     dump(
         "teams.csv",
-        ["team_id", "name", "district", "region", "classification", "city", "lat", "lon"],
+        ["team_id", "name", "district", "region", "classification", "association", "city", "lat", "lon"],
         [
             {
                 "team_id": s.team_id,
@@ -242,6 +243,7 @@ def write_field(data_dir: Path, schools: list[CatalogSchool], rows: list[dict], 
                 "district": s.district,
                 "region": s.region,
                 "classification": s.classification,
+                "association": s.association,
                 "city": s.city,
                 "lat": "",
                 "lon": "",
@@ -266,7 +268,14 @@ def write_field(data_dir: Path, schools: list[CatalogSchool], rows: list[dict], 
     dump(
         "priors.csv",
         ["team_id", "season", "rating"],
-        [{"team_id": s.team_id, "season": season, "rating": prior_rating(s.name, s.division)} for s in schools],
+        [
+            {
+                "team_id": s.team_id,
+                "season": season,
+                "rating": prior_rating(s.name, s.division, association=s.association),
+            }
+            for s in schools
+        ],
     )
     for empty, fields in (
         ("roster_factors.csv", ["team_id", "season", "graduation_rate", "positional_turnover", "notes"]),
@@ -289,7 +298,7 @@ def run_ingest(
 ) -> IngestReport:
     season = season or _season()
     dest = Path(data_dir) if data_dir else PACKAGE_DATA
-    schools = uil_schools()
+    schools = all_schools()
     batches: list[list[dict]] = []
     sources: list[SourceReport] = []
 
@@ -321,7 +330,7 @@ def run_ingest(
             "games": report.games,
             "finals": report.finals,
             "sources": [src.__dict__ for src in sources],
-            "note": "Live UIL 1A six-man results. Pages board refreshes via GitHub Actions cron.",
+            "note": "Live Texas six-man results (UIL + TAPPS + TAIAO + TCAF/TCAL + independents).",
         }
         (dest / "ingest_meta.json").write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
         report.wrote = str(dest)

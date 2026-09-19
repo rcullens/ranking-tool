@@ -30,8 +30,14 @@ const PRESET_LABELS: Record<string, string> = {
   last_week_top10: "Last week's Top 10",
   this_week_top10: "This week's Top 10",
   undefeated: "Undefeated",
-  division_di: "Division I",
-  division_dii: "Division II",
+  division_di: "UIL Division I",
+  division_dii: "UIL Division II",
+  assoc_uil: "UIL",
+  assoc_tapps: "TAPPS",
+  assoc_taiao: "TAIAO",
+  assoc_tcaf: "TCAF",
+  assoc_tcal: "TCAL",
+  assoc_ind: "Independents",
 };
 
 const REGION_LABELS: Record<string, string> = {
@@ -96,6 +102,7 @@ export default function App() {
   const [settingsOpen, setSettingsOpen] = useState(() => isNativeShell());
   const [apiBaseDraft, setApiBaseDraft] = useState(getStoredApiBase);
   const [classFilter, setClassFilter] = useState("");
+  const [assocFilter, setAssocFilter] = useState("");
   const [activePresetKey, setActivePresetKey] = useState<string | null>(null);
   const [scopeIds, setScopeIds] = useState<string[] | null>(null);
   const [chartNote, setChartNote] = useState<string | null>(null);
@@ -203,7 +210,8 @@ export default function App() {
   }, [compare, chartSeries]);
 
   const namedPresets = Object.entries(presets).filter(
-    ([key]) => !key.startsWith("district:") && !key.startsWith("region:"),
+    ([key]) =>
+      !key.startsWith("district:") && !key.startsWith("region:") && !key.startsWith("assoc_"),
   );
   const districtPresets = Object.entries(presets).filter(([key]) => key.startsWith("district:"));
   const regionPresets = Object.entries(presets).filter(([key]) => key.startsWith("region:"));
@@ -222,7 +230,7 @@ export default function App() {
     const rows = teams.filter((team) => {
       if (scope && !scope.has(team.team_id)) return false;
       if (!q) return true;
-      const blob = `${team.name} ${team.district} ${team.region} ${team.classification}`.toLowerCase();
+      const blob = `${team.name} ${team.district} ${team.region} ${team.classification} ${team.association ?? ""}`.toLowerCase();
       return blob.includes(q);
     });
     if (scopedIds) {
@@ -285,18 +293,27 @@ export default function App() {
     );
     if (key === "division_di") {
       setClassFilter("DI");
+      setAssocFilter("");
       setView("statewide");
     } else if (key === "division_dii") {
       setClassFilter("DII");
+      setAssocFilter("");
+      setView("statewide");
+    } else if (key.startsWith("assoc_")) {
+      setClassFilter("");
+      setAssocFilter(key.replace("assoc_", "").toUpperCase() === "IND" ? "IND" : key.replace("assoc_", "").toUpperCase());
       setView("statewide");
     } else if (key.startsWith("district:")) {
       setClassFilter("");
+      setAssocFilter("");
       setView("districts");
     } else if (key.startsWith("region:")) {
       setClassFilter("");
+      setAssocFilter("");
       setView("regions");
     } else {
       setClassFilter("");
+      setAssocFilter("");
       setView("statewide");
     }
   }
@@ -310,6 +327,7 @@ export default function App() {
     setChartNote(null);
     setQuery("");
     setClassFilter("");
+    setAssocFilter("");
   }
 
   function toggle(id: string) {
@@ -330,23 +348,26 @@ export default function App() {
   }
 
   const yReverse = metric === "rank";
-  const statewideRows = classFilter
-    ? rows.filter((row) => classificationMatches(row.classification, classFilter))
-    : rows;
+  const statewideRows = rows.filter((row) => {
+    if (classFilter && !classificationMatches(row.classification, classFilter)) return false;
+    if (assocFilter && !classificationMatches(row.classification, assocFilter)) return false;
+    return true;
+  });
 
   return (
     <div className="min-h-screen px-4 py-6 md:px-8">
       <header className="mx-auto flex max-w-7xl flex-col gap-3 border-b border-stone-300 pb-4 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="text-xs uppercase tracking-[0.2em] text-stone-500">Texas UIL Six-Man</p>
+          <p className="text-xs uppercase tracking-[0.2em] text-stone-500">Texas Six-Man</p>
           <h1 className="font-sans text-3xl tracking-tight text-stone-900 md:text-4xl">
             Live power rankings
           </h1>
           <p className="mt-1 max-w-xl text-sm text-stone-600">
-            Every UIL 1A six-man program (Division I and II) is ranked from #1 to last,
-            including Aquilla. Live MaxPreps / SixManFootball finals land on this board
-            via GitHub Actions — no laptop required. Search the full list, or load last
-            week&apos;s Top 10.
+            Every Texas six-man program — UIL 1A, TAPPS, TAIAO, TCAF, TCAL, and
+            independents — is ranked from #1 to last, including Aquilla and First
+            Baptist Christian. Live MaxPreps / SixManFootball finals land on this
+            board via GitHub Actions. Association chips filter the list; ranks stay
+            statewide.
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-2">
@@ -389,7 +410,7 @@ export default function App() {
           <p className="mt-1 text-stone-600">
             This HTTPS site <strong>is</strong> the live phone board. GitHub Actions
             pulls MaxPreps / SixManFootball scores on Thursday, Friday, and Saturday
-            (America/Chicago), reranks the full UIL field, and republishes these
+            (America/Chicago), reranks the full combined field, and republishes these
             snapshots. Tap <strong>Sync scores now</strong> to fetch the latest Pages
             JSON — no PC. What-if / ingest still need an optional{" "}
             <code className="rounded bg-stone-100 px-1">sixman-rank serve</code> URL.
@@ -531,7 +552,7 @@ export default function App() {
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search Aquilla, district, region…"
+            placeholder="Search Aquilla, First Baptist, TAPPS…"
             className="mb-2 w-full rounded-md border border-stone-300 px-2 py-1.5 text-sm"
           />
           <ul ref={teamListRef} className="max-h-[28rem] space-y-1 overflow-auto text-sm">
@@ -620,19 +641,44 @@ export default function App() {
             {view === "statewide" ? (
               <div className="flex rounded-md bg-stone-100 p-0.5 text-xs">
                 {[
-                  { id: "", label: "All" },
-                  { id: "DI", label: "DI" },
-                  { id: "DII", label: "DII" },
-                ].map((opt) => (
-                  <button
-                    key={opt.label}
-                    type="button"
-                    className={`rounded px-2 py-1 ${classFilter === opt.id ? "bg-white shadow-sm" : ""}`}
-                    onClick={() => setClassFilter(opt.id)}
-                  >
-                    {opt.label}
-                  </button>
-                ))}
+                  { id: "all", label: "All", kind: "all" },
+                  { id: "UIL", label: "UIL", kind: "assoc" },
+                  { id: "TAPPS", label: "TAPPS", kind: "assoc" },
+                  { id: "TAIAO", label: "TAIAO", kind: "assoc" },
+                  { id: "TCAF", label: "TCAF", kind: "assoc" },
+                  { id: "TCAL", label: "TCAL", kind: "assoc" },
+                  { id: "IND", label: "IND", kind: "assoc" },
+                  { id: "DI", label: "UIL DI", kind: "class" },
+                  { id: "DII", label: "UIL DII", kind: "class" },
+                ].map((opt) => {
+                  const active =
+                    opt.kind === "all"
+                      ? !classFilter && !assocFilter
+                      : opt.kind === "assoc"
+                        ? assocFilter === opt.id && !classFilter
+                        : classFilter === opt.id && !assocFilter;
+                  return (
+                    <button
+                      key={opt.label}
+                      type="button"
+                      className={`rounded px-2 py-1 ${active ? "bg-white shadow-sm" : ""}`}
+                      onClick={() => {
+                        if (opt.kind === "all") {
+                          setClassFilter("");
+                          setAssocFilter("");
+                        } else if (opt.kind === "assoc") {
+                          setClassFilter("");
+                          setAssocFilter(opt.id);
+                        } else {
+                          setAssocFilter("");
+                          setClassFilter(opt.id);
+                        }
+                      }}
+                    >
+                      {opt.label}
+                    </button>
+                  );
+                })}
               </div>
             ) : null}
           </div>

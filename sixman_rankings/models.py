@@ -79,7 +79,7 @@ class EngineConfig:
 
 @dataclass
 class Team:
-    """A UIL six-man program plus the geographic keys used by the density coefficient."""
+    """A six-man program plus the geographic keys used by the density coefficient."""
 
     team_id: str
     name: str
@@ -89,6 +89,7 @@ class Team:
     city: str = ""
     lat: Optional[float] = None
     lon: Optional[float] = None
+    association: str = ""
 
 
 @dataclass

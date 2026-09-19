@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 from typing import Any, Optional
 
+from sixman_rankings.catalog import association_of
 from sixman_rankings.export import ranked_record
 from sixman_rankings.live.service import LiveSeasonService
 
@@ -22,6 +23,7 @@ def teams_payload(service: LiveSeasonService) -> dict[str, Any]:
                 "district": team.district,
                 "region": team.region,
                 "classification": team.classification,
+                "association": team.association or association_of(team.classification),
                 "rank": ranked.rank if ranked else None,
                 "record": ranked.record if ranked else "",
                 "power": round(ranked.power, 2) if ranked else None,
