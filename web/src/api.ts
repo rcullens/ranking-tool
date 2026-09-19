@@ -147,7 +147,7 @@ export const OFFLINE_API_SENTINEL = "offline";
 
 /** Public hosted `sixman-rank serve` (Vercel FastAPI). Override with VITE_API_BASE. */
 export const DEFAULT_API_BASE = String(
-  import.meta.env.VITE_API_BASE || "https://ranking-tool.vercel.app",
+  import.meta.env.VITE_API_BASE || "https://ranking-tool-rlrv.vercel.app",
 ).replace(/\/$/, "");
 
 function normalizeApiBase(url: string): string {
