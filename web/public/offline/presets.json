@@ -1,0 +1,115 @@
+{
+  "presets": {
+    "this_week_top10": [
+      "borden-county",
+      "sterling-city",
+      "rankin",
+      "follett",
+      "jayton",
+      "robert-lee",
+      "miami",
+      "spur",
+      "marathon",
+      "water-valley"
+    ],
+    "last_week_top10": [
+      "borden-county",
+      "sterling-city",
+      "rankin",
+      "jayton",
+      "follett",
+      "water-valley",
+      "garden-city",
+      "robert-lee",
+      "spur",
+      "marathon"
+    ],
+    "undefeated": [
+      "marathon",
+      "garden-city",
+      "paducah"
+    ],
+    "division_di": [
+      "borden-county",
+      "sterling-city",
+      "rankin",
+      "jayton",
+      "robert-lee",
+      "spur",
+      "water-valley",
+      "garden-city",
+      "irion-county",
+      "bronte",
+      "guthrie",
+      "paducah"
+    ],
+    "division_dii": [
+      "follett",
+      "miami",
+      "marathon",
+      "balmorhea",
+      "sierra-blanca",
+      "dell-city",
+      "lefors",
+      "darrouzett"
+    ],
+    "district:8-1A DI": [
+      "borden-county",
+      "rankin",
+      "garden-city",
+      "irion-county"
+    ],
+    "district:9-1A DI": [
+      "sterling-city",
+      "water-valley",
+      "robert-lee",
+      "bronte"
+    ],
+    "district:2-1A DII": [
+      "follett",
+      "miami",
+      "lefors",
+      "darrouzett"
+    ],
+    "district:1-1A DII": [
+      "balmorhea",
+      "dell-city",
+      "sierra-blanca",
+      "marathon"
+    ],
+    "district:5-1A DI": [
+      "jayton",
+      "spur",
+      "paducah",
+      "guthrie"
+    ],
+    "region:west-texas": [
+      "borden-county",
+      "rankin",
+      "garden-city",
+      "irion-county",
+      "sterling-city",
+      "water-valley",
+      "robert-lee",
+      "bronte"
+    ],
+    "region:panhandle": [
+      "follett",
+      "miami",
+      "lefors",
+      "darrouzett"
+    ],
+    "region:trans-pecos": [
+      "balmorhea",
+      "dell-city",
+      "sierra-blanca",
+      "marathon"
+    ],
+    "region:rolling-plains": [
+      "jayton",
+      "spur",
+      "paducah",
+      "guthrie"
+    ]
+  }
+}
