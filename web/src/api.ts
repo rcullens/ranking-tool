@@ -123,17 +123,24 @@ export function isNativeShell(): boolean {
   return Boolean(cap?.isNativePlatform?.());
 }
 
+/** Respect Vite `base` so GitHub Pages (`/ranking-tool/`) and Capacitor (`./`) both resolve. */
+export function publicUrl(path: string): string {
+  const root = import.meta.env.BASE_URL || "./";
+  return `${root}${path.replace(/^\//, "")}`;
+}
+
 function offlinePath(path: string): string | null {
   const route = path.split("?")[0];
   const map: Record<string, string> = {
-    "/api/status": "/offline/status.json",
-    "/api/teams": "/offline/teams.json",
-    "/api/presets": "/offline/presets.json",
-    "/api/rankings": "/offline/rankings.json",
-    "/api/boards": "/offline/boards.json",
-    "/api/history": "/offline/history.json",
+    "/api/status": "offline/status.json",
+    "/api/teams": "offline/teams.json",
+    "/api/presets": "offline/presets.json",
+    "/api/rankings": "offline/rankings.json",
+    "/api/boards": "offline/boards.json",
+    "/api/history": "offline/history.json",
   };
-  return map[route] ?? null;
+  const rel = map[route];
+  return rel ? publicUrl(rel) : null;
 }
 
 function liveRequired(action: string): Error {
@@ -158,7 +165,7 @@ export async function sameOriginHasApi(): Promise<boolean> {
   if (sameOriginLive) return sameOriginLive;
   sameOriginLive = (async () => {
     try {
-      const data = await readJson<{ current_week?: unknown }>("/api/status");
+      const data = await readJson<{ current_week?: unknown }>(publicUrl("api/status"));
       return typeof data.current_week === "number";
     } catch {
       return false;
@@ -214,13 +221,13 @@ async function loadHistory(base: string): Promise<HistoryResponse> {
       return historyCache;
     }
     if (await shouldTrySameOrigin()) {
-      historyCache = await readJson<HistoryResponse>("/api/history");
+      historyCache = await readJson<HistoryResponse>(publicUrl("api/history"));
       return historyCache;
     }
   } catch {
     historyCache = null;
   }
-  historyCache = await readJson<HistoryResponse>("/offline/history.json");
+  historyCache = await readJson<HistoryResponse>(publicUrl("offline/history.json"));
   return historyCache;
 }
 
@@ -231,7 +238,7 @@ async function get<T>(path: string): Promise<T> {
   }
   if (await shouldTrySameOrigin()) {
     try {
-      return await readJson<T>(path);
+      return await readJson<T>(publicUrl(path));
     } catch {
       /* static host or stale API — fall through to bundled snapshots */
     }
@@ -244,7 +251,7 @@ async function get<T>(path: string): Promise<T> {
     const chosen =
       ids.length > 0
         ? ids
-        : ((await readJson<{ presets: Record<string, string[]> }>("/offline/presets.json")).presets
+        : ((await readJson<{ presets: Record<string, string[]> }>(publicUrl("offline/presets.json"))).presets
             .last_week_top10 ?? []);
     return compareFromHistory(history, chosen, metric) as T;
   }
@@ -310,7 +317,7 @@ export const api = {
       historyCache = null;
       return res.json() as Promise<Status>;
     }
-    const status = await readJson<Status>("/offline/status.json");
+    const status = await readJson<Status>(publicUrl("offline/status.json"));
     return { ...status, last_result: "offline snapshot · sync needs a live server URL" };
   },
   ingest: (payload: unknown) => postLive<{ ok: boolean; updates: number }>("/api/ingest", payload, "Ingest"),
