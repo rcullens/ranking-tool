@@ -7,11 +7,15 @@
     "url": "https://github.com/rcullens/ranking-tool.git"
   },
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 43128",
+    "prebuild": "node ./scripts/check-offline.mjs",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1 --port 43128",
-    "android:sync": "vite build && npx cap sync android",
+    "android:sync": "npm run build && npx cap sync android",
     "android:open": "npx cap open android"
   },
   "dependencies": {
