@@ -12,6 +12,7 @@ import {
 import {
   api,
   getStoredApiBase,
+  isNativeShell,
   setStoredApiBase,
   type Board,
   type CompareResponse,
@@ -20,7 +21,9 @@ import {
   type Team,
 } from "./api";
 import { BoardSwitcher, RankingBoards, type BoardView } from "./Boards";
+import { classificationMatches } from "./classify";
 import { COLORS } from "./lib/utils";
+import { BoardTools } from "./Tools";
 
 const PRESET_LABELS: Record<string, string> = {
   last_week_top10: "Last week's Top 10",
@@ -56,15 +59,16 @@ export default function App() {
   const [districts, setDistricts] = useState<Board[]>([]);
   const [regions, setRegions] = useState<Board[]>([]);
   const [districtSort, setDistrictSort] = useState<"power" | "standings">("power");
-  const [settingsOpen, setSettingsOpen] = useState(false);
+  const [settingsOpen, setSettingsOpen] = useState(() => isNativeShell());
   const [apiBaseDraft, setApiBaseDraft] = useState(getStoredApiBase);
+  const [classFilter, setClassFilter] = useState("");
 
   const refresh = useCallback(async (ids?: string[]) => {
     const [st, teamPayload, presetPayload, rankPayload, boardPayload] = await Promise.all([
       api.status(),
       api.teams(),
       api.presets(),
-      api.rankings(),
+      api.rankings(classFilter ? { classification: classFilter } : undefined),
       api.boards(),
     ]);
     setStatus(st);
@@ -85,11 +89,15 @@ export default function App() {
     }
     const series = await api.compare(nextIds, metric);
     setCompare(series);
-  }, [metric, selected.length]);
+  }, [metric, selected.length, classFilter]);
 
   useEffect(() => {
     refresh().catch((err: Error) => setError(err.message));
   }, []);
+
+  useEffect(() => {
+    refresh(selected).catch((err: Error) => setError(err.message));
+  }, [classFilter]);
 
   useEffect(() => {
     if (!selected.length) return;
@@ -142,6 +150,9 @@ export default function App() {
   }
 
   const yReverse = metric === "rank";
+  const statewideRows = classFilter
+    ? rows.filter((row) => classificationMatches(row.classification, classFilter))
+    : rows;
 
   return (
     <div className="min-h-screen px-4 py-6 md:px-8">
@@ -194,9 +205,12 @@ export default function App() {
         <div className="mx-auto mt-3 max-w-7xl rounded-xl border border-stone-200 bg-white p-4 text-sm shadow-sm">
           <h2 className="font-semibold text-stone-900">Install on a phone</h2>
           <p className="mt-1 text-stone-600">
-            This is the same live board as the desktop web app. The sideload APK
-            wraps that GUI and ships a bundled season so the phone works without
-            Python. Chrome can also install this page from the menu as an app.
+            This APK is the <strong>full board</strong> — same charts, Statewide /
+            Districts / Regions tabs, presets, classification splits, what-if, and
+            ingest as the desktop web app. Nothing is stripped for mobile. The
+            bundled snapshot opens without Python; point at{" "}
+            <code className="rounded bg-stone-100 px-1">sixman-rank serve</code> for
+            live Thu–Sat sync.
           </p>
           <ol className="mt-3 list-decimal space-y-1 pl-5 text-stone-600">
             <li>Copy <code className="rounded bg-stone-100 px-1">app-debug.apk</code> to the phone (USB, Drive, or Messages).</li>
@@ -396,11 +410,29 @@ export default function App() {
 
           <div className="flex flex-wrap items-center justify-between gap-2">
             <BoardSwitcher view={view} onView={setView} />
+            {view === "statewide" ? (
+              <div className="flex rounded-md bg-stone-100 p-0.5 text-xs">
+                {[
+                  { id: "", label: "All" },
+                  { id: "DI", label: "DI" },
+                  { id: "DII", label: "DII" },
+                ].map((opt) => (
+                  <button
+                    key={opt.label}
+                    type="button"
+                    className={`rounded px-2 py-1 ${classFilter === opt.id ? "bg-white shadow-sm" : ""}`}
+                    onClick={() => setClassFilter(opt.id)}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+            ) : null}
           </div>
           <RankingBoards
             view={view}
             onView={setView}
-            statewide={rows}
+            statewide={statewideRows}
             districts={districts}
             regions={regions}
             selected={selected}
@@ -409,6 +441,7 @@ export default function App() {
             districtSort={districtSort}
             onDistrictSort={setDistrictSort}
           />
+          <BoardTools teams={teams} onSeasonChanged={() => refresh(selected)} />
         </section>
       </main>
     </div>
