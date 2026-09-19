@@ -10,10 +10,11 @@ GitHub Actions (`.github/workflows/live-scores.yml`) refreshes that field on a *
 
 A 20-team synthetic fixture still lives in `sixman_rankings/data/sample/` for engine tests (`sixman-rank validate`, `load_sample_dataset()`). `SIXMAN_FEED_URL` / `POST /api/ingest` still work on the hosted `sixman-rank serve` API (what-if).
 
-**Public API (phone What-if / Ingest, no PC):** **https://ranking-tool.vercel.app**
+**Public API (phone What-if / Ingest, no PC):** **https://ranking-tool.vercel.app** (alias of the existing Vercel git project; `/api/*` is FastAPI)
 
 - `GET https://ranking-tool.vercel.app/api/health` → `{"ok": true}`
 - `POST https://ranking-tool.vercel.app/api/what-if` and `POST /api/ingest`
+- Fallback alias: `https://ranking-tool-rlrv.vercel.app` (same repo / same `api/[...path].py`)
 - CORS allows `https://rcullens.github.io` (and `*` for the APK / Capacitor shell)
 - GitHub Pages at https://rcullens.github.io/ranking-tool/ defaults Phone / APK → Live server URL to that origin. `localStorage` key `sixman_api_base` still overrides; **Use bundled data** stays on the cron snapshots.
 
