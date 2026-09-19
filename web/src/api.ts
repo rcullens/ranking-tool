@@ -1,3 +1,5 @@
+import { filterRankRows } from "./classify";
+
 export type Team = {
   team_id: string;
   name: string;
@@ -36,10 +38,39 @@ export type RankRow = {
   classification: string;
   power: number;
   rank_delta: number | null;
+  power_delta?: number | null;
   notes: string;
   low_confidence: boolean;
+  confidence?: number;
+  sos?: number;
+  density?: number;
   local_rank?: number;
   statewide_rank?: number | null;
+};
+
+export type WhatIfResponse = {
+  provisional: boolean;
+  writes_back: boolean;
+  through_week: number;
+  game: {
+    home_id: string;
+    away_id: string;
+    home_score: number | null;
+    away_score: number | null;
+    week: number;
+    neutral: boolean;
+    district_game: boolean;
+  };
+  movers: {
+    team_id: string;
+    name: string;
+    rank_before: number | null;
+    rank_after: number;
+    rank_delta: number | null;
+    power_before: number | null;
+    power_after: number;
+    power_delta: number;
+  }[];
 };
 
 export type Board = {
@@ -103,6 +134,10 @@ function offlinePath(path: string): string | null {
     "/api/history": "/offline/history.json",
   };
   return map[route] ?? null;
+}
+
+function liveRequired(action: string): Error {
+  return new Error(`${action} needs a live sixman-rank serve URL (Phone / APK).`);
 }
 
 async function readJson<T>(url: string): Promise<T> {
@@ -182,14 +217,55 @@ async function get<T>(path: string): Promise<T> {
   }
   const offline = offlinePath(path);
   if (!offline) throw new Error(`${path} is not available offline`);
-  return readJson<T>(offline);
+  const payload = await readJson<T>(offline);
+  if (path.split("?")[0] === "/api/rankings") {
+    const params = new URLSearchParams(path.split("?")[1] || "");
+    const body = payload as { rankings?: RankRow[] };
+    const rankings = filterRankRows(body.rankings || [], {
+      classification: params.get("classification") || undefined,
+      district: params.get("district") || undefined,
+      region: params.get("region") || undefined,
+    });
+    return { ...body, rankings, classification: params.get("classification") } as T;
+  }
+  return payload;
+}
+
+async function postLive<T>(path: string, body: unknown, action: string): Promise<T> {
+  const base = getStoredApiBase();
+  const tryLive = Boolean(base) || !isNativeShell();
+  if (!tryLive) throw liveRequired(action);
+  const res = await fetch(`${base}${path}`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body ?? {}),
+  });
+  if (!res.ok) {
+    let detail = `${action} failed`;
+    try {
+      const err = (await res.json()) as { detail?: string };
+      if (err.detail) detail = String(err.detail);
+    } catch {
+      /* keep default */
+    }
+    throw new Error(detail);
+  }
+  historyCache = null;
+  return res.json() as Promise<T>;
 }
 
 export const api = {
   status: () => get<Status>("/api/status"),
   teams: () => get<{ teams: Team[] }>("/api/teams"),
   presets: () => get<{ presets: Record<string, string[]> }>("/api/presets"),
-  rankings: () => get<{ week: number; rankings: RankRow[] }>("/api/rankings"),
+  rankings: (opts?: { classification?: string; district?: string; region?: string }) => {
+    const params = new URLSearchParams();
+    if (opts?.classification) params.set("classification", opts.classification);
+    if (opts?.district) params.set("district", opts.district);
+    if (opts?.region) params.set("region", opts.region);
+    const q = params.toString();
+    return get<{ week: number; rankings: RankRow[] }>(`/api/rankings${q ? `?${q}` : ""}`);
+  },
   boards: () => get<BoardsResponse>("/api/boards"),
   compare: (ids: string[], metric: "power" | "rank") =>
     get<CompareResponse>(`/api/compare?metric=${metric}&teams=${ids.join(",")}`),
@@ -205,4 +281,14 @@ export const api = {
     const status = await readJson<Status>("/offline/status.json");
     return { ...status, last_result: "offline snapshot · sync needs a live server URL" };
   },
+  ingest: (payload: unknown) => postLive<{ ok: boolean; updates: number }>("/api/ingest", payload, "Ingest"),
+  whatIf: (payload: {
+    home_id: string;
+    away_id: string;
+    home_score?: number;
+    away_score?: number;
+    margin?: number;
+    neutral?: boolean;
+    district_game?: boolean;
+  }) => postLive<WhatIfResponse>("/api/what-if", payload, "What-if"),
 };
