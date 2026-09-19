@@ -1,23 +1,23 @@
 {
-  "pulled_at": "2026-09-19T03:26:27.737194-05:00",
+  "pulled_at": "2026-09-19T13:04:28.492366-05:00",
   "season": 2026,
   "teams": 302,
   "games": 1252,
-  "finals": 496,
+  "finals": 499,
   "sources": [
     {
       "name": "maxpreps",
       "ok": true,
-      "detail": "207 school pages, 95 missed, 382 catalog finals",
+      "detail": "207 school pages, 95 missed, 383 catalog finals",
       "games": 1127,
-      "finals": 382
+      "finals": 383
     },
     {
       "name": "sixmanfootball",
       "ok": true,
-      "detail": "weeks 0\u20135 (6 live, 0 cached), 442 finals",
+      "detail": "weeks 0\u20135 (6 live, 0 cached), 445 finals",
       "games": 553,
-      "finals": 442
+      "finals": 445
     }
   ],
   "note": "Live Texas six-man results (UIL + TAPPS + TAIAO + others). Pages board refreshes via GitHub Actions cron."
