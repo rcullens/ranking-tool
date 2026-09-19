@@ -14,6 +14,7 @@
     "dev": "vite --host 127.0.0.1 --port 43128",
     "prebuild": "node ./scripts/check-offline.mjs",
     "build": "vite build",
+    "build:pages": "VITE_BASE=/ranking-tool/ vite build",
     "preview": "vite preview --host 127.0.0.1 --port 43128",
     "android:sync": "npm run build && npx cap sync android",
     "android:open": "npx cap open android"

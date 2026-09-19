@@ -3,7 +3,8 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "./",
+  // `./` for Capacitor / local preview. GitHub Pages sets VITE_BASE=/ranking-tool/
+  base: process.env.VITE_BASE || "./",
   plugins: [react(), tailwindcss()],
   server: {
     host: "127.0.0.1",

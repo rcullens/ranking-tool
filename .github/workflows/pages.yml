@@ -1,0 +1,60 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Build static board for /ranking-tool/
+        working-directory: web
+        env:
+          VITE_BASE: /ranking-tool/
+        run: |
+          npm install
+          npm run build
+          touch dist/.nojekyll
+
+      - name: Publish gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: web/dist
+          force_orphan: true
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
+
+      - name: Turn on GitHub Pages from gh-pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set +e
+          gh api --method POST "/repos/${GITHUB_REPOSITORY}/pages" \
+            -H "Accept: application/vnd.github+json" \
+            -f "source[branch]=gh-pages" \
+            -f "source[path]=/"
+          gh api --method PUT "/repos/${GITHUB_REPOSITORY}/pages" \
+            -H "Accept: application/vnd.github+json" \
+            -f "source[branch]=gh-pages" \
+            -f "source[path]=/"
+          gh api "/repos/${GITHUB_REPOSITORY}/pages" \
+            -H "Accept: application/vnd.github+json" || true
+          exit 0
