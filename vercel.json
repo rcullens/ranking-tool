@@ -1,10 +1,16 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "fastapi",
+  "framework": "vite",
+  "installCommand": "npm install --prefix web && pip install -r requirements.txt",
+  "buildCommand": "npm run build --prefix web",
+  "outputDirectory": "web/dist",
   "functions": {
-    "app.py": {
+    "api/[...path].py": {
       "maxDuration": 60,
-      "excludeFiles": "{tests/**,web/android/**,web/node_modules/**,web/dist/**,.github/**,scripts/**}"
+      "excludeFiles": "{web/android/**,web/node_modules/**,web/dist/**,tests/**,.github/**,scripts/**}"
     }
-  }
+  },
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/[...path]" }
+  ]
 }
