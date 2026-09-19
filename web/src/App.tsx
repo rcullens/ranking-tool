@@ -165,9 +165,10 @@ export default function App() {
             Live power rankings
           </h1>
           <p className="mt-1 max-w-xl text-sm text-stone-600">
-            Every UIL 1A six-man program (Division I and II) is ranked from #1 to last.
-            Scores are pulled on Thursday, Friday, and Saturday. The model republishes as
-            finals land — pick any clubs, or load last week&apos;s Top 10.
+            Every UIL 1A six-man program (Division I and II) is ranked from #1 to last,
+            including Aquilla. Live MaxPreps / SixManFootball finals land on this board
+            via GitHub Actions — no laptop required. Search the full list, or load last
+            week&apos;s Top 10.
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-2">
@@ -208,10 +209,12 @@ export default function App() {
         <div className="mx-auto mt-3 max-w-7xl rounded-xl border border-stone-200 bg-white p-4 text-sm shadow-sm">
           <h2 className="font-semibold text-stone-900">Use from a phone (no PC)</h2>
           <p className="mt-1 text-stone-600">
-            This is the <strong>full board</strong> — Statewide / Districts / Regions,
-            power and rank charts, presets, classification, confidence, and SOS.
-            Viewing uses the bundled snapshot on this HTTPS site. What-if, ingest,
-            and live Thu–Sat sync need a remote <code className="rounded bg-stone-100 px-1">sixman-rank serve</code> URL when you have one.
+            This HTTPS site <strong>is</strong> the live phone board. GitHub Actions
+            pulls MaxPreps / SixManFootball scores on Thursday, Friday, and Saturday
+            (America/Chicago), reranks the full UIL field, and republishes these
+            snapshots. Tap <strong>Sync scores now</strong> to fetch the latest Pages
+            JSON — no PC. What-if / ingest still need an optional{" "}
+            <code className="rounded bg-stone-100 px-1">sixman-rank serve</code> URL.
           </p>
           <ol className="mt-3 list-decimal space-y-1 pl-5 text-stone-600">
             <li>On a Pixel, open <strong>https://rcullens.github.io/ranking-tool/</strong> in <strong>Chrome</strong> (not the in-app browser).</li>
@@ -251,10 +254,9 @@ export default function App() {
             </button>
           </div>
           <p className="mt-2 text-xs text-stone-500">
-            Leave blank to stay on the snapshot shipped with this site. When a live
-            API exists, paste its HTTPS URL here (or a LAN{" "}
-            <code className="rounded bg-stone-100 px-1">sixman-rank serve</code> address)
-            for what-if, ingest, and Friday-night sync.
+            Leave blank to stay on the cron-updated Pages snapshots (the live phone
+            path). Paste a <code className="rounded bg-stone-100 px-1">sixman-rank serve</code>{" "}
+            URL only if you want on-device what-if and webhook ingest.
           </p>
         </div>
       ) : null}
@@ -336,7 +338,7 @@ export default function App() {
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Filter teams…"
+            placeholder="Search Aquilla, district, region…"
             className="mb-2 w-full rounded-md border border-stone-300 px-2 py-1.5 text-sm"
           />
           <ul className="max-h-[28rem] space-y-1 overflow-auto text-sm">
@@ -442,6 +444,7 @@ export default function App() {
             onCompare={setSelected}
             districtSort={districtSort}
             onDistrictSort={setDistrictSort}
+            filterQuery={query}
           />
           <BoardTools teams={teams} onSeasonChanged={() => refresh(selected)} />
         </section>

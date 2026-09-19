@@ -246,6 +246,43 @@ def slugify(name: str) -> str:
     )
 
 
+def football_season_year(now=None) -> int:
+    """Texas HS football year (August start). Jan–June still belong to last fall."""
+
+    from datetime import date
+
+    stamp = now or date.today()
+    return stamp.year - 1 if stamp.month < 7 else stamp.year
+
+
+def maxpreps_season_path(year: int | None = None) -> str:
+    """MaxPreps path segment, e.g. 2026 → ``26-27``."""
+
+    y = year if year is not None else football_season_year()
+    return f"{str(y)[-2:]}-{str(y + 1)[-2:]}"
+
+
+def maxpreps_schedule_urls(school: CatalogSchool, *, season_path: str | None = None) -> list[str]:
+    """Candidate MaxPreps schedule URLs (city/name/mascot slugs, then fallbacks)."""
+
+    path = season_path or maxpreps_season_path()
+    city = slugify(school.city)
+    name = slugify(school.name)
+    mascot = slugify(school.mascot)
+    team = f"{name}-{mascot}" if mascot else name
+    slugs = []
+    for city_slug, team_slug in (
+        (city, team),
+        (name, team),
+        (city, name),
+        (name, name),
+    ):
+        url = f"https://www.maxpreps.com/tx/{city_slug}/{team_slug}/football/{path}/schedule/"
+        if url not in slugs:
+            slugs.append(url)
+    return slugs
+
+
 def uil_schools() -> list[CatalogSchool]:
     return [
         CatalogSchool(slugify(name), name, mascot, city, division, region, district)

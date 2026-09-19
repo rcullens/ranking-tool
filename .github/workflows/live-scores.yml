@@ -1,0 +1,62 @@
+name: Live scores
+
+# Phone board stays current with no laptop: fetch MaxPreps / SMF, rerank the
+# full UIL field, rewrite web/public/offline/*.json, push to main so pages.yml
+# republishes https://rcullens.github.io/ranking-tool/
+
+on:
+  schedule:
+    # America/Chicago football window (CDT = UTC−5 in September).
+    # Hourly 10:20–18:20 CDT Thu–Sat.
+    - cron: "20 15-23 * * 4,5,6"
+    # Hourly 19:20–23:20 CDT Thu–Sat + late Saturday (UTC Fri–Sun 00:20–04:20).
+    - cron: "20 0-4 * * 5,6,0"
+    # Monday 11:20 CDT catch-up for Saturday night leftovers.
+    - cron: "20 16 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-scores
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install ranking engine
+        run: pip install -e .
+
+      - name: Fetch live scores, rerank, export offline JSON
+        env:
+          SIXMAN_USE_READER: "1"
+        run: python -m sixman_rankings ingest --export-offline
+
+      - name: Commit and push if the field changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add \
+            sixman_rankings/data/teams.csv \
+            sixman_rankings/data/games.csv \
+            sixman_rankings/data/priors.csv \
+            sixman_rankings/data/ingest_meta.json \
+            sixman_rankings/data/smf \
+            web/public/offline
+          if git diff --cached --quiet; then
+            echo "No live-score changes"
+            exit 0
+          fi
+          git commit -m "chore: refresh live UIL six-man scores"
+          git push

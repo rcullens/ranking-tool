@@ -62,8 +62,31 @@ def history_payload(service: LiveSeasonService) -> dict[str, Any]:
 
 def status_payload(service: LiveSeasonService) -> dict[str, Any]:
     status = service.status().__dict__ | {"interval_sec": 300.0}
-    status["provider"] = "offline-snapshot"
-    status["last_result"] = "bundled snapshot · set a live server URL for Thu–Sat pulls"
+    meta_note = ""
+    try:
+        from pathlib import Path
+        import json
+
+        meta_path = Path(__file__).resolve().parent / "data" / "ingest_meta.json"
+        if meta_path.exists():
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+            finals = meta.get("finals")
+            pulled = meta.get("pulled_at")
+            meta_note = f"{finals} live finals"
+            if pulled:
+                meta_note += f" · ingested {pulled}"
+    except Exception:  # noqa: BLE001
+        meta_note = ""
+    if len(service.teams) > 30:
+        status["provider"] = "live-cron"
+        status["last_result"] = service.last_result if service.last_result not in {"idle", ""} else (
+            (meta_note + " · ") if meta_note else ""
+        ) + "GitHub Actions refreshes this board Thu–Sat (America/Chicago)"
+        if meta_note and "live finals" not in (status["last_result"] or ""):
+            status["last_result"] = f"{status['last_result']} · {meta_note}"
+    else:
+        status["provider"] = "offline-snapshot"
+        status["last_result"] = "bundled snapshot · set a live server URL for Thu–Sat pulls"
     return status
 
 

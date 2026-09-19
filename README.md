@@ -4,9 +4,11 @@ Canonical source: **https://github.com/rcullens/ranking-tool**
 
 A standalone Python toolkit that publishes **objective Texas UIL six-man high school football power rankings**, with a live Thu–Fri–Sat score pull so the list and comparison graph update as finals land.
 
-The default board is the **full UIL 1A six-man field (Division I + Division II)** — every program from #1 to last, including Aquilla (UIL I · Region 4 · District 14). The school directory is adapted from [`rcullens/sixmanmadness`](https://github.com/rcullens/sixmanmadness) `src/lib/schools/catalog.ts`. Games are ingested from SixManFootball week scoreboards (weeks on disk under `sixman_rankings/data/smf/`); clubs with no finals yet still appear, ranked on SixManFootball Week 1 priors and flagged low-confidence.
+The default board is the **full UIL 1A six-man field (Division I + Division II)** — every program from #1 to last, including Aquilla (UIL I · Region 4 · District 14). The school directory is adapted from [`rcullens/sixmanmadness`](https://github.com/rcullens/sixmanmadness) `src/lib/schools/catalog.ts`. **Live current-season finals** come from the same sources sixmanmadness uses: MaxPreps school schedules (both scores) plus SixManFootball week scoreboards. Clubs with no finals yet still appear, ranked on SixManFootball Week 1 priors and flagged low-confidence. Invented district slates are not written.
 
-A 20-team synthetic fixture still lives in `sixman_rankings/data/sample/` for engine tests (`sixman-rank validate`, `load_sample_dataset()`). Point `SIXMAN_FEED_URL` at a JSON score feed (or `POST /api/ingest`) for a live Friday night.
+GitHub Actions (`.github/workflows/live-scores.yml`) refreshes that field on a **Thu–Sat America/Chicago cron** (hourly in the football window, plus a Monday catch-up) and on `workflow_dispatch`: fetch → rank → rewrite `web/public/offline/*.json` → push `main` → Pages republishes https://rcullens.github.io/ranking-tool/. The phone board is that Pages site — no laptop.
+
+A 20-team synthetic fixture still lives in `sixman_rankings/data/sample/` for engine tests (`sixman-rank validate`, `load_sample_dataset()`). Optional `SIXMAN_FEED_URL` / `POST /api/ingest` still work for a hosted `sixman-rank serve` API (what-if).
 
 ## Install
 
@@ -64,8 +66,9 @@ sixman-rank serve --host 127.0.0.1 --port 43127
 # JSON snapshots for the Android APK (no phone-side Python)
 sixman-rank export-offline --out web/public/offline
 
-# Pull scores once (JSON feed and/or football-night replay)
-sixman-rank sync --force
+# Pull live MaxPreps / SixManFootball scores and rebuild the UIL field
+sixman-rank ingest --export-offline
+sixman-rank sync --write
 SIXMAN_FEED_URL=https://example.com/sixman-scores.json sixman-rank sync
 
 # Sanity-check a season against expectation cards
@@ -83,22 +86,26 @@ sixman-rank --panel-mix 0.15
 
 ## Phone-only (Pixel / Chrome, no PC)
 
-The Vite board in `web/` is a static site. **Statewide / Districts / Regions, charts, presets, and tabs work from the bundled `public/offline` snapshots** — no local Python server. What-if, ingest, and live Thu–Sat sync need a remote API URL when you add one later.
+**https://rcullens.github.io/ranking-tool/ is the live phone surface.** Statewide / Districts / Regions, charts, presets, and the full 1…N list load from `public/offline` snapshots. Those files are **not** a frozen demo: `.github/workflows/live-scores.yml` fetches real MaxPreps / SixManFootball scores, reranks every UIL club, and pushes an updated snapshot to `main`. `pages.yml` then republishes `gh-pages`. Tap **Sync scores now** on the phone to cache-bust and pull that latest snapshot.
 
-**Phone HTTPS (GitHub Pages, no Vercel):** open **https://rcullens.github.io/ranking-tool/** in **Chrome on the Pixel 9 Pro**:
+A hosted `sixman-rank serve` API is optional and only needed for what-if / webhook ingest. Leave **Phone / APK → Live server URL** blank for the cron-updated board.
+
+**Refresh cadence (America/Chicago):** hourly 10:20–23:20 Thu–Sat, plus late-Saturday hours, plus Monday 11:20 catch-up, plus manual **Actions → Live scores → Run workflow**.
+
+**Phone HTTPS:** open **https://rcullens.github.io/ranking-tool/** in **Chrome on the Pixel**:
 
 1. Chrome menu (⋮) → **Install app** / **Add to Home screen**.
-2. Open **Six-Man** from the home screen. Boards and charts load from the bundled `offline/*.json` snapshot.
-3. Leave **Phone / APK → Live server URL** blank unless you have a public `sixman-rank serve` API.
+2. Open **Six-Man** from the home screen. Search “Aquilla” — she is on the full scrollable list.
+3. Leave the live server URL blank. Sync pulls the same Pages JSON the cron just wrote.
 
-Every push to `main` rebuilds `web/` with `VITE_BASE=/ranking-tool/` and publishes the `gh-pages` branch (workflow `.github/workflows/pages.yml`). The build does **not** run Python or `export-offline`. The JSON under `web/public/offline/` must already be in git (`npm run prebuild` fails if they are missing).
+Every push to `main` rebuilds `web/` with `VITE_BASE=/ranking-tool/` and publishes the `gh-pages` branch (workflow `.github/workflows/pages.yml`). The Pages build does **not** run Python; it ships whatever `web/public/offline/` is in git (`npm run prebuild` fails if they are missing). The live-scores workflow is what keeps those JSON files current.
 
-If Chrome shows **Site not found**, enable Pages once on the phone (no PC): GitHub → **rcullens/ranking-tool** → **Settings** → **Pages** → Deploy from a branch → `gh-pages` / `/` (root) → Save. Stay logged into GitHub in Chrome if the repo is private, or make the repo public so the site is open.
+If Chrome shows **Site not found**, enable Pages once on the phone (no PC): GitHub → **rcullens/ranking-tool** → **Settings** → **Pages** → Deploy from a branch → `gh-pages` / `/` (root) → Save.
 
 ```bash
-# refresh snapshots before a release (on a machine with Python)
-sixman-rank export-offline --out web/public/offline
-git add web/public/offline && git commit && git push origin main
+# on-demand (laptop or Actions → Live scores)
+sixman-rank ingest --export-offline
+git add sixman_rankings/data web/public/offline && git commit && git push origin main
 ```
 
 ## Install and run as an Android APK
@@ -350,16 +357,22 @@ Supported card types: `top_n`, `min_rank`, `not_rank`, `record`, `density_below`
 
 ## Live scores and the comparison graph
 
-UIL does not publish a machine-readable statewide 6-man feed, and [sixmanfootball.com](https://sixmanfootball.com) (the community scoreboard) sits behind Cloudflare with no public API. The live layer is therefore a **puller + webhook + football-night scheduler**, not a pretend UIL scrape.
+UIL does not publish a machine-readable statewide 6-man feed. This repo pulls the **same sources sixmanmadness uses**: MaxPreps school schedule contests (JSON in `__NEXT_DATA__`, both scores, GHA-friendly) and SixManFootball week pages (HTML parser; Cloudflare falls back to a reader or the last cached `data/smf/week-*.md`). DCTF is used there for polls, not box scores.
+
+The **phone path** is GitHub Actions + Pages, not a laptop running `serve`.
 
 ### What runs on Thursday, Friday, and Saturday
 
-`sixman-rank serve` starts FastAPI on port 43127 and a background poller (America/Chicago):
+`.github/workflows/live-scores.yml` (America/Chicago):
 
-- **Thu / Fri / Sat 10:00–23:59**, plus Sunday before 2am for late Saturday games
+- Hourly **10:20–23:20 Thu–Sat**, late-Saturday hours, **Monday 11:20** catch-up, plus **Run workflow**
+- Each run: `sixman-rank ingest --export-offline` → commit games + `web/public/offline` → `pages.yml` republishes
+- `sixman-rank sync --write` and **Sync scores now** on Pages cache-bust that same snapshot
+
+Optional `sixman-rank serve` (port 43127) still polls a JSON feed / webhook for what-if:
+
+- **Thu / Fri / Sat 10:00–23:59**, plus Sunday before 2am
 - Interval: 20 seconds inside the window, 2 minutes off-window (`SIXMAN_SYNC_INTERVAL_SEC` overrides)
-- Each tick: pull `SIXMAN_FEED_URL` if set, merge finals, republish rankings
-- **Sync scores now** in the UI (or `sixman-rank sync --force`) does the same immediately
 
 When every game in the current week is final, the status line flips to **Week N published**.
 
@@ -561,7 +574,7 @@ sixman_rankings/
   io.py            CSV / JSON loaders
   live/            JSON feed, webhook, Thu–Sat window, replay
   web/app.py       FastAPI live board
-  cli.py           sixman-rank {rank, what-if, validate, sync, serve, export-offline}
+  cli.py           sixman-rank {rank, what-if, validate, sync, ingest, serve, export-offline}
   offline.py       JSON snapshots for the Android/PWA shell
 web/               React GUI (Vite + Recharts + Capacitor Android)
   public/offline   bundled rankings the APK opens with

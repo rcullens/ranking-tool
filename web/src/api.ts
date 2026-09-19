@@ -129,6 +129,19 @@ export function publicUrl(path: string): string {
   return `${root}${path.replace(/^\//, "")}`;
 }
 
+let snapshotBust = "";
+
+/** Force the next offline reads to skip a stale Pages/CDN cache. */
+export function bustOfflineCache() {
+  snapshotBust = `v=${Date.now()}`;
+  historyCache = null;
+  sameOriginLive = null;
+}
+
+function offlineCacheQuery(): string {
+  return snapshotBust || `v=${Math.floor(Date.now() / 60_000)}`;
+}
+
 function offlinePath(path: string): string | null {
   const route = path.split("?")[0];
   const map: Record<string, string> = {
@@ -140,7 +153,8 @@ function offlinePath(path: string): string | null {
     "/api/history": "offline/history.json",
   };
   const rel = map[route];
-  return rel ? publicUrl(rel) : null;
+  if (!rel) return null;
+  return `${publicUrl(rel)}?${offlineCacheQuery()}`;
 }
 
 function liveRequired(action: string): Error {
@@ -317,8 +331,13 @@ export const api = {
       historyCache = null;
       return res.json() as Promise<Status>;
     }
-    const status = await readJson<Status>(publicUrl("offline/status.json"));
-    return { ...status, last_result: "offline snapshot · sync needs a live server URL" };
+    // Static Pages: pull the cron-published snapshot (same live pipeline, no PC).
+    bustOfflineCache();
+    const status = await readJson<Status>(publicUrl(`offline/status.json?${snapshotBust}`));
+    return {
+      ...status,
+      last_result: status.last_result || "pulled latest GitHub Pages snapshot",
+    };
   },
   ingest: (payload: unknown) => postLive<{ ok: boolean; updates: number }>("/api/ingest", payload, "Ingest"),
   whatIf: (payload: {

@@ -134,6 +134,24 @@ def build_parser() -> argparse.ArgumentParser:
     sync.add_argument("--data-dir", default=None)
     sync.add_argument("--feed-url", default=None, help="JSON score feed (else SIXMAN_FEED_URL).")
     sync.add_argument("--force", action="store_true", help="Release held demo finals even off-window.")
+    sync.add_argument(
+        "--write",
+        action="store_true",
+        help="Persist fetched UIL games into the data dir and refresh offline JSON.",
+    )
+    sync.add_argument("--skip-maxpreps", action="store_true")
+    sync.add_argument("--skip-smf", action="store_true")
+
+    ingest = sub.add_parser(
+        "ingest",
+        help="Fetch live MaxPreps / SixManFootball scores and rebuild the UIL field.",
+    )
+    ingest.add_argument("--data-dir", default=None)
+    ingest.add_argument("--no-write", action="store_true")
+    ingest.add_argument("--export-offline", action="store_true")
+    ingest.add_argument("--skip-maxpreps", action="store_true")
+    ingest.add_argument("--skip-smf", action="store_true")
+    ingest.add_argument("--season", type=int, default=None)
 
     serve = sub.add_parser("serve", help="Run the live rankings web app (graph + API).")
     serve.add_argument("--host", default="127.0.0.1")
@@ -535,12 +553,57 @@ def _run_sync(args: argparse.Namespace) -> int:
         service = LiveSeasonService.from_data_dir(args.data_dir)
     else:
         service = LiveSeasonService.from_sample()
-    status = service.sync(force_replay=args.force)
+    status = service.sync(
+        force_replay=args.force,
+        live_sources=True,
+        skip_maxpreps=args.skip_maxpreps,
+        skip_smf=args.skip_smf,
+    )
+    if args.write:
+        from pathlib import Path
+
+        from sixman_rankings.catalog import football_season_year, uil_schools
+        from sixman_rankings.live.ingest import write_field
+        from sixman_rankings.offline import write_offline_bundle
+
+        dest = Path(args.data_dir) if args.data_dir else Path("sixman_rankings") / "data"
+        rows = [
+            {
+                "game_id": g.game_id,
+                "week": g.week,
+                "date": g.date,
+                "home_id": g.home_id,
+                "away_id": g.away_id,
+                "home_score": g.home_score,
+                "away_score": g.away_score,
+                "district_game": g.district_game,
+                "neutral": g.neutral,
+            }
+            for g in service.games
+        ]
+        write_field(dest, uil_schools(), rows, season=service.season or football_season_year())
+        write_offline_bundle("web/public/offline", service=service)
+        sys.stdout.write(f"Wrote {dest} and web/public/offline\n")
     sys.stdout.write(
         f"Week {status.current_week}  ·  {status.last_result}  ·  "
         f"{status.finals} finals / {status.scheduled} scheduled\n"
     )
     return 0
+
+
+def _run_ingest(args: argparse.Namespace) -> int:
+    from sixman_rankings.live.ingest import run_ingest
+
+    report = run_ingest(
+        data_dir=args.data_dir,
+        write=not args.no_write,
+        export_offline=args.export_offline,
+        skip_maxpreps=args.skip_maxpreps,
+        skip_smf=args.skip_smf,
+        season=args.season,
+    )
+    sys.stdout.write(report.summary() + "\n")
+    return 0 if report.teams else 1
 
 
 def _run_serve(args: argparse.Namespace) -> int:
@@ -583,7 +646,7 @@ def _run_validate(args: argparse.Namespace) -> int:
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
     raw = list(argv) if argv is not None else sys.argv[1:]
-    commands = {"rank", "what-if", "validate", "sync", "serve", "export-offline"}
+    commands = {"rank", "what-if", "validate", "sync", "serve", "export-offline", "ingest"}
     if not raw or raw[0] not in commands:
         raw = ["rank", *raw]
     args = build_parser().parse_args(raw)
@@ -597,6 +660,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         return _run_serve(args)
     if args.command == "export-offline":
         return _run_export_offline(args)
+    if args.command == "ingest":
+        return _run_ingest(args)
     return _run_rank(args)
 
 

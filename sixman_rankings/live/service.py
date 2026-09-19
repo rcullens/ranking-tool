@@ -409,12 +409,18 @@ class LiveSeasonService:
             "movers": ordered,
         }
 
-    def sync(self, *, force_replay: bool = False) -> LiveStatus:
-        """Pull the JSON feed if configured; otherwise release held sample finals.
+    def sync(
+        self,
+        *,
+        force_replay: bool = False,
+        live_sources: bool = True,
+        skip_maxpreps: bool = False,
+        skip_smf: bool = False,
+    ) -> LiveStatus:
+        """Pull MaxPreps / SMF (and optional JSON feed). Demo replay stays off the UIL board.
 
-        Replay only auto-fires inside the Thu–Sat window (or when ``force_replay``
-        is set, e.g. the Sync Now button) so a Tuesday morning does not invent
-        Friday scores.
+        Replay of held sample finals only runs for the 20-team demo dataset,
+        and only inside the Thu–Sat window (or when ``force_replay`` is set).
         """
 
         with self._lock:
@@ -429,8 +435,30 @@ class LiveSeasonService:
                     notes.append(fetched.detail)
                 else:
                     notes.append(f"feed failed: {fetched.detail}")
+            if live_sources and len(self.teams) > 30 and os.environ.get("SIXMAN_SKIP_LIVE") != "1":
+                try:
+                    from sixman_rankings.catalog import uil_schools
+                    from sixman_rankings.live.ingest import merge_game_rows, pull_maxpreps, pull_smf, rows_as_games
+
+                    schools = uil_schools()
+                    season = self.season or 2026
+                    batches = []
+                    if not skip_maxpreps:
+                        rows, report = pull_maxpreps(schools, season=season)
+                        batches.append(rows)
+                        notes.append(f"maxpreps: {report.detail}")
+                    if not skip_smf:
+                        rows, report = pull_smf(schools, season=season, persist=True)
+                        batches.append(rows)
+                        notes.append(f"smf: {report.detail}")
+                    incoming = rows_as_games(merge_game_rows(batches))
+                    self.games, n = merge_finals(self.games, incoming)
+                    updates += n
+                    self.provider_name = "maxpreps+smf"
+                except Exception as exc:  # noqa: BLE001 — keep the board up if a pull fails
+                    notes.append(f"live ingest failed: {exc}")
             live = in_football_window() or force_replay
-            if live and self._held:
+            if live and self._held and len(self.teams) <= 30:
                 n = self._release_held(self.release_batch)
                 updates += n
                 if n:

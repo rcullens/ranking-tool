@@ -127,7 +127,14 @@ type Props = {
   onCompare: (ids: string[]) => void;
   districtSort: "power" | "standings";
   onDistrictSort: (sort: "power" | "standings") => void;
+  filterQuery?: string;
 };
+
+function matchesQuery(row: RankRow, query: string) {
+  if (!query.trim()) return true;
+  const blob = `${row.name} ${row.team_id} ${row.district} ${row.region} ${row.classification}`.toLowerCase();
+  return blob.includes(query.trim().toLowerCase());
+}
 
 export function BoardSwitcher({ view, onView }: Pick<Props, "view" | "onView">) {
   const tabs: { id: BoardView; label: string }[] = [
@@ -161,21 +168,30 @@ export function RankingBoards({
   onCompare,
   districtSort,
   onDistrictSort,
+  filterQuery = "",
 }: Props) {
   if (view === "statewide") {
+    const filtered = statewide.filter((row) => matchesQuery(row, filterQuery));
     return (
       <div className="overflow-hidden rounded-xl border border-stone-200 bg-white shadow-sm">
         <p className="border-b border-stone-100 px-3 py-2 text-xs text-stone-500">
           {statewide.length} UIL six-man team{statewide.length === 1 ? "" : "s"} · ranks 1
           {statewide.length ? `–${statewide.length}` : ""} · scroll for the full field
+          {filterQuery.trim()
+            ? ` · showing ${filtered.length} match${filtered.length === 1 ? "" : "es"} for “${filterQuery.trim()}”`
+            : ""}
         </p>
         <RankTable
-          rows={statewide}
+          rows={filtered}
           selected={selected}
           onToggle={onToggle}
           showDistrictWl
           showRegion
-          empty="No rankings yet — waiting on the first final."
+          empty={
+            filterQuery.trim()
+              ? `No team matches “${filterQuery.trim()}”.`
+              : "No rankings yet — waiting on the first final."
+          }
         />
       </div>
     );
