@@ -1,0 +1,24 @@
+{
+  "pulled_at": "2026-09-19T02:16:08.828786-05:00",
+  "season": 2026,
+  "teams": 159,
+  "games": 713,
+  "finals": 240,
+  "sources": [
+    {
+      "name": "maxpreps",
+      "ok": true,
+      "detail": "153 school pages, 6 missed, 233 UIL-vs-UIL finals",
+      "games": 710,
+      "finals": 233
+    },
+    {
+      "name": "sixmanfootball",
+      "ok": true,
+      "detail": "weeks 0\u20135 (6 live, 0 cached), 231 finals",
+      "games": 288,
+      "finals": 231
+    }
+  ],
+  "note": "Live UIL 1A six-man results. Pages board refreshes via GitHub Actions cron."
+}

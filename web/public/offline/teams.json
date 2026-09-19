@@ -1,14 +1,14 @@
 {
   "teams": [
     {
-      "team_id": "westbrook",
-      "name": "Westbrook",
+      "team_id": "borden-county",
+      "name": "Borden County",
       "district": "5-1A DI",
       "region": "west-texas",
       "classification": "1A DI",
       "rank": 1,
-      "record": "0-1",
-      "power": 1678.36
+      "record": "4-0",
+      "power": 1693.78
     },
     {
       "team_id": "klondike",
@@ -17,468 +17,8 @@
       "region": "west-texas",
       "classification": "1A DI",
       "rank": 2,
-      "record": "0-1",
-      "power": 1672.84
-    },
-    {
-      "team_id": "strawn",
-      "name": "Strawn",
-      "district": "11-1A DII",
-      "region": "north-central",
-      "classification": "1A DII",
-      "rank": 3,
-      "record": "0-0",
-      "power": 1639.93
-    },
-    {
-      "team_id": "whiteface",
-      "name": "Whiteface",
-      "district": "2-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 4,
-      "record": "0-0",
-      "power": 1639.53
-    },
-    {
-      "team_id": "motley-county",
-      "name": "Motley County",
-      "district": "2-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 5,
-      "record": "1-0",
-      "power": 1637.21
-    },
-    {
-      "team_id": "robert-lee",
-      "name": "Robert Lee",
-      "district": "7-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 6,
-      "record": "0-1",
-      "power": 1636.71
-    },
-    {
-      "team_id": "borden-county",
-      "name": "Borden County",
-      "district": "5-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 7,
-      "record": "0-0",
-      "power": 1632.21
-    },
-    {
-      "team_id": "booker",
-      "name": "Booker",
-      "district": "1-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 8,
-      "record": "0-1",
-      "power": 1630.73
-    },
-    {
-      "team_id": "gordon",
-      "name": "Gordon",
-      "district": "10-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 9,
-      "record": "1-0",
-      "power": 1630.09
-    },
-    {
-      "team_id": "apple-springs",
-      "name": "Apple Springs",
-      "district": "15-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 10,
-      "record": "0-1",
-      "power": 1627.56
-    },
-    {
-      "team_id": "jayton",
-      "name": "Jayton",
-      "district": "4-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 11,
-      "record": "0-0",
-      "power": 1625.63
-    },
-    {
-      "team_id": "sands",
-      "name": "Sands",
-      "district": "5-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 12,
-      "record": "1-1",
-      "power": 1617.41
-    },
-    {
-      "team_id": "paducah",
-      "name": "Paducah",
-      "district": "2-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 13,
-      "record": "0-0",
-      "power": 1613.68
-    },
-    {
-      "team_id": "cherokee",
-      "name": "Cherokee",
-      "district": "8-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 14,
-      "record": "0-0",
-      "power": 1612.85
-    },
-    {
-      "team_id": "richland-springs",
-      "name": "Richland Springs",
-      "district": "8-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 15,
-      "record": "2-0",
-      "power": 1612.53
-    },
-    {
-      "team_id": "nazareth",
-      "name": "Nazareth",
-      "district": "2-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 16,
-      "record": "0-0",
-      "power": 1610.27
-    },
-    {
-      "team_id": "aquilla",
-      "name": "Aquilla",
-      "district": "14-1A DI",
-      "region": "central-east-south",
-      "classification": "1A DI",
-      "rank": 17,
-      "record": "0-0",
-      "power": 1608.75
-    },
-    {
-      "team_id": "menard",
-      "name": "Menard",
-      "district": "8-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 18,
-      "record": "1-0",
-      "power": 1607.36
-    },
-    {
-      "team_id": "balmorhea",
-      "name": "Balmorhea",
-      "district": "6-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 19,
-      "record": "0-0",
-      "power": 1605.63
-    },
-    {
-      "team_id": "valley",
-      "name": "Valley",
-      "district": "2-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 20,
-      "record": "1-1",
-      "power": 1601.82
-    },
-    {
-      "team_id": "trinidad",
-      "name": "Trinidad",
-      "district": "14-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 21,
-      "record": "0-1",
-      "power": 1596.44
-    },
-    {
-      "team_id": "union-hill",
-      "name": "Union Hill",
-      "district": "13-1A DI",
-      "region": "central-east-south",
-      "classification": "1A DI",
-      "rank": 22,
-      "record": "1-0",
-      "power": 1594.53
-    },
-    {
-      "team_id": "iredell",
-      "name": "Iredell",
-      "district": "13-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 23,
-      "record": "0-1",
-      "power": 1590.74
-    },
-    {
-      "team_id": "oakwood",
-      "name": "Oakwood",
-      "district": "14-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 24,
-      "record": "1-1",
-      "power": 1590.08
-    },
-    {
-      "team_id": "zephyr",
-      "name": "Zephyr",
-      "district": "12-1A DII",
-      "region": "north-central",
-      "classification": "1A DII",
-      "rank": 25,
-      "record": "2-1",
-      "power": 1589.14
-    },
-    {
-      "team_id": "fannindel",
-      "name": "Fannindel",
-      "district": "14-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 26,
-      "record": "0-0",
-      "power": 1585.44
-    },
-    {
-      "team_id": "roby",
-      "name": "Roby",
-      "district": "4-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 27,
-      "record": "0-0",
-      "power": 1582.66
-    },
-    {
-      "team_id": "high-island",
-      "name": "High Island",
-      "district": "15-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 28,
-      "record": "0-1",
-      "power": 1581.94
-    },
-    {
-      "team_id": "milford",
-      "name": "Milford",
-      "district": "11-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 29,
-      "record": "0-0",
-      "power": 1578.97
-    },
-    {
-      "team_id": "mount-calm",
-      "name": "Mount Calm",
-      "district": "14-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 30,
-      "record": "0-0",
-      "power": 1577.38
-    },
-    {
-      "team_id": "calvert",
-      "name": "Calvert",
-      "district": "15-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 31,
-      "record": "0-1",
-      "power": 1574.75
-    },
-    {
-      "team_id": "grandfalls-royalty",
-      "name": "Grandfalls-Royalty",
-      "district": "6-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 32,
-      "record": "0-0",
-      "power": 1573.36
-    },
-    {
-      "team_id": "abbott",
-      "name": "Abbott",
-      "district": "14-1A DI",
-      "region": "central-east-south",
-      "classification": "1A DI",
-      "rank": 33,
-      "record": "0-0",
-      "power": 1571.51
-    },
-    {
-      "team_id": "may",
-      "name": "May",
-      "district": "10-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 34,
-      "record": "0-1",
-      "power": 1566.88
-    },
-    {
-      "team_id": "water-valley",
-      "name": "Water Valley",
-      "district": "8-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 35,
-      "record": "2-0",
-      "power": 1564.3
-    },
-    {
-      "team_id": "sidney",
-      "name": "Sidney",
-      "district": "11-1A DII",
-      "region": "north-central",
-      "classification": "1A DII",
-      "rank": 36,
-      "record": "0-0",
-      "power": 1564.06
-    },
-    {
-      "team_id": "three-way",
-      "name": "Three Way",
-      "district": "13-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 37,
-      "record": "1-1",
-      "power": 1560.81
-    },
-    {
-      "team_id": "rochelle",
-      "name": "Rochelle",
-      "district": "8-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 38,
-      "record": "0-1",
-      "power": 1559.79
-    },
-    {
-      "team_id": "panther-creek",
-      "name": "Panther Creek",
-      "district": "7-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 39,
-      "record": "0-1",
-      "power": 1559.19
-    },
-    {
-      "team_id": "medina",
-      "name": "Medina",
-      "district": "16-1A DI",
-      "region": "central-east-south",
-      "classification": "1A DI",
-      "rank": 40,
-      "record": "1-0",
-      "power": 1555.28
-    },
-    {
-      "team_id": "jonesboro",
-      "name": "Jonesboro",
-      "district": "15-1A DI",
-      "region": "central-east-south",
-      "classification": "1A DI",
-      "rank": 41,
-      "record": "1-1",
-      "power": 1555.18
-    },
-    {
-      "team_id": "hermleigh",
-      "name": "Hermleigh",
-      "district": "4-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 42,
-      "record": "0-0",
-      "power": 1554.27
-    },
-    {
-      "team_id": "knox-city",
-      "name": "Knox City",
-      "district": "9-1A DII",
-      "region": "north-central",
-      "classification": "1A DII",
-      "rank": 43,
-      "record": "2-1",
-      "power": 1552.42
-    },
-    {
-      "team_id": "guthrie",
-      "name": "Guthrie",
-      "district": "2-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 44,
-      "record": "0-0",
-      "power": 1550.99
-    },
-    {
-      "team_id": "lometa",
-      "name": "Lometa",
-      "district": "15-1A DI",
-      "region": "central-east-south",
-      "classification": "1A DI",
-      "rank": 45,
       "record": "1-2",
-      "power": 1550.91
-    },
-    {
-      "team_id": "bronte",
-      "name": "Bronte",
-      "district": "7-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 46,
-      "record": "0-1",
-      "power": 1549.43
-    },
-    {
-      "team_id": "gustine",
-      "name": "Gustine",
-      "district": "12-1A DII",
-      "region": "north-central",
-      "classification": "1A DII",
-      "rank": 47,
-      "record": "1-1",
-      "power": 1548.86
-    },
-    {
-      "team_id": "bluff-dale",
-      "name": "Bluff Dale",
-      "district": "11-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 48,
-      "record": "1-1",
-      "power": 1547.25
+      "power": 1646.8
     },
     {
       "team_id": "rankin",
@@ -486,199 +26,99 @@
       "district": "6-1A DI",
       "region": "west-texas",
       "classification": "1A DI",
-      "rank": 49,
-      "record": "2-0",
-      "power": 1544.47
+      "rank": 3,
+      "record": "2-2",
+      "power": 1645.6
     },
     {
-      "team_id": "meadow",
-      "name": "Meadow",
-      "district": "4-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 50,
-      "record": "0-0",
-      "power": 1544.43
-    },
-    {
-      "team_id": "harrold",
-      "name": "Harrold",
-      "district": "10-1A DII",
-      "region": "north-central",
-      "classification": "1A DII",
-      "rank": 51,
-      "record": "0-0",
-      "power": 1540.3
-    },
-    {
-      "team_id": "springlake-earth",
-      "name": "Springlake-Earth",
-      "district": "2-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 52,
-      "record": "0-1",
-      "power": 1539.75
-    },
-    {
-      "team_id": "garden-city",
-      "name": "Garden City",
-      "district": "6-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 53,
-      "record": "0-0",
-      "power": 1537.47
-    },
-    {
-      "team_id": "blackwell",
-      "name": "Blackwell",
-      "district": "7-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 54,
-      "record": "0-0",
-      "power": 1535.55
-    },
-    {
-      "team_id": "ira",
-      "name": "Ira",
-      "district": "5-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 55,
-      "record": "0-0",
-      "power": 1535.36
-    },
-    {
-      "team_id": "newcastle",
-      "name": "Newcastle",
-      "district": "9-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 56,
-      "record": "1-0",
-      "power": 1535.24
-    },
-    {
-      "team_id": "oglesby",
-      "name": "Oglesby",
-      "district": "15-1A DI",
-      "region": "central-east-south",
-      "classification": "1A DI",
-      "rank": 57,
-      "record": "1-0",
-      "power": 1532.56
-    },
-    {
-      "team_id": "sterling-city",
-      "name": "Sterling City",
+      "team_id": "water-valley",
+      "name": "Water Valley",
       "district": "8-1A DI",
       "region": "west-texas",
       "classification": "1A DI",
-      "rank": 58,
-      "record": "0-0",
-      "power": 1532.46
+      "rank": 4,
+      "record": "4-0",
+      "power": 1645.49
     },
     {
-      "team_id": "avalon",
-      "name": "Avalon",
-      "district": "11-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 59,
-      "record": "0-1",
-      "power": 1529.31
-    },
-    {
-      "team_id": "whitharral",
-      "name": "Whitharral",
-      "district": "2-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 60,
-      "record": "0-0",
-      "power": 1528.43
-    },
-    {
-      "team_id": "lefors",
-      "name": "Lefors",
-      "district": "1-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 61,
-      "record": "0-1",
-      "power": 1528.21
-    },
-    {
-      "team_id": "wellman-union",
-      "name": "Wellman-Union",
-      "district": "4-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 62,
-      "record": "1-1",
-      "power": 1527.92
-    },
-    {
-      "team_id": "aspermont",
-      "name": "Aspermont",
-      "district": "4-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 63,
-      "record": "0-0",
-      "power": 1526.32
-    },
-    {
-      "team_id": "rising-star",
-      "name": "Rising Star",
+      "team_id": "strawn",
+      "name": "Strawn",
       "district": "11-1A DII",
       "region": "north-central",
       "classification": "1A DII",
-      "rank": 64,
-      "record": "1-1",
-      "power": 1526.15
+      "rank": 5,
+      "record": "2-1",
+      "power": 1643.84
     },
     {
-      "team_id": "groom",
-      "name": "Groom",
-      "district": "1-1A DII",
-      "region": "panhandle",
+      "team_id": "richland-springs",
+      "name": "Richland Springs",
+      "district": "8-1A DII",
+      "region": "west-texas",
       "classification": "1A DII",
-      "rank": 65,
-      "record": "0-1",
-      "power": 1525.97
+      "rank": 6,
+      "record": "4-0",
+      "power": 1641.49
     },
     {
-      "team_id": "lorenzo",
-      "name": "Lorenzo",
-      "district": "3-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 66,
-      "record": "0-1",
-      "power": 1525.82
-    },
-    {
-      "team_id": "happy",
-      "name": "Happy",
-      "district": "3-1A DI",
+      "team_id": "whiteface",
+      "name": "Whiteface",
+      "district": "2-1A DI",
       "region": "panhandle",
       "classification": "1A DI",
-      "rank": 67,
-      "record": "0-1",
-      "power": 1525.38
+      "rank": 7,
+      "record": "3-1",
+      "power": 1638.58
     },
     {
-      "team_id": "knippa",
-      "name": "Knippa",
-      "district": "16-1A DI",
+      "team_id": "menard",
+      "name": "Menard",
+      "district": "8-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 8,
+      "record": "3-0",
+      "power": 1637.44
+    },
+    {
+      "team_id": "jayton",
+      "name": "Jayton",
+      "district": "4-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 9,
+      "record": "4-0",
+      "power": 1629.45
+    },
+    {
+      "team_id": "union-hill",
+      "name": "Union Hill",
+      "district": "13-1A DI",
       "region": "central-east-south",
       "classification": "1A DI",
-      "rank": 68,
-      "record": "0-1",
-      "power": 1524.6
+      "rank": 10,
+      "record": "2-0",
+      "power": 1628.47
+    },
+    {
+      "team_id": "sands",
+      "name": "Sands",
+      "district": "5-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 11,
+      "record": "3-1",
+      "power": 1628.17
+    },
+    {
+      "team_id": "motley-county",
+      "name": "Motley County",
+      "district": "2-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 12,
+      "record": "5-0",
+      "power": 1623.49
     },
     {
       "team_id": "mclean",
@@ -686,259 +126,129 @@
       "district": "1-1A DII",
       "region": "panhandle",
       "classification": "1A DII",
-      "rank": 69,
-      "record": "1-0",
-      "power": 1524.59
-    },
-    {
-      "team_id": "chillicothe",
-      "name": "Chillicothe",
-      "district": "2-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 70,
-      "record": "0-0",
-      "power": 1518.85
-    },
-    {
-      "team_id": "lazbuddie",
-      "name": "Lazbuddie",
-      "district": "3-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 71,
-      "record": "0-1",
-      "power": 1516.71
-    },
-    {
-      "team_id": "leakey",
-      "name": "Leakey",
-      "district": "16-1A DI",
-      "region": "central-east-south",
-      "classification": "1A DI",
-      "rank": 72,
-      "record": "0-1",
-      "power": 1515.9
-    },
-    {
-      "team_id": "bryson",
-      "name": "Bryson",
-      "district": "9-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 73,
-      "record": "0-0",
-      "power": 1515.05
-    },
-    {
-      "team_id": "forestburg",
-      "name": "Forestburg",
-      "district": "10-1A DII",
-      "region": "north-central",
-      "classification": "1A DII",
-      "rank": 74,
-      "record": "0-1",
-      "power": 1512.18
-    },
-    {
-      "team_id": "cranfills-gap",
-      "name": "Cranfills Gap",
-      "district": "13-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 75,
-      "record": "0-0",
-      "power": 1512.16
-    },
-    {
-      "team_id": "perrin-whitt",
-      "name": "Perrin-Whitt",
-      "district": "9-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 76,
-      "record": "0-0",
-      "power": 1511.91
-    },
-    {
-      "team_id": "amherst",
-      "name": "Amherst",
-      "district": "3-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 77,
-      "record": "0-1",
-      "power": 1511.19
-    },
-    {
-      "team_id": "rocksprings",
-      "name": "Rocksprings",
-      "district": "6-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 78,
+      "rank": 13,
       "record": "1-1",
-      "power": 1509.47
+      "power": 1621.16
     },
     {
-      "team_id": "claude",
-      "name": "Claude",
-      "district": "1-1A DI",
-      "region": "panhandle",
+      "team_id": "newcastle",
+      "name": "Newcastle",
+      "district": "9-1A DI",
+      "region": "north-central",
       "classification": "1A DI",
-      "rank": 79,
-      "record": "0-0",
-      "power": 1507.58
+      "rank": 14,
+      "record": "2-1",
+      "power": 1619.67
     },
     {
-      "team_id": "loraine",
-      "name": "Loraine",
-      "district": "7-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 80,
-      "record": "0-3",
-      "power": 1505.12
-    },
-    {
-      "team_id": "bynum",
-      "name": "Bynum",
+      "team_id": "oakwood",
+      "name": "Oakwood",
       "district": "14-1A DII",
       "region": "central-east-south",
       "classification": "1A DII",
-      "rank": 81,
-      "record": "0-0",
-      "power": 1504.78
+      "rank": 15,
+      "record": "1-3",
+      "power": 1613.82
     },
     {
-      "team_id": "saint-jo",
-      "name": "Saint Jo",
-      "district": "12-1A DI",
-      "region": "north-central",
+      "team_id": "oglesby",
+      "name": "Oglesby",
+      "district": "15-1A DI",
+      "region": "central-east-south",
       "classification": "1A DI",
-      "rank": 82,
-      "record": "0-1",
-      "power": 1504.38
+      "rank": 16,
+      "record": "2-1",
+      "power": 1613.76
     },
     {
-      "team_id": "runge",
-      "name": "Runge",
-      "district": "16-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 83,
-      "record": "1-0",
-      "power": 1503.3
-    },
-    {
-      "team_id": "kopperl",
-      "name": "Kopperl",
-      "district": "13-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 84,
-      "record": "1-0",
-      "power": 1502.93
-    },
-    {
-      "team_id": "cotton-center",
-      "name": "Cotton Center",
-      "district": "3-1A DII",
+      "team_id": "paducah",
+      "name": "Paducah",
+      "district": "2-1A DII",
       "region": "panhandle",
       "classification": "1A DII",
-      "rank": 85,
-      "record": "0-0",
-      "power": 1500.76
+      "rank": 17,
+      "record": "2-1",
+      "power": 1609.57
     },
     {
-      "team_id": "fort-davis",
-      "name": "Fort Davis",
-      "district": "5-1A DII",
+      "team_id": "cherokee",
+      "name": "Cherokee",
+      "district": "8-1A DII",
       "region": "west-texas",
       "classification": "1A DII",
-      "rank": 86,
-      "record": "0-0",
-      "power": 1500.76
+      "rank": 18,
+      "record": "4-0",
+      "power": 1609.15
     },
     {
-      "team_id": "hedley",
-      "name": "Hedley",
-      "district": "1-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 87,
-      "record": "0-0",
-      "power": 1500.76
-    },
-    {
-      "team_id": "priddy",
-      "name": "Priddy",
-      "district": "12-1A DII",
-      "region": "north-central",
-      "classification": "1A DII",
-      "rank": 88,
-      "record": "0-0",
-      "power": 1500.76
-    },
-    {
-      "team_id": "san-perlita",
-      "name": "San Perlita",
-      "district": "16-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 89,
-      "record": "0-0",
-      "power": 1500.76
-    },
-    {
-      "team_id": "wilson",
-      "name": "Wilson",
-      "district": "4-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 90,
-      "record": "0-0",
-      "power": 1500.76
-    },
-    {
-      "team_id": "northside",
-      "name": "Northside",
-      "district": "9-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 91,
-      "record": "1-0",
-      "power": 1500.27
-    },
-    {
-      "team_id": "trent",
-      "name": "Trent",
-      "district": "7-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 92,
-      "record": "0-1",
-      "power": 1498.27
-    },
-    {
-      "team_id": "buena-vista",
-      "name": "Buena Vista",
-      "district": "6-1A DI",
+      "team_id": "westbrook",
+      "name": "Westbrook",
+      "district": "5-1A DI",
       "region": "west-texas",
       "classification": "1A DI",
-      "rank": 93,
-      "record": "0-0",
-      "power": 1497.21
+      "rank": 19,
+      "record": "2-2",
+      "power": 1605.15
     },
     {
-      "team_id": "benjamin",
-      "name": "Benjamin",
-      "district": "9-1A DII",
+      "team_id": "nazareth",
+      "name": "Nazareth",
+      "district": "2-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 20,
+      "record": "2-2",
+      "power": 1604.94
+    },
+    {
+      "team_id": "gordon",
+      "name": "Gordon",
+      "district": "10-1A DI",
       "region": "north-central",
+      "classification": "1A DI",
+      "rank": 21,
+      "record": "3-0",
+      "power": 1603.94
+    },
+    {
+      "team_id": "robert-lee",
+      "name": "Robert Lee",
+      "district": "7-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 22,
+      "record": "2-2",
+      "power": 1597.84
+    },
+    {
+      "team_id": "valley",
+      "name": "Valley",
+      "district": "2-1A DII",
+      "region": "panhandle",
       "classification": "1A DII",
-      "rank": 94,
-      "record": "0-0",
-      "power": 1496.81
+      "rank": 23,
+      "record": "2-2",
+      "power": 1590.53
+    },
+    {
+      "team_id": "aspermont",
+      "name": "Aspermont",
+      "district": "4-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 24,
+      "record": "3-1",
+      "power": 1589.83
+    },
+    {
+      "team_id": "may",
+      "name": "May",
+      "district": "10-1A DI",
+      "region": "north-central",
+      "classification": "1A DI",
+      "rank": 25,
+      "record": "0-4",
+      "power": 1589.75
     },
     {
       "team_id": "coolidge",
@@ -946,109 +256,79 @@
       "district": "14-1A DI",
       "region": "central-east-south",
       "classification": "1A DI",
-      "rank": 95,
-      "record": "1-0",
-      "power": 1492.3
+      "rank": 26,
+      "record": "3-0",
+      "power": 1588.4
     },
     {
-      "team_id": "gold-burg",
-      "name": "Gold-Burg",
-      "district": "10-1A DII",
-      "region": "north-central",
-      "classification": "1A DII",
-      "rank": 96,
-      "record": "1-1",
-      "power": 1490.42
-    },
-    {
-      "team_id": "odonnell",
-      "name": "O'Donnell",
-      "district": "5-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 97,
-      "record": "2-0",
-      "power": 1489.91
-    },
-    {
-      "team_id": "southland",
-      "name": "Southland",
-      "district": "4-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 98,
-      "record": "0-1",
-      "power": 1489.35
-    },
-    {
-      "team_id": "irion-county",
-      "name": "Irion County",
-      "district": "8-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 99,
-      "record": "0-0",
-      "power": 1487.12
-    },
-    {
-      "team_id": "chester",
-      "name": "Chester",
-      "district": "13-1A DI",
+      "team_id": "jonesboro",
+      "name": "Jonesboro",
+      "district": "15-1A DI",
       "region": "central-east-south",
       "classification": "1A DI",
-      "rank": 100,
-      "record": "1-0",
-      "power": 1486.88
+      "rank": 27,
+      "record": "1-2",
+      "power": 1588.04
     },
     {
-      "team_id": "petersburg",
-      "name": "Petersburg",
-      "district": "3-1A DI",
-      "region": "panhandle",
+      "team_id": "bluff-dale",
+      "name": "Bluff Dale",
+      "district": "11-1A DI",
+      "region": "north-central",
       "classification": "1A DI",
-      "rank": 101,
-      "record": "1-1",
-      "power": 1485.98
+      "rank": 28,
+      "record": "1-2",
+      "power": 1587.72
     },
     {
-      "team_id": "boys-ranch",
-      "name": "Boys Ranch",
-      "district": "1-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 102,
-      "record": "0-0",
-      "power": 1485.13
-    },
-    {
-      "team_id": "miami",
-      "name": "Miami",
-      "district": "1-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 103,
-      "record": "0-0",
-      "power": 1481.99
-    },
-    {
-      "team_id": "eden",
-      "name": "Eden",
-      "district": "8-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 104,
-      "record": "0-0",
-      "power": 1480.36
-    },
-    {
-      "team_id": "blanket",
-      "name": "Blanket",
+      "team_id": "zephyr",
+      "name": "Zephyr",
       "district": "12-1A DII",
       "region": "north-central",
       "classification": "1A DII",
-      "rank": 105,
-      "record": "1-0",
-      "power": 1476.71
+      "rank": 29,
+      "record": "3-1",
+      "power": 1587.25
+    },
+    {
+      "team_id": "hermleigh",
+      "name": "Hermleigh",
+      "district": "4-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 30,
+      "record": "3-0",
+      "power": 1585.79
+    },
+    {
+      "team_id": "knox-city",
+      "name": "Knox City",
+      "district": "9-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
+      "rank": 31,
+      "record": "3-1",
+      "power": 1581.63
+    },
+    {
+      "team_id": "high-island",
+      "name": "High Island",
+      "district": "15-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 32,
+      "record": "0-1",
+      "power": 1581.0
+    },
+    {
+      "team_id": "gustine",
+      "name": "Gustine",
+      "district": "12-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
+      "rank": 33,
+      "record": "3-1",
+      "power": 1580.61
     },
     {
       "team_id": "hart",
@@ -1056,119 +336,329 @@
       "district": "3-1A DII",
       "region": "panhandle",
       "classification": "1A DII",
-      "rank": 106,
-      "record": "1-0",
-      "power": 1476.64
+      "rank": 34,
+      "record": "3-0",
+      "power": 1576.53
     },
     {
-      "team_id": "paint-creek",
-      "name": "Paint Creek",
-      "district": "9-1A DII",
-      "region": "north-central",
-      "classification": "1A DII",
-      "rank": 107,
-      "record": "0-1",
-      "power": 1474.19
-    },
-    {
-      "team_id": "throckmorton",
-      "name": "Throckmorton",
+      "team_id": "harrold",
+      "name": "Harrold",
       "district": "10-1A DII",
       "region": "north-central",
       "classification": "1A DII",
-      "rank": 108,
-      "record": "0-2",
-      "power": 1472.03
+      "rank": 35,
+      "record": "1-2",
+      "power": 1572.76
     },
     {
-      "team_id": "marfa",
-      "name": "Marfa",
-      "district": "5-1A DII",
+      "team_id": "chester",
+      "name": "Chester",
+      "district": "13-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
+      "rank": 36,
+      "record": "2-0",
+      "power": 1568.91
+    },
+    {
+      "team_id": "medina",
+      "name": "Medina",
+      "district": "16-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
+      "rank": 37,
+      "record": "1-0",
+      "power": 1568.13
+    },
+    {
+      "team_id": "grandfalls-royalty",
+      "name": "Grandfalls-Royalty",
+      "district": "6-1A DII",
       "region": "west-texas",
       "classification": "1A DII",
-      "rank": 109,
-      "record": "0-0",
-      "power": 1470.63
-    },
-    {
-      "team_id": "loop",
-      "name": "Loop",
-      "district": "4-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "rank": 110,
-      "record": "0-2",
-      "power": 1466.3
-    },
-    {
-      "team_id": "gorman",
-      "name": "Gorman",
-      "district": "10-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 111,
-      "record": "0-0",
-      "power": 1460.27
-    },
-    {
-      "team_id": "rotan",
-      "name": "Rotan",
-      "district": "4-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 112,
+      "rank": 38,
       "record": "1-1",
-      "power": 1445.93
+      "power": 1567.81
     },
     {
-      "team_id": "evant",
-      "name": "Evant",
+      "team_id": "blackwell",
+      "name": "Blackwell",
+      "district": "7-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "rank": 39,
+      "record": "2-2",
+      "power": 1567.54
+    },
+    {
+      "team_id": "sidney",
+      "name": "Sidney",
+      "district": "11-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
+      "rank": 40,
+      "record": "1-3",
+      "power": 1567.11
+    },
+    {
+      "team_id": "runge",
+      "name": "Runge",
+      "district": "16-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 41,
+      "record": "1-0",
+      "power": 1564.49
+    },
+    {
+      "team_id": "three-way",
+      "name": "Three Way",
+      "district": "13-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 42,
+      "record": "2-1",
+      "power": 1563.22
+    },
+    {
+      "team_id": "apple-springs",
+      "name": "Apple Springs",
+      "district": "15-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 43,
+      "record": "0-2",
+      "power": 1561.25
+    },
+    {
+      "team_id": "lometa",
+      "name": "Lometa",
       "district": "15-1A DI",
       "region": "central-east-south",
       "classification": "1A DI",
-      "rank": 113,
-      "record": "0-1",
-      "power": 1444.86
+      "rank": 44,
+      "record": "1-2",
+      "power": 1556.24
     },
     {
-      "team_id": "blum",
-      "name": "Blum",
+      "team_id": "abbott",
+      "name": "Abbott",
+      "district": "14-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
+      "rank": 45,
+      "record": "1-1",
+      "power": 1553.61
+    },
+    {
+      "team_id": "roby",
+      "name": "Roby",
+      "district": "4-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 46,
+      "record": "1-1",
+      "power": 1553.36
+    },
+    {
+      "team_id": "northside",
+      "name": "Northside",
+      "district": "9-1A DI",
+      "region": "north-central",
+      "classification": "1A DI",
+      "rank": 47,
+      "record": "4-0",
+      "power": 1553.34
+    },
+    {
+      "team_id": "trinidad",
+      "name": "Trinidad",
+      "district": "14-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 48,
+      "record": "1-1",
+      "power": 1551.52
+    },
+    {
+      "team_id": "garden-city",
+      "name": "Garden City",
+      "district": "6-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 49,
+      "record": "2-2",
+      "power": 1551.36
+    },
+    {
+      "team_id": "milford",
+      "name": "Milford",
       "district": "11-1A DI",
       "region": "north-central",
       "classification": "1A DI",
-      "rank": 114,
-      "record": "0-0",
-      "power": 1442.78
+      "rank": 50,
+      "record": "1-0",
+      "power": 1550.95
     },
     {
-      "team_id": "woodson",
-      "name": "Woodson",
+      "team_id": "aquilla",
+      "name": "Aquilla",
+      "district": "14-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
+      "rank": 51,
+      "record": "3-0",
+      "power": 1548.55
+    },
+    {
+      "team_id": "sterling-city",
+      "name": "Sterling City",
+      "district": "8-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 52,
+      "record": "2-2",
+      "power": 1547.69
+    },
+    {
+      "team_id": "rocksprings",
+      "name": "Rocksprings",
+      "district": "6-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "rank": 53,
+      "record": "3-1",
+      "power": 1545.14
+    },
+    {
+      "team_id": "calvert",
+      "name": "Calvert",
+      "district": "15-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 54,
+      "record": "0-2",
+      "power": 1543.02
+    },
+    {
+      "team_id": "boys-ranch",
+      "name": "Boys Ranch",
+      "district": "1-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 55,
+      "record": "4-0",
+      "power": 1542.44
+    },
+    {
+      "team_id": "booker",
+      "name": "Booker",
+      "district": "1-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 56,
+      "record": "3-1",
+      "power": 1540.71
+    },
+    {
+      "team_id": "blanket",
+      "name": "Blanket",
+      "district": "12-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
+      "rank": 57,
+      "record": "2-2",
+      "power": 1539.89
+    },
+    {
+      "team_id": "claude",
+      "name": "Claude",
+      "district": "1-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 58,
+      "record": "2-2",
+      "power": 1535.4
+    },
+    {
+      "team_id": "ira",
+      "name": "Ira",
+      "district": "5-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 59,
+      "record": "0-3",
+      "power": 1533.12
+    },
+    {
+      "team_id": "bryson",
+      "name": "Bryson",
+      "district": "9-1A DI",
+      "region": "north-central",
+      "classification": "1A DI",
+      "rank": 60,
+      "record": "2-2",
+      "power": 1531.43
+    },
+    {
+      "team_id": "happy",
+      "name": "Happy",
+      "district": "3-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 61,
+      "record": "1-3",
+      "power": 1528.25
+    },
+    {
+      "team_id": "whitharral",
+      "name": "Whitharral",
+      "district": "2-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 62,
+      "record": "1-3",
+      "power": 1526.44
+    },
+    {
+      "team_id": "gold-burg",
+      "name": "Gold-Burg",
       "district": "10-1A DII",
       "region": "north-central",
       "classification": "1A DII",
-      "rank": 115,
-      "record": "2-1",
-      "power": 1442.43
+      "rank": 63,
+      "record": "1-2",
+      "power": 1526.19
     },
     {
-      "team_id": "baird",
-      "name": "Baird",
-      "district": "7-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 116,
-      "record": "0-2",
-      "power": 1440.49
-    },
-    {
-      "team_id": "follett",
-      "name": "Follett",
-      "district": "1-1A DII",
+      "team_id": "meadow",
+      "name": "Meadow",
+      "district": "4-1A DII",
       "region": "panhandle",
       "classification": "1A DII",
-      "rank": 117,
-      "record": "0-0",
-      "power": 1440.24
+      "rank": 64,
+      "record": "3-1",
+      "power": 1525.1
+    },
+    {
+      "team_id": "rochelle",
+      "name": "Rochelle",
+      "district": "8-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "rank": 65,
+      "record": "1-3",
+      "power": 1524.19
+    },
+    {
+      "team_id": "rising-star",
+      "name": "Rising Star",
+      "district": "11-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
+      "rank": 66,
+      "record": "3-1",
+      "power": 1523.46
     },
     {
       "team_id": "grady",
@@ -1176,79 +666,209 @@
       "district": "6-1A DI",
       "region": "west-texas",
       "classification": "1A DI",
-      "rank": 118,
-      "record": "1-0",
-      "power": 1434.83
+      "rank": 67,
+      "record": "2-0",
+      "power": 1522.95
     },
     {
-      "team_id": "benavides",
-      "name": "Benavides",
-      "district": "16-1A DII",
+      "team_id": "fannindel",
+      "name": "Fannindel",
+      "district": "14-1A DII",
       "region": "central-east-south",
       "classification": "1A DII",
-      "rank": 119,
-      "record": "0-0",
-      "power": 1432.18
+      "rank": 68,
+      "record": "1-0",
+      "power": 1522.8
     },
     {
-      "team_id": "walnut-springs",
-      "name": "Walnut Springs",
+      "team_id": "iredell",
+      "name": "Iredell",
       "district": "13-1A DII",
       "region": "central-east-south",
       "classification": "1A DII",
-      "rank": 120,
-      "record": "0-1",
-      "power": 1430.05
+      "rank": 69,
+      "record": "1-2",
+      "power": 1522.03
     },
     {
-      "team_id": "spur",
-      "name": "Spur",
-      "district": "4-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 121,
-      "record": "1-1",
-      "power": 1426.37
-    },
-    {
-      "team_id": "nueces-canyon",
-      "name": "Nueces Canyon",
-      "district": "16-1A DI",
-      "region": "central-east-south",
-      "classification": "1A DI",
-      "rank": 122,
-      "record": "0-0",
-      "power": 1426.31
-    },
-    {
-      "team_id": "crowell",
-      "name": "Crowell",
+      "team_id": "guthrie",
+      "name": "Guthrie",
       "district": "2-1A DII",
       "region": "panhandle",
       "classification": "1A DII",
-      "rank": 123,
-      "record": "2-0",
-      "power": 1425.68
+      "rank": 70,
+      "record": "2-2",
+      "power": 1521.81
     },
     {
-      "team_id": "morgan",
-      "name": "Morgan",
+      "team_id": "avalon",
+      "name": "Avalon",
+      "district": "11-1A DI",
+      "region": "north-central",
+      "classification": "1A DI",
+      "rank": 71,
+      "record": "0-2",
+      "power": 1521.42
+    },
+    {
+      "team_id": "lefors",
+      "name": "Lefors",
+      "district": "1-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 72,
+      "record": "0-3",
+      "power": 1520.73
+    },
+    {
+      "team_id": "mount-calm",
+      "name": "Mount Calm",
+      "district": "14-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 73,
+      "record": "3-0",
+      "power": 1517.21
+    },
+    {
+      "team_id": "cranfills-gap",
+      "name": "Cranfills Gap",
       "district": "13-1A DII",
       "region": "central-east-south",
       "classification": "1A DII",
-      "rank": 124,
-      "record": "0-0",
-      "power": 1424.63
+      "rank": 74,
+      "record": "1-3",
+      "power": 1515.27
     },
     {
-      "team_id": "rule",
-      "name": "Rule",
-      "district": "9-1A DII",
+      "team_id": "springlake-earth",
+      "name": "Springlake-Earth",
+      "district": "2-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 75,
+      "record": "1-3",
+      "power": 1515.15
+    },
+    {
+      "team_id": "balmorhea",
+      "name": "Balmorhea",
+      "district": "6-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "rank": 76,
+      "record": "2-0",
+      "power": 1511.79
+    },
+    {
+      "team_id": "wellman-union",
+      "name": "Wellman-Union",
+      "district": "4-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 77,
+      "record": "2-2",
+      "power": 1509.13
+    },
+    {
+      "team_id": "follett",
+      "name": "Follett",
+      "district": "1-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 78,
+      "record": "1-1",
+      "power": 1506.04
+    },
+    {
+      "team_id": "cotton-center",
+      "name": "Cotton Center",
+      "district": "3-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 79,
+      "record": "0-0",
+      "power": 1499.81
+    },
+    {
+      "team_id": "hedley",
+      "name": "Hedley",
+      "district": "1-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 80,
+      "record": "0-0",
+      "power": 1499.81
+    },
+    {
+      "team_id": "priddy",
+      "name": "Priddy",
+      "district": "12-1A DII",
       "region": "north-central",
       "classification": "1A DII",
-      "rank": 125,
-      "record": "0-1",
-      "power": 1424.63
+      "rank": 81,
+      "record": "0-0",
+      "power": 1499.81
+    },
+    {
+      "team_id": "san-perlita",
+      "name": "San Perlita",
+      "district": "16-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 82,
+      "record": "0-0",
+      "power": 1499.81
+    },
+    {
+      "team_id": "wilson",
+      "name": "Wilson",
+      "district": "4-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 83,
+      "record": "0-0",
+      "power": 1499.81
+    },
+    {
+      "team_id": "buena-vista",
+      "name": "Buena Vista",
+      "district": "6-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 84,
+      "record": "3-2",
+      "power": 1496.89
+    },
+    {
+      "team_id": "irion-county",
+      "name": "Irion County",
+      "district": "8-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 85,
+      "record": "3-1",
+      "power": 1492.64
+    },
+    {
+      "team_id": "kopperl",
+      "name": "Kopperl",
+      "district": "13-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 86,
+      "record": "3-1",
+      "power": 1491.95
+    },
+    {
+      "team_id": "miami",
+      "name": "Miami",
+      "district": "1-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 87,
+      "record": "0-3",
+      "power": 1491.83
     },
     {
       "team_id": "campbell",
@@ -1256,19 +876,399 @@
       "district": "12-1A DI",
       "region": "north-central",
       "classification": "1A DI",
-      "rank": 126,
-      "record": "0-0",
-      "power": 1423.75
+      "rank": 88,
+      "record": "0-2",
+      "power": 1489.86
     },
     {
-      "team_id": "paint-rock",
-      "name": "Paint Rock",
+      "team_id": "brookesmith",
+      "name": "Brookesmith",
+      "district": "8-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "rank": 89,
+      "record": "4-0",
+      "power": 1486.76
+    },
+    {
+      "team_id": "bynum",
+      "name": "Bynum",
+      "district": "14-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 90,
+      "record": "0-2",
+      "power": 1486.06
+    },
+    {
+      "team_id": "fort-davis",
+      "name": "Fort Davis",
+      "district": "5-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "rank": 91,
+      "record": "0-2",
+      "power": 1481.64
+    },
+    {
+      "team_id": "perrin-whitt",
+      "name": "Perrin-Whitt",
+      "district": "9-1A DI",
+      "region": "north-central",
+      "classification": "1A DI",
+      "rank": 92,
+      "record": "1-0",
+      "power": 1480.71
+    },
+    {
+      "team_id": "rotan",
+      "name": "Rotan",
+      "district": "4-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 93,
+      "record": "2-2",
+      "power": 1479.19
+    },
+    {
+      "team_id": "nueces-canyon",
+      "name": "Nueces Canyon",
+      "district": "16-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
+      "rank": 94,
+      "record": "0-1",
+      "power": 1478.92
+    },
+    {
+      "team_id": "petersburg",
+      "name": "Petersburg",
+      "district": "3-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 95,
+      "record": "1-3",
+      "power": 1477.52
+    },
+    {
+      "team_id": "odonnell",
+      "name": "O'Donnell",
+      "district": "5-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 96,
+      "record": "2-1",
+      "power": 1477.09
+    },
+    {
+      "team_id": "loraine",
+      "name": "Loraine",
+      "district": "7-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "rank": 97,
+      "record": "1-3",
+      "power": 1473.43
+    },
+    {
+      "team_id": "marfa",
+      "name": "Marfa",
+      "district": "5-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "rank": 98,
+      "record": "1-2",
+      "power": 1472.47
+    },
+    {
+      "team_id": "knippa",
+      "name": "Knippa",
+      "district": "16-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
+      "rank": 99,
+      "record": "1-2",
+      "power": 1471.94
+    },
+    {
+      "team_id": "leakey",
+      "name": "Leakey",
+      "district": "16-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
+      "rank": 100,
+      "record": "1-1",
+      "power": 1470.05
+    },
+    {
+      "team_id": "saint-jo",
+      "name": "Saint Jo",
+      "district": "12-1A DI",
+      "region": "north-central",
+      "classification": "1A DI",
+      "rank": 101,
+      "record": "3-1",
+      "power": 1469.82
+    },
+    {
+      "team_id": "benjamin",
+      "name": "Benjamin",
+      "district": "9-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
+      "rank": 102,
+      "record": "2-1",
+      "power": 1468.24
+    },
+    {
+      "team_id": "amherst",
+      "name": "Amherst",
+      "district": "3-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 103,
+      "record": "0-4",
+      "power": 1467.05
+    },
+    {
+      "team_id": "crowell",
+      "name": "Crowell",
+      "district": "2-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 104,
+      "record": "2-2",
+      "power": 1465.04
+    },
+    {
+      "team_id": "highland",
+      "name": "Highland",
       "district": "7-1A DI",
       "region": "west-texas",
       "classification": "1A DI",
+      "rank": 105,
+      "record": "1-1",
+      "power": 1461.82
+    },
+    {
+      "team_id": "chillicothe",
+      "name": "Chillicothe",
+      "district": "2-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 106,
+      "record": "2-1",
+      "power": 1461.22
+    },
+    {
+      "team_id": "silverton",
+      "name": "Silverton",
+      "district": "3-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 107,
+      "record": "2-1",
+      "power": 1458.45
+    },
+    {
+      "team_id": "veribest",
+      "name": "Veribest",
+      "district": "8-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 108,
+      "record": "3-1",
+      "power": 1457.47
+    },
+    {
+      "team_id": "kress",
+      "name": "Kress",
+      "district": "3-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 109,
+      "record": "1-3",
+      "power": 1455.41
+    },
+    {
+      "team_id": "bronte",
+      "name": "Bronte",
+      "district": "7-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 110,
+      "record": "1-3",
+      "power": 1454.85
+    },
+    {
+      "team_id": "woodson",
+      "name": "Woodson",
+      "district": "10-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
+      "rank": 111,
+      "record": "3-1",
+      "power": 1454.41
+    },
+    {
+      "team_id": "baird",
+      "name": "Baird",
+      "district": "7-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 112,
+      "record": "0-2",
+      "power": 1454.0
+    },
+    {
+      "team_id": "white-deer",
+      "name": "White Deer",
+      "district": "1-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
+      "rank": 113,
+      "record": "3-0",
+      "power": 1453.96
+    },
+    {
+      "team_id": "groom",
+      "name": "Groom",
+      "district": "1-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 114,
+      "record": "0-4",
+      "power": 1452.63
+    },
+    {
+      "team_id": "forestburg",
+      "name": "Forestburg",
+      "district": "10-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
+      "rank": 115,
+      "record": "1-2",
+      "power": 1452.09
+    },
+    {
+      "team_id": "benavides",
+      "name": "Benavides",
+      "district": "16-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 116,
+      "record": "1-1",
+      "power": 1451.67
+    },
+    {
+      "team_id": "lazbuddie",
+      "name": "Lazbuddie",
+      "district": "3-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 117,
+      "record": "2-2",
+      "power": 1451.04
+    },
+    {
+      "team_id": "gorman",
+      "name": "Gorman",
+      "district": "10-1A DI",
+      "region": "north-central",
+      "classification": "1A DI",
+      "rank": 118,
+      "record": "3-2",
+      "power": 1450.85
+    },
+    {
+      "team_id": "blum",
+      "name": "Blum",
+      "district": "11-1A DI",
+      "region": "north-central",
+      "classification": "1A DI",
+      "rank": 119,
+      "record": "0-3",
+      "power": 1450.64
+    },
+    {
+      "team_id": "penelope",
+      "name": "Penelope",
+      "district": "14-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
+      "rank": 120,
+      "record": "3-1",
+      "power": 1449.8
+    },
+    {
+      "team_id": "santa-anna",
+      "name": "Santa Anna",
+      "district": "7-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 121,
+      "record": "2-2",
+      "power": 1449.27
+    },
+    {
+      "team_id": "dell-city",
+      "name": "Dell City",
+      "district": "5-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "rank": 122,
+      "record": "0-1",
+      "power": 1443.78
+    },
+    {
+      "team_id": "morgan",
+      "name": "Morgan",
+      "district": "13-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 123,
+      "record": "2-1",
+      "power": 1442.79
+    },
+    {
+      "team_id": "bruni",
+      "name": "Bruni",
+      "district": "16-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
+      "rank": 124,
+      "record": "0-2",
+      "power": 1435.31
+    },
+    {
+      "team_id": "panther-creek",
+      "name": "Panther Creek",
+      "district": "7-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "rank": 125,
+      "record": "1-3",
+      "power": 1435.13
+    },
+    {
+      "team_id": "loop",
+      "name": "Loop",
+      "district": "4-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 126,
+      "record": "0-3",
+      "power": 1434.88
+    },
+    {
+      "team_id": "sanderson",
+      "name": "Sanderson",
+      "district": "6-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
       "rank": 127,
-      "record": "0-0",
-      "power": 1417.68
+      "record": "1-1",
+      "power": 1434.3
     },
     {
       "team_id": "anton",
@@ -1277,68 +1277,68 @@
       "region": "panhandle",
       "classification": "1A DII",
       "rank": 128,
-      "record": "2-0",
-      "power": 1416.35
+      "record": "3-0",
+      "power": 1421.53
     },
     {
-      "team_id": "olfen",
-      "name": "Olfen",
+      "team_id": "trent",
+      "name": "Trent",
       "district": "7-1A DII",
       "region": "west-texas",
       "classification": "1A DII",
       "rank": 129,
-      "record": "0-1",
-      "power": 1414.26
+      "record": "1-3",
+      "power": 1419.63
     },
     {
-      "team_id": "sanderson",
-      "name": "Sanderson",
-      "district": "6-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
+      "team_id": "evant",
+      "name": "Evant",
+      "district": "15-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
       "rank": 130,
-      "record": "1-0",
-      "power": 1411.74
+      "record": "2-2",
+      "power": 1413.45
     },
     {
-      "team_id": "brookesmith",
-      "name": "Brookesmith",
-      "district": "8-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 131,
-      "record": "1-0",
-      "power": 1411.32
-    },
-    {
-      "team_id": "highland",
-      "name": "Highland",
-      "district": "7-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 132,
-      "record": "1-0",
-      "power": 1408.34
-    },
-    {
-      "team_id": "silverton",
-      "name": "Silverton",
-      "district": "3-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
-      "rank": 133,
-      "record": "0-0",
-      "power": 1407.7
-    },
-    {
-      "team_id": "ranger",
-      "name": "Ranger",
+      "team_id": "lingleville",
+      "name": "Lingleville",
       "district": "10-1A DI",
       "region": "north-central",
       "classification": "1A DI",
+      "rank": 131,
+      "record": "1-3",
+      "power": 1412.9
+    },
+    {
+      "team_id": "covington",
+      "name": "Covington",
+      "district": "11-1A DI",
+      "region": "north-central",
+      "classification": "1A DI",
+      "rank": 132,
+      "record": "0-3",
+      "power": 1412.03
+    },
+    {
+      "team_id": "lorenzo",
+      "name": "Lorenzo",
+      "district": "3-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 133,
+      "record": "0-3",
+      "power": 1409.03
+    },
+    {
+      "team_id": "spur",
+      "name": "Spur",
+      "district": "4-1A DI",
+      "region": "panhandle",
+      "classification": "1A DI",
       "rank": 134,
-      "record": "0-0",
-      "power": 1403.37
+      "record": "1-3",
+      "power": 1408.17
     },
     {
       "team_id": "gholson",
@@ -1347,18 +1347,58 @@
       "region": "central-east-south",
       "classification": "1A DI",
       "rank": 135,
-      "record": "0-0",
-      "power": 1398.6
+      "record": "0-3-1",
+      "power": 1403.51
     },
     {
-      "team_id": "penelope",
-      "name": "Penelope",
-      "district": "14-1A DI",
-      "region": "central-east-south",
+      "team_id": "paint-rock",
+      "name": "Paint Rock",
+      "district": "7-1A DI",
+      "region": "west-texas",
       "classification": "1A DI",
       "rank": 136,
-      "record": "1-0",
-      "power": 1397.54
+      "record": "0-3",
+      "power": 1401.49
+    },
+    {
+      "team_id": "eden",
+      "name": "Eden",
+      "district": "8-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 137,
+      "record": "1-3",
+      "power": 1400.87
+    },
+    {
+      "team_id": "southland",
+      "name": "Southland",
+      "district": "4-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "rank": 138,
+      "record": "1-2",
+      "power": 1394.41
+    },
+    {
+      "team_id": "rule",
+      "name": "Rule",
+      "district": "9-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
+      "rank": 139,
+      "record": "1-3",
+      "power": 1393.58
+    },
+    {
+      "team_id": "throckmorton",
+      "name": "Throckmorton",
+      "district": "10-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
+      "rank": 140,
+      "record": "1-3",
+      "power": 1390.42
     },
     {
       "team_id": "buckholts",
@@ -1366,9 +1406,9 @@
       "district": "15-1A DII",
       "region": "central-east-south",
       "classification": "1A DII",
-      "rank": 137,
-      "record": "0-0",
-      "power": 1391.86
+      "rank": 141,
+      "record": "0-2",
+      "power": 1386.74
     },
     {
       "team_id": "mullin",
@@ -1376,159 +1416,29 @@
       "district": "12-1A DII",
       "region": "north-central",
       "classification": "1A DII",
-      "rank": 138,
-      "record": "0-1",
-      "power": 1391.23
-    },
-    {
-      "team_id": "covington",
-      "name": "Covington",
-      "district": "11-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 139,
-      "record": "0-0",
-      "power": 1385.98
-    },
-    {
-      "team_id": "lingleville",
-      "name": "Lingleville",
-      "district": "10-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 140,
-      "record": "1-1",
-      "power": 1385.8
-    },
-    {
-      "team_id": "bruni",
-      "name": "Bruni",
-      "district": "16-1A DI",
-      "region": "central-east-south",
-      "classification": "1A DI",
-      "rank": 141,
-      "record": "0-0",
-      "power": 1385.32
-    },
-    {
-      "team_id": "white-deer",
-      "name": "White Deer",
-      "district": "1-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
       "rank": 142,
-      "record": "1-0",
-      "power": 1382.47
+      "record": "2-2",
+      "power": 1381.81
     },
     {
-      "team_id": "lueders-avoca",
-      "name": "Lueders-Avoca",
+      "team_id": "paint-creek",
+      "name": "Paint Creek",
       "district": "9-1A DII",
       "region": "north-central",
       "classification": "1A DII",
       "rank": 143,
-      "record": "0-0",
-      "power": 1382.12
+      "record": "0-4",
+      "power": 1378.57
     },
     {
-      "team_id": "wildorado",
-      "name": "Wildorado",
-      "district": "1-1A DI",
-      "region": "panhandle",
+      "team_id": "ranger",
+      "name": "Ranger",
+      "district": "10-1A DI",
+      "region": "north-central",
       "classification": "1A DI",
       "rank": 144,
-      "record": "0-0",
-      "power": 1377.87
-    },
-    {
-      "team_id": "leveretts-chapel",
-      "name": "Leveretts Chapel",
-      "district": "13-1A DI",
-      "region": "central-east-south",
-      "classification": "1A DI",
-      "rank": 145,
-      "record": "0-0",
-      "power": 1374.17
-    },
-    {
-      "team_id": "veribest",
-      "name": "Veribest",
-      "district": "8-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 146,
-      "record": "1-0",
-      "power": 1373.69
-    },
-    {
-      "team_id": "dell-city",
-      "name": "Dell City",
-      "district": "5-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 147,
-      "record": "0-0",
-      "power": 1371.66
-    },
-    {
-      "team_id": "prairie-lea",
-      "name": "Prairie Lea",
-      "district": "16-1A DI",
-      "region": "central-east-south",
-      "classification": "1A DI",
-      "rank": 148,
-      "record": "0-0",
-      "power": 1370.47
-    },
-    {
-      "team_id": "sierra-blanca",
-      "name": "Sierra Blanca",
-      "district": "5-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "rank": 149,
-      "record": "0-0",
-      "power": 1367.64
-    },
-    {
-      "team_id": "fruitvale",
-      "name": "Fruitvale",
-      "district": "12-1A DI",
-      "region": "north-central",
-      "classification": "1A DI",
-      "rank": 150,
-      "record": "0-0",
-      "power": 1363.02
-    },
-    {
-      "team_id": "pawnee",
-      "name": "Pawnee",
-      "district": "16-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "rank": 151,
-      "record": "0-0",
-      "power": 1359.58
-    },
-    {
-      "team_id": "fort-hancock",
-      "name": "Fort Hancock",
-      "district": "6-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "rank": 152,
-      "record": "0-0",
-      "power": 1359.25
-    },
-    {
-      "team_id": "moran",
-      "name": "Moran",
-      "district": "11-1A DII",
-      "region": "north-central",
-      "classification": "1A DII",
-      "rank": 153,
-      "record": "0-0",
-      "power": 1358.36
+      "record": "1-3",
+      "power": 1378.17
     },
     {
       "team_id": "savoy",
@@ -1536,9 +1446,49 @@
       "district": "12-1A DI",
       "region": "north-central",
       "classification": "1A DI",
-      "rank": 154,
+      "rank": 145,
+      "record": "0-1",
+      "power": 1375.53
+    },
+    {
+      "team_id": "leveretts-chapel",
+      "name": "Leveretts Chapel",
+      "district": "13-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
+      "rank": 146,
       "record": "0-0",
-      "power": 1355.56
+      "power": 1373.22
+    },
+    {
+      "team_id": "prairie-lea",
+      "name": "Prairie Lea",
+      "district": "16-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
+      "rank": 147,
+      "record": "0-0",
+      "power": 1369.52
+    },
+    {
+      "team_id": "sierra-blanca",
+      "name": "Sierra Blanca",
+      "district": "5-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "rank": 148,
+      "record": "0-0",
+      "power": 1366.69
+    },
+    {
+      "team_id": "fort-hancock",
+      "name": "Fort Hancock",
+      "district": "6-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "rank": 149,
+      "record": "1-1",
+      "power": 1363.69
     },
     {
       "team_id": "dawson",
@@ -1546,19 +1496,29 @@
       "district": "4-1A DII",
       "region": "panhandle",
       "classification": "1A DII",
-      "rank": 155,
-      "record": "1-0",
-      "power": 1344.14
+      "rank": 150,
+      "record": "2-1",
+      "power": 1359.79
     },
     {
-      "team_id": "burkeville",
-      "name": "Burkeville",
-      "district": "13-1A DI",
-      "region": "central-east-south",
+      "team_id": "lueders-avoca",
+      "name": "Lueders-Avoca",
+      "district": "9-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
+      "rank": 151,
+      "record": "2-1",
+      "power": 1356.05
+    },
+    {
+      "team_id": "wildorado",
+      "name": "Wildorado",
+      "district": "1-1A DI",
+      "region": "panhandle",
       "classification": "1A DI",
-      "rank": 156,
-      "record": "1-0",
-      "power": 1341.36
+      "rank": 152,
+      "record": "0-1",
+      "power": 1349.88
     },
     {
       "team_id": "lohn",
@@ -1566,29 +1526,69 @@
       "district": "8-1A DII",
       "region": "west-texas",
       "classification": "1A DII",
-      "rank": 157,
-      "record": "2-0",
-      "power": 1335.33
+      "rank": 153,
+      "record": "2-2",
+      "power": 1348.12
     },
     {
-      "team_id": "santa-anna",
-      "name": "Santa Anna",
-      "district": "7-1A DI",
+      "team_id": "pawnee",
+      "name": "Pawnee",
+      "district": "16-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 154,
+      "record": "1-0",
+      "power": 1342.15
+    },
+    {
+      "team_id": "burkeville",
+      "name": "Burkeville",
+      "district": "13-1A DI",
+      "region": "central-east-south",
+      "classification": "1A DI",
+      "rank": 155,
+      "record": "1-0",
+      "power": 1340.41
+    },
+    {
+      "team_id": "walnut-springs",
+      "name": "Walnut Springs",
+      "district": "13-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "rank": 156,
+      "record": "0-4",
+      "power": 1327.17
+    },
+    {
+      "team_id": "olfen",
+      "name": "Olfen",
+      "district": "7-1A DII",
       "region": "west-texas",
+      "classification": "1A DII",
+      "rank": 157,
+      "record": "1-3",
+      "power": 1301.6
+    },
+    {
+      "team_id": "fruitvale",
+      "name": "Fruitvale",
+      "district": "12-1A DI",
+      "region": "north-central",
       "classification": "1A DI",
       "rank": 158,
-      "record": "1-0",
-      "power": 1328.54
+      "record": "0-0-1",
+      "power": 1301.01
     },
     {
-      "team_id": "kress",
-      "name": "Kress",
-      "district": "3-1A DI",
-      "region": "panhandle",
-      "classification": "1A DI",
+      "team_id": "moran",
+      "name": "Moran",
+      "district": "11-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
       "rank": 159,
-      "record": "1-0",
-      "power": 1327.14
+      "record": "0-4",
+      "power": 1289.59
     }
   ]
 }
