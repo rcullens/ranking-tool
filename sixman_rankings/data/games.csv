@@ -481,8 +481,9 @@ w04-covenant-christian-trinity-school-of-texas,4,2026-09-18,covenant-christian,t
 w04-covenant-classical-nazarene-christian,4,2026-09-18,covenant-classical,nazarene-christian,72,70,false,false
 w04-covington-mount-calm,4,2026-09-18,covington,mount-calm,40,65,false,false
 w04-cranfills-gap-cherokee,4,2026-09-18,cranfills-gap,cherokee,8,58,false,false
-w04-davinci-hill-country-knights,4,2026-09-18,davinci,hill-country-knights,,,false,false
+w04-davinci-hill-country-knights,4,2026-09-18,davinci,hill-country-knights,0,0,false,false
 w04-eden-panther-creek,4,2026-09-18,eden,panther-creek,20,46,false,false
+w04-emery-weiner-alpha-omega,4,2026-09-18,emery-weiner,alpha-omega,0,0,false,false
 w04-evant-brookesmith,4,2026-09-18,evant,brookesmith,43,56,false,false
 w04-faith-academy-medina,4,2026-09-18,faith-academy,medina,8,58,false,false
 w04-faustina-newman-international,4,2026-09-18,faustina,newman-international,45,0,false,false
@@ -541,7 +542,7 @@ w04-sands-garden-city,4,2026-09-18,sands,garden-city,98,54,false,false
 w04-second-baptist-cypress-westbury-christian,4,2026-09-18,second-baptist-cypress,westbury-christian,44,7,false,false
 w04-spur-throckmorton,4,2026-09-18,spur,throckmorton,32,8,false,false
 w04-strawn-el-paso-leadership,4,2026-09-18,strawn,el-paso-leadership,62,14,false,false
-w04-texas-wind-valor-leander,4,2026-09-18,texas-wind,valor-leander,,,false,false
+w04-texas-wind-valor-leander,4,2026-09-18,texas-wind,valor-leander,0,0,false,false
 w04-the-highlands-prestonwood-north,4,2026-09-18,the-highlands,prestonwood-north,46,26,true,false
 w04-thesa-harvest-christian-lantana,4,2026-09-18,thesa,harvest-christian-lantana,24,14,false,false
 w04-town-east-christian-new-braunfels-spartans,4,2026-09-18,town-east-christian,new-braunfels-spartans,61,12,true,false
@@ -563,9 +564,8 @@ w04-westlake-academy-coram-deo,4,2026-09-18,westlake-academy,coram-deo,14,60,fal
 w04-white-deer-miami,4,2026-09-18,white-deer,miami,62,12,false,false
 w04-whiteface-westbrook,4,2026-09-18,whiteface,westbrook,70,24,false,false
 w04-whitharral-jayton,4,2026-09-18,whitharral,jayton,0,47,false,false
+w04-wise-county-homeschool-centex-homeschool,4,2026-09-18,wise-county-homeschool,centex-homeschool,0,0,false,false
 w04-zephyr-menard,4,2026-09-18,zephyr,menard,14,59,false,false
-w04-centex-homeschool-wise-county-homeschool,4,2026-09-19,centex-homeschool,wise-county-homeschool,,,false,false
-w04-emery-weiner-alpha-omega,4,2026-09-19,emery-weiner,alpha-omega,,,false,false
 w04-tyler-heat-poetry-community,4,2026-09-19,tyler-heat,poetry-community,,,false,false
 w04-victoria-cobras-new-braunfels-thunder,4,2026-09-19,victoria-cobras,new-braunfels-thunder,0,45,false,false
 w05-baytown-christian-high-island,5,2026-09-24,baytown-christian,high-island,,,false,false
@@ -782,7 +782,7 @@ w06-big-springs-charter-victoria-gators,6,2026-10-03,big-springs-charter,victori
 w06-blackwell-harrold,6,2026-10-03,blackwell,harrold,,,false,false
 w06-burkeville-calvert,6,2026-10-03,burkeville,calvert,,,false,false
 w06-kings-academy-greenville-christian,6,2026-10-03,kings-academy,greenville-christian,,,false,false
-w06-lubbock-titans-thesa,6,2026-10-03,lubbock-titans,thesa,,,true,true
+w06-thesa-lubbock-titans,6,2026-10-03,thesa,lubbock-titans,,,true,true
 w06-trinidad-fruitvale,6,2026-10-03,trinidad,fruitvale,,,false,false
 w06-valor-leander-valor-kyle,6,2026-10-03,valor-leander,valor-kyle,,,true,false
 w06-wylie-prep-lone-star-north,6,2026-10-03,wylie-prep,lone-star-north,,,true,false
