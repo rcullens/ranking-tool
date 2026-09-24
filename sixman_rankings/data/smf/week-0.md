@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1790022387,c7e60fa24c9e1fa627aafe042b0df959"
+	data-csrf="1790277257,e8a5d23a73175504fd5c2af1c4d76d98"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1790022387,c7e60fa24c9e1fa627aafe042b0df959',
+				csrf: '1790277257,e8a5d23a73175504fd5c2af1c4d76d98',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=c3f1f393":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1790022387,
-					today: 1789966800,
-					todayDow: 1,
-					tomorrow: 1790053200,
-					yesterday: 1789880400,
-					week: 1789448400,
+					now: 1790277257,
+					today: 1790226000,
+					todayDow: 4,
+					tomorrow: 1790312400,
+					yesterday: 1790139600,
+					week: 1789707600,
 					month: 1788238800,
 					year: 1767247200
 				},
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1790022387,c7e60fa24c9e1fa627aafe042b0df959" />
+									<input type="hidden" name="_xfToken" value="1790277257,e8a5d23a73175504fd5c2af1c4d76d98" />
 								</form>
 							</div>
 						
@@ -1541,7 +1541,7 @@
 	
 	
 		
-			<span class="teamRank">#202</span>
+			<span class="teamRank">#204</span>
 		
 	
 	
@@ -1595,7 +1595,7 @@
 	
 	
 		
-			<span class="teamRank">#276</span>
+			<span class="teamRank">#275</span>
 		
 	
 	
@@ -1701,7 +1701,7 @@
 	
 	
 		
-			<span class="teamRank">#232</span>
+			<span class="teamRank">#234</span>
 		
 	
 	
@@ -1753,7 +1753,7 @@
 	
 	
 		
-			<span class="teamRank">#198</span>
+			<span class="teamRank">#201</span>
 		
 	
 	
@@ -2071,7 +2071,7 @@
 	
 	
 		
-			<span class="teamRank">#210</span>
+			<span class="teamRank">#211</span>
 		
 	
 	
@@ -2171,7 +2171,7 @@
 	
 	
 		
-			<span class="teamRank">#221</span>
+			<span class="teamRank">#222</span>
 		
 	
 	
@@ -2225,7 +2225,7 @@
 	
 	
 		
-			<span class="teamRank">#193</span>
+			<span class="teamRank">#196</span>
 		
 	
 	
@@ -2277,7 +2277,7 @@
 	
 	
 		
-			<span class="teamRank">#224</span>
+			<span class="teamRank">#225</span>
 		
 	
 	
@@ -2331,7 +2331,7 @@
 	
 	
 		
-			<span class="teamRank">#284</span>
+			<span class="teamRank">#283</span>
 		
 	
 	
@@ -2595,7 +2595,7 @@
 	
 	
 		
-			<span class="teamRank">#236</span>
+			<span class="teamRank">#237</span>
 		
 	
 	
@@ -2649,7 +2649,7 @@
 	
 	
 		
-			<span class="teamRank">#216</span>
+			<span class="teamRank">#217</span>
 		
 	
 	
@@ -2978,7 +2978,7 @@
 	
 	
 		
-			<span class="teamRank">#255</span>
+			<span class="teamRank">#252</span>
 		
 	
 	
@@ -3200,7 +3200,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1790022387%2Cc7e60fa24c9e1fa627aafe042b0df959"
+	<a href="/misc/style-variation?reset=1&amp;t=1790277257%2Ce8a5d23a73175504fd5c2af1c4d76d98"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -3215,7 +3215,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1790022387%2Cc7e60fa24c9e1fa627aafe042b0df959"
+	<a href="/misc/style-variation?variation=default&amp;t=1790277257%2Ce8a5d23a73175504fd5c2af1c4d76d98"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -3230,7 +3230,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1790022387%2Cc7e60fa24c9e1fa627aafe042b0df959"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1790277257%2Ce8a5d23a73175504fd5c2af1c4d76d98"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -3430,7 +3430,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3ebce0efb1db82e',t:'MTc5MDAyMjM4Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4041c7bc993c399',t:'MTc5MDI3NzI1Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

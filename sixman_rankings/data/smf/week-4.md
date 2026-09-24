@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1790022389,c8b0b3874de0dc31f4255b0eb856d1b9"
+	data-csrf="1790277260,b65cfbe84f5e0232eb11f37c5932fcfa"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -41,7 +41,7 @@
 		
 
 	
-		<link rel="canonical" href="https://sixmanfootball.com/scores/" />
+		<link rel="canonical" href="https://sixmanfootball.com/scores/2026/week-4/" />
 	
 
 	
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1790022389,c8b0b3874de0dc31f4255b0eb856d1b9',
+				csrf: '1790277260,b65cfbe84f5e0232eb11f37c5932fcfa',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=c3f1f393":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1790022389,
-					today: 1789966800,
-					todayDow: 1,
-					tomorrow: 1790053200,
-					yesterday: 1789880400,
-					week: 1789448400,
+					now: 1790277260,
+					today: 1790226000,
+					todayDow: 4,
+					tomorrow: 1790312400,
+					yesterday: 1790139600,
+					week: 1789707600,
 					month: 1788238800,
 					year: 1767247200
 				},
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1790022389,c8b0b3874de0dc31f4255b0eb856d1b9" />
+									<input type="hidden" name="_xfToken" value="1790277260,b65cfbe84f5e0232eb11f37c5932fcfa" />
 								</form>
 							</div>
 						
@@ -1408,13 +1408,6 @@
 									
 										<h1 class="p-title-value">2026 Week 4 Scores</h1>
 									
-									
-										<div class="p-title-pageAction">
-	
-		<a href="/scores/add" class="button button--icon button--icon--add button--cta" data-xf-click="overlay"><i class="fa--xf fal fa-plus-square "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1790004669#plus-square"></use></svg></i><span class="button-text">Add score</span></a>
-	
-	
-</div>
 									
 								
 							</div>
@@ -2026,7 +2019,7 @@
 	
 	
 		
-			<span class="teamRank">#215</span>
+			<span class="teamRank">#216</span>
 		
 	
 	
@@ -2344,7 +2337,7 @@
 	
 	
 		
-			<span class="teamRank">#269</span>
+			<span class="teamRank">#268</span>
 		
 	
 	
@@ -2450,7 +2443,7 @@
 	
 	
 		
-			<span class="teamRank">#276</span>
+			<span class="teamRank">#275</span>
 		
 	
 	
@@ -2502,7 +2495,7 @@
 	
 	
 		
-			<span class="teamRank">#220</span>
+			<span class="teamRank">#221</span>
 		
 	
 	
@@ -2556,7 +2549,7 @@
 	
 	
 		
-			<span class="teamRank">#222</span>
+			<span class="teamRank">#223</span>
 		
 	
 	
@@ -2831,7 +2824,7 @@
 	
 	
 		
-			<span class="teamRank">#195</span>
+			<span class="teamRank">#198</span>
 		
 	
 	
@@ -2885,7 +2878,7 @@
 	
 	
 		
-			<span class="teamRank">#202</span>
+			<span class="teamRank">#204</span>
 		
 	
 	
@@ -3255,7 +3248,7 @@
 	
 	
 		
-			<span class="teamRank">#216</span>
+			<span class="teamRank">#217</span>
 		
 	
 	
@@ -3295,7 +3288,7 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/19/19577.jpg?1782130462" loading="lazy" />
+					<img src="/data/sixman/teamlogo/s/19/19577.jpg?1790261041" loading="lazy" />
 				
 			</span>
 		</div>
@@ -3309,7 +3302,7 @@
 	
 	
 		
-			<span class="teamRank">#283</span>
+			<span class="teamRank">#282</span>
 		
 	
 	
@@ -3409,7 +3402,7 @@
 	
 	
 		
-			<span class="teamRank">#279</span>
+			<span class="teamRank">#278</span>
 		
 	
 	
@@ -3621,7 +3614,7 @@
 	
 	
 		
-			<span class="teamRank">#274</span>
+			<span class="teamRank">#272</span>
 		
 	
 	
@@ -3727,7 +3720,7 @@
 	
 	
 		
-			<span class="teamRank">#255</span>
+			<span class="teamRank">#252</span>
 		
 	
 	
@@ -3745,6 +3738,112 @@
 		</div>
 		<div class="contentRow-score">
 			12
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19121.jpg?1731129238" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#195</span>
+		
+	
+	
+		
+			<a href="/teams/benavides-eagles.19121/schedule/2026/">Benavides</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Eagles
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			1
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-benavides-vs-pawnee.38874/">
+							Final/FF
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19126.jpg?1785412529" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#289</span>
+		
+	
+	
+		
+			<a href="/teams/pawnee-indians.19126/schedule/2026/">Pawnee</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Indians
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
 		</div>
 	</div>
 
@@ -4045,7 +4144,7 @@
 	
 	
 		
-			<span class="teamRank">#218</span>
+			<span class="teamRank">#219</span>
 		
 	
 	
@@ -4309,7 +4408,7 @@
 	
 	
 		
-			<span class="teamRank">#193</span>
+			<span class="teamRank">#196</span>
 		
 	
 	
@@ -4363,7 +4462,7 @@
 	
 	
 		
-			<span class="teamRank">#186</span>
+			<span class="teamRank">#187</span>
 		
 	
 	
@@ -4469,7 +4568,7 @@
 	
 	
 		
-			<span class="teamRank">#187</span>
+			<span class="teamRank">#188</span>
 		
 	
 	
@@ -4561,7 +4660,7 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/1/1526.jpg?1753381189" loading="lazy" />
+					<img src="/data/sixman/teamlogo/s/1/1526.jpg?1790177890" loading="lazy" />
 				
 			</span>
 		</div>
@@ -4575,7 +4674,7 @@
 	
 	
 		
-			<span class="teamRank">#226</span>
+			<span class="teamRank">#227</span>
 		
 	
 	
@@ -4681,7 +4780,7 @@
 	
 	
 		
-			<span class="teamRank">#191</span>
+			<span class="teamRank">#193</span>
 		
 	
 	
@@ -4999,7 +5098,7 @@
 	
 	
 		
-			<span class="teamRank">#213</span>
+			<span class="teamRank">#214</span>
 		
 	
 	
@@ -5105,7 +5204,7 @@
 	
 	
 		
-			<span class="teamRank">#270</span>
+			<span class="teamRank">#269</span>
 		
 	
 	
@@ -5317,7 +5416,7 @@
 	
 	
 		
-			<span class="teamRank">#206</span>
+			<span class="teamRank">#186</span>
 		
 	
 	
@@ -5369,7 +5468,7 @@
 	
 	
 		
-			<span class="teamRank">#233</span>
+			<span class="teamRank">#235</span>
 		
 	
 	
@@ -5423,7 +5522,7 @@
 	
 	
 		
-			<span class="teamRank">#235</span>
+			<span class="teamRank">#236</span>
 		
 	
 	
@@ -5475,7 +5574,7 @@
 	
 	
 		
-			<span class="teamRank">#198</span>
+			<span class="teamRank">#201</span>
 		
 	
 	
@@ -5529,7 +5628,7 @@
 	
 	
 		
-			<span class="teamRank">#221</span>
+			<span class="teamRank">#222</span>
 		
 	
 	
@@ -5581,7 +5680,7 @@
 	
 	
 		
-			<span class="teamRank">#251</span>
+			<span class="teamRank">#249</span>
 		
 	
 	
@@ -5635,7 +5734,7 @@
 	
 	
 		
-			<span class="teamRank">#266</span>
+			<span class="teamRank">#265</span>
 		
 	
 	
@@ -6111,7 +6210,7 @@
 	
 	
 		
-			<span class="teamRank">#282</span>
+			<span class="teamRank">#281</span>
 		
 	
 	
@@ -6271,7 +6370,7 @@
 	
 	
 		
-			<span class="teamRank">#260</span>
+			<span class="teamRank">#258</span>
 		
 	
 	
@@ -6323,7 +6422,7 @@
 	
 	
 		
-			<span class="teamRank">#204</span>
+			<span class="teamRank">#206</span>
 		
 	
 	
@@ -6377,7 +6476,7 @@
 	
 	
 		
-			<span class="teamRank">#250</span>
+			<span class="teamRank">#248</span>
 		
 	
 	
@@ -7913,7 +8012,7 @@
 	
 	
 		
-			<span class="teamRank">#214</span>
+			<span class="teamRank">#215</span>
 		
 	
 	
@@ -7967,7 +8066,7 @@
 	
 	
 		
-			<span class="teamRank">#237</span>
+			<span class="teamRank">#238</span>
 		
 	
 	
@@ -8179,7 +8278,7 @@
 	
 	
 		
-			<span class="teamRank">#199</span>
+			<span class="teamRank">#202</span>
 		
 	
 	
@@ -8231,7 +8330,7 @@
 	
 	
 		
-			<span class="teamRank">#229</span>
+			<span class="teamRank">#230</span>
 		
 	
 	
@@ -8285,7 +8384,7 @@
 	
 	
 		
-			<span class="teamRank">#259</span>
+			<span class="teamRank">#256</span>
 		
 	
 	
@@ -8337,7 +8436,7 @@
 	
 	
 		
-			<span class="teamRank">#254</span>
+			<span class="teamRank">#257</span>
 		
 	
 	
@@ -8391,7 +8490,7 @@
 	
 	
 		
-			<span class="teamRank">#281</span>
+			<span class="teamRank">#280</span>
 		
 	
 	
@@ -8603,7 +8702,7 @@
 	
 	
 		
-			<span class="teamRank">#278</span>
+			<span class="teamRank">#277</span>
 		
 	
 	
@@ -9239,7 +9338,7 @@
 	
 	
 		
-			<span class="teamRank">#239</span>
+			<span class="teamRank">#240</span>
 		
 	
 	
@@ -9291,7 +9390,7 @@
 	
 	
 		
-			<span class="teamRank">#244</span>
+			<span class="teamRank">#243</span>
 		
 	
 	
@@ -9649,7 +9748,7 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/1/1151.jpg?1785786774" loading="lazy" />
+					<img src="/data/sixman/teamlogo/s/1/1151.jpg?1790262694" loading="lazy" />
 				
 			</span>
 		</div>
@@ -9681,112 +9780,6 @@
 		</div>
 		<div class="contentRow-score">
 			20
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19126.jpg?1785412529" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#242</span>
-		
-	
-	
-		
-			<a href="/teams/pawnee-indians.19126/schedule/2026/">Pawnee</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Indians
-			</div>
-		</div>
-		<div class="contentRow-score winning">
-			1
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-benavides-vs-pawnee.38874/">
-							Final/FF
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19121.jpg?1731129238" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#243</span>
-		
-	
-	
-		
-			<a href="/teams/benavides-eagles.19121/schedule/2026/">Benavides</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Eagles
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
 		</div>
 	</div>
 
@@ -9875,7 +9868,7 @@
 	
 	
 		
-			<span class="teamRank">#258</span>
+			<span class="teamRank">#255</span>
 		
 	
 	
@@ -9981,7 +9974,7 @@
 	
 	
 		
-			<span class="teamRank">#188</span>
+			<span class="teamRank">#190</span>
 		
 	
 	
@@ -10033,7 +10026,7 @@
 	
 	
 		
-			<span class="teamRank">#224</span>
+			<span class="teamRank">#225</span>
 		
 	
 	
@@ -10087,7 +10080,7 @@
 	
 	
 		
-			<span class="teamRank">#227</span>
+			<span class="teamRank">#228</span>
 		
 	
 	
@@ -10405,7 +10398,7 @@
 	
 	
 		
-			<span class="teamRank">#219</span>
+			<span class="teamRank">#220</span>
 		
 	
 	
@@ -10775,7 +10768,7 @@
 	
 	
 		
-			<span class="teamRank">#203</span>
+			<span class="teamRank">#205</span>
 		
 	
 	
@@ -10829,7 +10822,7 @@
 	
 	
 		
-			<span class="teamRank">#289</span>
+			<span class="teamRank">#288</span>
 		
 	
 	
@@ -10881,7 +10874,7 @@
 	
 	
 		
-			<span class="teamRank">#211</span>
+			<span class="teamRank">#212</span>
 		
 	
 	
@@ -10935,7 +10928,7 @@
 	
 	
 		
-			<span class="teamRank">#284</span>
+			<span class="teamRank">#283</span>
 		
 	
 	
@@ -10987,7 +10980,7 @@
 	
 	
 		
-			<span class="teamRank">#200</span>
+			<span class="teamRank">#189</span>
 		
 	
 	
@@ -11041,7 +11034,7 @@
 	
 	
 		
-			<span class="teamRank">#234</span>
+			<span class="teamRank">#233</span>
 		
 	
 	
@@ -11147,7 +11140,7 @@
 	
 	
 		
-			<span class="teamRank">#194</span>
+			<span class="teamRank">#197</span>
 		
 	
 	
@@ -11359,7 +11352,7 @@
 	
 	
 		
-			<span class="teamRank">#225</span>
+			<span class="teamRank">#226</span>
 		
 	
 	
@@ -11571,7 +11564,7 @@
 	
 	
 		
-			<span class="teamRank">#205</span>
+			<span class="teamRank">#207</span>
 		
 	
 	
@@ -11677,7 +11670,7 @@
 	
 	
 		
-			<span class="teamRank">#262</span>
+			<span class="teamRank">#261</span>
 		
 	
 	
@@ -11783,7 +11776,7 @@
 	
 	
 		
-			<span class="teamRank">#184</span>
+			<span class="teamRank">#183</span>
 		
 	
 	
@@ -11889,7 +11882,7 @@
 	
 	
 		
-			<span class="teamRank">#208</span>
+			<span class="teamRank">#209</span>
 		
 	
 	
@@ -12047,7 +12040,7 @@
 	
 	
 		
-			<span class="teamRank">#248</span>
+			<span class="teamRank">#246</span>
 		
 	
 	
@@ -12101,7 +12094,7 @@
 	
 	
 		
-			<span class="teamRank">#257</span>
+			<span class="teamRank">#254</span>
 		
 	
 	
@@ -12153,7 +12146,7 @@
 	
 	
 		
-			<span class="teamRank">#197</span>
+			<span class="teamRank">#200</span>
 		
 	
 	
@@ -12207,7 +12200,7 @@
 	
 	
 		
-			<span class="teamRank">#253</span>
+			<span class="teamRank">#251</span>
 		
 	
 	
@@ -12419,7 +12412,7 @@
 	
 	
 		
-			<span class="teamRank">#231</span>
+			<span class="teamRank">#232</span>
 		
 	
 	
@@ -12683,7 +12676,7 @@
 	
 	
 		
-			<span class="teamRank">#190</span>
+			<span class="teamRank">#192</span>
 		
 	
 	
@@ -12737,7 +12730,7 @@
 	
 	
 		
-			<span class="teamRank">#228</span>
+			<span class="teamRank">#229</span>
 		
 	
 	
@@ -12829,7 +12822,7 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/1/1271.jpg?1778029438" loading="lazy" />
+					<img src="/data/sixman/teamlogo/s/1/1271.jpg?1790263329" loading="lazy" />
 				
 			</span>
 		</div>
@@ -13224,7 +13217,7 @@
 	
 	
 		
-			<span class="teamRank">#261</span>
+			<span class="teamRank">#260</span>
 		
 	
 	
@@ -13378,7 +13371,7 @@
 	
 	
 		
-			<span class="teamRank">#265</span>
+			<span class="teamRank">#264</span>
 		
 	
 	
@@ -13696,7 +13689,7 @@
 	
 	
 		
-			<span class="teamRank">#209</span>
+			<span class="teamRank">#210</span>
 		
 	
 	
@@ -13748,7 +13741,7 @@
 	
 	
 		
-			<span class="teamRank">#247</span>
+			<span class="teamRank">#245</span>
 		
 	
 	
@@ -13896,7 +13889,7 @@
 	
 	
 		
-			<span class="teamRank">#288</span>
+			<span class="teamRank">#287</span>
 		
 	
 	
@@ -14002,7 +13995,7 @@
 	
 	
 		
-			<span class="teamRank">#230</span>
+			<span class="teamRank">#231</span>
 		
 	
 	
@@ -14214,7 +14207,7 @@
 	
 	
 		
-			<span class="teamRank">#268</span>
+			<span class="teamRank">#266</span>
 		
 	
 	
@@ -14266,7 +14259,7 @@
 	
 	
 		
-			<span class="teamRank">#183</span>
+			<span class="teamRank">#184</span>
 		
 	
 	
@@ -14320,7 +14313,7 @@
 	
 	
 		
-			<span class="teamRank">#246</span>
+			<span class="teamRank">#259</span>
 		
 	
 	
@@ -14426,7 +14419,7 @@
 	
 	
 		
-			<span class="teamRank">#271</span>
+			<span class="teamRank">#270</span>
 		
 	
 	
@@ -15002,7 +14995,7 @@
 	
 	
 		
-			<span class="teamRank">#240</span>
+			<span class="teamRank">#241</span>
 		
 	
 	
@@ -15056,7 +15049,7 @@
 	
 	
 		
-			<span class="teamRank">#263</span>
+			<span class="teamRank">#262</span>
 		
 	
 	
@@ -15214,7 +15207,7 @@
 	
 	
 		
-			<span class="teamRank">#232</span>
+			<span class="teamRank">#234</span>
 		
 	
 	
@@ -15268,7 +15261,7 @@
 	
 	
 		
-			<span class="teamRank">#245</span>
+			<span class="teamRank">#244</span>
 		
 	
 	
@@ -15490,7 +15483,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1790022389%2Cc8b0b3874de0dc31f4255b0eb856d1b9"
+	<a href="/misc/style-variation?reset=1&amp;t=1790277260%2Cb65cfbe84f5e0232eb11f37c5932fcfa"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -15505,7 +15498,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1790022389%2Cc8b0b3874de0dc31f4255b0eb856d1b9"
+	<a href="/misc/style-variation?variation=default&amp;t=1790277260%2Cb65cfbe84f5e0232eb11f37c5932fcfa"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -15520,7 +15513,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1790022389%2Cc8b0b3874de0dc31f4255b0eb856d1b9"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1790277260%2Cb65cfbe84f5e0232eb11f37c5932fcfa"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -15720,7 +15713,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3ebce1e0892de8b',t:'MTc5MDAyMjM4OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4041c8b0aeba1a5',t:'MTc5MDI3NzI2MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
