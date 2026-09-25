@@ -276,7 +276,7 @@ w02-rockwall-heritage-campbell,2,2026-09-04,rockwall-heritage,campbell,62,12,fal
 w02-runge-knippa,2,2026-09-04,runge,knippa,38,14,false,false
 w02-san-marcos-academy-lutheran-san-antonio,2,2026-09-04,san-marcos-academy,lutheran-san-antonio,59,14,false,false
 w02-sands-kress,2,2026-09-04,sands,kress,58,0,false,false
-w02-santa-anna-blackwell,2,2026-09-04,santa-anna,blackwell,6,50,false,false
+w02-santa-anna-blackwell,2,2026-09-04,santa-anna,blackwell,6,52,false,false
 w02-savoy-leveretts-chapel,2,2026-09-04,savoy,leveretts-chapel,,,false,false
 w02-sidney-cherokee,2,2026-09-04,sidney,cherokee,8,57,false,false
 w02-sierra-blanca-immanuel-christian,2,2026-09-04,sierra-blanca,immanuel-christian,,,false,false
@@ -571,8 +571,10 @@ w05-baytown-christian-high-island,5,2026-09-24,baytown-christian,high-island,47,
 w05-benjamin-harrold,5,2026-09-24,benjamin,harrold,26,71,false,false
 w05-bluff-dale-bryson,5,2026-09-24,bluff-dale,bryson,88,66,false,false
 w05-boys-ranch-lubbock-titans,5,2026-09-24,boys-ranch,lubbock-titans,34,26,false,false
+w05-calvert-abbott,5,2026-09-24,calvert,abbott,8,72,false,false
 w05-campbell-newman-international,5,2026-09-24,campbell,newman-international,75,24,false,false
 w05-cherokee-rocksprings,5,2026-09-24,cherokee,rocksprings,56,41,false,false
+w05-chillicothe-northside,5,2026-09-24,chillicothe,northside,14,70,false,false
 w05-gordon-stephenville-faith,5,2026-09-24,gordon,stephenville-faith,52,32,false,false
 w05-grayson-christian-saint-jo,5,2026-09-24,grayson-christian,saint-jo,28,77,false,false
 w05-knox-city-veribest,5,2026-09-24,knox-city,veribest,59,14,false,false
@@ -580,9 +582,9 @@ w05-lohn-mullin,5,2026-09-24,lohn,mullin,19,51,false,false
 w05-lorenzo-loop,5,2026-09-24,lorenzo,loop,0,50,false,false
 w05-lueders-avoca-trent,5,2026-09-24,lueders-avoca,trent,69,44,false,false
 w05-panther-creek-ranger,5,2026-09-24,panther-creek,ranger,54,6,false,false
+w05-three-way-olfen,5,2026-09-24,three-way,olfen,56,0,false,false
 w05-trinidad-avalon,5,2026-09-24,trinidad,avalon,81,34,false,false
 w05-woodson-guthrie,5,2026-09-24,woodson,guthrie,46,41,false,false
-w05-abbott-calvert,5,2026-09-25,abbott,calvert,72,8,false,false
 w05-abilene-christian-may,5,2026-09-25,abilene-christian,may,,,false,false
 w05-allen-academy-san-marcos-academy,5,2026-09-25,allen-academy,san-marcos-academy,,,false,false
 w05-apple-springs-brazos-valley-lions,5,2026-09-25,apple-springs,brazos-valley-lions,,,false,false
@@ -645,7 +647,6 @@ w05-morgan-gholson,5,2026-09-25,morgan,gholson,,,false,false
 w05-motley-county-booker,5,2026-09-25,motley-county,booker,,,false,false
 w05-nazareth-mclean,5,2026-09-25,nazareth,mclean,,,false,false
 w05-new-braunfels-thunder-hill-country-christian,5,2026-09-25,new-braunfels-thunder,hill-country-christian,,,false,false
-w05-northside-chillicothe,5,2026-09-25,northside,chillicothe,70,14,false,false
 w05-nyos-north-star,5,2026-09-25,nyos,north-star,,,false,false
 w05-oakwood-coram-deo,5,2026-09-25,oakwood,coram-deo,,,false,false
 w05-ovilla-christian-denton-calvary,5,2026-09-25,ovilla-christian,denton-calvary,,,false,false
@@ -674,7 +675,6 @@ w05-temple-christian-cornerstone,5,2026-09-25,temple-christian,cornerstone,,,tru
 w05-texas-wind-nazarene-christian,5,2026-09-25,texas-wind,nazarene-christian,,,false,false
 w05-thesa-milford,5,2026-09-25,thesa,milford,,,false,false
 w05-three-way-community-christian-mineral-wells,5,2026-09-25,three-way,community-christian-mineral-wells,,,false,false
-w05-three-way-olfen,5,2026-09-25,three-way,olfen,56,0,false,false
 w05-town-east-christian-valor-south-austin,5,2026-09-25,town-east-christian,valor-south-austin,,,false,false
 w05-union-hill-tyler-heat,5,2026-09-25,union-hill,tyler-heat,,,false,false
 w05-vanguard-college-prep-lometa,5,2026-09-25,vanguard-college-prep,lometa,,,false,false
@@ -797,7 +797,7 @@ w06-big-springs-charter-victoria-gators,6,2026-10-03,big-springs-charter,victori
 w06-blackwell-harrold,6,2026-10-03,blackwell,harrold,,,false,false
 w06-burkeville-calvert,6,2026-10-03,burkeville,calvert,,,false,false
 w06-kings-academy-greenville-christian,6,2026-10-03,kings-academy,greenville-christian,,,false,false
-w06-thesa-lubbock-titans,6,2026-10-03,thesa,lubbock-titans,,,true,true
+w06-lubbock-titans-thesa,6,2026-10-03,lubbock-titans,thesa,,,true,true
 w06-trinidad-fruitvale,6,2026-10-03,trinidad,fruitvale,,,false,false
 w06-valor-leander-valor-kyle,6,2026-10-03,valor-leander,valor-kyle,,,true,false
 w06-wylie-prep-lone-star-north,6,2026-10-03,wylie-prep,lone-star-north,,,true,false
