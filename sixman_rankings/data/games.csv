@@ -608,6 +608,7 @@ w05-cranfills-gap-lingleville,5,2026-09-25,cranfills-gap,lingleville,34,26,false
 w05-crowell-harrold,5,2026-09-25,crowell,harrold,,,false,false
 w05-dawson-anton,5,2026-09-25,dawson,anton,0,52,false,false
 w05-dell-city-immanuel-christian,5,2026-09-25,dell-city,immanuel-christian,18,14,false,false
+w05-emery-weiner-richland-springs,5,2026-09-25,emery-weiner,richland-springs,58,12,false,false
 w05-first-baptist-christian-alpha-omega,5,2026-09-25,first-baptist-christian,alpha-omega,58,22,false,false
 w05-follett-valley,5,2026-09-25,follett,valley,0,46,false,false
 w05-forestburg-perrin-whitt,5,2026-09-25,forestburg,perrin-whitt,16,62,false,false
@@ -647,7 +648,7 @@ w05-morgan-gholson,5,2026-09-25,morgan,gholson,54,6,false,false
 w05-motley-county-booker,5,2026-09-25,motley-county,booker,72,20,false,false
 w05-nazarene-christian-texas-wind,5,2026-09-25,nazarene-christian,texas-wind,84,68,false,false
 w05-nazareth-mclean,5,2026-09-25,nazareth,mclean,72,26,false,false
-w05-nyos-north-star,5,2026-09-25,nyos,north-star,0,0,false,false
+w05-north-star-nyos,5,2026-09-25,north-star,nyos,32,12,false,false
 w05-oakwood-coram-deo,5,2026-09-25,oakwood,coram-deo,14,62,false,false
 w05-ovilla-christian-denton-calvary,5,2026-09-25,ovilla-christian,denton-calvary,42,12,false,false
 w05-paducah-spur,5,2026-09-25,paducah,spur,55,0,false,false
@@ -688,7 +689,6 @@ w05-zephyr-oglesby,5,2026-09-25,zephyr,oglesby,38,67,false,false
 w05-buckholts-texas-empowerment,5,2026-09-26,buckholts,texas-empowerment,,,false,false
 w05-fannindel-tyler-heat,5,2026-09-26,fannindel,tyler-heat,,,false,false
 w05-jubilee-brownsville-victoria-cobras,5,2026-09-26,jubilee-brownsville,victoria-cobras,45,0,false,true
-w05-richland-springs-emery-weiner,5,2026-09-26,richland-springs,emery-weiner,,,false,true
 w06-bluff-dale-oakwood,6,2026-10-01,bluff-dale,oakwood,,,false,false
 w06-fannindel-wise-county-homeschool,6,2026-10-01,fannindel,wise-county-homeschool,,,false,false
 w06-groom-silverton,6,2026-10-01,groom,silverton,,,false,false
@@ -1194,6 +1194,7 @@ w10-pchea-lubbock-titans,10,2026-10-31,pchea,lubbock-titans,,,false,false
 w10-wylie-prep-ovilla-christian,10,2026-10-31,wylie-prep,ovilla-christian,,,true,false
 w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
+w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-moran-sidney,11,2026-11-05,moran,sidney,,,true,false
@@ -1213,7 +1214,6 @@ w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-06,cranfills-gap,walnut-springs,,,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,,,true,false
-w11-dawson-meadow,11,2026-11-06,dawson,meadow,,,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,,,true,false
 w11-guthrie-valley,11,2026-11-06,guthrie,valley,,,true,false
 w11-happy-kress,11,2026-11-06,happy,kress,,,true,false
