@@ -595,7 +595,7 @@ w05-balmorhea-el-paso-leadership,5,2026-09-25,balmorhea,el-paso-leadership,48,0,
 w05-borden-county-whiteface,5,2026-09-25,borden-county,whiteface,75,69,false,false
 w05-bracken-christian-fredericksburg-heritage,5,2026-09-25,bracken-christian,fredericksburg-heritage,68,36,false,false
 w05-bruni-st-augustine,5,2026-09-25,bruni,st-augustine,25,31,false,false
-w05-buena-vista-trinity-school-of-texas,5,2026-09-25,buena-vista,trinity-school-of-texas,,,false,false
+w05-buena-vista-trinity-school-of-texas,5,2026-09-25,buena-vista,trinity-school-of-texas,78,100,false,false
 w05-bynum-blum,5,2026-09-25,bynum,blum,43,58,false,false
 w05-centex-homeschool-brazos-valley-lions,5,2026-09-25,centex-homeschool,brazos-valley-lions,34,51,false,false
 w05-chester-legacy-christian-beaumont,5,2026-09-25,chester,legacy-christian-beaumont,56,6,false,false
@@ -607,11 +607,10 @@ w05-covenant-christian-faith-bellville,5,2026-09-25,covenant-christian,faith-bel
 w05-cranfills-gap-lingleville,5,2026-09-25,cranfills-gap,lingleville,34,26,false,false
 w05-crowell-harrold,5,2026-09-25,crowell,harrold,,,false,false
 w05-dawson-anton,5,2026-09-25,dawson,anton,0,52,false,false
-w05-dell-city-immanuel-christian,5,2026-09-25,dell-city,immanuel-christian,,,false,false
+w05-dell-city-immanuel-christian,5,2026-09-25,dell-city,immanuel-christian,18,14,false,false
 w05-first-baptist-christian-alpha-omega,5,2026-09-25,first-baptist-christian,alpha-omega,58,22,false,false
-w05-follett-amherst,5,2026-09-25,follett,amherst,,,false,false
 w05-follett-valley,5,2026-09-25,follett,valley,0,46,false,false
-w05-forestburg-perrin-whitt,5,2026-09-25,forestburg,perrin-whitt,16,31,false,false
+w05-forestburg-perrin-whitt,5,2026-09-25,forestburg,perrin-whitt,16,62,false,false
 w05-founders-christian-divine-savior,5,2026-09-25,founders-christian,divine-savior,,,true,false
 w05-fruitvale-leveretts-chapel,5,2026-09-25,fruitvale,leveretts-chapel,12,64,false,false
 w05-garden-city-robert-lee,5,2026-09-25,garden-city,robert-lee,74,79,false,false
@@ -622,12 +621,12 @@ w05-grace-christian-perrin-pinnacle-christian,5,2026-09-25,grace-christian-perri
 w05-grady-lazbuddie,5,2026-09-25,grady,lazbuddie,66,20,false,false
 w05-grandfalls-royalty-west-texas-tornadoes,5,2026-09-25,grandfalls-royalty,west-texas-tornadoes,74,13,false,false
 w05-greenville-christian-rockwall-heritage,5,2026-09-25,greenville-christian,rockwall-heritage,56,30,false,false
-w05-groom-wildorado,5,2026-09-25,groom,wildorado,52,30,false,false
+w05-groom-wildorado,5,2026-09-25,groom,wildorado,52,36,false,false
 w05-gustine-eden,5,2026-09-25,gustine,eden,50,0,false,false
 w05-harvest-christian-lantana-kings-academy,5,2026-09-25,harvest-christian-lantana,kings-academy,58,24,false,false
 w05-hermleigh-west-texas-tornadoes,5,2026-09-25,hermleigh,west-texas-tornadoes,62,0,false,false
 w05-highland-blackwell,5,2026-09-25,highland,blackwell,40,62,false,false
-w05-hill-country-christian-new-braunfels-spartans,5,2026-09-25,hill-country-christian,new-braunfels-spartans,,,false,false
+w05-hill-country-christian-new-braunfels-spartans,5,2026-09-25,hill-country-christian,new-braunfels-spartans,72,7,false,false
 w05-hill-country-christian-new-braunfels-thunder,5,2026-09-25,hill-country-christian,new-braunfels-thunder,72,7,false,false
 w05-hill-country-knights-new-braunfels-thunder,5,2026-09-25,hill-country-knights,new-braunfels-thunder,,,false,false
 w05-holy-cross-midland-fort-davis,5,2026-09-25,holy-cross-midland,fort-davis,,,false,false
@@ -650,7 +649,7 @@ w05-nazarene-christian-texas-wind,5,2026-09-25,nazarene-christian,texas-wind,84,
 w05-nazareth-mclean,5,2026-09-25,nazareth,mclean,72,26,false,false
 w05-nyos-north-star,5,2026-09-25,nyos,north-star,0,0,false,false
 w05-oakwood-coram-deo,5,2026-09-25,oakwood,coram-deo,14,62,false,false
-w05-ovilla-christian-denton-calvary,5,2026-09-25,ovilla-christian,denton-calvary,0,0,false,false
+w05-ovilla-christian-denton-calvary,5,2026-09-25,ovilla-christian,denton-calvary,42,12,false,false
 w05-paducah-spur,5,2026-09-25,paducah,spur,55,0,false,false
 w05-paint-creek-moran,5,2026-09-25,paint-creek,moran,12,0,false,false
 w05-pchea-plainview-classical,5,2026-09-25,pchea,plainview-classical,59,14,true,false
@@ -662,8 +661,8 @@ w05-rising-star-irion-county,5,2026-09-25,rising-star,irion-county,30,52,false,f
 w05-roby-loraine,5,2026-09-25,roby,loraine,50,0,false,false
 w05-rochelle-blanket,5,2026-09-25,rochelle,blanket,28,0,false,false
 w05-rotan-bronte,5,2026-09-25,rotan,bronte,66,68,false,false
-w05-round-rock-christian-summit-christian,5,2026-09-25,round-rock-christian,summit-christian,0,0,false,false
-w05-rule-throckmorton,5,2026-09-25,rule,throckmorton,47,21,false,false
+w05-round-rock-christian-summit-christian,5,2026-09-25,round-rock-christian,summit-christian,60,32,false,false
+w05-rule-throckmorton,5,2026-09-25,rule,throckmorton,67,21,false,false
 w05-sanderson-marfa,5,2026-09-25,sanderson,marfa,26,20,false,false
 w05-sands-whitharral,5,2026-09-25,sands,whitharral,59,12,false,false
 w05-santa-anna-brookesmith,5,2026-09-25,santa-anna,brookesmith,47,50,false,false
@@ -685,10 +684,10 @@ w05-weatherford-christian-grace-classical-granbury,5,2026-09-25,weatherford-chri
 w05-wellman-union-klondike,5,2026-09-25,wellman-union,klondike,32,78,false,false
 w05-wichita-christian-saint-jo,5,2026-09-25,wichita-christian,saint-jo,,,false,false
 w05-wylie-prep-greenville-homeschool,5,2026-09-25,wylie-prep,greenville-homeschool,46,0,false,false
-w05-zephyr-oglesby,5,2026-09-25,zephyr,oglesby,0,8,false,false
+w05-zephyr-oglesby,5,2026-09-25,zephyr,oglesby,38,67,false,false
 w05-buckholts-texas-empowerment,5,2026-09-26,buckholts,texas-empowerment,,,false,false
 w05-fannindel-tyler-heat,5,2026-09-26,fannindel,tyler-heat,,,false,false
-w05-jubilee-brownsville-victoria-cobras,5,2026-09-26,jubilee-brownsville,victoria-cobras,,,false,true
+w05-jubilee-brownsville-victoria-cobras,5,2026-09-26,jubilee-brownsville,victoria-cobras,45,0,false,true
 w05-richland-springs-emery-weiner,5,2026-09-26,richland-springs,emery-weiner,,,false,true
 w06-bluff-dale-oakwood,6,2026-10-01,bluff-dale,oakwood,,,false,false
 w06-fannindel-wise-county-homeschool,6,2026-10-01,fannindel,wise-county-homeschool,,,false,false
@@ -1081,7 +1080,7 @@ w09-whitharral-nazareth,9,2026-10-23,whitharral,nazareth,,,true,false
 w09-wildorado-white-deer,9,2026-10-23,wildorado,white-deer,,,true,false
 w09-big-springs-charter-north-star,9,2026-10-24,big-springs-charter,north-star,,,false,false
 w09-covenant-christian-emery-weiner,9,2026-10-24,covenant-christian,emery-weiner,,,true,false
-w09-faith-academy-st-augustine,9,2026-10-24,faith-academy,st-augustine,,,true,true
+w09-st-augustine-faith-academy,9,2026-10-24,st-augustine,faith-academy,,,true,true
 w09-stephenville-faith-community-christian-mineral-wells,9,2026-10-24,stephenville-faith,community-christian-mineral-wells,,,true,false
 w09-valor-leander-hill-country-knights,9,2026-10-24,valor-leander,hill-country-knights,,,true,false
 w09-west-texas-tornadoes-lubbock-titans,9,2026-10-24,west-texas-tornadoes,lubbock-titans,,,true,false
@@ -1195,7 +1194,6 @@ w10-pchea-lubbock-titans,10,2026-10-31,pchea,lubbock-titans,,,false,false
 w10-wylie-prep-ovilla-christian,10,2026-10-31,wylie-prep,ovilla-christian,,,true,false
 w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
-w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-moran-sidney,11,2026-11-05,moran,sidney,,,true,false
@@ -1215,6 +1213,7 @@ w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-06,cranfills-gap,walnut-springs,,,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,,,true,false
+w11-dawson-meadow,11,2026-11-06,dawson,meadow,,,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,,,true,false
 w11-guthrie-valley,11,2026-11-06,guthrie,valley,,,true,false
 w11-happy-kress,11,2026-11-06,happy,kress,,,true,false

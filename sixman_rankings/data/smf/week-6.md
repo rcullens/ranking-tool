@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1790399339,e9d61e15955c179c442f1d3b8bad35d7"
+	data-csrf="1790447898,ea33299ea0952745c8809d26c0ace48f"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1790399339,e9d61e15955c179c442f1d3b8bad35d7',
+				csrf: '1790447898,ea33299ea0952745c8809d26c0ace48f',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=c3f1f393":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1790399339,
+					now: 1790447898,
 					today: 1790398800,
 					todayDow: 6,
 					tomorrow: 1790485200,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1790399339,e9d61e15955c179c442f1d3b8bad35d7" />
+									<input type="hidden" name="_xfToken" value="1790447898,ea33299ea0952745c8809d26c0ace48f" />
 								</form>
 							</div>
 						
@@ -7651,112 +7651,6 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/1/1386.jpg?1782398292" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#185</span>
-		
-	
-	
-		
-			<a href="/teams/miami-warriors.1386/schedule/2026/">Miami</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Warriors
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-miami-vs-boys-ranch.37791/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19145.jpg?1778615307" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#39</span>
-		
-	
-	
-		
-			<a href="/teams/boys-ranch-roughriders.19145/schedule/2026/">Boys Ranch</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Roughriders
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
 					<img src="/data/sixman/teamlogo/s/1/1051.jpg?1728531608" loading="lazy" />
 				
 			</span>
@@ -13871,7 +13765,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1790399339%2Ce9d61e15955c179c442f1d3b8bad35d7"
+	<a href="/misc/style-variation?reset=1&amp;t=1790447898%2Cea33299ea0952745c8809d26c0ace48f"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -13886,7 +13780,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1790399339%2Ce9d61e15955c179c442f1d3b8bad35d7"
+	<a href="/misc/style-variation?variation=default&amp;t=1790447898%2Cea33299ea0952745c8809d26c0ace48f"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -13901,7 +13795,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1790399339%2Ce9d61e15955c179c442f1d3b8bad35d7"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1790447898%2Cea33299ea0952745c8809d26c0ace48f"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -14101,7 +13995,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a40fc1014e80a724',t:'MTc5MDM5OTMzOQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4146285ce30e62f',t:'MTc5MDQ0Nzg5OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
