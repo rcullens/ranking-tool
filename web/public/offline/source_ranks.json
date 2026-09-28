@@ -1,6 +1,6 @@
 {
   "week": 5,
-  "pulled_at": "2026-09-27T00:26:12.092688-05:00",
+  "pulled_at": "2026-09-28T17:03:18.384590-05:00",
   "note": "External ranks are each source's published board (MaxPreps division standing; SMF / DCTF polls). Delta = our statewide rank minus theirs. NR / \u2014 means that source has not listed the team.",
   "sources": {
     "maxpreps": {
@@ -13,10 +13,10 @@
     },
     "smf": {
       "ok": true,
-      "week": "Week 4",
+      "week": "Week 5",
       "label": "SixManFootball",
       "error": null,
-      "count": 197,
+      "count": 200,
       "via": "direct"
     },
     "dctf": {
@@ -54,10 +54,10 @@
       "our_rank": 2,
       "maxpreps": 15,
       "smf": 2,
-      "dctf": 6,
+      "dctf": 7,
       "delta_maxpreps": -13,
       "delta_smf": 0,
-      "delta_dctf": -4
+      "delta_dctf": -5
     },
     {
       "team_id": "klondike",
@@ -75,34 +75,34 @@
       "delta_dctf": null
     },
     {
-      "team_id": "oglesby",
-      "name": "Oglesby",
-      "classification": "1A DI",
-      "association": "UIL",
-      "district": "15-1A DI",
-      "region": "central-east-south",
-      "our_rank": 4,
-      "maxpreps": 21,
-      "smf": 17,
-      "dctf": null,
-      "delta_maxpreps": -17,
-      "delta_smf": -13,
-      "delta_dctf": null
-    },
-    {
       "team_id": "water-valley",
       "name": "Water Valley",
       "classification": "1A DI",
       "association": "UIL",
       "district": "8-1A DI",
       "region": "west-texas",
-      "our_rank": 5,
+      "our_rank": 4,
       "maxpreps": 13,
       "smf": 6,
-      "dctf": 7,
-      "delta_maxpreps": -8,
-      "delta_smf": -1,
+      "dctf": 6,
+      "delta_maxpreps": -9,
+      "delta_smf": -2,
       "delta_dctf": -2
+    },
+    {
+      "team_id": "oglesby",
+      "name": "Oglesby",
+      "classification": "1A DI",
+      "association": "UIL",
+      "district": "15-1A DI",
+      "region": "central-east-south",
+      "our_rank": 5,
+      "maxpreps": 21,
+      "smf": 15,
+      "dctf": null,
+      "delta_maxpreps": -16,
+      "delta_smf": -10,
+      "delta_dctf": null
     },
     {
       "team_id": "strawn",
@@ -114,10 +114,10 @@
       "our_rank": 6,
       "maxpreps": 19,
       "smf": 1,
-      "dctf": 6,
+      "dctf": 4,
       "delta_maxpreps": -13,
       "delta_smf": 5,
-      "delta_dctf": 0
+      "delta_dctf": 2
     },
     {
       "team_id": "motley-county",
@@ -159,10 +159,10 @@
       "our_rank": 9,
       "maxpreps": 38,
       "smf": 13,
-      "dctf": 8,
+      "dctf": null,
       "delta_maxpreps": -29,
       "delta_smf": -4,
-      "delta_dctf": 1
+      "delta_dctf": null
     },
     {
       "team_id": "menard",
@@ -174,10 +174,10 @@
       "our_rank": 10,
       "maxpreps": 1,
       "smf": 5,
-      "dctf": null,
+      "dctf": 9,
       "delta_maxpreps": 9,
       "delta_smf": 5,
-      "delta_dctf": null
+      "delta_dctf": 1
     },
     {
       "team_id": "paducah",
@@ -188,11 +188,11 @@
       "region": "panhandle",
       "our_rank": 11,
       "maxpreps": 18,
-      "smf": 4,
-      "dctf": 10,
+      "smf": 3,
+      "dctf": 7,
       "delta_maxpreps": -7,
-      "delta_smf": 7,
-      "delta_dctf": 1
+      "delta_smf": 8,
+      "delta_dctf": 4
     },
     {
       "team_id": "union-hill",
@@ -218,10 +218,10 @@
       "region": "panhandle",
       "our_rank": 13,
       "maxpreps": 29,
-      "smf": 23,
+      "smf": 20,
       "dctf": null,
       "delta_maxpreps": -16,
-      "delta_smf": -10,
+      "delta_smf": -7,
       "delta_dctf": null
     },
     {
@@ -240,33 +240,18 @@
       "delta_dctf": 11
     },
     {
-      "team_id": "westbrook",
-      "name": "Westbrook",
-      "classification": "1A DI",
-      "association": "UIL",
-      "district": "5-1A DI",
-      "region": "west-texas",
-      "our_rank": 15,
-      "maxpreps": 43,
-      "smf": 14,
-      "dctf": null,
-      "delta_maxpreps": -28,
-      "delta_smf": 1,
-      "delta_dctf": null
-    },
-    {
       "team_id": "sands",
       "name": "Sands",
       "classification": "1A DI",
       "association": "UIL",
       "district": "5-1A DI",
       "region": "west-texas",
-      "our_rank": 16,
+      "our_rank": 15,
       "maxpreps": 19,
       "smf": 10,
       "dctf": null,
-      "delta_maxpreps": -3,
-      "delta_smf": 6,
+      "delta_maxpreps": -4,
+      "delta_smf": 5,
       "delta_dctf": null
     },
     {
@@ -276,13 +261,13 @@
       "association": "UIL",
       "district": "8-1A DII",
       "region": "west-texas",
-      "our_rank": 17,
+      "our_rank": 16,
       "maxpreps": 8,
       "smf": 7,
       "dctf": 1,
-      "delta_maxpreps": 9,
-      "delta_smf": 10,
-      "delta_dctf": 16
+      "delta_maxpreps": 8,
+      "delta_smf": 9,
+      "delta_dctf": 15
     },
     {
       "team_id": "aquilla",
@@ -291,13 +276,28 @@
       "association": "UIL",
       "district": "14-1A DI",
       "region": "central-east-south",
-      "our_rank": 18,
+      "our_rank": 17,
       "maxpreps": null,
       "smf": 8,
       "dctf": 4,
       "delta_maxpreps": null,
-      "delta_smf": 10,
-      "delta_dctf": 14
+      "delta_smf": 9,
+      "delta_dctf": 13
+    },
+    {
+      "team_id": "westbrook",
+      "name": "Westbrook",
+      "classification": "1A DI",
+      "association": "UIL",
+      "district": "5-1A DI",
+      "region": "west-texas",
+      "our_rank": 18,
+      "maxpreps": 54,
+      "smf": 14,
+      "dctf": null,
+      "delta_maxpreps": -36,
+      "delta_smf": 4,
+      "delta_dctf": null
     },
     {
       "team_id": "newcastle",
@@ -323,11 +323,11 @@
       "region": "west-texas",
       "our_rank": 20,
       "maxpreps": 12,
-      "smf": 3,
-      "dctf": 3,
+      "smf": 4,
+      "dctf": 6,
       "delta_maxpreps": 8,
-      "delta_smf": 17,
-      "delta_dctf": 17
+      "delta_smf": 16,
+      "delta_dctf": 14
     },
     {
       "team_id": "hermleigh",
@@ -339,10 +339,10 @@
       "our_rank": 21,
       "maxpreps": 6,
       "smf": 12,
-      "dctf": null,
+      "dctf": 10,
       "delta_maxpreps": 15,
       "delta_smf": 9,
-      "delta_dctf": null
+      "delta_dctf": 11
     },
     {
       "team_id": "knox-city",
@@ -354,10 +354,10 @@
       "our_rank": 22,
       "maxpreps": 10,
       "smf": 8,
-      "dctf": null,
+      "dctf": 8,
       "delta_maxpreps": 12,
       "delta_smf": 14,
-      "delta_dctf": null
+      "delta_dctf": 14
     },
     {
       "team_id": "valley",
@@ -443,11 +443,11 @@
       "region": "panhandle",
       "our_rank": 28,
       "maxpreps": 4,
-      "smf": 11,
-      "dctf": null,
+      "smf": 10,
+      "dctf": 10,
       "delta_maxpreps": 24,
-      "delta_smf": 17,
-      "delta_dctf": null
+      "delta_smf": 18,
+      "delta_dctf": 18
     },
     {
       "team_id": "balmorhea",
@@ -459,10 +459,10 @@
       "our_rank": 29,
       "maxpreps": 2,
       "smf": 9,
-      "dctf": 7,
+      "dctf": 3,
       "delta_maxpreps": 27,
       "delta_smf": 20,
-      "delta_dctf": 22
+      "delta_dctf": 26
     },
     {
       "team_id": "rocksprings",
@@ -473,10 +473,10 @@
       "region": "west-texas",
       "our_rank": 30,
       "maxpreps": 22,
-      "smf": 13,
+      "smf": 12,
       "dctf": null,
       "delta_maxpreps": 8,
-      "delta_smf": 17,
+      "delta_smf": 18,
       "delta_dctf": null
     },
     {
@@ -488,10 +488,10 @@
       "region": "central-east-south",
       "our_rank": 31,
       "maxpreps": 20,
-      "smf": 20,
+      "smf": 17,
       "dctf": null,
       "delta_maxpreps": 11,
-      "delta_smf": 11,
+      "delta_smf": 14,
       "delta_dctf": null
     },
     {
@@ -504,10 +504,10 @@
       "our_rank": 32,
       "maxpreps": 26,
       "smf": 5,
-      "dctf": 4,
+      "dctf": null,
       "delta_maxpreps": 6,
       "delta_smf": 27,
-      "delta_dctf": 28
+      "delta_dctf": null
     },
     {
       "team_id": "lucas-christian",
@@ -532,11 +532,11 @@
       "district": "14-1A DII",
       "region": "central-east-south",
       "our_rank": 34,
-      "maxpreps": 63,
-      "smf": 10,
+      "maxpreps": 64,
+      "smf": 13,
       "dctf": null,
-      "delta_maxpreps": -29,
-      "delta_smf": 24,
+      "delta_maxpreps": -30,
+      "delta_smf": 21,
       "delta_dctf": null
     },
     {
@@ -548,10 +548,10 @@
       "region": "north-central",
       "our_rank": 35,
       "maxpreps": 12,
-      "smf": 31,
+      "smf": 30,
       "dctf": null,
       "delta_maxpreps": 23,
-      "delta_smf": 4,
+      "delta_smf": 5,
       "delta_dctf": null
     },
     {
@@ -564,10 +564,10 @@
       "our_rank": 36,
       "maxpreps": 16,
       "smf": 19,
-      "dctf": 10,
+      "dctf": null,
       "delta_maxpreps": 20,
       "delta_smf": 17,
-      "delta_dctf": 26
+      "delta_dctf": null
     },
     {
       "team_id": "roby",
@@ -585,33 +585,33 @@
       "delta_dctf": null
     },
     {
-      "team_id": "coram-deo",
-      "name": "Coram Deo",
-      "classification": "TAPPS DI",
-      "association": "TAPPS",
-      "district": "2-TAPPS DI",
-      "region": "tapps",
-      "our_rank": 38,
-      "maxpreps": 8,
-      "smf": 7,
-      "dctf": null,
-      "delta_maxpreps": 30,
-      "delta_smf": 31,
-      "delta_dctf": null
-    },
-    {
       "team_id": "runge",
       "name": "Runge",
       "classification": "1A DII",
       "association": "UIL",
       "district": "16-1A DII",
       "region": "central-east-south",
-      "our_rank": 39,
+      "our_rank": 38,
       "maxpreps": 13,
-      "smf": 28,
+      "smf": 25,
       "dctf": null,
-      "delta_maxpreps": 26,
-      "delta_smf": 11,
+      "delta_maxpreps": 25,
+      "delta_smf": 13,
+      "delta_dctf": null
+    },
+    {
+      "team_id": "coram-deo",
+      "name": "Coram Deo",
+      "classification": "TAPPS DI",
+      "association": "TAPPS",
+      "district": "2-TAPPS DI",
+      "region": "tapps",
+      "our_rank": 39,
+      "maxpreps": 8,
+      "smf": 6,
+      "dctf": null,
+      "delta_maxpreps": 31,
+      "delta_smf": 33,
       "delta_dctf": null
     },
     {
@@ -638,10 +638,10 @@
       "region": "west-texas",
       "our_rank": 41,
       "maxpreps": 14,
-      "smf": 12,
+      "smf": 11,
       "dctf": null,
       "delta_maxpreps": 27,
-      "delta_smf": 29,
+      "delta_smf": 30,
       "delta_dctf": null
     },
     {
@@ -669,10 +669,10 @@
       "our_rank": 43,
       "maxpreps": 11,
       "smf": 14,
-      "dctf": null,
+      "dctf": 9,
       "delta_maxpreps": 32,
       "delta_smf": 29,
-      "delta_dctf": null
+      "delta_dctf": 34
     },
     {
       "team_id": "mclean",
@@ -682,12 +682,12 @@
       "district": "1-1A DII",
       "region": "panhandle",
       "our_rank": 44,
-      "maxpreps": 51,
+      "maxpreps": 52,
       "smf": 16,
-      "dctf": 9,
-      "delta_maxpreps": -7,
+      "dctf": null,
+      "delta_maxpreps": -8,
       "delta_smf": 28,
-      "delta_dctf": 35
+      "delta_dctf": null
     },
     {
       "team_id": "harrold",
@@ -698,10 +698,10 @@
       "region": "north-central",
       "our_rank": 45,
       "maxpreps": 28,
-      "smf": 21,
+      "smf": 22,
       "dctf": null,
       "delta_maxpreps": 17,
-      "delta_smf": 24,
+      "delta_smf": 23,
       "delta_dctf": null
     },
     {
@@ -713,10 +713,10 @@
       "region": "tapps",
       "our_rank": 46,
       "maxpreps": 2,
-      "smf": 2,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 44,
-      "delta_smf": 44,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -728,10 +728,10 @@
       "region": "north-central",
       "our_rank": 47,
       "maxpreps": 37,
-      "smf": 15,
+      "smf": 22,
       "dctf": null,
       "delta_maxpreps": 10,
-      "delta_smf": 32,
+      "delta_smf": 25,
       "delta_dctf": null
     },
     {
@@ -743,10 +743,10 @@
       "region": "central-east-south",
       "our_rank": 48,
       "maxpreps": 69,
-      "smf": 27,
+      "smf": 26,
       "dctf": null,
       "delta_maxpreps": -21,
-      "delta_smf": 21,
+      "delta_smf": 22,
       "delta_dctf": null
     },
     {
@@ -774,10 +774,10 @@
       "our_rank": 50,
       "maxpreps": 6,
       "smf": 15,
-      "dctf": 8,
+      "dctf": 5,
       "delta_maxpreps": 44,
       "delta_smf": 35,
-      "delta_dctf": 42
+      "delta_dctf": 45
     },
     {
       "team_id": "bluff-dale",
@@ -802,11 +802,11 @@
       "district": "3-1A DI",
       "region": "panhandle",
       "our_rank": 52,
-      "maxpreps": 53,
-      "smf": 36,
+      "maxpreps": 52,
+      "smf": 35,
       "dctf": null,
-      "delta_maxpreps": -1,
-      "delta_smf": 16,
+      "delta_maxpreps": 0,
+      "delta_smf": 17,
       "delta_dctf": null
     },
     {
@@ -818,10 +818,10 @@
       "region": "west-texas",
       "our_rank": 53,
       "maxpreps": 57,
-      "smf": 26,
+      "smf": 27,
       "dctf": null,
       "delta_maxpreps": -4,
-      "delta_smf": 27,
+      "delta_smf": 26,
       "delta_dctf": null
     },
     {
@@ -833,10 +833,10 @@
       "region": "tapps",
       "our_rank": 54,
       "maxpreps": 11,
-      "smf": 8,
+      "smf": 7,
       "dctf": null,
       "delta_maxpreps": 43,
-      "delta_smf": 46,
+      "delta_smf": 47,
       "delta_dctf": null
     },
     {
@@ -863,10 +863,10 @@
       "region": "tapps",
       "our_rank": 56,
       "maxpreps": 10,
-      "smf": 14,
+      "smf": 15,
       "dctf": null,
       "delta_maxpreps": 46,
-      "delta_smf": 42,
+      "delta_smf": 41,
       "delta_dctf": null
     },
     {
@@ -878,10 +878,10 @@
       "region": "north-central",
       "our_rank": 57,
       "maxpreps": 75,
-      "smf": 30,
+      "smf": 31,
       "dctf": null,
       "delta_maxpreps": -18,
-      "delta_smf": 27,
+      "delta_smf": 26,
       "delta_dctf": null
     },
     {
@@ -908,10 +908,10 @@
       "region": "tapps",
       "our_rank": 59,
       "maxpreps": 15,
-      "smf": 5,
+      "smf": 6,
       "dctf": null,
       "delta_maxpreps": 44,
-      "delta_smf": 54,
+      "delta_smf": 53,
       "delta_dctf": null
     },
     {
@@ -923,10 +923,10 @@
       "region": "taiao",
       "our_rank": 60,
       "maxpreps": null,
-      "smf": 6,
+      "smf": 5,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 54,
+      "delta_smf": 55,
       "delta_dctf": null
     },
     {
@@ -938,10 +938,10 @@
       "region": "taiao",
       "our_rank": 61,
       "maxpreps": null,
-      "smf": 9,
+      "smf": 11,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 52,
+      "delta_smf": 50,
       "delta_dctf": null
     },
     {
@@ -967,11 +967,11 @@
       "district": "8-1A DI",
       "region": "west-texas",
       "our_rank": 63,
-      "maxpreps": 52,
-      "smf": 33,
+      "maxpreps": 51,
+      "smf": 34,
       "dctf": null,
-      "delta_maxpreps": 11,
-      "delta_smf": 30,
+      "delta_maxpreps": 12,
+      "delta_smf": 29,
       "delta_dctf": null
     },
     {
@@ -982,11 +982,11 @@
       "district": "15-1A DII",
       "region": "central-east-south",
       "our_rank": 64,
-      "maxpreps": 38,
-      "smf": 34,
+      "maxpreps": 39,
+      "smf": 33,
       "dctf": null,
-      "delta_maxpreps": 26,
-      "delta_smf": 30,
+      "delta_maxpreps": 25,
+      "delta_smf": 31,
       "delta_dctf": null
     },
     {
@@ -1043,10 +1043,10 @@
       "region": "tapps",
       "our_rank": 68,
       "maxpreps": 5,
-      "smf": 8,
+      "smf": 9,
       "dctf": null,
       "delta_maxpreps": 63,
-      "delta_smf": 60,
+      "delta_smf": 59,
       "delta_dctf": null
     },
     {
@@ -1057,11 +1057,11 @@
       "district": "1-1A DI",
       "region": "panhandle",
       "our_rank": 69,
-      "maxpreps": 46,
-      "smf": 35,
+      "maxpreps": 45,
+      "smf": 36,
       "dctf": null,
-      "delta_maxpreps": 23,
-      "delta_smf": 34,
+      "delta_maxpreps": 24,
+      "delta_smf": 33,
       "delta_dctf": null
     },
     {
@@ -1074,10 +1074,10 @@
       "our_rank": 70,
       "maxpreps": 8,
       "smf": 9,
-      "dctf": 9,
+      "dctf": 8,
       "delta_maxpreps": 62,
       "delta_smf": 61,
-      "delta_dctf": 61
+      "delta_dctf": 62
     },
     {
       "team_id": "springlake-earth",
@@ -1087,11 +1087,11 @@
       "district": "2-1A DI",
       "region": "panhandle",
       "our_rank": 71,
-      "maxpreps": 50,
-      "smf": 60,
+      "maxpreps": 49,
+      "smf": 45,
       "dctf": null,
-      "delta_maxpreps": 21,
-      "delta_smf": 11,
+      "delta_maxpreps": 22,
+      "delta_smf": 26,
       "delta_dctf": null
     },
     {
@@ -1103,10 +1103,10 @@
       "region": "tapps",
       "our_rank": 72,
       "maxpreps": null,
-      "smf": 3,
+      "smf": 8,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 69,
+      "delta_smf": 64,
       "delta_dctf": null
     },
     {
@@ -1148,10 +1148,10 @@
       "region": "tapps",
       "our_rank": 75,
       "maxpreps": 9,
-      "smf": 6,
+      "smf": 7,
       "dctf": null,
       "delta_maxpreps": 66,
-      "delta_smf": 69,
+      "delta_smf": 68,
       "delta_dctf": null
     },
     {
@@ -1163,10 +1163,10 @@
       "region": "central-east-south",
       "our_rank": 76,
       "maxpreps": 66,
-      "smf": 42,
+      "smf": 43,
       "dctf": null,
       "delta_maxpreps": 10,
-      "delta_smf": 34,
+      "delta_smf": 33,
       "delta_dctf": null
     },
     {
@@ -1283,10 +1283,10 @@
       "region": "west-texas",
       "our_rank": 84,
       "maxpreps": 4,
-      "smf": 22,
+      "smf": 23,
       "dctf": null,
       "delta_maxpreps": 80,
-      "delta_smf": 62,
+      "delta_smf": 61,
       "delta_dctf": null
     },
     {
@@ -1298,10 +1298,10 @@
       "region": "north-central",
       "our_rank": 85,
       "maxpreps": 58,
-      "smf": 43,
+      "smf": 42,
       "dctf": null,
       "delta_maxpreps": 27,
-      "delta_smf": 42,
+      "delta_smf": 43,
       "delta_dctf": null
     },
     {
@@ -1313,10 +1313,10 @@
       "region": "tapps",
       "our_rank": 86,
       "maxpreps": 9,
-      "smf": 5,
+      "smf": 3,
       "dctf": null,
       "delta_maxpreps": 77,
-      "delta_smf": 81,
+      "delta_smf": 83,
       "delta_dctf": null
     },
     {
@@ -1357,11 +1357,11 @@
       "district": "4-1A DII",
       "region": "panhandle",
       "our_rank": 89,
-      "maxpreps": 46,
-      "smf": 22,
+      "maxpreps": 47,
+      "smf": 24,
       "dctf": null,
-      "delta_maxpreps": 43,
-      "delta_smf": 67,
+      "delta_maxpreps": 42,
+      "delta_smf": 65,
       "delta_dctf": null
     },
     {
@@ -1373,10 +1373,10 @@
       "region": "taiao",
       "our_rank": 90,
       "maxpreps": null,
-      "smf": 11,
+      "smf": 10,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 79,
+      "delta_smf": 80,
       "delta_dctf": null
     },
     {
@@ -1417,11 +1417,11 @@
       "district": "8-1A DII",
       "region": "west-texas",
       "our_rank": 93,
-      "maxpreps": 39,
-      "smf": 26,
+      "maxpreps": 40,
+      "smf": 23,
       "dctf": null,
-      "delta_maxpreps": 54,
-      "delta_smf": 67,
+      "delta_maxpreps": 53,
+      "delta_smf": 70,
       "delta_dctf": null
     },
     {
@@ -1448,10 +1448,10 @@
       "region": "tapps",
       "our_rank": 95,
       "maxpreps": 3,
-      "smf": null,
+      "smf": 3,
       "dctf": null,
       "delta_maxpreps": 92,
-      "delta_smf": null,
+      "delta_smf": 92,
       "delta_dctf": null
     },
     {
@@ -1462,11 +1462,11 @@
       "district": "12-1A DII",
       "region": "north-central",
       "our_rank": 96,
-      "maxpreps": 48,
-      "smf": 23,
+      "maxpreps": 49,
+      "smf": 30,
       "dctf": null,
-      "delta_maxpreps": 48,
-      "delta_smf": 73,
+      "delta_maxpreps": 47,
+      "delta_smf": 66,
       "delta_dctf": null
     },
     {
@@ -1553,10 +1553,10 @@
       "region": "tapps",
       "our_rank": 102,
       "maxpreps": 3,
-      "smf": 11,
+      "smf": 9,
       "dctf": null,
       "delta_maxpreps": 99,
-      "delta_smf": 91,
+      "delta_smf": 93,
       "delta_dctf": null
     },
     {
@@ -1567,11 +1567,11 @@
       "district": "13-1A DII",
       "region": "central-east-south",
       "our_rank": 103,
-      "maxpreps": 53,
-      "smf": 33,
+      "maxpreps": 36,
+      "smf": 31,
       "dctf": null,
-      "delta_maxpreps": 50,
-      "delta_smf": 70,
+      "delta_maxpreps": 67,
+      "delta_smf": 72,
       "delta_dctf": null
     },
     {
@@ -1582,11 +1582,11 @@
       "district": "2-1A DII",
       "region": "panhandle",
       "our_rank": 104,
-      "maxpreps": 41,
-      "smf": 25,
+      "maxpreps": 42,
+      "smf": 29,
       "dctf": null,
-      "delta_maxpreps": 63,
-      "delta_smf": 79,
+      "delta_maxpreps": 62,
+      "delta_smf": 75,
       "delta_dctf": null
     },
     {
@@ -1598,10 +1598,10 @@
       "region": "tapps",
       "our_rank": 105,
       "maxpreps": 14,
-      "smf": null,
+      "smf": 11,
       "dctf": null,
       "delta_maxpreps": 91,
-      "delta_smf": null,
+      "delta_smf": 94,
       "delta_dctf": null
     },
     {
@@ -1628,10 +1628,10 @@
       "region": "tapps",
       "our_rank": 107,
       "maxpreps": 1,
-      "smf": 7,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 106,
-      "delta_smf": 100,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -1642,10 +1642,10 @@
       "district": "1-1A DII",
       "region": "panhandle",
       "our_rank": 108,
-      "maxpreps": 49,
+      "maxpreps": 50,
       "smf": null,
       "dctf": null,
-      "delta_maxpreps": 59,
+      "delta_maxpreps": 58,
       "delta_smf": null,
       "delta_dctf": null
     },
@@ -1658,10 +1658,10 @@
       "region": "north-central",
       "our_rank": 109,
       "maxpreps": 24,
-      "smf": 42,
+      "smf": 41,
       "dctf": null,
       "delta_maxpreps": 85,
-      "delta_smf": 67,
+      "delta_smf": 68,
       "delta_dctf": null
     },
     {
@@ -1673,10 +1673,10 @@
       "region": "central-east-south",
       "our_rank": 110,
       "maxpreps": 29,
-      "smf": 27,
+      "smf": 20,
       "dctf": null,
       "delta_maxpreps": 81,
-      "delta_smf": 83,
+      "delta_smf": 90,
       "delta_dctf": null
     },
     {
@@ -1718,10 +1718,10 @@
       "region": "tapps",
       "our_rank": 113,
       "maxpreps": 12,
-      "smf": 10,
+      "smf": 11,
       "dctf": null,
       "delta_maxpreps": 101,
-      "delta_smf": 103,
+      "delta_smf": 102,
       "delta_dctf": null
     },
     {
@@ -1733,10 +1733,10 @@
       "region": "panhandle",
       "our_rank": 114,
       "maxpreps": 25,
-      "smf": 20,
+      "smf": 21,
       "dctf": null,
       "delta_maxpreps": 89,
-      "delta_smf": 94,
+      "delta_smf": 93,
       "delta_dctf": null
     },
     {
@@ -1748,10 +1748,10 @@
       "region": "tapps",
       "our_rank": 115,
       "maxpreps": 16,
-      "smf": 19,
+      "smf": 18,
       "dctf": null,
       "delta_maxpreps": 99,
-      "delta_smf": 96,
+      "delta_smf": 97,
       "delta_dctf": null
     },
     {
@@ -1762,11 +1762,11 @@
       "district": "11-1A DII",
       "region": "north-central",
       "our_rank": 116,
-      "maxpreps": 58,
-      "smf": 24,
+      "maxpreps": 59,
+      "smf": 28,
       "dctf": null,
-      "delta_maxpreps": 58,
-      "delta_smf": 92,
+      "delta_maxpreps": 57,
+      "delta_smf": 88,
       "delta_dctf": null
     },
     {
@@ -1808,10 +1808,10 @@
       "region": "tapps",
       "our_rank": 119,
       "maxpreps": 7,
-      "smf": 18,
+      "smf": 17,
       "dctf": null,
       "delta_maxpreps": 112,
-      "delta_smf": 101,
+      "delta_smf": 102,
       "delta_dctf": null
     },
     {
@@ -1838,10 +1838,10 @@
       "region": "tapps",
       "our_rank": 121,
       "maxpreps": 7,
-      "smf": 4,
+      "smf": 5,
       "dctf": null,
       "delta_maxpreps": 114,
-      "delta_smf": 117,
+      "delta_smf": 116,
       "delta_dctf": null
     },
     {
@@ -1868,10 +1868,10 @@
       "region": "central-east-south",
       "our_rank": 123,
       "maxpreps": 73,
-      "smf": 35,
+      "smf": 34,
       "dctf": null,
       "delta_maxpreps": 50,
-      "delta_smf": 88,
+      "delta_smf": 89,
       "delta_dctf": null
     },
     {
@@ -1897,11 +1897,11 @@
       "district": "10-1A DII",
       "region": "north-central",
       "our_rank": 125,
-      "maxpreps": 65,
-      "smf": 31,
+      "maxpreps": 66,
+      "smf": 32,
       "dctf": null,
-      "delta_maxpreps": 60,
-      "delta_smf": 94,
+      "delta_maxpreps": 59,
+      "delta_smf": 93,
       "delta_dctf": null
     },
     {
@@ -1928,10 +1928,10 @@
       "region": "taiao",
       "our_rank": 127,
       "maxpreps": null,
-      "smf": null,
+      "smf": 2,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": null,
+      "delta_smf": 125,
       "delta_dctf": null
     },
     {
@@ -1958,10 +1958,10 @@
       "region": "north-central",
       "our_rank": 129,
       "maxpreps": 18,
-      "smf": 55,
+      "smf": 51,
       "dctf": null,
       "delta_maxpreps": 111,
-      "delta_smf": 74,
+      "delta_smf": 78,
       "delta_dctf": null
     },
     {
@@ -1988,10 +1988,10 @@
       "region": "taiao",
       "our_rank": 131,
       "maxpreps": null,
-      "smf": 3,
+      "smf": 18,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 128,
+      "delta_smf": 113,
       "delta_dctf": null
     },
     {
@@ -2003,10 +2003,10 @@
       "region": "tapps",
       "our_rank": 132,
       "maxpreps": 18,
-      "smf": 12,
+      "smf": 13,
       "dctf": null,
       "delta_maxpreps": 114,
-      "delta_smf": 120,
+      "delta_smf": 119,
       "delta_dctf": null
     },
     {
@@ -2228,10 +2228,10 @@
       "region": "tapps",
       "our_rank": 147,
       "maxpreps": null,
-      "smf": null,
+      "smf": 4,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": null,
+      "delta_smf": 143,
       "delta_dctf": null
     },
     {
@@ -2497,10 +2497,10 @@
       "district": "5-1A DII",
       "region": "west-texas",
       "our_rank": 165,
-      "maxpreps": 66,
+      "maxpreps": 67,
       "smf": null,
       "dctf": null,
-      "delta_maxpreps": 99,
+      "delta_maxpreps": 98,
       "delta_smf": null,
       "delta_dctf": null
     },
@@ -2528,10 +2528,10 @@
       "region": "panhandle",
       "our_rank": 167,
       "maxpreps": 35,
-      "smf": 39,
+      "smf": 42,
       "dctf": null,
       "delta_maxpreps": 132,
-      "delta_smf": 128,
+      "delta_smf": 125,
       "delta_dctf": null
     },
     {
@@ -2542,11 +2542,11 @@
       "district": "13-1A DII",
       "region": "central-east-south",
       "our_rank": 168,
-      "maxpreps": 45,
-      "smf": 37,
+      "maxpreps": 46,
+      "smf": 40,
       "dctf": null,
-      "delta_maxpreps": 123,
-      "delta_smf": 131,
+      "delta_maxpreps": 122,
+      "delta_smf": 128,
       "delta_dctf": null
     },
     {
@@ -2588,10 +2588,10 @@
       "region": "tapps",
       "our_rank": 171,
       "maxpreps": 8,
-      "smf": 9,
+      "smf": 10,
       "dctf": null,
       "delta_maxpreps": 163,
-      "delta_smf": 162,
+      "delta_smf": 161,
       "delta_dctf": null
     },
     {
@@ -2625,28 +2625,13 @@
       "delta_dctf": null
     },
     {
-      "team_id": "victoria-gators",
-      "name": "Victoria Gators",
-      "classification": "TAIAO DII",
-      "association": "TAIAO",
-      "district": "2-TAIAO DII",
-      "region": "taiao",
-      "our_rank": 174,
-      "maxpreps": null,
-      "smf": null,
-      "dctf": null,
-      "delta_maxpreps": null,
-      "delta_smf": null,
-      "delta_dctf": null
-    },
-    {
       "team_id": "nyos",
       "name": "NYOS",
       "classification": "TAIAO DII",
       "association": "TAIAO",
       "district": "2-TAIAO DII",
       "region": "taiao",
-      "our_rank": 175,
+      "our_rank": 174,
       "maxpreps": null,
       "smf": null,
       "dctf": null,
@@ -2661,11 +2646,11 @@
       "association": "TAPPS",
       "district": "3-TAPPS DI",
       "region": "tapps",
-      "our_rank": 176,
+      "our_rank": 175,
       "maxpreps": 12,
       "smf": null,
       "dctf": null,
-      "delta_maxpreps": 164,
+      "delta_maxpreps": 163,
       "delta_smf": null,
       "delta_dctf": null
     },
@@ -2676,12 +2661,27 @@
       "association": "UIL",
       "district": "6-1A DI",
       "region": "west-texas",
-      "our_rank": 177,
+      "our_rank": 176,
       "maxpreps": 39,
       "smf": 44,
       "dctf": null,
-      "delta_maxpreps": 138,
-      "delta_smf": 133,
+      "delta_maxpreps": 137,
+      "delta_smf": 132,
+      "delta_dctf": null
+    },
+    {
+      "team_id": "victoria-gators",
+      "name": "Victoria Gators",
+      "classification": "TAIAO DII",
+      "association": "TAIAO",
+      "district": "2-TAIAO DII",
+      "region": "taiao",
+      "our_rank": 177,
+      "maxpreps": null,
+      "smf": null,
+      "dctf": null,
+      "delta_maxpreps": null,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -2767,10 +2767,10 @@
       "district": "12-1A DI",
       "region": "north-central",
       "our_rank": 183,
-      "maxpreps": 51,
+      "maxpreps": 50,
       "smf": 62,
       "dctf": null,
-      "delta_maxpreps": 132,
+      "delta_maxpreps": 133,
       "delta_smf": 121,
       "delta_dctf": null
     },
@@ -2782,11 +2782,11 @@
       "district": "16-1A DI",
       "region": "central-east-south",
       "our_rank": 184,
-      "maxpreps": 44,
-      "smf": 57,
+      "maxpreps": 43,
+      "smf": 58,
       "dctf": null,
-      "delta_maxpreps": 140,
-      "delta_smf": 127,
+      "delta_maxpreps": 141,
+      "delta_smf": 126,
       "delta_dctf": null
     },
     {
@@ -2828,10 +2828,10 @@
       "region": "west-texas",
       "our_rank": 187,
       "maxpreps": 3,
-      "smf": 51,
+      "smf": 50,
       "dctf": null,
       "delta_maxpreps": 184,
-      "delta_smf": 136,
+      "delta_smf": 137,
       "delta_dctf": null
     },
     {
@@ -2872,11 +2872,11 @@
       "district": "1-1A DII",
       "region": "panhandle",
       "our_rank": 190,
-      "maxpreps": 69,
-      "smf": 47,
+      "maxpreps": 55,
+      "smf": 49,
       "dctf": null,
-      "delta_maxpreps": 121,
-      "delta_smf": 143,
+      "delta_maxpreps": 135,
+      "delta_smf": 141,
       "delta_dctf": null
     },
     {
@@ -2888,10 +2888,10 @@
       "region": "panhandle",
       "our_rank": 191,
       "maxpreps": 9,
-      "smf": 45,
+      "smf": 46,
       "dctf": null,
       "delta_maxpreps": 182,
-      "delta_smf": 146,
+      "delta_smf": 145,
       "delta_dctf": null
     },
     {
@@ -2918,10 +2918,10 @@
       "region": "tapps",
       "our_rank": 193,
       "maxpreps": 18,
-      "smf": 11,
+      "smf": 19,
       "dctf": null,
       "delta_maxpreps": 175,
-      "delta_smf": 182,
+      "delta_smf": 174,
       "delta_dctf": null
     },
     {
@@ -2933,10 +2933,10 @@
       "region": "central-east-south",
       "our_rank": 194,
       "maxpreps": 30,
-      "smf": 53,
+      "smf": 54,
       "dctf": null,
       "delta_maxpreps": 164,
-      "delta_smf": 141,
+      "delta_smf": 140,
       "delta_dctf": null
     },
     {
@@ -2948,10 +2948,10 @@
       "region": "tapps",
       "our_rank": 195,
       "maxpreps": 6,
-      "smf": 15,
+      "smf": 13,
       "dctf": null,
       "delta_maxpreps": 189,
-      "delta_smf": 180,
+      "delta_smf": 182,
       "delta_dctf": null
     },
     {
@@ -3007,11 +3007,11 @@
       "district": "7-1A DII",
       "region": "west-texas",
       "our_rank": 199,
-      "maxpreps": 57,
-      "smf": 46,
+      "maxpreps": 58,
+      "smf": 47,
       "dctf": null,
-      "delta_maxpreps": 142,
-      "delta_smf": 153,
+      "delta_maxpreps": 141,
+      "delta_smf": 152,
       "delta_dctf": null
     },
     {
@@ -3023,10 +3023,10 @@
       "region": "north-central",
       "our_rank": 200,
       "maxpreps": 28,
-      "smf": 47,
+      "smf": 41,
       "dctf": null,
       "delta_maxpreps": 172,
-      "delta_smf": 153,
+      "delta_smf": 159,
       "delta_dctf": null
     },
     {
@@ -3053,10 +3053,10 @@
       "region": "west-texas",
       "our_rank": 202,
       "maxpreps": 9,
-      "smf": 40,
+      "smf": 36,
       "dctf": null,
       "delta_maxpreps": 193,
-      "delta_smf": 162,
+      "delta_smf": 166,
       "delta_dctf": null
     },
     {
@@ -3083,10 +3083,10 @@
       "region": "panhandle",
       "our_rank": 204,
       "maxpreps": 35,
-      "smf": 48,
+      "smf": 47,
       "dctf": null,
       "delta_maxpreps": 169,
-      "delta_smf": 156,
+      "delta_smf": 157,
       "delta_dctf": null
     },
     {
@@ -3098,10 +3098,10 @@
       "region": "central-east-south",
       "our_rank": 205,
       "maxpreps": 21,
-      "smf": 29,
+      "smf": 43,
       "dctf": null,
       "delta_maxpreps": 184,
-      "delta_smf": 176,
+      "delta_smf": 162,
       "delta_dctf": null
     },
     {
@@ -3113,10 +3113,10 @@
       "region": "north-central",
       "our_rank": 206,
       "maxpreps": 65,
-      "smf": 56,
+      "smf": 60,
       "dctf": null,
       "delta_maxpreps": 141,
-      "delta_smf": 150,
+      "delta_smf": 146,
       "delta_dctf": null
     },
     {
@@ -3143,10 +3143,10 @@
       "region": "tapps",
       "our_rank": 208,
       "maxpreps": 19,
-      "smf": 13,
+      "smf": 14,
       "dctf": null,
       "delta_maxpreps": 189,
-      "delta_smf": 195,
+      "delta_smf": 194,
       "delta_dctf": null
     },
     {
@@ -3158,10 +3158,10 @@
       "region": "north-central",
       "our_rank": 209,
       "maxpreps": 77,
-      "smf": 46,
+      "smf": 56,
       "dctf": null,
       "delta_maxpreps": 132,
-      "delta_smf": 163,
+      "delta_smf": 153,
       "delta_dctf": null
     },
     {
@@ -3173,10 +3173,10 @@
       "region": "tapps",
       "our_rank": 210,
       "maxpreps": 14,
-      "smf": 10,
+      "smf": 8,
       "dctf": null,
       "delta_maxpreps": 196,
-      "delta_smf": 200,
+      "delta_smf": 202,
       "delta_dctf": null
     },
     {
@@ -3188,11 +3188,11 @@
       "region": "north-central",
       "our_rank": 211,
       "maxpreps": 27,
-      "smf": 41,
-      "dctf": 5,
+      "smf": 44,
+      "dctf": null,
       "delta_maxpreps": 184,
-      "delta_smf": 170,
-      "delta_dctf": 206
+      "delta_smf": 167,
+      "delta_dctf": null
     },
     {
       "team_id": "jcsa",
@@ -3218,10 +3218,10 @@
       "region": "central-east-south",
       "our_rank": 213,
       "maxpreps": 1,
-      "smf": 49,
+      "smf": 48,
       "dctf": null,
       "delta_maxpreps": 212,
-      "delta_smf": 164,
+      "delta_smf": 165,
       "delta_dctf": null
     },
     {
@@ -3233,10 +3233,10 @@
       "region": "tcaf",
       "our_rank": 214,
       "maxpreps": null,
-      "smf": 5,
+      "smf": 7,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 209,
+      "delta_smf": 207,
       "delta_dctf": null
     },
     {
@@ -3277,11 +3277,11 @@
       "district": "3-1A DI",
       "region": "panhandle",
       "our_rank": 217,
-      "maxpreps": 47,
-      "smf": 50,
+      "maxpreps": 46,
+      "smf": 48,
       "dctf": null,
-      "delta_maxpreps": 170,
-      "delta_smf": 167,
+      "delta_maxpreps": 171,
+      "delta_smf": 169,
       "delta_dctf": null
     },
     {
@@ -3330,33 +3330,33 @@
       "delta_dctf": null
     },
     {
-      "team_id": "st-augustine",
-      "name": "St. Augustine",
-      "classification": "TAPPS DI",
-      "association": "TAPPS",
-      "district": "3-TAPPS DI",
-      "region": "tapps",
-      "our_rank": 221,
-      "maxpreps": 17,
-      "smf": null,
-      "dctf": null,
-      "delta_maxpreps": 204,
-      "delta_smf": null,
-      "delta_dctf": null
-    },
-    {
       "team_id": "follett",
       "name": "Follett",
       "classification": "1A DII",
       "association": "UIL",
       "district": "1-1A DII",
       "region": "panhandle",
-      "our_rank": 222,
-      "maxpreps": 37,
+      "our_rank": 221,
+      "maxpreps": 38,
       "smf": 55,
       "dctf": null,
-      "delta_maxpreps": 185,
-      "delta_smf": 167,
+      "delta_maxpreps": 183,
+      "delta_smf": 166,
+      "delta_dctf": null
+    },
+    {
+      "team_id": "st-augustine",
+      "name": "St. Augustine",
+      "classification": "TAPPS DI",
+      "association": "TAPPS",
+      "district": "3-TAPPS DI",
+      "region": "tapps",
+      "our_rank": 222,
+      "maxpreps": 17,
+      "smf": null,
+      "dctf": null,
+      "delta_maxpreps": 205,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -3383,10 +3383,10 @@
       "region": "tapps",
       "our_rank": 224,
       "maxpreps": 2,
-      "smf": 8,
+      "smf": 10,
       "dctf": null,
       "delta_maxpreps": 222,
-      "delta_smf": 216,
+      "delta_smf": 214,
       "delta_dctf": null
     },
     {
@@ -3398,10 +3398,10 @@
       "region": "taiao",
       "our_rank": 225,
       "maxpreps": null,
-      "smf": 13,
+      "smf": 12,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 212,
+      "delta_smf": 213,
       "delta_dctf": null
     },
     {
@@ -3442,11 +3442,11 @@
       "district": "5-1A DI",
       "region": "west-texas",
       "our_rank": 228,
-      "maxpreps": 48,
-      "smf": 41,
+      "maxpreps": 47,
+      "smf": 52,
       "dctf": null,
-      "delta_maxpreps": 180,
-      "delta_smf": 187,
+      "delta_maxpreps": 181,
+      "delta_smf": 176,
       "delta_dctf": null
     },
     {
@@ -3473,10 +3473,10 @@
       "region": "west-texas",
       "our_rank": 230,
       "maxpreps": 55,
-      "smf": 54,
+      "smf": 53,
       "dctf": null,
       "delta_maxpreps": 175,
-      "delta_smf": 176,
+      "delta_smf": 177,
       "delta_dctf": null
     },
     {
@@ -3487,11 +3487,11 @@
       "district": "7-1A DI",
       "region": "west-texas",
       "our_rank": 231,
-      "maxpreps": 49,
-      "smf": 66,
+      "maxpreps": 48,
+      "smf": 65,
       "dctf": null,
-      "delta_maxpreps": 182,
-      "delta_smf": 165,
+      "delta_maxpreps": 183,
+      "delta_smf": 166,
       "delta_dctf": null
     },
     {
@@ -3518,10 +3518,10 @@
       "region": "north-central",
       "our_rank": 233,
       "maxpreps": 15,
-      "smf": 30,
+      "smf": 26,
       "dctf": null,
       "delta_maxpreps": 218,
-      "delta_smf": 203,
+      "delta_smf": 207,
       "delta_dctf": null
     },
     {
@@ -3562,11 +3562,11 @@
       "district": "4-1A DI",
       "region": "panhandle",
       "our_rank": 236,
-      "maxpreps": 54,
-      "smf": 52,
+      "maxpreps": 53,
+      "smf": 55,
       "dctf": null,
-      "delta_maxpreps": 182,
-      "delta_smf": 184,
+      "delta_maxpreps": 183,
+      "delta_smf": 181,
       "delta_dctf": null
     },
     {
@@ -3577,10 +3577,10 @@
       "district": "Independent",
       "region": "independent",
       "our_rank": 237,
-      "maxpreps": 68,
+      "maxpreps": 69,
       "smf": 74,
       "dctf": null,
-      "delta_maxpreps": 169,
+      "delta_maxpreps": 168,
       "delta_smf": 163,
       "delta_dctf": null
     },
@@ -3592,10 +3592,10 @@
       "district": "2-1A DII",
       "region": "panhandle",
       "our_rank": 238,
-      "maxpreps": 36,
+      "maxpreps": 37,
       "smf": 38,
       "dctf": null,
-      "delta_maxpreps": 202,
+      "delta_maxpreps": 201,
       "delta_smf": 200,
       "delta_dctf": null
     },
@@ -3608,10 +3608,10 @@
       "region": "central-east-south",
       "our_rank": 239,
       "maxpreps": 59,
-      "smf": 58,
+      "smf": 64,
       "dctf": null,
       "delta_maxpreps": 180,
-      "delta_smf": 181,
+      "delta_smf": 175,
       "delta_dctf": null
     },
     {
@@ -3622,10 +3622,10 @@
       "district": "3-1A DII",
       "region": "panhandle",
       "our_rank": 240,
-      "maxpreps": 50,
+      "maxpreps": 51,
       "smf": 54,
       "dctf": null,
-      "delta_maxpreps": 190,
+      "delta_maxpreps": 189,
       "delta_smf": 186,
       "delta_dctf": null
     },
@@ -3637,11 +3637,11 @@
       "district": "5-1A DII",
       "region": "west-texas",
       "our_rank": 241,
-      "maxpreps": 42,
-      "smf": 48,
+      "maxpreps": 43,
+      "smf": 52,
       "dctf": null,
-      "delta_maxpreps": 199,
-      "delta_smf": 193,
+      "delta_maxpreps": 198,
+      "delta_smf": 189,
       "delta_dctf": null
     },
     {
@@ -3652,10 +3652,10 @@
       "district": "10-1A DII",
       "region": "north-central",
       "our_rank": 242,
-      "maxpreps": 40,
+      "maxpreps": 41,
       "smf": 50,
       "dctf": null,
-      "delta_maxpreps": 202,
+      "delta_maxpreps": 201,
       "delta_smf": 192,
       "delta_dctf": null
     },
@@ -3683,10 +3683,10 @@
       "region": "tapps",
       "our_rank": 244,
       "maxpreps": 6,
-      "smf": null,
+      "smf": 9,
       "dctf": null,
       "delta_maxpreps": 238,
-      "delta_smf": null,
+      "delta_smf": 235,
       "delta_dctf": null
     },
     {
@@ -3698,10 +3698,10 @@
       "region": "panhandle",
       "our_rank": 245,
       "maxpreps": 68,
-      "smf": 64,
+      "smf": 61,
       "dctf": null,
       "delta_maxpreps": 177,
-      "delta_smf": 181,
+      "delta_smf": 184,
       "delta_dctf": null
     },
     {
@@ -3728,10 +3728,10 @@
       "region": "central-east-south",
       "our_rank": 247,
       "maxpreps": 31,
-      "smf": 70,
+      "smf": 57,
       "dctf": null,
       "delta_maxpreps": 216,
-      "delta_smf": 177,
+      "delta_smf": 190,
       "delta_dctf": null
     },
     {
@@ -3773,10 +3773,10 @@
       "region": "panhandle",
       "our_rank": 250,
       "maxpreps": 5,
-      "smf": 32,
+      "smf": 27,
       "dctf": null,
       "delta_maxpreps": 245,
-      "delta_smf": 218,
+      "delta_smf": 223,
       "delta_dctf": null
     },
     {
@@ -3788,10 +3788,10 @@
       "region": "taiao",
       "our_rank": 251,
       "maxpreps": 27,
-      "smf": 34,
+      "smf": 33,
       "dctf": null,
       "delta_maxpreps": 224,
-      "delta_smf": 217,
+      "delta_smf": 218,
       "delta_dctf": null
     },
     {
@@ -3862,11 +3862,11 @@
       "district": "1-1A DII",
       "region": "panhandle",
       "our_rank": 256,
-      "maxpreps": 62,
-      "smf": 53,
+      "maxpreps": 63,
+      "smf": 45,
       "dctf": null,
-      "delta_maxpreps": 194,
-      "delta_smf": 203,
+      "delta_maxpreps": 193,
+      "delta_smf": 211,
       "delta_dctf": null
     },
     {
@@ -3878,10 +3878,10 @@
       "region": "panhandle",
       "our_rank": 257,
       "maxpreps": 72,
-      "smf": 45,
+      "smf": 46,
       "dctf": null,
       "delta_maxpreps": 185,
-      "delta_smf": 212,
+      "delta_smf": 211,
       "delta_dctf": null
     },
     {
@@ -3922,11 +3922,11 @@
       "district": "7-1A DII",
       "region": "west-texas",
       "our_rank": 260,
-      "maxpreps": 43,
-      "smf": 36,
+      "maxpreps": 44,
+      "smf": 35,
       "dctf": null,
-      "delta_maxpreps": 217,
-      "delta_smf": 224,
+      "delta_maxpreps": 216,
+      "delta_smf": 225,
       "delta_dctf": null
     },
     {
@@ -3938,10 +3938,10 @@
       "region": "central-east-south",
       "our_rank": 261,
       "maxpreps": 17,
-      "smf": 44,
+      "smf": 39,
       "dctf": null,
       "delta_maxpreps": 244,
-      "delta_smf": 217,
+      "delta_smf": 222,
       "delta_dctf": null
     },
     {
@@ -3968,10 +3968,10 @@
       "region": "west-texas",
       "our_rank": 263,
       "maxpreps": 62,
-      "smf": 68,
+      "smf": 67,
       "dctf": null,
       "delta_maxpreps": 201,
-      "delta_smf": 195,
+      "delta_smf": 196,
       "delta_dctf": null
     },
     {
@@ -3982,10 +3982,10 @@
       "district": "16-1A DII",
       "region": "central-east-south",
       "our_rank": 264,
-      "maxpreps": 66,
+      "maxpreps": 67,
       "smf": 72,
       "dctf": null,
-      "delta_maxpreps": 198,
+      "delta_maxpreps": 197,
       "delta_smf": 192,
       "delta_dctf": null
     },
@@ -3998,10 +3998,10 @@
       "region": "west-texas",
       "our_rank": 265,
       "maxpreps": 33,
-      "smf": 58,
+      "smf": 53,
       "dctf": null,
       "delta_maxpreps": 232,
-      "delta_smf": 207,
+      "delta_smf": 212,
       "delta_dctf": null
     },
     {
@@ -4028,10 +4028,10 @@
       "region": "panhandle",
       "our_rank": 267,
       "maxpreps": 54,
-      "smf": 57,
+      "smf": 56,
       "dctf": null,
       "delta_maxpreps": 213,
-      "delta_smf": 210,
+      "delta_smf": 211,
       "delta_dctf": null
     },
     {
@@ -4043,10 +4043,10 @@
       "region": "north-central",
       "our_rank": 268,
       "maxpreps": 76,
-      "smf": 76,
+      "smf": 75,
       "dctf": null,
       "delta_maxpreps": 192,
-      "delta_smf": 192,
+      "delta_smf": 193,
       "delta_dctf": null
     },
     {
@@ -4073,10 +4073,10 @@
       "region": "central-east-south",
       "our_rank": 270,
       "maxpreps": 74,
-      "smf": 61,
+      "smf": 59,
       "dctf": null,
       "delta_maxpreps": 196,
-      "delta_smf": 209,
+      "delta_smf": 211,
       "delta_dctf": null
     },
     {
@@ -4088,10 +4088,10 @@
       "region": "taiao",
       "our_rank": 271,
       "maxpreps": null,
-      "smf": 16,
+      "smf": 21,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 255,
+      "delta_smf": 250,
       "delta_dctf": null
     },
     {
@@ -4103,10 +4103,10 @@
       "region": "taiao",
       "our_rank": 272,
       "maxpreps": null,
-      "smf": 18,
+      "smf": 17,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 254,
+      "delta_smf": 255,
       "delta_dctf": null
     },
     {
@@ -4133,10 +4133,10 @@
       "region": "north-central",
       "our_rank": 274,
       "maxpreps": 60,
-      "smf": 74,
+      "smf": 73,
       "dctf": null,
       "delta_maxpreps": 214,
-      "delta_smf": 200,
+      "delta_smf": 201,
       "delta_dctf": null
     },
     {
@@ -4148,10 +4148,10 @@
       "region": "west-texas",
       "our_rank": 275,
       "maxpreps": 67,
-      "smf": 65,
+      "smf": 66,
       "dctf": null,
       "delta_maxpreps": 208,
-      "delta_smf": 210,
+      "delta_smf": 209,
       "delta_dctf": null
     },
     {
@@ -4178,10 +4178,10 @@
       "region": "west-texas",
       "our_rank": 277,
       "maxpreps": 73,
-      "smf": 67,
+      "smf": 68,
       "dctf": null,
       "delta_maxpreps": 204,
-      "delta_smf": 210,
+      "delta_smf": 209,
       "delta_dctf": null
     },
     {
@@ -4192,11 +4192,11 @@
       "district": "16-1A DI",
       "region": "central-east-south",
       "our_rank": 278,
-      "maxpreps": 45,
-      "smf": 73,
+      "maxpreps": 44,
+      "smf": 74,
       "dctf": null,
-      "delta_maxpreps": 233,
-      "delta_smf": 205,
+      "delta_maxpreps": 234,
+      "delta_smf": 204,
       "delta_dctf": null
     },
     {
@@ -4207,11 +4207,11 @@
       "district": "7-1A DII",
       "region": "west-texas",
       "our_rank": 279,
-      "maxpreps": 64,
-      "smf": 51,
+      "maxpreps": 65,
+      "smf": 64,
       "dctf": null,
-      "delta_maxpreps": 215,
-      "delta_smf": 228,
+      "delta_maxpreps": 214,
+      "delta_smf": 215,
       "delta_dctf": null
     },
     {
@@ -4223,10 +4223,10 @@
       "region": "central-east-south",
       "our_rank": 280,
       "maxpreps": 72,
-      "smf": 75,
+      "smf": 76,
       "dctf": null,
       "delta_maxpreps": 208,
-      "delta_smf": 205,
+      "delta_smf": 204,
       "delta_dctf": null
     },
     {
@@ -4238,10 +4238,10 @@
       "region": "north-central",
       "our_rank": 281,
       "maxpreps": 23,
-      "smf": 60,
+      "smf": 58,
       "dctf": null,
       "delta_maxpreps": 258,
-      "delta_smf": 221,
+      "delta_smf": 223,
       "delta_dctf": null
     },
     {
@@ -4252,11 +4252,11 @@
       "district": "9-1A DII",
       "region": "north-central",
       "our_rank": 282,
-      "maxpreps": 44,
-      "smf": 56,
+      "maxpreps": 45,
+      "smf": 51,
       "dctf": null,
-      "delta_maxpreps": 238,
-      "delta_smf": 226,
+      "delta_maxpreps": 237,
+      "delta_smf": 231,
       "delta_dctf": null
     },
     {
@@ -4267,11 +4267,11 @@
       "district": "15-1A DII",
       "region": "central-east-south",
       "our_rank": 283,
-      "maxpreps": 61,
-      "smf": 63,
+      "maxpreps": 62,
+      "smf": 65,
       "dctf": null,
-      "delta_maxpreps": 222,
-      "delta_smf": 220,
+      "delta_maxpreps": 221,
+      "delta_smf": 218,
       "delta_dctf": null
     },
     {
@@ -4283,10 +4283,10 @@
       "region": "panhandle",
       "our_rank": 284,
       "maxpreps": 36,
-      "smf": 61,
+      "smf": 70,
       "dctf": null,
       "delta_maxpreps": 248,
-      "delta_smf": 223,
+      "delta_smf": 214,
       "delta_dctf": null
     },
     {
@@ -4312,11 +4312,11 @@
       "district": "4-1A DII",
       "region": "panhandle",
       "our_rank": 286,
-      "maxpreps": 56,
-      "smf": 59,
+      "maxpreps": 57,
+      "smf": 60,
       "dctf": null,
-      "delta_maxpreps": 230,
-      "delta_smf": 227,
+      "delta_maxpreps": 229,
+      "delta_smf": 226,
       "delta_dctf": null
     },
     {
@@ -4343,10 +4343,10 @@
       "region": "west-texas",
       "our_rank": 288,
       "maxpreps": 32,
-      "smf": 68,
+      "smf": 62,
       "dctf": null,
       "delta_maxpreps": 256,
-      "delta_smf": 220,
+      "delta_smf": 226,
       "delta_dctf": null
     },
     {
@@ -4357,11 +4357,11 @@
       "district": "10-1A DII",
       "region": "north-central",
       "our_rank": 289,
-      "maxpreps": 60,
-      "smf": 52,
+      "maxpreps": 61,
+      "smf": 57,
       "dctf": null,
-      "delta_maxpreps": 229,
-      "delta_smf": 237,
+      "delta_maxpreps": 228,
+      "delta_smf": 232,
       "delta_dctf": null
     },
     {
@@ -4373,10 +4373,10 @@
       "region": "north-central",
       "our_rank": 290,
       "maxpreps": 20,
-      "smf": 66,
+      "smf": 61,
       "dctf": null,
       "delta_maxpreps": 270,
-      "delta_smf": 224,
+      "delta_smf": 229,
       "delta_dctf": null
     },
     {
@@ -4403,10 +4403,10 @@
       "region": "panhandle",
       "our_rank": 292,
       "maxpreps": 34,
-      "smf": 62,
+      "smf": 63,
       "dctf": null,
       "delta_maxpreps": 258,
-      "delta_smf": 230,
+      "delta_smf": 229,
       "delta_dctf": null
     },
     {
@@ -4418,10 +4418,10 @@
       "region": "west-texas",
       "our_rank": 293,
       "maxpreps": 22,
-      "smf": 78,
+      "smf": 77,
       "dctf": null,
       "delta_maxpreps": 271,
-      "delta_smf": 215,
+      "delta_smf": 216,
       "delta_dctf": null
     },
     {
@@ -4432,10 +4432,10 @@
       "district": "9-1A DII",
       "region": "north-central",
       "our_rank": 294,
-      "maxpreps": 55,
+      "maxpreps": 56,
       "smf": null,
       "dctf": null,
-      "delta_maxpreps": 239,
+      "delta_maxpreps": 238,
       "delta_smf": null,
       "delta_dctf": null
     },
@@ -4463,10 +4463,10 @@
       "region": "panhandle",
       "our_rank": 296,
       "maxpreps": 75,
-      "smf": 67,
+      "smf": 68,
       "dctf": null,
       "delta_maxpreps": 221,
-      "delta_smf": 229,
+      "delta_smf": 228,
       "delta_dctf": null
     },
     {
@@ -4478,10 +4478,10 @@
       "region": "north-central",
       "our_rank": 297,
       "maxpreps": 78,
-      "smf": 77,
+      "smf": 78,
       "dctf": null,
       "delta_maxpreps": 219,
-      "delta_smf": 220,
+      "delta_smf": 219,
       "delta_dctf": null
     },
     {
@@ -4492,11 +4492,11 @@
       "district": "8-1A DII",
       "region": "west-texas",
       "our_rank": 298,
-      "maxpreps": 47,
-      "smf": 65,
+      "maxpreps": 48,
+      "smf": 67,
       "dctf": null,
-      "delta_maxpreps": 251,
-      "delta_smf": 233,
+      "delta_maxpreps": 250,
+      "delta_smf": 231,
       "delta_dctf": null
     },
     {
@@ -4507,10 +4507,10 @@
       "district": "5-1A DII",
       "region": "west-texas",
       "our_rank": 299,
-      "maxpreps": 52,
+      "maxpreps": 53,
       "smf": 70,
       "dctf": null,
-      "delta_maxpreps": 247,
+      "delta_maxpreps": 246,
       "delta_smf": 229,
       "delta_dctf": null
     },
@@ -4523,10 +4523,10 @@
       "region": "central-east-south",
       "our_rank": 300,
       "maxpreps": 70,
-      "smf": 64,
+      "smf": 66,
       "dctf": null,
       "delta_maxpreps": 230,
-      "delta_smf": 236,
+      "delta_smf": 234,
       "delta_dctf": null
     },
     {
@@ -4537,10 +4537,10 @@
       "district": "7-1A DII",
       "region": "west-texas",
       "our_rank": 301,
-      "maxpreps": 59,
+      "maxpreps": 60,
       "smf": 71,
       "dctf": null,
-      "delta_maxpreps": 242,
+      "delta_maxpreps": 241,
       "delta_smf": 230,
       "delta_dctf": null
     },
