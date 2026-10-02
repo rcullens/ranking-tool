@@ -595,7 +595,7 @@ w05-balmorhea-el-paso-leadership,5,2026-09-25,balmorhea,el-paso-leadership,48,0,
 w05-borden-county-whiteface,5,2026-09-25,borden-county,whiteface,75,69,false,false
 w05-bracken-christian-fredericksburg-heritage,5,2026-09-25,bracken-christian,fredericksburg-heritage,68,36,false,false
 w05-bruni-st-augustine,5,2026-09-25,bruni,st-augustine,25,31,false,false
-w05-buena-vista-trinity-school-of-texas,5,2026-09-25,buena-vista,trinity-school-of-texas,78,100,false,false
+w05-buena-vista-trinity-school-of-texas,5,2026-09-25,buena-vista,trinity-school-of-texas,94,112,false,false
 w05-bynum-blum,5,2026-09-25,bynum,blum,43,58,false,false
 w05-centex-homeschool-brazos-valley-lions,5,2026-09-25,centex-homeschool,brazos-valley-lions,34,51,false,false
 w05-chester-legacy-christian-beaumont,5,2026-09-25,chester,legacy-christian-beaumont,56,6,false,false
@@ -734,7 +734,7 @@ w06-jcsa-stephenville-faith,6,2026-10-02,jcsa,stephenville-faith,,,false,false
 w06-jonesboro-holy-cross-midland,6,2026-10-02,jonesboro,holy-cross-midland,,,false,true
 w06-lakehill-prep-abilene-christian,6,2026-10-02,lakehill-prep,abilene-christian,,,true,false
 w06-leveretts-chapel-fannindel,6,2026-10-02,leveretts-chapel,fannindel,,,false,false
-w06-logos-prep-arlington-heights-christian,6,2026-10-02,logos-prep,arlington-heights-christian,,,false,false
+w06-logos-prep-divine-savior,6,2026-10-02,logos-prep,divine-savior,,,false,false
 w06-lohn-priddy,6,2026-10-02,lohn,priddy,,,false,false
 w06-lometa-zephyr,6,2026-10-02,lometa,zephyr,,,false,false
 w06-loop-west-texas-tornadoes,6,2026-10-02,loop,west-texas-tornadoes,,,false,false
@@ -917,8 +917,10 @@ w08-cornerstone-leveretts-chapel,8,2026-10-15,cornerstone,leveretts-chapel,,,fal
 w08-follett-groom,8,2026-10-15,follett,groom,,,true,false
 w08-hart-silverton,8,2026-10-15,hart,silverton,,,false,false
 w08-lefors-mclean,8,2026-10-15,lefors,mclean,,,true,false
+w08-mullin-wilson,8,2026-10-15,mullin,wilson,,,false,false
 w08-rule-lueders-avoca,8,2026-10-15,rule,lueders-avoca,,,true,false
 w08-sanderson-dell-city,8,2026-10-15,sanderson,dell-city,,,false,false
+w08-strawn-union-hill,8,2026-10-15,strawn,union-hill,,,false,false
 w08-thesa-newcastle,8,2026-10-15,thesa,newcastle,,,false,false
 w08-weatherford-christian-wise-county-homeschool,8,2026-10-15,weatherford-christian,wise-county-homeschool,,,false,false
 w08-amherst-anton,8,2026-10-16,amherst,anton,,,true,false
@@ -1017,7 +1019,6 @@ w09-baird-robert-lee,9,2026-10-23,baird,robert-lee,,,true,false
 w09-benavides-pawnee,9,2026-10-23,benavides,pawnee,,,true,false
 w09-big-springs-charter-bruni,9,2026-10-23,big-springs-charter,bruni,,,true,false
 w09-blackwell-panther-creek,9,2026-10-23,blackwell,panther-creek,,,true,false
-w09-blanket-zephyr,9,2026-10-23,blanket,zephyr,,,true,false
 w09-borden-county-klondike,9,2026-10-23,borden-county,klondike,,,true,false
 w09-boys-ranch-claude,9,2026-10-23,boys-ranch,claude,,,true,false
 w09-brookesmith-lohn,9,2026-10-23,brookesmith,lohn,,,true,false
@@ -1124,6 +1125,7 @@ w10-balmorhea-rocksprings,10,2026-10-30,balmorhea,rocksprings,,,true,false
 w10-baytown-christian-brazosport-christian,10,2026-10-30,baytown-christian,brazosport-christian,,,true,false
 w10-benavides-westhoff,10,2026-10-30,benavides,westhoff,,,true,false
 w10-benjamin-knox-city,10,2026-10-30,benjamin,knox-city,,,true,false
+w10-blanket-zephyr,10,2026-10-30,blanket,zephyr,,,true,false
 w10-blum-covington,10,2026-10-30,blum,covington,,,true,false
 w10-booker-wildorado,10,2026-10-30,booker,wildorado,,,true,false
 w10-borden-county-ira,10,2026-10-30,borden-county,ira,,,true,false
@@ -1213,6 +1215,7 @@ w10-pchea-lubbock-titans,10,2026-10-31,pchea,lubbock-titans,,,false,false
 w10-wylie-prep-ovilla-christian,10,2026-10-31,wylie-prep,ovilla-christian,,,true,false
 w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
+w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-moran-sidney,11,2026-11-05,moran,sidney,,,true,false
@@ -1234,7 +1237,6 @@ w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-06,cranfills-gap,walnut-springs,,,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,,,true,false
-w11-dawson-meadow,11,2026-11-06,dawson,meadow,,,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,,,true,false
 w11-guthrie-valley,11,2026-11-06,guthrie,valley,,,true,false
 w11-happy-kress,11,2026-11-06,happy,kress,,,true,false
