@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1790886132,fdc5edfa23d33c830bcc261f56142498"
+	data-csrf="1790902223,adea2f0da54fc43c6b9a205cb75ee403"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1790886132,fdc5edfa23d33c830bcc261f56142498',
+				csrf: '1790902223,adea2f0da54fc43c6b9a205cb75ee403',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=c3f1f393":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1790886132,
+					now: 1790902223,
 					today: 1790830800,
 					todayDow: 4,
 					tomorrow: 1790917200,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1790886132,fdc5edfa23d33c830bcc261f56142498" />
+									<input type="hidden" name="_xfToken" value="1790902223,adea2f0da54fc43c6b9a205cb75ee403" />
 								</form>
 							</div>
 						
@@ -1518,6 +1518,365 @@
 		<div class="block block--game-date">
 			<div class="block-container">
 				<h3 class="block-header">
+					Live scoreboard
+				</h3>
+				<div class="block-body block-row block-row--scores">
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink">
+		
+			<div class="block-time">
+				<div class="block-update-user">
+					<span class="is-live">LIVE</span>
+					
+				</div>
+				<div class="block-time-updated">
+					<time  class="u-dt" dir="auto" datetime="2026-10-01T19:47:29-0500" data-timestamp="1790902049" data-date="Oct 1, 2026" data-time="7:47 PM" data-short="2m" title="Oct 1, 2026 at 7:47 PM">2 minutes ago</time>
+				</div>
+			</div>
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1426.jpg?1788488215" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#62</span>
+		
+	
+	
+		
+			<a href="/teams/northside-indians.1426/schedule/2026/">Northside</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Indians
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			24
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-northside-vs-follett.38967/">
+							5:50 - 1st Qtr
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1166.jpg?1789102469" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#220</span>
+		
+	
+	
+		
+			<a href="/teams/follett-panthers.1166/schedule/2026/">Follett</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Panthers
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink">
+		
+			<div class="block-time">
+				<div class="block-update-user">
+					<span class="is-live">LIVE</span>
+					
+				</div>
+				<div class="block-time-updated">
+					<time  class="u-dt" dir="auto" datetime="2026-10-01T19:46:32-0500" data-timestamp="1790901992" data-date="Oct 1, 2026" data-time="7:46 PM" data-short="3m" title="Oct 1, 2026 at 7:46 PM">3 minutes ago</time>
+				</div>
+			</div>
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1161.jpg?1784647951" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#89</span>
+		
+	
+	
+		
+			<a href="/teams/fannindel-falcons.1161/schedule/2026/">Fannindel</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Falcons
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			12
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-wise-county-homeschool-athletics-vs-fannindel.39164/">
+							1st Qtr
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19578.jpg?1784062231" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#222</span>
+		
+	
+	
+		
+			<a href="/teams/wise-county-homeschool-athletics-warriors.19578/schedule/2026/">Wise County Homeschool Athletics</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Warriors
+			</div>
+		</div>
+		<div class="contentRow-score">
+			6
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink">
+		
+			<div class="block-time">
+				<div class="block-update-user">
+					<span class="is-live">LIVE</span>
+					
+				</div>
+				<div class="block-time-updated">
+					<time  class="u-dt" dir="auto" datetime="2026-10-01T19:42:21-0500" data-timestamp="1790901741" data-date="Oct 1, 2026" data-time="7:42 PM" data-short="8m" title="Oct 1, 2026 at 7:42 PM">8 minutes ago</time>
+				</div>
+			</div>
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1333.jpg?1753359929" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#224</span>
+		
+	
+	
+		
+			<a href="/teams/lingleville-cardinals.1333/schedule/2026/">Lingleville</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Cardinals
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			26
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-moran-vs-lingleville.38675/">
+							5:20 - 2nd Qtr
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1396.jpg?1789649175" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#292</span>
+		
+	
+	
+		
+			<a href="/teams/moran-bulldogs.1396/schedule/2026/">Moran</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Bulldogs
+			</div>
+		</div>
+		<div class="contentRow-score">
+			7
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
 					Wednesday finals
 				</h3>
 				<div class="block-body block-row block-row--scores">
@@ -1629,115 +1988,9 @@
 		<div class="block block--game-date">
 			<div class="block-container">
 				<h3 class="block-header">
-					Upcoming games
+					Scores needed
 				</h3>
 				<div class="block-body block-row block-row--scores">
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1396.jpg?1789649175" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#292</span>
-		
-	
-	
-		
-			<a href="/teams/moran-bulldogs.1396/schedule/2026/">Moran</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Bulldogs
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-moran-vs-lingleville.38675/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1333.jpg?1753359929" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#224</span>
-		
-	
-	
-		
-			<a href="/teams/lingleville-cardinals.1333/schedule/2026/">Lingleville</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Cardinals
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
 					
 						
 	
@@ -1794,7 +2047,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-waco-christian-vs-arlington-st-paul-prep.38436/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -1900,7 +2153,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-three-way-vs-lohn.38965/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -2006,7 +2259,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-miami-vs-happy-jv.39289/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -2051,317 +2304,16 @@
 	</div>
 
 					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1426.jpg?1788488215" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#62</span>
-		
-	
-	
-		
-			<a href="/teams/northside-indians.1426/schedule/2026/">Northside</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Indians
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-northside-vs-follett.38967/">
-							Upcoming
-						</a>
-					
 				</div>
 			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1166.jpg?1789102469" loading="lazy" />
-				
-			</span>
 		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
 	
-	
-	
-	
-	
-		
-			<span class="teamRank">#220</span>
-		
-	
-	
-		
-			<a href="/teams/follett-panthers.1166/schedule/2026/">Follett</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Panthers
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1526.jpg?1790177890" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#199</span>
-		
-	
-	
-		
-			<a href="/teams/rule-bobcats.1526/schedule/2026/">Rule</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Bobcats
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-rule-vs-jayton-jv.38034/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<i class="fa--xf fad fa-football-helmet "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-hidden="true" ><path d="M480 320H355.46l-15.2-76-31.8 4.1 14.4 71.9h-49.3s18.7 46.8 12.8 32h42.9l9.5 47.3c9.5 47.4 48 85.3 95.9 91.3 44 5.5 42.5 5.4 45.3 5.4 22.5 0 32-19.7 32-32V352A32 32 0 0 0 480 320zm0 144l-41.3-5.2a79.72 79.72 0 0 1-60.1-40.7H480zm0-80H368.26l-6.4-32H480z" class="fa-secondary"/><path d="M491 207.46C466.2 82.56 347.9-8.64 211.9 10.56c-107.3 15.1-194.1 102-209.3 209.3-10.2 72.1 10.7 139.1 51.1 190a16.26 16.26 0 0 0 12.8 6.1H120l85.7 45a65.58 65.58 0 0 0 75.7-12.3c36.2-36.2 10.9-81.9 5-96.7l-23.1-57.7a32 32 0 0 1 25.6-43.6l188.2-24.5c8.96-1.16 15.56-9.8 13.9-18.7zM176 360a24 24 0 1 1 24-24 23.94 23.94 0 0 1-24 24z" class="fa-primary"/></svg></i>
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-	
-		Jayton JV
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19578.jpg?1784062231" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#222</span>
-		
-	
-	
-		
-			<a href="/teams/wise-county-homeschool-athletics-warriors.19578/schedule/2026/">Wise County Homeschool Athletics</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Warriors
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-wise-county-homeschool-athletics-vs-fannindel.39164/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1161.jpg?1784647951" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#89</span>
-		
-	
-	
-		
-			<a href="/teams/fannindel-falcons.1161/schedule/2026/">Fannindel</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Falcons
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
+					Upcoming games
+				</h3>
+				<div class="block-body block-row block-row--scores">
 					
 						
 	
@@ -13141,7 +13093,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1790886132%2Cfdc5edfa23d33c830bcc261f56142498"
+	<a href="/misc/style-variation?reset=1&amp;t=1790902223%2Cadea2f0da54fc43c6b9a205cb75ee403"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -13156,7 +13108,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1790886132%2Cfdc5edfa23d33c830bcc261f56142498"
+	<a href="/misc/style-variation?variation=default&amp;t=1790902223%2Cadea2f0da54fc43c6b9a205cb75ee403"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -13171,7 +13123,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1790886132%2Cfdc5edfa23d33c830bcc261f56142498"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1790902223%2Cadea2f0da54fc43c6b9a205cb75ee403"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -13371,7 +13323,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a43e2d992e89ed00',t:'MTc5MDg4NjEzMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a43fb66f2abde6c0',t:'MTc5MDkwMjIyMw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

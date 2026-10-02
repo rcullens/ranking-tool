@@ -692,7 +692,6 @@ w05-richland-springs-emery-weiner,5,2026-09-26,richland-springs,emery-weiner,12,
 w06-bluff-dale-oakwood,6,2026-10-01,bluff-dale,oakwood,,,false,false
 w06-fannindel-wise-county-homeschool,6,2026-10-01,fannindel,wise-county-homeschool,,,false,false
 w06-groom-silverton,6,2026-10-01,groom,silverton,,,false,false
-w06-lohn-three-way,6,2026-10-01,lohn,three-way,,,false,false
 w06-moran-lingleville,6,2026-10-01,moran,lingleville,,,false,false
 w06-motley-county-northside,6,2026-10-01,motley-county,northside,,,false,false
 w06-northside-follett,6,2026-10-01,northside,follett,,,false,false
@@ -775,6 +774,7 @@ w06-stephenville-faith-chant-homeschool,6,2026-10-02,stephenville-faith,chant-ho
 w06-summit-christian-hill-country-knights,6,2026-10-02,summit-christian,hill-country-knights,,,false,false
 w06-temple-christian-trinity-school-of-texas,6,2026-10-02,temple-christian,trinity-school-of-texas,,,true,false
 w06-texas-wind-azle-christian,6,2026-10-02,texas-wind,azle-christian,,,false,false
+w06-three-way-lohn,6,2026-10-02,three-way,lohn,0,0,false,false
 w06-throckmorton-paint-creek,6,2026-10-02,throckmorton,paint-creek,,,false,false
 w06-trent-cherokee,6,2026-10-02,trent,cherokee,,,false,false
 w06-tribe-warriors-austin-classical,6,2026-10-02,tribe-warriors,austin-classical,,,false,false
@@ -784,7 +784,7 @@ w06-valor-prep-bracken-christian,6,2026-10-02,valor-prep,bracken-christian,,,tru
 w06-valor-south-austin-jubilee-brownsville,6,2026-10-02,valor-south-austin,jubilee-brownsville,,,true,false
 w06-vanguard-college-prep-allen-academy,6,2026-10-02,vanguard-college-prep,allen-academy,,,false,false
 w06-victoria-gators-town-east-christian,6,2026-10-02,victoria-gators,town-east-christian,,,true,false
-w06-waco-christian-st-paul-prep,6,2026-10-02,waco-christian,st-paul-prep,,,false,false
+w06-waco-christian-st-paul-prep,6,2026-10-02,waco-christian,st-paul-prep,0,0,false,false
 w06-wellman-union-springlake-earth,6,2026-10-02,wellman-union,springlake-earth,,,false,false
 w06-west-texas-tornadoes-jonesboro,6,2026-10-02,west-texas-tornadoes,jonesboro,,,false,false
 w06-white-deer-kress,6,2026-10-02,white-deer,kress,,,false,false
