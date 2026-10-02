@@ -690,11 +690,12 @@ w05-fannindel-tyler-heat,5,2026-09-26,fannindel,tyler-heat,,,false,false
 w05-jubilee-brownsville-victoria-cobras,5,2026-09-26,jubilee-brownsville,victoria-cobras,45,0,false,true
 w05-richland-springs-emery-weiner,5,2026-09-26,richland-springs,emery-weiner,12,58,false,true
 w06-bluff-dale-oakwood,6,2026-10-01,bluff-dale,oakwood,,,false,false
-w06-fannindel-wise-county-homeschool,6,2026-10-01,fannindel,wise-county-homeschool,,,false,false
+w06-fannindel-wise-county-homeschool,6,2026-10-01,fannindel,wise-county-homeschool,62,6,false,false
 w06-groom-silverton,6,2026-10-01,groom,silverton,,,false,false
-w06-moran-lingleville,6,2026-10-01,moran,lingleville,,,false,false
+w06-lohn-three-way,6,2026-10-01,lohn,three-way,6,54,false,false
+w06-moran-lingleville,6,2026-10-01,moran,lingleville,7,52,false,false
 w06-motley-county-northside,6,2026-10-01,motley-county,northside,,,false,false
-w06-northside-follett,6,2026-10-01,northside,follett,,,false,false
+w06-northside-follett,6,2026-10-01,northside,follett,86,6,false,false
 w06-rule-jayton,6,2026-10-01,rule,jayton,,,false,false
 w06-abbott-avalon,6,2026-10-02,abbott,avalon,,,false,false
 w06-alpha-omega-covenant-christian,6,2026-10-02,alpha-omega,covenant-christian,,,false,false
@@ -774,7 +775,6 @@ w06-stephenville-faith-chant-homeschool,6,2026-10-02,stephenville-faith,chant-ho
 w06-summit-christian-hill-country-knights,6,2026-10-02,summit-christian,hill-country-knights,,,false,false
 w06-temple-christian-trinity-school-of-texas,6,2026-10-02,temple-christian,trinity-school-of-texas,,,true,false
 w06-texas-wind-azle-christian,6,2026-10-02,texas-wind,azle-christian,,,false,false
-w06-three-way-lohn,6,2026-10-02,three-way,lohn,0,0,false,false
 w06-throckmorton-paint-creek,6,2026-10-02,throckmorton,paint-creek,,,false,false
 w06-trent-cherokee,6,2026-10-02,trent,cherokee,,,false,false
 w06-tribe-warriors-austin-classical,6,2026-10-02,tribe-warriors,austin-classical,,,false,false
@@ -782,9 +782,9 @@ w06-trinity-school-of-texas-providence-academy,6,2026-10-02,trinity-school-of-te
 w06-valor-leander-fredericksburg-heritage,6,2026-10-02,valor-leander,fredericksburg-heritage,,,false,false
 w06-valor-prep-bracken-christian,6,2026-10-02,valor-prep,bracken-christian,,,true,false
 w06-valor-south-austin-jubilee-brownsville,6,2026-10-02,valor-south-austin,jubilee-brownsville,,,true,false
-w06-vanguard-college-prep-allen-academy,6,2026-10-02,vanguard-college-prep,allen-academy,,,false,false
+w06-vanguard-college-prep-allen-academy,6,2026-10-02,vanguard-college-prep,allen-academy,68,20,false,false
 w06-victoria-gators-town-east-christian,6,2026-10-02,victoria-gators,town-east-christian,,,true,false
-w06-waco-christian-st-paul-prep,6,2026-10-02,waco-christian,st-paul-prep,0,0,false,false
+w06-waco-christian-st-paul-prep,6,2026-10-02,waco-christian,st-paul-prep,50,0,false,false
 w06-wellman-union-springlake-earth,6,2026-10-02,wellman-union,springlake-earth,,,false,false
 w06-west-texas-tornadoes-jonesboro,6,2026-10-02,west-texas-tornadoes,jonesboro,,,false,false
 w06-white-deer-kress,6,2026-10-02,white-deer,kress,,,false,false
@@ -1213,7 +1213,6 @@ w10-pchea-lubbock-titans,10,2026-10-31,pchea,lubbock-titans,,,false,false
 w10-wylie-prep-ovilla-christian,10,2026-10-31,wylie-prep,ovilla-christian,,,true,false
 w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
-w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-moran-sidney,11,2026-11-05,moran,sidney,,,true,false
@@ -1235,6 +1234,7 @@ w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-06,cranfills-gap,walnut-springs,,,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,,,true,false
+w11-dawson-meadow,11,2026-11-06,dawson,meadow,,,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,,,true,false
 w11-guthrie-valley,11,2026-11-06,guthrie,valley,,,true,false
 w11-happy-kress,11,2026-11-06,happy,kress,,,true,false

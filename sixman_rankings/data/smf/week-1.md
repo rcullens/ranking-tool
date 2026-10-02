@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1790902221,a2a4f2a7a5158217994cec1e091a89cd"
+	data-csrf="1790920238,96d919eea9e2d7302d6060b2eb24dc31"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1790902221,a2a4f2a7a5158217994cec1e091a89cd',
+				csrf: '1790920238,96d919eea9e2d7302d6060b2eb24dc31',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=c3f1f393":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1790902221,
-					today: 1790830800,
-					todayDow: 4,
-					tomorrow: 1790917200,
-					yesterday: 1790744400,
-					week: 1790312400,
+					now: 1790920238,
+					today: 1790917200,
+					todayDow: 5,
+					tomorrow: 1791003600,
+					yesterday: 1790830800,
+					week: 1790398800,
 					month: 1790830800,
 					year: 1767247200
 				},
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1790902221,a2a4f2a7a5158217994cec1e091a89cd" />
+									<input type="hidden" name="_xfToken" value="1790920238,96d919eea9e2d7302d6060b2eb24dc31" />
 								</form>
 							</div>
 						
@@ -16633,7 +16633,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1790902221%2Ca2a4f2a7a5158217994cec1e091a89cd"
+	<a href="/misc/style-variation?reset=1&amp;t=1790920238%2C96d919eea9e2d7302d6060b2eb24dc31"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -16648,7 +16648,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1790902221%2Ca2a4f2a7a5158217994cec1e091a89cd"
+	<a href="/misc/style-variation?variation=default&amp;t=1790920238%2C96d919eea9e2d7302d6060b2eb24dc31"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -16663,7 +16663,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1790902221%2Ca2a4f2a7a5158217994cec1e091a89cd"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1790920238%2C96d919eea9e2d7302d6060b2eb24dc31"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -16863,7 +16863,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a43fb6669f16f14d',t:'MTc5MDkwMjIyMQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4416e409a8d133c',t:'MTc5MDkyMDIzOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
