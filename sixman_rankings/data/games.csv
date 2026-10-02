@@ -703,7 +703,7 @@ w06-apple-springs-brazos-valley-lions,6,2026-10-02,apple-springs,brazos-valley-l
 w06-balmorhea-buena-vista,6,2026-10-02,balmorhea,buena-vista,,,false,false
 w06-blanket-iredell,6,2026-10-02,blanket,iredell,,,false,false
 w06-blum-gorman,6,2026-10-02,blum,gorman,,,false,false
-w06-brookesmith-olfen,6,2026-10-02,brookesmith,olfen,,,false,false
+w06-brookesmith-olfen,6,2026-10-02,brookesmith,olfen,1,0,false,false
 w06-bryson-woodson,6,2026-10-02,bryson,woodson,,,false,false
 w06-bynum-walnut-springs,6,2026-10-02,bynum,walnut-springs,,,false,false
 w06-campbell-cornerstone,6,2026-10-02,campbell,cornerstone,,,false,false
@@ -726,7 +726,8 @@ w06-garland-christian-ovilla-christian,6,2026-10-02,garland-christian,ovilla-chr
 w06-gholson-evant,6,2026-10-02,gholson,evant,,,false,false
 w06-grandfalls-royalty-rankin,6,2026-10-02,grandfalls-royalty,rankin,,,false,false
 w06-happy-mclean,6,2026-10-02,happy,mclean,,,false,false
-w06-harvest-christian-keller-faustina,6,2026-10-02,harvest-christian-keller,faustina,,,false,false
+w06-hart-plainview-classical,6,2026-10-02,hart,plainview-classical,0,0,false,false
+w06-harvest-christian-keller-faustina,6,2026-10-02,harvest-christian-keller,faustina,0,0,false,false
 w06-highland-ranger,6,2026-10-02,highland,ranger,,,false,false
 w06-hill-country-christian-davinci,6,2026-10-02,hill-country-christian,davinci,,,false,false
 w06-jayton-newcastle,6,2026-10-02,jayton,newcastle,,,false,false
@@ -750,14 +751,13 @@ w06-nazareth-claude,6,2026-10-02,nazareth,claude,,,false,false
 w06-new-braunfels-thunder-texas-empowerment,6,2026-10-02,new-braunfels-thunder,texas-empowerment,,,false,false
 w06-newman-international-the-highlands,6,2026-10-02,newman-international,the-highlands,,,false,false
 w06-nyos-davinci,6,2026-10-02,nyos,davinci,,,false,false
-w06-oglesby-buckholts,6,2026-10-02,oglesby,buckholts,,,false,false
+w06-oglesby-buckholts,6,2026-10-02,oglesby,buckholts,0,0,false,false
 w06-paducah-aspermont,6,2026-10-02,paducah,aspermont,,,false,false
 w06-panther-creek-strawn,6,2026-10-02,panther-creek,strawn,,,false,false
 w06-pchea-grady,6,2026-10-02,pchea,grady,,,false,false
 w06-penelope-covington,6,2026-10-02,penelope,covington,,,false,false
 w06-perrin-whitt-gold-burg,6,2026-10-02,perrin-whitt,gold-burg,,,false,false
 w06-petersburg-anton,6,2026-10-02,petersburg,anton,,,false,false
-w06-plainview-classical-hart,6,2026-10-02,plainview-classical,hart,,,false,false
 w06-richland-springs-whitharral,6,2026-10-02,richland-springs,whitharral,,,false,false
 w06-rising-star-rochelle,6,2026-10-02,rising-star,rochelle,,,false,false
 w06-roby-knox-city,6,2026-10-02,roby,knox-city,,,false,false
