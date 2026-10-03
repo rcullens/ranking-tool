@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1791052947,e3b87235bd122b2dc8e93d0775694ca4"
+	data-csrf="1791065396,a6c308b24bf8e3ea53f29be658e3b005"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1791052947,e3b87235bd122b2dc8e93d0775694ca4',
+				csrf: '1791065396,a6c308b24bf8e3ea53f29be658e3b005',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=783c8c77":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1791052947,
+					now: 1791065396,
 					today: 1791003600,
 					todayDow: 6,
 					tomorrow: 1791090000,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1791052947,e3b87235bd122b2dc8e93d0775694ca4" />
+									<input type="hidden" name="_xfToken" value="1791065396,a6c308b24bf8e3ea53f29be658e3b005" />
 								</form>
 							</div>
 						
@@ -4121,6 +4121,112 @@
 			</div>
 			<div class="team-mascot">
 				Gryphons
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/8/8363.jpg?1753549821" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#229</span>
+		
+	
+	
+		
+			<a href="/teams/cedar-hill-newman-international-warriors.8363/schedule/2026/">Cedar Hill Newman International</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Warriors
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-cedar-hill-newman-international-vs-poetry-christian.39299/">
+							Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19267.jpg?1780663324" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#270</span>
+		
+	
+	
+		
+			<a href="/teams/poetry-christian-pioneers.19267/schedule/2026/">Poetry Christian</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Pioneers
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -14393,7 +14499,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1791052947%2Ce3b87235bd122b2dc8e93d0775694ca4"
+	<a href="/misc/style-variation?reset=1&amp;t=1791065396%2Ca6c308b24bf8e3ea53f29be658e3b005"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -14408,7 +14514,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1791052947%2Ce3b87235bd122b2dc8e93d0775694ca4"
+	<a href="/misc/style-variation?variation=default&amp;t=1791065396%2Ca6c308b24bf8e3ea53f29be658e3b005"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -14423,7 +14529,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1791052947%2Ce3b87235bd122b2dc8e93d0775694ca4"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1791065396%2Ca6c308b24bf8e3ea53f29be658e3b005"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -14623,7 +14729,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a44e16363b98e2d7',t:'MTc5MTA1Mjk0Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a44f46298a5c8b11',t:'MTc5MTA2NTM5Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

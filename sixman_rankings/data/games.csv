@@ -713,14 +713,14 @@ w06-campbell-cornerstone,6,2026-10-02,campbell,cornerstone,,,false,false
 w06-centex-homeschool-new-braunfels-spartans,6,2026-10-02,centex-homeschool,new-braunfels-spartans,60,69,true,false
 w06-chester-brazosport-christian,6,2026-10-02,chester,brazosport-christian,50,35,false,false
 w06-chillicothe-booker,6,2026-10-02,chillicothe,booker,32,77,false,false
-w06-christian-heritage-longview-tyler-heat,6,2026-10-02,christian-heritage-longview,tyler-heat,0,1,false,false
+w06-christian-heritage-longview-tyler-heat,6,2026-10-02,christian-heritage-longview,tyler-heat,0,45,false,false
 w06-coastal-christian-arlington-heights-christian,6,2026-10-02,coastal-christian,arlington-heights-christian,20,70,true,false
 w06-coram-deo-victory-christian,6,2026-10-02,coram-deo,victory-christian,80,33,false,false
 w06-cornerstone-abilene-christian,6,2026-10-02,cornerstone,abilene-christian,6,54,true,false
 w06-covenant-classical-first-baptist-christian,6,2026-10-02,covenant-classical,first-baptist-christian,50,32,false,true
 w06-crowell-pchea,6,2026-10-02,crowell,pchea,54,22,false,false
-w06-dallas-academy-lakehill-prep,6,2026-10-02,dallas-academy,lakehill-prep,,,false,false
-w06-evant-gholson,6,2026-10-02,evant,gholson,0,0,false,false
+w06-dallas-academy-lakehill-prep,6,2026-10-02,dallas-academy,lakehill-prep,26,53,false,false
+w06-evant-gholson,6,2026-10-02,evant,gholson,65,20,false,false
 w06-faith-academy-founders-christian,6,2026-10-02,faith-academy,founders-christian,41,26,true,false
 w06-faustina-harvest-christian-keller,6,2026-10-02,faustina,harvest-christian-keller,34,8,false,false
 w06-forestburg-gordon,6,2026-10-02,forestburg,gordon,0,2,false,false
@@ -732,6 +732,7 @@ w06-grady-pchea,6,2026-10-02,grady,pchea,58,6,false,false
 w06-grandfalls-royalty-rankin,6,2026-10-02,grandfalls-royalty,rankin,26,74,false,false
 w06-greenville-christian-kings-academy,6,2026-10-02,greenville-christian,kings-academy,1,0,false,false
 w06-happy-mclean,6,2026-10-02,happy,mclean,41,40,false,false
+w06-harrold-blackwell,6,2026-10-02,harrold,blackwell,0,0,false,false
 w06-highland-ranger,6,2026-10-02,highland,ranger,54,0,false,false
 w06-hill-country-christian-davinci,6,2026-10-02,hill-country-christian,davinci,54,6,false,false
 w06-jayton-newcastle,6,2026-10-02,jayton,newcastle,52,58,false,false
@@ -794,7 +795,6 @@ w06-white-deer-kress,6,2026-10-02,white-deer,kress,58,18,false,false
 w06-wichita-christian-holy-cross-midland,6,2026-10-02,wichita-christian,holy-cross-midland,,,true,false
 w06-zephyr-lometa,6,2026-10-02,zephyr,lometa,52,7,false,false
 w06-big-springs-charter-victoria-gators,6,2026-10-03,big-springs-charter,victoria-gators,,,true,false
-w06-blackwell-harrold,6,2026-10-03,blackwell,harrold,,,false,false
 w06-lubbock-titans-thesa,6,2026-10-03,lubbock-titans,thesa,,,true,true
 w06-trinidad-fruitvale,6,2026-10-03,trinidad,fruitvale,,,false,false
 w06-trinidad-poetry-community,6,2026-10-03,trinidad,poetry-community,,,false,false
@@ -1215,6 +1215,7 @@ w10-pchea-lubbock-titans,10,2026-10-31,pchea,lubbock-titans,,,false,false
 w10-wylie-prep-ovilla-christian,10,2026-10-31,wylie-prep,ovilla-christian,,,true,false
 w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
+w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-moran-sidney,11,2026-11-05,moran,sidney,,,true,false
@@ -1236,7 +1237,6 @@ w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-06,cranfills-gap,walnut-springs,,,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,,,true,false
-w11-dawson-meadow,11,2026-11-06,dawson,meadow,,,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,,,true,false
 w11-guthrie-valley,11,2026-11-06,guthrie,valley,,,true,false
 w11-happy-kress,11,2026-11-06,happy,kress,,,true,false
