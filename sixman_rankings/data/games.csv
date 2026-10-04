@@ -702,7 +702,7 @@ w06-alpha-omega-covenant-christian,6,2026-10-02,alpha-omega,covenant-christian,7
 w06-apple-springs-brazos-valley-lions,6,2026-10-02,apple-springs,brazos-valley-lions,30,28,false,false
 w06-austin-classical-tribe-warriors,6,2026-10-02,austin-classical,tribe-warriors,34,8,false,false
 w06-balmorhea-buena-vista,6,2026-10-02,balmorhea,buena-vista,52,16,false,false
-w06-big-springs-charter-victoria-cobras,6,2026-10-02,big-springs-charter,victoria-cobras,0,0,false,false
+w06-blackwell-harrold,6,2026-10-02,blackwell,harrold,83,36,false,false
 w06-blanket-iredell,6,2026-10-02,blanket,iredell,65,65,false,false
 w06-blum-gorman,6,2026-10-02,blum,gorman,36,62,false,false
 w06-brookesmith-olfen,6,2026-10-02,brookesmith,olfen,1,0,false,false
@@ -720,6 +720,7 @@ w06-cornerstone-abilene-christian,6,2026-10-02,cornerstone,abilene-christian,6,5
 w06-covenant-classical-first-baptist-christian,6,2026-10-02,covenant-classical,first-baptist-christian,50,32,false,true
 w06-crowell-pchea,6,2026-10-02,crowell,pchea,54,22,false,false
 w06-dallas-academy-lakehill-prep,6,2026-10-02,dallas-academy,lakehill-prep,26,53,false,false
+w06-davinci-nyos,6,2026-10-02,davinci,nyos,45,0,false,false
 w06-evant-gholson,6,2026-10-02,evant,gholson,65,20,false,false
 w06-faith-academy-founders-christian,6,2026-10-02,faith-academy,founders-christian,41,26,true,false
 w06-faustina-harvest-christian-keller,6,2026-10-02,faustina,harvest-christian-keller,34,8,false,false
@@ -732,7 +733,6 @@ w06-grady-pchea,6,2026-10-02,grady,pchea,58,6,false,false
 w06-grandfalls-royalty-rankin,6,2026-10-02,grandfalls-royalty,rankin,26,74,false,false
 w06-greenville-christian-kings-academy,6,2026-10-02,greenville-christian,kings-academy,1,0,false,false
 w06-happy-mclean,6,2026-10-02,happy,mclean,41,40,false,false
-w06-harrold-blackwell,6,2026-10-02,harrold,blackwell,0,0,false,false
 w06-highland-ranger,6,2026-10-02,highland,ranger,54,0,false,false
 w06-hill-country-christian-davinci,6,2026-10-02,hill-country-christian,davinci,54,6,false,false
 w06-jayton-newcastle,6,2026-10-02,jayton,newcastle,52,58,false,false
@@ -754,7 +754,6 @@ w06-nazarene-christian-lucas-christian,6,2026-10-02,nazarene-christian,lucas-chr
 w06-nazareth-claude,6,2026-10-02,nazareth,claude,68,36,false,false
 w06-new-braunfels-thunder-centex-homeschool,6,2026-10-02,new-braunfels-thunder,centex-homeschool,69,60,false,false
 w06-new-braunfels-thunder-texas-empowerment,6,2026-10-02,new-braunfels-thunder,texas-empowerment,60,19,false,false
-w06-nyos-davinci,6,2026-10-02,nyos,davinci,0,0,false,false
 w06-oglesby-buckholts,6,2026-10-02,oglesby,buckholts,76,0,false,false
 w06-paducah-aspermont,6,2026-10-02,paducah,aspermont,48,0,false,false
 w06-panther-creek-strawn,6,2026-10-02,panther-creek,strawn,0,46,false,false
@@ -794,10 +793,11 @@ w06-wellman-union-springlake-earth,6,2026-10-02,wellman-union,springlake-earth,4
 w06-white-deer-kress,6,2026-10-02,white-deer,kress,58,18,false,false
 w06-wichita-christian-holy-cross-midland,6,2026-10-02,wichita-christian,holy-cross-midland,,,true,false
 w06-zephyr-lometa,6,2026-10-02,zephyr,lometa,52,7,false,false
+w06-big-springs-charter-victoria-cobras,6,2026-10-03,big-springs-charter,victoria-cobras,40,32,false,false
 w06-big-springs-charter-victoria-gators,6,2026-10-03,big-springs-charter,victoria-gators,,,true,false
-w06-lubbock-titans-thesa,6,2026-10-03,lubbock-titans,thesa,,,true,true
+w06-lubbock-titans-thesa,6,2026-10-03,lubbock-titans,thesa,6,51,true,true
 w06-trinidad-fruitvale,6,2026-10-03,trinidad,fruitvale,,,false,false
-w06-trinidad-poetry-community,6,2026-10-03,trinidad,poetry-community,,,false,false
+w06-trinidad-poetry-community,6,2026-10-03,trinidad,poetry-community,64,6,false,false
 w06-valor-leander-valor-kyle,6,2026-10-03,valor-leander,valor-kyle,21,20,true,false
 w06-wylie-prep-lone-star-north,6,2026-10-03,wylie-prep,lone-star-north,16,24,true,false
 w07-allen-academy-azle-christian,7,2026-10-08,allen-academy,azle-christian,,,false,false
