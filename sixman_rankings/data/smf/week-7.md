@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1791659942,3fe19696dcc900c80c9de4db6c891e19"
+	data-csrf="1791672049,053d847faf1f97c19f9ba6be8a5b1b05"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1791659942,3fe19696dcc900c80c9de4db6c891e19',
+				csrf: '1791672049,053d847faf1f97c19f9ba6be8a5b1b05',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=076a53a9":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1791659942,
+					now: 1791672049,
 					today: 1791608400,
 					todayDow: 6,
 					tomorrow: 1791694800,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1791659942,3fe19696dcc900c80c9de4db6c891e19" />
+									<input type="hidden" name="_xfToken" value="1791672049,053d847faf1f97c19f9ba6be8a5b1b05" />
 								</form>
 							</div>
 						
@@ -1514,6 +1514,133 @@
 	
 	<input type="search" class="input" data-xf-init="score-quick-search" name="score-quick-search" id="score-quick-search" placeholder="Quick search..." />
 	
+	
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
+					Live scoreboard
+				</h3>
+				<div class="block-body block-row block-row--scores">
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink">
+		
+			<div class="block-time">
+				<div class="block-update-user">
+					<span class="is-live">LIVE</span>
+					
+				</div>
+				<div class="block-time-updated">
+					<time  class="u-dt" dir="auto" datetime="2026-10-10T17:36:53-0500" data-timestamp="1791671813" data-date="Oct 10, 2026" data-time="5:36 PM" data-short="3m" title="Oct 10, 2026 at 5:36 PM">3 minutes ago</time>
+				</div>
+			</div>
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1566.jpg?1778074294" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#114</span>
+		
+	
+	
+		
+			<a href="/teams/silverton-owls.1566/schedule/2026/">Silverton</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Owls
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			51
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-silverton-vs-saint-jo.38110/">
+							4:00 - 3rd Qtr
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1531.jpg?1753189887" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#135</span>
+		
+	
+	
+		
+			<a href="/teams/saint-jo-panthers.1531/schedule/2026/">Saint Jo</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Panthers
+			</div>
+		</div>
+		<div class="contentRow-score">
+			40
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+				</div>
+			</div>
+		</div>
 	
 		<div class="block block--game-date">
 			<div class="block-container">
@@ -12975,106 +13102,6 @@
 						
 	
 	
-	<div class="block-matchup fauxBlockLink">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1396.jpg?1789649175" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#291</span>
-		
-	
-	
-		
-			<a href="/teams/moran-bulldogs.1396/schedule/2026/">Moran</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Bulldogs
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-moran-vs-zephyr-jv.38676/">
-							Needed
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<i class="fa--xf fad fa-football-helmet "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-hidden="true" ><path d="M480 320H355.46l-15.2-76-31.8 4.1 14.4 71.9h-49.3s18.7 46.8 12.8 32h42.9l9.5 47.3c9.5 47.4 48 85.3 95.9 91.3 44 5.5 42.5 5.4 45.3 5.4 22.5 0 32-19.7 32-32V352A32 32 0 0 0 480 320zm0 144l-41.3-5.2a79.72 79.72 0 0 1-60.1-40.7H480zm0-80H368.26l-6.4-32H480z" class="fa-secondary"/><path d="M491 207.46C466.2 82.56 347.9-8.64 211.9 10.56c-107.3 15.1-194.1 102-209.3 209.3-10.2 72.1 10.7 139.1 51.1 190a16.26 16.26 0 0 0 12.8 6.1H120l85.7 45a65.58 65.58 0 0 0 75.7-12.3c36.2-36.2 10.9-81.9 5-96.7l-23.1-57.7a32 32 0 0 1 25.6-43.6l188.2-24.5c8.96-1.16 15.56-9.8 13.9-18.7zM176 360a24 24 0 1 1 24-24 23.94 23.94 0 0 1-24 24z" class="fa-primary"/></svg></i>
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-	
-		Zephyr JV
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
 	<div class="block-matchup fauxBlockLink is-district">
 		
 		<div class="block-teams">
@@ -13390,17 +13417,6 @@
 	</div>
 
 					
-				</div>
-			</div>
-		</div>
-	
-		<div class="block block--game-date">
-			<div class="block-container">
-				<h3 class="block-header">
-					Upcoming games
-				</h3>
-				<div class="block-body block-row block-row--scores">
-					
 						
 	
 	
@@ -13456,7 +13472,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-amarillo-ffc-vs-midland-texas-leadership-charter.38332/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -13495,112 +13511,6 @@
 			</div>
 			<div class="team-mascot">
 				Eagles
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1566.jpg?1778074294" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#114</span>
-		
-	
-	
-		
-			<a href="/teams/silverton-owls.1566/schedule/2026/">Silverton</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Owls
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-silverton-vs-saint-jo.38110/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1531.jpg?1753189887" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#135</span>
-		
-	
-	
-		
-			<a href="/teams/saint-jo-panthers.1531/schedule/2026/">Saint Jo</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Panthers
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -13668,7 +13578,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-waco-christian-vs-perrin-grace-christian-academy.38437/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -13774,7 +13684,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-texas-school-for-the-deaf-vs-marble-falls-faith.38851/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -13824,6 +13734,17 @@
 		</div>
 	</div>
 
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
+					Upcoming games
+				</h3>
+				<div class="block-body block-row block-row--scores">
 					
 						
 	
@@ -14339,7 +14260,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1791659942%2C3fe19696dcc900c80c9de4db6c891e19"
+	<a href="/misc/style-variation?reset=1&amp;t=1791672049%2C053d847faf1f97c19f9ba6be8a5b1b05"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -14354,7 +14275,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1791659942%2C3fe19696dcc900c80c9de4db6c891e19"
+	<a href="/misc/style-variation?variation=default&amp;t=1791672049%2C053d847faf1f97c19f9ba6be8a5b1b05"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -14369,7 +14290,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1791659942%2C3fe19696dcc900c80c9de4db6c891e19"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1791672049%2C053d847faf1f97c19f9ba6be8a5b1b05"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -14569,7 +14490,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a487f96f3de3f31f',t:'MTc5MTY1OTk0Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4892102ec34c4e6',t:'MTc5MTY3MjA0OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

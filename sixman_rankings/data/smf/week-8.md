@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1791659942,85b2bff374849c14907a28111dc3a245"
+	data-csrf="1791672049,186bd4f4de20fcb22f9701aaea495611"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1791659942,85b2bff374849c14907a28111dc3a245',
+				csrf: '1791672049,186bd4f4de20fcb22f9701aaea495611',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=076a53a9":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1791659942,
+					now: 1791672049,
 					today: 1791608400,
 					todayDow: 6,
 					tomorrow: 1791694800,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1791659942,85b2bff374849c14907a28111dc3a245" />
+									<input type="hidden" name="_xfToken" value="1791672049,186bd4f4de20fcb22f9701aaea495611" />
 								</form>
 							</div>
 						
@@ -4657,112 +4657,6 @@
 			</div>
 			<div class="team-mascot">
 				Panthers
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2416.jpg?1789587107" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#116</span>
-		
-	
-	
-		
-			<a href="/teams/wylie-preparatory-patriots.2416/schedule/2026/">Wylie Preparatory</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Patriots
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-wylie-preparatory-vs-irving-the-highlands.38053/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2268.jpg?1757796131" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#96</span>
-		
-	
-	
-		
-			<a href="/teams/irving-the-highlands-blazers.2268/schedule/2026/">Irving The Highlands</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Blazers
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -9769,6 +9663,112 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
+					<img src="/data/sixman/teamlogo/s/2/2416.jpg?1789587107" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#116</span>
+		
+	
+	
+		
+			<a href="/teams/wylie-preparatory-patriots.2416/schedule/2026/">Wylie Preparatory</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Patriots
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-wylie-preparatory-vs-irving-the-highlands.38053/">
+							Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2268.jpg?1757796131" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#96</span>
+		
+	
+	
+		
+			<a href="/teams/irving-the-highlands-blazers.2268/schedule/2026/">Irving The Highlands</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Blazers
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
 					<img src="/data/sixman/teamlogo/s/1/1466.jpg?1779209380" loading="lazy" />
 				
 			</span>
@@ -14087,7 +14087,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1791659942%2C85b2bff374849c14907a28111dc3a245"
+	<a href="/misc/style-variation?reset=1&amp;t=1791672049%2C186bd4f4de20fcb22f9701aaea495611"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -14102,7 +14102,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1791659942%2C85b2bff374849c14907a28111dc3a245"
+	<a href="/misc/style-variation?variation=default&amp;t=1791672049%2C186bd4f4de20fcb22f9701aaea495611"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -14117,7 +14117,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1791659942%2C85b2bff374849c14907a28111dc3a245"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1791672049%2C186bd4f4de20fcb22f9701aaea495611"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -14317,7 +14317,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a487f9721e4ad001',t:'MTc5MTY1OTk0Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a489210529f3bd97',t:'MTc5MTY3MjA0OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
