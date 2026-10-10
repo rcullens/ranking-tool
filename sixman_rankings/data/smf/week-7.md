@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1791576513,6e610a5dd5ecc3923cddd51eb1a97ad4"
+	data-csrf="1791590687,7bd8aa0502c230c0aba142e8315175a9"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1791576513,6e610a5dd5ecc3923cddd51eb1a97ad4',
+				csrf: '1791590687,7bd8aa0502c230c0aba142e8315175a9',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=73c84c40":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1791576513,
+					now: 1791590687,
 					today: 1791522000,
 					todayDow: 5,
 					tomorrow: 1791608400,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1791576513,6e610a5dd5ecc3923cddd51eb1a97ad4" />
+									<input type="hidden" name="_xfToken" value="1791590687,7bd8aa0502c230c0aba142e8315175a9" />
 								</form>
 							</div>
 						
@@ -1514,6 +1514,133 @@
 	
 	<input type="search" class="input" data-xf-init="score-quick-search" name="score-quick-search" id="score-quick-search" placeholder="Quick search..." />
 	
+	
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
+					Live scoreboard
+				</h3>
+				<div class="block-body block-row block-row--scores">
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink">
+		
+			<div class="block-time">
+				<div class="block-update-user">
+					<span class="is-live">LIVE</span>
+					
+				</div>
+				<div class="block-time-updated">
+					<time  class="u-dt" dir="auto" datetime="2026-10-09T19:01:11-0500" data-timestamp="1791590471" data-date="Oct 9, 2026" data-time="7:01 PM" data-short="3m" title="Oct 9, 2026 at 7:01 PM">3 minutes ago</time>
+				</div>
+			</div>
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1446.jpg?1777997414" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#24</span>
+		
+	
+	
+		
+			<a href="/teams/oglesby-tigers.1446/schedule/2026/">Oglesby</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Tigers
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			61
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-oglesby-vs-bryson.37962/">
+							1:10 - 2nd Qtr
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1071.jpg?1775916973" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#84</span>
+		
+	
+	
+		
+			<a href="/teams/bryson-cowboys.1071/schedule/2026/">Bryson</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Cowboys
+			</div>
+		</div>
+		<div class="contentRow-score">
+			14
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+				</div>
+			</div>
+		</div>
 	
 		<div class="block block--game-date">
 			<div class="block-container">
@@ -2583,6 +2710,112 @@
 		</div>
 		<div class="contentRow-score">
 			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19095.jpg?1728531392" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#196</span>
+		
+	
+	
+		
+			<a href="/teams/granbury-grace-classical-gryphons.19095/schedule/2026/">Granbury Grace Classical</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Gryphons
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			70
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-wise-county-homeschool-athletics-vs-granbury-grace-classical.39274/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19578.jpg?1784062231" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#222</span>
+		
+	
+	
+		
+			<a href="/teams/wise-county-homeschool-athletics-warriors.19578/schedule/2026/">Wise County Homeschool Athletics</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Warriors
+			</div>
+		</div>
+		<div class="contentRow-score">
+			32
 		</div>
 	</div>
 
@@ -4807,112 +5040,6 @@
 						
 	
 	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19578.jpg?1784062231" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#222</span>
-		
-	
-	
-		
-			<a href="/teams/wise-county-homeschool-athletics-warriors.19578/schedule/2026/">Wise County Homeschool Athletics</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Warriors
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-wise-county-homeschool-athletics-vs-granbury-grace-classical.39274/">
-							Needed
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19095.jpg?1728531392" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#196</span>
-		
-	
-	
-		
-			<a href="/teams/granbury-grace-classical-gryphons.19095/schedule/2026/">Granbury Grace Classical</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Gryphons
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
 	<div class="block-matchup fauxBlockLink">
 		
 		<div class="block-teams">
@@ -5016,123 +5143,6 @@
 	</div>
 
 					
-				</div>
-			</div>
-		</div>
-	
-		<div class="block block--game-date">
-			<div class="block-container">
-				<h3 class="block-header">
-					Upcoming games
-				</h3>
-				<div class="block-body block-row block-row--scores">
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1446.jpg?1777997414" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#24</span>
-		
-	
-	
-		
-			<a href="/teams/oglesby-tigers.1446/schedule/2026/">Oglesby</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Tigers
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-oglesby-vs-bryson.37962/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1071.jpg?1775916973" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#84</span>
-		
-	
-	
-		
-			<a href="/teams/bryson-cowboys.1071/schedule/2026/">Bryson</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Cowboys
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
 						
 	
 	
@@ -5188,7 +5198,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-benjamin-vs-decatur-victory-christian.39097/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -5294,7 +5304,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-sierra-blanca-vs-sanderson.38963/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -5400,7 +5410,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-conroe-covenant-christian-vs-missouri-city-divine-savior-academy.39269/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -5439,6 +5449,112 @@
 			</div>
 			<div class="team-mascot">
 				Rays
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1636.jpg?1789145238" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#6</span>
+		
+	
+	
+		
+			<a href="/teams/water-valley-wildcats.1636/schedule/2026/">Water Valley</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Wildcats
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-water-valley-vs-menard.38067/">
+							Needed
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19077.jpg?1789668452" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#5</span>
+		
+	
+	
+		
+			<a href="/teams/menard-yellowjackets.19077/schedule/2026/">Menard</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Yellowjackets
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -5506,7 +5622,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-red-oak-ovilla-christian-vs-gainesville-lone-star-north.38663/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -5612,7 +5728,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-north-second-baptist-um-vs-houston-second-baptist-um.38922/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -5718,7 +5834,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-happy-vs-springlake-earth.38411/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -5824,7 +5940,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-jcsa-vs-tyler-kings-academy.39184/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -5930,7 +6046,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-round-rock-christian-vs-sa-lutheran.38418/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -6036,7 +6152,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-wellman-union-vs-dawson.38172/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -6142,7 +6258,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-irving-faustina-vs-mesquite-ignite-community.38948/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -6248,7 +6364,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-sa-castle-hills-vs-laredo-st-augustine.37687/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -6354,7 +6470,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-lubbock-kingdom-preparatory-vs-lubbock-christ-the-king.38720/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -6460,7 +6576,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-giddings-lone-star-southeast-vs-bulverde-bracken-christian.38978/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -6566,7 +6682,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-meadow-vs-southland.38474/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -6672,7 +6788,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-cranfills-gap-vs-kopperl.38219/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -6778,7 +6894,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-pflugerville-concordia-vs-waco-valor-prep.38987/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -6884,7 +7000,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-mcdade-vs-texas-empowerment-academy.38229/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -6990,7 +7106,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-booker-vs-claude.37720/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -7096,7 +7212,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-sterling-city-vs-irion-county.38746/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -7202,7 +7318,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-gordon-vs-may.38753/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -7308,7 +7424,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-prairie-lea-vs-bruni.37996/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -7414,7 +7530,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-three-way-vs-morgan.38778/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -7520,7 +7636,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-westbrook-vs-klondike.38546/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -7626,7 +7742,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-leakey-vs-medina.38296/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -7732,7 +7848,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-beaumont-legacy-christian-academy-vs-burkeville.39064/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -7838,7 +7954,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-sa-compass-rose-vs-north-star.39070/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -7944,7 +8060,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-corpus-christi-coastal-christian-vs-sa-town-east.38818/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -7983,112 +8099,6 @@
 			</div>
 			<div class="team-mascot">
 				Eagles
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1636.jpg?1789145238" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#6</span>
-		
-	
-	
-		
-			<a href="/teams/water-valley-wildcats.1636/schedule/2026/">Water Valley</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Wildcats
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-water-valley-vs-menard.38067/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19077.jpg?1789668452" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#5</span>
-		
-	
-	
-		
-			<a href="/teams/menard-yellowjackets.19077/schedule/2026/">Menard</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Yellowjackets
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -8156,7 +8166,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-conroe-founders-classical-vs-spring-founders-christian.38840/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -8262,7 +8272,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-plano-coram-deo-vs-rockwall-heritage.37835/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -8368,7 +8378,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-brookesmith-vs-rochelle.38613/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -8474,7 +8484,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-odonnell-vs-borden-county.38625/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -8580,7 +8590,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-abilene-christian-vs-fort-worth-temple-christian.37865/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -8686,7 +8696,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-taylor-st-marys-vs-hill-country.38893/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -8792,7 +8802,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-corpus-christi-annapolis-vs-benavides.38384/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -8898,7 +8908,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-runge-vs-victoria-home-school.38392/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -9004,7 +9014,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-walnut-springs-vs-iredell.38397/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -9043,6 +9053,123 @@
 			</div>
 			<div class="team-mascot">
 				Dragons
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
+					Upcoming games
+				</h3>
+				<div class="block-body block-row block-row--scores">
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2372.jpg?1789668482" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#105</span>
+		
+	
+	
+		
+			<a href="/teams/san-marcos-academy-bears.2372/schedule/2026/">San Marcos Academy</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Bears
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-san-marcos-academy-vs-bryan-st-joseph.38880/">
+							7:30 - Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2107.jpg?1778526812" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#215</span>
+		
+	
+	
+		
+			<a href="/teams/bryan-st-joseph-eagles.2107/schedule/2026/">Bryan St. Joseph</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Eagles
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -12777,112 +12904,6 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/2/2372.jpg?1789668482" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#105</span>
-		
-	
-	
-		
-			<a href="/teams/san-marcos-academy-bears.2372/schedule/2026/">San Marcos Academy</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Bears
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-san-marcos-academy-vs-bryan-st-joseph.38880/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2107.jpg?1778526812" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#215</span>
-		
-	
-	
-		
-			<a href="/teams/bryan-st-joseph-eagles.2107/schedule/2026/">Bryan St. Joseph</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Eagles
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
 					<img src="/data/sixman/teamlogo/s/1/1551.jpg?1778074243" loading="lazy" />
 				
 			</span>
@@ -14439,7 +14460,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1791576513%2C6e610a5dd5ecc3923cddd51eb1a97ad4"
+	<a href="/misc/style-variation?reset=1&amp;t=1791590687%2C7bd8aa0502c230c0aba142e8315175a9"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -14454,7 +14475,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1791576513%2C6e610a5dd5ecc3923cddd51eb1a97ad4"
+	<a href="/misc/style-variation?variation=default&amp;t=1791590687%2C7bd8aa0502c230c0aba142e8315175a9"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -14469,7 +14490,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1791576513%2C6e610a5dd5ecc3923cddd51eb1a97ad4"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1791590687%2C7bd8aa0502c230c0aba142e8315175a9"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -14669,7 +14690,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a48004982ae908b1',t:'MTc5MTU3NjUxMw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4815ea20b8d8aaa',t:'MTc5MTU5MDY4Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
