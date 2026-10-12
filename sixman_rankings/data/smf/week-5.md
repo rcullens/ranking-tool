@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1791698362,55ed8d092ee2bd375a86422b08acc8f3"
+	data-csrf="1791846044,b0e1b552f9c29bbac706ec02c2dec911"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -114,21 +114,21 @@
 	
 	
 
-	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1791695470&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
+	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1791824684&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
 
-	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1791695470&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
-<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1791695470&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
-<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1791695470&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
-<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1791695470&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
+	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1791824684&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
+<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1791824684&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
+<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1791824684&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
+<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1791824684&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
 
-
-	
-		<script src="/js/xf/preamble.min.js?_v=1067c51e"></script>
-	
 
 	
-	<script src="/js/vendor/vendor-compiled.js?_v=1067c51e" defer></script>
-	<script src="/js/xf/core-compiled.js?_v=1067c51e" defer></script>
+		<script src="/js/xf/preamble.min.js?_v=1da91baf"></script>
+	
+
+	
+	<script src="/js/vendor/vendor-compiled.js?_v=1da91baf" defer></script>
+	<script src="/js/xf/core-compiled.js?_v=1da91baf" defer></script>
 
 	<script>
 		XF.ready(() =>
@@ -141,9 +141,9 @@
 				url: {
 					fullBase: 'https://sixmanfootball.com/',
 					basePath: '/',
-					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1791695470',
-					js: '/js/__SENTINEL__?_v=1067c51e',
-					icon: '/data/local/icons/__VARIANT__.svg?v=1791695496#__NAME__',
+					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1791824684',
+					js: '/js/__SENTINEL__?_v=1da91baf',
+					icon: '/data/local/icons/__VARIANT__.svg?v=1791823810#__NAME__',
 					iconInline: '/styles/fa/__VARIANT__/__NAME__.svg?v=5.15.3',
 					keepAlive: '/login/keep-alive'
 				},
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1791698362,55ed8d092ee2bd375a86422b08acc8f3',
-				js: {"\/js\/sixman\/score-quick-search.min.js?_v=1067c51e":true},
+				csrf: '1791846044,b0e1b552f9c29bbac706ec02c2dec911',
+				js: {"\/js\/sixman\/score-quick-search.min.js?_v=1da91baf":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1791698362,
-					today: 1791694800,
-					todayDow: 0,
-					tomorrow: 1791781200,
-					yesterday: 1791608400,
-					week: 1791176400,
+					now: 1791846044,
+					today: 1791781200,
+					todayDow: 1,
+					tomorrow: 1791867600,
+					yesterday: 1791694800,
+					week: 1791262800,
 					month: 1790830800,
 					year: 1767247200
 				},
@@ -283,7 +283,7 @@
 		})
 	</script>
 
-	<script src="/js/sixman/score-quick-search.min.js?_v=1067c51e" defer></script>
+	<script src="/js/sixman/score-quick-search.min.js?_v=1da91baf" defer></script>
 
 
 
@@ -1092,12 +1092,12 @@
 									</div>
 									<div class="menu-footer">
 									<span class="menu-footer-controls">
-										<button type="submit" class="button button--icon button--icon--search button--primary"><i class="fa--xf fal fa-search "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791695496#search"></use></svg></i><span class="button-text">Search</span></button>
+										<button type="submit" class="button button--icon button--icon--search button--primary"><i class="fa--xf fal fa-search "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791823810#search"></use></svg></i><span class="button-text">Search</span></button>
 										<button type="submit" class="button " name="from_search_menu"><span class="button-text">Advanced search…</span></button>
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1791698362,55ed8d092ee2bd375a86422b08acc8f3" />
+									<input type="hidden" name="_xfToken" value="1791846044,b0e1b552f9c29bbac706ec02c2dec911" />
 								</form>
 							</div>
 						
@@ -1541,7 +1541,7 @@
 	
 	
 		
-			<span class="teamRank">#258</span>
+			<span class="teamRank">#259</span>
 		
 	
 	
@@ -1595,7 +1595,7 @@
 	
 	
 		
-			<span class="teamRank">#269</span>
+			<span class="teamRank">#273</span>
 		
 	
 	
@@ -1647,7 +1647,7 @@
 	
 	
 		
-			<span class="teamRank">#89</span>
+			<span class="teamRank">#91</span>
 		
 	
 	
@@ -1747,7 +1747,7 @@
 	
 	
 		
-			<span class="teamRank">#7</span>
+			<span class="teamRank">#6</span>
 		
 	
 	
@@ -1801,7 +1801,7 @@
 	
 	
 		
-			<span class="teamRank">#30</span>
+			<span class="teamRank">#29</span>
 		
 	
 	
@@ -1853,7 +1853,7 @@
 	
 	
 		
-			<span class="teamRank">#141</span>
+			<span class="teamRank">#147</span>
 		
 	
 	
@@ -2024,7 +2024,7 @@
 	
 	
 		
-			<span class="teamRank">#73</span>
+			<span class="teamRank">#75</span>
 		
 	
 	
@@ -2076,7 +2076,7 @@
 	
 	
 		
-			<span class="teamRank">#120</span>
+			<span class="teamRank">#116</span>
 		
 	
 	
@@ -2130,7 +2130,7 @@
 	
 	
 		
-			<span class="teamRank">#247</span>
+			<span class="teamRank">#249</span>
 		
 	
 	
@@ -2236,7 +2236,7 @@
 	
 	
 		
-			<span class="teamRank">#215</span>
+			<span class="teamRank">#211</span>
 		
 	
 	
@@ -2288,7 +2288,7 @@
 	
 	
 		
-			<span class="teamRank">#10</span>
+			<span class="teamRank">#9</span>
 		
 	
 	
@@ -2342,7 +2342,7 @@
 	
 	
 		
-			<span class="teamRank">#55</span>
+			<span class="teamRank">#61</span>
 		
 	
 	
@@ -2394,7 +2394,7 @@
 	
 	
 		
-			<span class="teamRank">#206</span>
+			<span class="teamRank">#197</span>
 		
 	
 	
@@ -2448,7 +2448,7 @@
 	
 	
 		
-			<span class="teamRank">#275</span>
+			<span class="teamRank">#271</span>
 		
 	
 	
@@ -2500,7 +2500,7 @@
 	
 	
 		
-			<span class="teamRank">#64</span>
+			<span class="teamRank">#65</span>
 		
 	
 	
@@ -2554,7 +2554,7 @@
 	
 	
 		
-			<span class="teamRank">#162</span>
+			<span class="teamRank">#164</span>
 		
 	
 	
@@ -2606,7 +2606,7 @@
 	
 	
 		
-			<span class="teamRank">#187</span>
+			<span class="teamRank">#185</span>
 		
 	
 	
@@ -2660,7 +2660,7 @@
 	
 	
 		
-			<span class="teamRank">#244</span>
+			<span class="teamRank">#243</span>
 		
 	
 	
@@ -2712,7 +2712,7 @@
 	
 	
 		
-			<span class="teamRank">#76</span>
+			<span class="teamRank">#79</span>
 		
 	
 	
@@ -2766,7 +2766,7 @@
 	
 	
 		
-			<span class="teamRank">#134</span>
+			<span class="teamRank">#117</span>
 		
 	
 	
@@ -2872,7 +2872,7 @@
 	
 	
 		
-			<span class="teamRank">#232</span>
+			<span class="teamRank">#235</span>
 		
 	
 	
@@ -2924,7 +2924,7 @@
 	
 	
 		
-			<span class="teamRank">#1</span>
+			<span class="teamRank">#2</span>
 		
 	
 	
@@ -2978,7 +2978,7 @@
 	
 	
 		
-			<span class="teamRank">#2</span>
+			<span class="teamRank">#1</span>
 		
 	
 	
@@ -3030,7 +3030,7 @@
 	
 	
 		
-			<span class="teamRank">#188</span>
+			<span class="teamRank">#179</span>
 		
 	
 	
@@ -3136,7 +3136,7 @@
 	
 	
 		
-			<span class="teamRank">#142</span>
+			<span class="teamRank">#150</span>
 		
 	
 	
@@ -3190,7 +3190,7 @@
 	
 	
 		
-			<span class="teamRank">#143</span>
+			<span class="teamRank">#144</span>
 		
 	
 	
@@ -3296,7 +3296,7 @@
 	
 	
 		
-			<span class="teamRank">#159</span>
+			<span class="teamRank">#171</span>
 		
 	
 	
@@ -3348,7 +3348,7 @@
 	
 	
 		
-			<span class="teamRank">#193</span>
+			<span class="teamRank">#195</span>
 		
 	
 	
@@ -3402,7 +3402,7 @@
 	
 	
 		
-			<span class="teamRank">#284</span>
+			<span class="teamRank">#285</span>
 		
 	
 	
@@ -3454,7 +3454,7 @@
 	
 	
 		
-			<span class="teamRank">#54</span>
+			<span class="teamRank">#47</span>
 		
 	
 	
@@ -3508,7 +3508,7 @@
 	
 	
 		
-			<span class="teamRank">#35</span>
+			<span class="teamRank">#36</span>
 		
 	
 	
@@ -3560,7 +3560,7 @@
 	
 	
 		
-			<span class="teamRank">#43</span>
+			<span class="teamRank">#46</span>
 		
 	
 	
@@ -3720,7 +3720,7 @@
 	
 	
 		
-			<span class="teamRank">#183</span>
+			<span class="teamRank">#180</span>
 		
 	
 	
@@ -3772,7 +3772,7 @@
 	
 	
 		
-			<span class="teamRank">#185</span>
+			<span class="teamRank">#187</span>
 		
 	
 	
@@ -3826,7 +3826,7 @@
 	
 	
 		
-			<span class="teamRank">#292</span>
+			<span class="teamRank">#293</span>
 		
 	
 	
@@ -3878,7 +3878,7 @@
 	
 	
 		
-			<span class="teamRank">#167</span>
+			<span class="teamRank">#162</span>
 		
 	
 	
@@ -3932,7 +3932,7 @@
 	
 	
 		
-			<span class="teamRank">#225</span>
+			<span class="teamRank">#227</span>
 		
 	
 	
@@ -3984,7 +3984,7 @@
 	
 	
 		
-			<span class="teamRank">#9</span>
+			<span class="teamRank">#8</span>
 		
 	
 	
@@ -4038,7 +4038,7 @@
 	
 	
 		
-			<span class="teamRank">#14</span>
+			<span class="teamRank">#15</span>
 		
 	
 	
@@ -4090,7 +4090,7 @@
 	
 	
 		
-			<span class="teamRank">#44</span>
+			<span class="teamRank">#34</span>
 		
 	
 	
@@ -4144,7 +4144,7 @@
 	
 	
 		
-			<span class="teamRank">#173</span>
+			<span class="teamRank">#174</span>
 		
 	
 	
@@ -4196,7 +4196,7 @@
 	
 	
 		
-			<span class="teamRank">#257</span>
+			<span class="teamRank">#256</span>
 		
 	
 	
@@ -4250,7 +4250,7 @@
 	
 	
 		
-			<span class="teamRank">#253</span>
+			<span class="teamRank">#252</span>
 		
 	
 	
@@ -4302,7 +4302,7 @@
 	
 	
 		
-			<span class="teamRank">#147</span>
+			<span class="teamRank">#149</span>
 		
 	
 	
@@ -4356,7 +4356,7 @@
 	
 	
 		
-			<span class="teamRank">#172</span>
+			<span class="teamRank">#173</span>
 		
 	
 	
@@ -4408,7 +4408,7 @@
 	
 	
 		
-			<span class="teamRank">#26</span>
+			<span class="teamRank">#25</span>
 		
 	
 	
@@ -4462,7 +4462,7 @@
 	
 	
 		
-			<span class="teamRank">#62</span>
+			<span class="teamRank">#53</span>
 		
 	
 	
@@ -4514,7 +4514,7 @@
 	
 	
 		
-			<span class="teamRank">#236</span>
+			<span class="teamRank">#238</span>
 		
 	
 	
@@ -4568,7 +4568,7 @@
 	
 	
 		
-			<span class="teamRank">#276</span>
+			<span class="teamRank">#277</span>
 		
 	
 	
@@ -4674,7 +4674,7 @@
 	
 	
 		
-			<span class="teamRank">#41</span>
+			<span class="teamRank">#40</span>
 		
 	
 	
@@ -4726,7 +4726,7 @@
 	
 	
 		
-			<span class="teamRank">#125</span>
+			<span class="teamRank">#110</span>
 		
 	
 	
@@ -4832,7 +4832,7 @@
 	
 	
 		
-			<span class="teamRank">#138</span>
+			<span class="teamRank">#120</span>
 		
 	
 	
@@ -4886,7 +4886,7 @@
 	
 	
 		
-			<span class="teamRank">#218</span>
+			<span class="teamRank">#220</span>
 		
 	
 	
@@ -4938,7 +4938,7 @@
 	
 	
 		
-			<span class="teamRank">#168</span>
+			<span class="teamRank">#167</span>
 		
 	
 	
@@ -4992,7 +4992,7 @@
 	
 	
 		
-			<span class="teamRank">#249</span>
+			<span class="teamRank">#248</span>
 		
 	
 	
@@ -5044,7 +5044,7 @@
 	
 	
 		
-			<span class="teamRank">#102</span>
+			<span class="teamRank">#101</span>
 		
 	
 	
@@ -5098,7 +5098,7 @@
 	
 	
 		
-			<span class="teamRank">#137</span>
+			<span class="teamRank">#129</span>
 		
 	
 	
@@ -5150,7 +5150,7 @@
 	
 	
 		
-			<span class="teamRank">#46</span>
+			<span class="teamRank">#38</span>
 		
 	
 	
@@ -5204,7 +5204,7 @@
 	
 	
 		
-			<span class="teamRank">#213</span>
+			<span class="teamRank">#189</span>
 		
 	
 	
@@ -5256,7 +5256,7 @@
 	
 	
 		
-			<span class="teamRank">#77</span>
+			<span class="teamRank">#80</span>
 		
 	
 	
@@ -5362,7 +5362,7 @@
 	
 	
 		
-			<span class="teamRank">#61</span>
+			<span class="teamRank">#60</span>
 		
 	
 	
@@ -5416,7 +5416,7 @@
 	
 	
 		
-			<span class="teamRank">#63</span>
+			<span class="teamRank">#64</span>
 		
 	
 	
@@ -5468,7 +5468,7 @@
 	
 	
 		
-			<span class="teamRank">#179</span>
+			<span class="teamRank">#184</span>
 		
 	
 	
@@ -5522,7 +5522,7 @@
 	
 	
 		
-			<span class="teamRank">#195</span>
+			<span class="teamRank">#196</span>
 		
 	
 	
@@ -5574,7 +5574,7 @@
 	
 	
 		
-			<span class="teamRank">#86</span>
+			<span class="teamRank">#87</span>
 		
 	
 	
@@ -5628,7 +5628,7 @@
 	
 	
 		
-			<span class="teamRank">#170</span>
+			<span class="teamRank">#168</span>
 		
 	
 	
@@ -5680,7 +5680,7 @@
 	
 	
 		
-			<span class="teamRank">#78</span>
+			<span class="teamRank">#66</span>
 		
 	
 	
@@ -5734,7 +5734,7 @@
 	
 	
 		
-			<span class="teamRank">#80</span>
+			<span class="teamRank">#54</span>
 		
 	
 	
@@ -5840,7 +5840,7 @@
 	
 	
 		
-			<span class="teamRank">#163</span>
+			<span class="teamRank">#165</span>
 		
 	
 	
@@ -5946,7 +5946,7 @@
 	
 	
 		
-			<span class="teamRank">#124</span>
+			<span class="teamRank">#123</span>
 		
 	
 	
@@ -5998,7 +5998,7 @@
 	
 	
 		
-			<span class="teamRank">#88</span>
+			<span class="teamRank">#89</span>
 		
 	
 	
@@ -6104,7 +6104,7 @@
 	
 	
 		
-			<span class="teamRank">#111</span>
+			<span class="teamRank">#115</span>
 		
 	
 	
@@ -6158,7 +6158,7 @@
 	
 	
 		
-			<span class="teamRank">#190</span>
+			<span class="teamRank">#169</span>
 		
 	
 	
@@ -6210,7 +6210,7 @@
 	
 	
 		
-			<span class="teamRank">#18</span>
+			<span class="teamRank">#11</span>
 		
 	
 	
@@ -6316,7 +6316,7 @@
 	
 	
 		
-			<span class="teamRank">#150</span>
+			<span class="teamRank">#142</span>
 		
 	
 	
@@ -6422,7 +6422,7 @@
 	
 	
 		
-			<span class="teamRank">#110</span>
+			<span class="teamRank">#112</span>
 		
 	
 	
@@ -6476,7 +6476,7 @@
 	
 	
 		
-			<span class="teamRank">#197</span>
+			<span class="teamRank">#193</span>
 		
 	
 	
@@ -6528,7 +6528,7 @@
 	
 	
 		
-			<span class="teamRank">#228</span>
+			<span class="teamRank">#230</span>
 		
 	
 	
@@ -6582,7 +6582,7 @@
 	
 	
 		
-			<span class="teamRank">#245</span>
+			<span class="teamRank">#247</span>
 		
 	
 	
@@ -6634,7 +6634,7 @@
 	
 	
 		
-			<span class="teamRank">#60</span>
+			<span class="teamRank">#51</span>
 		
 	
 	
@@ -6688,7 +6688,7 @@
 	
 	
 		
-			<span class="teamRank">#106</span>
+			<span class="teamRank">#105</span>
 		
 	
 	
@@ -6740,7 +6740,7 @@
 	
 	
 		
-			<span class="teamRank">#157</span>
+			<span class="teamRank">#160</span>
 		
 	
 	
@@ -6846,7 +6846,7 @@
 	
 	
 		
-			<span class="teamRank">#87</span>
+			<span class="teamRank">#127</span>
 		
 	
 	
@@ -6900,7 +6900,7 @@
 	
 	
 		
-			<span class="teamRank">#156</span>
+			<span class="teamRank">#157</span>
 		
 	
 	
@@ -6952,7 +6952,7 @@
 	
 	
 		
-			<span class="teamRank">#122</span>
+			<span class="teamRank">#90</span>
 		
 	
 	
@@ -7006,7 +7006,7 @@
 	
 	
 		
-			<span class="teamRank">#182</span>
+			<span class="teamRank">#163</span>
 		
 	
 	
@@ -7058,7 +7058,7 @@
 	
 	
 		
-			<span class="teamRank">#29</span>
+			<span class="teamRank">#30</span>
 		
 	
 	
@@ -7112,7 +7112,7 @@
 	
 	
 		
-			<span class="teamRank">#96</span>
+			<span class="teamRank">#99</span>
 		
 	
 	
@@ -7164,7 +7164,7 @@
 	
 	
 		
-			<span class="teamRank">#146</span>
+			<span class="teamRank">#136</span>
 		
 	
 	
@@ -7218,7 +7218,7 @@
 	
 	
 		
-			<span class="teamRank">#217</span>
+			<span class="teamRank">#221</span>
 		
 	
 	
@@ -7270,7 +7270,7 @@
 	
 	
 		
-			<span class="teamRank">#5</span>
+			<span class="teamRank">#3</span>
 		
 	
 	
@@ -7324,7 +7324,7 @@
 	
 	
 		
-			<span class="teamRank">#165</span>
+			<span class="teamRank">#166</span>
 		
 	
 	
@@ -7476,7 +7476,7 @@
 	
 	
 		
-			<span class="teamRank">#166</span>
+			<span class="teamRank">#159</span>
 		
 	
 	
@@ -7530,7 +7530,7 @@
 	
 	
 		
-			<span class="teamRank">#214</span>
+			<span class="teamRank">#218</span>
 		
 	
 	
@@ -7582,7 +7582,7 @@
 	
 	
 		
-			<span class="teamRank">#12</span>
+			<span class="teamRank">#13</span>
 		
 	
 	
@@ -7636,7 +7636,7 @@
 	
 	
 		
-			<span class="teamRank">#75</span>
+			<span class="teamRank">#97</span>
 		
 	
 	
@@ -7688,7 +7688,7 @@
 	
 	
 		
-			<span class="teamRank">#90</span>
+			<span class="teamRank">#77</span>
 		
 	
 	
@@ -7742,7 +7742,7 @@
 	
 	
 		
-			<span class="teamRank">#181</span>
+			<span class="teamRank">#172</span>
 		
 	
 	
@@ -7794,7 +7794,7 @@
 	
 	
 		
-			<span class="teamRank">#34</span>
+			<span class="teamRank">#35</span>
 		
 	
 	
@@ -7900,7 +7900,7 @@
 	
 	
 		
-			<span class="teamRank">#254</span>
+			<span class="teamRank">#253</span>
 		
 	
 	
@@ -7954,7 +7954,7 @@
 	
 	
 		
-			<span class="teamRank">#290</span>
+			<span class="teamRank">#291</span>
 		
 	
 	
@@ -8006,7 +8006,7 @@
 	
 	
 		
-			<span class="teamRank">#126</span>
+			<span class="teamRank">#130</span>
 		
 	
 	
@@ -8166,7 +8166,7 @@
 	
 	
 		
-			<span class="teamRank">#40</span>
+			<span class="teamRank">#42</span>
 		
 	
 	
@@ -8218,7 +8218,7 @@
 	
 	
 		
-			<span class="teamRank">#13</span>
+			<span class="teamRank">#22</span>
 		
 	
 	
@@ -8272,7 +8272,7 @@
 	
 	
 		
-			<span class="teamRank">#184</span>
+			<span class="teamRank">#186</span>
 		
 	
 	
@@ -8378,7 +8378,7 @@
 	
 	
 		
-			<span class="teamRank">#291</span>
+			<span class="teamRank">#292</span>
 		
 	
 	
@@ -8430,7 +8430,7 @@
 	
 	
 		
-			<span class="teamRank">#19</span>
+			<span class="teamRank">#18</span>
 		
 	
 	
@@ -8484,7 +8484,7 @@
 	
 	
 		
-			<span class="teamRank">#39</span>
+			<span class="teamRank">#41</span>
 		
 	
 	
@@ -8536,7 +8536,7 @@
 	
 	
 		
-			<span class="teamRank">#93</span>
+			<span class="teamRank">#122</span>
 		
 	
 	
@@ -8590,7 +8590,7 @@
 	
 	
 		
-			<span class="teamRank">#199</span>
+			<span class="teamRank">#201</span>
 		
 	
 	
@@ -8642,7 +8642,7 @@
 	
 	
 		
-			<span class="teamRank">#119</span>
+			<span class="teamRank">#111</span>
 		
 	
 	
@@ -8748,7 +8748,7 @@
 	
 	
 		
-			<span class="teamRank">#25</span>
+			<span class="teamRank">#19</span>
 		
 	
 	
@@ -8908,7 +8908,7 @@
 	
 	
 		
-			<span class="teamRank">#74</span>
+			<span class="teamRank">#76</span>
 		
 	
 	
@@ -8960,7 +8960,7 @@
 	
 	
 		
-			<span class="teamRank">#113</span>
+			<span class="teamRank">#138</span>
 		
 	
 	
@@ -9014,7 +9014,7 @@
 	
 	
 		
-			<span class="teamRank">#230</span>
+			<span class="teamRank">#225</span>
 		
 	
 	
@@ -9066,7 +9066,7 @@
 	
 	
 		
-			<span class="teamRank">#50</span>
+			<span class="teamRank">#52</span>
 		
 	
 	
@@ -9172,7 +9172,7 @@
 	
 	
 		
-			<span class="teamRank">#115</span>
+			<span class="teamRank">#114</span>
 		
 	
 	
@@ -9226,7 +9226,7 @@
 	
 	
 		
-			<span class="teamRank">#148</span>
+			<span class="teamRank">#143</span>
 		
 	
 	
@@ -9278,7 +9278,7 @@
 	
 	
 		
-			<span class="teamRank">#229</span>
+			<span class="teamRank">#214</span>
 		
 	
 	
@@ -9332,7 +9332,7 @@
 	
 	
 		
-			<span class="teamRank">#241</span>
+			<span class="teamRank">#239</span>
 		
 	
 	
@@ -9438,7 +9438,7 @@
 	
 	
 		
-			<span class="teamRank">#233</span>
+			<span class="teamRank">#232</span>
 		
 	
 	
@@ -9490,7 +9490,7 @@
 	
 	
 		
-			<span class="teamRank">#121</span>
+			<span class="teamRank">#124</span>
 		
 	
 	
@@ -9544,7 +9544,7 @@
 	
 	
 		
-			<span class="teamRank">#234</span>
+			<span class="teamRank">#231</span>
 		
 	
 	
@@ -9596,7 +9596,7 @@
 	
 	
 		
-			<span class="teamRank">#107</span>
+			<span class="teamRank">#106</span>
 		
 	
 	
@@ -9650,7 +9650,7 @@
 	
 	
 		
-			<span class="teamRank">#160</span>
+			<span class="teamRank">#177</span>
 		
 	
 	
@@ -9702,7 +9702,7 @@
 	
 	
 		
-			<span class="teamRank">#202</span>
+			<span class="teamRank">#204</span>
 		
 	
 	
@@ -9808,7 +9808,7 @@
 	
 	
 		
-			<span class="teamRank">#189</span>
+			<span class="teamRank">#192</span>
 		
 	
 	
@@ -9862,7 +9862,7 @@
 	
 	
 		
-			<span class="teamRank">#256</span>
+			<span class="teamRank">#255</span>
 		
 	
 	
@@ -9914,7 +9914,7 @@
 	
 	
 		
-			<span class="teamRank">#68</span>
+			<span class="teamRank">#62</span>
 		
 	
 	
@@ -9968,7 +9968,7 @@
 	
 	
 		
-			<span class="teamRank">#155</span>
+			<span class="teamRank">#135</span>
 		
 	
 	
@@ -10020,7 +10020,7 @@
 	
 	
 		
-			<span class="teamRank">#105</span>
+			<span class="teamRank">#113</span>
 		
 	
 	
@@ -10074,7 +10074,7 @@
 	
 	
 		
-			<span class="teamRank">#127</span>
+			<span class="teamRank">#125</span>
 		
 	
 	
@@ -10126,7 +10126,7 @@
 	
 	
 		
-			<span class="teamRank">#70</span>
+			<span class="teamRank">#72</span>
 		
 	
 	
@@ -10180,7 +10180,7 @@
 	
 	
 		
-			<span class="teamRank">#223</span>
+			<span class="teamRank">#224</span>
 		
 	
 	
@@ -10232,7 +10232,7 @@
 	
 	
 		
-			<span class="teamRank">#207</span>
+			<span class="teamRank">#206</span>
 		
 	
 	
@@ -10392,7 +10392,7 @@
 	
 	
 		
-			<span class="teamRank">#79</span>
+			<span class="teamRank">#78</span>
 		
 	
 	
@@ -10498,7 +10498,7 @@
 	
 	
 		
-			<span class="teamRank">#129</span>
+			<span class="teamRank">#121</span>
 		
 	
 	
@@ -10550,7 +10550,7 @@
 	
 	
 		
-			<span class="teamRank">#99</span>
+			<span class="teamRank">#94</span>
 		
 	
 	
@@ -10656,7 +10656,7 @@
 	
 	
 		
-			<span class="teamRank">#4</span>
+			<span class="teamRank">#5</span>
 		
 	
 	
@@ -10762,7 +10762,7 @@
 	
 	
 		
-			<span class="teamRank">#47</span>
+			<span class="teamRank">#48</span>
 		
 	
 	
@@ -10816,7 +10816,7 @@
 	
 	
 		
-			<span class="teamRank">#220</span>
+			<span class="teamRank">#222</span>
 		
 	
 	
@@ -10868,7 +10868,7 @@
 	
 	
 		
-			<span class="teamRank">#178</span>
+			<span class="teamRank">#183</span>
 		
 	
 	
@@ -10968,7 +10968,7 @@
 	
 	
 		
-			<span class="teamRank">#36</span>
+			<span class="teamRank">#37</span>
 		
 	
 	
@@ -11008,7 +11008,7 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/1/1341.jpg?1728530097" loading="lazy" />
+					<img src="/data/sixman/teamlogo/s/1/1341.jpg?1791825312" loading="lazy" />
 				
 			</span>
 		</div>
@@ -11022,7 +11022,7 @@
 	
 	
 		
-			<span class="teamRank">#112</span>
+			<span class="teamRank">#88</span>
 		
 	
 	
@@ -11074,7 +11074,7 @@
 	
 	
 		
-			<span class="teamRank">#6</span>
+			<span class="teamRank">#12</span>
 		
 	
 	
@@ -11128,7 +11128,7 @@
 	
 	
 		
-			<span class="teamRank">#23</span>
+			<span class="teamRank">#28</span>
 		
 	
 	
@@ -11180,7 +11180,7 @@
 	
 	
 		
-			<span class="teamRank">#176</span>
+			<span class="teamRank">#178</span>
 		
 	
 	
@@ -11234,7 +11234,7 @@
 	
 	
 		
-			<span class="teamRank">#196</span>
+			<span class="teamRank">#191</span>
 		
 	
 	
@@ -11340,7 +11340,7 @@
 	
 	
 		
-			<span class="teamRank">#114</span>
+			<span class="teamRank">#107</span>
 		
 	
 	
@@ -11392,7 +11392,7 @@
 	
 	
 		
-			<span class="teamRank">#116</span>
+			<span class="teamRank">#95</span>
 		
 	
 	
@@ -11446,7 +11446,7 @@
 	
 	
 		
-			<span class="teamRank">#211</span>
+			<span class="teamRank">#212</span>
 		
 	
 	
@@ -11509,7 +11509,7 @@
 	
 	
 		
-			<span class="teamRank">#28</span>
+			<span class="teamRank">#26</span>
 		
 	
 	
@@ -11563,7 +11563,7 @@
 	
 	
 		
-			<span class="teamRank">#164</span>
+			<span class="teamRank">#199</span>
 		
 	
 	
@@ -11615,7 +11615,7 @@
 	
 	
 		
-			<span class="teamRank">#259</span>
+			<span class="teamRank">#257</span>
 		
 	
 	
@@ -11669,7 +11669,7 @@
 	
 	
 		
-			<span class="teamRank">#286</span>
+			<span class="teamRank">#288</span>
 		
 	
 	
@@ -11721,7 +11721,7 @@
 	
 	
 		
-			<span class="teamRank">#242</span>
+			<span class="teamRank">#233</span>
 		
 	
 	
@@ -11775,7 +11775,7 @@
 	
 	
 		
-			<span class="teamRank">#243</span>
+			<span class="teamRank">#217</span>
 		
 	
 	
@@ -11881,7 +11881,7 @@
 	
 	
 		
-			<span class="teamRank">#271</span>
+			<span class="teamRank">#276</span>
 		
 	
 	
@@ -12039,7 +12039,7 @@
 	
 	
 		
-			<span class="teamRank">#38</span>
+			<span class="teamRank">#39</span>
 		
 	
 	
@@ -12093,7 +12093,7 @@
 	
 	
 		
-			<span class="teamRank">#94</span>
+			<span class="teamRank">#69</span>
 		
 	
 	
@@ -12145,7 +12145,7 @@
 	
 	
 		
-			<span class="teamRank">#175</span>
+			<span class="teamRank">#176</span>
 		
 	
 	
@@ -12199,7 +12199,7 @@
 	
 	
 		
-			<span class="teamRank">#238</span>
+			<span class="teamRank">#241</span>
 		
 	
 	
@@ -12251,7 +12251,7 @@
 	
 	
 		
-			<span class="teamRank">#49</span>
+			<span class="teamRank">#56</span>
 		
 	
 	
@@ -12305,7 +12305,7 @@
 	
 	
 		
-			<span class="teamRank">#56</span>
+			<span class="teamRank">#63</span>
 		
 	
 	
@@ -12411,7 +12411,7 @@
 	
 	
 		
-			<span class="teamRank">#136</span>
+			<span class="teamRank">#118</span>
 		
 	
 	
@@ -12463,7 +12463,7 @@
 	
 	
 		
-			<span class="teamRank">#239</span>
+			<span class="teamRank">#240</span>
 		
 	
 	
@@ -12563,7 +12563,7 @@
 	
 	
 		
-			<span class="teamRank">#132</span>
+			<span class="teamRank">#133</span>
 		
 	
 	
@@ -12617,7 +12617,7 @@
 	
 	
 		
-			<span class="teamRank">#282</span>
+			<span class="teamRank">#283</span>
 		
 	
 	
@@ -12669,7 +12669,7 @@
 	
 	
 		
-			<span class="teamRank">#3</span>
+			<span class="teamRank">#4</span>
 		
 	
 	
@@ -12723,7 +12723,7 @@
 	
 	
 		
-			<span class="teamRank">#51</span>
+			<span class="teamRank">#86</span>
 		
 	
 	
@@ -12775,7 +12775,7 @@
 	
 	
 		
-			<span class="teamRank">#130</span>
+			<span class="teamRank">#131</span>
 		
 	
 	
@@ -12829,7 +12829,7 @@
 	
 	
 		
-			<span class="teamRank">#174</span>
+			<span class="teamRank">#175</span>
 		
 	
 	
@@ -12881,7 +12881,7 @@
 	
 	
 		
-			<span class="teamRank">#53</span>
+			<span class="teamRank">#55</span>
 		
 	
 	
@@ -12935,7 +12935,7 @@
 	
 	
 		
-			<span class="teamRank">#131</span>
+			<span class="teamRank">#132</span>
 		
 	
 	
@@ -13141,7 +13141,7 @@
 	
 	
 		
-			<span class="teamRank">#235</span>
+			<span class="teamRank">#229</span>
 		
 	
 	
@@ -13193,7 +13193,7 @@
 	
 	
 		
-			<span class="teamRank">#226</span>
+			<span class="teamRank">#228</span>
 		
 	
 	
@@ -13247,7 +13247,7 @@
 	
 	
 		
-			<span class="teamRank">#266</span>
+			<span class="teamRank">#265</span>
 		
 	
 	
@@ -13299,7 +13299,7 @@
 	
 	
 		
-			<span class="teamRank">#255</span>
+			<span class="teamRank">#254</span>
 		
 	
 	
@@ -13353,7 +13353,7 @@
 	
 	
 		
-			<span class="teamRank">#252</span>
+			<span class="teamRank">#258</span>
 		
 	
 	
@@ -13405,7 +13405,7 @@
 	
 	
 		
-			<span class="teamRank">#224</span>
+			<span class="teamRank">#226</span>
 		
 	
 	
@@ -13511,7 +13511,7 @@
 	
 	
 		
-			<span class="teamRank">#67</span>
+			<span class="teamRank">#68</span>
 		
 	
 	
@@ -13565,7 +13565,7 @@
 	
 	
 		
-			<span class="teamRank">#171</span>
+			<span class="teamRank">#170</span>
 		
 	
 	
@@ -13671,7 +13671,7 @@
 	
 	
 		
-			<span class="teamRank">#221</span>
+			<span class="teamRank">#223</span>
 		
 	
 	
@@ -13723,7 +13723,7 @@
 	
 	
 		
-			<span class="teamRank">#149</span>
+			<span class="teamRank">#148</span>
 		
 	
 	
@@ -13777,7 +13777,7 @@
 	
 	
 		
-			<span class="teamRank">#180</span>
+			<span class="teamRank">#181</span>
 		
 	
 	
@@ -13829,7 +13829,7 @@
 	
 	
 		
-			<span class="teamRank">#65</span>
+			<span class="teamRank">#70</span>
 		
 	
 	
@@ -13883,7 +13883,7 @@
 	
 	
 		
-			<span class="teamRank">#216</span>
+			<span class="teamRank">#209</span>
 		
 	
 	
@@ -13935,7 +13935,7 @@
 	
 	
 		
-			<span class="teamRank">#135</span>
+			<span class="teamRank">#139</span>
 		
 	
 	
@@ -13989,7 +13989,7 @@
 	
 	
 		
-			<span class="teamRank">#191</span>
+			<span class="teamRank">#194</span>
 		
 	
 	
@@ -14041,7 +14041,7 @@
 	
 	
 		
-			<span class="teamRank">#91</span>
+			<span class="teamRank">#93</span>
 		
 	
 	
@@ -14095,7 +14095,7 @@
 	
 	
 		
-			<span class="teamRank">#277</span>
+			<span class="teamRank">#279</span>
 		
 	
 	
@@ -14147,7 +14147,7 @@
 	
 	
 		
-			<span class="teamRank">#95</span>
+			<span class="teamRank">#119</span>
 		
 	
 	
@@ -14253,7 +14253,7 @@
 	
 	
 		
-			<span class="teamRank">#231</span>
+			<span class="teamRank">#234</span>
 		
 	
 	
@@ -14307,7 +14307,7 @@
 	
 	
 		
-			<span class="teamRank">#274</span>
+			<span class="teamRank">#275</span>
 		
 	
 	
@@ -14359,7 +14359,7 @@
 	
 	
 		
-			<span class="teamRank">#139</span>
+			<span class="teamRank">#137</span>
 		
 	
 	
@@ -14413,7 +14413,7 @@
 	
 	
 		
-			<span class="teamRank">#133</span>
+			<span class="teamRank">#134</span>
 		
 	
 	
@@ -14563,13 +14563,13 @@
 						</a>
 						<a href="https://www.facebook.com/sixmanfb/">
 							<span class="p-footer-social-icon">
-								<i class="fa--xf fab fa-facebook "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1791695496#facebook"></use></svg></i>
+								<i class="fa--xf fab fa-facebook "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1791823810#facebook"></use></svg></i>
 							</span>
 							SixManFB
 						</a>
 						<a href="https://www.instagram.com/sixmanfb/">
 							<span class="p-footer-social-icon">
-								<i class="fa--xf fab fa-instagram "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1791695496#instagram"></use></svg></i>
+								<i class="fa--xf fab fa-instagram "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1791823810#instagram"></use></svg></i>
 							</span>
 							SixManFB
 						</a>
@@ -14626,7 +14626,7 @@
 				class="js-styleVariationsLink"
 				data-xf-init="tooltip" title="Style variation"
 				data-xf-click="menu" role="button" aria-expanded="false" aria-haspopup="true">
-				<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" ><title>Style variation</title><use href="/data/local/icons/light.svg?v=1791695496#adjust"></use></svg></i>
+				<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" ><title>Style variation</title><use href="/data/local/icons/light.svg?v=1791823810#adjust"></use></svg></i>
 			</a>
 			<div class="menu" data-menu="menu" aria-hidden="true">
 				<div class="menu-content js-styleVariationsMenu">
@@ -14635,12 +14635,12 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1791698362%2C55ed8d092ee2bd375a86422b08acc8f3"
+	<a href="/misc/style-variation?reset=1&amp;t=1791846044%2Cb0e1b552f9c29bbac706ec02c2dec911"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
 
-		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791695496#adjust"></use></svg></i>
+		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791823810#adjust"></use></svg></i>
 
 		
 			System
@@ -14650,12 +14650,12 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1791698362%2C55ed8d092ee2bd375a86422b08acc8f3"
+	<a href="/misc/style-variation?variation=default&amp;t=1791846044%2Cb0e1b552f9c29bbac706ec02c2dec911"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
 
-		<i class="fa--xf fal fa-sun "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791695496#sun"></use></svg></i>
+		<i class="fa--xf fal fa-sun "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791823810#sun"></use></svg></i>
 
 		
 			Light
@@ -14665,12 +14665,12 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1791698362%2C55ed8d092ee2bd375a86422b08acc8f3"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1791846044%2Cb0e1b552f9c29bbac706ec02c2dec911"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
 
-		<i class="fa--xf fal fa-moon "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791695496#moon"></use></svg></i>
+		<i class="fa--xf fal fa-moon "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791823810#moon"></use></svg></i>
 
 		
 			Dark
@@ -14687,7 +14687,7 @@
 			</div>
 		
 		<div class="p-footer-rss">
-			<a href="/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf fal fa-rss "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791695496#rss"></use></svg></i><span class="u-srOnly">RSS</span></span></a>
+			<a href="/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf fal fa-rss "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791823810#rss"></use></svg></i><span class="u-srOnly">RSS</span></span></a>
 		</div>
 	</div>
 </div>
@@ -14843,12 +14843,12 @@
 </div>
 
 <div class="u-navButtons js-navButtons">
-	<a href="javascript:" class="button button--scroll"><span class="button-text"><i class="fa--xf fal fa-arrow-left "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791695496#arrow-left"></use></svg></i><span class="u-srOnly">Back</span></span></a>
+	<a href="javascript:" class="button button--scroll"><span class="button-text"><i class="fa--xf fal fa-arrow-left "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791823810#arrow-left"></use></svg></i><span class="u-srOnly">Back</span></span></a>
 </div>
 
 
 	<div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
-		<a href="#top" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf fal fa-arrow-up "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791695496#arrow-up"></use></svg></i><span class="u-srOnly">Top</span></span></a>
+		<a href="#top" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf fal fa-arrow-up "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1791823810#arrow-up"></use></svg></i><span class="u-srOnly">Top</span></span></a>
 		
 	</div>
 
@@ -14865,7 +14865,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a48ba3702a32241a',t:'MTc5MTY5ODM2Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a499b8eff9d6e2d8',t:'MTc5MTg0NjA0NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

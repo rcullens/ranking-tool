@@ -902,7 +902,7 @@ w07-greenville-christian-poetry-community,7,2026-10-10,greenville-christian,poet
 w07-lometa-weatherford-christian,7,2026-10-10,lometa,weatherford-christian,58,0,false,false
 w07-silverton-saint-jo,7,2026-10-10,silverton,saint-jo,67,48,false,true
 w07-stephenville-faith-lubbock-titans,7,2026-10-10,stephenville-faith,lubbock-titans,16,34,true,false
-w07-texas-school-for-the-deaf-faith-academy,7,2026-10-10,texas-school-for-the-deaf,faith-academy,,,true,false
+w07-texas-school-for-the-deaf-faith-academy,7,2026-10-10,texas-school-for-the-deaf,faith-academy,6,50,true,false
 w07-tyler-heat-greenville-homeschool,7,2026-10-10,tyler-heat,greenville-homeschool,45,0,true,false
 w08-bluff-dale-covington,8,2026-10-15,bluff-dale,covington,,,true,false
 w08-campbell-poetry-community,8,2026-10-15,campbell,poetry-community,,,false,false
@@ -938,12 +938,12 @@ w08-crowell-motley-county,8,2026-10-16,crowell,motley-county,,,true,false
 w08-dallas-academy-faustina,8,2026-10-16,dallas-academy,faustina,,,true,false
 w08-davinci-north-star,8,2026-10-16,davinci,north-star,,,false,false
 w08-eden-menard,8,2026-10-16,eden,menard,,,true,false
-w08-faith-academy-lutheran-san-antonio,8,2026-10-16,faith-academy,lutheran-san-antonio,,,true,false
 w08-fannindel-bynum,8,2026-10-16,fannindel,bynum,,,true,false
 w08-fort-davis-marfa,8,2026-10-16,fort-davis,marfa,,,true,false
 w08-fort-hancock-grady,8,2026-10-16,fort-hancock,grady,,,true,false
 w08-founders-christian-divine-savior,8,2026-10-16,founders-christian,divine-savior,,,true,false
 w08-garden-city-rankin,8,2026-10-16,garden-city,rankin,,,true,false
+w08-garland-christian-lone-star-north,8,2026-10-16,garland-christian,lone-star-north,,,true,false
 w08-gholson-abbott,8,2026-10-16,gholson,abbott,,,true,false
 w08-harvest-christian-lantana-tyler-heat,8,2026-10-16,harvest-christian-lantana,tyler-heat,,,false,false
 w08-hermleigh-roby,8,2026-10-16,hermleigh,roby,,,true,false
@@ -1003,6 +1003,7 @@ w08-westhoff-pawnee,8,2026-10-16,westhoff,pawnee,,,false,false
 w08-white-deer-booker,8,2026-10-16,white-deer,booker,,,true,false
 w08-woodson-gold-burg,8,2026-10-16,woodson,gold-burg,,,true,false
 w08-zephyr-gustine,8,2026-10-16,zephyr,gustine,,,true,false
+w08-faith-academy-lutheran-san-antonio,8,2026-10-17,faith-academy,lutheran-san-antonio,,,true,false
 w08-greenville-christian-christian-heritage-longview,8,2026-10-17,greenville-christian,christian-heritage-longview,,,true,false
 w08-jubilee-brownsville-compass-rose,8,2026-10-17,jubilee-brownsville,compass-rose,,,false,false
 w08-logos-prep-emery-weiner,8,2026-10-17,logos-prep,emery-weiner,,,true,false
@@ -1112,7 +1113,9 @@ w10-amherst-west-texas-tornadoes,10,2026-10-29,amherst,west-texas-tornadoes,,,fa
 w10-fannindel-trinidad,10,2026-10-29,fannindel,trinidad,,,true,false
 w10-groom-mclean,10,2026-10-29,groom,mclean,,,true,false
 w10-lefors-miami,10,2026-10-29,lefors,miami,,,true,false
+w10-loop-dawson,10,2026-10-29,loop,dawson,,,true,false
 w10-newman-international-tyler-heat,10,2026-10-29,newman-international,tyler-heat,,,true,false
+w10-paducah-guthrie,10,2026-10-29,paducah,guthrie,,,true,false
 w10-paint-creek-lueders-avoca,10,2026-10-29,paint-creek,lueders-avoca,,,true,false
 w10-savoy-campbell,10,2026-10-29,savoy,campbell,,,true,false
 w10-abbott-penelope,10,2026-10-30,abbott,penelope,,,true,false
@@ -1168,7 +1171,6 @@ w10-leveretts-chapel-burkeville,10,2026-10-30,leveretts-chapel,burkeville,,,true
 w10-logos-prep-covenant-christian,10,2026-10-30,logos-prep,covenant-christian,,,false,false
 w10-lohn-rochelle,10,2026-10-30,lohn,rochelle,,,true,false
 w10-lometa-oglesby,10,2026-10-30,lometa,oglesby,,,true,false
-w10-loop-dawson,10,2026-10-30,loop,dawson,,,true,false
 w10-loraine-blackwell,10,2026-10-30,loraine,blackwell,,,true,false
 w10-lubbock-titans-holy-cross-midland,10,2026-10-30,lubbock-titans,holy-cross-midland,,,false,false
 w10-meadow-wellman-union,10,2026-10-30,meadow,wellman-union,,,true,false
@@ -1176,7 +1178,6 @@ w10-methodist-childrens-home-dallas-academy,10,2026-10-30,methodist-childrens-ho
 w10-morgan-cranfills-gap,10,2026-10-30,morgan,cranfills-gap,,,true,false
 w10-newcastle-perrin-whitt,10,2026-10-30,newcastle,perrin-whitt,,,true,false
 w10-nueces-canyon-medina,10,2026-10-30,nueces-canyon,medina,,,true,false
-w10-paducah-guthrie,10,2026-10-30,paducah,guthrie,,,true,false
 w10-paint-rock-baird,10,2026-10-30,paint-rock,baird,,,true,false
 w10-panther-creek-olfen,10,2026-10-30,panther-creek,olfen,,,true,false
 w10-pawnee-runge,10,2026-10-30,pawnee,runge,,,true,false
@@ -1221,6 +1222,7 @@ w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
 w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
+w11-guthrie-valley,11,2026-11-05,guthrie,valley,,,true,false
 w11-knox-city-paint-creek,11,2026-11-05,knox-city,paint-creek,,,true,false
 w11-moran-sidney,11,2026-11-05,moran,sidney,,,true,false
 w11-mullin-zephyr,11,2026-11-05,mullin,zephyr,,,true,false
@@ -1241,7 +1243,6 @@ w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-06,cranfills-gap,walnut-springs,,,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,,,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,,,true,false
-w11-guthrie-valley,11,2026-11-06,guthrie,valley,,,true,false
 w11-happy-kress,11,2026-11-06,happy,kress,,,true,false
 w11-harrold-gold-burg,11,2026-11-06,harrold,gold-burg,,,true,false
 w11-hart-anton,11,2026-11-06,hart,anton,,,true,false
