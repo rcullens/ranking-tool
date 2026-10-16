@@ -929,7 +929,7 @@ w08-bronte-baird,8,2026-10-16,bronte,baird,,,true,false
 w08-bruni-nueces-canyon,8,2026-10-16,bruni,nueces-canyon,,,true,false
 w08-chester-runge,8,2026-10-16,chester,runge,,,false,false
 w08-chillicothe-guthrie,8,2026-10-16,chillicothe,guthrie,,,true,false
-w08-christ-the-king-plainview-classical,8,2026-10-16,christ-the-king,plainview-classical,,,false,false
+w08-christ-the-king-plainview-classical,8,2026-10-16,christ-the-king,plainview-classical,0,0,false,false
 w08-claude-wildorado,8,2026-10-16,claude,wildorado,,,true,false
 w08-coolidge-penelope,8,2026-10-16,coolidge,penelope,,,true,false
 w08-cotton-center-hart,8,2026-10-16,cotton-center,hart,,,true,false
@@ -1132,6 +1132,7 @@ w10-newman-international-tyler-heat,10,2026-10-29,newman-international,tyler-hea
 w10-paducah-guthrie,10,2026-10-29,paducah,guthrie,,,true,false
 w10-paint-creek-lueders-avoca,10,2026-10-29,paint-creek,lueders-avoca,,,true,false
 w10-savoy-campbell,10,2026-10-29,savoy,campbell,,,true,false
+w10-walnut-springs-three-way,10,2026-10-29,walnut-springs,three-way,,,true,false
 w10-abbott-penelope,10,2026-10-30,abbott,penelope,,,true,false
 w10-abilene-christian-covenant-classical,10,2026-10-30,abilene-christian,covenant-classical,,,true,false
 w10-allen-academy-austin-classical,10,2026-10-30,allen-academy,austin-classical,,,true,false
@@ -1234,6 +1235,7 @@ w10-wylie-prep-ovilla-christian,10,2026-10-31,wylie-prep,ovilla-christian,,,true
 w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-boys-ranch-booker,11,2026-11-05,boys-ranch,booker,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
+w11-cranfills-gap-walnut-springs,11,2026-11-05,cranfills-gap,walnut-springs,,,true,false
 w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
@@ -1255,7 +1257,6 @@ w11-burkeville-union-hill,11,2026-11-06,burkeville,union-hill,,,true,false
 w11-chester-leveretts-chapel,11,2026-11-06,chester,leveretts-chapel,,,true,false
 w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
-w11-cranfills-gap-walnut-springs,11,2026-11-06,cranfills-gap,walnut-springs,,,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,,,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,,,true,false
 w11-happy-kress,11,2026-11-06,happy,kress,,,true,false
