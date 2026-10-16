@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1792125713,4768a6834367804f7d251619f680ba34"
+	data-csrf="1792176619,404cfc051fa83d348617e8b3a1434072"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1792125713,4768a6834367804f7d251619f680ba34',
+				csrf: '1792176619,404cfc051fa83d348617e8b3a1434072',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=19b97d95":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1792125713,
-					today: 1792040400,
-					todayDow: 4,
-					tomorrow: 1792126800,
-					yesterday: 1791954000,
-					week: 1791522000,
+					now: 1792176619,
+					today: 1792126800,
+					todayDow: 5,
+					tomorrow: 1792213200,
+					yesterday: 1792040400,
+					week: 1791608400,
 					month: 1790830800,
 					year: 1767247200
 				},
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1792125713,4768a6834367804f7d251619f680ba34" />
+									<input type="hidden" name="_xfToken" value="1792176619,404cfc051fa83d348617e8b3a1434072" />
 								</form>
 							</div>
 						
@@ -1514,123 +1514,6 @@
 	
 	<input type="search" class="input" data-xf-init="score-quick-search" name="score-quick-search" id="score-quick-search" placeholder="Quick search..." />
 	
-	
-		<div class="block block--game-date">
-			<div class="block-container">
-				<h3 class="block-header">
-					Friday night lights
-				</h3>
-				<div class="block-body block-row block-row--scores">
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19143.jpg?1756514307" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#142</span>
-		
-	
-	
-		
-			<a href="/teams/knippa-rockcrushers.19143/schedule/2026/">Knippa</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Rockcrushers
-			</div>
-		</div>
-		<div class="contentRow-score winning">
-			59
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-leakey-vs-knippa.38297/">
-							Final
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1323.jpg?1778612664" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#102</span>
-		
-	
-	
-		
-			<a href="/teams/leakey-eagles.1323/schedule/2026/">Leakey</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Eagles
-			</div>
-		</div>
-		<div class="contentRow-score">
-			48
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-				</div>
-			</div>
-		</div>
 	
 		<div class="block block--game-date">
 			<div class="block-container">
@@ -2484,6 +2367,112 @@
 						
 	
 	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19143.jpg?1756514307" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#142</span>
+		
+	
+	
+		
+			<a href="/teams/knippa-rockcrushers.19143/schedule/2026/">Knippa</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Rockcrushers
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			59
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-leakey-vs-knippa.38297/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1323.jpg?1778612664" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#102</span>
+		
+	
+	
+		
+			<a href="/teams/leakey-eagles.1323/schedule/2026/">Leakey</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Eagles
+			</div>
+		</div>
+		<div class="contentRow-score">
+			48
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
 	<div class="block-matchup fauxBlockLink">
 		
 		<div class="block-teams">
@@ -2791,6 +2780,112 @@
 		</div>
 		<div class="contentRow-score">
 			24
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1526.jpg?1790177890" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#200</span>
+		
+	
+	
+		
+			<a href="/teams/rule-bobcats.1526/schedule/2026/">Rule</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Bobcats
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			1
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-rule-vs-lueders-avoca.38036/">
+							Final/FF
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1361.jpg?1789858881" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#254</span>
+		
+	
+	
+		
+			<a href="/teams/lueders-avoca-raiders.1361/schedule/2026/">Lueders-Avoca</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Raiders
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
 		</div>
 	</div>
 
@@ -3110,112 +3205,6 @@
 			</div>
 			<div class="team-mascot">
 				
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1526.jpg?1790177890" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#200</span>
-		
-	
-	
-		
-			<a href="/teams/rule-bobcats.1526/schedule/2026/">Rule</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Bobcats
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-rule-vs-lueders-avoca.38036/">
-							Needed
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1361.jpg?1789858881" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#254</span>
-		
-	
-	
-		
-			<a href="/teams/lueders-avoca-raiders.1361/schedule/2026/">Lueders-Avoca</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Raiders
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -6613,6 +6602,112 @@
 			</div>
 			<div class="team-mascot">
 				Coyotes
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2291.jpg?1757184883" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#30</span>
+		
+	
+	
+		
+			<a href="/teams/lucas-christian-warriors.2291/schedule/2026/">Lucas Christian</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Warriors
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-lucas-christian-vs-waco-vanguard-college-prep.37781/">
+							Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2392.jpg?1789649306" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#37</span>
+		
+	
+	
+		
+			<a href="/teams/waco-vanguard-college-prep-vikings.2392/schedule/2026/">Waco Vanguard College Prep</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Vikings
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -10656,112 +10751,6 @@
 						
 	
 	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2291.jpg?1757184883" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#30</span>
-		
-	
-	
-		
-			<a href="/teams/lucas-christian-warriors.2291/schedule/2026/">Lucas Christian</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Warriors
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-lucas-christian-vs-waco-vanguard-college-prep.37781/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2392.jpg?1789649306" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#37</span>
-		
-	
-	
-		
-			<a href="/teams/waco-vanguard-college-prep-vikings.2392/schedule/2026/">Waco Vanguard College Prep</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Vikings
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
 	<div class="block-matchup fauxBlockLink">
 		
 		<div class="block-teams">
@@ -13711,7 +13700,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1792125713%2C4768a6834367804f7d251619f680ba34"
+	<a href="/misc/style-variation?reset=1&amp;t=1792176619%2C404cfc051fa83d348617e8b3a1434072"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -13726,7 +13715,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1792125713%2C4768a6834367804f7d251619f680ba34"
+	<a href="/misc/style-variation?variation=default&amp;t=1792176619%2C404cfc051fa83d348617e8b3a1434072"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -13741,7 +13730,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1792125713%2C4768a6834367804f7d251619f680ba34"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1792176619%2C404cfc051fa83d348617e8b3a1434072"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -13941,7 +13930,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4b464cba8cb59fe',t:'MTc5MjEyNTcxMw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4b93fa2afdf498b',t:'MTc5MjE3NjYxOQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
