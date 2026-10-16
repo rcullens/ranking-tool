@@ -893,7 +893,7 @@ w07-veribest-eden,7,2026-10-09,veribest,eden,,,true,false
 w07-victoria-cobras-jubilee-brownsville,7,2026-10-09,victoria-cobras,jubilee-brownsville,48,45,false,false
 w07-victory-christian-benjamin,7,2026-10-09,victory-christian,benjamin,45,0,false,false
 w07-water-valley-menard,7,2026-10-09,water-valley,menard,,,true,false
-w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,,,true,false
+w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,60,6,true,false
 w07-west-texas-tornadoes-pchea,7,2026-10-09,west-texas-tornadoes,pchea,39,29,false,false
 w07-wylie-prep-prestonwood-north,7,2026-10-09,wylie-prep,prestonwood-north,76,38,true,false
 w07-bronte-highland,7,2026-10-10,bronte,highland,28,69,true,false
@@ -909,12 +909,9 @@ w08-campbell-poetry-community,8,2026-10-15,campbell,poetry-community,,,false,fal
 w08-chester-runge,8,2026-10-15,chester,runge,,,false,false
 w08-cornerstone-leveretts-chapel,8,2026-10-15,cornerstone,leveretts-chapel,,,false,false
 w08-follett-groom,8,2026-10-15,follett,groom,,,true,false
-w08-hart-silverton,8,2026-10-15,hart,silverton,,,false,false
 w08-lefors-mclean,8,2026-10-15,lefors,mclean,,,true,false
 w08-mullin-wilson,8,2026-10-15,mullin,wilson,,,false,false
 w08-rule-lueders-avoca,8,2026-10-15,rule,lueders-avoca,,,true,false
-w08-sanderson-dell-city,8,2026-10-15,sanderson,dell-city,,,false,false
-w08-strawn-union-hill,8,2026-10-15,strawn,union-hill,,,false,false
 w08-thesa-newcastle,8,2026-10-15,thesa,newcastle,,,false,false
 w08-weatherford-christian-wise-county-homeschool,8,2026-10-15,weatherford-christian,wise-county-homeschool,,,false,false
 w08-amherst-anton,8,2026-10-16,amherst,anton,,,true,false
@@ -945,6 +942,7 @@ w08-founders-christian-divine-savior,8,2026-10-16,founders-christian,divine-savi
 w08-garden-city-rankin,8,2026-10-16,garden-city,rankin,,,true,false
 w08-garland-christian-lone-star-north,8,2026-10-16,garland-christian,lone-star-north,,,true,false
 w08-gholson-abbott,8,2026-10-16,gholson,abbott,,,true,false
+w08-hart-silverton,8,2026-10-16,hart,silverton,0,0,false,false
 w08-harvest-christian-lantana-tyler-heat,8,2026-10-16,harvest-christian-lantana,tyler-heat,,,false,false
 w08-hermleigh-roby,8,2026-10-16,hermleigh,roby,,,true,false
 w08-high-island-apple-springs,8,2026-10-16,high-island,apple-springs,,,true,false
@@ -978,6 +976,7 @@ w08-providence-academy-azle-christian,8,2026-10-16,providence-academy,azle-chris
 w08-richland-springs-brookesmith,8,2026-10-16,richland-springs,brookesmith,,,true,false
 w08-robert-lee-santa-anna,8,2026-10-16,robert-lee,santa-anna,,,true,false
 w08-round-rock-christian-st-augustine,8,2026-10-16,round-rock-christian,st-augustine,,,true,false
+w08-sanderson-dell-city,8,2026-10-16,sanderson,dell-city,53,0,false,false
 w08-savoy-jcsa,8,2026-10-16,savoy,jcsa,,,false,false
 w08-southland-wellman-union,8,2026-10-16,southland,wellman-union,,,true,false
 w08-spur-rotan,8,2026-10-16,spur,rotan,,,true,false
@@ -992,6 +991,7 @@ w08-town-east-christian-jubilee-brownsville,8,2026-10-16,town-east-christian,jub
 w08-trent-blackwell,8,2026-10-16,trent,blackwell,,,true,false
 w08-trinity-school-of-texas-abilene-christian,8,2026-10-16,trinity-school-of-texas,abilene-christian,,,true,false
 w08-trinity-school-of-texas-kings-academy,8,2026-10-16,trinity-school-of-texas,kings-academy,,,false,false
+w08-union-hill-strawn,8,2026-10-16,union-hill,strawn,36,28,false,false
 w08-valley-paducah,8,2026-10-16,valley,paducah,,,true,false
 w08-valor-prep-san-marcos-academy,8,2026-10-16,valor-prep,san-marcos-academy,,,true,false
 w08-valor-south-austin-valor-north-austin,8,2026-10-16,valor-south-austin,valor-north-austin,,,false,false
@@ -1234,7 +1234,6 @@ w10-wylie-prep-ovilla-christian,10,2026-10-31,wylie-prep,ovilla-christian,,,true
 w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-boys-ranch-booker,11,2026-11-05,boys-ranch,booker,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
-w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-guthrie-valley,11,2026-11-05,guthrie,valley,,,true,false
@@ -1257,6 +1256,7 @@ w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-06,cranfills-gap,walnut-springs,,,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,,,true,false
+w11-dawson-meadow,11,2026-11-06,dawson,meadow,,,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,,,true,false
 w11-happy-kress,11,2026-11-06,happy,kress,,,true,false
 w11-harrold-gold-burg,11,2026-11-06,harrold,gold-burg,,,true,false
