@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1792197117,f99b3b6ae812c5c89083c6fa5602e2ce"
+	data-csrf="1792211954,040e63e25a515afeffe805729d172301"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1792197117,f99b3b6ae812c5c89083c6fa5602e2ce',
+				csrf: '1792211954,040e63e25a515afeffe805729d172301',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=669c6be9":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1792197117,
+					now: 1792211954,
 					today: 1792126800,
 					todayDow: 5,
 					tomorrow: 1792213200,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1792197117,f99b3b6ae812c5c89083c6fa5602e2ce" />
+									<input type="hidden" name="_xfToken" value="1792211954,040e63e25a515afeffe805729d172301" />
 								</form>
 							</div>
 						
@@ -14635,7 +14635,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1792197117%2Cf99b3b6ae812c5c89083c6fa5602e2ce"
+	<a href="/misc/style-variation?reset=1&amp;t=1792211954%2C040e63e25a515afeffe805729d172301"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -14650,7 +14650,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1792197117%2Cf99b3b6ae812c5c89083c6fa5602e2ce"
+	<a href="/misc/style-variation?variation=default&amp;t=1792211954%2C040e63e25a515afeffe805729d172301"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -14665,7 +14665,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1792197117%2Cf99b3b6ae812c5c89083c6fa5602e2ce"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1792211954%2C040e63e25a515afeffe805729d172301"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -14865,7 +14865,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4bb340f3e759398',t:'MTc5MjE5NzExNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4bc9e4b1fa0acd2',t:'MTc5MjIxMTk1NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
