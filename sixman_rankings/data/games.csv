@@ -946,7 +946,7 @@ w08-founders-christian-divine-savior,8,2026-10-16,founders-christian,divine-savi
 w08-garden-city-rankin,8,2026-10-16,garden-city,rankin,38,69,true,false
 w08-garland-christian-lone-star-north,8,2026-10-16,garland-christian,lone-star-north,,,true,false
 w08-gholson-abbott,8,2026-10-16,gholson,abbott,0,46,true,false
-w08-harvest-christian-lantana-tyler-heat,8,2026-10-16,harvest-christian-lantana,tyler-heat,,,false,false
+w08-harvest-christian-lantana-tyler-heat,8,2026-10-16,harvest-christian-lantana,tyler-heat,8,0,false,false
 w08-hermleigh-roby,8,2026-10-16,hermleigh,roby,76,29,true,false
 w08-high-island-apple-springs,8,2026-10-16,high-island,apple-springs,6,60,true,false
 w08-high-island-brazosport-christian,8,2026-10-16,high-island,brazosport-christian,,,false,false
@@ -1236,6 +1236,7 @@ w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-boys-ranch-booker,11,2026-11-05,boys-ranch,booker,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-05,cranfills-gap,walnut-springs,,,true,false
+w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-guthrie-valley,11,2026-11-05,guthrie,valley,,,true,false
@@ -1257,7 +1258,6 @@ w11-chester-leveretts-chapel,11,2026-11-06,chester,leveretts-chapel,,,true,false
 w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,,,true,false
-w11-dawson-meadow,11,2026-11-06,dawson,meadow,,,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,,,true,false
 w11-happy-kress,11,2026-11-06,happy,kress,,,true,false
 w11-harrold-gold-burg,11,2026-11-06,harrold,gold-burg,,,true,false
