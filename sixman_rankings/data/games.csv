@@ -405,7 +405,6 @@ w03-saint-jo-covington,3,2026-09-11,saint-jo,covington,74,28,false,false
 w03-sanderson-irion-county,3,2026-09-11,sanderson,irion-county,0,46,false,false
 w03-sidney-stephenville-faith,3,2026-09-11,sidney,stephenville-faith,46,50,false,false
 w03-silverton-nazareth,3,2026-09-11,silverton,nazareth,0,39,false,false
-w03-springlake-earth-klondike,3,2026-09-11,springlake-earth,klondike,,,false,false
 w03-springlake-earth-motley-county,3,2026-09-11,springlake-earth,motley-county,6,56,false,false
 w03-st-joseph-bryan-brazos-valley-lions,3,2026-09-11,st-joseph-bryan,brazos-valley-lions,27,43,false,false
 w03-sterling-city-may,3,2026-09-11,sterling-city,may,44,28,false,false
@@ -428,7 +427,6 @@ w03-white-deer-pchea,3,2026-09-11,white-deer,pchea,52,0,false,false
 w03-whiteface-el-paso-leadership,3,2026-09-11,whiteface,el-paso-leadership,79,0,false,false
 w03-wildorado-pchea,3,2026-09-11,wildorado,pchea,61,12,false,false
 w03-woodson-baird,3,2026-09-11,woodson,baird,70,24,false,false
-w03-davinci-klondike,3,2026-09-12,davinci,klondike,0,56,false,false
 w03-hill-country-christian-st-augustine,3,2026-09-12,hill-country-christian,st-augustine,54,7,false,false
 w03-lohn-paint-creek,3,2026-09-12,lohn,paint-creek,28,13,false,false
 w03-rising-star-mullin,3,2026-09-12,rising-star,mullin,45,0,false,false
@@ -662,7 +660,6 @@ w05-santa-anna-brookesmith,5,2026-09-25,santa-anna,brookesmith,47,50,false,false
 w05-sierra-blanca-fort-hancock,5,2026-09-25,sierra-blanca,fort-hancock,0,46,false,false
 w05-silverton-white-deer,5,2026-09-25,silverton,white-deer,52,58,false,false
 w05-southland-petersburg,5,2026-09-25,southland,petersburg,13,60,false,false
-w05-springlake-earth-odonnell,5,2026-09-25,springlake-earth,odonnell,54,20,false,false
 w05-st-marys-taylor-valor-kyle,5,2026-09-25,st-marys-taylor,valor-kyle,64,14,true,false
 w05-temple-christian-cornerstone,5,2026-09-25,temple-christian,cornerstone,50,64,true,false
 w05-thesa-milford,5,2026-09-25,thesa,milford,50,49,false,false
@@ -931,7 +928,7 @@ w08-chester-runge,8,2026-10-16,chester,runge,62,14,false,false
 w08-chillicothe-guthrie,8,2026-10-16,chillicothe,guthrie,59,58,true,false
 w08-christ-the-king-plainview-classical,8,2026-10-16,christ-the-king,plainview-classical,50,0,false,false
 w08-claude-wildorado,8,2026-10-16,claude,wildorado,52,0,true,false
-w08-coolidge-penelope,8,2026-10-16,coolidge,penelope,24,8,true,false
+w08-coolidge-penelope,8,2026-10-16,coolidge,penelope,42,6,true,false
 w08-cotton-center-hart,8,2026-10-16,cotton-center,hart,,,true,false
 w08-covenant-christian-first-baptist-christian,8,2026-10-16,covenant-christian,first-baptist-christian,48,64,true,false
 w08-crowell-motley-county,8,2026-10-16,crowell,motley-county,16,66,true,false
@@ -1245,7 +1242,6 @@ w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-boys-ranch-booker,11,2026-11-05,boys-ranch,booker,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-05,cranfills-gap,walnut-springs,,,true,false
-w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-guthrie-valley,11,2026-11-05,guthrie,valley,,,true,false
@@ -1268,6 +1264,7 @@ w11-chester-leveretts-chapel,11,2026-11-06,chester,leveretts-chapel,,,true,false
 w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,,,true,false
+w11-dawson-meadow,11,2026-11-06,dawson,meadow,,,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,,,true,false
 w11-happy-kress,11,2026-11-06,happy,kress,,,true,false
 w11-harrold-gold-burg,11,2026-11-06,harrold,gold-burg,,,true,false
@@ -1292,7 +1289,6 @@ w11-mullin-gustine,11,2026-11-06,mullin,gustine,,,true,false
 w11-nazareth-whiteface,11,2026-11-06,nazareth,whiteface,,,true,false
 w11-northside-perrin-whitt,11,2026-11-06,northside,perrin-whitt,,,true,false
 w11-oakwood-fannindel,11,2026-11-06,oakwood,fannindel,,,true,false
-w11-odonnell-klondike,11,2026-11-06,odonnell,klondike,,,true,false
 w11-oglesby-evant,11,2026-11-06,oglesby,evant,,,true,false
 w11-olfen-loraine,11,2026-11-06,olfen,loraine,,,true,false
 w11-petersburg-silverton,11,2026-11-06,petersburg,silverton,,,true,false
