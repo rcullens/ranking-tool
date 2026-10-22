@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1792443904,0b59116793019721604ebd39ab0d1d71"
+	data-csrf="1792696487,ae8648707416c2f2f5e27a4862cf2a7b"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -114,12 +114,12 @@
 	
 	
 
-	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1792213929&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
+	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1792689129&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
 
-	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1792213929&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
-<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1792213929&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
-<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1792213929&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
-<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1792213929&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
+	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1792689129&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
+<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1792689129&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
+<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1792689129&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
+<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1792689129&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
 
 
 	
@@ -141,9 +141,9 @@
 				url: {
 					fullBase: 'https://sixmanfootball.com/',
 					basePath: '/',
-					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1792213929',
+					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1792689129',
 					js: '/js/__SENTINEL__?_v=d2609094',
-					icon: '/data/local/icons/__VARIANT__.svg?v=1792213982#__NAME__',
+					icon: '/data/local/icons/__VARIANT__.svg?v=1792689181#__NAME__',
 					iconInline: '/styles/fa/__VARIANT__/__NAME__.svg?v=5.15.3',
 					keepAlive: '/login/keep-alive'
 				},
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1792443904,0b59116793019721604ebd39ab0d1d71',
+				csrf: '1792696487,ae8648707416c2f2f5e27a4862cf2a7b',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=d2609094":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1792443904,
-					today: 1792386000,
-					todayDow: 1,
-					tomorrow: 1792472400,
-					yesterday: 1792299600,
-					week: 1791867600,
+					now: 1792696487,
+					today: 1792645200,
+					todayDow: 4,
+					tomorrow: 1792731600,
+					yesterday: 1792558800,
+					week: 1792126800,
 					month: 1790830800,
 					year: 1767247200
 				},
@@ -1092,12 +1092,12 @@
 									</div>
 									<div class="menu-footer">
 									<span class="menu-footer-controls">
-										<button type="submit" class="button button--icon button--icon--search button--primary"><i class="fa--xf fal fa-search "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792213982#search"></use></svg></i><span class="button-text">Search</span></button>
+										<button type="submit" class="button button--icon button--icon--search button--primary"><i class="fa--xf fal fa-search "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792689181#search"></use></svg></i><span class="button-text">Search</span></button>
 										<button type="submit" class="button " name="from_search_menu"><span class="button-text">Advanced search…</span></button>
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1792443904,0b59116793019721604ebd39ab0d1d71" />
+									<input type="hidden" name="_xfToken" value="1792696487,ae8648707416c2f2f5e27a4862cf2a7b" />
 								</form>
 							</div>
 						
@@ -1511,6 +1511,229 @@
 		<div class="block block--game-date">
 			<div class="block-container">
 				<h3 class="block-header">
+					Thursday night football
+				</h3>
+				<div class="block-body block-row block-row--scores">
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1166.jpg?1789102469" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#222</span>
+		
+	
+	
+		
+			<a href="/teams/follett-panthers.1166/schedule/2026/">Follett</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Panthers
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			1
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-miami-vs-follett.39312/">
+							Final/FF
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1386.jpg?1782398292" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#196</span>
+		
+	
+	
+		
+			<a href="/teams/miami-warriors.1386/schedule/2026/">Miami</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Warriors
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1251.jpg?1778027072" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#77</span>
+		
+	
+	
+		
+			<a href="/teams/hart-longhorns.1251/schedule/2026/">Hart</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Longhorns
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			1
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-hart-vs-amherst.37736/">
+							Final/FF
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1006.jpg?1788100204" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#215</span>
+		
+	
+	
+		
+			<a href="/teams/amherst-bulldogs.1006/schedule/2026/">Amherst</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Bulldogs
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
 					Upcoming games
 				</h3>
 				<div class="block-body block-row block-row--scores">
@@ -1815,6 +2038,112 @@
 			</div>
 			<div class="team-mascot">
 				Greyhounds
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1159.jpg?1781190123" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#151</span>
+		
+	
+	
+		
+			<a href="/teams/evant-elks.1159/schedule/2026/">Evant</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Elks
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-evant-vs-lometa.38090/">
+							Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1341.jpg?1791825312" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#87</span>
+		
+	
+	
+		
+			<a href="/teams/lometa-hornets.1341/schedule/2026/">Lometa</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Hornets
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -2369,6 +2698,112 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
+					<img src="/data/sixman/teamlogo/s/1/1601.jpg?1778074483" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#257</span>
+		
+	
+	
+		
+			<a href="/teams/trent-gorillas.1601/schedule/2026/">Trent</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Gorillas
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-trent-vs-olfen.37803/">
+							Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1448.jpg?1788533700" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#279</span>
+		
+	
+	
+		
+			<a href="/teams/olfen-mustangs.1448/schedule/2026/">Olfen</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Mustangs
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
 					<img src="/data/sixman/teamlogo/s/1/1098.jpg?1773317160" loading="lazy" />
 				
 			</span>
@@ -2769,6 +3204,112 @@
 			</div>
 			<div class="team-mascot">
 				Wildcats
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1041.jpg?1781384674" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#176</span>
+		
+	
+	
+		
+			<a href="/teams/benjamin-mustangs.1041/schedule/2026/">Benjamin</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Mustangs
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-benjamin-vs-lueders-avoca.38611/">
+							Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1361.jpg?1789858881" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#254</span>
+		
+	
+	
+		
+			<a href="/teams/lueders-avoca-raiders.1361/schedule/2026/">Lueders-Avoca</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Raiders
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -4253,218 +4794,6 @@
 			</div>
 			<div class="team-mascot">
 				Lions
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1409.jpg?1773585547" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#78</span>
-		
-	
-	
-		
-			<a href="/teams/mount-calm-panthers.1409/schedule/2026/">Mount Calm</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Panthers
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-mount-calm-vs-fannindel.38027/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1161.jpg?1784647951" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#93</span>
-		
-	
-	
-		
-			<a href="/teams/fannindel-falcons.1161/schedule/2026/">Fannindel</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Falcons
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1159.jpg?1781190123" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#151</span>
-		
-	
-	
-		
-			<a href="/teams/evant-elks.1159/schedule/2026/">Evant</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Elks
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-evant-vs-lometa.38090/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1341.jpg?1791825312" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#87</span>
-		
-	
-	
-		
-			<a href="/teams/lometa-hornets.1341/schedule/2026/">Lometa</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Hornets
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -8135,7 +8464,7 @@
 						
 					
 					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-lantana-harvest-christian-vs-wise-county-homeschool-athletics.39251/">
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-lantana-harvest-christian-vs-texas-wind.39251/">
 							Upcoming
 						</a>
 					
@@ -8147,7 +8476,7 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/19/19578.jpg?1784062231" loading="lazy" />
+					<img src="/data/sixman/teamlogo/s/19/19083.jpg?1778074472" loading="lazy" />
 				
 			</span>
 		</div>
@@ -8161,12 +8490,12 @@
 	
 	
 		
-			<span class="teamRank">#238</span>
+			<span class="teamRank">#18</span>
 		
 	
 	
 		
-			<a href="/teams/wise-county-homeschool-athletics-warriors.19578/schedule/2026/">Wise County Homeschool Athletics</a>
+			<a href="/teams/texas-wind-skyhawks.19083/schedule/2026/">Texas Wind</a>
 		
 	
 	
@@ -8174,7 +8503,7 @@
 				
 			</div>
 			<div class="team-mascot">
-				Warriors
+				Skyhawks
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -8517,112 +8846,6 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/1/1251.jpg?1778027072" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#77</span>
-		
-	
-	
-		
-			<a href="/teams/hart-longhorns.1251/schedule/2026/">Hart</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Longhorns
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-hart-vs-amherst.37736/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1006.jpg?1788100204" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#215</span>
-		
-	
-	
-		
-			<a href="/teams/amherst-bulldogs.1006/schedule/2026/">Amherst</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Bulldogs
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
 					<img src="/data/sixman/teamlogo/s/1/1326.jpg?1777481966" loading="lazy" />
 				
 			</span>
@@ -8811,218 +9034,6 @@
 			</div>
 			<div class="team-mascot">
 				Lions
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1386.jpg?1782398292" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#196</span>
-		
-	
-	
-		
-			<a href="/teams/miami-warriors.1386/schedule/2026/">Miami</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Warriors
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-miami-vs-follett.37794/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1166.jpg?1789102469" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#222</span>
-		
-	
-	
-		
-			<a href="/teams/follett-panthers.1166/schedule/2026/">Follett</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Panthers
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1601.jpg?1778074483" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#257</span>
-		
-	
-	
-		
-			<a href="/teams/trent-gorillas.1601/schedule/2026/">Trent</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Gorillas
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-trent-vs-olfen.37803/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1448.jpg?1788533700" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#279</span>
-		
-	
-	
-		
-			<a href="/teams/olfen-mustangs.1448/schedule/2026/">Olfen</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Mustangs
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -9553,6 +9564,112 @@
 			</div>
 			<div class="team-mascot">
 				Cardinals
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1409.jpg?1773585547" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#78</span>
+		
+	
+	
+		
+			<a href="/teams/mount-calm-panthers.1409/schedule/2026/">Mount Calm</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Panthers
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-mount-calm-vs-fannindel.38027/">
+							Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1161.jpg?1784647951" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#93</span>
+		
+	
+	
+		
+			<a href="/teams/fannindel-falcons.1161/schedule/2026/">Fannindel</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Falcons
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -11885,112 +12002,6 @@
 			</div>
 			<div class="team-mascot">
 				Steers
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1041.jpg?1781384674" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#176</span>
-		
-	
-	
-		
-			<a href="/teams/benjamin-mustangs.1041/schedule/2026/">Benjamin</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Mustangs
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-benjamin-vs-lueders-avoca.38611/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1361.jpg?1789858881" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#254</span>
-		
-	
-	
-		
-			<a href="/teams/lueders-avoca-raiders.1361/schedule/2026/">Lueders-Avoca</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Raiders
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -14962,6 +14973,112 @@
 						
 	
 	
+	<div class="block-matchup fauxBlockLink">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2367.jpg?1777043145" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#64</span>
+		
+	
+	
+		
+			<a href="/teams/stephenville-faith-knights.2367/schedule/2026/">Stephenville Faith</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Knights
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-stephenville-faith-vs-temple-centex-homeschool.39314/">
+							Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2369.jpg?1778074429" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#237</span>
+		
+	
+	
+		
+			<a href="/teams/temple-centex-homeschool-chargers.2369/schedule/2026/">Temple Centex Homeschool</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Chargers
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
 	<div class="block-matchup fauxBlockLink is-district">
 		
 		<div class="block-teams">
@@ -15189,13 +15306,13 @@
 						</a>
 						<a href="https://www.facebook.com/sixmanfb/">
 							<span class="p-footer-social-icon">
-								<i class="fa--xf fab fa-facebook "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1792213982#facebook"></use></svg></i>
+								<i class="fa--xf fab fa-facebook "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1792689181#facebook"></use></svg></i>
 							</span>
 							SixManFB
 						</a>
 						<a href="https://www.instagram.com/sixmanfb/">
 							<span class="p-footer-social-icon">
-								<i class="fa--xf fab fa-instagram "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1792213982#instagram"></use></svg></i>
+								<i class="fa--xf fab fa-instagram "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1792689181#instagram"></use></svg></i>
 							</span>
 							SixManFB
 						</a>
@@ -15252,7 +15369,7 @@
 				class="js-styleVariationsLink"
 				data-xf-init="tooltip" title="Style variation"
 				data-xf-click="menu" role="button" aria-expanded="false" aria-haspopup="true">
-				<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" ><title>Style variation</title><use href="/data/local/icons/light.svg?v=1792213982#adjust"></use></svg></i>
+				<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" ><title>Style variation</title><use href="/data/local/icons/light.svg?v=1792689181#adjust"></use></svg></i>
 			</a>
 			<div class="menu" data-menu="menu" aria-hidden="true">
 				<div class="menu-content js-styleVariationsMenu">
@@ -15261,12 +15378,12 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1792443904%2C0b59116793019721604ebd39ab0d1d71"
+	<a href="/misc/style-variation?reset=1&amp;t=1792696487%2Cae8648707416c2f2f5e27a4862cf2a7b"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
 
-		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792213982#adjust"></use></svg></i>
+		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792689181#adjust"></use></svg></i>
 
 		
 			System
@@ -15276,12 +15393,12 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1792443904%2C0b59116793019721604ebd39ab0d1d71"
+	<a href="/misc/style-variation?variation=default&amp;t=1792696487%2Cae8648707416c2f2f5e27a4862cf2a7b"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
 
-		<i class="fa--xf fal fa-sun "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792213982#sun"></use></svg></i>
+		<i class="fa--xf fal fa-sun "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792689181#sun"></use></svg></i>
 
 		
 			Light
@@ -15291,12 +15408,12 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1792443904%2C0b59116793019721604ebd39ab0d1d71"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1792696487%2Cae8648707416c2f2f5e27a4862cf2a7b"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
 
-		<i class="fa--xf fal fa-moon "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792213982#moon"></use></svg></i>
+		<i class="fa--xf fal fa-moon "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792689181#moon"></use></svg></i>
 
 		
 			Dark
@@ -15313,7 +15430,7 @@
 			</div>
 		
 		<div class="p-footer-rss">
-			<a href="/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf fal fa-rss "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792213982#rss"></use></svg></i><span class="u-srOnly">RSS</span></span></a>
+			<a href="/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf fal fa-rss "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792689181#rss"></use></svg></i><span class="u-srOnly">RSS</span></span></a>
 		</div>
 	</div>
 </div>
@@ -15469,12 +15586,12 @@
 </div>
 
 <div class="u-navButtons js-navButtons">
-	<a href="javascript:" class="button button--scroll"><span class="button-text"><i class="fa--xf fal fa-arrow-left "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792213982#arrow-left"></use></svg></i><span class="u-srOnly">Back</span></span></a>
+	<a href="javascript:" class="button button--scroll"><span class="button-text"><i class="fa--xf fal fa-arrow-left "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792689181#arrow-left"></use></svg></i><span class="u-srOnly">Back</span></span></a>
 </div>
 
 
 	<div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
-		<a href="#top" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf fal fa-arrow-up "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792213982#arrow-up"></use></svg></i><span class="u-srOnly">Top</span></span></a>
+		<a href="#top" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf fal fa-arrow-up "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1792689181#arrow-up"></use></svg></i><span class="u-srOnly">Top</span></span></a>
 		
 	</div>
 
@@ -15491,7 +15608,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4d2bd238d19c36c',t:'MTc5MjQ0MzkwNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4ead3b7cc1cafad',t:'MTc5MjY5NjQ4Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
