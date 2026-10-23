@@ -405,6 +405,7 @@ w03-saint-jo-covington,3,2026-09-11,saint-jo,covington,74,28,false,false
 w03-sanderson-irion-county,3,2026-09-11,sanderson,irion-county,0,46,false,false
 w03-sidney-stephenville-faith,3,2026-09-11,sidney,stephenville-faith,46,50,false,false
 w03-silverton-nazareth,3,2026-09-11,silverton,nazareth,0,39,false,false
+w03-springlake-earth-klondike,3,2026-09-11,springlake-earth,klondike,,,false,false
 w03-springlake-earth-motley-county,3,2026-09-11,springlake-earth,motley-county,6,56,false,false
 w03-st-joseph-bryan-brazos-valley-lions,3,2026-09-11,st-joseph-bryan,brazos-valley-lions,27,43,false,false
 w03-sterling-city-may,3,2026-09-11,sterling-city,may,44,28,false,false
@@ -427,6 +428,7 @@ w03-white-deer-pchea,3,2026-09-11,white-deer,pchea,52,0,false,false
 w03-whiteface-el-paso-leadership,3,2026-09-11,whiteface,el-paso-leadership,79,0,false,false
 w03-wildorado-pchea,3,2026-09-11,wildorado,pchea,61,12,false,false
 w03-woodson-baird,3,2026-09-11,woodson,baird,70,24,false,false
+w03-davinci-klondike,3,2026-09-12,davinci,klondike,0,56,false,false
 w03-hill-country-christian-st-augustine,3,2026-09-12,hill-country-christian,st-augustine,54,7,false,false
 w03-lohn-paint-creek,3,2026-09-12,lohn,paint-creek,28,13,false,false
 w03-rising-star-mullin,3,2026-09-12,rising-star,mullin,45,0,false,false
@@ -660,6 +662,7 @@ w05-santa-anna-brookesmith,5,2026-09-25,santa-anna,brookesmith,47,50,false,false
 w05-sierra-blanca-fort-hancock,5,2026-09-25,sierra-blanca,fort-hancock,0,46,false,false
 w05-silverton-white-deer,5,2026-09-25,silverton,white-deer,52,58,false,false
 w05-southland-petersburg,5,2026-09-25,southland,petersburg,13,60,false,false
+w05-springlake-earth-odonnell,5,2026-09-25,springlake-earth,odonnell,54,20,false,false
 w05-st-marys-taylor-valor-kyle,5,2026-09-25,st-marys-taylor,valor-kyle,64,14,true,false
 w05-temple-christian-cornerstone,5,2026-09-25,temple-christian,cornerstone,50,64,true,false
 w05-thesa-milford,5,2026-09-25,thesa,milford,50,49,false,false
@@ -757,7 +760,7 @@ w06-roby-knox-city,6,2026-10-02,roby,knox-city,80,86,false,false
 w06-rocksprings-big-springs-charter,6,2026-10-02,rocksprings,big-springs-charter,47,0,false,false
 w06-rockwall-heritage-greenville-homeschool,6,2026-10-02,rockwall-heritage,greenville-homeschool,46,0,false,false
 w06-round-rock-christian-texas-school-for-the-deaf,6,2026-10-02,round-rock-christian,texas-school-for-the-deaf,45,75,true,false
-w06-san-marcos-academy-lone-star-southeast,6,2026-10-02,san-marcos-academy,lone-star-southeast,68,45,true,false
+w06-san-marcos-academy-lone-star-southeast,6,2026-10-02,san-marcos-academy,lone-star-southeast,,,true,false
 w06-san-marcos-academy-st-joseph-bryan,6,2026-10-02,san-marcos-academy,st-joseph-bryan,,,true,false
 w06-sanderson-fort-davis,6,2026-10-02,sanderson,fort-davis,,,false,false
 w06-savoy-grayson-christian,6,2026-10-02,savoy,grayson-christian,0,49,false,false
@@ -890,7 +893,7 @@ w07-veribest-eden,7,2026-10-09,veribest,eden,,,true,false
 w07-victoria-cobras-jubilee-brownsville,7,2026-10-09,victoria-cobras,jubilee-brownsville,48,45,false,false
 w07-victory-christian-benjamin,7,2026-10-09,victory-christian,benjamin,45,0,false,false
 w07-water-valley-menard,7,2026-10-09,water-valley,menard,,,true,false
-w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,,,true,false
+w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,60,6,true,false
 w07-west-texas-tornadoes-pchea,7,2026-10-09,west-texas-tornadoes,pchea,39,29,false,false
 w07-wylie-prep-prestonwood-north,7,2026-10-09,wylie-prep,prestonwood-north,76,38,true,false
 w07-bronte-highland,7,2026-10-10,bronte,highland,28,69,true,false
@@ -1011,9 +1014,9 @@ w09-cherokee-runge,9,2026-10-22,cherokee,runge,,,false,false
 w09-chester-burkeville,9,2026-10-22,chester,burkeville,,,true,false
 w09-fruitvale-savoy,9,2026-10-22,fruitvale,savoy,,,true,false
 w09-knox-city-rule,9,2026-10-22,knox-city,rule,,,true,false
-w09-kopperl-walnut-springs,9,2026-10-22,kopperl,walnut-springs,,,true,false
+w09-kopperl-walnut-springs,9,2026-10-22,kopperl,walnut-springs,12,61,true,false
 w09-leveretts-chapel-union-hill,9,2026-10-22,leveretts-chapel,union-hill,,,true,false
-w09-mullin-blanket,9,2026-10-22,mullin,blanket,,,true,false
+w09-mullin-blanket,9,2026-10-22,mullin,blanket,70,0,true,false
 w09-santa-anna-highland,9,2026-10-22,santa-anna,highland,,,true,false
 w09-veribest-irion-county,9,2026-10-22,veribest,irion-county,,,true,false
 w09-walnut-springs-three-way,9,2026-10-22,walnut-springs,three-way,,,true,false
@@ -1083,8 +1086,8 @@ w09-oglesby-jonesboro,9,2026-10-23,oglesby,jonesboro,,,true,false
 w09-olfen-trent,9,2026-10-23,olfen,trent,,,true,false
 w09-paducah-chillicothe,9,2026-10-23,paducah,chillicothe,,,true,false
 w09-paint-rock-bronte,9,2026-10-23,paint-rock,bronte,,,true,false
-w09-pchea-lorenzo,9,2026-10-23,pchea,lorenzo,,,false,false
-w09-pchea-plainview-classical,9,2026-10-23,pchea,plainview-classical,,,true,false
+w09-pchea-lorenzo,9,2026-10-23,pchea,lorenzo,0,0,false,false
+w09-pchea-plainview-classical,9,2026-10-23,pchea,plainview-classical,0,0,true,false
 w09-penelope-gholson,9,2026-10-23,penelope,gholson,,,true,false
 w09-ranger-may,9,2026-10-23,ranger,may,,,true,false
 w09-rising-star-moran,9,2026-10-23,rising-star,moran,,,true,false
@@ -1109,11 +1112,10 @@ w09-victoria-cobras-arlington-heights-christian,9,2026-10-23,victoria-cobras,arl
 w09-victoria-gators-arlington-heights-christian,9,2026-10-23,victoria-gators,arlington-heights-christian,,,true,false
 w09-water-valley-eden,9,2026-10-23,water-valley,eden,,,true,false
 w09-wellman-union-loop,9,2026-10-23,wellman-union,loop,,,true,false
-w09-west-texas-tornadoes-pchea,9,2026-10-23,west-texas-tornadoes,pchea,,,false,false
 w09-westhoff-runge,9,2026-10-23,westhoff,runge,,,true,false
 w09-whitharral-nazareth,9,2026-10-23,whitharral,nazareth,,,true,false
 w09-wildorado-white-deer,9,2026-10-23,wildorado,white-deer,,,true,false
-w09-wilson-abilene-christian,9,2026-10-23,wilson,abilene-christian,,,false,false
+w09-wilson-abilene-christian,9,2026-10-23,wilson,abilene-christian,0,0,false,false
 w09-zephyr-gustine,9,2026-10-23,zephyr,gustine,,,true,false
 w09-alpha-omega-brazosport-christian,9,2026-10-24,alpha-omega,brazosport-christian,,,true,false
 w09-covenant-christian-emery-weiner,9,2026-10-24,covenant-christian,emery-weiner,,,true,false
@@ -1242,6 +1244,7 @@ w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-boys-ranch-booker,11,2026-11-05,boys-ranch,booker,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-05,cranfills-gap,walnut-springs,,,true,false
+w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-guthrie-valley,11,2026-11-05,guthrie,valley,,,true,false
@@ -1264,7 +1267,6 @@ w11-chester-leveretts-chapel,11,2026-11-06,chester,leveretts-chapel,,,true,false
 w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,,,true,false
-w11-dawson-meadow,11,2026-11-06,dawson,meadow,,,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,,,true,false
 w11-happy-kress,11,2026-11-06,happy,kress,,,true,false
 w11-harrold-gold-burg,11,2026-11-06,harrold,gold-burg,,,true,false
@@ -1289,6 +1291,7 @@ w11-mullin-gustine,11,2026-11-06,mullin,gustine,,,true,false
 w11-nazareth-whiteface,11,2026-11-06,nazareth,whiteface,,,true,false
 w11-northside-perrin-whitt,11,2026-11-06,northside,perrin-whitt,,,true,false
 w11-oakwood-fannindel,11,2026-11-06,oakwood,fannindel,,,true,false
+w11-odonnell-klondike,11,2026-11-06,odonnell,klondike,,,true,false
 w11-oglesby-evant,11,2026-11-06,oglesby,evant,,,true,false
 w11-olfen-loraine,11,2026-11-06,olfen,loraine,,,true,false
 w11-petersburg-silverton,11,2026-11-06,petersburg,silverton,,,true,false
