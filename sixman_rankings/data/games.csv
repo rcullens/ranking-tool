@@ -734,7 +734,6 @@ w06-lakehill-prep-abilene-christian,6,2026-10-02,lakehill-prep,abilene-christian
 w06-leveretts-chapel-fannindel,6,2026-10-02,leveretts-chapel,fannindel,,,false,false
 w06-logos-prep-divine-savior,6,2026-10-02,logos-prep,divine-savior,34,21,false,false
 w06-lohn-priddy,6,2026-10-02,lohn,priddy,,,false,false
-w06-lometa-zephyr,6,2026-10-02,lometa,zephyr,7,52,false,false
 w06-loop-west-texas-tornadoes,6,2026-10-02,loop,west-texas-tornadoes,30,48,false,false
 w06-loraine-southland,6,2026-10-02,loraine,southland,29,42,false,false
 w06-marfa-immanuel-christian,6,2026-10-02,marfa,immanuel-christian,46,0,false,false
@@ -784,6 +783,7 @@ w06-waco-christian-st-paul-prep,6,2026-10-02,waco-christian,st-paul-prep,50,0,fa
 w06-wellman-union-springlake-earth,6,2026-10-02,wellman-union,springlake-earth,46,22,false,false
 w06-white-deer-kress,6,2026-10-02,white-deer,kress,58,18,false,false
 w06-wichita-christian-holy-cross-midland,6,2026-10-02,wichita-christian,holy-cross-midland,,,true,false
+w06-zephyr-lometa,6,2026-10-02,zephyr,lometa,52,7,false,false
 w06-blackwell-harrold,6,2026-10-03,blackwell,harrold,83,36,false,false
 w06-burkeville-calvert,6,2026-10-03,burkeville,calvert,59,37,false,false
 w06-lubbock-titans-thesa,6,2026-10-03,lubbock-titans,thesa,6,51,true,true
@@ -855,7 +855,6 @@ w07-jayton-roby,7,2026-10-09,jayton,roby,70,8,true,false
 w07-klondike-westbrook,7,2026-10-09,klondike,westbrook,74,48,true,false
 w07-legacy-christian-beaumont-burkeville,7,2026-10-09,legacy-christian-beaumont,burkeville,63,18,false,false
 w07-leveretts-chapel-gustine,7,2026-10-09,leveretts-chapel,gustine,0,55,false,false
-w07-lometa-perrin-whitt,7,2026-10-09,lometa,perrin-whitt,32,0,false,false
 w07-loraine-trent,7,2026-10-09,loraine,trent,52,8,true,false
 w07-mclean-miami,7,2026-10-09,mclean,miami,1,0,true,false
 w07-meadow-southland,7,2026-10-09,meadow,southland,66,20,true,false
@@ -871,6 +870,7 @@ w07-pawnee-westhoff,7,2026-10-09,pawnee,westhoff,,,true,false
 w07-pchea-wilson,7,2026-10-09,pchea,wilson,46,0,false,false
 w07-penelope-aquilla,7,2026-10-09,penelope,aquilla,0,50,true,false
 w07-perrin-whitt-campbell,7,2026-10-09,perrin-whitt,campbell,,,false,false
+w07-perrin-whitt-lometa,7,2026-10-09,perrin-whitt,lometa,0,32,false,false
 w07-petersburg-whitharral,7,2026-10-09,petersburg,whitharral,50,56,false,false
 w07-prairie-lea-bruni,7,2026-10-09,prairie-lea,bruni,45,25,true,false
 w07-priddy-gustine,7,2026-10-09,priddy,gustine,,,true,false
@@ -1012,15 +1012,17 @@ w08-stephenville-faith-bvchea,8,2026-10-17,stephenville-faith,bvchea,49,38,false
 w09-campbell-saint-jo,9,2026-10-22,campbell,saint-jo,70,46,true,false
 w09-cherokee-runge,9,2026-10-22,cherokee,runge,,,false,false
 w09-chester-burkeville,9,2026-10-22,chester,burkeville,61,12,true,false
+w09-evant-lometa,9,2026-10-22,evant,lometa,0,52,true,false
 w09-fruitvale-savoy,9,2026-10-22,fruitvale,savoy,53,7,true,false
 w09-grayson-christian-dallas-academy,9,2026-10-22,grayson-christian,dallas-academy,56,6,true,false
 w09-knox-city-rule,9,2026-10-22,knox-city,rule,66,18,true,false
-w09-kopperl-walnut-springs,9,2026-10-22,kopperl,walnut-springs,12,61,true,false
+w09-kopperl-walnut-springs,9,2026-10-22,kopperl,walnut-springs,53,0,true,false
 w09-leveretts-chapel-union-hill,9,2026-10-22,leveretts-chapel,union-hill,0,64,true,false
 w09-mullin-blanket,9,2026-10-22,mullin,blanket,70,0,true,false
-w09-santa-anna-highland,9,2026-10-22,santa-anna,highland,,,true,false
+w09-santa-anna-highland,9,2026-10-22,santa-anna,highland,14,60,true,false
 w09-veribest-irion-county,9,2026-10-22,veribest,irion-county,51,20,true,false
 w09-walnut-springs-three-way,9,2026-10-22,walnut-springs,three-way,,,true,false
+w09-wildorado-white-deer,9,2026-10-22,wildorado,white-deer,12,58,true,false
 w09-abilene-christian-wilson,9,2026-10-23,abilene-christian,wilson,44,0,false,false
 w09-anton-lazbuddie,9,2026-10-23,anton,lazbuddie,,,true,false
 w09-apple-springs-buckholts,9,2026-10-23,apple-springs,buckholts,,,true,false
@@ -1043,7 +1045,6 @@ w09-covington-avalon,9,2026-10-23,covington,avalon,,,true,false
 w09-cranfills-gap-three-way,9,2026-10-23,cranfills-gap,three-way,,,true,false
 w09-davinci-town-east-christian,9,2026-10-23,davinci,town-east-christian,,,false,false
 w09-dawson-southland,9,2026-10-23,dawson,southland,,,true,false
-w09-evant-lometa,9,2026-10-23,evant,lometa,,,true,false
 w09-faustina-methodist-childrens-home,9,2026-10-23,faustina,methodist-childrens-home,,,true,false
 w09-first-baptist-christian-logos-prep,9,2026-10-23,first-baptist-christian,logos-prep,,,true,false
 w09-forestburg-woodson,9,2026-10-23,forestburg,woodson,,,true,false
@@ -1115,7 +1116,6 @@ w09-water-valley-eden,9,2026-10-23,water-valley,eden,,,true,false
 w09-wellman-union-loop,9,2026-10-23,wellman-union,loop,,,true,false
 w09-westhoff-runge,9,2026-10-23,westhoff,runge,,,true,false
 w09-whitharral-nazareth,9,2026-10-23,whitharral,nazareth,,,true,false
-w09-wildorado-white-deer,9,2026-10-23,wildorado,white-deer,,,true,false
 w09-zephyr-gustine,9,2026-10-23,zephyr,gustine,,,true,false
 w09-alpha-omega-brazosport-christian,9,2026-10-24,alpha-omega,brazosport-christian,,,true,false
 w09-covenant-christian-emery-weiner,9,2026-10-24,covenant-christian,emery-weiner,,,true,false
