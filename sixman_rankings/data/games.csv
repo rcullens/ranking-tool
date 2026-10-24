@@ -1120,12 +1120,13 @@ w09-westhoff-runge,9,2026-10-23,westhoff,runge,6,63,true,false
 w09-whitharral-nazareth,9,2026-10-23,whitharral,nazareth,0,24,true,false
 w09-zephyr-gustine,9,2026-10-23,zephyr,gustine,59,12,true,false
 w09-covenant-christian-emery-weiner,9,2026-10-24,covenant-christian,emery-weiner,,,true,false
-w09-faith-academy-st-augustine,9,2026-10-24,faith-academy,st-augustine,,,true,false
+w09-faith-academy-st-augustine,9,2026-10-24,faith-academy,st-augustine,46,0,true,false
 w09-lubbock-titans-west-texas-tornadoes,9,2026-10-24,lubbock-titans,west-texas-tornadoes,,,true,false
 w09-stephenville-faith-centex-homeschool,9,2026-10-24,stephenville-faith,centex-homeschool,,,false,false
 w09-stephenville-faith-community-christian-mineral-wells,9,2026-10-24,stephenville-faith,community-christian-mineral-wells,,,true,false
 w09-valor-leander-hill-country-knights,9,2026-10-24,valor-leander,hill-country-knights,6,61,true,false
 w10-fannindel-trinidad,10,2026-10-29,fannindel,trinidad,,,true,false
+w10-grandfalls-royalty-sanderson,10,2026-10-29,grandfalls-royalty,sanderson,,,true,false
 w10-groom-mclean,10,2026-10-29,groom,mclean,,,true,false
 w10-lefors-miami,10,2026-10-29,lefors,miami,,,true,false
 w10-lohn-rochelle,10,2026-10-29,lohn,rochelle,,,true,false
@@ -1176,7 +1177,6 @@ w10-gholson-aquilla,10,2026-10-30,gholson,aquilla,,,true,false
 w10-gold-burg-forestburg,10,2026-10-30,gold-burg,forestburg,,,true,false
 w10-gordon-gorman,10,2026-10-30,gordon,gorman,,,true,false
 w10-gorman-first-baptist-christian,10,2026-10-30,gorman,first-baptist-christian,,,false,false
-w10-grandfalls-royalty-sanderson,10,2026-10-30,grandfalls-royalty,sanderson,,,true,false
 w10-gustine-blanket,10,2026-10-30,gustine,blanket,,,true,false
 w10-gustine-mullin,10,2026-10-30,gustine,mullin,,,true,false
 w10-highland-lone-star-north,10,2026-10-30,highland,lone-star-north,,,true,false
@@ -1246,6 +1246,7 @@ w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-boys-ranch-booker,11,2026-11-05,boys-ranch,booker,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-05,cranfills-gap,walnut-springs,,,true,false
+w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-guthrie-valley,11,2026-11-05,guthrie,valley,,,true,false
@@ -1268,7 +1269,6 @@ w11-chester-leveretts-chapel,11,2026-11-06,chester,leveretts-chapel,,,true,false
 w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,,,true,false
-w11-dawson-meadow,11,2026-11-06,dawson,meadow,,,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,,,true,false
 w11-happy-kress,11,2026-11-06,happy,kress,,,true,false
 w11-harrold-gold-burg,11,2026-11-06,harrold,gold-burg,,,true,false
