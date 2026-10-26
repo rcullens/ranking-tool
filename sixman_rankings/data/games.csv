@@ -911,7 +911,7 @@ w08-follett-groom,8,2026-10-15,follett,groom,26,45,true,false
 w08-hart-silverton,8,2026-10-15,hart,silverton,32,14,false,false
 w08-lefors-mclean,8,2026-10-15,lefors,mclean,7,53,true,false
 w08-mullin-wilson,8,2026-10-15,mullin,wilson,,,false,false
-w08-rule-lueders-avoca,8,2026-10-15,rule,lueders-avoca,,,true,false
+w08-rule-lueders-avoca,8,2026-10-15,rule,lueders-avoca,1,0,true,false
 w08-sanderson-dell-city,8,2026-10-15,sanderson,dell-city,53,0,false,false
 w08-strawn-union-hill,8,2026-10-15,strawn,union-hill,28,36,false,false
 w08-thesa-newcastle,8,2026-10-15,thesa,newcastle,24,28,false,false
@@ -1046,7 +1046,7 @@ w09-covenant-classical-trinity-school-of-texas,9,2026-10-23,covenant-classical,t
 w09-covington-avalon,9,2026-10-23,covington,avalon,66,57,true,false
 w09-cranfills-gap-three-way,9,2026-10-23,cranfills-gap,three-way,6,53,true,false
 w09-davinci-town-east-christian,9,2026-10-23,davinci,town-east-christian,20,18,false,false
-w09-dawson-southland,9,2026-10-23,dawson,southland,28,36,true,false
+w09-dawson-southland,9,2026-10-23,dawson,southland,,,true,false
 w09-faustina-methodist-childrens-home,9,2026-10-23,faustina,methodist-childrens-home,56,6,true,false
 w09-first-baptist-christian-logos-prep,9,2026-10-23,first-baptist-christian,logos-prep,56,6,true,false
 w09-forestburg-woodson,9,2026-10-23,forestburg,woodson,38,75,true,false
@@ -1104,7 +1104,6 @@ w09-sands-westbrook,9,2026-10-23,sands,westbrook,83,78,true,false
 w09-sierra-blanca-dell-city,9,2026-10-23,sierra-blanca,dell-city,7,52,true,false
 w09-springlake-earth-whiteface,9,2026-10-23,springlake-earth,whiteface,14,59,true,false
 w09-st-joseph-bryan-bracken-christian,9,2026-10-23,st-joseph-bryan,bracken-christian,0,62,true,false
-w09-stephenville-faith-centex-homeschool,9,2026-10-23,stephenville-faith,centex-homeschool,0,0,false,false
 w09-strawn-sidney,9,2026-10-23,strawn,sidney,,,true,false
 w09-summit-christian-allen-academy,9,2026-10-23,summit-christian,allen-academy,0,54,true,false
 w09-temple-christian-lakehill-prep,9,2026-10-23,temple-christian,lakehill-prep,40,53,true,false
@@ -1123,6 +1122,7 @@ w09-zephyr-gustine,9,2026-10-23,zephyr,gustine,59,12,true,false
 w09-covenant-christian-emery-weiner,9,2026-10-24,covenant-christian,emery-weiner,60,70,true,false
 w09-faith-academy-st-augustine,9,2026-10-24,faith-academy,st-augustine,46,0,true,false
 w09-lubbock-titans-west-texas-tornadoes,9,2026-10-24,lubbock-titans,west-texas-tornadoes,64,0,true,false
+w09-stephenville-faith-centex-homeschool,9,2026-10-24,stephenville-faith,centex-homeschool,52,6,false,false
 w09-stephenville-faith-community-christian-mineral-wells,9,2026-10-24,stephenville-faith,community-christian-mineral-wells,,,true,false
 w09-valor-leander-hill-country-knights,9,2026-10-24,valor-leander,hill-country-knights,6,61,true,false
 w10-fannindel-trinidad,10,2026-10-29,fannindel,trinidad,,,true,false
@@ -1244,6 +1244,7 @@ w10-valor-north-austin-valor-kyle,10,2026-10-31,valor-north-austin,valor-kyle,,,
 w10-wylie-prep-ovilla-christian,10,2026-10-31,wylie-prep,ovilla-christian,,,true,false
 w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-boys-ranch-booker,11,2026-11-05,boys-ranch,booker,,,true,false
+w11-burkeville-union-hill,11,2026-11-05,burkeville,union-hill,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-05,cranfills-gap,walnut-springs,,,true,false
 w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
@@ -1264,7 +1265,6 @@ w11-blanket-gustine,11,2026-11-06,blanket,gustine,,,true,false
 w11-bryson-newcastle,11,2026-11-06,bryson,newcastle,,,true,false
 w11-buckholts-calvert,11,2026-11-06,buckholts,calvert,,,true,false
 w11-buena-vista-rankin,11,2026-11-06,buena-vista,rankin,,,true,false
-w11-burkeville-union-hill,11,2026-11-06,burkeville,union-hill,,,true,false
 w11-chester-leveretts-chapel,11,2026-11-06,chester,leveretts-chapel,,,true,false
 w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false

@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1792904076,155dd746aa13149afd68dd35e9083568"
+	data-csrf="1793048522,33440ea1ce6362df47be23e06da22f82"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1792904076,155dd746aa13149afd68dd35e9083568',
+				csrf: '1793048522,33440ea1ce6362df47be23e06da22f82',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=d2609094":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1792904076,
-					today: 1792818000,
-					todayDow: 6,
-					tomorrow: 1792904400,
-					yesterday: 1792731600,
-					week: 1792299600,
+					now: 1793048522,
+					today: 1792990800,
+					todayDow: 1,
+					tomorrow: 1793077200,
+					yesterday: 1792904400,
+					week: 1792472400,
 					month: 1790830800,
 					year: 1767247200
 				},
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1792904076,155dd746aa13149afd68dd35e9083568" />
+									<input type="hidden" name="_xfToken" value="1793048522,33440ea1ce6362df47be23e06da22f82" />
 								</form>
 							</div>
 						
@@ -1541,7 +1541,7 @@
 	
 	
 		
-			<span class="teamRank">#216</span>
+			<span class="teamRank">#245</span>
 		
 	
 	
@@ -1595,7 +1595,7 @@
 	
 	
 		
-			<span class="teamRank">#287</span>
+			<span class="teamRank">#285</span>
 		
 	
 	
@@ -1647,7 +1647,7 @@
 	
 	
 		
-			<span class="teamRank">#125</span>
+			<span class="teamRank">#126</span>
 		
 	
 	
@@ -1701,7 +1701,7 @@
 	
 	
 		
-			<span class="teamRank">#233</span>
+			<span class="teamRank">#247</span>
 		
 	
 	
@@ -1753,7 +1753,7 @@
 	
 	
 		
-			<span class="teamRank">#205</span>
+			<span class="teamRank">#207</span>
 		
 	
 	
@@ -1859,7 +1859,7 @@
 	
 	
 		
-			<span class="teamRank">#88</span>
+			<span class="teamRank">#92</span>
 		
 	
 	
@@ -1913,7 +1913,7 @@
 	
 	
 		
-			<span class="teamRank">#61</span>
+			<span class="teamRank">#63</span>
 		
 	
 	
@@ -1965,7 +1965,7 @@
 	
 	
 		
-			<span class="teamRank">#59</span>
+			<span class="teamRank">#52</span>
 		
 	
 	
@@ -2019,7 +2019,7 @@
 	
 	
 		
-			<span class="teamRank">#31</span>
+			<span class="teamRank">#32</span>
 		
 	
 	
@@ -2071,7 +2071,7 @@
 	
 	
 		
-			<span class="teamRank">#207</span>
+			<span class="teamRank">#209</span>
 		
 	
 	
@@ -2225,7 +2225,7 @@
 	
 	
 		
-			<span class="teamRank">#212</span>
+			<span class="teamRank">#206</span>
 		
 	
 	
@@ -2277,7 +2277,7 @@
 	
 	
 		
-			<span class="teamRank">#242</span>
+			<span class="teamRank">#239</span>
 		
 	
 	
@@ -2331,7 +2331,7 @@
 	
 	
 		
-			<span class="teamRank">#275</span>
+			<span class="teamRank">#276</span>
 		
 	
 	
@@ -2383,7 +2383,7 @@
 	
 	
 		
-			<span class="teamRank">#20</span>
+			<span class="teamRank">#24</span>
 		
 	
 	
@@ -2437,7 +2437,7 @@
 	
 	
 		
-			<span class="teamRank">#56</span>
+			<span class="teamRank">#53</span>
 		
 	
 	
@@ -2489,7 +2489,7 @@
 	
 	
 		
-			<span class="teamRank">#52</span>
+			<span class="teamRank">#54</span>
 		
 	
 	
@@ -2543,7 +2543,7 @@
 	
 	
 		
-			<span class="teamRank">#119</span>
+			<span class="teamRank">#122</span>
 		
 	
 	
@@ -2595,7 +2595,7 @@
 	
 	
 		
-			<span class="teamRank">#204</span>
+			<span class="teamRank">#205</span>
 		
 	
 	
@@ -2649,7 +2649,7 @@
 	
 	
 		
-			<span class="teamRank">#195</span>
+			<span class="teamRank">#198</span>
 		
 	
 	
@@ -2701,7 +2701,7 @@
 	
 	
 		
-			<span class="teamRank">#24</span>
+			<span class="teamRank">#16</span>
 		
 	
 	
@@ -2755,7 +2755,7 @@
 	
 	
 		
-			<span class="teamRank">#47</span>
+			<span class="teamRank">#46</span>
 		
 	
 	
@@ -2818,7 +2818,7 @@
 	
 	
 		
-			<span class="teamRank">#6</span>
+			<span class="teamRank">#9</span>
 		
 	
 	
@@ -2872,7 +2872,7 @@
 	
 	
 		
-			<span class="teamRank">#91</span>
+			<span class="teamRank">#95</span>
 		
 	
 	
@@ -2924,7 +2924,7 @@
 	
 	
 		
-			<span class="teamRank">#71</span>
+			<span class="teamRank">#72</span>
 		
 	
 	
@@ -2978,7 +2978,7 @@
 	
 	
 		
-			<span class="teamRank">#251</span>
+			<span class="teamRank">#252</span>
 		
 	
 	
@@ -3200,7 +3200,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1792904076%2C155dd746aa13149afd68dd35e9083568"
+	<a href="/misc/style-variation?reset=1&amp;t=1793048522%2C33440ea1ce6362df47be23e06da22f82"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -3215,7 +3215,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1792904076%2C155dd746aa13149afd68dd35e9083568"
+	<a href="/misc/style-variation?variation=default&amp;t=1793048522%2C33440ea1ce6362df47be23e06da22f82"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -3230,7 +3230,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1792904076%2C155dd746aa13149afd68dd35e9083568"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1793048522%2C33440ea1ce6362df47be23e06da22f82"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -3430,7 +3430,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4fe9fcd3917b421',t:'MTc5MjkwNDA3Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a50c6652fdc83cd3',t:'MTc5MzA0ODUyMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
