@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1793048523,3fbabceb47ea03b2a0dd401b78ec2e00"
+	data-csrf="1793305260,b488717497adee5e96acc66e6335f811"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1793048523,3fbabceb47ea03b2a0dd401b78ec2e00',
+				csrf: '1793305260,b488717497adee5e96acc66e6335f811',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=d2609094":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1793048523,
-					today: 1792990800,
-					todayDow: 1,
-					tomorrow: 1793077200,
-					yesterday: 1792904400,
-					week: 1792472400,
+					now: 1793305260,
+					today: 1793250000,
+					todayDow: 4,
+					tomorrow: 1793336400,
+					yesterday: 1793163600,
+					week: 1792731600,
 					month: 1790830800,
 					year: 1767247200
 				},
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1793048523,3fbabceb47ea03b2a0dd401b78ec2e00" />
+									<input type="hidden" name="_xfToken" value="1793305260,b488717497adee5e96acc66e6335f811" />
 								</form>
 							</div>
 						
@@ -6272,6 +6272,106 @@
 		</div>
 		<div class="contentRow-score">
 			50
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1146.jpg?1789649082" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#253</span>
+		
+	
+	
+		
+			<a href="/teams/dell-city-cougars.1146/schedule/2026/">Dell City</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Cougars
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			1
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-dell-city-vs-hondo-valley-nm.39320/">
+							Final/FF
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19261.jpg?1785195982" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+	
+		<a href="/teams/hondo-valley-nm-eagles.19261/">Hondo Valley NM</a>
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Eagles
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
 		</div>
 	</div>
 
@@ -12846,7 +12946,7 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/1/1659.jpg?1773146635" loading="lazy" />
+					<img src="/data/sixman/teamlogo/s/1/1659.jpg?1793105029" loading="lazy" />
 				
 			</span>
 		</div>
@@ -16633,7 +16733,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1793048523%2C3fbabceb47ea03b2a0dd401b78ec2e00"
+	<a href="/misc/style-variation?reset=1&amp;t=1793305260%2Cb488717497adee5e96acc66e6335f811"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -16648,7 +16748,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1793048523%2C3fbabceb47ea03b2a0dd401b78ec2e00"
+	<a href="/misc/style-variation?variation=default&amp;t=1793305260%2Cb488717497adee5e96acc66e6335f811"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -16663,7 +16763,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1793048523%2C3fbabceb47ea03b2a0dd401b78ec2e00"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1793305260%2Cb488717497adee5e96acc66e6335f811"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -16863,7 +16963,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a50c66554ed624d6',t:'MTc5MzA0ODUyMw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a524e257af8c3eea',t:'MTc5MzMwNTI2MA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a524e257af8c3eea',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

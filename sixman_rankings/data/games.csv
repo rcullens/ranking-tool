@@ -741,7 +741,7 @@ w06-may-aquilla,6,2026-10-02,may,aquilla,12,60,false,false
 w06-meadow-christ-the-king,6,2026-10-02,meadow,christ-the-king,52,86,false,false
 w06-miami-boys-ranch,6,2026-10-02,miami,boys-ranch,,,false,false
 w06-mount-calm-coolidge,6,2026-10-02,mount-calm,coolidge,21,66,false,false
-w06-mullin-lueders-avoca,6,2026-10-02,mullin,lueders-avoca,12,6,false,false
+w06-mullin-lueders-avoca,6,2026-10-02,mullin,lueders-avoca,84,38,false,false
 w06-nazarene-christian-lucas-christian,6,2026-10-02,nazarene-christian,lucas-christian,57,32,false,false
 w06-nazareth-claude,6,2026-10-02,nazareth,claude,68,36,false,false
 w06-new-braunfels-thunder-centex-homeschool,6,2026-10-02,new-braunfels-thunder,centex-homeschool,69,60,false,false
@@ -893,7 +893,7 @@ w07-veribest-eden,7,2026-10-09,veribest,eden,,,true,false
 w07-victoria-cobras-jubilee-brownsville,7,2026-10-09,victoria-cobras,jubilee-brownsville,48,45,false,false
 w07-victory-christian-benjamin,7,2026-10-09,victory-christian,benjamin,45,0,false,false
 w07-water-valley-menard,7,2026-10-09,water-valley,menard,,,true,false
-w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,60,6,true,false
+w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,,,true,false
 w07-west-texas-tornadoes-pchea,7,2026-10-09,west-texas-tornadoes,pchea,39,29,false,false
 w07-wylie-prep-prestonwood-north,7,2026-10-09,wylie-prep,prestonwood-north,76,38,true,false
 w07-bronte-highland,7,2026-10-10,bronte,highland,28,69,true,false
@@ -1018,7 +1018,7 @@ w09-grayson-christian-dallas-academy,9,2026-10-22,grayson-christian,dallas-acade
 w09-knox-city-rule,9,2026-10-22,knox-city,rule,66,18,true,false
 w09-kopperl-walnut-springs,9,2026-10-22,kopperl,walnut-springs,53,0,true,false
 w09-leveretts-chapel-union-hill,9,2026-10-22,leveretts-chapel,union-hill,0,64,true,false
-w09-mullin-blanket,9,2026-10-22,mullin,blanket,70,0,true,false
+w09-mullin-blanket,9,2026-10-22,mullin,blanket,16,62,true,false
 w09-santa-anna-highland,9,2026-10-22,santa-anna,highland,14,60,true,false
 w09-veribest-irion-county,9,2026-10-22,veribest,irion-county,51,20,true,false
 w09-walnut-springs-three-way,9,2026-10-22,walnut-springs,three-way,,,true,false
@@ -1046,7 +1046,7 @@ w09-covenant-classical-trinity-school-of-texas,9,2026-10-23,covenant-classical,t
 w09-covington-avalon,9,2026-10-23,covington,avalon,66,57,true,false
 w09-cranfills-gap-three-way,9,2026-10-23,cranfills-gap,three-way,6,53,true,false
 w09-davinci-town-east-christian,9,2026-10-23,davinci,town-east-christian,20,18,false,false
-w09-dawson-southland,9,2026-10-23,dawson,southland,,,true,false
+w09-dawson-southland,9,2026-10-23,dawson,southland,28,36,true,false
 w09-faustina-methodist-childrens-home,9,2026-10-23,faustina,methodist-childrens-home,56,6,true,false
 w09-first-baptist-christian-logos-prep,9,2026-10-23,first-baptist-christian,logos-prep,56,6,true,false
 w09-forestburg-woodson,9,2026-10-23,forestburg,woodson,38,75,true,false
@@ -1080,14 +1080,14 @@ w09-morgan-iredell,9,2026-10-23,morgan,iredell,0,51,true,false
 w09-motley-county-valley,9,2026-10-23,motley-county,valley,54,28,true,false
 w09-mount-calm-fannindel,9,2026-10-23,mount-calm,fannindel,34,26,true,false
 w09-mullin-priddy,9,2026-10-23,mullin,priddy,,,true,false
-w09-new-braunfels-thunder-valor-kyle,9,2026-10-23,new-braunfels-thunder,valor-kyle,49,0,false,false
+w09-new-braunfels-thunder-valor-kyle,9,2026-10-23,new-braunfels-thunder,valor-kyle,49,0,true,false
 w09-newcastle-northside,9,2026-10-23,newcastle,northside,84,38,true,false
 w09-north-star-big-springs-charter,9,2026-10-23,north-star,big-springs-charter,51,6,false,false
 w09-nueces-canyon-prairie-lea,9,2026-10-23,nueces-canyon,prairie-lea,52,0,true,false
 w09-nyos-st-marys-taylor,9,2026-10-23,nyos,st-marys-taylor,47,40,false,false
 w09-oglesby-jonesboro,9,2026-10-23,oglesby,jonesboro,75,56,true,false
 w09-olfen-trent,9,2026-10-23,olfen,trent,7,44,true,false
-w09-paducah-chillicothe,9,2026-10-23,paducah,chillicothe,52,6,true,false
+w09-paducah-chillicothe,9,2026-10-23,paducah,chillicothe,58,6,true,false
 w09-paint-rock-bronte,9,2026-10-23,paint-rock,bronte,37,64,true,false
 w09-pchea-lorenzo,9,2026-10-23,pchea,lorenzo,40,36,false,false
 w09-pchea-plainview-classical,9,2026-10-23,pchea,plainview-classical,60,14,true,false
@@ -1135,6 +1135,7 @@ w10-newman-international-tyler-heat,10,2026-10-29,newman-international,tyler-hea
 w10-oakwood-tyler-heat,10,2026-10-29,oakwood,tyler-heat,,,false,false
 w10-paducah-guthrie,10,2026-10-29,paducah,guthrie,,,true,false
 w10-paint-creek-lueders-avoca,10,2026-10-29,paint-creek,lueders-avoca,,,true,false
+w10-runge-new-braunfels-thunder,10,2026-10-29,runge,new-braunfels-thunder,,,false,false
 w10-savoy-campbell,10,2026-10-29,savoy,campbell,,,true,false
 w10-walnut-springs-three-way,10,2026-10-29,walnut-springs,three-way,,,true,false
 w10-abbott-penelope,10,2026-10-30,abbott,penelope,,,true,false
@@ -1208,7 +1209,6 @@ w10-prairie-lea-big-springs-charter,10,2026-10-30,prairie-lea,big-springs-charte
 w10-providence-academy-greenville-christian,10,2026-10-30,providence-academy,greenville-christian,,,true,false
 w10-rankin-grady,10,2026-10-30,rankin,grady,,,true,false
 w10-rotan-jayton,10,2026-10-30,rotan,jayton,,,true,false
-w10-runge-new-braunfels-thunder,10,2026-10-30,runge,new-braunfels-thunder,,,false,false
 w10-sidney-rising-star,10,2026-10-30,sidney,rising-star,,,true,false
 w10-sierra-blanca-marfa,10,2026-10-30,sierra-blanca,marfa,,,true,false
 w10-silverton-happy,10,2026-10-30,silverton,happy,,,true,false
@@ -1251,12 +1251,16 @@ w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-guthrie-valley,11,2026-11-05,guthrie,valley,,,true,false
+w11-jayton-spur,11,2026-11-05,jayton,spur,,,true,false
 w11-knox-city-paint-creek,11,2026-11-05,knox-city,paint-creek,,,true,false
+w11-menard-veribest,11,2026-11-05,menard,veribest,,,true,false
 w11-moran-sidney,11,2026-11-05,moran,sidney,,,true,false
 w11-mullin-zephyr,11,2026-11-05,mullin,zephyr,,,true,false
+w11-petersburg-silverton,11,2026-11-05,petersburg,silverton,,,true,false
 w11-roby-rotan,11,2026-11-05,roby,rotan,,,true,false
 w11-sands-borden-county,11,2026-11-05,sands,borden-county,,,true,false
 w11-throckmorton-woodson,11,2026-11-05,throckmorton,woodson,,,true,false
+w11-water-valley-sterling-city,11,2026-11-05,water-valley,sterling-city,,,true,false
 w11-aquilla-abbott,11,2026-11-06,aquilla,abbott,,,true,false
 w11-baird-highland,11,2026-11-06,baird,highland,,,true,false
 w11-balmorhea-sanderson,11,2026-11-06,balmorhea,sanderson,,,true,false
@@ -1276,7 +1280,6 @@ w11-hart-anton,11,2026-11-06,hart,anton,,,true,false
 w11-hermleigh-aspermont,11,2026-11-06,hermleigh,aspermont,,,true,false
 w11-high-island-apple-springs,11,2026-11-06,high-island,apple-springs,,,true,false
 w11-ira-westbrook,11,2026-11-06,ira,westbrook,,,true,false
-w11-jayton-spur,11,2026-11-06,jayton,spur,,,true,false
 w11-jonesboro-lometa,11,2026-11-06,jonesboro,lometa,,,true,false
 w11-knippa-prairie-lea,11,2026-11-06,knippa,prairie-lea,,,true,false
 w11-kopperl-morgan,11,2026-11-06,kopperl,morgan,,,true,false
@@ -1285,7 +1288,6 @@ w11-marfa-dell-city,11,2026-11-06,marfa,dell-city,,,true,false
 w11-may-lingleville,11,2026-11-06,may,lingleville,,,true,false
 w11-mclean-follett,11,2026-11-06,mclean,follett,,,true,false
 w11-medina-bruni,11,2026-11-06,medina,bruni,,,true,false
-w11-menard-veribest,11,2026-11-06,menard,veribest,,,true,false
 w11-miami-groom,11,2026-11-06,miami,groom,,,true,false
 w11-milford-blum,11,2026-11-06,milford,blum,,,true,false
 w11-motley-county-paducah,11,2026-11-06,motley-county,paducah,,,true,false
@@ -1296,7 +1298,6 @@ w11-oakwood-fannindel,11,2026-11-06,oakwood,fannindel,,,true,false
 w11-odonnell-klondike,11,2026-11-06,odonnell,klondike,,,true,false
 w11-oglesby-evant,11,2026-11-06,oglesby,evant,,,true,false
 w11-olfen-loraine,11,2026-11-06,olfen,loraine,,,true,false
-w11-petersburg-silverton,11,2026-11-06,petersburg,silverton,,,true,false
 w11-priddy-zephyr,11,2026-11-06,priddy,zephyr,,,true,false
 w11-ranger-gordon,11,2026-11-06,ranger,gordon,,,true,false
 w11-richland-springs-lohn,11,2026-11-06,richland-springs,lohn,,,true,false
@@ -1312,6 +1313,7 @@ w11-southland-loop,11,2026-11-06,southland,loop,,,true,false
 w11-three-way-iredell,11,2026-11-06,three-way,iredell,,,true,false
 w11-trent-panther-creek,11,2026-11-06,trent,panther-creek,,,true,false
 w11-trinidad-bynum,11,2026-11-06,trinidad,bynum,,,true,false
+w11-valor-north-austin-valor-kyle,11,2026-11-06,valor-north-austin,valor-kyle,,,false,false
 w11-valor-south-austin-compass-rose,11,2026-11-06,valor-south-austin,compass-rose,,,true,false
-w11-water-valley-sterling-city,11,2026-11-06,water-valley,sterling-city,,,true,false
 w11-whitharral-springlake-earth,11,2026-11-06,whitharral,springlake-earth,,,true,false
+w12-bluff-dale-campbell,12,2026-11-13,bluff-dale,campbell,,,false,true
