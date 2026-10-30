@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1793390208,f2c0d23f7d778a5500cc208bdcaddf1b"
+	data-csrf="1793404327,76e030786ec9a9d846f2eaab01188ca4"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1793390208,f2c0d23f7d778a5500cc208bdcaddf1b',
+				csrf: '1793404327,76e030786ec9a9d846f2eaab01188ca4',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=d2609094":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1793390208,
+					now: 1793404327,
 					today: 1793336400,
 					todayDow: 5,
 					tomorrow: 1793422800,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1793390208,f2c0d23f7d778a5500cc208bdcaddf1b" />
+									<input type="hidden" name="_xfToken" value="1793404327,76e030786ec9a9d846f2eaab01188ca4" />
 								</form>
 							</div>
 						
@@ -3972,7 +3972,7 @@
 		<div class="block block--game-date">
 			<div class="block-container">
 				<h3 class="block-header">
-					Upcoming games
+					Scores needed
 				</h3>
 				<div class="block-body block-row block-row--scores">
 					
@@ -4031,7 +4031,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-lake-view-jubilee-vs-leakey-big-springs-charter-school.38122/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -4137,7 +4137,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-knippa-vs-bruni.38535/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -4243,7 +4243,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-conroe-founders-classical-vs-faith-leadership-christian-academy-jv.38839/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -4343,7 +4343,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-gustine-vs-mullin.39109/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -4449,7 +4449,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-missouri-city-divine-savior-academy-vs-bellville-faith.38207/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -4499,6 +4499,17 @@
 		</div>
 	</div>
 
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
+					Upcoming games
+				</h3>
+				<div class="block-body block-row block-row--scores">
 					
 						
 	
@@ -9152,112 +9163,6 @@
 			</div>
 			<div class="team-mascot">
 				Eagles
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2106.jpg?1784118708" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#61</span>
-		
-	
-	
-		
-			<a href="/teams/brazos-valley-christian-bvchea-mustangs.2106/schedule/2026/">Brazos Valley Christian (BVCHEA)</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Mustangs
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-brazos-valley-christian-bvchea-vs-mcdade.38659/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1373.jpg?1775485408" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#199</span>
-		
-	
-	
-		
-			<a href="/teams/mcdade-bulldogs.1373/schedule/2026/">McDade</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Bulldogs
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -14866,7 +14771,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1793390208%2Cf2c0d23f7d778a5500cc208bdcaddf1b"
+	<a href="/misc/style-variation?reset=1&amp;t=1793404327%2C76e030786ec9a9d846f2eaab01188ca4"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -14881,7 +14786,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1793390208%2Cf2c0d23f7d778a5500cc208bdcaddf1b"
+	<a href="/misc/style-variation?variation=default&amp;t=1793404327%2C76e030786ec9a9d846f2eaab01188ca4"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -14896,7 +14801,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1793390208%2Cf2c0d23f7d778a5500cc208bdcaddf1b"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1793404327%2C76e030786ec9a9d846f2eaab01188ca4"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -15096,7 +15001,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a52cfc407ebefa36',t:'MTc5MzM5MDIwOA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a52cfc407ebefa36',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a52e54f44f109450',t:'MTc5MzQwNDMyNw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a52e54f44f109450',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
