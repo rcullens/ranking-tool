@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1793305262,6fc9ea63c17b02c555f19ae92e73f31a"
+	data-csrf="1793322360,142c6b1d114103ff207423d02d5a13f5"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1793305262,6fc9ea63c17b02c555f19ae92e73f31a',
+				csrf: '1793322360,142c6b1d114103ff207423d02d5a13f5',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=d2609094":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1793305262,
+					now: 1793322360,
 					today: 1793250000,
 					todayDow: 4,
 					tomorrow: 1793336400,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1793305262,6fc9ea63c17b02c555f19ae92e73f31a" />
+									<input type="hidden" name="_xfToken" value="1793322360,142c6b1d114103ff207423d02d5a13f5" />
 								</form>
 							</div>
 						
@@ -4926,7 +4926,7 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/2/2134.jpg?1778380094" loading="lazy" />
+					<img src="/data/sixman/teamlogo/s/2/2134.jpg?1793317262" loading="lazy" />
 				
 			</span>
 		</div>
@@ -16220,7 +16220,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1793305262%2C6fc9ea63c17b02c555f19ae92e73f31a"
+	<a href="/misc/style-variation?reset=1&amp;t=1793322360%2C142c6b1d114103ff207423d02d5a13f5"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -16235,7 +16235,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1793305262%2C6fc9ea63c17b02c555f19ae92e73f31a"
+	<a href="/misc/style-variation?variation=default&amp;t=1793322360%2C142c6b1d114103ff207423d02d5a13f5"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -16250,7 +16250,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1793305262%2C6fc9ea63c17b02c555f19ae92e73f31a"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1793322360%2C142c6b1d114103ff207423d02d5a13f5"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -16450,7 +16450,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a524e25fbb436665',t:'MTc5MzMwNTI2Mg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a524e25fbb436665',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a52683d13f6f4e43',t:'MTc5MzMyMjM2MA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a52683d13f6f4e43',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

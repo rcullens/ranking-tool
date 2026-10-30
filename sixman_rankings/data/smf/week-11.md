@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1793305268,243ce25dbb893c674fa529a70eef8f9b"
+	data-csrf="1793322365,e3ce16e1be80d6ab01b17edc4af66db9"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1793305268,243ce25dbb893c674fa529a70eef8f9b',
+				csrf: '1793322365,e3ce16e1be80d6ab01b17edc4af66db9',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=d2609094":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1793305268,
+					now: 1793322365,
 					today: 1793250000,
 					todayDow: 4,
 					tomorrow: 1793336400,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1793305268,243ce25dbb893c674fa529a70eef8f9b" />
+									<input type="hidden" name="_xfToken" value="1793322365,e3ce16e1be80d6ab01b17edc4af66db9" />
 								</form>
 							</div>
 						
@@ -9136,7 +9136,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1793305268%2C243ce25dbb893c674fa529a70eef8f9b"
+	<a href="/misc/style-variation?reset=1&amp;t=1793322365%2Ce3ce16e1be80d6ab01b17edc4af66db9"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -9151,7 +9151,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1793305268%2C243ce25dbb893c674fa529a70eef8f9b"
+	<a href="/misc/style-variation?variation=default&amp;t=1793322365%2Ce3ce16e1be80d6ab01b17edc4af66db9"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -9166,7 +9166,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1793305268%2C243ce25dbb893c674fa529a70eef8f9b"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1793322365%2Ce3ce16e1be80d6ab01b17edc4af66db9"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -9366,7 +9366,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a524e285797fb1e2',t:'MTc5MzMwNTI2OA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a524e285797fb1e2',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a52683ee29fa6e62',t:'MTc5MzMyMjM2NQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a52683ee29fa6e62',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
