@@ -893,7 +893,7 @@ w07-veribest-eden,7,2026-10-09,veribest,eden,,,true,false
 w07-victoria-cobras-jubilee-brownsville,7,2026-10-09,victoria-cobras,jubilee-brownsville,48,45,false,false
 w07-victory-christian-benjamin,7,2026-10-09,victory-christian,benjamin,45,0,false,false
 w07-water-valley-menard,7,2026-10-09,water-valley,menard,,,true,false
-w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,60,6,true,false
+w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,,,true,false
 w07-west-texas-tornadoes-pchea,7,2026-10-09,west-texas-tornadoes,pchea,39,29,false,false
 w07-wylie-prep-prestonwood-north,7,2026-10-09,wylie-prep,prestonwood-north,76,38,true,false
 w07-bronte-highland,7,2026-10-10,bronte,highland,28,69,true,false
@@ -1046,7 +1046,7 @@ w09-covenant-classical-trinity-school-of-texas,9,2026-10-23,covenant-classical,t
 w09-covington-avalon,9,2026-10-23,covington,avalon,66,57,true,false
 w09-cranfills-gap-three-way,9,2026-10-23,cranfills-gap,three-way,6,53,true,false
 w09-davinci-town-east-christian,9,2026-10-23,davinci,town-east-christian,20,18,false,false
-w09-dawson-southland,9,2026-10-23,dawson,southland,28,36,true,false
+w09-dawson-southland,9,2026-10-23,dawson,southland,,,true,false
 w09-faustina-methodist-childrens-home,9,2026-10-23,faustina,methodist-childrens-home,56,6,true,false
 w09-first-baptist-christian-logos-prep,9,2026-10-23,first-baptist-christian,logos-prep,56,6,true,false
 w09-forestburg-woodson,9,2026-10-23,forestburg,woodson,38,75,true,false
@@ -1127,10 +1127,10 @@ w09-stephenville-faith-community-christian-mineral-wells,9,2026-10-24,stephenvil
 w09-valor-leander-hill-country-knights,9,2026-10-24,valor-leander,hill-country-knights,6,61,true,false
 w10-fannindel-trinidad,10,2026-10-29,fannindel,trinidad,65,67,true,false
 w10-groom-mclean,10,2026-10-29,groom,mclean,28,74,true,false
-w10-lefors-miami,10,2026-10-29,lefors,miami,,,true,false
+w10-lefors-miami,10,2026-10-29,lefors,miami,1,0,true,false
 w10-lohn-rochelle,10,2026-10-29,lohn,rochelle,0,45,true,false
 w10-loop-dawson,10,2026-10-29,loop,dawson,39,37,true,false
-w10-newman-international-trinity-school-of-texas,10,2026-10-29,newman-international,trinity-school-of-texas,26,48,false,false
+w10-newman-international-trinity-school-of-texas,10,2026-10-29,newman-international,trinity-school-of-texas,28,48,false,false
 w10-newman-international-tyler-heat,10,2026-10-29,newman-international,tyler-heat,,,true,false
 w10-oakwood-tyler-heat,10,2026-10-29,oakwood,tyler-heat,37,86,false,false
 w10-paducah-guthrie,10,2026-10-29,paducah,guthrie,56,0,true,false
@@ -1145,6 +1145,7 @@ w10-anton-lorenzo,10,2026-10-30,anton,lorenzo,,,true,false
 w10-apple-springs-calvert,10,2026-10-30,apple-springs,calvert,,,true,false
 w10-arlington-heights-christian-jubilee-brownsville,10,2026-10-30,arlington-heights-christian,jubilee-brownsville,,,false,false
 w10-aspermont-roby,10,2026-10-30,aspermont,roby,,,true,false
+w10-austin-royals-davinci,10,2026-10-30,austin-royals,davinci,1,0,false,false
 w10-avalon-milford,10,2026-10-30,avalon,milford,,,true,false
 w10-balmorhea-rocksprings,10,2026-10-30,balmorhea,rocksprings,,,true,false
 w10-baytown-christian-brazosport-christian,10,2026-10-30,baytown-christian,brazosport-christian,,,true,false
@@ -1165,7 +1166,6 @@ w10-centex-homeschool-davinci,10,2026-10-30,centex-homeschool,davinci,,,false,fa
 w10-cherokee-brookesmith,10,2026-10-30,cherokee,brookesmith,,,true,false
 w10-chillicothe-motley-county,10,2026-10-30,chillicothe,motley-county,,,true,false
 w10-coram-deo-vanguard-college-prep,10,2026-10-30,coram-deo,vanguard-college-prep,,,true,false
-w10-davinci-austin-royals,10,2026-10-30,davinci,austin-royals,,,false,false
 w10-dell-city-fort-davis,10,2026-10-30,dell-city,fort-davis,,,true,false
 w10-faith-academy-round-rock-christian,10,2026-10-30,faith-academy,round-rock-christian,,,true,false
 w10-faustina-grayson-christian,10,2026-10-30,faustina,grayson-christian,,,true,false
@@ -1244,6 +1244,7 @@ w10-valor-north-austin-valor-kyle,10,2026-10-31,valor-north-austin,valor-kyle,,,
 w10-wylie-prep-ovilla-christian,10,2026-10-31,wylie-prep,ovilla-christian,,,true,false
 w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-boys-ranch-booker,11,2026-11-05,boys-ranch,booker,,,true,false
+w11-buena-vista-rankin,11,2026-11-05,buena-vista,rankin,,,true,false
 w11-burkeville-union-hill,11,2026-11-05,burkeville,union-hill,,,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-05,cranfills-gap,walnut-springs,,,true,false
@@ -1252,6 +1253,7 @@ w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-guthrie-valley,11,2026-11-05,guthrie,valley,,,true,false
 w11-jayton-spur,11,2026-11-05,jayton,spur,,,true,false
+w11-kings-academy-newman-international,11,2026-11-05,kings-academy,newman-international,,,true,false
 w11-knox-city-paint-creek,11,2026-11-05,knox-city,paint-creek,,,true,false
 w11-menard-veribest,11,2026-11-05,menard,veribest,,,true,false
 w11-moran-sidney,11,2026-11-05,moran,sidney,,,true,false
@@ -1268,7 +1270,6 @@ w11-big-springs-charter-nueces-canyon,11,2026-11-06,big-springs-charter,nueces-c
 w11-blanket-gustine,11,2026-11-06,blanket,gustine,,,true,false
 w11-bryson-newcastle,11,2026-11-06,bryson,newcastle,,,true,false
 w11-buckholts-calvert,11,2026-11-06,buckholts,calvert,,,true,false
-w11-buena-vista-rankin,11,2026-11-06,buena-vista,rankin,,,true,false
 w11-chester-leveretts-chapel,11,2026-11-06,chester,leveretts-chapel,,,true,false
 w11-claude-white-deer,11,2026-11-06,claude,white-deer,,,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,,,true,false
