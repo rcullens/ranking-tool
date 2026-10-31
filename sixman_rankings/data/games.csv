@@ -893,7 +893,7 @@ w07-veribest-eden,7,2026-10-09,veribest,eden,,,true,false
 w07-victoria-cobras-jubilee-brownsville,7,2026-10-09,victoria-cobras,jubilee-brownsville,48,45,false,false
 w07-victory-christian-benjamin,7,2026-10-09,victory-christian,benjamin,45,0,false,false
 w07-water-valley-menard,7,2026-10-09,water-valley,menard,,,true,false
-w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,,,true,false
+w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,60,6,true,false
 w07-west-texas-tornadoes-pchea,7,2026-10-09,west-texas-tornadoes,pchea,39,29,false,false
 w07-wylie-prep-prestonwood-north,7,2026-10-09,wylie-prep,prestonwood-north,76,38,true,false
 w07-bronte-highland,7,2026-10-10,bronte,highland,28,69,true,false
@@ -1177,7 +1177,7 @@ w10-gordon-gorman,10,2026-10-30,gordon,gorman,54,8,true,false
 w10-gorman-first-baptist-christian,10,2026-10-30,gorman,first-baptist-christian,,,false,false
 w10-grace-classical-granbury-bluff-dale,10,2026-10-30,grace-classical-granbury,bluff-dale,59,40,false,false
 w10-grandfalls-royalty-sanderson,10,2026-10-30,grandfalls-royalty,sanderson,46,0,true,false
-w10-greenville-christian-ignite-community,10,2026-10-30,greenville-christian,ignite-community,0,0,false,false
+w10-greenville-christian-ignite-community,10,2026-10-30,greenville-christian,ignite-community,63,12,false,false
 w10-gustine-blanket,10,2026-10-30,gustine,blanket,,,true,false
 w10-gustine-mullin,10,2026-10-30,gustine,mullin,68,0,true,false
 w10-highland-lone-star-north,10,2026-10-30,highland,lone-star-north,52,58,true,false
@@ -1235,13 +1235,13 @@ w10-weatherford-christian-nazarene-christian,10,2026-10-30,weatherford-christian
 w10-westbrook-odonnell,10,2026-10-30,westbrook,odonnell,45,0,true,false
 w10-white-deer-boys-ranch,10,2026-10-30,white-deer,boys-ranch,24,32,true,false
 w10-whiteface-whitharral,10,2026-10-30,whiteface,whitharral,82,0,true,false
-w10-woodson-harrold,10,2026-10-30,woodson,harrold,76,28,true,false
+w10-woodson-harrold,10,2026-10-30,woodson,harrold,28,76,true,false
 w10-zephyr-blanket,10,2026-10-30,zephyr,blanket,83,38,true,false
 w10-zephyr-mullin,10,2026-10-30,zephyr,mullin,,,true,false
-w10-emery-weiner-first-baptist-christian,10,2026-10-31,emery-weiner,first-baptist-christian,,,true,false
+w10-emery-weiner-first-baptist-christian,10,2026-10-31,emery-weiner,first-baptist-christian,50,44,true,false
 w10-pchea-lubbock-titans,10,2026-10-31,pchea,lubbock-titans,,,false,false
-w10-valor-north-austin-valor-kyle,10,2026-10-31,valor-north-austin,valor-kyle,,,false,false
-w10-wylie-prep-ovilla-christian,10,2026-10-31,wylie-prep,ovilla-christian,,,true,false
+w10-valor-north-austin-valor-kyle,10,2026-10-31,valor-north-austin,valor-kyle,69,19,false,false
+w10-wylie-prep-ovilla-christian,10,2026-10-31,wylie-prep,ovilla-christian,46,0,true,false
 w11-bluff-dale-avalon,11,2026-11-05,bluff-dale,avalon,,,true,false
 w11-boys-ranch-booker,11,2026-11-05,boys-ranch,booker,,,true,false
 w11-buena-vista-rankin,11,2026-11-05,buena-vista,rankin,,,true,false
