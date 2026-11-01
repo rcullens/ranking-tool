@@ -1,15 +1,15 @@
 {
-  "pulled_at": "2026-10-31T17:36:08.531959-05:00",
+  "pulled_at": "2026-10-31T21:16:59.107170-05:00",
   "season": 2026,
   "teams": 302,
-  "games": 1320,
-  "finals": 1097,
+  "games": 1321,
+  "finals": 1096,
   "sources": [
     {
       "name": "maxpreps",
       "ok": true,
       "detail": "203 school pages, 99 missed, 886 catalog finals",
-      "games": 1127,
+      "games": 1128,
       "finals": 886
     },
     {
