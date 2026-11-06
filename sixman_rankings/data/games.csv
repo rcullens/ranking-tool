@@ -1254,10 +1254,11 @@ w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,,,true,false
 w11-guthrie-valley,11,2026-11-05,guthrie,valley,,,true,false
 w11-jayton-spur,11,2026-11-05,jayton,spur,,,true,false
 w11-kings-academy-newman-international,11,2026-11-05,kings-academy,newman-international,,,true,false
-w11-knox-city-paint-creek,11,2026-11-05,knox-city,paint-creek,,,true,false
+w11-knox-city-paint-creek,11,2026-11-05,knox-city,paint-creek,57,0,true,false
 w11-menard-veribest,11,2026-11-05,menard,veribest,,,true,false
 w11-moran-sidney,11,2026-11-05,moran,sidney,,,true,false
-w11-mullin-zephyr,11,2026-11-05,mullin,zephyr,,,true,false
+w11-mullin-zephyr,11,2026-11-05,mullin,zephyr,0,62,true,false
+w11-nyos-valor-south-austin,11,2026-11-05,nyos,valor-south-austin,55,22,true,false
 w11-petersburg-silverton,11,2026-11-05,petersburg,silverton,,,true,false
 w11-roby-rotan,11,2026-11-05,roby,rotan,,,true,false
 w11-sands-borden-county,11,2026-11-05,sands,borden-county,,,true,false
@@ -1301,7 +1302,6 @@ w11-mullin-gustine,11,2026-11-06,mullin,gustine,,,true,false
 w11-nazareth-whiteface,11,2026-11-06,nazareth,whiteface,,,true,false
 w11-new-braunfels-spartans-coastal-christian,11,2026-11-06,new-braunfels-spartans,coastal-christian,,,true,false
 w11-northside-perrin-whitt,11,2026-11-06,northside,perrin-whitt,,,true,false
-w11-nyos-valor-south-austin,11,2026-11-06,nyos,valor-south-austin,,,true,false
 w11-oakwood-fannindel,11,2026-11-06,oakwood,fannindel,,,true,false
 w11-odonnell-klondike,11,2026-11-06,odonnell,klondike,,,true,false
 w11-oglesby-evant,11,2026-11-06,oglesby,evant,,,true,false
