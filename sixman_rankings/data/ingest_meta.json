@@ -1,16 +1,16 @@
 {
-  "pulled_at": "2026-11-06T00:59:13.152993-06:00",
+  "pulled_at": "2026-11-06T14:55:57.173469-06:00",
   "season": 2026,
   "teams": 302,
-  "games": 1346,
-  "finals": 1102,
+  "games": 1347,
+  "finals": 1117,
   "sources": [
     {
       "name": "maxpreps",
       "ok": true,
-      "detail": "203 school pages, 99 missed, 895 catalog finals",
-      "games": 1151,
-      "finals": 895
+      "detail": "203 school pages, 99 missed, 910 catalog finals",
+      "games": 1152,
+      "finals": 910
     },
     {
       "name": "sixmanfootball",
