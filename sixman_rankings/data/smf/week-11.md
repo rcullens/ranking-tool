@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1794031945,3590f4076d8ec24b267264e2f8e2bfa0"
+	data-csrf="1794079673,c535ae4350f8c4bb1632b3b2986ed63a"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1794031945,3590f4076d8ec24b267264e2f8e2bfa0',
+				csrf: '1794079673,c535ae4350f8c4bb1632b3b2986ed63a',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=7985946b":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1794031945,
+					now: 1794079673,
 					today: 1794031200,
 					todayDow: 6,
 					tomorrow: 1794117600,
@@ -1109,7 +1109,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1794031945,3590f4076d8ec24b267264e2f8e2bfa0" />
+									<input type="hidden" name="_xfToken" value="1794079673,c535ae4350f8c4bb1632b3b2986ed63a" />
 								</form>
 							</div>
 						
@@ -2917,6 +2917,112 @@
 		</div>
 		<div class="contentRow-score">
 			20
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2135.jpg?1781014193" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#192</span>
+		
+	
+	
+		
+			<a href="/teams/corpus-christi-arlington-heights-lions.2135/schedule/2026/">Corpus Christi Arlington Heights</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Lions
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			85
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-corpus-christi-arlington-heights-vs-taylor-st-marys.39357/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2374.jpg?1731274927" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#259</span>
+		
+	
+	
+		
+			<a href="/teams/taylor-st-marys-rams.2374/schedule/2026/">Taylor St. Mary&#039;s</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Rams
+			</div>
+		</div>
+		<div class="contentRow-score">
+			42
 		</div>
 	</div>
 
@@ -5139,6 +5245,112 @@
 			</div>
 			<div class="team-mascot">
 				Eagles
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-district">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19143.jpg?1756514307" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#121</span>
+		
+	
+	
+		
+			<a href="/teams/knippa-rockcrushers.19143/schedule/2026/">Knippa</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Rockcrushers
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			54
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-prairie-lea-vs-knippa.38001/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1486.jpg?1780432976" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#169</span>
+		
+	
+	
+		
+			<a href="/teams/prairie-lea-indians.1486/schedule/2026/">Prairie Lea</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Indians
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -12298,229 +12510,6 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/2/2135.jpg?1781014193" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#192</span>
-		
-	
-	
-		
-			<a href="/teams/corpus-christi-arlington-heights-lions.2135/schedule/2026/">Corpus Christi Arlington Heights</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Lions
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-corpus-christi-arlington-heights-vs-taylor-st-marys.39357/">
-							Needed
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2374.jpg?1731274927" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#259</span>
-		
-	
-	
-		
-			<a href="/teams/taylor-st-marys-rams.2374/schedule/2026/">Taylor St. Mary&#039;s</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Rams
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-district">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1486.jpg?1780432976" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#169</span>
-		
-	
-	
-		
-			<a href="/teams/prairie-lea-indians.1486/schedule/2026/">Prairie Lea</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Indians
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-prairie-lea-vs-knippa.38001/">
-							Needed
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19143.jpg?1756514307" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#121</span>
-		
-	
-	
-		
-			<a href="/teams/knippa-rockcrushers.19143/schedule/2026/">Knippa</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Rockcrushers
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-				</div>
-			</div>
-		</div>
-	
-		<div class="block block--game-date">
-			<div class="block-container">
-				<h3 class="block-header">
-					Upcoming games
-				</h3>
-				<div class="block-body block-row block-row--scores">
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
 					<img src="/data/sixman/teamlogo/s/19/19111.jpg?1731194974" loading="lazy" />
 				
 			</span>
@@ -12564,7 +12553,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-new-braunfels-vs-lake-view-jubilee.39358/">
-							Upcoming
+							Needed
 						</a>
 					
 				</div>
@@ -12614,6 +12603,17 @@
 		</div>
 	</div>
 
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
+					Upcoming games
+				</h3>
+				<div class="block-body block-row block-row--scores">
 					
 						
 	
@@ -13977,7 +13977,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1794031945%2C3590f4076d8ec24b267264e2f8e2bfa0"
+	<a href="/misc/style-variation?reset=1&amp;t=1794079673%2Cc535ae4350f8c4bb1632b3b2986ed63a"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -13992,7 +13992,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1794031945%2C3590f4076d8ec24b267264e2f8e2bfa0"
+	<a href="/misc/style-variation?variation=default&amp;t=1794079673%2Cc535ae4350f8c4bb1632b3b2986ed63a"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -14007,7 +14007,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1794031945%2C3590f4076d8ec24b267264e2f8e2bfa0"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1794079673%2Cc535ae4350f8c4bb1632b3b2986ed63a"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -14207,7 +14207,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a56a2fad9f22e41b',t:'MTc5NDAzMTk0NQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a56a2fad9f22e41b',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a56ebce848c8a1eb',t:'MTc5NDA3OTY3Mw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a56ebce848c8a1eb',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
