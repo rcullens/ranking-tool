@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1794013080,8b3d45160b78b05b59adf7c7cf0aa583"
+	data-csrf="1794031945,8777ac1b95e9bb1fc43e28e88ca9caf9"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1794013080,8b3d45160b78b05b59adf7c7cf0aa583',
+				csrf: '1794031945,8777ac1b95e9bb1fc43e28e88ca9caf9',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=7985946b":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1794013080,
-					today: 1793944800,
-					todayDow: 5,
-					tomorrow: 1794031200,
-					yesterday: 1793858400,
-					week: 1793422800,
+					now: 1794031945,
+					today: 1794031200,
+					todayDow: 6,
+					tomorrow: 1794117600,
+					yesterday: 1793944800,
+					week: 1793509200,
 					month: 1793509200,
 					year: 1767247200
 				},
@@ -1109,7 +1109,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1794013080,8b3d45160b78b05b59adf7c7cf0aa583" />
+									<input type="hidden" name="_xfToken" value="1794031945,8777ac1b95e9bb1fc43e28e88ca9caf9" />
 								</form>
 							</div>
 						
@@ -14649,7 +14649,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1794013080%2C8b3d45160b78b05b59adf7c7cf0aa583"
+	<a href="/misc/style-variation?reset=1&amp;t=1794031945%2C8777ac1b95e9bb1fc43e28e88ca9caf9"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -14664,7 +14664,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1794013080%2C8b3d45160b78b05b59adf7c7cf0aa583"
+	<a href="/misc/style-variation?variation=default&amp;t=1794031945%2C8777ac1b95e9bb1fc43e28e88ca9caf9"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -14679,7 +14679,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1794013080%2C8b3d45160b78b05b59adf7c7cf0aa583"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1794031945%2C8777ac1b95e9bb1fc43e28e88ca9caf9"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -14879,7 +14879,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5686316cf5d3458',t:'MTc5NDAxMzA4MA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5686316cf5d3458',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a56a2fa90ee377cb',t:'MTc5NDAzMTk0NQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a56a2fa90ee377cb',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
