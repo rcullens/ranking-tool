@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1794094780,3cfc8a5fa74f9d3723264c023ce57283"
+	data-csrf="1794118647,032f7c2652fdce96be64754229135037"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1794094780,3cfc8a5fa74f9d3723264c023ce57283',
+				csrf: '1794118647,032f7c2652fdce96be64754229135037',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=2dbe0dd3":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1794094780,
-					today: 1794031200,
-					todayDow: 6,
-					tomorrow: 1794117600,
-					yesterday: 1793944800,
-					week: 1793509200,
+					now: 1794118647,
+					today: 1794117600,
+					todayDow: 0,
+					tomorrow: 1794204000,
+					yesterday: 1794031200,
+					week: 1793599200,
 					month: 1793509200,
 					year: 1767247200
 				},
@@ -1109,7 +1109,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1794094780,3cfc8a5fa74f9d3723264c023ce57283" />
+									<input type="hidden" name="_xfToken" value="1794118647,032f7c2652fdce96be64754229135037" />
 								</form>
 							</div>
 						
@@ -1532,7 +1532,7 @@
 		<div class="block block--game-date">
 			<div class="block-container">
 				<h3 class="block-header">
-					Live scoreboard
+					Saturday results
 				</h3>
 				<div class="block-body block-row block-row--scores">
 					
@@ -1541,16 +1541,6 @@
 	
 	<div class="block-matchup fauxBlockLink is-playoff">
 		
-			<div class="block-time">
-				<div class="block-update-user">
-					<span class="is-live">LIVE</span>
-					
-				</div>
-				<div class="block-time-updated">
-					<time  class="u-dt" dir="auto" datetime="2026-11-07T17:22:19-0600" data-timestamp="1794093739" data-date="Nov 7, 2026" data-time="5:22 PM" data-short="17m" title="Nov 7, 2026 at 5:22 PM">17 minutes ago</time>
-				</div>
-			</div>
-		
 		<div class="block-teams">
 			
 				
@@ -1558,7 +1548,7 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/2/2372.jpg?1789668482" loading="lazy" />
+					<img src="/data/sixman/teamlogo/s/19/19249.jpg?1773147484" loading="lazy" />
 				
 			</span>
 		</div>
@@ -1572,12 +1562,12 @@
 	
 	
 		
-			<span class="teamRank">#115</span>
+			<span class="teamRank">#271</span>
 		
 	
 	
 		
-			<a href="/teams/san-marcos-academy-bears.2372/schedule/2026/">San Marcos Academy</a>
+			<a href="/teams/amarillo-ffc-lions.19249/schedule/2026/">Amarillo FFC</a>
 		
 	
 	
@@ -1585,11 +1575,11 @@
 				
 			</div>
 			<div class="team-mascot">
-				Bears
+				Lions
 			</div>
 		</div>
 		<div class="contentRow-score winning">
-			30
+			60
 		</div>
 	</div>
 
@@ -1600,8 +1590,8 @@
 						
 					
 					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-baytown-christian-vs-san-marcos-academy.39331/">
-							Halftime
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-poetry-christian-vs-amarillo-ffc.39365/">
+							Final
 						</a>
 					
 				</div>
@@ -1612,7 +1602,7 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/2/2063.jpg?1778127056" loading="lazy" />
+					<img src="/data/sixman/teamlogo/s/19/19267.jpg?1780663324" loading="lazy" />
 				
 			</span>
 		</div>
@@ -1626,12 +1616,12 @@
 	
 	
 		
-			<span class="teamRank">#82</span>
+			<span class="teamRank">#268</span>
 		
 	
 	
 		
-			<a href="/teams/baytown-christian-bulldogs.2063/schedule/2026/">Baytown Christian</a>
+			<a href="/teams/poetry-christian-pioneers.19267/schedule/2026/">Poetry Christian</a>
 		
 	
 	
@@ -1639,7 +1629,113 @@
 				
 			</div>
 			<div class="team-mascot">
-				Bulldogs
+				Pioneers
+			</div>
+		</div>
+		<div class="contentRow-score">
+			12
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2284.jpg?1728530456" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#28</span>
+		
+	
+	
+		
+			<a href="/teams/austin-royals.2284/schedule/2026/">Austin Royals</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Royals
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			50
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-austin-royals-vs-brownsville-jubilee.39343/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19082.jpg?1728531265" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#184</span>
+		
+	
+	
+		
+			<a href="/teams/brownsville-jubilee-titans.19082/schedule/2026/">Brownsville Jubilee</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Titans
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -1651,17 +1747,6 @@
 		</div>
 	</div>
 
-					
-				</div>
-			</div>
-		</div>
-	
-		<div class="block block--game-date">
-			<div class="block-container">
-				<h3 class="block-header">
-					Saturday results
-				</h3>
-				<div class="block-body block-row block-row--scores">
 					
 						
 	
@@ -1781,6 +1866,112 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
+					<img src="/data/sixman/teamlogo/s/19/19255.jpg?1779893579" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#210</span>
+		
+	
+	
+		
+			<a href="/teams/greenville-homeschool-athletics-archers.19255/schedule/2026/">Greenville Homeschool Athletics</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Archers
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			66
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-greenville-homeschool-athletics-vs-amarillo-pchea.39353/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19080.jpg?1778034257" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#246</span>
+		
+	
+	
+		
+			<a href="/teams/amarillo-pchea-warriors.19080/schedule/2026/">Amarillo PCHEA</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Warriors
+			</div>
+		</div>
+		<div class="contentRow-score">
+			26
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
 					<img src="/data/sixman/teamlogo/s/2/2256.jpg?1778029414" loading="lazy" />
 				
 			</span>
@@ -1867,6 +2058,430 @@
 		</div>
 		<div class="contentRow-score">
 			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2267.jpg?1788816936" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#38</span>
+		
+	
+	
+		
+			<a href="/teams/huntsville-alpha-omega-lions.2267/schedule/2026/">Huntsville Alpha Omega</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Lions
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			54
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-mckinney-cornerstone-vs-huntsville-alpha-omega.39334/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2299.jpg?1784032348" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#138</span>
+		
+	
+	
+		
+			<a href="/teams/mckinney-cornerstone-warriors.2299/schedule/2026/">McKinney Cornerstone</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Warriors
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19111.jpg?1731194974" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#178</span>
+		
+	
+	
+		
+			<a href="/teams/new-braunfels-thunder.19111/schedule/2026/">New Braunfels</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Thunder
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			40
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-new-braunfels-vs-lake-view-jubilee.39358/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19186.jpg?1728529870" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#270</span>
+		
+	
+	
+		
+			<a href="/teams/lake-view-jubilee-rams.19186/schedule/2026/">Lake View Jubilee</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Rams
+			</div>
+		</div>
+		<div class="contentRow-score">
+			7
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2372.jpg?1789668482" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#115</span>
+		
+	
+	
+		
+			<a href="/teams/san-marcos-academy-bears.2372/schedule/2026/">San Marcos Academy</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Bears
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			54
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-baytown-christian-vs-san-marcos-academy.39331/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2063.jpg?1778127056" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#82</span>
+		
+	
+	
+		
+			<a href="/teams/baytown-christian-bulldogs.2063/schedule/2026/">Baytown Christian</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Bulldogs
+			</div>
+		</div>
+		<div class="contentRow-score">
+			8
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2388.jpg?1778074502" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#81</span>
+		
+	
+	
+		
+			<a href="/teams/tyler-heat.2388/schedule/2026/">Tyler HEAT</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Heat
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			52
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-tyler-heat-vs-el-paso-leadership-academy.39342/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19162.jpg?1728513736" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#172</span>
+		
+	
+	
+		
+			<a href="/teams/el-paso-leadership-academy-leaders.19162/schedule/2026/">El Paso Leadership Academy</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Leaders
+			</div>
+		</div>
+		<div class="contentRow-score">
+			6
 		</div>
 	</div>
 
@@ -2185,6 +2800,112 @@
 		</div>
 		<div class="contentRow-score">
 			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2409.jpg?1778610693" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#75</span>
+		
+	
+	
+		
+			<a href="/teams/williamson-county-home-school-wilco-falcons.2409/schedule/2026/">Williamson County Home School (WILCO)</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Falcons
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			22
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-san-antonio-homeschool-vs-williamson-county-home-school-wilco.39345/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2331.jpg?1778074199" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#72</span>
+		
+	
+	
+		
+			<a href="/teams/san-antonio-homeschool-patriots.2331/schedule/2026/">San Antonio Homeschool</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Patriots
+			</div>
+		</div>
+		<div class="contentRow-score">
+			20
 		</div>
 	</div>
 
@@ -8152,6 +8873,112 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
+					<img src="/data/sixman/teamlogo/s/2/2334.jpg?1789649203" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#250</span>
+		
+	
+	
+		
+			<a href="/teams/sa-jubilee-lions.2334/schedule/2026/">SA Jubilee</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Lions
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			52
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-sa-jubilee-vs-texas-empowerment-academy.39359/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19166.jpg?1778074449" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#280</span>
+		
+	
+	
+		
+			<a href="/teams/texas-empowerment-academy-panthers.19166/schedule/2026/">Texas Empowerment Academy</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Panthers
+			</div>
+		</div>
+		<div class="contentRow-score">
+			13
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
 					<img src="/data/sixman/teamlogo/s/2/2356.jpg?1778074127" loading="lazy" />
 				
 			</span>
@@ -12936,876 +13763,6 @@
 			</div>
 		</div>
 	
-		<div class="block block--game-date">
-			<div class="block-container">
-				<h3 class="block-header">
-					Scores needed
-				</h3>
-				<div class="block-body block-row block-row--scores">
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2334.jpg?1789649203" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#250</span>
-		
-	
-	
-		
-			<a href="/teams/sa-jubilee-lions.2334/schedule/2026/">SA Jubilee</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Lions
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-sa-jubilee-vs-texas-empowerment-academy.39359/">
-							Needed
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19166.jpg?1778074449" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#280</span>
-		
-	
-	
-		
-			<a href="/teams/texas-empowerment-academy-panthers.19166/schedule/2026/">Texas Empowerment Academy</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Panthers
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19111.jpg?1731194974" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#178</span>
-		
-	
-	
-		
-			<a href="/teams/new-braunfels-thunder.19111/schedule/2026/">New Braunfels</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Thunder
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-new-braunfels-vs-lake-view-jubilee.39358/">
-							Needed
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19186.jpg?1728529870" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#270</span>
-		
-	
-	
-		
-			<a href="/teams/lake-view-jubilee-rams.19186/schedule/2026/">Lake View Jubilee</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Rams
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2284.jpg?1728530456" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#28</span>
-		
-	
-	
-		
-			<a href="/teams/austin-royals.2284/schedule/2026/">Austin Royals</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Royals
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-austin-royals-vs-brownsville-jubilee.39343/">
-							Needed
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19082.jpg?1728531265" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#184</span>
-		
-	
-	
-		
-			<a href="/teams/brownsville-jubilee-titans.19082/schedule/2026/">Brownsville Jubilee</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Titans
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19255.jpg?1779893579" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#210</span>
-		
-	
-	
-		
-			<a href="/teams/greenville-homeschool-athletics-archers.19255/schedule/2026/">Greenville Homeschool Athletics</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Archers
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-greenville-homeschool-athletics-vs-amarillo-pchea.39353/">
-							Needed
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19080.jpg?1778034257" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#246</span>
-		
-	
-	
-		
-			<a href="/teams/amarillo-pchea-warriors.19080/schedule/2026/">Amarillo PCHEA</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Warriors
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2388.jpg?1778074502" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#81</span>
-		
-	
-	
-		
-			<a href="/teams/tyler-heat.2388/schedule/2026/">Tyler HEAT</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Heat
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-tyler-heat-vs-el-paso-leadership-academy.39342/">
-							Needed
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19162.jpg?1728513736" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#172</span>
-		
-	
-	
-		
-			<a href="/teams/el-paso-leadership-academy-leaders.19162/schedule/2026/">El Paso Leadership Academy</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Leaders
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-				</div>
-			</div>
-		</div>
-	
-		<div class="block block--game-date">
-			<div class="block-container">
-				<h3 class="block-header">
-					Upcoming games
-				</h3>
-				<div class="block-body block-row block-row--scores">
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2299.jpg?1784032348" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#138</span>
-		
-	
-	
-		
-			<a href="/teams/mckinney-cornerstone-warriors.2299/schedule/2026/">McKinney Cornerstone</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Warriors
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-mckinney-cornerstone-vs-huntsville-alpha-omega.39334/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2267.jpg?1788816936" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#38</span>
-		
-	
-	
-		
-			<a href="/teams/huntsville-alpha-omega-lions.2267/schedule/2026/">Huntsville Alpha Omega</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Lions
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2331.jpg?1778074199" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#72</span>
-		
-	
-	
-		
-			<a href="/teams/san-antonio-homeschool-patriots.2331/schedule/2026/">San Antonio Homeschool</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Patriots
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-san-antonio-homeschool-vs-williamson-county-home-school-wilco.39345/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2409.jpg?1778610693" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#75</span>
-		
-	
-	
-		
-			<a href="/teams/williamson-county-home-school-wilco-falcons.2409/schedule/2026/">Williamson County Home School (WILCO)</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Falcons
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19267.jpg?1780663324" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#268</span>
-		
-	
-	
-		
-			<a href="/teams/poetry-christian-pioneers.19267/schedule/2026/">Poetry Christian</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Pioneers
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-poetry-christian-vs-amarillo-ffc.39365/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19249.jpg?1773147484" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#271</span>
-		
-	
-	
-		
-			<a href="/teams/amarillo-ffc-lions.19249/schedule/2026/">Amarillo FFC</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Lions
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-				</div>
-			</div>
-		</div>
-	
 
 
 
@@ -13998,7 +13955,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1794094780%2C3cfc8a5fa74f9d3723264c023ce57283"
+	<a href="/misc/style-variation?reset=1&amp;t=1794118647%2C032f7c2652fdce96be64754229135037"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -14013,7 +13970,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1794094780%2C3cfc8a5fa74f9d3723264c023ce57283"
+	<a href="/misc/style-variation?variation=default&amp;t=1794118647%2C032f7c2652fdce96be64754229135037"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -14028,7 +13985,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1794094780%2C3cfc8a5fa74f9d3723264c023ce57283"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1794118647%2C032f7c2652fdce96be64754229135037"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -14228,7 +14185,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5702dbb2ac5d6e9',t:'MTc5NDA5NDc4MA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5702dbb2ac5d6e9',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5727468ffaf88f9',t:'MTc5NDExODY0Nw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5727468ffaf88f9',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

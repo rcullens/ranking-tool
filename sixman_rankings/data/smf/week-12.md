@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1794094780,bbfdc428a76ff8592d6123bdf1ea602c"
+	data-csrf="1794118647,92f63516659d2396edeb34f11585984f"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1794094780,bbfdc428a76ff8592d6123bdf1ea602c',
+				csrf: '1794118647,92f63516659d2396edeb34f11585984f',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=2dbe0dd3":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1794094780,
-					today: 1794031200,
-					todayDow: 6,
-					tomorrow: 1794117600,
-					yesterday: 1793944800,
-					week: 1793509200,
+					now: 1794118647,
+					today: 1794117600,
+					todayDow: 0,
+					tomorrow: 1794204000,
+					yesterday: 1794031200,
+					week: 1793599200,
 					month: 1793509200,
 					year: 1767247200
 				},
@@ -1109,7 +1109,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1794094780,bbfdc428a76ff8592d6123bdf1ea602c" />
+									<input type="hidden" name="_xfToken" value="1794118647,92f63516659d2396edeb34f11585984f" />
 								</form>
 							</div>
 						
@@ -1941,112 +1941,6 @@
 			</div>
 			<div class="team-mascot">
 				Warriors
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1251.jpg?1778027072" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#133</span>
-		
-	
-	
-		
-			<a href="/teams/hart-longhorns.1251/schedule/2026/">Hart</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Longhorns
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-hart-vs-meadow.39390/">
-							TBD
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1381.jpg?1778073840" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#127</span>
-		
-	
-	
-		
-			<a href="/teams/meadow-broncos.1381/schedule/2026/">Meadow</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Broncos
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -4626,6 +4520,112 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
+					<img src="/data/sixman/teamlogo/s/1/1251.jpg?1778027072" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#133</span>
+		
+	
+	
+		
+			<a href="/teams/hart-longhorns.1251/schedule/2026/">Hart</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Longhorns
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-hart-vs-meadow.39390/">
+							Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1381.jpg?1778073840" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#127</span>
+		
+	
+	
+		
+			<a href="/teams/meadow-broncos.1381/schedule/2026/">Meadow</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Broncos
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
 					<img src="/data/sixman/teamlogo/s/2/2236.jpg?1779365825" loading="lazy" />
 				
 			</span>
@@ -6082,7 +6082,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1794094780%2Cbbfdc428a76ff8592d6123bdf1ea602c"
+	<a href="/misc/style-variation?reset=1&amp;t=1794118647%2C92f63516659d2396edeb34f11585984f"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -6097,7 +6097,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1794094780%2Cbbfdc428a76ff8592d6123bdf1ea602c"
+	<a href="/misc/style-variation?variation=default&amp;t=1794118647%2C92f63516659d2396edeb34f11585984f"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -6112,7 +6112,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1794094780%2Cbbfdc428a76ff8592d6123bdf1ea602c"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1794118647%2C92f63516659d2396edeb34f11585984f"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -6312,7 +6312,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5702dbcdbacde9d',t:'MTc5NDA5NDc4MA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5702dbcdbacde9d',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a572746b2822f2f7',t:'MTc5NDExODY0Nw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a572746b2822f2f7',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

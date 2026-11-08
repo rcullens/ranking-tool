@@ -705,7 +705,7 @@ w06-campbell-cornerstone,6,2026-10-02,campbell,cornerstone,,,false,false
 w06-centex-homeschool-new-braunfels-spartans,6,2026-10-02,centex-homeschool,new-braunfels-spartans,60,69,true,false
 w06-chester-brazosport-christian,6,2026-10-02,chester,brazosport-christian,50,35,false,false
 w06-chillicothe-booker,6,2026-10-02,chillicothe,booker,32,77,false,false
-w06-christian-heritage-longview-tyler-heat,6,2026-10-02,christian-heritage-longview,tyler-heat,0,45,false,false
+w06-christian-heritage-longview-tyler-heat,6,2026-10-02,christian-heritage-longview,tyler-heat,,,false,false
 w06-coastal-christian-arlington-heights-christian,6,2026-10-02,coastal-christian,arlington-heights-christian,20,70,true,false
 w06-coram-deo-victory-christian,6,2026-10-02,coram-deo,victory-christian,80,33,false,false
 w06-cornerstone-abilene-christian,6,2026-10-02,cornerstone,abilene-christian,6,54,true,false
@@ -759,7 +759,7 @@ w06-roby-knox-city,6,2026-10-02,roby,knox-city,80,86,false,false
 w06-rocksprings-big-springs-charter,6,2026-10-02,rocksprings,big-springs-charter,47,0,false,false
 w06-rockwall-heritage-greenville-homeschool,6,2026-10-02,rockwall-heritage,greenville-homeschool,46,0,false,false
 w06-round-rock-christian-texas-school-for-the-deaf,6,2026-10-02,round-rock-christian,texas-school-for-the-deaf,45,75,true,false
-w06-san-marcos-academy-lone-star-southeast,6,2026-10-02,san-marcos-academy,lone-star-southeast,,,true,false
+w06-san-marcos-academy-lone-star-southeast,6,2026-10-02,san-marcos-academy,lone-star-southeast,68,45,true,false
 w06-san-marcos-academy-st-joseph-bryan,6,2026-10-02,san-marcos-academy,st-joseph-bryan,,,true,false
 w06-sanderson-fort-davis,6,2026-10-02,sanderson,fort-davis,,,false,false
 w06-savoy-grayson-christian,6,2026-10-02,savoy,grayson-christian,0,49,false,false
@@ -1329,13 +1329,14 @@ w11-valor-south-austin-compass-rose,11,2026-11-06,valor-south-austin,compass-ros
 w11-whitharral-springlake-earth,11,2026-11-06,whitharral,springlake-earth,56,32,true,false
 w11-austin-classical-faith-academy,11,2026-11-07,austin-classical,faith-academy,,,false,false
 w11-austin-royals-jubilee-brownsville,11,2026-11-07,austin-royals,jubilee-brownsville,50,0,true,false
-w11-baytown-christian-san-marcos-academy,11,2026-11-07,baytown-christian,san-marcos-academy,,,false,false
+w11-baytown-christian-san-marcos-academy,11,2026-11-07,baytown-christian,san-marcos-academy,8,54,false,false
 w11-covenant-classical-coram-deo,11,2026-11-07,covenant-classical,coram-deo,,,false,false
-w11-faith-academy-first-baptist-christian,11,2026-11-07,faith-academy,first-baptist-christian,,,false,false
+w11-faith-academy-first-baptist-christian,11,2026-11-07,faith-academy,first-baptist-christian,48,50,false,false
 w11-hill-country-christian-summit-christian,11,2026-11-07,hill-country-christian,summit-christian,,,false,false
 w11-lone-star-north-weatherford-christian,11,2026-11-07,lone-star-north,weatherford-christian,,,false,false
-w11-tyler-heat-el-paso-leadership,11,2026-11-07,tyler-heat,el-paso-leadership,,,true,false
+w11-tyler-heat-el-paso-leadership,11,2026-11-07,tyler-heat,el-paso-leadership,52,6,true,false
 w11-vanguard-college-prep-trinity-school-of-texas,11,2026-11-07,vanguard-college-prep,trinity-school-of-texas,,,false,false
+w12-grandfalls-royalty-dell-city,12,2026-11-12,grandfalls-royalty,dell-city,,,false,false
 w12-northside-gordon,12,2026-11-12,northside,gordon,,,false,false
 w12-robert-lee-water-valley,12,2026-11-12,robert-lee,water-valley,,,false,false
 w12-woodson-knox-city,12,2026-11-12,woodson,knox-city,,,false,false
@@ -1354,6 +1355,7 @@ w12-happy-hermleigh,12,2026-11-13,happy,hermleigh,,,false,false
 w12-iredell-mount-calm,12,2026-11-13,iredell,mount-calm,,,false,true
 w12-jayton-kress,12,2026-11-13,jayton,kress,,,false,false
 w12-lubbock-titans-texas-wind,12,2026-11-13,lubbock-titans,texas-wind,,,true,true
+w12-meadow-hart,12,2026-11-13,meadow,hart,,,false,false
 w12-motley-county-divine-savior,12,2026-11-13,motley-county,divine-savior,,,false,false
 w12-panther-creek-richland-springs,12,2026-11-13,panther-creek,richland-springs,,,false,false
 w12-rankin-klondike,12,2026-11-13,rankin,klondike,,,false,false
@@ -1361,3 +1363,7 @@ w12-union-hill-abbott,12,2026-11-13,union-hill,abbott,,,false,false
 w12-valley-mclean,12,2026-11-13,valley,mclean,,,false,false
 w12-victoria-gators-new-braunfels-spartans,12,2026-11-13,victoria-gators,new-braunfels-spartans,,,true,false
 w12-azle-christian-victory-christian,12,2026-11-14,azle-christian,victory-christian,,,true,true
+w12-bracken-christian-alpha-omega,12,2026-11-14,bracken-christian,alpha-omega,,,false,true
+w12-first-baptist-christian-emery-weiner,12,2026-11-14,first-baptist-christian,emery-weiner,,,true,true
+w12-san-marcos-academy-valor-prep,12,2026-11-14,san-marcos-academy,valor-prep,,,true,true
+w12-thesa-tyler-heat,12,2026-11-14,thesa,tyler-heat,,,true,false

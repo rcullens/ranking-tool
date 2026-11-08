@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1794094780,a172896decaf9728a399617d4e18c989"
+	data-csrf="1794118646,4d571813cc4cc4ba76d5ae77459b2c00"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1794094780,a172896decaf9728a399617d4e18c989',
+				csrf: '1794118646,4d571813cc4cc4ba76d5ae77459b2c00',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=2dbe0dd3":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1794094780,
-					today: 1794031200,
-					todayDow: 6,
-					tomorrow: 1794117600,
-					yesterday: 1793944800,
-					week: 1793509200,
+					now: 1794118646,
+					today: 1794117600,
+					todayDow: 0,
+					tomorrow: 1794204000,
+					yesterday: 1794031200,
+					week: 1793599200,
 					month: 1793509200,
 					year: 1767247200
 				},
@@ -1109,7 +1109,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1794094780,a172896decaf9728a399617d4e18c989" />
+									<input type="hidden" name="_xfToken" value="1794118646,4d571813cc4cc4ba76d5ae77459b2c00" />
 								</form>
 							</div>
 						
@@ -14772,7 +14772,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1794094780%2Ca172896decaf9728a399617d4e18c989"
+	<a href="/misc/style-variation?reset=1&amp;t=1794118646%2C4d571813cc4cc4ba76d5ae77459b2c00"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -14787,7 +14787,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1794094780%2Ca172896decaf9728a399617d4e18c989"
+	<a href="/misc/style-variation?variation=default&amp;t=1794118646%2C4d571813cc4cc4ba76d5ae77459b2c00"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -14802,7 +14802,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1794094780%2Ca172896decaf9728a399617d4e18c989"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1794118646%2C4d571813cc4cc4ba76d5ae77459b2c00"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -15002,7 +15002,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5702db9996d4b25',t:'MTc5NDA5NDc4MA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5702db9996d4b25',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5727465085d6fb5',t:'MTc5NDExODY0Ng=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5727465085d6fb5',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
