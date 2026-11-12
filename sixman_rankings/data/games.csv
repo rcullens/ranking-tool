@@ -332,7 +332,7 @@ w03-boys-ranch-whitharral,3,2026-09-11,boys-ranch,whitharral,58,8,false,false
 w03-bronte-veribest,3,2026-09-11,bronte,veribest,14,60,false,false
 w03-bruni-benavides,3,2026-09-11,bruni,benavides,12,26,false,false
 w03-buena-vista-grandfalls-royalty,3,2026-09-11,buena-vista,grandfalls-royalty,29,79,false,false
-w03-bynum-centex-homeschool,3,2026-09-11,bynum,centex-homeschool,0,30,false,false
+w03-bynum-centex-homeschool,3,2026-09-11,bynum,centex-homeschool,0,28,false,false
 w03-cherokee-iredell,3,2026-09-11,cherokee,iredell,76,50,false,false
 w03-chillicothe-rule,3,2026-09-11,chillicothe,rule,52,7,false,false
 w03-coastal-christian-jubilee-brownsville,3,2026-09-11,coastal-christian,jubilee-brownsville,13,52,true,false
@@ -546,7 +546,7 @@ w04-valor-south-austin-st-marys-taylor,4,2026-09-18,valor-south-austin,st-marys-
 w04-veribest-blackwell,4,2026-09-18,veribest,blackwell,63,96,false,false
 w04-victoria-cobras-bruni,4,2026-09-18,victoria-cobras,bruni,56,6,false,false
 w04-victoria-gators-bruni,4,2026-09-18,victoria-gators,bruni,56,6,false,false
-w04-waco-christian-bynum,4,2026-09-18,waco-christian,bynum,71,54,false,false
+w04-waco-christian-bynum,4,2026-09-18,waco-christian,bynum,68,46,false,false
 w04-walnut-springs-lingleville,4,2026-09-18,walnut-springs,lingleville,0,46,false,false
 w04-weatherford-christian-temple-christian,4,2026-09-18,weatherford-christian,temple-christian,49,0,false,false
 w04-wellman-union-highland,4,2026-09-18,wellman-union,highland,50,33,false,false
@@ -822,7 +822,7 @@ w07-booker-claude,7,2026-10-09,booker,claude,0,48,true,false
 w07-borden-county-odonnell,7,2026-10-09,borden-county,odonnell,72,16,true,false
 w07-bracken-christian-lone-star-southeast,7,2026-10-09,bracken-christian,lone-star-southeast,,,true,false
 w07-brookesmith-rochelle,7,2026-10-09,brookesmith,rochelle,38,71,true,false
-w07-bynum-oakwood,7,2026-10-09,bynum,oakwood,0,45,true,false
+w07-bynum-oakwood,7,2026-10-09,bynum,oakwood,0,42,true,false
 w07-cherokee-richland-springs,7,2026-10-09,cherokee,richland-springs,52,76,true,false
 w07-christian-heritage-longview-trinity-school-of-texas,7,2026-10-09,christian-heritage-longview,trinity-school-of-texas,56,44,true,false
 w07-covenant-christian-brazos-valley-lions,7,2026-10-09,covenant-christian,brazos-valley-lions,,,false,false
@@ -893,7 +893,7 @@ w07-veribest-eden,7,2026-10-09,veribest,eden,,,true,false
 w07-victoria-cobras-jubilee-brownsville,7,2026-10-09,victoria-cobras,jubilee-brownsville,48,45,false,false
 w07-victory-christian-benjamin,7,2026-10-09,victory-christian,benjamin,45,0,false,false
 w07-water-valley-menard,7,2026-10-09,water-valley,menard,,,true,false
-w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,60,6,true,false
+w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,,,true,false
 w07-west-texas-tornadoes-pchea,7,2026-10-09,west-texas-tornadoes,pchea,39,29,false,false
 w07-wylie-prep-prestonwood-north,7,2026-10-09,wylie-prep,prestonwood-north,76,38,true,false
 w07-bronte-highland,7,2026-10-10,bronte,highland,28,69,true,false
@@ -939,7 +939,7 @@ w08-dallas-academy-faustina,8,2026-10-16,dallas-academy,faustina,0,47,true,false
 w08-davinci-new-braunfels-thunder,8,2026-10-16,davinci,new-braunfels-thunder,52,0,false,false
 w08-davinci-north-star,8,2026-10-16,davinci,north-star,54,12,false,false
 w08-eden-menard,8,2026-10-16,eden,menard,0,1,true,false
-w08-fannindel-bynum,8,2026-10-16,fannindel,bynum,50,0,true,false
+w08-fannindel-bynum,8,2026-10-16,fannindel,bynum,49,0,true,false
 w08-fort-davis-marfa,8,2026-10-16,fort-davis,marfa,,,true,false
 w08-fort-hancock-grady,8,2026-10-16,fort-hancock,grady,0,62,true,false
 w08-founders-christian-divine-savior,8,2026-10-16,founders-christian,divine-savior,46,0,true,false
@@ -1046,7 +1046,7 @@ w09-covenant-classical-trinity-school-of-texas,9,2026-10-23,covenant-classical,t
 w09-covington-avalon,9,2026-10-23,covington,avalon,66,57,true,false
 w09-cranfills-gap-three-way,9,2026-10-23,cranfills-gap,three-way,6,53,true,false
 w09-davinci-town-east-christian,9,2026-10-23,davinci,town-east-christian,20,18,false,false
-w09-dawson-southland,9,2026-10-23,dawson,southland,28,36,true,false
+w09-dawson-southland,9,2026-10-23,dawson,southland,,,true,false
 w09-faustina-methodist-childrens-home,9,2026-10-23,faustina,methodist-childrens-home,56,6,true,false
 w09-first-baptist-christian-logos-prep,9,2026-10-23,first-baptist-christian,logos-prep,56,6,true,false
 w09-forestburg-woodson,9,2026-10-23,forestburg,woodson,38,75,true,false
@@ -1158,7 +1158,7 @@ w10-bronte-santa-anna,10,2026-10-30,bronte,santa-anna,34,30,true,false
 w10-bruni-knippa,10,2026-10-30,bruni,knippa,0,46,true,false
 w10-bryson-northside,10,2026-10-30,bryson,northside,78,116,true,false
 w10-buckholts-high-island,10,2026-10-30,buckholts,high-island,63,18,true,false
-w10-bynum-mount-calm,10,2026-10-30,bynum,mount-calm,6,61,true,false
+w10-bynum-mount-calm,10,2026-10-30,bynum,mount-calm,6,60,true,false
 w10-cherokee-brookesmith,10,2026-10-30,cherokee,brookesmith,46,0,true,false
 w10-chillicothe-motley-county,10,2026-10-30,chillicothe,motley-county,6,54,true,false
 w10-coram-deo-vanguard-college-prep,10,2026-10-30,coram-deo,vanguard-college-prep,60,66,true,false
@@ -1324,7 +1324,7 @@ w11-southland-loop,11,2026-11-06,southland,loop,49,72,true,false
 w11-three-way-iredell,11,2026-11-06,three-way,iredell,56,46,true,false
 w11-town-east-christian-victoria-cobras,11,2026-11-06,town-east-christian,victoria-cobras,60,6,true,false
 w11-trent-panther-creek,11,2026-11-06,trent,panther-creek,14,66,true,false
-w11-trinidad-bynum,11,2026-11-06,trinidad,bynum,48,0,true,false
+w11-trinidad-bynum,11,2026-11-06,trinidad,bynum,52,0,true,false
 w11-valor-south-austin-compass-rose,11,2026-11-06,valor-south-austin,compass-rose,,,true,false
 w11-whitharral-springlake-earth,11,2026-11-06,whitharral,springlake-earth,56,32,true,false
 w11-austin-classical-faith-academy,11,2026-11-07,austin-classical,faith-academy,14,59,false,false
@@ -1344,18 +1344,19 @@ w12-menard-highland,12,2026-11-12,menard,highland,,,false,false
 w12-milford-saint-jo,12,2026-11-12,milford,saint-jo,,,false,true
 w12-northside-gordon,12,2026-11-12,northside,gordon,,,false,false
 w12-rankin-klondike,12,2026-11-12,rankin,klondike,,,false,false
-w12-robert-lee-water-valley,12,2026-11-12,robert-lee,water-valley,,,false,true
+w12-robert-lee-water-valley,12,2026-11-12,robert-lee,water-valley,,,false,false
 w12-rocksprings-marfa,12,2026-11-12,rocksprings,marfa,,,false,false
-w12-sidney-zephyr,12,2026-11-12,sidney,zephyr,,,false,true
-w12-strawn-gustine,12,2026-11-12,strawn,gustine,,,false,true
+w12-strawn-gustine,12,2026-11-12,strawn,gustine,,,false,false
 w12-woodson-knox-city,12,2026-11-12,woodson,knox-city,,,false,false
+w12-zephyr-sidney,12,2026-11-12,zephyr,sidney,,,false,true
 w12-arlington-heights-christian-divine-savior,12,2026-11-13,arlington-heights-christian,divine-savior,,,false,false
 w12-arlington-heights-christian-town-east-christian,12,2026-11-13,arlington-heights-christian,town-east-christian,,,true,false
+w12-azle-christian-victory-christian,12,2026-11-13,azle-christian,victory-christian,,,true,true
 w12-blackwell-cherokee,12,2026-11-13,blackwell,cherokee,,,false,false
+w12-bluff-dale-campbell,12,2026-11-13,bluff-dale,campbell,,,false,true
 w12-borden-county-grady,12,2026-11-13,borden-county,grady,,,false,false
 w12-boys-ranch-nazareth,12,2026-11-13,boys-ranch,nazareth,,,false,false
 w12-brazos-valley-lions-nyos,12,2026-11-13,brazos-valley-lions,nyos,,,true,false
-w12-campbell-bluff-dale,12,2026-11-13,campbell,bluff-dale,,,false,true
 w12-centex-homeschool-davinci,12,2026-11-13,centex-homeschool,davinci,,,false,true
 w12-chester-aquilla,12,2026-11-13,chester,aquilla,,,false,false
 w12-claude-whiteface,12,2026-11-13,claude,whiteface,,,false,false
@@ -1377,7 +1378,6 @@ w12-valley-mclean,12,2026-11-13,valley,mclean,,,false,false
 w12-victoria-gators-new-braunfels-spartans,12,2026-11-13,victoria-gators,new-braunfels-spartans,,,true,false
 w12-wellman-union-anton,12,2026-11-13,wellman-union,anton,,,false,false
 w12-apple-springs-benavides,12,2026-11-14,apple-springs,benavides,,,false,true
-w12-azle-christian-victory-christian,12,2026-11-14,azle-christian,victory-christian,,,true,true
 w12-bracken-christian-alpha-omega,12,2026-11-14,bracken-christian,alpha-omega,,,false,true
 w12-covenant-classical-vanguard-college-prep,12,2026-11-14,covenant-classical,vanguard-college-prep,,,false,true
 w12-first-baptist-christian-emery-weiner,12,2026-11-14,first-baptist-christian,emery-weiner,,,true,true
@@ -1385,3 +1385,6 @@ w12-greenville-christian-christ-the-king,12,2026-11-14,greenville-christian,chri
 w12-hill-country-christian-allen-academy,12,2026-11-14,hill-country-christian,allen-academy,,,false,true
 w12-lubbock-titans-texas-wind,12,2026-11-14,lubbock-titans,texas-wind,,,true,true
 w12-thesa-tyler-heat,12,2026-11-14,thesa,tyler-heat,,,true,false
+w13-arlington-heights-christian-divine-savior,13,2026-11-20,arlington-heights-christian,divine-savior,,,false,false
+w13-divine-savior-lingleville,13,2026-11-20,divine-savior,lingleville,,,false,false
+w13-first-baptist-christian-divine-savior,13,2026-11-20,first-baptist-christian,divine-savior,,,false,false
