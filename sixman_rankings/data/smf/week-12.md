@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1794552989,4d379ccc8454b56afca153153b6cd3e3"
+	data-csrf="1794605221,91ab771afa23ad50ae164e2744a12eb9"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1794552989,4d379ccc8454b56afca153153b6cd3e3',
+				csrf: '1794605221,91ab771afa23ad50ae164e2744a12eb9',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=884f133a":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1794552989,
+					now: 1794605221,
 					today: 1794549600,
 					todayDow: 5,
 					tomorrow: 1794636000,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1794552989,4d379ccc8454b56afca153153b6cd3e3" />
+									<input type="hidden" name="_xfToken" value="1794605221,91ab771afa23ad50ae164e2744a12eb9" />
 								</form>
 							</div>
 						
@@ -2417,7 +2417,7 @@
 			</div>
 		</div>
 		<div class="contentRow-score winning">
-			40
+			1
 		</div>
 	</div>
 
@@ -3892,6 +3892,112 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
+					<img src="/data/sixman/teamlogo/s/1/1608.jpg?1778027547" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#6</span>
+		
+	
+	
+		
+			<a href="/teams/union-hill-bulldogs.1608/schedule/2026/">Union Hill</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Bulldogs
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-union-hill-vs-abbott.39389/">
+							7:00 - Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1001.jpg?1768715427" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#34</span>
+		
+	
+	
+		
+			<a href="/teams/abbott-panthers.1001/schedule/2026/">Abbott</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Panthers
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
 					<img src="/data/sixman/teamlogo/s/2/2356.jpg?1778074127" loading="lazy" />
 				
 			</span>
@@ -4292,112 +4398,6 @@
 			</div>
 			<div class="team-mascot">
 				Swifts
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1608.jpg?1778027547" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#6</span>
-		
-	
-	
-		
-			<a href="/teams/union-hill-bulldogs.1608/schedule/2026/">Union Hill</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Bulldogs
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-union-hill-vs-abbott.39389/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1001.jpg?1768715427" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#34</span>
-		
-	
-	
-		
-			<a href="/teams/abbott-panthers.1001/schedule/2026/">Abbott</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Panthers
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -7786,7 +7786,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1794552989%2C4d379ccc8454b56afca153153b6cd3e3"
+	<a href="/misc/style-variation?reset=1&amp;t=1794605221%2C91ab771afa23ad50ae164e2744a12eb9"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -7801,7 +7801,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1794552989%2C4d379ccc8454b56afca153153b6cd3e3"
+	<a href="/misc/style-variation?variation=default&amp;t=1794605221%2C91ab771afa23ad50ae164e2744a12eb9"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -7816,7 +7816,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1794552989%2C4d379ccc8454b56afca153153b6cd3e3"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1794605221%2C91ab771afa23ad50ae164e2744a12eb9"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -8016,7 +8016,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59be07afa445042',t:'MTc5NDU1Mjk4OQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59be07afa445042',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5a0dba7dae47c92',t:'MTc5NDYwNTIyMQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5a0dba7dae47c92',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
