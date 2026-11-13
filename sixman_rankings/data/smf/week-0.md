@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1794537589,82ef8e61a2ddb1cf543bb16865a896fa"
+	data-csrf="1794552985,a368c0484510f3e5790c8b480259aa19"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1794537589,82ef8e61a2ddb1cf543bb16865a896fa',
+				csrf: '1794552985,a368c0484510f3e5790c8b480259aa19',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=884f133a":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1794537589,
-					today: 1794463200,
-					todayDow: 4,
-					tomorrow: 1794549600,
-					yesterday: 1794376800,
-					week: 1793944800,
+					now: 1794552985,
+					today: 1794549600,
+					todayDow: 5,
+					tomorrow: 1794636000,
+					yesterday: 1794463200,
+					week: 1794031200,
 					month: 1793509200,
 					year: 1767247200
 				},
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1794537589,82ef8e61a2ddb1cf543bb16865a896fa" />
+									<input type="hidden" name="_xfToken" value="1794552985,a368c0484510f3e5790c8b480259aa19" />
 								</form>
 							</div>
 						
@@ -1497,6 +1497,8 @@
 						<a class="tabs-tab" href="/scores/2026/week-11/">Week 11</a>
 					
 						<a class="tabs-tab" href="/scores/2026/week-12/">Week 12</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-13/">Week 13</a>
 					
 				</span>
 			</div>
@@ -3202,7 +3204,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1794537589%2C82ef8e61a2ddb1cf543bb16865a896fa"
+	<a href="/misc/style-variation?reset=1&amp;t=1794552985%2Ca368c0484510f3e5790c8b480259aa19"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -3217,7 +3219,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1794537589%2C82ef8e61a2ddb1cf543bb16865a896fa"
+	<a href="/misc/style-variation?variation=default&amp;t=1794552985%2Ca368c0484510f3e5790c8b480259aa19"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -3232,7 +3234,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1794537589%2C82ef8e61a2ddb1cf543bb16865a896fa"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1794552985%2Ca368c0484510f3e5790c8b480259aa19"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -3432,7 +3434,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59a687acbb78ce1',t:'MTc5NDUzNzU4OA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59a687acbb78ce1',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59be06179ba3eea',t:'MTc5NDU1Mjk4NQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59be06179ba3eea',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

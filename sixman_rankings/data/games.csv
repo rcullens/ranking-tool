@@ -1,4 +1,5 @@
 game_id,week,date,home_id,away_id,home_score,away_score,district_game,neutral
+w00-harrold-zephyr,0,1900-01-01,harrold,zephyr,,,false,true
 w00-rankin-klondike,0,2026-08-13,rankin,klondike,,,false,false
 w00-spur-loop,0,2026-08-13,spur,loop,,,false,false
 w00-anton-petersburg,0,2026-08-14,anton,petersburg,,,false,false
@@ -893,7 +894,7 @@ w07-veribest-eden,7,2026-10-09,veribest,eden,,,true,false
 w07-victoria-cobras-jubilee-brownsville,7,2026-10-09,victoria-cobras,jubilee-brownsville,48,45,false,false
 w07-victory-christian-benjamin,7,2026-10-09,victory-christian,benjamin,45,0,false,false
 w07-water-valley-menard,7,2026-10-09,water-valley,menard,,,true,false
-w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,60,6,true,false
+w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,,,true,false
 w07-west-texas-tornadoes-pchea,7,2026-10-09,west-texas-tornadoes,pchea,39,29,false,false
 w07-wylie-prep-prestonwood-north,7,2026-10-09,wylie-prep,prestonwood-north,76,38,true,false
 w07-bronte-highland,7,2026-10-10,bronte,highland,28,69,true,false
@@ -1046,7 +1047,7 @@ w09-covenant-classical-trinity-school-of-texas,9,2026-10-23,covenant-classical,t
 w09-covington-avalon,9,2026-10-23,covington,avalon,66,57,true,false
 w09-cranfills-gap-three-way,9,2026-10-23,cranfills-gap,three-way,6,53,true,false
 w09-davinci-town-east-christian,9,2026-10-23,davinci,town-east-christian,20,18,false,false
-w09-dawson-southland,9,2026-10-23,dawson,southland,,,true,false
+w09-dawson-southland,9,2026-10-23,dawson,southland,28,36,true,false
 w09-faustina-methodist-childrens-home,9,2026-10-23,faustina,methodist-childrens-home,56,6,true,false
 w09-first-baptist-christian-logos-prep,9,2026-10-23,first-baptist-christian,logos-prep,56,6,true,false
 w09-forestburg-woodson,9,2026-10-23,forestburg,woodson,38,75,true,false
@@ -1248,6 +1249,7 @@ w11-buena-vista-rankin,11,2026-11-05,buena-vista,rankin,0,50,true,false
 w11-burkeville-union-hill,11,2026-11-05,burkeville,union-hill,14,70,true,false
 w11-campbell-fruitvale,11,2026-11-05,campbell,fruitvale,,,true,false
 w11-cranfills-gap-walnut-springs,11,2026-11-05,cranfills-gap,walnut-springs,48,0,true,false
+w11-dawson-meadow,11,2026-11-05,dawson,meadow,,,true,false
 w11-eden-irion-county,11,2026-11-05,eden,irion-county,,,true,false
 w11-fort-hancock-garden-city,11,2026-11-05,fort-hancock,garden-city,21,70,true,false
 w11-guthrie-valley,11,2026-11-05,guthrie,valley,0,48,true,false
@@ -1279,7 +1281,6 @@ w11-christ-the-king-trinity-school-of-texas,11,2026-11-06,christ-the-king,trinit
 w11-claude-white-deer,11,2026-11-06,claude,white-deer,68,20,true,false
 w11-coolidge-gholson,11,2026-11-06,coolidge,gholson,1,0,true,false
 w11-crowell-chillicothe,11,2026-11-06,crowell,chillicothe,94,76,true,false
-w11-dawson-meadow,11,2026-11-06,dawson,meadow,8,54,true,false
 w11-fort-davis-sierra-blanca,11,2026-11-06,fort-davis,sierra-blanca,0,1,true,false
 w11-grayson-christian-hill-country-knights,11,2026-11-06,grayson-christian,hill-country-knights,54,6,false,false
 w11-happy-kress,11,2026-11-06,happy,kress,68,50,true,false
@@ -1336,7 +1337,7 @@ w11-hill-country-christian-summit-christian,11,2026-11-07,hill-country-christian
 w11-lone-star-north-weatherford-christian,11,2026-11-07,lone-star-north,weatherford-christian,58,13,false,false
 w11-tyler-heat-el-paso-leadership,11,2026-11-07,tyler-heat,el-paso-leadership,52,6,true,false
 w11-vanguard-college-prep-trinity-school-of-texas,11,2026-11-07,vanguard-college-prep,trinity-school-of-texas,46,0,false,false
-w12-benjamin-harrold,12,2026-11-12,benjamin,harrold,,,false,true
+w12-benjamin-harrold,12,2026-11-12,benjamin,harrold,46,48,false,true
 w12-calvert-runge,12,2026-11-12,calvert,runge,,,false,true
 w12-grandfalls-royalty-dell-city,12,2026-11-12,grandfalls-royalty,dell-city,,,false,false
 w12-jonesboro-medina,12,2026-11-12,jonesboro,medina,14,60,false,true
@@ -1346,9 +1347,9 @@ w12-northside-gordon,12,2026-11-12,northside,gordon,,,false,false
 w12-rankin-klondike,12,2026-11-12,rankin,klondike,,,false,false
 w12-robert-lee-water-valley,12,2026-11-12,robert-lee,water-valley,,,false,false
 w12-rocksprings-marfa,12,2026-11-12,rocksprings,marfa,,,false,false
-w12-sidney-zephyr,12,2026-11-12,sidney,zephyr,,,false,true
+w12-sidney-zephyr,12,2026-11-12,sidney,zephyr,42,48,false,true
 w12-strawn-gustine,12,2026-11-12,strawn,gustine,,,false,false
-w12-woodson-knox-city,12,2026-11-12,woodson,knox-city,,,false,false
+w12-woodson-knox-city,12,2026-11-12,woodson,knox-city,28,76,false,false
 w12-arlington-heights-christian-divine-savior,12,2026-11-13,arlington-heights-christian,divine-savior,,,false,false
 w12-arlington-heights-christian-town-east-christian,12,2026-11-13,arlington-heights-christian,town-east-christian,,,true,false
 w12-azle-christian-victory-christian,12,2026-11-13,azle-christian,victory-christian,,,true,true
@@ -1365,9 +1366,10 @@ w12-fannindel-three-way,12,2026-11-13,fannindel,three-way,,,false,true
 w12-happy-hermleigh,12,2026-11-13,happy,hermleigh,,,false,false
 w12-iredell-mount-calm,12,2026-11-13,iredell,mount-calm,,,false,true
 w12-jayton-kress,12,2026-11-13,jayton,kress,,,false,false
-w12-lefors-motley-county,12,2026-11-13,lefors,motley-county,,,false,true
 w12-may-newcastle,12,2026-11-13,may,newcastle,,,false,false
 w12-meadow-hart,12,2026-11-13,meadow,hart,,,false,false
+w12-motley-county-divine-savior,12,2026-11-13,motley-county,divine-savior,,,false,false
+w12-motley-county-lefors,12,2026-11-13,motley-county,lefors,,,false,true
 w12-oglesby-knippa,12,2026-11-13,oglesby,knippa,,,false,false
 w12-panther-creek-richland-springs,12,2026-11-13,panther-creek,richland-springs,,,false,false
 w12-san-marcos-academy-valor-prep,12,2026-11-13,san-marcos-academy,valor-prep,,,true,true
@@ -1386,4 +1388,3 @@ w12-lubbock-titans-texas-wind,12,2026-11-14,lubbock-titans,texas-wind,,,true,tru
 w12-thesa-tyler-heat,12,2026-11-14,thesa,tyler-heat,,,true,false
 w13-arlington-heights-christian-divine-savior,13,2026-11-20,arlington-heights-christian,divine-savior,,,false,false
 w13-divine-savior-lingleville,13,2026-11-20,divine-savior,lingleville,,,false,false
-w13-first-baptist-christian-divine-savior,13,2026-11-20,first-baptist-christian,divine-savior,,,false,false
