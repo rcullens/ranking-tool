@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1794638543,707741f5bf9cbd6791bc9c89cd520212"
+	data-csrf="1794686243,21eb65693eba6e978a60ee75473dd3b0"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1794638543,707741f5bf9cbd6791bc9c89cd520212',
+				csrf: '1794686243,21eb65693eba6e978a60ee75473dd3b0',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=884f133a":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1794638543,
+					now: 1794686243,
 					today: 1794636000,
 					todayDow: 6,
 					tomorrow: 1794722400,
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1794638543,707741f5bf9cbd6791bc9c89cd520212" />
+									<input type="hidden" name="_xfToken" value="1794686243,21eb65693eba6e978a60ee75473dd3b0" />
 								</form>
 							</div>
 						
@@ -12642,7 +12642,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1794638543%2C707741f5bf9cbd6791bc9c89cd520212"
+	<a href="/misc/style-variation?reset=1&amp;t=1794686243%2C21eb65693eba6e978a60ee75473dd3b0"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -12657,7 +12657,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1794638543%2C707741f5bf9cbd6791bc9c89cd520212"
+	<a href="/misc/style-variation?variation=default&amp;t=1794686243%2C21eb65693eba6e978a60ee75473dd3b0"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -12672,7 +12672,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1794638543%2C707741f5bf9cbd6791bc9c89cd520212"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1794686243%2C21eb65693eba6e978a60ee75473dd3b0"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -12872,7 +12872,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5a40930f8bb9422',t:'MTc5NDYzODU0Mw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5a40930f8bb9422',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5a895be3fdae166',t:'MTc5NDY4NjI0Mw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5a895be3fdae166',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

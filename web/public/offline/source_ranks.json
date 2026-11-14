@@ -1,6 +1,6 @@
 {
   "week": 12,
-  "pulled_at": "2026-11-14T00:42:49.454666-06:00",
+  "pulled_at": "2026-11-14T13:57:50.121050-06:00",
   "note": "External ranks are each source's published board (MaxPreps division standing; SMF / DCTF polls). Delta = our statewide rank minus theirs. NR / \u2014 means that source has not listed the team.",
   "sources": {
     "maxpreps": {
@@ -16,7 +16,7 @@
       "week": "Week 11",
       "label": "SixManFootball",
       "error": null,
-      "count": 199,
+      "count": 200,
       "via": "direct"
     },
     "dctf": {
@@ -503,10 +503,10 @@
       "region": "tapps",
       "our_rank": 32,
       "maxpreps": 1,
-      "smf": 1,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 31,
-      "delta_smf": 31,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -608,10 +608,10 @@
       "region": "tapps",
       "our_rank": 39,
       "maxpreps": 3,
-      "smf": null,
+      "smf": 3,
       "dctf": null,
       "delta_maxpreps": 36,
-      "delta_smf": null,
+      "delta_smf": 36,
       "delta_dctf": null
     },
     {
@@ -953,10 +953,10 @@
       "region": "tapps",
       "our_rank": 62,
       "maxpreps": 1,
-      "smf": null,
+      "smf": 3,
       "dctf": null,
       "delta_maxpreps": 61,
-      "delta_smf": null,
+      "delta_smf": 59,
       "delta_dctf": null
     },
     {
@@ -1073,10 +1073,10 @@
       "region": "tapps",
       "our_rank": 70,
       "maxpreps": 1,
-      "smf": null,
+      "smf": 1,
       "dctf": null,
       "delta_maxpreps": 69,
-      "delta_smf": null,
+      "delta_smf": 69,
       "delta_dctf": null
     },
     {
@@ -1598,10 +1598,10 @@
       "region": "taiao",
       "our_rank": 105,
       "maxpreps": null,
-      "smf": 1,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 104,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -1628,10 +1628,10 @@
       "region": "tapps",
       "our_rank": 107,
       "maxpreps": 7,
-      "smf": null,
+      "smf": 5,
       "dctf": null,
       "delta_maxpreps": 100,
-      "delta_smf": null,
+      "delta_smf": 102,
       "delta_dctf": null
     },
     {
@@ -1748,10 +1748,10 @@
       "region": "taiao",
       "our_rank": 115,
       "maxpreps": null,
-      "smf": null,
+      "smf": 11,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": null,
+      "delta_smf": 104,
       "delta_dctf": null
     },
     {
@@ -1838,10 +1838,10 @@
       "region": "taiao",
       "our_rank": 121,
       "maxpreps": null,
-      "smf": 17,
+      "smf": 1,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 104,
+      "delta_smf": 120,
       "delta_dctf": null
     },
     {
@@ -2078,10 +2078,10 @@
       "region": "tapps",
       "our_rank": 137,
       "maxpreps": null,
-      "smf": 3,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 134,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -2378,10 +2378,10 @@
       "region": "tapps",
       "our_rank": 157,
       "maxpreps": 8,
-      "smf": 11,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 149,
-      "delta_smf": 146,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -3128,10 +3128,10 @@
       "region": "tcaf",
       "our_rank": 207,
       "maxpreps": null,
-      "smf": 3,
+      "smf": 4,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 204,
+      "delta_smf": 203,
       "delta_dctf": null
     },
     {

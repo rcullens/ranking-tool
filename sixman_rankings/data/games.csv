@@ -10,7 +10,6 @@ w00-nazareth-hermleigh,0,1900-01-01,nazareth,hermleigh,,,false,true
 w00-newcastle-milford,0,1900-01-01,newcastle,milford,,,false,true
 w00-rankin-menard,0,1900-01-01,rankin,menard,,,false,true
 w00-rocksprings-blackwell,0,1900-01-01,rocksprings,blackwell,,,false,true
-w00-union-hill-oglesby,0,1900-01-01,union-hill,oglesby,,,false,true
 w00-valley-meadow,0,1900-01-01,valley,meadow,,,false,true
 w00-whiteface-jayton,0,1900-01-01,whiteface,jayton,,,false,true
 w00-rankin-klondike,0,2026-08-13,rankin,klondike,,,false,false
@@ -1371,7 +1370,6 @@ w12-bluff-dale-campbell,12,2026-11-13,bluff-dale,campbell,,,false,true
 w12-borden-county-grady,12,2026-11-13,borden-county,grady,48,0,false,false
 w12-boys-ranch-nazareth,12,2026-11-13,boys-ranch,nazareth,42,73,false,false
 w12-brazos-valley-lions-nyos,12,2026-11-13,brazos-valley-lions,nyos,51,50,true,false
-w12-centex-homeschool-davinci,12,2026-11-13,centex-homeschool,davinci,,,false,true
 w12-chester-aquilla,12,2026-11-13,chester,aquilla,65,73,false,false
 w12-claude-whiteface,12,2026-11-13,claude,whiteface,12,57,false,false
 w12-divine-savior-lingleville,12,2026-11-13,divine-savior,lingleville,,,false,false
@@ -1393,6 +1391,7 @@ w12-victoria-gators-new-braunfels-spartans,12,2026-11-13,victoria-gators,new-bra
 w12-wellman-union-anton,12,2026-11-13,wellman-union,anton,70,22,false,false
 w12-apple-springs-benavides,12,2026-11-14,apple-springs,benavides,,,false,true
 w12-bracken-christian-alpha-omega,12,2026-11-14,bracken-christian,alpha-omega,,,false,true
+w12-centex-homeschool-davinci,12,2026-11-14,centex-homeschool,davinci,,,false,true
 w12-covenant-classical-vanguard-college-prep,12,2026-11-14,covenant-classical,vanguard-college-prep,,,false,true
 w12-first-baptist-christian-emery-weiner,12,2026-11-14,first-baptist-christian,emery-weiner,,,true,true
 w12-greenville-christian-christ-the-king,12,2026-11-14,greenville-christian,christ-the-king,,,false,true
@@ -1404,3 +1403,4 @@ w13-borden-county-water-valley,13,2026-11-20,borden-county,water-valley,,,false,
 w13-brazos-valley-lions-victoria-gators,13,2026-11-20,brazos-valley-lions,victoria-gators,,,true,false
 w13-divine-savior-lingleville,13,2026-11-20,divine-savior,lingleville,,,false,false
 w13-motley-county-divine-savior,13,2026-11-20,motley-county,divine-savior,,,false,false
+w13-union-hill-oglesby,13,2026-11-20,union-hill,oglesby,,,false,true
