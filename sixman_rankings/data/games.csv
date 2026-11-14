@@ -1,5 +1,6 @@
 game_id,week,date,home_id,away_id,home_score,away_score,district_game,neutral
 w00-aquilla-medina,0,1900-01-01,aquilla,medina,,,false,true
+w00-fannindel-apple-springs,0,1900-01-01,fannindel,apple-springs,,,false,true
 w00-gordon-bluff-dale,0,1900-01-01,gordon,bluff-dale,,,false,true
 w00-grandfalls-royalty-richland-springs,0,1900-01-01,grandfalls-royalty,richland-springs,,,false,true
 w00-harrold-zephyr,0,1900-01-01,harrold,zephyr,,,false,true
@@ -695,7 +696,7 @@ w05-buckholts-texas-empowerment,5,2026-09-26,buckholts,texas-empowerment,38,33,f
 w05-fannindel-tyler-heat,5,2026-09-26,fannindel,tyler-heat,,,false,false
 w05-jubilee-brownsville-victoria-cobras,5,2026-09-26,jubilee-brownsville,victoria-cobras,45,0,false,true
 w05-richland-springs-emery-weiner,5,2026-09-26,richland-springs,emery-weiner,12,58,false,true
-w06-bluff-dale-oakwood,6,2026-10-01,bluff-dale,oakwood,,,false,false
+w06-bluff-dale-oakwood,6,2026-10-01,bluff-dale,oakwood,1,0,false,false
 w06-fannindel-wise-county-homeschool,6,2026-10-01,fannindel,wise-county-homeschool,62,6,false,false
 w06-groom-silverton,6,2026-10-01,groom,silverton,,,false,false
 w06-lohn-three-way,6,2026-10-01,lohn,three-way,6,54,false,false
@@ -906,7 +907,7 @@ w07-veribest-eden,7,2026-10-09,veribest,eden,,,true,false
 w07-victoria-cobras-jubilee-brownsville,7,2026-10-09,victoria-cobras,jubilee-brownsville,48,45,false,false
 w07-victory-christian-benjamin,7,2026-10-09,victory-christian,benjamin,45,0,false,false
 w07-water-valley-menard,7,2026-10-09,water-valley,menard,,,true,false
-w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,,,true,false
+w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,60,6,true,false
 w07-west-texas-tornadoes-pchea,7,2026-10-09,west-texas-tornadoes,pchea,39,29,false,false
 w07-wylie-prep-prestonwood-north,7,2026-10-09,wylie-prep,prestonwood-north,76,38,true,false
 w07-bronte-highland,7,2026-10-10,bronte,highland,28,69,true,false
@@ -1373,7 +1374,6 @@ w12-brazos-valley-lions-nyos,12,2026-11-13,brazos-valley-lions,nyos,51,50,true,f
 w12-chester-aquilla,12,2026-11-13,chester,aquilla,65,73,false,false
 w12-claude-whiteface,12,2026-11-13,claude,whiteface,12,57,false,false
 w12-divine-savior-lingleville,12,2026-11-13,divine-savior,lingleville,,,false,false
-w12-fannindel-three-way,12,2026-11-13,fannindel,three-way,61,59,false,true
 w12-happy-hermleigh,12,2026-11-13,happy,hermleigh,16,64,false,false
 w12-iredell-mount-calm,12,2026-11-13,iredell,mount-calm,14,64,false,true
 w12-jayton-kress,12,2026-11-13,jayton,kress,75,6,false,false
@@ -1385,11 +1385,12 @@ w12-oglesby-knippa,12,2026-11-13,oglesby,knippa,54,8,false,false
 w12-panther-creek-richland-springs,12,2026-11-13,panther-creek,richland-springs,53,98,false,false
 w12-san-marcos-academy-valor-prep,12,2026-11-13,san-marcos-academy,valor-prep,16,62,true,true
 w12-stephenville-faith-grayson-christian,12,2026-11-13,stephenville-faith,grayson-christian,94,48,true,false
+w12-three-way-fannindel,12,2026-11-13,three-way,fannindel,59,61,false,true
 w12-union-hill-abbott,12,2026-11-13,union-hill,abbott,80,30,false,false
 w12-valley-mclean,12,2026-11-13,valley,mclean,72,60,false,false
 w12-victoria-gators-new-braunfels-spartans,12,2026-11-13,victoria-gators,new-braunfels-spartans,,,true,false
 w12-wellman-union-anton,12,2026-11-13,wellman-union,anton,70,22,false,false
-w12-apple-springs-benavides,12,2026-11-14,apple-springs,benavides,,,false,true
+w12-apple-springs-benavides,12,2026-11-14,apple-springs,benavides,54,24,false,true
 w12-bracken-christian-alpha-omega,12,2026-11-14,bracken-christian,alpha-omega,,,false,true
 w12-centex-homeschool-davinci,12,2026-11-14,centex-homeschool,davinci,,,false,true
 w12-covenant-classical-vanguard-college-prep,12,2026-11-14,covenant-classical,vanguard-college-prep,,,false,true
@@ -1402,5 +1403,4 @@ w13-arlington-heights-christian-divine-savior,13,2026-11-20,arlington-heights-ch
 w13-borden-county-water-valley,13,2026-11-20,borden-county,water-valley,,,false,true
 w13-brazos-valley-lions-victoria-gators,13,2026-11-20,brazos-valley-lions,victoria-gators,,,true,false
 w13-divine-savior-lingleville,13,2026-11-20,divine-savior,lingleville,,,false,false
-w13-motley-county-divine-savior,13,2026-11-20,motley-county,divine-savior,,,false,false
 w13-union-hill-oglesby,13,2026-11-20,union-hill,oglesby,,,false,true
