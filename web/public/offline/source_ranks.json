@@ -1,6 +1,6 @@
 {
   "week": 12,
-  "pulled_at": "2026-11-13T15:27:20.221818-06:00",
+  "pulled_at": "2026-11-13T20:29:51.518653-06:00",
   "note": "External ranks are each source's published board (MaxPreps division standing; SMF / DCTF polls). Delta = our statewide rank minus theirs. NR / \u2014 means that source has not listed the team.",
   "sources": {
     "maxpreps": {
@@ -16,7 +16,7 @@
       "week": "Week 11",
       "label": "SixManFootball",
       "error": null,
-      "count": 199,
+      "count": 198,
       "via": "direct"
     },
     "dctf": {
@@ -503,10 +503,10 @@
       "region": "tapps",
       "our_rank": 32,
       "maxpreps": 1,
-      "smf": 1,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 31,
-      "delta_smf": 31,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -593,10 +593,10 @@
       "region": "tapps",
       "our_rank": 38,
       "maxpreps": 3,
-      "smf": null,
+      "smf": 3,
       "dctf": null,
       "delta_maxpreps": 35,
-      "delta_smf": null,
+      "delta_smf": 35,
       "delta_dctf": null
     },
     {
@@ -938,10 +938,10 @@
       "region": "tapps",
       "our_rank": 61,
       "maxpreps": 1,
-      "smf": null,
+      "smf": 3,
       "dctf": null,
       "delta_maxpreps": 60,
-      "delta_smf": null,
+      "delta_smf": 58,
       "delta_dctf": null
     },
     {
@@ -1073,10 +1073,10 @@
       "region": "tapps",
       "our_rank": 70,
       "maxpreps": 3,
-      "smf": 1,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 67,
-      "delta_smf": 69,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -1313,10 +1313,10 @@
       "region": "tapps",
       "our_rank": 86,
       "maxpreps": 2,
-      "smf": 4,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 84,
-      "delta_smf": 82,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -1388,10 +1388,10 @@
       "region": "tapps",
       "our_rank": 91,
       "maxpreps": 5,
-      "smf": null,
+      "smf": 8,
       "dctf": null,
       "delta_maxpreps": 86,
-      "delta_smf": null,
+      "delta_smf": 83,
       "delta_dctf": null
     },
     {
@@ -1628,10 +1628,10 @@
       "region": "taiao",
       "our_rank": 107,
       "maxpreps": null,
-      "smf": null,
+      "smf": 1,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": null,
+      "delta_smf": 106,
       "delta_dctf": null
     },
     {
@@ -1823,10 +1823,10 @@
       "region": "tapps",
       "our_rank": 120,
       "maxpreps": 1,
-      "smf": 11,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 119,
-      "delta_smf": 109,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -1898,10 +1898,10 @@
       "region": "taiao",
       "our_rank": 125,
       "maxpreps": null,
-      "smf": 17,
+      "smf": 1,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 108,
+      "delta_smf": 124,
       "delta_dctf": null
     },
     {
@@ -2123,10 +2123,10 @@
       "region": "tapps",
       "our_rank": 140,
       "maxpreps": null,
-      "smf": 3,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 137,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -2993,10 +2993,10 @@
       "region": "taiao",
       "our_rank": 198,
       "maxpreps": null,
-      "smf": null,
+      "smf": 4,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": null,
+      "delta_smf": 194,
       "delta_dctf": null
     },
     {
@@ -3113,10 +3113,10 @@
       "region": "tcaf",
       "our_rank": 206,
       "maxpreps": null,
-      "smf": 3,
+      "smf": 4,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 203,
+      "delta_smf": 202,
       "delta_dctf": null
     },
     {
@@ -3218,10 +3218,10 @@
       "region": "tapps",
       "our_rank": 213,
       "maxpreps": 19,
-      "smf": 8,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 194,
-      "delta_smf": 205,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
