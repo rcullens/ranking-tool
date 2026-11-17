@@ -9,7 +9,7 @@
       "association": "UIL",
       "rank": 1,
       "record": "11-0",
-      "power": 1708.61
+      "power": 1708.66
     },
     {
       "team_id": "whiteface",
@@ -31,7 +31,7 @@
       "association": "UIL",
       "rank": 3,
       "record": "11-0",
-      "power": 1696.32
+      "power": 1696.27
     },
     {
       "team_id": "strawn",
@@ -42,7 +42,7 @@
       "association": "UIL",
       "rank": 4,
       "record": "8-2",
-      "power": 1676.78
+      "power": 1676.75
     },
     {
       "team_id": "klondike",
@@ -53,7 +53,7 @@
       "association": "UIL",
       "rank": 5,
       "record": "8-4",
-      "power": 1668.23
+      "power": 1668.41
     },
     {
       "team_id": "water-valley",
@@ -64,7 +64,7 @@
       "association": "UIL",
       "rank": 6,
       "record": "9-0",
-      "power": 1665.23
+      "power": 1665.22
     },
     {
       "team_id": "newcastle",
@@ -75,7 +75,7 @@
       "association": "UIL",
       "rank": 7,
       "record": "8-2",
-      "power": 1659.5
+      "power": 1659.46
     },
     {
       "team_id": "rankin",
@@ -86,7 +86,7 @@
       "association": "UIL",
       "rank": 8,
       "record": "9-2",
-      "power": 1657.78
+      "power": 1657.76
     },
     {
       "team_id": "gordon",
@@ -97,7 +97,7 @@
       "association": "UIL",
       "rank": 9,
       "record": "10-0",
-      "power": 1656.97
+      "power": 1656.93
     },
     {
       "team_id": "richland-springs",
@@ -108,7 +108,7 @@
       "association": "UIL",
       "rank": 10,
       "record": "10-1",
-      "power": 1656.11
+      "power": 1656.05
     },
     {
       "team_id": "jayton",
@@ -119,7 +119,7 @@
       "association": "UIL",
       "rank": 11,
       "record": "10-1",
-      "power": 1652.38
+      "power": 1652.47
     },
     {
       "team_id": "motley-county",
@@ -130,7 +130,7 @@
       "association": "UIL",
       "rank": 12,
       "record": "11-1",
-      "power": 1642.73
+      "power": 1640.49
     },
     {
       "team_id": "westbrook",
@@ -141,7 +141,7 @@
       "association": "UIL",
       "rank": 13,
       "record": "4-6",
-      "power": 1636.85
+      "power": 1636.92
     },
     {
       "team_id": "oglesby",
@@ -152,7 +152,7 @@
       "association": "UIL",
       "rank": 14,
       "record": "10-1",
-      "power": 1634.55
+      "power": 1634.5
     },
     {
       "team_id": "aquilla",
@@ -163,7 +163,7 @@
       "association": "UIL",
       "rank": 15,
       "record": "11-0",
-      "power": 1633.43
+      "power": 1633.38
     },
     {
       "team_id": "nazareth",
@@ -174,7 +174,7 @@
       "association": "UIL",
       "rank": 16,
       "record": "8-3",
-      "power": 1631.08
+      "power": 1631.17
     },
     {
       "team_id": "zephyr",
@@ -185,7 +185,7 @@
       "association": "UIL",
       "rank": 17,
       "record": "8-2",
-      "power": 1630.12
+      "power": 1630.07
     },
     {
       "team_id": "valley",
@@ -196,7 +196,7 @@
       "association": "UIL",
       "rank": 18,
       "record": "8-3",
-      "power": 1624.97
+      "power": 1624.88
     },
     {
       "team_id": "menard",
@@ -207,7 +207,7 @@
       "association": "UIL",
       "rank": 19,
       "record": "9-0",
-      "power": 1624.55
+      "power": 1624.54
     },
     {
       "team_id": "hermleigh",
@@ -218,7 +218,7 @@
       "association": "UIL",
       "rank": 20,
       "record": "11-1",
-      "power": 1623.67
+      "power": 1623.64
     },
     {
       "team_id": "paducah",
@@ -229,7 +229,7 @@
       "association": "UIL",
       "rank": 21,
       "record": "8-2",
-      "power": 1622.34
+      "power": 1619.79
     },
     {
       "team_id": "cherokee",
@@ -240,7 +240,7 @@
       "association": "UIL",
       "rank": 22,
       "record": "9-2",
-      "power": 1618.7
+      "power": 1618.63
     },
     {
       "team_id": "chester",
@@ -251,7 +251,7 @@
       "association": "UIL",
       "rank": 23,
       "record": "8-3",
-      "power": 1610.08
+      "power": 1610.03
     },
     {
       "team_id": "sands",
@@ -262,7 +262,7 @@
       "association": "UIL",
       "rank": 24,
       "record": "7-3",
-      "power": 1606.53
+      "power": 1606.67
     },
     {
       "team_id": "knox-city",
@@ -273,7 +273,7 @@
       "association": "UIL",
       "rank": 25,
       "record": "10-1",
-      "power": 1600.11
+      "power": 1598.4
     },
     {
       "team_id": "valor-prep",
@@ -284,7 +284,7 @@
       "association": "TAPPS",
       "rank": 26,
       "record": "5-3",
-      "power": 1598.44
+      "power": 1598.39
     },
     {
       "team_id": "mount-calm",
@@ -295,7 +295,7 @@
       "association": "UIL",
       "rank": 27,
       "record": "10-1",
-      "power": 1597.78
+      "power": 1597.9
     },
     {
       "team_id": "covenant-classical",
@@ -306,7 +306,7 @@
       "association": "TAPPS",
       "rank": 28,
       "record": "10-0",
-      "power": 1596.76
+      "power": 1596.42
     },
     {
       "team_id": "medina",
@@ -317,7 +317,7 @@
       "association": "UIL",
       "rank": 29,
       "record": "9-0",
-      "power": 1595.07
+      "power": 1595.02
     },
     {
       "team_id": "texas-wind",
@@ -328,7 +328,7 @@
       "association": "TAIAO",
       "rank": 30,
       "record": "8-1",
-      "power": 1594.63
+      "power": 1594.58
     },
     {
       "team_id": "grandfalls-royalty",
@@ -339,7 +339,7 @@
       "association": "UIL",
       "rank": 31,
       "record": "10-2",
-      "power": 1592.32
+      "power": 1592.27
     },
     {
       "team_id": "milford",
@@ -350,7 +350,7 @@
       "association": "UIL",
       "rank": 32,
       "record": "8-2",
-      "power": 1591.28
+      "power": 1591.24
     },
     {
       "team_id": "rocksprings",
@@ -361,7 +361,7 @@
       "association": "UIL",
       "rank": 33,
       "record": "7-4",
-      "power": 1590.93
+      "power": 1590.88
     },
     {
       "team_id": "mclean",
@@ -372,7 +372,7 @@
       "association": "UIL",
       "rank": 34,
       "record": "6-4",
-      "power": 1590.89
+      "power": 1590.85
     },
     {
       "team_id": "runge",
@@ -383,7 +383,7 @@
       "association": "UIL",
       "rank": 35,
       "record": "11-2",
-      "power": 1589.6
+      "power": 1589.55
     },
     {
       "team_id": "first-baptist-christian",
@@ -394,7 +394,7 @@
       "association": "TAPPS",
       "rank": 36,
       "record": "7-4",
-      "power": 1589.18
+      "power": 1589.13
     },
     {
       "team_id": "gustine",
@@ -405,7 +405,7 @@
       "association": "UIL",
       "rank": 37,
       "record": "7-3",
-      "power": 1587.08
+      "power": 1587.03
     },
     {
       "team_id": "emery-weiner",
@@ -416,18 +416,7 @@
       "association": "TAPPS",
       "rank": 38,
       "record": "11-0",
-      "power": 1585.35
-    },
-    {
-      "team_id": "blackwell",
-      "name": "Blackwell",
-      "district": "7-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "association": "UIL",
-      "rank": 39,
-      "record": "9-2",
-      "power": 1580.61
+      "power": 1585.3
     },
     {
       "team_id": "vanguard-college-prep",
@@ -436,9 +425,20 @@
       "region": "tapps",
       "classification": "TAPPS DI",
       "association": "TAPPS",
-      "rank": 40,
+      "rank": 39,
       "record": "8-3",
-      "power": 1580.11
+      "power": 1579.75
+    },
+    {
+      "team_id": "blackwell",
+      "name": "Blackwell",
+      "district": "7-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "association": "UIL",
+      "rank": 40,
+      "record": "9-2",
+      "power": 1579.44
     },
     {
       "team_id": "coolidge",
@@ -449,7 +449,7 @@
       "association": "UIL",
       "rank": 41,
       "record": "7-3",
-      "power": 1579.08
+      "power": 1579.03
     },
     {
       "team_id": "three-way",
@@ -460,7 +460,7 @@
       "association": "UIL",
       "rank": 42,
       "record": "9-2",
-      "power": 1576.21
+      "power": 1576.29
     },
     {
       "team_id": "abbott",
@@ -471,7 +471,7 @@
       "association": "UIL",
       "rank": 43,
       "record": "8-3",
-      "power": 1575.72
+      "power": 1575.67
     },
     {
       "team_id": "thesa",
@@ -482,7 +482,7 @@
       "association": "TAIAO",
       "rank": 44,
       "record": "6-4",
-      "power": 1575.42
+      "power": 1575.41
     },
     {
       "team_id": "jonesboro",
@@ -493,7 +493,7 @@
       "association": "UIL",
       "rank": 45,
       "record": "5-7",
-      "power": 1574.07
+      "power": 1574.02
     },
     {
       "team_id": "austin-royals",
@@ -504,7 +504,7 @@
       "association": "TAIAO",
       "rank": 46,
       "record": "2-2",
-      "power": 1573.59
+      "power": 1573.54
     },
     {
       "team_id": "fannindel",
@@ -515,7 +515,7 @@
       "association": "UIL",
       "rank": 47,
       "record": "7-2",
-      "power": 1571.55
+      "power": 1572.78
     },
     {
       "team_id": "oakwood",
@@ -526,7 +526,7 @@
       "association": "UIL",
       "rank": 48,
       "record": "3-8",
-      "power": 1571.47
+      "power": 1571.4
     },
     {
       "team_id": "balmorhea",
@@ -537,7 +537,7 @@
       "association": "UIL",
       "rank": 49,
       "record": "8-2",
-      "power": 1569.54
+      "power": 1569.48
     },
     {
       "team_id": "robert-lee",
@@ -548,7 +548,7 @@
       "association": "UIL",
       "rank": 50,
       "record": "8-3",
-      "power": 1567.62
+      "power": 1567.59
     },
     {
       "team_id": "faith-academy",
@@ -559,7 +559,7 @@
       "association": "TAPPS",
       "rank": 51,
       "record": "9-6",
-      "power": 1567.38
+      "power": 1567.33
     },
     {
       "team_id": "nazarene-christian",
@@ -570,7 +570,7 @@
       "association": "TAPPS",
       "rank": 52,
       "record": "6-1",
-      "power": 1565.83
+      "power": 1565.79
     },
     {
       "team_id": "harrold",
@@ -581,7 +581,7 @@
       "association": "UIL",
       "rank": 53,
       "record": "7-3",
-      "power": 1565.13
+      "power": 1565.07
     },
     {
       "team_id": "stephenville-faith",
@@ -592,7 +592,7 @@
       "association": "TAIAO",
       "rank": 54,
       "record": "6-5",
-      "power": 1564.99
+      "power": 1564.93
     },
     {
       "team_id": "roby",
@@ -603,18 +603,7 @@
       "association": "UIL",
       "rank": 55,
       "record": "5-5",
-      "power": 1562.68
-    },
-    {
-      "team_id": "coram-deo",
-      "name": "Coram Deo",
-      "district": "2-TAPPS DI",
-      "region": "tapps",
-      "classification": "TAPPS DI",
-      "association": "TAPPS",
-      "rank": 56,
-      "record": "5-3",
-      "power": 1560.82
+      "power": 1562.75
     },
     {
       "team_id": "tyler-heat",
@@ -623,9 +612,9 @@
       "region": "taiao",
       "classification": "TAIAO DI",
       "association": "TAIAO",
-      "rank": 57,
+      "rank": 56,
       "record": "8-3",
-      "power": 1560.44
+      "power": 1560.54
     },
     {
       "team_id": "claude",
@@ -634,9 +623,9 @@
       "region": "panhandle",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 58,
+      "rank": 57,
       "record": "5-6",
-      "power": 1560.27
+      "power": 1560.24
     },
     {
       "team_id": "northside",
@@ -645,9 +634,9 @@
       "region": "north-central",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 59,
+      "rank": 58,
       "record": "8-2",
-      "power": 1559.29
+      "power": 1559.24
     },
     {
       "team_id": "may",
@@ -656,9 +645,20 @@
       "region": "north-central",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 60,
+      "rank": 59,
       "record": "2-8",
-      "power": 1559.24
+      "power": 1559.19
+    },
+    {
+      "team_id": "coram-deo",
+      "name": "Coram Deo",
+      "district": "2-TAPPS DI",
+      "region": "tapps",
+      "classification": "TAPPS DI",
+      "association": "TAPPS",
+      "rank": 60,
+      "record": "5-3",
+      "power": 1559.04
     },
     {
       "team_id": "sidney",
@@ -669,7 +669,7 @@
       "association": "UIL",
       "rank": 61,
       "record": "3-5",
-      "power": 1558.8
+      "power": 1558.74
     },
     {
       "team_id": "wellman-union",
@@ -679,8 +679,8 @@
       "classification": "1A DII",
       "association": "UIL",
       "rank": 62,
-      "record": "7-3",
-      "power": 1556.0
+      "record": "8-3",
+      "power": 1556.61
     },
     {
       "team_id": "garden-city",
@@ -691,7 +691,7 @@
       "association": "UIL",
       "rank": 63,
       "record": "4-6",
-      "power": 1555.54
+      "power": 1555.57
     },
     {
       "team_id": "davinci",
@@ -702,7 +702,7 @@
       "association": "TCAL",
       "rank": 64,
       "record": "16-4",
-      "power": 1554.91
+      "power": 1554.88
     },
     {
       "team_id": "hill-country-christian",
@@ -713,7 +713,7 @@
       "association": "TAPPS",
       "rank": 65,
       "record": "9-1",
-      "power": 1554.53
+      "power": 1554.48
     },
     {
       "team_id": "bracken-christian",
@@ -724,7 +724,7 @@
       "association": "TAPPS",
       "rank": 66,
       "record": "9-2",
-      "power": 1552.9
+      "power": 1552.85
     },
     {
       "team_id": "azle-christian",
@@ -735,7 +735,7 @@
       "association": "TAPPS",
       "rank": 67,
       "record": "6-3",
-      "power": 1550.78
+      "power": 1550.69
     },
     {
       "team_id": "alpha-omega",
@@ -746,7 +746,7 @@
       "association": "TAPPS",
       "rank": 68,
       "record": "6-2",
-      "power": 1550.54
+      "power": 1550.49
     },
     {
       "team_id": "aspermont",
@@ -757,40 +757,7 @@
       "association": "UIL",
       "rank": 69,
       "record": "6-4",
-      "power": 1550.38
-    },
-    {
-      "team_id": "sterling-city",
-      "name": "Sterling City",
-      "district": "8-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "association": "UIL",
-      "rank": 70,
-      "record": "3-6",
-      "power": 1548.87
-    },
-    {
-      "team_id": "iredell",
-      "name": "Iredell",
-      "district": "13-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "association": "UIL",
-      "rank": 71,
-      "record": "7-4",
-      "power": 1548.69
-    },
-    {
-      "team_id": "victory-christian",
-      "name": "Victory Christian",
-      "district": "2-TAPPS DIII",
-      "region": "tapps",
-      "classification": "TAPPS DIII",
-      "association": "TAPPS",
-      "rank": 72,
-      "record": "8-2",
-      "power": 1548.19
+      "power": 1550.37
     },
     {
       "team_id": "meadow",
@@ -799,9 +766,42 @@
       "region": "panhandle",
       "classification": "1A DII",
       "association": "UIL",
+      "rank": 70,
+      "record": "7-4",
+      "power": 1548.97
+    },
+    {
+      "team_id": "sterling-city",
+      "name": "Sterling City",
+      "district": "8-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "association": "UIL",
+      "rank": 71,
+      "record": "3-6",
+      "power": 1548.83
+    },
+    {
+      "team_id": "iredell",
+      "name": "Iredell",
+      "district": "13-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "association": "UIL",
+      "rank": 72,
+      "record": "7-4",
+      "power": 1548.67
+    },
+    {
+      "team_id": "victory-christian",
+      "name": "Victory Christian",
+      "district": "2-TAPPS DIII",
+      "region": "tapps",
+      "classification": "TAPPS DIII",
+      "association": "TAPPS",
       "rank": 73,
-      "record": "6-4",
-      "power": 1543.76
+      "record": "8-2",
+      "power": 1548.0
     },
     {
       "team_id": "lucas-christian",
@@ -812,18 +812,7 @@
       "association": "TAPPS",
       "rank": 74,
       "record": "5-3",
-      "power": 1543.75
-    },
-    {
-      "team_id": "covenant-christian",
-      "name": "Covenant Christian",
-      "district": "TAPPS Freelance",
-      "region": "tapps",
-      "classification": "TAPPS Freelance",
-      "association": "TAPPS",
-      "rank": 75,
-      "record": "6-4",
-      "power": 1543.15
+      "power": 1543.7
     },
     {
       "team_id": "whitharral",
@@ -832,9 +821,9 @@
       "region": "panhandle",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 76,
+      "rank": 75,
       "record": "3-7",
-      "power": 1543.09
+      "power": 1543.23
     },
     {
       "team_id": "bluff-dale",
@@ -843,9 +832,9 @@
       "region": "north-central",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 77,
+      "rank": 76,
       "record": "6-4",
-      "power": 1543.04
+      "power": 1543.14
     },
     {
       "team_id": "boys-ranch",
@@ -854,9 +843,20 @@
       "region": "panhandle",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 78,
+      "rank": 77,
       "record": "9-1",
-      "power": 1542.77
+      "power": 1542.65
+    },
+    {
+      "team_id": "covenant-christian",
+      "name": "Covenant Christian",
+      "district": "TAPPS Freelance",
+      "region": "tapps",
+      "classification": "TAPPS Freelance",
+      "association": "TAPPS",
+      "rank": 78,
+      "record": "6-4",
+      "power": 1542.61
     },
     {
       "team_id": "rochelle",
@@ -867,7 +867,7 @@
       "association": "UIL",
       "rank": 79,
       "record": "5-5",
-      "power": 1540.5
+      "power": 1540.44
     },
     {
       "team_id": "happy",
@@ -878,7 +878,7 @@
       "association": "UIL",
       "rank": 80,
       "record": "7-4",
-      "power": 1538.08
+      "power": 1538.3
     },
     {
       "team_id": "blanket",
@@ -889,7 +889,7 @@
       "association": "UIL",
       "rank": 81,
       "record": "4-6",
-      "power": 1537.27
+      "power": 1537.21
     },
     {
       "team_id": "grady",
@@ -900,7 +900,7 @@
       "association": "UIL",
       "rank": 82,
       "record": "9-2",
-      "power": 1537.18
+      "power": 1537.0
     },
     {
       "team_id": "lone-star-southeast",
@@ -911,7 +911,7 @@
       "association": "TAPPS",
       "rank": 83,
       "record": "0-2",
-      "power": 1535.58
+      "power": 1535.53
     },
     {
       "team_id": "faustina",
@@ -922,7 +922,7 @@
       "association": "TCAF",
       "rank": 84,
       "record": "9-0",
-      "power": 1535.18
+      "power": 1535.13
     },
     {
       "team_id": "lometa",
@@ -933,7 +933,7 @@
       "association": "UIL",
       "rank": 85,
       "record": "4-7",
-      "power": 1534.27
+      "power": 1534.22
     },
     {
       "team_id": "harvest-christian-lantana",
@@ -944,7 +944,7 @@
       "association": "TCAF",
       "rank": 86,
       "record": "3-3",
-      "power": 1533.36
+      "power": 1533.31
     },
     {
       "team_id": "town-east-christian",
@@ -955,18 +955,7 @@
       "association": "TAIAO",
       "rank": 87,
       "record": "6-3-1",
-      "power": 1532.14
-    },
-    {
-      "team_id": "bvchea",
-      "name": "BVCHEA",
-      "district": "2-TAIAO DI",
-      "region": "taiao",
-      "classification": "TAIAO DI",
-      "association": "TAIAO",
-      "rank": 88,
-      "record": "1-2",
-      "power": 1527.52
+      "power": 1532.09
     },
     {
       "team_id": "christ-the-king",
@@ -975,9 +964,20 @@
       "region": "tapps",
       "classification": "TAPPS DIII",
       "association": "TAPPS",
-      "rank": 89,
+      "rank": 88,
       "record": "7-1",
-      "power": 1527.36
+      "power": 1530.16
+    },
+    {
+      "team_id": "bvchea",
+      "name": "BVCHEA",
+      "district": "2-TAIAO DI",
+      "region": "taiao",
+      "classification": "TAIAO DI",
+      "association": "TAIAO",
+      "rank": 89,
+      "record": "1-2",
+      "power": 1527.47
     },
     {
       "team_id": "bryson",
@@ -988,7 +988,7 @@
       "association": "UIL",
       "rank": 90,
       "record": "4-6",
-      "power": 1526.87
+      "power": 1526.82
     },
     {
       "team_id": "apple-springs",
@@ -999,18 +999,7 @@
       "association": "UIL",
       "rank": 91,
       "record": "8-2",
-      "power": 1526.45
-    },
-    {
-      "team_id": "lone-star-north",
-      "name": "Lone Star North",
-      "district": "2-TAPPS DII",
-      "region": "tapps",
-      "classification": "TAPPS DII",
-      "association": "TAPPS",
-      "rank": 92,
-      "record": "8-1",
-      "power": 1525.65
+      "power": 1526.4
     },
     {
       "team_id": "greenville-christian",
@@ -1019,9 +1008,20 @@
       "region": "tapps",
       "classification": "TAPPS DIII",
       "association": "TAPPS",
-      "rank": 93,
+      "rank": 92,
       "record": "7-3",
-      "power": 1525.63
+      "power": 1525.74
+    },
+    {
+      "team_id": "lone-star-north",
+      "name": "Lone Star North",
+      "district": "2-TAPPS DII",
+      "region": "tapps",
+      "classification": "TAPPS DII",
+      "association": "TAPPS",
+      "rank": 93,
+      "record": "8-1",
+      "power": 1525.64
     },
     {
       "team_id": "fredericksburg-heritage",
@@ -1032,7 +1032,7 @@
       "association": "TAPPS",
       "rank": 94,
       "record": "2-2",
-      "power": 1523.76
+      "power": 1523.71
     },
     {
       "team_id": "lubbock-titans",
@@ -1043,7 +1043,7 @@
       "association": "TAIAO",
       "rank": 95,
       "record": "9-7",
-      "power": 1522.25
+      "power": 1522.22
     },
     {
       "team_id": "rockwall-heritage",
@@ -1054,29 +1054,7 @@
       "association": "TAPPS",
       "rank": 96,
       "record": "4-3",
-      "power": 1521.71
-    },
-    {
-      "team_id": "trinidad",
-      "name": "Trinidad",
-      "district": "14-1A DII",
-      "region": "central-east-south",
-      "classification": "1A DII",
-      "association": "UIL",
-      "rank": 97,
-      "record": "6-4",
-      "power": 1519.9
-    },
-    {
-      "team_id": "faith-bellville",
-      "name": "Faith Bellville",
-      "district": "6-TAPPS DIII",
-      "region": "tapps",
-      "classification": "TAPPS DIII",
-      "association": "TAPPS",
-      "rank": 98,
-      "record": "2-2",
-      "power": 1519.87
+      "power": 1521.67
     },
     {
       "team_id": "ira",
@@ -1085,9 +1063,31 @@
       "region": "west-texas",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 99,
+      "rank": 97,
       "record": "1-9",
-      "power": 1519.83
+      "power": 1520.63
+    },
+    {
+      "team_id": "trinidad",
+      "name": "Trinidad",
+      "district": "14-1A DII",
+      "region": "central-east-south",
+      "classification": "1A DII",
+      "association": "UIL",
+      "rank": 98,
+      "record": "6-4",
+      "power": 1520.04
+    },
+    {
+      "team_id": "faith-bellville",
+      "name": "Faith Bellville",
+      "district": "6-TAPPS DIII",
+      "region": "tapps",
+      "classification": "TAPPS DIII",
+      "association": "TAPPS",
+      "rank": 99,
+      "record": "2-2",
+      "power": 1519.82
     },
     {
       "team_id": "harvest-christian-keller",
@@ -1098,7 +1098,7 @@
       "association": "TAPPS",
       "rank": 100,
       "record": "1-5",
-      "power": 1517.69
+      "power": 1517.64
     },
     {
       "team_id": "new-braunfels-spartans",
@@ -1109,7 +1109,7 @@
       "association": "TAIAO",
       "rank": 101,
       "record": "2-4",
-      "power": 1517.36
+      "power": 1517.31
     },
     {
       "team_id": "victoria-gators",
@@ -1120,7 +1120,7 @@
       "association": "TAIAO",
       "rank": 102,
       "record": "5-2",
-      "power": 1516.18
+      "power": 1516.13
     },
     {
       "team_id": "wylie-prep",
@@ -1131,7 +1131,7 @@
       "association": "TAPPS",
       "rank": 103,
       "record": "5-3",
-      "power": 1515.82
+      "power": 1515.77
     },
     {
       "team_id": "booker",
@@ -1142,7 +1142,7 @@
       "association": "UIL",
       "rank": 104,
       "record": "5-5",
-      "power": 1515.67
+      "power": 1515.62
     },
     {
       "team_id": "wise-county-homeschool",
@@ -1153,7 +1153,7 @@
       "association": "TAIAO",
       "rank": 105,
       "record": "1-2",
-      "power": 1514.0
+      "power": 1513.95
     },
     {
       "team_id": "brazosport-christian",
@@ -1164,40 +1164,7 @@
       "association": "TAPPS",
       "rank": 106,
       "record": "2-5",
-      "power": 1511.96
-    },
-    {
-      "team_id": "georgetown-grace",
-      "name": "Georgetown Grace",
-      "district": "1-TAIAO DII",
-      "region": "taiao",
-      "classification": "TAIAO DII",
-      "association": "TAIAO",
-      "rank": 107,
-      "record": "7-0",
-      "power": 1508.23
-    },
-    {
-      "team_id": "san-marcos-academy",
-      "name": "San Marcos Academy",
-      "district": "3-TAPPS DII",
-      "region": "tapps",
-      "classification": "TAPPS DII",
-      "association": "TAPPS",
-      "rank": 108,
-      "record": "8-4",
-      "power": 1508.12
-    },
-    {
-      "team_id": "guthrie",
-      "name": "Guthrie",
-      "district": "2-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "association": "UIL",
-      "rank": 109,
-      "record": "2-8",
-      "power": 1507.74
+      "power": 1511.91
     },
     {
       "team_id": "hart",
@@ -1206,9 +1173,42 @@
       "region": "panhandle",
       "classification": "1A DII",
       "association": "UIL",
-      "rank": 110,
+      "rank": 107,
       "record": "9-2",
-      "power": 1507.73
+      "power": 1510.82
+    },
+    {
+      "team_id": "georgetown-grace",
+      "name": "Georgetown Grace",
+      "district": "1-TAIAO DII",
+      "region": "taiao",
+      "classification": "TAIAO DII",
+      "association": "TAIAO",
+      "rank": 108,
+      "record": "7-0",
+      "power": 1508.18
+    },
+    {
+      "team_id": "san-marcos-academy",
+      "name": "San Marcos Academy",
+      "district": "3-TAPPS DII",
+      "region": "tapps",
+      "classification": "TAPPS DII",
+      "association": "TAPPS",
+      "rank": 109,
+      "record": "8-4",
+      "power": 1508.07
+    },
+    {
+      "team_id": "guthrie",
+      "name": "Guthrie",
+      "district": "2-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "association": "UIL",
+      "rank": 110,
+      "record": "2-8",
+      "power": 1507.7
     },
     {
       "team_id": "springlake-earth",
@@ -1219,7 +1219,7 @@
       "association": "UIL",
       "rank": 111,
       "record": "2-8",
-      "power": 1507.26
+      "power": 1507.47
     },
     {
       "team_id": "veribest",
@@ -1230,7 +1230,7 @@
       "association": "UIL",
       "rank": 112,
       "record": "5-4",
-      "power": 1506.55
+      "power": 1506.5
     },
     {
       "team_id": "el-paso-leadership",
@@ -1241,18 +1241,7 @@
       "association": "TAIAO",
       "rank": 113,
       "record": "4-6",
-      "power": 1505.83
-    },
-    {
-      "team_id": "fort-bend-homeschool",
-      "name": "Fort Bend Homeschool",
-      "district": "2-TAIAO DI",
-      "region": "taiao",
-      "classification": "TAIAO DI",
-      "association": "TAIAO",
-      "rank": 114,
-      "record": "3-1",
-      "power": 1504.36
+      "power": 1505.84
     },
     {
       "team_id": "highland",
@@ -1261,9 +1250,20 @@
       "region": "west-texas",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 115,
+      "rank": 114,
       "record": "10-5",
-      "power": 1504.29
+      "power": 1504.45
+    },
+    {
+      "team_id": "fort-bend-homeschool",
+      "name": "Fort Bend Homeschool",
+      "district": "2-TAIAO DI",
+      "region": "taiao",
+      "classification": "TAIAO DI",
+      "association": "TAIAO",
+      "rank": 115,
+      "record": "3-1",
+      "power": 1504.31
     },
     {
       "team_id": "founders-christian",
@@ -1274,7 +1274,7 @@
       "association": "TAPPS",
       "rank": 116,
       "record": "2-2",
-      "power": 1503.95
+      "power": 1503.77
     },
     {
       "team_id": "calvary-baptist-academy",
@@ -1285,7 +1285,7 @@
       "association": "TAIAO",
       "rank": 117,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "castle-hills",
@@ -1296,7 +1296,7 @@
       "association": "TAPPS",
       "rank": 118,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "chant-homeschool",
@@ -1307,7 +1307,7 @@
       "association": "TAIAO",
       "rank": 119,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "compass-rose",
@@ -1318,7 +1318,7 @@
       "association": "TAIAO",
       "rank": 120,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "cotton-center",
@@ -1329,7 +1329,7 @@
       "association": "UIL",
       "rank": 121,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "covenant-prep",
@@ -1340,7 +1340,7 @@
       "association": "TAPPS",
       "rank": 122,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "eths",
@@ -1351,7 +1351,7 @@
       "association": "TAIAO",
       "rank": 123,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "fairhill",
@@ -1362,7 +1362,7 @@
       "association": "TAPPS",
       "rank": 124,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "fellowship-academy",
@@ -1373,7 +1373,7 @@
       "association": "TAPPS",
       "rank": 125,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "founders-classical-leander",
@@ -1384,7 +1384,7 @@
       "association": "TAIAO",
       "rank": 126,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "gloria-deo",
@@ -1395,7 +1395,7 @@
       "association": "TAIAO",
       "rank": 127,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "grace-christian-houston",
@@ -1406,7 +1406,7 @@
       "association": "TAPPS",
       "rank": 128,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "hedley",
@@ -1417,7 +1417,7 @@
       "association": "UIL",
       "rank": 129,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "holy-trinity-temple",
@@ -1428,7 +1428,7 @@
       "association": "TAPPS",
       "rank": 130,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "jubilee-lake-view",
@@ -1439,7 +1439,7 @@
       "association": "TAIAO",
       "rank": 131,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "jubilee-san-antonio",
@@ -1450,7 +1450,7 @@
       "association": "TAIAO",
       "rank": 132,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "living-rock-academy",
@@ -1461,7 +1461,7 @@
       "association": "TAPPS",
       "rank": 133,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "northside-lions",
@@ -1472,7 +1472,7 @@
       "association": "TAIAO",
       "rank": 134,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "priddy",
@@ -1483,7 +1483,7 @@
       "association": "UIL",
       "rank": 135,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "sa-homeschool",
@@ -1494,7 +1494,7 @@
       "association": "TAIAO",
       "rank": 136,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "san-perlita",
@@ -1505,7 +1505,7 @@
       "association": "UIL",
       "rank": 137,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "second-baptist-north",
@@ -1516,7 +1516,7 @@
       "association": "TAPPS",
       "rank": 138,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "texas-leadership-midland",
@@ -1527,7 +1527,7 @@
       "association": "TAIAO",
       "rank": 139,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "texoma-christian",
@@ -1538,7 +1538,7 @@
       "association": "TAPPS",
       "rank": 140,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "trinity-midland",
@@ -1549,7 +1549,7 @@
       "association": "TAPPS",
       "rank": 141,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "ume-prep",
@@ -1560,7 +1560,7 @@
       "association": "TAIAO",
       "rank": 142,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "veritas-academy",
@@ -1571,7 +1571,7 @@
       "association": "TAPPS",
       "rank": 143,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "wichita-christian",
@@ -1582,7 +1582,7 @@
       "association": "TAPPS",
       "rank": 144,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "wilco",
@@ -1593,7 +1593,7 @@
       "association": "TAIAO",
       "rank": 145,
       "record": "0-0",
-      "power": 1503.62
+      "power": 1503.57
     },
     {
       "team_id": "kingdom-prep",
@@ -1604,7 +1604,7 @@
       "association": "TAPPS",
       "rank": 146,
       "record": "2-3",
-      "power": 1503.49
+      "power": 1503.45
     },
     {
       "team_id": "prestonwood-north",
@@ -1615,7 +1615,7 @@
       "association": "TAPPS",
       "rank": 147,
       "record": "2-6",
-      "power": 1502.85
+      "power": 1502.81
     },
     {
       "team_id": "allen-academy",
@@ -1626,7 +1626,7 @@
       "association": "TAPPS",
       "rank": 148,
       "record": "7-5",
-      "power": 1502.8
+      "power": 1502.75
     },
     {
       "team_id": "jubilee-brownsville",
@@ -1637,7 +1637,7 @@
       "association": "TAIAO",
       "rank": 149,
       "record": "3-3",
-      "power": 1502.65
+      "power": 1502.6
     },
     {
       "team_id": "abilene-christian",
@@ -1648,7 +1648,7 @@
       "association": "TAPPS",
       "rank": 150,
       "record": "8-9",
-      "power": 1502.19
+      "power": 1502.26
     },
     {
       "team_id": "grace-classical-granbury",
@@ -1659,7 +1659,7 @@
       "association": "TAIAO",
       "rank": 151,
       "record": "0-6",
-      "power": 1502.12
+      "power": 1502.07
     },
     {
       "team_id": "founders-classical-conroe",
@@ -1670,7 +1670,7 @@
       "association": "TAIAO",
       "rank": 152,
       "record": "0-3",
-      "power": 1500.98
+      "power": 1500.93
     },
     {
       "team_id": "westlake-academy",
@@ -1681,7 +1681,7 @@
       "association": "TCAF",
       "rank": 153,
       "record": "1-5",
-      "power": 1499.33
+      "power": 1499.28
     },
     {
       "team_id": "avalon",
@@ -1692,7 +1692,7 @@
       "association": "UIL",
       "rank": 154,
       "record": "0-9",
-      "power": 1497.96
+      "power": 1497.94
     },
     {
       "team_id": "ignite-community",
@@ -1703,7 +1703,7 @@
       "association": "TAIAO",
       "rank": 155,
       "record": "0-4",
-      "power": 1496.71
+      "power": 1496.68
     },
     {
       "team_id": "christian-heritage-longview",
@@ -1714,7 +1714,7 @@
       "association": "TAPPS",
       "rank": 156,
       "record": "2-2",
-      "power": 1494.83
+      "power": 1494.8
     },
     {
       "team_id": "summit-christian",
@@ -1725,7 +1725,7 @@
       "association": "TAPPS",
       "rank": 157,
       "record": "4-5",
-      "power": 1494.18
+      "power": 1494.13
     },
     {
       "team_id": "new-braunfels-thunder",
@@ -1736,7 +1736,7 @@
       "association": "TAIAO",
       "rank": 158,
       "record": "3-7",
-      "power": 1493.19
+      "power": 1493.14
     },
     {
       "team_id": "annapolis-christian",
@@ -1747,7 +1747,7 @@
       "association": "TAPPS",
       "rank": 159,
       "record": "4-2",
-      "power": 1493.15
+      "power": 1493.1
     },
     {
       "team_id": "valor-north-austin",
@@ -1758,7 +1758,7 @@
       "association": "TAIAO",
       "rank": 160,
       "record": "4-4",
-      "power": 1492.78
+      "power": 1492.73
     },
     {
       "team_id": "chillicothe",
@@ -1769,7 +1769,7 @@
       "association": "UIL",
       "rank": 161,
       "record": "3-7",
-      "power": 1492.29
+      "power": 1492.51
     },
     {
       "team_id": "logos-prep",
@@ -1780,7 +1780,7 @@
       "association": "TAPPS",
       "rank": 162,
       "record": "4-4",
-      "power": 1492.14
+      "power": 1492.32
     },
     {
       "team_id": "gold-burg",
@@ -1791,7 +1791,7 @@
       "association": "UIL",
       "rank": 163,
       "record": "3-7",
-      "power": 1491.07
+      "power": 1491.02
     },
     {
       "team_id": "lutheran-san-antonio",
@@ -1802,7 +1802,7 @@
       "association": "TAPPS",
       "rank": 164,
       "record": "0-4",
-      "power": 1490.1
+      "power": 1490.05
     },
     {
       "team_id": "irion-county",
@@ -1813,7 +1813,7 @@
       "association": "UIL",
       "rank": 165,
       "record": "4-5",
-      "power": 1490.07
+      "power": 1490.01
     },
     {
       "team_id": "odonnell",
@@ -1824,7 +1824,7 @@
       "association": "UIL",
       "rank": 166,
       "record": "3-7",
-      "power": 1488.83
+      "power": 1489.06
     },
     {
       "team_id": "crowell",
@@ -1835,7 +1835,7 @@
       "association": "UIL",
       "rank": 167,
       "record": "5-5",
-      "power": 1488.49
+      "power": 1488.51
     },
     {
       "team_id": "lefors",
@@ -1846,7 +1846,7 @@
       "association": "UIL",
       "rank": 168,
       "record": "5-5",
-      "power": 1488.2
+      "power": 1488.25
     },
     {
       "team_id": "brazos-valley-lions",
@@ -1857,7 +1857,7 @@
       "association": "TAIAO",
       "rank": 169,
       "record": "5-7",
-      "power": 1488.15
+      "power": 1488.23
     },
     {
       "team_id": "calvert",
@@ -1868,7 +1868,7 @@
       "association": "UIL",
       "rank": 170,
       "record": "1-10",
-      "power": 1486.27
+      "power": 1486.22
     },
     {
       "team_id": "nyos",
@@ -1879,7 +1879,7 @@
       "association": "TAIAO",
       "rank": 171,
       "record": "3-4",
-      "power": 1486.24
+      "power": 1486.19
     },
     {
       "team_id": "rising-star",
@@ -1890,7 +1890,7 @@
       "association": "UIL",
       "rank": 172,
       "record": "4-6",
-      "power": 1486.12
+      "power": 1486.05
     },
     {
       "team_id": "grace-christian-perrin",
@@ -1901,7 +1901,7 @@
       "association": "TCAF",
       "rank": 173,
       "record": "4-1",
-      "power": 1485.59
+      "power": 1485.54
     },
     {
       "team_id": "texas-school-for-the-deaf",
@@ -1912,7 +1912,7 @@
       "association": "TAPPS",
       "rank": 174,
       "record": "4-3",
-      "power": 1485.37
+      "power": 1485.33
     },
     {
       "team_id": "legacy-christian-beaumont",
@@ -1923,7 +1923,7 @@
       "association": "TAPPS",
       "rank": 175,
       "record": "2-4",
-      "power": 1485.3
+      "power": 1485.25
     },
     {
       "team_id": "the-highlands",
@@ -1934,7 +1934,7 @@
       "association": "TAPPS",
       "rank": 176,
       "record": "5-1",
-      "power": 1484.49
+      "power": 1484.44
     },
     {
       "team_id": "st-joseph-bryan",
@@ -1945,7 +1945,7 @@
       "association": "TAPPS",
       "rank": 177,
       "record": "0-5",
-      "power": 1483.76
+      "power": 1483.71
     },
     {
       "team_id": "perrin-whitt",
@@ -1956,7 +1956,7 @@
       "association": "UIL",
       "rank": 178,
       "record": "5-5",
-      "power": 1483.0
+      "power": 1482.95
     },
     {
       "team_id": "hill-country-knights",
@@ -1967,7 +1967,7 @@
       "association": "TAIAO",
       "rank": 179,
       "record": "4-3",
-      "power": 1482.82
+      "power": 1482.78
     },
     {
       "team_id": "austin-classical",
@@ -1978,7 +1978,7 @@
       "association": "TAPPS",
       "rank": 180,
       "record": "5-4",
-      "power": 1482.27
+      "power": 1482.22
     },
     {
       "team_id": "lakehill-prep",
@@ -1989,7 +1989,7 @@
       "association": "TAPPS",
       "rank": 181,
       "record": "2-1",
-      "power": 1480.83
+      "power": 1480.78
     },
     {
       "team_id": "grayson-christian",
@@ -2000,7 +2000,7 @@
       "association": "TAIAO",
       "rank": 182,
       "record": "6-4",
-      "power": 1480.23
+      "power": 1480.19
     },
     {
       "team_id": "morgan",
@@ -2011,7 +2011,7 @@
       "association": "UIL",
       "rank": 183,
       "record": "6-3",
-      "power": 1480.18
+      "power": 1480.13
     },
     {
       "team_id": "cornerstone",
@@ -2022,7 +2022,7 @@
       "association": "TAPPS",
       "rank": 184,
       "record": "7-2",
-      "power": 1480.16
+      "power": 1480.12
     },
     {
       "team_id": "buena-vista",
@@ -2033,7 +2033,7 @@
       "association": "UIL",
       "rank": 185,
       "record": "4-7",
-      "power": 1479.84
+      "power": 1479.79
     },
     {
       "team_id": "arlington-heights-christian",
@@ -2044,7 +2044,7 @@
       "association": "TAIAO",
       "rank": 186,
       "record": "7-7",
-      "power": 1479.69
+      "power": 1479.64
     },
     {
       "team_id": "knippa",
@@ -2055,40 +2055,7 @@
       "association": "UIL",
       "rank": 187,
       "record": "6-5",
-      "power": 1479.61
-    },
-    {
-      "team_id": "poetry-community",
-      "name": "Poetry Community",
-      "district": "3-TAPPS DIII",
-      "region": "tapps",
-      "classification": "TAPPS DIII",
-      "association": "TAPPS",
-      "rank": 188,
-      "record": "0-5",
-      "power": 1478.71
-    },
-    {
-      "team_id": "our-lady-of-the-hills",
-      "name": "Our Lady of the Hills",
-      "district": "4-TAPPS DIII",
-      "region": "tapps",
-      "classification": "TAPPS DIII",
-      "association": "TAPPS",
-      "rank": 189,
-      "record": "0-6",
-      "power": 1478.37
-    },
-    {
-      "team_id": "eden",
-      "name": "Eden",
-      "district": "8-1A DI",
-      "region": "west-texas",
-      "classification": "1A DI",
-      "association": "UIL",
-      "rank": 190,
-      "record": "1-5",
-      "power": 1478.27
+      "power": 1479.55
     },
     {
       "team_id": "divine-savior",
@@ -2097,9 +2064,42 @@
       "region": "tapps",
       "classification": "TAPPS DIII",
       "association": "TAPPS",
-      "rank": 191,
+      "rank": 188,
       "record": "2-4",
-      "power": 1477.97
+      "power": 1478.68
+    },
+    {
+      "team_id": "poetry-community",
+      "name": "Poetry Community",
+      "district": "3-TAPPS DIII",
+      "region": "tapps",
+      "classification": "TAPPS DIII",
+      "association": "TAPPS",
+      "rank": 189,
+      "record": "0-5",
+      "power": 1478.66
+    },
+    {
+      "team_id": "our-lady-of-the-hills",
+      "name": "Our Lady of the Hills",
+      "district": "4-TAPPS DIII",
+      "region": "tapps",
+      "classification": "TAPPS DIII",
+      "association": "TAPPS",
+      "rank": 190,
+      "record": "0-6",
+      "power": 1478.3
+    },
+    {
+      "team_id": "eden",
+      "name": "Eden",
+      "district": "8-1A DI",
+      "region": "west-texas",
+      "classification": "1A DI",
+      "association": "UIL",
+      "rank": 191,
+      "record": "1-5",
+      "power": 1478.22
     },
     {
       "team_id": "centex-homeschool",
@@ -2110,7 +2110,7 @@
       "association": "TAIAO",
       "rank": 192,
       "record": "2-10",
-      "power": 1477.76
+      "power": 1477.72
     },
     {
       "team_id": "kings-academy",
@@ -2121,7 +2121,7 @@
       "association": "TAIAO",
       "rank": 193,
       "record": "4-5",
-      "power": 1476.84
+      "power": 1476.8
     },
     {
       "team_id": "san-jacinto-christian",
@@ -2132,7 +2132,7 @@
       "association": "TAPPS",
       "rank": 194,
       "record": "0-2",
-      "power": 1476.06
+      "power": 1476.02
     },
     {
       "team_id": "leakey",
@@ -2143,7 +2143,7 @@
       "association": "UIL",
       "rank": 195,
       "record": "0-0",
-      "power": 1473.86
+      "power": 1473.81
     },
     {
       "team_id": "holy-cross-midland",
@@ -2154,7 +2154,7 @@
       "association": "TAPPS",
       "rank": 196,
       "record": "0-4",
-      "power": 1473.53
+      "power": 1473.48
     },
     {
       "team_id": "gorman",
@@ -2165,7 +2165,7 @@
       "association": "UIL",
       "rank": 197,
       "record": "7-3",
-      "power": 1473.35
+      "power": 1473.31
     },
     {
       "team_id": "white-deer",
@@ -2176,51 +2176,7 @@
       "association": "UIL",
       "rank": 198,
       "record": "9-2",
-      "power": 1472.93
-    },
-    {
-      "team_id": "round-rock-christian",
-      "name": "Round Rock Christian",
-      "district": "3-TAPPS DI",
-      "region": "tapps",
-      "classification": "TAPPS DI",
-      "association": "TAPPS",
-      "rank": 199,
-      "record": "4-3",
-      "power": 1472.08
-    },
-    {
-      "team_id": "greenville-homeschool",
-      "name": "Greenville Homeschool",
-      "district": "1-TAIAO DII",
-      "region": "taiao",
-      "classification": "TAIAO DII",
-      "association": "TAIAO",
-      "rank": 200,
-      "record": "1-7",
-      "power": 1471.91
-    },
-    {
-      "team_id": "woodson",
-      "name": "Woodson",
-      "district": "10-1A DII",
-      "region": "north-central",
-      "classification": "1A DII",
-      "association": "UIL",
-      "rank": 201,
-      "record": "7-4",
-      "power": 1471.78
-    },
-    {
-      "team_id": "texas-empowerment",
-      "name": "Texas Empowerment",
-      "district": "2-TAIAO DIII",
-      "region": "taiao",
-      "classification": "TAIAO DIII",
-      "association": "TAIAO",
-      "rank": 202,
-      "record": "0-4",
-      "power": 1471.34
+      "power": 1472.99
     },
     {
       "team_id": "kress",
@@ -2229,9 +2185,53 @@
       "region": "panhandle",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 203,
+      "rank": 199,
       "record": "3-8",
-      "power": 1471.3
+      "power": 1472.65
+    },
+    {
+      "team_id": "round-rock-christian",
+      "name": "Round Rock Christian",
+      "district": "3-TAPPS DI",
+      "region": "tapps",
+      "classification": "TAPPS DI",
+      "association": "TAPPS",
+      "rank": 200,
+      "record": "4-3",
+      "power": 1472.47
+    },
+    {
+      "team_id": "greenville-homeschool",
+      "name": "Greenville Homeschool",
+      "district": "1-TAIAO DII",
+      "region": "taiao",
+      "classification": "TAIAO DII",
+      "association": "TAIAO",
+      "rank": 201,
+      "record": "1-7",
+      "power": 1471.86
+    },
+    {
+      "team_id": "woodson",
+      "name": "Woodson",
+      "district": "10-1A DII",
+      "region": "north-central",
+      "classification": "1A DII",
+      "association": "UIL",
+      "rank": 202,
+      "record": "7-4",
+      "power": 1471.73
+    },
+    {
+      "team_id": "texas-empowerment",
+      "name": "Texas Empowerment",
+      "district": "2-TAIAO DIII",
+      "region": "taiao",
+      "classification": "TAIAO DIII",
+      "association": "TAIAO",
+      "rank": 203,
+      "record": "0-4",
+      "power": 1471.29
     },
     {
       "team_id": "second-baptist-cypress",
@@ -2242,7 +2242,7 @@
       "association": "TAPPS",
       "rank": 204,
       "record": "1-2",
-      "power": 1469.5
+      "power": 1469.45
     },
     {
       "team_id": "penelope",
@@ -2253,7 +2253,7 @@
       "association": "UIL",
       "rank": 205,
       "record": "4-6",
-      "power": 1469.3
+      "power": 1469.25
     },
     {
       "team_id": "victoria-cobras",
@@ -2264,7 +2264,7 @@
       "association": "TAIAO",
       "rank": 206,
       "record": "4-9-1",
-      "power": 1469.26
+      "power": 1469.21
     },
     {
       "team_id": "garland-christian",
@@ -2275,7 +2275,7 @@
       "association": "TAPPS",
       "rank": 207,
       "record": "1-6",
-      "power": 1467.28
+      "power": 1467.23
     },
     {
       "team_id": "methodist-childrens-home",
@@ -2286,7 +2286,7 @@
       "association": "TCAF",
       "rank": 208,
       "record": "2-7",
-      "power": 1467.09
+      "power": 1467.04
     },
     {
       "team_id": "concordia",
@@ -2297,7 +2297,7 @@
       "association": "TAPPS",
       "rank": 209,
       "record": "2-4",
-      "power": 1466.85
+      "power": 1466.8
     },
     {
       "team_id": "valor-south-austin",
@@ -2308,7 +2308,7 @@
       "association": "TAIAO",
       "rank": 210,
       "record": "2-7",
-      "power": 1466.55
+      "power": 1466.5
     },
     {
       "team_id": "st-augustine",
@@ -2319,7 +2319,7 @@
       "association": "TAPPS",
       "rank": 211,
       "record": "2-5",
-      "power": 1466.39
+      "power": 1466.34
     },
     {
       "team_id": "benjamin",
@@ -2330,7 +2330,7 @@
       "association": "UIL",
       "rank": 212,
       "record": "5-5",
-      "power": 1466.27
+      "power": 1466.2
     },
     {
       "team_id": "providence-academy",
@@ -2341,7 +2341,7 @@
       "association": "TAPPS",
       "rank": 213,
       "record": "1-3",
-      "power": 1466.04
+      "power": 1466.0
     },
     {
       "team_id": "newman-international",
@@ -2352,7 +2352,7 @@
       "association": "TAIAO",
       "rank": 214,
       "record": "1-6",
-      "power": 1466.01
+      "power": 1465.96
     },
     {
       "team_id": "weatherford-christian",
@@ -2363,7 +2363,7 @@
       "association": "TAPPS",
       "rank": 215,
       "record": "3-6",
-      "power": 1465.79
+      "power": 1465.78
     },
     {
       "team_id": "dallas-academy",
@@ -2374,7 +2374,7 @@
       "association": "TCAF",
       "rank": 216,
       "record": "3-9",
-      "power": 1465.09
+      "power": 1465.07
     },
     {
       "team_id": "rotan",
@@ -2385,7 +2385,7 @@
       "association": "UIL",
       "rank": 217,
       "record": "3-7",
-      "power": 1464.65
+      "power": 1464.66
     },
     {
       "team_id": "kopperl",
@@ -2396,7 +2396,7 @@
       "association": "UIL",
       "rank": 218,
       "record": "4-6",
-      "power": 1464.23
+      "power": 1464.17
     },
     {
       "team_id": "jcsa",
@@ -2407,7 +2407,7 @@
       "association": "TAIAO",
       "rank": 219,
       "record": "5-1",
-      "power": 1464.1
+      "power": 1464.05
     },
     {
       "team_id": "miami",
@@ -2418,7 +2418,7 @@
       "association": "UIL",
       "rank": 220,
       "record": "0-7",
-      "power": 1463.66
+      "power": 1463.62
     },
     {
       "team_id": "cranfills-gap",
@@ -2429,7 +2429,7 @@
       "association": "UIL",
       "rank": 221,
       "record": "4-6",
-      "power": 1462.22
+      "power": 1462.17
     },
     {
       "team_id": "panther-creek",
@@ -2440,7 +2440,7 @@
       "association": "UIL",
       "rank": 222,
       "record": "5-6",
-      "power": 1461.54
+      "power": 1461.36
     },
     {
       "team_id": "waco-christian",
@@ -2451,7 +2451,7 @@
       "association": "TAIAO",
       "rank": 223,
       "record": "5-6",
-      "power": 1460.68
+      "power": 1460.63
     },
     {
       "team_id": "valor-leander",
@@ -2462,7 +2462,7 @@
       "association": "TAIAO",
       "rank": 224,
       "record": "3-10",
-      "power": 1459.99
+      "power": 1459.94
     },
     {
       "team_id": "pinnacle-christian",
@@ -2473,7 +2473,7 @@
       "association": "IND",
       "rank": 225,
       "record": "4-5",
-      "power": 1459.65
+      "power": 1459.6
     },
     {
       "team_id": "westhoff",
@@ -2484,7 +2484,7 @@
       "association": "IND",
       "rank": 226,
       "record": "0-5",
-      "power": 1458.71
+      "power": 1458.66
     },
     {
       "team_id": "saint-jo",
@@ -2506,7 +2506,7 @@
       "association": "UIL",
       "rank": 228,
       "record": "3-7",
-      "power": 1457.06
+      "power": 1457.04
     },
     {
       "team_id": "marfa",
@@ -2517,7 +2517,7 @@
       "association": "UIL",
       "rank": 229,
       "record": "6-5",
-      "power": 1456.85
+      "power": 1456.8
     },
     {
       "team_id": "ovilla-christian",
@@ -2528,7 +2528,7 @@
       "association": "TAPPS",
       "rank": 230,
       "record": "4-7",
-      "power": 1456.61
+      "power": 1456.59
     },
     {
       "team_id": "campbell",
@@ -2539,7 +2539,7 @@
       "association": "UIL",
       "rank": 231,
       "record": "5-3",
-      "power": 1455.03
+      "power": 1454.99
     },
     {
       "team_id": "trinity-school-of-texas",
@@ -2550,7 +2550,7 @@
       "association": "TAPPS",
       "rank": 232,
       "record": "7-13",
-      "power": 1454.87
+      "power": 1454.86
     },
     {
       "team_id": "wilson",
@@ -2561,7 +2561,7 @@
       "association": "UIL",
       "rank": 233,
       "record": "0-2",
-      "power": 1454.73
+      "power": 1454.71
     },
     {
       "team_id": "benavides",
@@ -2572,7 +2572,7 @@
       "association": "UIL",
       "rank": 234,
       "record": "6-5",
-      "power": 1454.45
+      "power": 1454.4
     },
     {
       "team_id": "st-paul-prep",
@@ -2583,29 +2583,7 @@
       "association": "TCAF",
       "rank": 235,
       "record": "1-4",
-      "power": 1454.27
-    },
-    {
-      "team_id": "north-star",
-      "name": "North Star",
-      "district": "Independent",
-      "region": "independent",
-      "classification": "IND",
-      "association": "IND",
-      "rank": 236,
-      "record": "2-3",
-      "power": 1453.69
-    },
-    {
-      "team_id": "west-texas-tornadoes",
-      "name": "West Texas Tornadoes",
-      "district": "1-TAIAO DIII",
-      "region": "taiao",
-      "classification": "TAIAO DIII",
-      "association": "TAIAO",
-      "rank": 237,
-      "record": "6-10",
-      "power": 1453.41
+      "power": 1454.22
     },
     {
       "team_id": "amherst",
@@ -2614,53 +2592,31 @@
       "region": "panhandle",
       "classification": "1A DII",
       "association": "UIL",
-      "rank": 238,
+      "rank": 236,
       "record": "1-7",
-      "power": 1452.85
+      "power": 1454.02
     },
     {
-      "team_id": "temple-christian",
-      "name": "Temple Christian",
-      "district": "1-TAPPS DI",
-      "region": "tapps",
-      "classification": "TAPPS DI",
-      "association": "TAPPS",
-      "rank": 239,
-      "record": "3-7",
-      "power": 1452.69
+      "team_id": "north-star",
+      "name": "North Star",
+      "district": "Independent",
+      "region": "independent",
+      "classification": "IND",
+      "association": "IND",
+      "rank": 237,
+      "record": "2-3",
+      "power": 1453.64
     },
     {
-      "team_id": "st-marys-taylor",
-      "name": "St. Mary's Taylor",
-      "district": "2-TAIAO DIII",
+      "team_id": "west-texas-tornadoes",
+      "name": "West Texas Tornadoes",
+      "district": "1-TAIAO DIII",
       "region": "taiao",
       "classification": "TAIAO DIII",
       "association": "TAIAO",
-      "rank": 240,
-      "record": "4-4",
-      "power": 1452.41
-    },
-    {
-      "team_id": "coastal-christian",
-      "name": "Coastal Christian",
-      "district": "2-TAIAO DII",
-      "region": "taiao",
-      "classification": "TAIAO DII",
-      "association": "TAIAO",
-      "rank": 241,
-      "record": "3-5",
-      "power": 1451.95
-    },
-    {
-      "team_id": "denton-calvary",
-      "name": "Denton Calvary",
-      "district": "1-TAPPS DII",
-      "region": "tapps",
-      "classification": "TAPPS DII",
-      "association": "TAPPS",
-      "rank": 242,
-      "record": "2-3",
-      "power": 1451.82
+      "rank": 238,
+      "record": "6-10",
+      "power": 1453.37
     },
     {
       "team_id": "petersburg",
@@ -2669,9 +2625,53 @@
       "region": "panhandle",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 243,
+      "rank": 239,
       "record": "3-7",
-      "power": 1450.69
+      "power": 1452.81
+    },
+    {
+      "team_id": "temple-christian",
+      "name": "Temple Christian",
+      "district": "1-TAPPS DI",
+      "region": "tapps",
+      "classification": "TAPPS DI",
+      "association": "TAPPS",
+      "rank": 240,
+      "record": "3-7",
+      "power": 1452.65
+    },
+    {
+      "team_id": "st-marys-taylor",
+      "name": "St. Mary's Taylor",
+      "district": "2-TAIAO DIII",
+      "region": "taiao",
+      "classification": "TAIAO DIII",
+      "association": "TAIAO",
+      "rank": 241,
+      "record": "4-4",
+      "power": 1452.36
+    },
+    {
+      "team_id": "coastal-christian",
+      "name": "Coastal Christian",
+      "district": "2-TAIAO DII",
+      "region": "taiao",
+      "classification": "TAIAO DII",
+      "association": "TAIAO",
+      "rank": 242,
+      "record": "3-5",
+      "power": 1451.9
+    },
+    {
+      "team_id": "denton-calvary",
+      "name": "Denton Calvary",
+      "district": "1-TAPPS DII",
+      "region": "tapps",
+      "classification": "TAPPS DII",
+      "association": "TAPPS",
+      "rank": 243,
+      "record": "2-3",
+      "power": 1451.77
     },
     {
       "team_id": "tribe-warriors",
@@ -2682,7 +2682,7 @@
       "association": "TAIAO",
       "rank": 244,
       "record": "2-1",
-      "power": 1449.83
+      "power": 1449.78
     },
     {
       "team_id": "immanuel-christian",
@@ -2693,18 +2693,7 @@
       "association": "TAPPS",
       "rank": 245,
       "record": "0-4",
-      "power": 1449.32
-    },
-    {
-      "team_id": "anton",
-      "name": "Anton",
-      "district": "3-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "association": "UIL",
-      "rank": 246,
-      "record": "7-2",
-      "power": 1448.75
+      "power": 1449.27
     },
     {
       "team_id": "silverton",
@@ -2713,9 +2702,20 @@
       "region": "panhandle",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 247,
+      "rank": 246,
       "record": "3-6",
-      "power": 1447.21
+      "power": 1447.86
+    },
+    {
+      "team_id": "anton",
+      "name": "Anton",
+      "district": "3-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "association": "UIL",
+      "rank": 247,
+      "record": "7-2",
+      "power": 1446.65
     },
     {
       "team_id": "baytown-christian",
@@ -2726,7 +2726,7 @@
       "association": "TAPPS",
       "rank": 248,
       "record": "5-2",
-      "power": 1446.26
+      "power": 1446.21
     },
     {
       "team_id": "nueces-canyon",
@@ -2737,7 +2737,7 @@
       "association": "UIL",
       "rank": 249,
       "record": "4-4",
-      "power": 1445.82
+      "power": 1445.77
     },
     {
       "team_id": "community-christian-mineral-wells",
@@ -2748,7 +2748,7 @@
       "association": "TAIAO",
       "rank": 250,
       "record": "0-3",
-      "power": 1444.23
+      "power": 1444.18
     },
     {
       "team_id": "follett",
@@ -2759,7 +2759,7 @@
       "association": "UIL",
       "rank": 251,
       "record": "3-6",
-      "power": 1444.21
+      "power": 1444.16
     },
     {
       "team_id": "second-baptist-um",
@@ -2770,40 +2770,7 @@
       "association": "TAPPS",
       "rank": 252,
       "record": "1-1",
-      "power": 1440.94
-    },
-    {
-      "team_id": "westbury-christian",
-      "name": "Westbury Christian",
-      "district": "4-TAPPS DI",
-      "region": "tapps",
-      "classification": "TAPPS DI",
-      "association": "TAPPS",
-      "rank": 253,
-      "record": "0-2",
-      "power": 1440.53
-    },
-    {
-      "team_id": "lazbuddie",
-      "name": "Lazbuddie",
-      "district": "3-1A DII",
-      "region": "panhandle",
-      "classification": "1A DII",
-      "association": "UIL",
-      "rank": 254,
-      "record": "5-4",
-      "power": 1440.52
-    },
-    {
-      "team_id": "pchea",
-      "name": "PCHEA",
-      "district": "1-TAIAO DII",
-      "region": "taiao",
-      "classification": "TAIAO DII",
-      "association": "TAIAO",
-      "rank": 255,
-      "record": "7-12",
-      "power": 1440.52
+      "power": 1440.89
     },
     {
       "team_id": "loraine",
@@ -2812,9 +2779,31 @@
       "region": "west-texas",
       "classification": "1A DII",
       "association": "UIL",
-      "rank": 256,
+      "rank": 253,
       "record": "3-7",
-      "power": 1439.71
+      "power": 1440.78
+    },
+    {
+      "team_id": "pchea",
+      "name": "PCHEA",
+      "district": "1-TAIAO DII",
+      "region": "taiao",
+      "classification": "TAIAO DII",
+      "association": "TAIAO",
+      "rank": 254,
+      "record": "7-12",
+      "power": 1440.55
+    },
+    {
+      "team_id": "westbury-christian",
+      "name": "Westbury Christian",
+      "district": "4-TAPPS DI",
+      "region": "tapps",
+      "classification": "TAPPS DI",
+      "association": "TAPPS",
+      "rank": 255,
+      "record": "0-2",
+      "power": 1440.48
     },
     {
       "team_id": "bynum",
@@ -2823,9 +2812,9 @@
       "region": "central-east-south",
       "classification": "1A DII",
       "association": "UIL",
-      "rank": 257,
+      "rank": 256,
       "record": "1-9",
-      "power": 1438.02
+      "power": 1438.13
     },
     {
       "team_id": "burkeville",
@@ -2834,9 +2823,9 @@
       "region": "central-east-south",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 258,
+      "rank": 257,
       "record": "2-6",
-      "power": 1437.67
+      "power": 1437.62
     },
     {
       "team_id": "covington",
@@ -2845,20 +2834,20 @@
       "region": "north-central",
       "classification": "1A DI",
       "association": "UIL",
-      "rank": 259,
+      "rank": 258,
       "record": "3-6",
-      "power": 1437.35
+      "power": 1437.3
     },
     {
-      "team_id": "lorenzo",
-      "name": "Lorenzo",
+      "team_id": "lazbuddie",
+      "name": "Lazbuddie",
       "district": "3-1A DII",
       "region": "panhandle",
       "classification": "1A DII",
       "association": "UIL",
-      "rank": 260,
-      "record": "1-9",
-      "power": 1435.5
+      "rank": 259,
+      "record": "5-4",
+      "power": 1436.85
     },
     {
       "team_id": "plainview-classical",
@@ -2867,9 +2856,20 @@
       "region": "taiao",
       "classification": "TAIAO DII",
       "association": "TAIAO",
-      "rank": 261,
+      "rank": 260,
       "record": "0-9",
-      "power": 1435.2
+      "power": 1435.4
+    },
+    {
+      "team_id": "lorenzo",
+      "name": "Lorenzo",
+      "district": "3-1A DII",
+      "region": "panhandle",
+      "classification": "1A DII",
+      "association": "UIL",
+      "rank": 261,
+      "record": "1-9",
+      "power": 1434.18
     },
     {
       "team_id": "sanderson",
@@ -2880,7 +2880,7 @@
       "association": "UIL",
       "rank": 262,
       "record": "4-5",
-      "power": 1433.96
+      "power": 1433.87
     },
     {
       "team_id": "high-island",
@@ -2891,7 +2891,7 @@
       "association": "UIL",
       "rank": 263,
       "record": "0-7",
-      "power": 1430.49
+      "power": 1431.34
     },
     {
       "team_id": "brookesmith",
@@ -2902,7 +2902,7 @@
       "association": "UIL",
       "rank": 264,
       "record": "7-3",
-      "power": 1430.23
+      "power": 1430.0
     },
     {
       "team_id": "big-springs-charter",
@@ -2913,7 +2913,7 @@
       "association": "TAIAO",
       "rank": 265,
       "record": "4-11",
-      "power": 1429.81
+      "power": 1429.76
     },
     {
       "team_id": "groom",
@@ -2924,7 +2924,7 @@
       "association": "UIL",
       "rank": 266,
       "record": "3-6",
-      "power": 1429.28
+      "power": 1429.24
     },
     {
       "team_id": "forestburg",
@@ -2935,7 +2935,7 @@
       "association": "UIL",
       "rank": 267,
       "record": "1-8",
-      "power": 1428.42
+      "power": 1428.37
     },
     {
       "team_id": "valor-kyle",
@@ -2946,7 +2946,7 @@
       "association": "TAIAO",
       "rank": 268,
       "record": "0-6",
-      "power": 1427.74
+      "power": 1427.69
     },
     {
       "team_id": "loop",
@@ -2957,7 +2957,7 @@
       "association": "UIL",
       "rank": 269,
       "record": "2-7",
-      "power": 1425.08
+      "power": 1423.31
     },
     {
       "team_id": "gholson",
@@ -2968,7 +2968,7 @@
       "association": "UIL",
       "rank": 270,
       "record": "1-9",
-      "power": 1422.88
+      "power": 1422.83
     },
     {
       "team_id": "santa-anna",
@@ -2979,7 +2979,7 @@
       "association": "UIL",
       "rank": 271,
       "record": "3-7",
-      "power": 1422.65
+      "power": 1422.61
     },
     {
       "team_id": "blum",
@@ -2990,7 +2990,7 @@
       "association": "UIL",
       "rank": 272,
       "record": "2-8",
-      "power": 1421.74
+      "power": 1421.7
     },
     {
       "team_id": "bronte",
@@ -3001,7 +3001,7 @@
       "association": "UIL",
       "rank": 273,
       "record": "4-6",
-      "power": 1417.07
+      "power": 1417.06
     },
     {
       "team_id": "buckholts",
@@ -3012,7 +3012,7 @@
       "association": "UIL",
       "rank": 274,
       "record": "2-7",
-      "power": 1416.56
+      "power": 1416.51
     },
     {
       "team_id": "evant",
@@ -3023,7 +3023,7 @@
       "association": "UIL",
       "rank": 275,
       "record": "5-5",
-      "power": 1416.39
+      "power": 1416.34
     },
     {
       "team_id": "leveretts-chapel",
@@ -3034,7 +3034,7 @@
       "association": "UIL",
       "rank": 276,
       "record": "5-3",
-      "power": 1412.94
+      "power": 1412.89
     },
     {
       "team_id": "fort-davis",
@@ -3045,7 +3045,7 @@
       "association": "UIL",
       "rank": 277,
       "record": "0-4",
-      "power": 1411.74
+      "power": 1411.69
     },
     {
       "team_id": "rule",
@@ -3056,7 +3056,7 @@
       "association": "UIL",
       "rank": 278,
       "record": "4-5",
-      "power": 1404.19
+      "power": 1404.14
     },
     {
       "team_id": "spur",
@@ -3067,7 +3067,7 @@
       "association": "UIL",
       "rank": 279,
       "record": "1-9",
-      "power": 1400.43
+      "power": 1400.41
     },
     {
       "team_id": "mullin",
@@ -3078,7 +3078,7 @@
       "association": "UIL",
       "rank": 280,
       "record": "4-5",
-      "power": 1393.19
+      "power": 1392.93
     },
     {
       "team_id": "wildorado",
@@ -3089,7 +3089,7 @@
       "association": "UIL",
       "rank": 281,
       "record": "4-6",
-      "power": 1389.66
+      "power": 1389.62
     },
     {
       "team_id": "lueders-avoca",
@@ -3100,7 +3100,7 @@
       "association": "UIL",
       "rank": 282,
       "record": "4-5",
-      "power": 1389.33
+      "power": 1389.31
     },
     {
       "team_id": "throckmorton",
@@ -3111,7 +3111,7 @@
       "association": "UIL",
       "rank": 283,
       "record": "3-7",
-      "power": 1389.28
+      "power": 1389.23
     },
     {
       "team_id": "prairie-lea",
@@ -3122,18 +3122,7 @@
       "association": "UIL",
       "rank": 284,
       "record": "4-6",
-      "power": 1387.52
-    },
-    {
-      "team_id": "trent",
-      "name": "Trent",
-      "district": "7-1A DII",
-      "region": "west-texas",
-      "classification": "1A DII",
-      "association": "UIL",
-      "rank": 285,
-      "record": "2-8",
-      "power": 1384.86
+      "power": 1387.47
     },
     {
       "team_id": "southland",
@@ -3142,9 +3131,9 @@
       "region": "panhandle",
       "classification": "1A DII",
       "association": "UIL",
-      "rank": 286,
-      "record": "2-7",
-      "power": 1384.54
+      "rank": 285,
+      "record": "3-7",
+      "power": 1386.75
     },
     {
       "team_id": "dawson",
@@ -3153,9 +3142,20 @@
       "region": "panhandle",
       "classification": "1A DII",
       "association": "UIL",
+      "rank": 286,
+      "record": "3-5",
+      "power": 1385.23
+    },
+    {
+      "team_id": "trent",
+      "name": "Trent",
+      "district": "7-1A DII",
+      "region": "west-texas",
+      "classification": "1A DII",
+      "association": "UIL",
       "rank": 287,
-      "record": "3-2",
-      "power": 1383.11
+      "record": "2-8",
+      "power": 1384.68
     },
     {
       "team_id": "fort-hancock",
@@ -3166,7 +3166,7 @@
       "association": "UIL",
       "rank": 288,
       "record": "3-5",
-      "power": 1376.44
+      "power": 1376.39
     },
     {
       "team_id": "dell-city",
@@ -3177,7 +3177,7 @@
       "association": "UIL",
       "rank": 289,
       "record": "3-5",
-      "power": 1371.6
+      "power": 1371.55
     },
     {
       "team_id": "lingleville",
@@ -3188,7 +3188,7 @@
       "association": "UIL",
       "rank": 290,
       "record": "3-7",
-      "power": 1368.82
+      "power": 1370.39
     },
     {
       "team_id": "lohn",
@@ -3199,7 +3199,7 @@
       "association": "UIL",
       "rank": 291,
       "record": "2-8",
-      "power": 1368.13
+      "power": 1367.89
     },
     {
       "team_id": "ranger",
@@ -3210,7 +3210,7 @@
       "association": "UIL",
       "rank": 292,
       "record": "1-8",
-      "power": 1366.98
+      "power": 1366.95
     },
     {
       "team_id": "bruni",
@@ -3221,7 +3221,7 @@
       "association": "UIL",
       "rank": 293,
       "record": "0-12",
-      "power": 1360.47
+      "power": 1360.42
     },
     {
       "team_id": "paint-rock",
@@ -3232,7 +3232,7 @@
       "association": "UIL",
       "rank": 294,
       "record": "2-9",
-      "power": 1356.57
+      "power": 1356.54
     },
     {
       "team_id": "pawnee",
@@ -3243,7 +3243,7 @@
       "association": "UIL",
       "rank": 295,
       "record": "0-1",
-      "power": 1352.66
+      "power": 1352.61
     },
     {
       "team_id": "paint-creek",
@@ -3254,7 +3254,7 @@
       "association": "UIL",
       "rank": 296,
       "record": "1-9",
-      "power": 1348.11
+      "power": 1348.03
     },
     {
       "team_id": "walnut-springs",
@@ -3265,7 +3265,7 @@
       "association": "UIL",
       "rank": 297,
       "record": "0-10",
-      "power": 1344.55
+      "power": 1344.49
     },
     {
       "team_id": "fruitvale",
@@ -3276,7 +3276,7 @@
       "association": "UIL",
       "rank": 298,
       "record": "1-7",
-      "power": 1337.64
+      "power": 1337.59
     },
     {
       "team_id": "savoy",
@@ -3287,7 +3287,7 @@
       "association": "UIL",
       "rank": 299,
       "record": "0-8",
-      "power": 1335.72
+      "power": 1335.67
     },
     {
       "team_id": "olfen",
@@ -3298,7 +3298,7 @@
       "association": "UIL",
       "rank": 300,
       "record": "1-9",
-      "power": 1326.14
+      "power": 1322.42
     },
     {
       "team_id": "sierra-blanca",
@@ -3309,7 +3309,7 @@
       "association": "UIL",
       "rank": 301,
       "record": "1-6",
-      "power": 1317.16
+      "power": 1317.1
     },
     {
       "team_id": "moran",
@@ -3320,7 +3320,7 @@
       "association": "UIL",
       "rank": 302,
       "record": "0-9",
-      "power": 1312.23
+      "power": 1311.97
     }
   ]
 }

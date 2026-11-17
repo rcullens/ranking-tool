@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1794725232,f8d40d2252352150646882ce61c28896"
+	data-csrf="1794874546,4c4c4d31ef7f889ca1affbb3ab27dcfd"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -114,21 +114,21 @@
 	
 	
 
-	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1794350360&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
+	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
 
-	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1794350360&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
-<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1794350360&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
-<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1794350360&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
-<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1794350360&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
+	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
+<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
+<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
+<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
 
-
-	
-		<script src="/js/xf/preamble.min.js?_v=884f133a"></script>
-	
 
 	
-	<script src="/js/vendor/vendor-compiled.js?_v=884f133a" defer></script>
-	<script src="/js/xf/core-compiled.js?_v=884f133a" defer></script>
+		<script src="/js/xf/preamble.min.js?_v=120c5fb5"></script>
+	
+
+	
+	<script src="/js/vendor/vendor-compiled.js?_v=120c5fb5" defer></script>
+	<script src="/js/xf/core-compiled.js?_v=120c5fb5" defer></script>
 
 	<script>
 		XF.ready(() =>
@@ -141,8 +141,8 @@
 				url: {
 					fullBase: 'https://sixmanfootball.com/',
 					basePath: '/',
-					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1794350360',
-					js: '/js/__SENTINEL__?_v=884f133a',
+					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1794803719',
+					js: '/js/__SENTINEL__?_v=120c5fb5',
 					icon: '/data/local/icons/__VARIANT__.svg?v=1794350401#__NAME__',
 					iconInline: '/styles/fa/__VARIANT__/__NAME__.svg?v=5.15.3',
 					keepAlive: '/login/keep-alive'
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1794725232,f8d40d2252352150646882ce61c28896',
-				js: {"\/js\/sixman\/score-quick-search.min.js?_v=884f133a":true},
+				csrf: '1794874546,4c4c4d31ef7f889ca1affbb3ab27dcfd',
+				js: {"\/js\/sixman\/score-quick-search.min.js?_v=120c5fb5":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1794725232,
-					today: 1794722400,
-					todayDow: 0,
-					tomorrow: 1794808800,
-					yesterday: 1794636000,
-					week: 1794204000,
+					now: 1794874546,
+					today: 1794808800,
+					todayDow: 1,
+					tomorrow: 1794895200,
+					yesterday: 1794722400,
+					week: 1794290400,
 					month: 1793509200,
 					year: 1767247200
 				},
@@ -283,7 +283,7 @@
 		})
 	</script>
 
-	<script src="/js/sixman/score-quick-search.min.js?_v=884f133a" defer></script>
+	<script src="/js/sixman/score-quick-search.min.js?_v=120c5fb5" defer></script>
 
 
 
@@ -1097,7 +1097,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1794725232,f8d40d2252352150646882ce61c28896" />
+									<input type="hidden" name="_xfToken" value="1794874546,4c4c4d31ef7f889ca1affbb3ab27dcfd" />
 								</form>
 							</div>
 						
@@ -1500,6 +1500,8 @@
 					
 						<a class="tabs-tab" href="/scores/2026/week-13/">Week 13</a>
 					
+						<a class="tabs-tab" href="/scores/2026/week-14/">Week 14</a>
+					
 				</span>
 			</div>
 		</div>
@@ -1599,7 +1601,7 @@
 	
 	
 		
-			<span class="teamRank">#284</span>
+			<span class="teamRank">#285</span>
 		
 	
 	
@@ -1651,7 +1653,7 @@
 	
 	
 		
-			<span class="teamRank">#97</span>
+			<span class="teamRank">#118</span>
 		
 	
 	
@@ -1705,7 +1707,7 @@
 	
 	
 		
-			<span class="teamRank">#242</span>
+			<span class="teamRank">#252</span>
 		
 	
 	
@@ -1863,7 +1865,7 @@
 	
 	
 		
-			<span class="teamRank">#104</span>
+			<span class="teamRank">#93</span>
 		
 	
 	
@@ -1917,7 +1919,7 @@
 	
 	
 		
-			<span class="teamRank">#65</span>
+			<span class="teamRank">#68</span>
 		
 	
 	
@@ -1969,7 +1971,7 @@
 	
 	
 		
-			<span class="teamRank">#41</span>
+			<span class="teamRank">#42</span>
 		
 	
 	
@@ -2023,7 +2025,7 @@
 	
 	
 		
-			<span class="teamRank">#32</span>
+			<span class="teamRank">#31</span>
 		
 	
 	
@@ -2075,7 +2077,7 @@
 	
 	
 		
-			<span class="teamRank">#205</span>
+			<span class="teamRank">#204</span>
 		
 	
 	
@@ -2229,7 +2231,7 @@
 	
 	
 		
-			<span class="teamRank">#212</span>
+			<span class="teamRank">#208</span>
 		
 	
 	
@@ -2281,7 +2283,7 @@
 	
 	
 		
-			<span class="teamRank">#228</span>
+			<span class="teamRank">#227</span>
 		
 	
 	
@@ -2387,7 +2389,7 @@
 	
 	
 		
-			<span class="teamRank">#28</span>
+			<span class="teamRank">#35</span>
 		
 	
 	
@@ -2441,7 +2443,7 @@
 	
 	
 		
-			<span class="teamRank">#56</span>
+			<span class="teamRank">#78</span>
 		
 	
 	
@@ -2493,7 +2495,7 @@
 	
 	
 		
-			<span class="teamRank">#51</span>
+			<span class="teamRank">#58</span>
 		
 	
 	
@@ -2547,7 +2549,7 @@
 	
 	
 		
-			<span class="teamRank">#132</span>
+			<span class="teamRank">#124</span>
 		
 	
 	
@@ -2599,7 +2601,7 @@
 	
 	
 		
-			<span class="teamRank">#203</span>
+			<span class="teamRank">#205</span>
 		
 	
 	
@@ -2705,7 +2707,7 @@
 	
 	
 		
-			<span class="teamRank">#18</span>
+			<span class="teamRank">#20</span>
 		
 	
 	
@@ -2759,7 +2761,7 @@
 	
 	
 		
-			<span class="teamRank">#43</span>
+			<span class="teamRank">#44</span>
 		
 	
 	
@@ -2822,7 +2824,7 @@
 	
 	
 		
-			<span class="teamRank">#12</span>
+			<span class="teamRank">#11</span>
 		
 	
 	
@@ -2876,7 +2878,7 @@
 	
 	
 		
-			<span class="teamRank">#89</span>
+			<span class="teamRank">#92</span>
 		
 	
 	
@@ -2928,7 +2930,7 @@
 	
 	
 		
-			<span class="teamRank">#79</span>
+			<span class="teamRank">#83</span>
 		
 	
 	
@@ -2982,7 +2984,7 @@
 	
 	
 		
-			<span class="teamRank">#253</span>
+			<span class="teamRank">#254</span>
 		
 	
 	
@@ -3204,7 +3206,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1794725232%2Cf8d40d2252352150646882ce61c28896"
+	<a href="/misc/style-variation?reset=1&amp;t=1794874546%2C4c4c4d31ef7f889ca1affbb3ab27dcfd"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -3219,7 +3221,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1794725232%2Cf8d40d2252352150646882ce61c28896"
+	<a href="/misc/style-variation?variation=default&amp;t=1794874546%2C4c4c4d31ef7f889ca1affbb3ab27dcfd"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -3234,7 +3236,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1794725232%2Cf8d40d2252352150646882ce61c28896"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1794874546%2C4c4c4d31ef7f889ca1affbb3ab27dcfd"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -3434,7 +3436,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5ac4d9eddbb3126',t:'MTc5NDcyNTIzMg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5ac4d9eddbb3126',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5ba8afe3ed6c45e',t:'MTc5NDg3NDU0Ng=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5ba8afe3ed6c45e',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
