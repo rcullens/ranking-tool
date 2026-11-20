@@ -1,6 +1,6 @@
 {
   "week": 12,
-  "pulled_at": "2026-11-19T22:01:31.340997-06:00",
+  "pulled_at": "2026-11-20T01:29:36.206557-06:00",
   "note": "External ranks are each source's published board (MaxPreps division standing; SMF / DCTF polls). Delta = our statewide rank minus theirs. NR / \u2014 means that source has not listed the team.",
   "sources": {
     "maxpreps": {
@@ -16,7 +16,7 @@
       "week": "Week 12",
       "label": "SixManFootball",
       "error": null,
-      "count": 201,
+      "count": 200,
       "via": "direct"
     },
     "dctf": {
@@ -443,10 +443,10 @@
       "region": "tapps",
       "our_rank": 28,
       "maxpreps": 2,
-      "smf": 1,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 26,
-      "delta_smf": 27,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -653,10 +653,10 @@
       "region": "tapps",
       "our_rank": 42,
       "maxpreps": 1,
-      "smf": 2,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 41,
-      "delta_smf": 40,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -1043,10 +1043,10 @@
       "region": "tapps",
       "our_rank": 68,
       "maxpreps": 7,
-      "smf": null,
+      "smf": 8,
       "dctf": null,
       "delta_maxpreps": 61,
-      "delta_smf": null,
+      "delta_smf": 60,
       "delta_dctf": null
     },
     {
@@ -1088,10 +1088,10 @@
       "region": "tapps",
       "our_rank": 71,
       "maxpreps": 2,
-      "smf": null,
+      "smf": 4,
       "dctf": null,
       "delta_maxpreps": 69,
-      "delta_smf": null,
+      "delta_smf": 67,
       "delta_dctf": null
     },
     {
@@ -1283,10 +1283,10 @@
       "region": "tapps",
       "our_rank": 84,
       "maxpreps": 1,
-      "smf": null,
+      "smf": 5,
       "dctf": null,
       "delta_maxpreps": 83,
-      "delta_smf": null,
+      "delta_smf": 79,
       "delta_dctf": null
     },
     {
@@ -1493,10 +1493,10 @@
       "region": "taiao",
       "our_rank": 98,
       "maxpreps": null,
-      "smf": 5,
+      "smf": 8,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 93,
+      "delta_smf": 90,
       "delta_dctf": null
     },
     {
@@ -1538,10 +1538,10 @@
       "region": "taiao",
       "our_rank": 101,
       "maxpreps": null,
-      "smf": 6,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 95,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -1583,10 +1583,10 @@
       "region": "tapps",
       "our_rank": 104,
       "maxpreps": 8,
-      "smf": 11,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 96,
-      "delta_smf": 93,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -1613,10 +1613,10 @@
       "region": "tapps",
       "our_rank": 106,
       "maxpreps": 5,
-      "smf": null,
+      "smf": 6,
       "dctf": null,
       "delta_maxpreps": 101,
-      "delta_smf": null,
+      "delta_smf": 100,
       "delta_dctf": null
     },
     {
@@ -1733,10 +1733,10 @@
       "region": "taiao",
       "our_rank": 114,
       "maxpreps": null,
-      "smf": 17,
+      "smf": 1,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 97,
+      "delta_smf": 113,
       "delta_dctf": null
     },
     {
@@ -1763,10 +1763,10 @@
       "region": "taiao",
       "our_rank": 116,
       "maxpreps": null,
-      "smf": 10,
+      "smf": 2,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 106,
+      "delta_smf": 114,
       "delta_dctf": null
     },
     {
@@ -1898,10 +1898,10 @@
       "region": "taiao",
       "our_rank": 125,
       "maxpreps": null,
-      "smf": null,
+      "smf": 11,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": null,
+      "delta_smf": 114,
       "delta_dctf": null
     },
     {
@@ -1913,10 +1913,10 @@
       "region": "taiao",
       "our_rank": 126,
       "maxpreps": null,
-      "smf": 8,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 118,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -2153,10 +2153,10 @@
       "region": "tapps",
       "our_rank": 142,
       "maxpreps": null,
-      "smf": 4,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": null,
-      "delta_smf": 138,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
@@ -2228,10 +2228,10 @@
       "region": "tapps",
       "our_rank": 147,
       "maxpreps": 4,
-      "smf": null,
+      "smf": 9,
       "dctf": null,
       "delta_maxpreps": 143,
-      "delta_smf": null,
+      "delta_smf": 138,
       "delta_dctf": null
     },
     {
@@ -3533,10 +3533,10 @@
       "region": "tapps",
       "our_rank": 234,
       "maxpreps": 19,
-      "smf": 9,
+      "smf": null,
       "dctf": null,
       "delta_maxpreps": 215,
-      "delta_smf": 225,
+      "delta_smf": null,
       "delta_dctf": null
     },
     {
