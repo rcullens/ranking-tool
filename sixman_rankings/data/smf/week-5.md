@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1794874548,dd8bdec4554af076635f1d1b063220dc"
+	data-csrf="1795147258,cd4e9fdb45d206ca2219a11fd25e7abb"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -114,21 +114,21 @@
 	
 	
 
-	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
+	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1794922555&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
 
-	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
-<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
-<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
-<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
+	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1794922555&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
+<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1794922555&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
+<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1794922555&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
+<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1794922555&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
 
-
-	
-		<script src="/js/xf/preamble.min.js?_v=120c5fb5"></script>
-	
 
 	
-	<script src="/js/vendor/vendor-compiled.js?_v=120c5fb5" defer></script>
-	<script src="/js/xf/core-compiled.js?_v=120c5fb5" defer></script>
+		<script src="/js/xf/preamble.min.js?_v=b8a38746"></script>
+	
+
+	
+	<script src="/js/vendor/vendor-compiled.js?_v=b8a38746" defer></script>
+	<script src="/js/xf/core-compiled.js?_v=b8a38746" defer></script>
 
 	<script>
 		XF.ready(() =>
@@ -141,9 +141,9 @@
 				url: {
 					fullBase: 'https://sixmanfootball.com/',
 					basePath: '/',
-					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1794803719',
-					js: '/js/__SENTINEL__?_v=120c5fb5',
-					icon: '/data/local/icons/__VARIANT__.svg?v=1794350401#__NAME__',
+					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1794922555',
+					js: '/js/__SENTINEL__?_v=b8a38746',
+					icon: '/data/local/icons/__VARIANT__.svg?v=1794922562#__NAME__',
 					iconInline: '/styles/fa/__VARIANT__/__NAME__.svg?v=5.15.3',
 					keepAlive: '/login/keep-alive'
 				},
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1794874548,dd8bdec4554af076635f1d1b063220dc',
-				js: {"\/js\/sixman\/score-quick-search.min.js?_v=120c5fb5":true},
+				csrf: '1795147258,cd4e9fdb45d206ca2219a11fd25e7abb',
+				js: {"\/js\/sixman\/score-quick-search.min.js?_v=b8a38746":true,"\/js\/sixman\/team-tooltip.min.js?_v=b8a38746":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1794874548,
-					today: 1794808800,
-					todayDow: 1,
-					tomorrow: 1794895200,
-					yesterday: 1794722400,
-					week: 1794290400,
+					now: 1795147258,
+					today: 1795068000,
+					todayDow: 4,
+					tomorrow: 1795154400,
+					yesterday: 1794981600,
+					week: 1794549600,
 					month: 1793509200,
 					year: 1767247200
 				},
@@ -283,7 +283,8 @@
 		})
 	</script>
 
-	<script src="/js/sixman/score-quick-search.min.js?_v=120c5fb5" defer></script>
+	<script src="/js/sixman/score-quick-search.min.js?_v=b8a38746" defer></script>
+<script src="/js/sixman/team-tooltip.min.js?_v=b8a38746" defer></script>
 
 
 
@@ -1092,12 +1093,12 @@
 									</div>
 									<div class="menu-footer">
 									<span class="menu-footer-controls">
-										<button type="submit" class="button button--icon button--icon--search button--primary"><i class="fa--xf fal fa-search "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#search"></use></svg></i><span class="button-text">Search</span></button>
+										<button type="submit" class="button button--icon button--icon--search button--primary"><i class="fa--xf fal fa-search "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#search"></use></svg></i><span class="button-text">Search</span></button>
 										<button type="submit" class="button " name="from_search_menu"><span class="button-text">Advanced search…</span></button>
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1794874548,dd8bdec4554af076635f1d1b063220dc" />
+									<input type="hidden" name="_xfToken" value="1795147258,cd4e9fdb45d206ca2219a11fd25e7abb" />
 								</form>
 							</div>
 						
@@ -1551,8 +1552,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/buckholts-badgers.1076/schedule/2026/">Buckholts</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/buckholts-badgers.1076/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/buckholts-badgers.1076/preview" data-team-id="1076">Buckholts</a>
 		
 	
 	
@@ -1605,8 +1613,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/texas-empowerment-academy-panthers.19166/schedule/2026/">Texas Empowerment Academy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/texas-empowerment-academy-panthers.19166/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/texas-empowerment-academy-panthers.19166/preview" data-team-id="19166">Texas Empowerment Academy</a>
 		
 	
 	
@@ -1657,8 +1672,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/fannindel-falcons.1161/schedule/2026/">Fannindel</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fannindel-falcons.1161/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fannindel-falcons.1161/preview" data-team-id="1161">Fannindel</a>
 		
 	
 	
@@ -1707,7 +1729,9 @@
 	
 	
 	
+	
 		Tyler HEAT JV
+	
 	
 	
 
@@ -1757,8 +1781,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/houston-emery-weiner-jaguars.2256/schedule/2026/">Houston Emery-Weiner</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/houston-emery-weiner-jaguars.2256/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/houston-emery-weiner-jaguars.2256/preview" data-team-id="2256">Houston Emery-Weiner</a>
 		
 	
 	
@@ -1811,8 +1842,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/richland-springs-coyotes.1496/schedule/2026/">Richland Springs</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/richland-springs-coyotes.1496/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/richland-springs-coyotes.1496/preview" data-team-id="1496">Richland Springs</a>
 		
 	
 	
@@ -1863,8 +1901,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/iredell-dragons.1281/schedule/2026/">Iredell</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/iredell-dragons.1281/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/iredell-dragons.1281/preview" data-team-id="1281">Iredell</a>
 		
 	
 	
@@ -1917,8 +1962,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/valor-north-austin-lions.19168/schedule/2026/">Valor North Austin</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/valor-north-austin-lions.19168/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/valor-north-austin-lions.19168/preview" data-team-id="19168">Valor North Austin</a>
 		
 	
 	
@@ -1980,8 +2032,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/abilene-christian-panthers.2001/schedule/2026/">Abilene Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/abilene-christian-panthers.2001/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/abilene-christian-panthers.2001/preview" data-team-id="2001">Abilene Christian</a>
 		
 	
 	
@@ -2034,8 +2093,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/may-tigers.1371/schedule/2026/">May</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/may-tigers.1371/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/may-tigers.1371/preview" data-team-id="1371">May</a>
 		
 	
 	
@@ -2086,8 +2152,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/anton-bulldogs.991/schedule/2026/">Anton</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/anton-bulldogs.991/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/anton-bulldogs.991/preview" data-team-id="991">Anton</a>
 		
 	
 	
@@ -2140,8 +2213,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/dawson-dragons.1141/schedule/2026/">Dawson</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/dawson-dragons.1141/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/dawson-dragons.1141/preview" data-team-id="1141">Dawson</a>
 		
 	
 	
@@ -2192,8 +2272,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/apple-springs-eagles.1011/schedule/2026/">Apple Springs</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/apple-springs-eagles.1011/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/apple-springs-eagles.1011/preview" data-team-id="1011">Apple Springs</a>
 		
 	
 	
@@ -2246,8 +2333,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/bryan-st-joseph-eagles.2107/schedule/2026/">Bryan St. Joseph</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/bryan-st-joseph-eagles.2107/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/bryan-st-joseph-eagles.2107/preview" data-team-id="2107">Bryan St. Joseph</a>
 		
 	
 	
@@ -2298,8 +2392,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/aquilla-cougars.1016/schedule/2026/">Aquilla</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/aquilla-cougars.1016/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/aquilla-cougars.1016/preview" data-team-id="1016">Aquilla</a>
 		
 	
 	
@@ -2352,8 +2453,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/jonesboro-eagles.1296/schedule/2026/">Jonesboro</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/jonesboro-eagles.1296/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/jonesboro-eagles.1296/preview" data-team-id="1296">Jonesboro</a>
 		
 	
 	
@@ -2404,8 +2512,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/austin-classical-school-mustangs.19245/schedule/2026/">Austin Classical School</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/austin-classical-school-mustangs.19245/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/austin-classical-school-mustangs.19245/preview" data-team-id="19245">Austin Classical School</a>
 		
 	
 	
@@ -2458,8 +2573,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/galveston-oconnell-buccaneers.2237/schedule/2026/">Galveston O&#039;Connell</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/galveston-oconnell-buccaneers.2237/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/galveston-oconnell-buccaneers.2237/preview" data-team-id="2237">Galveston O&#039;Connell</a>
 		
 	
 	
@@ -2510,8 +2632,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/balmorhea-bears.1036/schedule/2026/">Balmorhea</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/balmorhea-bears.1036/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/balmorhea-bears.1036/preview" data-team-id="1036">Balmorhea</a>
 		
 	
 	
@@ -2564,8 +2693,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/el-paso-leadership-academy-leaders.19162/schedule/2026/">El Paso Leadership Academy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/el-paso-leadership-academy-leaders.19162/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/el-paso-leadership-academy-leaders.19162/preview" data-team-id="19162">El Paso Leadership Academy</a>
 		
 	
 	
@@ -2616,8 +2752,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/benavides-eagles.19121/schedule/2026/">Benavides</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/benavides-eagles.19121/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/benavides-eagles.19121/preview" data-team-id="19121">Benavides</a>
 		
 	
 	
@@ -2670,8 +2813,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/corpus-christi-coastal-christian-badgers.2129/schedule/2026/">Corpus Christi Coastal Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/corpus-christi-coastal-christian-badgers.2129/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/corpus-christi-coastal-christian-badgers.2129/preview" data-team-id="2129">Corpus Christi Coastal Christian</a>
 		
 	
 	
@@ -2722,8 +2872,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/blackwell-hornets.1046/schedule/2026/">Blackwell</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/blackwell-hornets.1046/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/blackwell-hornets.1046/preview" data-team-id="1046">Blackwell</a>
 		
 	
 	
@@ -2776,8 +2933,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/highland-hornets.1271/schedule/2026/">Highland</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/highland-hornets.1271/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/highland-hornets.1271/preview" data-team-id="1271">Highland</a>
 		
 	
 	
@@ -2828,8 +2992,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/blum-bobcats.1056/schedule/2026/">Blum</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/blum-bobcats.1056/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/blum-bobcats.1056/preview" data-team-id="1056">Blum</a>
 		
 	
 	
@@ -2882,8 +3053,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/bynum-bulldogs.1091/schedule/2026/">Bynum</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/bynum-bulldogs.1091/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/bynum-bulldogs.1091/preview" data-team-id="1091">Bynum</a>
 		
 	
 	
@@ -2934,8 +3112,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/borden-county-coyotes.1061/schedule/2026/">Borden County</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/borden-county-coyotes.1061/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/borden-county-coyotes.1061/preview" data-team-id="1061">Borden County</a>
 		
 	
 	
@@ -2988,8 +3173,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/whiteface-antelopes.1661/schedule/2026/">Whiteface</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/whiteface-antelopes.1661/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/whiteface-antelopes.1661/preview" data-team-id="1661">Whiteface</a>
 		
 	
 	
@@ -3040,8 +3232,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/brazos-valley-lions.19568/schedule/2026/">Brazos Valley</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/brazos-valley-lions.19568/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/brazos-valley-lions.19568/preview" data-team-id="19568">Brazos Valley</a>
 		
 	
 	
@@ -3094,8 +3293,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/temple-centex-homeschool-chargers.2369/schedule/2026/">Temple Centex Homeschool</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/temple-centex-homeschool-chargers.2369/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/temple-centex-homeschool-chargers.2369/preview" data-team-id="2369">Temple Centex Homeschool</a>
 		
 	
 	
@@ -3146,8 +3352,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/bronte-longhorns.1067/schedule/2026/">Bronte</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/bronte-longhorns.1067/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/bronte-longhorns.1067/preview" data-team-id="1067">Bronte</a>
 		
 	
 	
@@ -3200,8 +3413,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/rotan-yellowhammers.1518/schedule/2026/">Rotan</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/rotan-yellowhammers.1518/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/rotan-yellowhammers.1518/preview" data-team-id="1518">Rotan</a>
 		
 	
 	
@@ -3252,8 +3472,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/brookesmith-mustangs.1066/schedule/2026/">Brookesmith</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/brookesmith-mustangs.1066/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/brookesmith-mustangs.1066/preview" data-team-id="1066">Brookesmith</a>
 		
 	
 	
@@ -3306,8 +3533,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/santa-anna-mountaineers.1551/schedule/2026/">Santa Anna</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/santa-anna-mountaineers.1551/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/santa-anna-mountaineers.1551/preview" data-team-id="1551">Santa Anna</a>
 		
 	
 	
@@ -3358,8 +3592,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/brownsville-jubilee-titans.19082/schedule/2026/">Brownsville Jubilee</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/brownsville-jubilee-titans.19082/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/brownsville-jubilee-titans.19082/preview" data-team-id="19082">Brownsville Jubilee</a>
 		
 	
 	
@@ -3412,8 +3653,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/victoria-home-school-cobras.2387/schedule/2026/">Victoria Home School</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/victoria-home-school-cobras.2387/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/victoria-home-school-cobras.2387/preview" data-team-id="2387">Victoria Home School</a>
 		
 	
 	
@@ -3464,8 +3712,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/bulverde-bracken-christian-warriors.2111/schedule/2026/">Bulverde Bracken Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/bulverde-bracken-christian-warriors.2111/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/bulverde-bracken-christian-warriors.2111/preview" data-team-id="2111">Bulverde Bracken Christian</a>
 		
 	
 	
@@ -3518,8 +3773,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/fredericksburg-heritage-eagles.2236/schedule/2026/">Fredericksburg Heritage</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fredericksburg-heritage-eagles.2236/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fredericksburg-heritage-eagles.2236/preview" data-team-id="2236">Fredericksburg Heritage</a>
 		
 	
 	
@@ -3570,8 +3832,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/conroe-covenant-christian-cougars.2134/schedule/2026/">Conroe Covenant Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/conroe-covenant-christian-cougars.2134/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/conroe-covenant-christian-cougars.2134/preview" data-team-id="2134">Conroe Covenant Christian</a>
 		
 	
 	
@@ -3624,8 +3893,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/bellville-faith-knights.2071/schedule/2026/">Bellville Faith</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/bellville-faith-knights.2071/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/bellville-faith-knights.2071/preview" data-team-id="2071">Bellville Faith</a>
 		
 	
 	
@@ -3676,8 +3952,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/coolidge-yellowjackets.1111/schedule/2026/">Coolidge</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/coolidge-yellowjackets.1111/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/coolidge-yellowjackets.1111/preview" data-team-id="1111">Coolidge</a>
 		
 	
 	
@@ -3730,8 +4013,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/covington-owls.1121/schedule/2026/">Covington</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/covington-owls.1121/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/covington-owls.1121/preview" data-team-id="1121">Covington</a>
 		
 	
 	
@@ -3782,8 +4072,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/corpus-christi-arlington-heights-lions.2135/schedule/2026/">Corpus Christi Arlington Heights</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/corpus-christi-arlington-heights-lions.2135/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/corpus-christi-arlington-heights-lions.2135/preview" data-team-id="2135">Corpus Christi Arlington Heights</a>
 		
 	
 	
@@ -3836,8 +4133,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/westhoff-warriors.19572/schedule/2026/">Westhoff</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/westhoff-warriors.19572/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/westhoff-warriors.19572/preview" data-team-id="19572">Westhoff</a>
 		
 	
 	
@@ -3888,8 +4192,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/cranfills-gap-lions.1126/schedule/2026/">Cranfills Gap</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/cranfills-gap-lions.1126/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/cranfills-gap-lions.1126/preview" data-team-id="1126">Cranfills Gap</a>
 		
 	
 	
@@ -3942,8 +4253,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lingleville-cardinals.1333/schedule/2026/">Lingleville</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lingleville-cardinals.1333/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lingleville-cardinals.1333/preview" data-team-id="1333">Lingleville</a>
 		
 	
 	
@@ -3994,8 +4312,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/crowley-nazarene-christian-lions.1134/schedule/2026/">Crowley Nazarene Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/crowley-nazarene-christian-lions.1134/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/crowley-nazarene-christian-lions.1134/preview" data-team-id="1134">Crowley Nazarene Christian</a>
 		
 	
 	
@@ -4048,8 +4373,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/texas-wind-skyhawks.19083/schedule/2026/">Texas Wind</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/texas-wind-skyhawks.19083/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/texas-wind-skyhawks.19083/preview" data-team-id="19083">Texas Wind</a>
 		
 	
 	
@@ -4100,8 +4432,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/decatur-victory-christian-patriots.2164/schedule/2026/">Decatur Victory Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/decatur-victory-christian-patriots.2164/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/decatur-victory-christian-patriots.2164/preview" data-team-id="2164">Decatur Victory Christian</a>
 		
 	
 	
@@ -4154,8 +4493,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/westlake-academy-blacksmiths.2402/schedule/2026/">Westlake Academy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/westlake-academy-blacksmiths.2402/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/westlake-academy-blacksmiths.2402/preview" data-team-id="2402">Westlake Academy</a>
 		
 	
 	
@@ -4206,8 +4552,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/dell-city-cougars.1146/schedule/2026/">Dell City</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/dell-city-cougars.1146/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/dell-city-cougars.1146/preview" data-team-id="1146">Dell City</a>
 		
 	
 	
@@ -4260,8 +4613,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/ep-immanuel-christian-warriors.2201/schedule/2026/">EP Immanuel Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/ep-immanuel-christian-warriors.2201/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/ep-immanuel-christian-warriors.2201/preview" data-team-id="2201">EP Immanuel Christian</a>
 		
 	
 	
@@ -4312,8 +4672,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/evant-elks.1159/schedule/2026/">Evant</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/evant-elks.1159/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/evant-elks.1159/preview" data-team-id="1159">Evant</a>
 		
 	
 	
@@ -4366,8 +4733,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/kopperl-eagles.1311/schedule/2026/">Kopperl</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/kopperl-eagles.1311/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/kopperl-eagles.1311/preview" data-team-id="1311">Kopperl</a>
 		
 	
 	
@@ -4418,8 +4792,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/fort-bend-homeschool-chargers.2364/schedule/2026/">Fort Bend Homeschool</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fort-bend-homeschool-chargers.2364/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fort-bend-homeschool-chargers.2364/preview" data-team-id="2364">Fort Bend Homeschool</a>
 		
 	
 	
@@ -4472,8 +4853,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/brazos-valley-christian-bvchea-mustangs.2106/schedule/2026/">Brazos Valley Christian (BVCHEA)</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/brazos-valley-christian-bvchea-mustangs.2106/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/brazos-valley-christian-bvchea-mustangs.2106/preview" data-team-id="2106">Brazos Valley Christian (BVCHEA)</a>
 		
 	
 	
@@ -4524,8 +4912,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/fort-hancock-mustangs.1186/schedule/2026/">Fort Hancock</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fort-hancock-mustangs.1186/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fort-hancock-mustangs.1186/preview" data-team-id="1186">Fort Hancock</a>
 		
 	
 	
@@ -4578,8 +4973,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/sierra-blanca-vaqueros.1561/schedule/2026/">Sierra Blanca</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/sierra-blanca-vaqueros.1561/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/sierra-blanca-vaqueros.1561/preview" data-team-id="1561">Sierra Blanca</a>
 		
 	
 	
@@ -4630,8 +5032,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/fort-worth-thesa-riders.2368/schedule/2026/">Fort Worth THESA</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fort-worth-thesa-riders.2368/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fort-worth-thesa-riders.2368/preview" data-team-id="2368">Fort Worth THESA</a>
 		
 	
 	
@@ -4684,8 +5093,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/milford-bulldogs.1391/schedule/2026/">Milford</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/milford-bulldogs.1391/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/milford-bulldogs.1391/preview" data-team-id="1391">Milford</a>
 		
 	
 	
@@ -4736,8 +5152,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/gainesville-lone-star-north-tornadoes.2235/schedule/2026/">Gainesville Lone Star North</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/gainesville-lone-star-north-tornadoes.2235/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/gainesville-lone-star-north-tornadoes.2235/preview" data-team-id="2235">Gainesville Lone Star North</a>
 		
 	
 	
@@ -4790,8 +5213,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/gold-burg-bears.1196/schedule/2026/">Gold-Burg</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/gold-burg-bears.1196/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/gold-burg-bears.1196/preview" data-team-id="1196">Gold-Burg</a>
 		
 	
 	
@@ -4842,8 +5272,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/garland-christian-swordsmen.2233/schedule/2026/">Garland Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/garland-christian-swordsmen.2233/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/garland-christian-swordsmen.2233/preview" data-team-id="2233">Garland Christian</a>
 		
 	
 	
@@ -4896,8 +5333,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/dallas-lakehill-warriors.2146/schedule/2026/">Dallas Lakehill</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/dallas-lakehill-warriors.2146/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/dallas-lakehill-warriors.2146/preview" data-team-id="2146">Dallas Lakehill</a>
 		
 	
 	
@@ -4948,8 +5392,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/giddings-lone-star-southeast-mustangs.2242/schedule/2026/">Giddings Lone Star Southeast</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/giddings-lone-star-southeast-mustangs.2242/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/giddings-lone-star-southeast-mustangs.2242/preview" data-team-id="2242">Giddings Lone Star Southeast</a>
 		
 	
 	
@@ -5002,8 +5453,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/mcdade-bulldogs.1373/schedule/2026/">McDade</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/mcdade-bulldogs.1373/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/mcdade-bulldogs.1373/preview" data-team-id="1373">McDade</a>
 		
 	
 	
@@ -5054,8 +5512,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/gorman-panthers.1203/schedule/2026/">Gorman</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/gorman-panthers.1203/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/gorman-panthers.1203/preview" data-team-id="1203">Gorman</a>
 		
 	
 	
@@ -5108,8 +5573,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/sidney-eagles.1556/schedule/2026/">Sidney</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/sidney-eagles.1556/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/sidney-eagles.1556/preview" data-team-id="1556">Sidney</a>
 		
 	
 	
@@ -5160,8 +5632,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/grady-wildcats.1206/schedule/2026/">Grady</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/grady-wildcats.1206/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/grady-wildcats.1206/preview" data-team-id="1206">Grady</a>
 		
 	
 	
@@ -5214,8 +5693,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lazbuddie-longhorns.1321/schedule/2026/">Lazbuddie</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lazbuddie-longhorns.1321/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lazbuddie-longhorns.1321/preview" data-team-id="1321">Lazbuddie</a>
 		
 	
 	
@@ -5266,8 +5752,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/grandfalls-royalty-cowboys.1216/schedule/2026/">Grandfalls-Royalty</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/grandfalls-royalty-cowboys.1216/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/grandfalls-royalty-cowboys.1216/preview" data-team-id="1216">Grandfalls-Royalty</a>
 		
 	
 	
@@ -5320,8 +5813,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/midland-texas-leadership-charter-eagles.1388/schedule/2026/">Midland Texas Leadership Charter</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/midland-texas-leadership-charter-eagles.1388/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/midland-texas-leadership-charter-eagles.1388/preview" data-team-id="1388">Midland Texas Leadership Charter</a>
 		
 	
 	
@@ -5372,8 +5872,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/greenville-christian-eagles.2246/schedule/2026/">Greenville Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/greenville-christian-eagles.2246/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/greenville-christian-eagles.2246/preview" data-team-id="2246">Greenville Christian</a>
 		
 	
 	
@@ -5426,8 +5933,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/rockwall-heritage-eagles.2321/schedule/2026/">Rockwall Heritage</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/rockwall-heritage-eagles.2321/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/rockwall-heritage-eagles.2321/preview" data-team-id="2321">Rockwall Heritage</a>
 		
 	
 	
@@ -5478,8 +5992,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/groom-tigers.1226/schedule/2026/">Groom</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/groom-tigers.1226/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/groom-tigers.1226/preview" data-team-id="1226">Groom</a>
 		
 	
 	
@@ -5532,8 +6053,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/wildorado-mustangs.1663/schedule/2026/">Wildorado</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/wildorado-mustangs.1663/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/wildorado-mustangs.1663/preview" data-team-id="1663">Wildorado</a>
 		
 	
 	
@@ -5584,8 +6112,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/gustine-tigers.1231/schedule/2026/">Gustine</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/gustine-tigers.1231/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/gustine-tigers.1231/preview" data-team-id="1231">Gustine</a>
 		
 	
 	
@@ -5638,8 +6173,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/eden-bulldogs.1151/schedule/2026/">Eden</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/eden-bulldogs.1151/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/eden-bulldogs.1151/preview" data-team-id="1151">Eden</a>
 		
 	
 	
@@ -5690,8 +6232,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/happy-cowboys.1241/schedule/2026/">Happy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/happy-cowboys.1241/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/happy-cowboys.1241/preview" data-team-id="1241">Happy</a>
 		
 	
 	
@@ -5744,8 +6293,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/claude-mustangs.1108/schedule/2026/">Claude</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/claude-mustangs.1108/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/claude-mustangs.1108/preview" data-team-id="1108">Claude</a>
 		
 	
 	
@@ -5796,8 +6352,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/hermleigh-cardinals.1261/schedule/2026/">Hermleigh</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/hermleigh-cardinals.1261/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/hermleigh-cardinals.1261/preview" data-team-id="1261">Hermleigh</a>
 		
 	
 	
@@ -5850,8 +6413,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/west-texas-tornadoes.19174/schedule/2026/">West Texas</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/west-texas-tornadoes.19174/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/west-texas-tornadoes.19174/preview" data-team-id="19174">West Texas</a>
 		
 	
 	
@@ -5902,8 +6472,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/ira-bulldogs.1276/schedule/2026/">Ira</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/ira-bulldogs.1276/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/ira-bulldogs.1276/preview" data-team-id="1276">Ira</a>
 		
 	
 	
@@ -5956,8 +6533,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/meadow-broncos.1381/schedule/2026/">Meadow</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/meadow-broncos.1381/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/meadow-broncos.1381/preview" data-team-id="1381">Meadow</a>
 		
 	
 	
@@ -6008,8 +6592,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/irion-county-hornets.1283/schedule/2026/">Irion County</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/irion-county-hornets.1283/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/irion-county-hornets.1283/preview" data-team-id="1283">Irion County</a>
 		
 	
 	
@@ -6062,8 +6653,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/rising-star-wildcats.1501/schedule/2026/">Rising Star</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/rising-star-wildcats.1501/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/rising-star-wildcats.1501/preview" data-team-id="1501">Rising Star</a>
 		
 	
 	
@@ -6114,8 +6712,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/jcsa-lions.2270/schedule/2026/">JCSA</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/jcsa-lions.2270/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/jcsa-lions.2270/preview" data-team-id="2270">JCSA</a>
 		
 	
 	
@@ -6168,8 +6773,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/waco-methodist-childrens-home-bulldogs.2390/schedule/2026/">Waco Methodist Childrens Home</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/waco-methodist-childrens-home-bulldogs.2390/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/waco-methodist-childrens-home-bulldogs.2390/preview" data-team-id="2390">Waco Methodist Childrens Home</a>
 		
 	
 	
@@ -6220,8 +6832,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/klondike-cougars.1301/schedule/2026/">Klondike</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/klondike-cougars.1301/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/klondike-cougars.1301/preview" data-team-id="1301">Klondike</a>
 		
 	
 	
@@ -6274,8 +6893,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/wellman-union-wildcats.1646/schedule/2026/">Wellman-Union</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/wellman-union-wildcats.1646/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/wellman-union-wildcats.1646/preview" data-team-id="1646">Wellman-Union</a>
 		
 	
 	
@@ -6326,8 +6952,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/knippa-rockcrushers.19143/schedule/2026/">Knippa</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/knippa-rockcrushers.19143/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/knippa-rockcrushers.19143/preview" data-team-id="19143">Knippa</a>
 		
 	
 	
@@ -6380,8 +7013,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/leakey-big-springs-charter-school-hawks.19100/schedule/2026/">Leakey Big Springs Charter School</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/leakey-big-springs-charter-school-hawks.19100/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/leakey-big-springs-charter-school-hawks.19100/preview" data-team-id="19100">Leakey Big Springs Charter School</a>
 		
 	
 	
@@ -6432,8 +7072,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lantana-harvest-christian-saints.2265/schedule/2026/">Lantana Harvest Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lantana-harvest-christian-saints.2265/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lantana-harvest-christian-saints.2265/preview" data-team-id="2265">Lantana Harvest Christian</a>
 		
 	
 	
@@ -6486,8 +7133,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/tyler-kings-academy-knights.2386/schedule/2026/">Tyler King&#039;s Academy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/tyler-kings-academy-knights.2386/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/tyler-kings-academy-knights.2386/preview" data-team-id="2386">Tyler King&#039;s Academy</a>
 		
 	
 	
@@ -6538,8 +7192,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/laredo-st-augustine-knights.2274/schedule/2026/">Laredo St. Augustine</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/laredo-st-augustine-knights.2274/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/laredo-st-augustine-knights.2274/preview" data-team-id="2274">Laredo St. Augustine</a>
 		
 	
 	
@@ -6592,8 +7253,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/bruni-badgers.19280/schedule/2026/">Bruni</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/bruni-badgers.19280/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/bruni-badgers.19280/preview" data-team-id="19280">Bruni</a>
 		
 	
 	
@@ -6644,8 +7312,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/leander-founders-classical-academy-archers.19159/schedule/2026/">Leander Founders Classical Academy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/leander-founders-classical-academy-archers.19159/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/leander-founders-classical-academy-archers.19159/preview" data-team-id="19159">Leander Founders Classical Academy</a>
 		
 	
 	
@@ -6698,8 +7373,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/williamson-county-home-school-wilco-falcons.2409/schedule/2026/">Williamson County Home School (WILCO)</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/williamson-county-home-school-wilco-falcons.2409/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/williamson-county-home-school-wilco-falcons.2409/preview" data-team-id="2409">Williamson County Home School (WILCO)</a>
 		
 	
 	
@@ -6750,8 +7432,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/leveretts-chapel-lions.1331/schedule/2026/">Leverett&#039;s Chapel</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/leveretts-chapel-lions.1331/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/leveretts-chapel-lions.1331/preview" data-team-id="1331">Leverett&#039;s Chapel</a>
 		
 	
 	
@@ -6804,8 +7493,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/fruitvale-bobcats.1188/schedule/2026/">Fruitvale</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fruitvale-bobcats.1188/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fruitvale-bobcats.1188/preview" data-team-id="1188">Fruitvale</a>
 		
 	
 	
@@ -6856,8 +7552,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lubbock-christ-the-king-golden-lions.2286/schedule/2026/">Lubbock Christ the King</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lubbock-christ-the-king-golden-lions.2286/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lubbock-christ-the-king-golden-lions.2286/preview" data-team-id="2286">Lubbock Christ the King</a>
 		
 	
 	
@@ -6910,8 +7613,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/kress-kangaroos.1316/schedule/2026/">Kress</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/kress-kangaroos.1316/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/kress-kangaroos.1316/preview" data-team-id="1316">Kress</a>
 		
 	
 	
@@ -6962,8 +7672,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lubbock-kingdom-preparatory-warriors.2289/schedule/2026/">Lubbock Kingdom Preparatory</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lubbock-kingdom-preparatory-warriors.2289/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lubbock-kingdom-preparatory-warriors.2289/preview" data-team-id="2289">Lubbock Kingdom Preparatory</a>
 		
 	
 	
@@ -7016,8 +7733,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/baird-bears.1033/schedule/2026/">Baird</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/baird-bears.1033/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/baird-bears.1033/preview" data-team-id="1033">Baird</a>
 		
 	
 	
@@ -7068,8 +7792,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lucas-christian-warriors.2291/schedule/2026/">Lucas Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lucas-christian-warriors.2291/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lucas-christian-warriors.2291/preview" data-team-id="2291">Lucas Christian</a>
 		
 	
 	
@@ -7122,8 +7853,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/irving-the-highlands-blazers.2268/schedule/2026/">Irving The Highlands</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/irving-the-highlands-blazers.2268/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/irving-the-highlands-blazers.2268/preview" data-team-id="2268">Irving The Highlands</a>
 		
 	
 	
@@ -7174,8 +7912,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/mckinney-cornerstone-warriors.2299/schedule/2026/">McKinney Cornerstone</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/mckinney-cornerstone-warriors.2299/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/mckinney-cornerstone-warriors.2299/preview" data-team-id="2299">McKinney Cornerstone</a>
 		
 	
 	
@@ -7228,8 +7973,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/fort-worth-temple-christian-eagles.19239/schedule/2026/">Fort Worth Temple Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fort-worth-temple-christian-eagles.19239/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fort-worth-temple-christian-eagles.19239/preview" data-team-id="19239">Fort Worth Temple Christian</a>
 		
 	
 	
@@ -7280,8 +8032,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/menard-yellowjackets.19077/schedule/2026/">Menard</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/menard-yellowjackets.19077/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/menard-yellowjackets.19077/preview" data-team-id="19077">Menard</a>
 		
 	
 	
@@ -7334,8 +8093,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/paint-rock-indians.1461/schedule/2026/">Paint Rock</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/paint-rock-indians.1461/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/paint-rock-indians.1461/preview" data-team-id="1461">Paint Rock</a>
 		
 	
 	
@@ -7386,8 +8152,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/miami-warriors.1386/schedule/2026/">Miami</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/miami-warriors.1386/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/miami-warriors.1386/preview" data-team-id="1386">Miami</a>
 		
 	
 	
@@ -7436,7 +8209,9 @@
 	
 	
 	
+	
 		Valley JV
+	
 	
 	
 
@@ -7486,8 +8261,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/morgan-eagles.1401/schedule/2026/">Morgan</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/morgan-eagles.1401/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/morgan-eagles.1401/preview" data-team-id="1401">Morgan</a>
 		
 	
 	
@@ -7540,8 +8322,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/gholson-wildcats.1193/schedule/2026/">Gholson</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/gholson-wildcats.1193/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/gholson-wildcats.1193/preview" data-team-id="1193">Gholson</a>
 		
 	
 	
@@ -7592,8 +8381,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/motley-county-matadors.1406/schedule/2026/">Motley County</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/motley-county-matadors.1406/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/motley-county-matadors.1406/preview" data-team-id="1406">Motley County</a>
 		
 	
 	
@@ -7646,8 +8442,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/booker-kiowas.19125/schedule/2026/">Booker</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/booker-kiowas.19125/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/booker-kiowas.19125/preview" data-team-id="19125">Booker</a>
 		
 	
 	
@@ -7698,8 +8501,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/mount-calm-panthers.1409/schedule/2026/">Mount Calm</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/mount-calm-panthers.1409/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/mount-calm-panthers.1409/preview" data-team-id="1409">Mount Calm</a>
 		
 	
 	
@@ -7752,8 +8562,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/penelope-wolverines.1476/schedule/2026/">Penelope</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/penelope-wolverines.1476/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/penelope-wolverines.1476/preview" data-team-id="1476">Penelope</a>
 		
 	
 	
@@ -7804,8 +8621,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/nazareth-swifts.1423/schedule/2026/">Nazareth</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/nazareth-swifts.1423/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/nazareth-swifts.1423/preview" data-team-id="1423">Nazareth</a>
 		
 	
 	
@@ -7858,8 +8682,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/mclean-tigers.1376/schedule/2026/">McLean</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/mclean-tigers.1376/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/mclean-tigers.1376/preview" data-team-id="1376">McLean</a>
 		
 	
 	
@@ -7910,8 +8741,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/north-second-baptist-um-eagles.19263/schedule/2026/">North Second Baptist UM</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/north-second-baptist-um-eagles.19263/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/north-second-baptist-um-eagles.19263/preview" data-team-id="19263">North Second Baptist UM</a>
 		
 	
 	
@@ -7964,8 +8802,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/faith-leadership-christian-academy-knights.19257/schedule/2026/">Faith Leadership Christian Academy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/faith-leadership-christian-academy-knights.19257/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/faith-leadership-christian-academy-knights.19257/preview" data-team-id="19257">Faith Leadership Christian Academy</a>
 		
 	
 	
@@ -8016,8 +8861,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/north-star-naturals.19247/schedule/2026/">North Star</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/north-star-naturals.19247/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/north-star-naturals.19247/preview" data-team-id="19247">North Star</a>
 		
 	
 	
@@ -8070,8 +8922,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/austin-nyos-jaguars.1026/schedule/2026/">Austin NYOS</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/austin-nyos-jaguars.1026/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/austin-nyos-jaguars.1026/preview" data-team-id="1026">Austin NYOS</a>
 		
 	
 	
@@ -8122,8 +8981,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/oglesby-tigers.1446/schedule/2026/">Oglesby</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/oglesby-tigers.1446/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/oglesby-tigers.1446/preview" data-team-id="1446">Oglesby</a>
 		
 	
 	
@@ -8176,8 +9042,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/zephyr-bulldogs.1681/schedule/2026/">Zephyr</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/zephyr-bulldogs.1681/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/zephyr-bulldogs.1681/preview" data-team-id="1681">Zephyr</a>
 		
 	
 	
@@ -8228,8 +9101,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/paducah-dragons.1451/schedule/2026/">Paducah</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/paducah-dragons.1451/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/paducah-dragons.1451/preview" data-team-id="1451">Paducah</a>
 		
 	
 	
@@ -8282,8 +9162,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/spur-bulldogs.1576/schedule/2026/">Spur</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/spur-bulldogs.1576/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/spur-bulldogs.1576/preview" data-team-id="1576">Spur</a>
 		
 	
 	
@@ -8334,8 +9221,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/paint-creek-pirates.1456/schedule/2026/">Paint Creek</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/paint-creek-pirates.1456/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/paint-creek-pirates.1456/preview" data-team-id="1456">Paint Creek</a>
 		
 	
 	
@@ -8388,8 +9282,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/moran-bulldogs.1396/schedule/2026/">Moran</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/moran-bulldogs.1396/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/moran-bulldogs.1396/preview" data-team-id="1396">Moran</a>
 		
 	
 	
@@ -8440,8 +9341,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/pasadena-first-baptist-warriors.2311/schedule/2026/">Pasadena First Baptist</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/pasadena-first-baptist-warriors.2311/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/pasadena-first-baptist-warriors.2311/preview" data-team-id="2311">Pasadena First Baptist</a>
 		
 	
 	
@@ -8494,8 +9402,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/huntsville-alpha-omega-lions.2267/schedule/2026/">Huntsville Alpha Omega</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/huntsville-alpha-omega-lions.2267/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/huntsville-alpha-omega-lions.2267/preview" data-team-id="2267">Huntsville Alpha Omega</a>
 		
 	
 	
@@ -8546,8 +9461,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/perrin-whitt-pirates.1479/schedule/2026/">Perrin-Whitt</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/perrin-whitt-pirates.1479/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/perrin-whitt-pirates.1479/preview" data-team-id="1479">Perrin-Whitt</a>
 		
 	
 	
@@ -8600,8 +9522,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/forestburg-longhorns.1171/schedule/2026/">Forestburg</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/forestburg-longhorns.1171/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/forestburg-longhorns.1171/preview" data-team-id="1171">Forestburg</a>
 		
 	
 	
@@ -8652,8 +9581,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/petersburg-buffaloes.1481/schedule/2026/">Petersburg</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/petersburg-buffaloes.1481/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/petersburg-buffaloes.1481/preview" data-team-id="1481">Petersburg</a>
 		
 	
 	
@@ -8706,8 +9642,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/southland-eagles.1571/schedule/2026/">Southland</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/southland-eagles.1571/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/southland-eagles.1571/preview" data-team-id="1571">Southland</a>
 		
 	
 	
@@ -8758,8 +9701,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/plano-coram-deo-lions.2298/schedule/2026/">Plano Coram Deo</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/plano-coram-deo-lions.2298/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/plano-coram-deo-lions.2298/preview" data-team-id="2298">Plano Coram Deo</a>
 		
 	
 	
@@ -8812,8 +9762,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/oakwood-panthers.1436/schedule/2026/">Oakwood</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/oakwood-panthers.1436/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/oakwood-panthers.1436/preview" data-team-id="1436">Oakwood</a>
 		
 	
 	
@@ -8864,8 +9821,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/rankin-red-devils.1491/schedule/2026/">Rankin</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/rankin-red-devils.1491/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/rankin-red-devils.1491/preview" data-team-id="1491">Rankin</a>
 		
 	
 	
@@ -8918,8 +9882,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/sterling-city-eagles.1586/schedule/2026/">Sterling City</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/sterling-city-eagles.1586/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/sterling-city-eagles.1586/preview" data-team-id="1586">Sterling City</a>
 		
 	
 	
@@ -8970,8 +9941,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/red-oak-ovilla-christian-eagles.2322/schedule/2026/">Red Oak Ovilla Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/red-oak-ovilla-christian-eagles.2322/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/red-oak-ovilla-christian-eagles.2322/preview" data-team-id="2322">Red Oak Ovilla Christian</a>
 		
 	
 	
@@ -9024,8 +10002,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/denton-calvary-lions.2166/schedule/2026/">Denton Calvary</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/denton-calvary-lions.2166/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/denton-calvary-lions.2166/preview" data-team-id="2166">Denton Calvary</a>
 		
 	
 	
@@ -9076,8 +10061,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/robert-lee-steers.1506/schedule/2026/">Robert Lee</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/robert-lee-steers.1506/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/robert-lee-steers.1506/preview" data-team-id="1506">Robert Lee</a>
 		
 	
 	
@@ -9130,8 +10122,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/garden-city-bearkats.1191/schedule/2026/">Garden City</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/garden-city-bearkats.1191/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/garden-city-bearkats.1191/preview" data-team-id="1191">Garden City</a>
 		
 	
 	
@@ -9182,8 +10181,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/rochelle-hornets.1511/schedule/2026/">Rochelle</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/rochelle-hornets.1511/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/rochelle-hornets.1511/preview" data-team-id="1511">Rochelle</a>
 		
 	
 	
@@ -9236,8 +10242,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/blanket-tigers.1051/schedule/2026/">Blanket</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/blanket-tigers.1051/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/blanket-tigers.1051/preview" data-team-id="1051">Blanket</a>
 		
 	
 	
@@ -9288,8 +10301,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/round-rock-christian-crusaders.2326/schedule/2026/">Round Rock Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/round-rock-christian-crusaders.2326/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/round-rock-christian-crusaders.2326/preview" data-team-id="2326">Round Rock Christian</a>
 		
 	
 	
@@ -9342,8 +10362,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/cedar-park-summit-eagles.2121/schedule/2026/">Cedar Park Summit</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/cedar-park-summit-eagles.2121/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/cedar-park-summit-eagles.2121/preview" data-team-id="2121">Cedar Park Summit</a>
 		
 	
 	
@@ -9394,8 +10421,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/rule-bobcats.1526/schedule/2026/">Rule</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/rule-bobcats.1526/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/rule-bobcats.1526/preview" data-team-id="1526">Rule</a>
 		
 	
 	
@@ -9448,8 +10482,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/throckmorton-greyhounds.1596/schedule/2026/">Throckmorton</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/throckmorton-greyhounds.1596/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/throckmorton-greyhounds.1596/preview" data-team-id="1596">Throckmorton</a>
 		
 	
 	
@@ -9500,8 +10541,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/runge-yellowjackets.19110/schedule/2026/">Runge</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/runge-yellowjackets.19110/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/runge-yellowjackets.19110/preview" data-team-id="19110">Runge</a>
 		
 	
 	
@@ -9554,8 +10602,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/prairie-lea-indians.1486/schedule/2026/">Prairie Lea</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/prairie-lea-indians.1486/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/prairie-lea-indians.1486/preview" data-team-id="1486">Prairie Lea</a>
 		
 	
 	
@@ -9606,8 +10661,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/sa-castle-hills-eagles.2330/schedule/2026/">SA Castle Hills</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/sa-castle-hills-eagles.2330/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/sa-castle-hills-eagles.2330/preview" data-team-id="2330">SA Castle Hills</a>
 		
 	
 	
@@ -9660,8 +10722,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/nueces-canyon-panthers.1433/schedule/2026/">Nueces Canyon</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/nueces-canyon-panthers.1433/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/nueces-canyon-panthers.1433/preview" data-team-id="1433">Nueces Canyon</a>
 		
 	
 	
@@ -9712,8 +10781,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/sa-jubilee-lions.2334/schedule/2026/">SA Jubilee</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/sa-jubilee-lions.2334/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/sa-jubilee-lions.2334/preview" data-team-id="2334">SA Jubilee</a>
 		
 	
 	
@@ -9766,8 +10842,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/hill-country-knights.19194/schedule/2026/">Hill Country</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/hill-country-knights.19194/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/hill-country-knights.19194/preview" data-team-id="19194">Hill Country</a>
 		
 	
 	
@@ -9818,8 +10901,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/sa-town-east-eagles.2356/schedule/2026/">SA Town East</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/sa-town-east-eagles.2356/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/sa-town-east-eagles.2356/preview" data-team-id="2356">SA Town East</a>
 		
 	
 	
@@ -9872,8 +10962,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/valor-south-austin-falcons.19093/schedule/2026/">Valor South Austin</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/valor-south-austin-falcons.19093/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/valor-south-austin-falcons.19093/preview" data-team-id="19093">Valor South Austin</a>
 		
 	
 	
@@ -9924,8 +11021,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/san-antonio-homeschool-patriots.2331/schedule/2026/">San Antonio Homeschool</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/san-antonio-homeschool-patriots.2331/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/san-antonio-homeschool-patriots.2331/preview" data-team-id="2331">San Antonio Homeschool</a>
 		
 	
 	
@@ -9978,8 +11082,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/san-antonio-davinci-lions.2346/schedule/2026/">San Antonio DaVinci</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/san-antonio-davinci-lions.2346/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/san-antonio-davinci-lions.2346/preview" data-team-id="2346">San Antonio DaVinci</a>
 		
 	
 	
@@ -10030,8 +11141,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/san-marcos-academy-bears.2372/schedule/2026/">San Marcos Academy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/san-marcos-academy-bears.2372/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/san-marcos-academy-bears.2372/preview" data-team-id="2372">San Marcos Academy</a>
 		
 	
 	
@@ -10084,8 +11202,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/bryan-allen-academy-rams.2101/schedule/2026/">Bryan Allen Academy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/bryan-allen-academy-rams.2101/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/bryan-allen-academy-rams.2101/preview" data-team-id="2101">Bryan Allen Academy</a>
 		
 	
 	
@@ -10136,8 +11261,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/san-marcos-hill-country-christian-rams.2362/schedule/2026/">San Marcos Hill Country Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/san-marcos-hill-country-christian-rams.2362/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/san-marcos-hill-country-christian-rams.2362/preview" data-team-id="2362">San Marcos Hill Country Christian</a>
 		
 	
 	
@@ -10190,8 +11322,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/new-braunfels-spartans.19296/schedule/2026/">New Braunfels</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/new-braunfels-spartans.19296/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/new-braunfels-spartans.19296/preview" data-team-id="19296">New Braunfels</a>
 		
 	
 	
@@ -10242,8 +11381,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/sanderson-eagles.1541/schedule/2026/">Sanderson</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/sanderson-eagles.1541/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/sanderson-eagles.1541/preview" data-team-id="1541">Sanderson</a>
 		
 	
 	
@@ -10296,8 +11442,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/marfa-shorthorns.1369/schedule/2026/">Marfa</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/marfa-shorthorns.1369/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/marfa-shorthorns.1369/preview" data-team-id="1369">Marfa</a>
 		
 	
 	
@@ -10348,8 +11501,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/sands-mustangs.1546/schedule/2026/">Sands</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/sands-mustangs.1546/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/sands-mustangs.1546/preview" data-team-id="1546">Sands</a>
 		
 	
 	
@@ -10402,8 +11562,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/whitharral-panthers.1666/schedule/2026/">Whitharral</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/whitharral-panthers.1666/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/whitharral-panthers.1666/preview" data-team-id="1666">Whitharral</a>
 		
 	
 	
@@ -10454,8 +11621,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/springlake-earth-wolverines.1573/schedule/2026/">Springlake Earth</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/springlake-earth-wolverines.1573/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/springlake-earth-wolverines.1573/preview" data-team-id="1573">Springlake Earth</a>
 		
 	
 	
@@ -10508,8 +11682,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/odonnell-eagles.1441/schedule/2026/">O&#039;Donnell</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/odonnell-eagles.1441/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/odonnell-eagles.1441/preview" data-team-id="1441">O&#039;Donnell</a>
 		
 	
 	
@@ -10560,8 +11741,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/trinity-school-of-midland-chargers.2301/schedule/2026/">Trinity School of Midland</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/trinity-school-of-midland-chargers.2301/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/trinity-school-of-midland-chargers.2301/preview" data-team-id="2301">Trinity School of Midland</a>
 		
 	
 	
@@ -10614,8 +11802,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/buena-vista-longhorns.1081/schedule/2026/">Buena Vista</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/buena-vista-longhorns.1081/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/buena-vista-longhorns.1081/preview" data-team-id="1081">Buena Vista</a>
 		
 	
 	
@@ -10666,8 +11861,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/union-hill-bulldogs.1608/schedule/2026/">Union Hill</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/union-hill-bulldogs.1608/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/union-hill-bulldogs.1608/preview" data-team-id="1608">Union Hill</a>
 		
 	
 	
@@ -10720,8 +11922,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/tyler-heat.2388/schedule/2026/">Tyler HEAT</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/tyler-heat.2388/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/tyler-heat.2388/preview" data-team-id="2388">Tyler HEAT</a>
 		
 	
 	
@@ -10772,8 +11981,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/valley-patriots.1621/schedule/2026/">Valley</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/valley-patriots.1621/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/valley-patriots.1621/preview" data-team-id="1621">Valley</a>
 		
 	
 	
@@ -10826,8 +12042,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/follett-panthers.1166/schedule/2026/">Follett</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/follett-panthers.1166/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/follett-panthers.1166/preview" data-team-id="1166">Follett</a>
 		
 	
 	
@@ -10878,8 +12101,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/victoria-home-school-gators.19130/schedule/2026/">Victoria Home School</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/victoria-home-school-gators.19130/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/victoria-home-school-gators.19130/preview" data-team-id="19130">Victoria Home School</a>
 		
 	
 	
@@ -10928,7 +12158,9 @@
 	
 	
 	
+	
 		San Marcos Hill Country Christian JV
+	
 	
 	
 
@@ -10978,8 +12210,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/waco-vanguard-college-prep-vikings.2392/schedule/2026/">Waco Vanguard College Prep</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/waco-vanguard-college-prep-vikings.2392/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/waco-vanguard-college-prep-vikings.2392/preview" data-team-id="2392">Waco Vanguard College Prep</a>
 		
 	
 	
@@ -11032,8 +12271,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lometa-hornets.1341/schedule/2026/">Lometa</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lometa-hornets.1341/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lometa-hornets.1341/preview" data-team-id="1341">Lometa</a>
 		
 	
 	
@@ -11084,8 +12330,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/water-valley-wildcats.1636/schedule/2026/">Water Valley</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/water-valley-wildcats.1636/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/water-valley-wildcats.1636/preview" data-team-id="1636">Water Valley</a>
 		
 	
 	
@@ -11138,8 +12391,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/westbrook-wildcats.1656/schedule/2026/">Westbrook</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/westbrook-wildcats.1656/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/westbrook-wildcats.1656/preview" data-team-id="1656">Westbrook</a>
 		
 	
 	
@@ -11190,8 +12450,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/weatherford-christian-lions.2398/schedule/2026/">Weatherford Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/weatherford-christian-lions.2398/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/weatherford-christian-lions.2398/preview" data-team-id="2398">Weatherford Christian</a>
 		
 	
 	
@@ -11244,8 +12511,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/granbury-grace-classical-gryphons.19095/schedule/2026/">Granbury Grace Classical</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/granbury-grace-classical-gryphons.19095/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/granbury-grace-classical-gryphons.19095/preview" data-team-id="19095">Granbury Grace Classical</a>
 		
 	
 	
@@ -11296,8 +12570,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/white-deer-bucks.1659/schedule/2026/">White Deer</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/white-deer-bucks.1659/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/white-deer-bucks.1659/preview" data-team-id="1659">White Deer</a>
 		
 	
 	
@@ -11350,8 +12631,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/silverton-owls.1566/schedule/2026/">Silverton</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/silverton-owls.1566/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/silverton-owls.1566/preview" data-team-id="1566">Silverton</a>
 		
 	
 	
@@ -11402,8 +12690,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/wylie-preparatory-patriots.2416/schedule/2026/">Wylie Preparatory</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/wylie-preparatory-patriots.2416/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/wylie-preparatory-patriots.2416/preview" data-team-id="2416">Wylie Preparatory</a>
 		
 	
 	
@@ -11456,8 +12751,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/greenville-homeschool-athletics-archers.19255/schedule/2026/">Greenville Homeschool Athletics</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/greenville-homeschool-athletics-archers.19255/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/greenville-homeschool-athletics-archers.19255/preview" data-team-id="19255">Greenville Homeschool Athletics</a>
 		
 	
 	
@@ -11519,8 +12821,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/abbott-panthers.1001/schedule/2026/">Abbott</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/abbott-panthers.1001/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/abbott-panthers.1001/preview" data-team-id="1001">Abbott</a>
 		
 	
 	
@@ -11573,8 +12882,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/calvert-trojans.1096/schedule/2026/">Calvert</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/calvert-trojans.1096/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/calvert-trojans.1096/preview" data-team-id="1096">Calvert</a>
 		
 	
 	
@@ -11625,8 +12941,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/amarillo-ffc-lions.19249/schedule/2026/">Amarillo FFC</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/amarillo-ffc-lions.19249/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/amarillo-ffc-lions.19249/preview" data-team-id="19249">Amarillo FFC</a>
 		
 	
 	
@@ -11679,8 +13002,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/plainview-classical-eagles.2316/schedule/2026/">Plainview Classical</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/plainview-classical-eagles.2316/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/plainview-classical-eagles.2316/preview" data-team-id="2316">Plainview Classical</a>
 		
 	
 	
@@ -11731,8 +13061,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/amarillo-holy-cross-mustangs.2026/schedule/2026/">Amarillo Holy Cross</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/amarillo-holy-cross-mustangs.2026/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/amarillo-holy-cross-mustangs.2026/preview" data-team-id="2026">Amarillo Holy Cross</a>
 		
 	
 	
@@ -11785,8 +13122,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/amarillo-san-jacinto-patriots.2021/schedule/2026/">Amarillo San Jacinto</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/amarillo-san-jacinto-patriots.2021/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/amarillo-san-jacinto-patriots.2021/preview" data-team-id="2021">Amarillo San Jacinto</a>
 		
 	
 	
@@ -11837,8 +13181,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/baytown-christian-bulldogs.2063/schedule/2026/">Baytown Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/baytown-christian-bulldogs.2063/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/baytown-christian-bulldogs.2063/preview" data-team-id="2063">Baytown Christian</a>
 		
 	
 	
@@ -11891,8 +13242,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/high-island-cardinals.1268/schedule/2026/">High Island</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/high-island-cardinals.1268/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/high-island-cardinals.1268/preview" data-team-id="1268">High Island</a>
 		
 	
 	
@@ -11943,8 +13301,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/bluff-dale-bobcats.1054/schedule/2026/">Bluff Dale</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/bluff-dale-bobcats.1054/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/bluff-dale-bobcats.1054/preview" data-team-id="1054">Bluff Dale</a>
 		
 	
 	
@@ -11997,8 +13362,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/bryson-cowboys.1071/schedule/2026/">Bryson</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/bryson-cowboys.1071/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/bryson-cowboys.1071/preview" data-team-id="1071">Bryson</a>
 		
 	
 	
@@ -12049,8 +13421,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/boys-ranch-roughriders.19145/schedule/2026/">Boys Ranch</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/boys-ranch-roughriders.19145/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/boys-ranch-roughriders.19145/preview" data-team-id="19145">Boys Ranch</a>
 		
 	
 	
@@ -12103,8 +13482,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lubbock-titans.2288/schedule/2026/">Lubbock Titans</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lubbock-titans.2288/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lubbock-titans.2288/preview" data-team-id="2288">Lubbock Titans</a>
 		
 	
 	
@@ -12155,8 +13541,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/campbell-indians.1098/schedule/2026/">Campbell</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/campbell-indians.1098/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/campbell-indians.1098/preview" data-team-id="1098">Campbell</a>
 		
 	
 	
@@ -12209,8 +13602,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/cedar-hill-newman-international-warriors.8363/schedule/2026/">Cedar Hill Newman International</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/cedar-hill-newman-international-warriors.8363/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/cedar-hill-newman-international-warriors.8363/preview" data-team-id="8363">Cedar Hill Newman International</a>
 		
 	
 	
@@ -12261,8 +13661,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/cherokee-indians.1101/schedule/2026/">Cherokee</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/cherokee-indians.1101/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/cherokee-indians.1101/preview" data-team-id="1101">Cherokee</a>
 		
 	
 	
@@ -12315,8 +13722,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/rocksprings-angoras.19243/schedule/2026/">Rocksprings</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/rocksprings-angoras.19243/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/rocksprings-angoras.19243/preview" data-team-id="19243">Rocksprings</a>
 		
 	
 	
@@ -12367,8 +13781,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/chester-yellowjackets.1103/schedule/2026/">Chester</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/chester-yellowjackets.1103/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/chester-yellowjackets.1103/preview" data-team-id="1103">Chester</a>
 		
 	
 	
@@ -12421,8 +13842,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/beaumont-legacy-christian-academy-warriors.9315/schedule/2026/">Beaumont Legacy Christian Academy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/beaumont-legacy-christian-academy-warriors.9315/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/beaumont-legacy-christian-academy-warriors.9315/preview" data-team-id="9315">Beaumont Legacy Christian Academy</a>
 		
 	
 	
@@ -12473,8 +13901,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/conroe-founders-classical-voyagers.19571/schedule/2026/">Conroe Founders Classical</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/conroe-founders-classical-voyagers.19571/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/conroe-founders-classical-voyagers.19571/preview" data-team-id="19571">Conroe Founders Classical</a>
 		
 	
 	
@@ -12523,7 +13958,9 @@
 	
 	
 	
+	
 		Huntsville Alpha Omega JV
+	
 	
 	
 
@@ -12573,8 +14010,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/east-texas-homeschool-eths-chargers.2275/schedule/2026/">East Texas Homeschool (ETHS)</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/east-texas-homeschool-eths-chargers.2275/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/east-texas-homeschool-eths-chargers.2275/preview" data-team-id="2275">East Texas Homeschool (ETHS)</a>
 		
 	
 	
@@ -12627,8 +14071,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/savoy-cardinals.1553/schedule/2026/">Savoy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/savoy-cardinals.1553/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/savoy-cardinals.1553/preview" data-team-id="1553">Savoy</a>
 		
 	
 	
@@ -12679,8 +14130,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/gordon-longhorns.1201/schedule/2026/">Gordon</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/gordon-longhorns.1201/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/gordon-longhorns.1201/preview" data-team-id="1201">Gordon</a>
 		
 	
 	
@@ -12733,8 +14191,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/stephenville-faith-knights.2367/schedule/2026/">Stephenville Faith</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/stephenville-faith-knights.2367/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/stephenville-faith-knights.2367/preview" data-team-id="2367">Stephenville Faith</a>
 		
 	
 	
@@ -12785,8 +14250,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/harrold-hornets.1246/schedule/2026/">Harrold</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/harrold-hornets.1246/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/harrold-hornets.1246/preview" data-team-id="1246">Harrold</a>
 		
 	
 	
@@ -12839,8 +14311,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/benjamin-mustangs.1041/schedule/2026/">Benjamin</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/benjamin-mustangs.1041/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/benjamin-mustangs.1041/preview" data-team-id="1041">Benjamin</a>
 		
 	
 	
@@ -12891,8 +14370,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/knox-city-greyhounds.1306/schedule/2026/">Knox City</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/knox-city-greyhounds.1306/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/knox-city-greyhounds.1306/preview" data-team-id="1306">Knox City</a>
 		
 	
 	
@@ -12945,8 +14431,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/veribest-falcons.1626/schedule/2026/">Veribest</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/veribest-falcons.1626/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/veribest-falcons.1626/preview" data-team-id="1626">Veribest</a>
 		
 	
 	
@@ -12993,7 +14486,9 @@
 	
 	
 	
+	
 		Leander Founders Classical Academy JV
+	
 	
 	
 
@@ -13045,8 +14540,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/valor-leander-griffins.19577/schedule/2026/">Valor Leander</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/valor-leander-griffins.19577/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/valor-leander-griffins.19577/preview" data-team-id="19577">Valor Leander</a>
 		
 	
 	
@@ -13097,8 +14599,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lefors-pirates.1326/schedule/2026/">Lefors</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lefors-pirates.1326/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lefors-pirates.1326/preview" data-team-id="1326">Lefors</a>
 		
 	
 	
@@ -13151,8 +14660,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/amarillo-pchea-warriors.19080/schedule/2026/">Amarillo PCHEA</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/amarillo-pchea-warriors.19080/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/amarillo-pchea-warriors.19080/preview" data-team-id="19080">Amarillo PCHEA</a>
 		
 	
 	
@@ -13203,8 +14719,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/loop-longhorns.1346/schedule/2026/">Loop</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/loop-longhorns.1346/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/loop-longhorns.1346/preview" data-team-id="1346">Loop</a>
 		
 	
 	
@@ -13257,8 +14780,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lorenzo-hornets.1356/schedule/2026/">Lorenzo</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lorenzo-hornets.1356/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lorenzo-hornets.1356/preview" data-team-id="1356">Lorenzo</a>
 		
 	
 	
@@ -13309,8 +14839,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lueders-avoca-raiders.1361/schedule/2026/">Lueders-Avoca</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lueders-avoca-raiders.1361/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lueders-avoca-raiders.1361/preview" data-team-id="1361">Lueders-Avoca</a>
 		
 	
 	
@@ -13363,8 +14900,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/trent-gorillas.1601/schedule/2026/">Trent</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/trent-gorillas.1601/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/trent-gorillas.1601/preview" data-team-id="1601">Trent</a>
 		
 	
 	
@@ -13415,8 +14959,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/mullin-bulldogs.1411/schedule/2026/">Mullin</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/mullin-bulldogs.1411/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/mullin-bulldogs.1411/preview" data-team-id="1411">Mullin</a>
 		
 	
 	
@@ -13469,8 +15020,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lohn-eagles.1336/schedule/2026/">Lohn</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lohn-eagles.1336/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lohn-eagles.1336/preview" data-team-id="1336">Lohn</a>
 		
 	
 	
@@ -13521,8 +15079,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/northside-indians.1426/schedule/2026/">Northside</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/northside-indians.1426/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/northside-indians.1426/preview" data-team-id="1426">Northside</a>
 		
 	
 	
@@ -13575,8 +15140,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/chillicothe-eagles.1106/schedule/2026/">Chillicothe</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/chillicothe-eagles.1106/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/chillicothe-eagles.1106/preview" data-team-id="1106">Chillicothe</a>
 		
 	
 	
@@ -13627,8 +15199,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/panther-creek-panthers.1466/schedule/2026/">Panther Creek</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/panther-creek-panthers.1466/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/panther-creek-panthers.1466/preview" data-team-id="1466">Panther Creek</a>
 		
 	
 	
@@ -13681,8 +15260,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/ranger-bulldogs.1488/schedule/2026/">Ranger</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/ranger-bulldogs.1488/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/ranger-bulldogs.1488/preview" data-team-id="1488">Ranger</a>
 		
 	
 	
@@ -13733,8 +15319,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/perrin-grace-christian-academy-colts.19131/schedule/2026/">Perrin Grace Christian Academy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/perrin-grace-christian-academy-colts.19131/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/perrin-grace-christian-academy-colts.19131/preview" data-team-id="19131">Perrin Grace Christian Academy</a>
 		
 	
 	
@@ -13787,8 +15380,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/pinnacle-christian-falcons.19208/schedule/2026/">Pinnacle Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/pinnacle-christian-falcons.19208/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/pinnacle-christian-falcons.19208/preview" data-team-id="19208">Pinnacle Christian</a>
 		
 	
 	
@@ -13839,8 +15439,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/roby-lions.1508/schedule/2026/">Roby</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/roby-lions.1508/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/roby-lions.1508/preview" data-team-id="1508">Roby</a>
 		
 	
 	
@@ -13893,8 +15500,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/loraine-bulldogs.1351/schedule/2026/">Loraine</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/loraine-bulldogs.1351/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/loraine-bulldogs.1351/preview" data-team-id="1351">Loraine</a>
 		
 	
 	
@@ -13945,8 +15559,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/saint-jo-panthers.1531/schedule/2026/">Saint Jo</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/saint-jo-panthers.1531/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/saint-jo-panthers.1531/preview" data-team-id="1531">Saint Jo</a>
 		
 	
 	
@@ -13999,8 +15620,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/sherman-grayson-christian-falcons.2332/schedule/2026/">Sherman Grayson Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/sherman-grayson-christian-falcons.2332/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/sherman-grayson-christian-falcons.2332/preview" data-team-id="2332">Sherman Grayson Christian</a>
 		
 	
 	
@@ -14051,8 +15679,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/three-way-braves.1592/schedule/2026/">Three Way</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/three-way-braves.1592/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/three-way-braves.1592/preview" data-team-id="1592">Three Way</a>
 		
 	
 	
@@ -14105,8 +15740,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/olfen-mustangs.1448/schedule/2026/">Olfen</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/olfen-mustangs.1448/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/olfen-mustangs.1448/preview" data-team-id="1448">Olfen</a>
 		
 	
 	
@@ -14157,8 +15799,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/trinidad-trojans.1606/schedule/2026/">Trinidad</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/trinidad-trojans.1606/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/trinidad-trojans.1606/preview" data-team-id="1606">Trinidad</a>
 		
 	
 	
@@ -14211,8 +15860,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/avalon-eagles.1031/schedule/2026/">Avalon</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/avalon-eagles.1031/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/avalon-eagles.1031/preview" data-team-id="1031">Avalon</a>
 		
 	
 	
@@ -14263,8 +15919,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/waco-christian-warriors.19133/schedule/2026/">Waco Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/waco-christian-warriors.19133/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/waco-christian-warriors.19133/preview" data-team-id="19133">Waco Christian</a>
 		
 	
 	
@@ -14317,8 +15980,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/abilene-xdot-bison.19288/schedule/2026/">Abilene XDOT</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/abilene-xdot-bison.19288/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/abilene-xdot-bison.19288/preview" data-team-id="19288">Abilene XDOT</a>
 		
 	
 	
@@ -14369,8 +16039,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/woodson-cowboys.1676/schedule/2026/">Woodson</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/woodson-cowboys.1676/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/woodson-cowboys.1676/preview" data-team-id="1676">Woodson</a>
 		
 	
 	
@@ -14423,8 +16100,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/guthrie-jaguars.1236/schedule/2026/">Guthrie</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/guthrie-jaguars.1236/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/guthrie-jaguars.1236/preview" data-team-id="1236">Guthrie</a>
 		
 	
 	
@@ -14569,13 +16253,13 @@
 						</a>
 						<a href="https://www.facebook.com/sixmanfb/">
 							<span class="p-footer-social-icon">
-								<i class="fa--xf fab fa-facebook "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1794350401#facebook"></use></svg></i>
+								<i class="fa--xf fab fa-facebook "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1794922562#facebook"></use></svg></i>
 							</span>
 							SixManFB
 						</a>
 						<a href="https://www.instagram.com/sixmanfb/">
 							<span class="p-footer-social-icon">
-								<i class="fa--xf fab fa-instagram "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1794350401#instagram"></use></svg></i>
+								<i class="fa--xf fab fa-instagram "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1794922562#instagram"></use></svg></i>
 							</span>
 							SixManFB
 						</a>
@@ -14632,7 +16316,7 @@
 				class="js-styleVariationsLink"
 				data-xf-init="tooltip" title="Style variation"
 				data-xf-click="menu" role="button" aria-expanded="false" aria-haspopup="true">
-				<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" ><title>Style variation</title><use href="/data/local/icons/light.svg?v=1794350401#adjust"></use></svg></i>
+				<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" ><title>Style variation</title><use href="/data/local/icons/light.svg?v=1794922562#adjust"></use></svg></i>
 			</a>
 			<div class="menu" data-menu="menu" aria-hidden="true">
 				<div class="menu-content js-styleVariationsMenu">
@@ -14641,12 +16325,12 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1794874548%2Cdd8bdec4554af076635f1d1b063220dc"
+	<a href="/misc/style-variation?reset=1&amp;t=1795147258%2Ccd4e9fdb45d206ca2219a11fd25e7abb"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
 
-		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#adjust"></use></svg></i>
+		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#adjust"></use></svg></i>
 
 		
 			System
@@ -14656,12 +16340,12 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1794874548%2Cdd8bdec4554af076635f1d1b063220dc"
+	<a href="/misc/style-variation?variation=default&amp;t=1795147258%2Ccd4e9fdb45d206ca2219a11fd25e7abb"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
 
-		<i class="fa--xf fal fa-sun "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#sun"></use></svg></i>
+		<i class="fa--xf fal fa-sun "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#sun"></use></svg></i>
 
 		
 			Light
@@ -14671,12 +16355,12 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1794874548%2Cdd8bdec4554af076635f1d1b063220dc"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795147258%2Ccd4e9fdb45d206ca2219a11fd25e7abb"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
 
-		<i class="fa--xf fal fa-moon "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#moon"></use></svg></i>
+		<i class="fa--xf fal fa-moon "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#moon"></use></svg></i>
 
 		
 			Dark
@@ -14693,7 +16377,7 @@
 			</div>
 		
 		<div class="p-footer-rss">
-			<a href="/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf fal fa-rss "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#rss"></use></svg></i><span class="u-srOnly">RSS</span></span></a>
+			<a href="/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf fal fa-rss "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#rss"></use></svg></i><span class="u-srOnly">RSS</span></span></a>
 		</div>
 	</div>
 </div>
@@ -14849,12 +16533,12 @@
 </div>
 
 <div class="u-navButtons js-navButtons">
-	<a href="javascript:" class="button button--scroll"><span class="button-text"><i class="fa--xf fal fa-arrow-left "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#arrow-left"></use></svg></i><span class="u-srOnly">Back</span></span></a>
+	<a href="javascript:" class="button button--scroll"><span class="button-text"><i class="fa--xf fal fa-arrow-left "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#arrow-left"></use></svg></i><span class="u-srOnly">Back</span></span></a>
 </div>
 
 
 	<div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
-		<a href="#top" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf fal fa-arrow-up "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#arrow-up"></use></svg></i><span class="u-srOnly">Top</span></span></a>
+		<a href="#top" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf fal fa-arrow-up "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#arrow-up"></use></svg></i><span class="u-srOnly">Top</span></span></a>
 		
 	</div>
 
@@ -14871,7 +16555,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5ba8b06da89c334',t:'MTc5NDg3NDU0OA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5ba8b06da89c334',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5d48cfa9bfa2b43',t:'MTc5NTE0NzI1OA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5d48cfa9bfa2b43',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

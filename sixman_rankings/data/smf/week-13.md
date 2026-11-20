@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1794874550,65906bf59fb2b9f88da69b595a14d1b3"
+	data-csrf="1795147259,763de82a4eb632125806e3b41c6d8ad6"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -41,7 +41,7 @@
 		
 
 	
-		<link rel="canonical" href="https://sixmanfootball.com/scores/2026/week-13/" />
+		<link rel="canonical" href="https://sixmanfootball.com/scores/" />
 	
 
 	
@@ -114,21 +114,21 @@
 	
 	
 
-	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
+	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1794922555&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
 
-	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
-<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
-<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
-<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1794803719&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
+	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1794922555&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
+<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1794922555&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
+<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1794922555&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
+<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1794922555&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
 
-
-	
-		<script src="/js/xf/preamble.min.js?_v=120c5fb5"></script>
-	
 
 	
-	<script src="/js/vendor/vendor-compiled.js?_v=120c5fb5" defer></script>
-	<script src="/js/xf/core-compiled.js?_v=120c5fb5" defer></script>
+		<script src="/js/xf/preamble.min.js?_v=b8a38746"></script>
+	
+
+	
+	<script src="/js/vendor/vendor-compiled.js?_v=b8a38746" defer></script>
+	<script src="/js/xf/core-compiled.js?_v=b8a38746" defer></script>
 
 	<script>
 		XF.ready(() =>
@@ -141,9 +141,9 @@
 				url: {
 					fullBase: 'https://sixmanfootball.com/',
 					basePath: '/',
-					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1794803719',
-					js: '/js/__SENTINEL__?_v=120c5fb5',
-					icon: '/data/local/icons/__VARIANT__.svg?v=1794350401#__NAME__',
+					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1794922555',
+					js: '/js/__SENTINEL__?_v=b8a38746',
+					icon: '/data/local/icons/__VARIANT__.svg?v=1794922562#__NAME__',
 					iconInline: '/styles/fa/__VARIANT__/__NAME__.svg?v=5.15.3',
 					keepAlive: '/login/keep-alive'
 				},
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1794874550,65906bf59fb2b9f88da69b595a14d1b3',
-				js: {"\/js\/sixman\/score-quick-search.min.js?_v=120c5fb5":true},
+				csrf: '1795147259,763de82a4eb632125806e3b41c6d8ad6',
+				js: {"\/js\/sixman\/score-quick-search.min.js?_v=b8a38746":true,"\/js\/sixman\/team-tooltip.min.js?_v=b8a38746":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1794874550,
-					today: 1794808800,
-					todayDow: 1,
-					tomorrow: 1794895200,
-					yesterday: 1794722400,
-					week: 1794290400,
+					now: 1795147259,
+					today: 1795068000,
+					todayDow: 4,
+					tomorrow: 1795154400,
+					yesterday: 1794981600,
+					week: 1794549600,
 					month: 1793509200,
 					year: 1767247200
 				},
@@ -283,7 +283,8 @@
 		})
 	</script>
 
-	<script src="/js/sixman/score-quick-search.min.js?_v=120c5fb5" defer></script>
+	<script src="/js/sixman/score-quick-search.min.js?_v=b8a38746" defer></script>
+<script src="/js/sixman/team-tooltip.min.js?_v=b8a38746" defer></script>
 
 
 
@@ -1092,12 +1093,12 @@
 									</div>
 									<div class="menu-footer">
 									<span class="menu-footer-controls">
-										<button type="submit" class="button button--icon button--icon--search button--primary"><i class="fa--xf fal fa-search "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#search"></use></svg></i><span class="button-text">Search</span></button>
+										<button type="submit" class="button button--icon button--icon--search button--primary"><i class="fa--xf fal fa-search "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#search"></use></svg></i><span class="button-text">Search</span></button>
 										<button type="submit" class="button " name="from_search_menu"><span class="button-text">Advanced search…</span></button>
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1794874550,65906bf59fb2b9f88da69b595a14d1b3" />
+									<input type="hidden" name="_xfToken" value="1795147259,763de82a4eb632125806e3b41c6d8ad6" />
 								</form>
 							</div>
 						
@@ -1409,6 +1410,13 @@
 										<h1 class="p-title-value">2026 Week 13 Scores</h1>
 									
 									
+										<div class="p-title-pageAction">
+	
+		<a href="/scores/add" class="button button--icon button--icon--add button--cta" data-xf-click="overlay"><i class="fa--xf fal fa-plus-square "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#plus-square"></use></svg></i><span class="button-text">Add score</span></a>
+	
+	
+</div>
+									
 								
 							</div>
 						
@@ -1517,7 +1525,7 @@
 		<div class="block block--game-date">
 			<div class="block-container">
 				<h3 class="block-header">
-					TBD
+					Thursday night football
 				</h3>
 				<div class="block-body block-row block-row--scores">
 					
@@ -1527,389 +1535,6 @@
 	<div class="block-matchup fauxBlockLink is-playoff">
 		
 		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2356.jpg?1778074127" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#169</span>
-		
-	
-	
-		
-			<a href="/teams/sa-town-east-eagles.2356/schedule/2026/">SA Town East</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Eagles
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-sa-town-east-vs-granbury-grace-classical.39459/">
-							TBD
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19095.jpg?1728531392" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#176</span>
-		
-	
-	
-		
-			<a href="/teams/granbury-grace-classical-gryphons.19095/schedule/2026/">Granbury Grace Classical</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Gryphons
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/19/19130.jpg?1785765175" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#171</span>
-		
-	
-	
-		
-			<a href="/teams/victoria-home-school-gators.19130/schedule/2026/">Victoria Home School</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Gators
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-victoria-home-school-vs-tyler-kings-academy.39458/">
-							TBD
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2386.jpg?1778074515" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#155</span>
-		
-	
-	
-		
-			<a href="/teams/tyler-kings-academy-knights.2386/schedule/2026/">Tyler King&#039;s Academy</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Knights
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-				</div>
-			</div>
-		</div>
-	
-		<div class="block block--game-date">
-			<div class="block-container">
-				<h3 class="block-header">
-					Upcoming games
-				</h3>
-				<div class="block-body block-row block-row--scores">
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1646.jpg?1788490285" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#86</span>
-		
-	
-	
-		
-			<a href="/teams/wellman-union-wildcats.1646/schedule/2026/">Wellman-Union</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Wildcats
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-wellman-union-vs-motley-county.39439/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1406.jpg?1786452222" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#34</span>
-		
-	
-	
-		
-			<a href="/teams/motley-county-matadors.1406/schedule/2026/">Motley County</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Matadors
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1054.jpg?1779761109" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#59</span>
-		
-	
-	
-		
-			<a href="/teams/bluff-dale-bobcats.1054/schedule/2026/">Bluff Dale</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Bobcats
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-bluff-dale-vs-gordon.39444/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
 			
 				
 	<div class="contentRow contentRow--team">
@@ -1934,8 +1559,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/gordon-longhorns.1201/schedule/2026/">Gordon</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/gordon-longhorns.1201/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/gordon-longhorns.1201/preview" data-team-id="1201">Gordon</a>
 		
 	
 	
@@ -1944,6 +1576,187 @@
 			</div>
 			<div class="team-mascot">
 				Longhorns
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			79
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-bluff-dale-vs-gordon.39444/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1054.jpg?1779761109" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#59</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/bluff-dale-bobcats.1054/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/bluff-dale-bobcats.1054/preview" data-team-id="1054">Bluff Dale</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Bobcats
+			</div>
+		</div>
+		<div class="contentRow-score">
+			34
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1406.jpg?1786452222" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#34</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/motley-county-matadors.1406/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/motley-county-matadors.1406/preview" data-team-id="1406">Motley County</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Matadors
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			46
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-wellman-union-vs-motley-county.39439/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1646.jpg?1788490285" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#86</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/wellman-union-wildcats.1646/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/wellman-union-wildcats.1646/preview" data-team-id="1646">Wellman-Union</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Wildcats
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -1955,6 +1768,17 @@
 		</div>
 	</div>
 
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
+					Upcoming games
+				</h3>
+				<div class="block-body block-row block-row--scores">
 					
 						
 	
@@ -1986,8 +1810,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/fort-worth-covenant-classical-cavaliers.2208/schedule/2026/">Fort Worth Covenant Classical</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fort-worth-covenant-classical-cavaliers.2208/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fort-worth-covenant-classical-cavaliers.2208/preview" data-team-id="2208">Fort Worth Covenant Classical</a>
 		
 	
 	
@@ -2040,8 +1871,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/houston-emery-weiner-jaguars.2256/schedule/2026/">Houston Emery-Weiner</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/houston-emery-weiner-jaguars.2256/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/houston-emery-weiner-jaguars.2256/preview" data-team-id="2256">Houston Emery-Weiner</a>
 		
 	
 	
@@ -2092,8 +1930,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/crowley-nazarene-christian-lions.1134/schedule/2026/">Crowley Nazarene Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/crowley-nazarene-christian-lions.1134/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/crowley-nazarene-christian-lions.1134/preview" data-team-id="1134">Crowley Nazarene Christian</a>
 		
 	
 	
@@ -2146,8 +1991,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/huntsville-alpha-omega-lions.2267/schedule/2026/">Huntsville Alpha Omega</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/huntsville-alpha-omega-lions.2267/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/huntsville-alpha-omega-lions.2267/preview" data-team-id="2267">Huntsville Alpha Omega</a>
 		
 	
 	
@@ -2198,8 +2050,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/borden-county-coyotes.1061/schedule/2026/">Borden County</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/borden-county-coyotes.1061/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/borden-county-coyotes.1061/preview" data-team-id="1061">Borden County</a>
 		
 	
 	
@@ -2252,8 +2111,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/water-valley-wildcats.1636/schedule/2026/">Water Valley</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/water-valley-wildcats.1636/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/water-valley-wildcats.1636/preview" data-team-id="1636">Water Valley</a>
 		
 	
 	
@@ -2304,8 +2170,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/menard-yellowjackets.19077/schedule/2026/">Menard</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/menard-yellowjackets.19077/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/menard-yellowjackets.19077/preview" data-team-id="19077">Menard</a>
 		
 	
 	
@@ -2358,8 +2231,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/rankin-red-devils.1491/schedule/2026/">Rankin</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/rankin-red-devils.1491/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/rankin-red-devils.1491/preview" data-team-id="1491">Rankin</a>
 		
 	
 	
@@ -2410,8 +2290,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/union-hill-bulldogs.1608/schedule/2026/">Union Hill</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/union-hill-bulldogs.1608/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/union-hill-bulldogs.1608/preview" data-team-id="1608">Union Hill</a>
 		
 	
 	
@@ -2464,8 +2351,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/oglesby-tigers.1446/schedule/2026/">Oglesby</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/oglesby-tigers.1446/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/oglesby-tigers.1446/preview" data-team-id="1446">Oglesby</a>
 		
 	
 	
@@ -2516,8 +2410,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/medina-bobcats.1383/schedule/2026/">Medina</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/medina-bobcats.1383/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/medina-bobcats.1383/preview" data-team-id="1383">Medina</a>
 		
 	
 	
@@ -2570,8 +2471,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/aquilla-cougars.1016/schedule/2026/">Aquilla</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/aquilla-cougars.1016/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/aquilla-cougars.1016/preview" data-team-id="1016">Aquilla</a>
 		
 	
 	
@@ -2622,8 +2530,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/knox-city-greyhounds.1306/schedule/2026/">Knox City</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/knox-city-greyhounds.1306/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/knox-city-greyhounds.1306/preview" data-team-id="1306">Knox City</a>
 		
 	
 	
@@ -2676,8 +2591,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/strawn-greyhounds.1591/schedule/2026/">Strawn</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/strawn-greyhounds.1591/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/strawn-greyhounds.1591/preview" data-team-id="1591">Strawn</a>
 		
 	
 	
@@ -2728,8 +2650,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/jayton-jaybirds.1291/schedule/2026/">Jayton</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/jayton-jaybirds.1291/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/jayton-jaybirds.1291/preview" data-team-id="1291">Jayton</a>
 		
 	
 	
@@ -2782,8 +2711,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/whiteface-antelopes.1661/schedule/2026/">Whiteface</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/whiteface-antelopes.1661/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/whiteface-antelopes.1661/preview" data-team-id="1661">Whiteface</a>
 		
 	
 	
@@ -2834,8 +2770,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/valley-patriots.1621/schedule/2026/">Valley</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/valley-patriots.1621/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/valley-patriots.1621/preview" data-team-id="1621">Valley</a>
 		
 	
 	
@@ -2888,8 +2831,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/meadow-broncos.1381/schedule/2026/">Meadow</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/meadow-broncos.1381/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/meadow-broncos.1381/preview" data-team-id="1381">Meadow</a>
 		
 	
 	
@@ -2940,8 +2890,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/nazareth-swifts.1423/schedule/2026/">Nazareth</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/nazareth-swifts.1423/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/nazareth-swifts.1423/preview" data-team-id="1423">Nazareth</a>
 		
 	
 	
@@ -2994,8 +2951,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/hermleigh-cardinals.1261/schedule/2026/">Hermleigh</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/hermleigh-cardinals.1261/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/hermleigh-cardinals.1261/preview" data-team-id="1261">Hermleigh</a>
 		
 	
 	
@@ -3046,8 +3010,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/newcastle-bobcats.1421/schedule/2026/">Newcastle</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/newcastle-bobcats.1421/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/newcastle-bobcats.1421/preview" data-team-id="1421">Newcastle</a>
 		
 	
 	
@@ -3100,8 +3071,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/milford-bulldogs.1391/schedule/2026/">Milford</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/milford-bulldogs.1391/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/milford-bulldogs.1391/preview" data-team-id="1391">Milford</a>
 		
 	
 	
@@ -3152,8 +3130,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/richland-springs-coyotes.1496/schedule/2026/">Richland Springs</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/richland-springs-coyotes.1496/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/richland-springs-coyotes.1496/preview" data-team-id="1496">Richland Springs</a>
 		
 	
 	
@@ -3206,8 +3191,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/grandfalls-royalty-cowboys.1216/schedule/2026/">Grandfalls-Royalty</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/grandfalls-royalty-cowboys.1216/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/grandfalls-royalty-cowboys.1216/preview" data-team-id="1216">Grandfalls-Royalty</a>
 		
 	
 	
@@ -3258,8 +3250,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/fannindel-falcons.1161/schedule/2026/">Fannindel</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fannindel-falcons.1161/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fannindel-falcons.1161/preview" data-team-id="1161">Fannindel</a>
 		
 	
 	
@@ -3312,8 +3311,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/apple-springs-eagles.1011/schedule/2026/">Apple Springs</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/apple-springs-eagles.1011/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/apple-springs-eagles.1011/preview" data-team-id="1011">Apple Springs</a>
 		
 	
 	
@@ -3364,8 +3370,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/keller-harvest-christian-saints.2393/schedule/2026/">Keller Harvest Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/keller-harvest-christian-saints.2393/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/keller-harvest-christian-saints.2393/preview" data-team-id="2393">Keller Harvest Christian</a>
 		
 	
 	
@@ -3418,8 +3431,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/waco-valor-prep-knights.19154/schedule/2026/">Waco Valor Prep</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/waco-valor-prep-knights.19154/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/waco-valor-prep-knights.19154/preview" data-team-id="19154">Waco Valor Prep</a>
 		
 	
 	
@@ -3470,8 +3490,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/georgetown-grace-academy-griffins.19123/schedule/2026/">Georgetown Grace Academy</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/georgetown-grace-academy-griffins.19123/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/georgetown-grace-academy-griffins.19123/preview" data-team-id="19123">Georgetown Grace Academy</a>
 		
 	
 	
@@ -3524,8 +3551,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/brazos-valley-lions.19568/schedule/2026/">Brazos Valley</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/brazos-valley-lions.19568/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/brazos-valley-lions.19568/preview" data-team-id="19568">Brazos Valley</a>
 		
 	
 	
@@ -3534,6 +3568,126 @@
 			</div>
 			<div class="team-mascot">
 				Lions
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19130.jpg?1785765175" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#171</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/victoria-home-school-gators.19130/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/victoria-home-school-gators.19130/preview" data-team-id="19130">Victoria Home School</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Gators
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-victoria-home-school-vs-tyler-kings-academy.39458/">
+							Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2386.jpg?1778074515" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#155</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/tyler-kings-academy-knights.2386/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/tyler-kings-academy-knights.2386/preview" data-team-id="2386">Tyler King&#039;s Academy</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Knights
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -3576,8 +3730,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/zephyr-bulldogs.1681/schedule/2026/">Zephyr</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/zephyr-bulldogs.1681/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/zephyr-bulldogs.1681/preview" data-team-id="1681">Zephyr</a>
 		
 	
 	
@@ -3630,8 +3791,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/harrold-hornets.1246/schedule/2026/">Harrold</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/harrold-hornets.1246/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/harrold-hornets.1246/preview" data-team-id="1246">Harrold</a>
 		
 	
 	
@@ -3682,8 +3850,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/runge-yellowjackets.19110/schedule/2026/">Runge</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/runge-yellowjackets.19110/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/runge-yellowjackets.19110/preview" data-team-id="19110">Runge</a>
 		
 	
 	
@@ -3736,8 +3911,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/mount-calm-panthers.1409/schedule/2026/">Mount Calm</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/mount-calm-panthers.1409/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/mount-calm-panthers.1409/preview" data-team-id="1409">Mount Calm</a>
 		
 	
 	
@@ -3788,8 +3970,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/texas-wind-skyhawks.19083/schedule/2026/">Texas Wind</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/texas-wind-skyhawks.19083/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/texas-wind-skyhawks.19083/preview" data-team-id="19083">Texas Wind</a>
 		
 	
 	
@@ -3842,8 +4031,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/austin-royals.2284/schedule/2026/">Austin Royals</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/austin-royals.2284/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/austin-royals.2284/preview" data-team-id="2284">Austin Royals</a>
 		
 	
 	
@@ -3852,6 +4048,126 @@
 			</div>
 			<div class="team-mascot">
 				Royals
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2356.jpg?1778074127" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#169</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/sa-town-east-eagles.2356/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/sa-town-east-eagles.2356/preview" data-team-id="2356">SA Town East</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Eagles
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-sa-town-east-vs-granbury-grace-classical.39459/">
+							Upcoming
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19095.jpg?1728531392" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#176</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/granbury-grace-classical-gryphons.19095/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/granbury-grace-classical-gryphons.19095/preview" data-team-id="19095">Granbury Grace Classical</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Gryphons
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -3894,8 +4210,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/lubbock-christ-the-king-golden-lions.2286/schedule/2026/">Lubbock Christ the King</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/lubbock-christ-the-king-golden-lions.2286/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/lubbock-christ-the-king-golden-lions.2286/preview" data-team-id="2286">Lubbock Christ the King</a>
 		
 	
 	
@@ -3948,8 +4271,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/fredericksburg-heritage-eagles.2236/schedule/2026/">Fredericksburg Heritage</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fredericksburg-heritage-eagles.2236/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fredericksburg-heritage-eagles.2236/preview" data-team-id="2236">Fredericksburg Heritage</a>
 		
 	
 	
@@ -4000,8 +4330,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/stephenville-faith-knights.2367/schedule/2026/">Stephenville Faith</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/stephenville-faith-knights.2367/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/stephenville-faith-knights.2367/preview" data-team-id="2367">Stephenville Faith</a>
 		
 	
 	
@@ -4054,8 +4391,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/sa-jubilee-lions.2334/schedule/2026/">SA Jubilee</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/sa-jubilee-lions.2334/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/sa-jubilee-lions.2334/preview" data-team-id="2334">SA Jubilee</a>
 		
 	
 	
@@ -4106,8 +4450,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/rocksprings-angoras.19243/schedule/2026/">Rocksprings</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/rocksprings-angoras.19243/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/rocksprings-angoras.19243/preview" data-team-id="19243">Rocksprings</a>
 		
 	
 	
@@ -4160,8 +4511,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/blackwell-hornets.1046/schedule/2026/">Blackwell</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/blackwell-hornets.1046/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/blackwell-hornets.1046/preview" data-team-id="1046">Blackwell</a>
 		
 	
 	
@@ -4212,8 +4570,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/decatur-victory-christian-patriots.2164/schedule/2026/">Decatur Victory Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/decatur-victory-christian-patriots.2164/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/decatur-victory-christian-patriots.2164/preview" data-team-id="2164">Decatur Victory Christian</a>
 		
 	
 	
@@ -4266,8 +4631,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/san-marcos-hill-country-christian-rams.2362/schedule/2026/">San Marcos Hill Country Christian</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/san-marcos-hill-country-christian-rams.2362/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/san-marcos-hill-country-christian-rams.2362/preview" data-team-id="2362">San Marcos Hill Country Christian</a>
 		
 	
 	
@@ -4318,8 +4690,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/fort-bend-homeschool-chargers.2364/schedule/2026/">Fort Bend Homeschool</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fort-bend-homeschool-chargers.2364/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fort-bend-homeschool-chargers.2364/preview" data-team-id="2364">Fort Bend Homeschool</a>
 		
 	
 	
@@ -4372,8 +4751,15 @@
 		
 	
 	
+	
 		
-			<a href="/teams/fort-worth-thesa-riders.2368/schedule/2026/">Fort Worth THESA</a>
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fort-worth-thesa-riders.2368/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fort-worth-thesa-riders.2368/preview" data-team-id="2368">Fort Worth THESA</a>
 		
 	
 	
@@ -4518,13 +4904,13 @@
 						</a>
 						<a href="https://www.facebook.com/sixmanfb/">
 							<span class="p-footer-social-icon">
-								<i class="fa--xf fab fa-facebook "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1794350401#facebook"></use></svg></i>
+								<i class="fa--xf fab fa-facebook "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1794922562#facebook"></use></svg></i>
 							</span>
 							SixManFB
 						</a>
 						<a href="https://www.instagram.com/sixmanfb/">
 							<span class="p-footer-social-icon">
-								<i class="fa--xf fab fa-instagram "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1794350401#instagram"></use></svg></i>
+								<i class="fa--xf fab fa-instagram "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1794922562#instagram"></use></svg></i>
 							</span>
 							SixManFB
 						</a>
@@ -4581,7 +4967,7 @@
 				class="js-styleVariationsLink"
 				data-xf-init="tooltip" title="Style variation"
 				data-xf-click="menu" role="button" aria-expanded="false" aria-haspopup="true">
-				<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" ><title>Style variation</title><use href="/data/local/icons/light.svg?v=1794350401#adjust"></use></svg></i>
+				<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" ><title>Style variation</title><use href="/data/local/icons/light.svg?v=1794922562#adjust"></use></svg></i>
 			</a>
 			<div class="menu" data-menu="menu" aria-hidden="true">
 				<div class="menu-content js-styleVariationsMenu">
@@ -4590,12 +4976,12 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1794874550%2C65906bf59fb2b9f88da69b595a14d1b3"
+	<a href="/misc/style-variation?reset=1&amp;t=1795147259%2C763de82a4eb632125806e3b41c6d8ad6"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
 
-		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#adjust"></use></svg></i>
+		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#adjust"></use></svg></i>
 
 		
 			System
@@ -4605,12 +4991,12 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1794874550%2C65906bf59fb2b9f88da69b595a14d1b3"
+	<a href="/misc/style-variation?variation=default&amp;t=1795147259%2C763de82a4eb632125806e3b41c6d8ad6"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
 
-		<i class="fa--xf fal fa-sun "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#sun"></use></svg></i>
+		<i class="fa--xf fal fa-sun "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#sun"></use></svg></i>
 
 		
 			Light
@@ -4620,12 +5006,12 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1794874550%2C65906bf59fb2b9f88da69b595a14d1b3"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795147259%2C763de82a4eb632125806e3b41c6d8ad6"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
 
-		<i class="fa--xf fal fa-moon "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#moon"></use></svg></i>
+		<i class="fa--xf fal fa-moon "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#moon"></use></svg></i>
 
 		
 			Dark
@@ -4642,7 +5028,7 @@
 			</div>
 		
 		<div class="p-footer-rss">
-			<a href="/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf fal fa-rss "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#rss"></use></svg></i><span class="u-srOnly">RSS</span></span></a>
+			<a href="/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf fal fa-rss "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#rss"></use></svg></i><span class="u-srOnly">RSS</span></span></a>
 		</div>
 	</div>
 </div>
@@ -4798,12 +5184,12 @@
 </div>
 
 <div class="u-navButtons js-navButtons">
-	<a href="javascript:" class="button button--scroll"><span class="button-text"><i class="fa--xf fal fa-arrow-left "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#arrow-left"></use></svg></i><span class="u-srOnly">Back</span></span></a>
+	<a href="javascript:" class="button button--scroll"><span class="button-text"><i class="fa--xf fal fa-arrow-left "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#arrow-left"></use></svg></i><span class="u-srOnly">Back</span></span></a>
 </div>
 
 
 	<div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
-		<a href="#top" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf fal fa-arrow-up "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794350401#arrow-up"></use></svg></i><span class="u-srOnly">Top</span></span></a>
+		<a href="#top" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf fal fa-arrow-up "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1794922562#arrow-up"></use></svg></i><span class="u-srOnly">Top</span></span></a>
 		
 	</div>
 
@@ -4820,7 +5206,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5ba8b15dc810a07',t:'MTc5NDg3NDU1MA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5ba8b15dc810a07',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5d48d0549fbfc18',t:'MTc5NTE0NzI1OQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5d48d0549fbfc18',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
