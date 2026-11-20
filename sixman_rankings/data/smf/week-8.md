@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1795159733,5c963d1368e9986f2f9472347fd6e7e5"
+	data-csrf="1795212950,6afc303df06a2bfee39823bd0b52f8e5"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1795159733,5c963d1368e9986f2f9472347fd6e7e5',
+				csrf: '1795212950,6afc303df06a2bfee39823bd0b52f8e5',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=b8a38746":true,"\/js\/sixman\/team-tooltip.min.js?_v=b8a38746":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1795159733,
+					now: 1795212950,
 					today: 1795154400,
 					todayDow: 5,
 					tomorrow: 1795240800,
@@ -1098,7 +1098,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1795159733,5c963d1368e9986f2f9472347fd6e7e5" />
+									<input type="hidden" name="_xfToken" value="1795212950,6afc303df06a2bfee39823bd0b52f8e5" />
 								</form>
 							</div>
 						
@@ -7305,126 +7305,6 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/1/1331.jpg?1778084421" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#135</span>
-		
-	
-	
-	
-		
-			
-		
-	
-	
-		
-			
-			<a href="/teams/leveretts-chapel-lions.1331/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/leveretts-chapel-lions.1331/preview" data-team-id="1331">Leverett&#039;s Chapel</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Lions
-			</div>
-		</div>
-		<div class="contentRow-score winning">
-			1
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-leveretts-chapel-vs-mckinney-cornerstone.39321/">
-							Final/FF
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2299.jpg?1784032348" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#125</span>
-		
-	
-	
-	
-		
-			
-		
-	
-	
-		
-			
-			<a href="/teams/mckinney-cornerstone-warriors.2299/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/mckinney-cornerstone-warriors.2299/preview" data-team-id="2299">McKinney Cornerstone</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Warriors
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
 					<img src="/data/sixman/teamlogo/s/2/2286.jpg?1778029002" loading="lazy" />
 				
 			</span>
@@ -8005,6 +7885,126 @@
 		</div>
 		<div class="contentRow-score">
 			8
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1331.jpg?1778084421" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#135</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/leveretts-chapel-lions.1331/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/leveretts-chapel-lions.1331/preview" data-team-id="1331">Leverett&#039;s Chapel</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Lions
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-leveretts-chapel-vs-mckinney-cornerstone.39321/">
+							Final/FF
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2299.jpg?1784032348" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#125</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/mckinney-cornerstone-warriors.2299/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/mckinney-cornerstone-warriors.2299/preview" data-team-id="2299">McKinney Cornerstone</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Warriors
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
 		</div>
 	</div>
 
@@ -12465,7 +12465,7 @@
 		<div class="contentRow-figure">
 			<span class="avatar avatar--s">
 				
-					<img src="/data/sixman/teamlogo/s/1/1646.jpg?1788490285" loading="lazy" />
+					<img src="/data/sixman/teamlogo/s/1/1646.jpg?1795195045" loading="lazy" />
 				
 			</span>
 		</div>
@@ -15147,7 +15147,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1795159733%2C5c963d1368e9986f2f9472347fd6e7e5"
+	<a href="/misc/style-variation?reset=1&amp;t=1795212950%2C6afc303df06a2bfee39823bd0b52f8e5"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -15162,7 +15162,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1795159733%2C5c963d1368e9986f2f9472347fd6e7e5"
+	<a href="/misc/style-variation?variation=default&amp;t=1795212950%2C6afc303df06a2bfee39823bd0b52f8e5"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -15177,7 +15177,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1795159733%2C5c963d1368e9986f2f9472347fd6e7e5"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795212950%2C6afc303df06a2bfee39823bd0b52f8e5"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -15377,7 +15377,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5d5bd8ecc49ff38',t:'MTc5NTE1OTczMw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5d5bd8ecc49ff38',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5dad0c9ee895f24',t:'MTc5NTIxMjk1MA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5dad0c9ee895f24',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
