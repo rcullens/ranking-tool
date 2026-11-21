@@ -1,8 +1,8 @@
 {
-  "pulled_at": "2026-11-20T16:16:18.619818-06:00",
+  "pulled_at": "2026-11-20T21:16:33.706068-06:00",
   "season": 2026,
   "teams": 302,
-  "games": 1291,
+  "games": 1292,
   "finals": 1024,
   "sources": [
     {
@@ -16,7 +16,7 @@
       "name": "sixmanfootball",
       "ok": true,
       "detail": "weeks 0\u201314 (15 live, 0 cached), 0 finals",
-      "games": 77,
+      "games": 78,
       "finals": 0
     }
   ],
