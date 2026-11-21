@@ -1214,15 +1214,15 @@ w11-lone-star-north-weatherford-christian,11,2026-11-07,lone-star-north,weatherf
 w11-tyler-heat-el-paso-leadership,11,2026-11-07,tyler-heat,el-paso-leadership,52,6,true,false
 w11-vanguard-college-prep-trinity-school-of-texas,11,2026-11-07,vanguard-college-prep,trinity-school-of-texas,46,0,false,false
 w12-benjamin-harrold,12,2026-11-12,benjamin,harrold,6,52,false,true
+w12-calvert-runge,12,2026-11-12,calvert,runge,19,68,false,true
 w12-grandfalls-royalty-dell-city,12,2026-11-12,grandfalls-royalty,dell-city,71,13,false,false
 w12-jonesboro-medina,12,2026-11-12,jonesboro,medina,14,60,false,true
 w12-menard-highland,12,2026-11-12,menard,highland,64,8,false,false
+w12-milford-saint-jo,12,2026-11-12,milford,saint-jo,70,22,false,true
 w12-northside-gordon,12,2026-11-12,northside,gordon,48,90,false,false
 w12-rankin-klondike,12,2026-11-12,rankin,klondike,87,79,false,false
 w12-robert-lee-water-valley,12,2026-11-12,robert-lee,water-valley,50,98,false,false
 w12-rocksprings-marfa,12,2026-11-12,rocksprings,marfa,40,0,false,false
-w12-runge-calvert,12,2026-11-12,runge,calvert,68,19,false,true
-w12-saint-jo-milford,12,2026-11-12,saint-jo,milford,22,70,false,true
 w12-sidney-zephyr,12,2026-11-12,sidney,zephyr,42,48,false,true
 w12-strawn-gustine,12,2026-11-12,strawn,gustine,71,22,false,false
 w12-woodson-knox-city,12,2026-11-12,woodson,knox-city,28,76,false,false
@@ -1242,9 +1242,9 @@ w12-first-baptist-christian-divine-savior,12,2026-11-13,first-baptist-christian,
 w12-happy-hermleigh,12,2026-11-13,happy,hermleigh,16,64,false,false
 w12-iredell-mount-calm,12,2026-11-13,iredell,mount-calm,14,64,false,true
 w12-jayton-kress,12,2026-11-13,jayton,kress,75,6,false,false
-w12-lefors-motley-county,12,2026-11-13,lefors,motley-county,0,72,false,true
 w12-may-newcastle,12,2026-11-13,may,newcastle,24,74,false,false
 w12-meadow-hart,12,2026-11-13,meadow,hart,77,22,false,false
+w12-motley-county-lefors,12,2026-11-13,motley-county,lefors,72,0,false,true
 w12-oglesby-knippa,12,2026-11-13,oglesby,knippa,54,8,false,false
 w12-panther-creek-richland-springs,12,2026-11-13,panther-creek,richland-springs,53,98,false,false
 w12-san-marcos-academy-valor-prep,12,2026-11-13,san-marcos-academy,valor-prep,16,62,true,true
@@ -1273,7 +1273,7 @@ w13-fannindel-apple-springs,13,2026-11-20,fannindel,apple-springs,,,false,true
 w13-first-baptist-christian-divine-savior,13,2026-11-20,first-baptist-christian,divine-savior,,,false,false
 w13-harrold-zephyr,13,2026-11-20,harrold,zephyr,,,false,false
 w13-jubilee-brownsville-town-east-christian,13,2026-11-20,jubilee-brownsville,town-east-christian,,,false,false
-w13-kings-academy-victoria-gators,13,2026-11-20,kings-academy,victoria-gators,,,false,true
+w13-kings-academy-victoria-gators,13,2026-11-20,kings-academy,victoria-gators,52,87,false,true
 w13-knox-city-strawn,13,2026-11-20,knox-city,strawn,,,false,true
 w13-menard-rankin,13,2026-11-20,menard,rankin,,,false,false
 w13-milford-newcastle,13,2026-11-20,milford,newcastle,,,false,false
@@ -1291,3 +1291,4 @@ w13-stephenville-faith-jubilee-brownsville,13,2026-11-21,stephenville-faith,jubi
 w14-arlington-heights-christian-divine-savior,14,2026-11-27,arlington-heights-christian,divine-savior,,,false,false
 w14-divine-savior-lingleville,14,2026-11-27,divine-savior,lingleville,,,false,false
 w14-first-baptist-christian-divine-savior,14,2026-11-27,first-baptist-christian,divine-savior,,,false,false
+w14-motley-county-divine-savior,14,2026-11-27,motley-county,divine-savior,,,false,false
