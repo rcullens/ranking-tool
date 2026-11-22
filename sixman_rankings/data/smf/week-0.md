@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1795310586,27b807087246e20184fdbcf702240ef5"
+	data-csrf="1795331049,5b2d5d5960d2a4d5d4c611dd6ebf073f"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1795310586,27b807087246e20184fdbcf702240ef5',
+				csrf: '1795331049,5b2d5d5960d2a4d5d4c611dd6ebf073f',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=dedc5191":true,"\/js\/sixman\/team-tooltip.min.js?_v=dedc5191":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1795310586,
-					today: 1795240800,
-					todayDow: 6,
-					tomorrow: 1795327200,
-					yesterday: 1795154400,
-					week: 1794722400,
+					now: 1795331049,
+					today: 1795327200,
+					todayDow: 0,
+					tomorrow: 1795413600,
+					yesterday: 1795240800,
+					week: 1794808800,
 					month: 1793509200,
 					year: 1767247200
 				},
@@ -1098,7 +1098,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1795310586,27b807087246e20184fdbcf702240ef5" />
+									<input type="hidden" name="_xfToken" value="1795331049,5b2d5d5960d2a4d5d4c611dd6ebf073f" />
 								</form>
 							</div>
 						
@@ -3402,7 +3402,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1795310586%2C27b807087246e20184fdbcf702240ef5"
+	<a href="/misc/style-variation?reset=1&amp;t=1795331049%2C5b2d5d5960d2a4d5d4c611dd6ebf073f"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -3417,7 +3417,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1795310586%2C27b807087246e20184fdbcf702240ef5"
+	<a href="/misc/style-variation?variation=default&amp;t=1795331049%2C5b2d5d5960d2a4d5d4c611dd6ebf073f"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -3432,7 +3432,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1795310586%2C27b807087246e20184fdbcf702240ef5"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795331049%2C5b2d5d5960d2a4d5d4c611dd6ebf073f"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -3632,7 +3632,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5e4207b79345813',t:'MTc5NTMxMDU4Ng=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5e4207b79345813',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5e6140fdf5922ed',t:'MTc5NTMzMTA0OA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5e6140fdf5922ed',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1795310587,9bee7d00b1c8fbe25cfc1329810ec0e0"
+	data-csrf="1795331050,e59408894ef6a3722aed99717a2e759d"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -156,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1795310587,9bee7d00b1c8fbe25cfc1329810ec0e0',
+				csrf: '1795331050,e59408894ef6a3722aed99717a2e759d',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=dedc5191":true,"\/js\/sixman\/team-tooltip.min.js?_v=dedc5191":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1795310587,
-					today: 1795240800,
-					todayDow: 6,
-					tomorrow: 1795327200,
-					yesterday: 1795154400,
-					week: 1794722400,
+					now: 1795331050,
+					today: 1795327200,
+					todayDow: 0,
+					tomorrow: 1795413600,
+					yesterday: 1795240800,
+					week: 1794808800,
 					month: 1793509200,
 					year: 1767247200
 				},
@@ -1098,7 +1098,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1795310587,9bee7d00b1c8fbe25cfc1329810ec0e0" />
+									<input type="hidden" name="_xfToken" value="1795331050,e59408894ef6a3722aed99717a2e759d" />
 								</form>
 							</div>
 						
@@ -14075,7 +14075,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1795310587%2C9bee7d00b1c8fbe25cfc1329810ec0e0"
+	<a href="/misc/style-variation?reset=1&amp;t=1795331050%2Ce59408894ef6a3722aed99717a2e759d"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -14090,7 +14090,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1795310587%2C9bee7d00b1c8fbe25cfc1329810ec0e0"
+	<a href="/misc/style-variation?variation=default&amp;t=1795331050%2Ce59408894ef6a3722aed99717a2e759d"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -14105,7 +14105,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1795310587%2C9bee7d00b1c8fbe25cfc1329810ec0e0"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795331050%2Ce59408894ef6a3722aed99717a2e759d"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -14305,7 +14305,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5e42083cee71ff4',t:'MTc5NTMxMDU4Nw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5e42083cee71ff4',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5e614180bcbc6d7',t:'MTc5NTMzMTA1MA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5e614180bcbc6d7',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
