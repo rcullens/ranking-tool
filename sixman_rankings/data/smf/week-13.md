@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1795294526,488a826d6ca9f2f593a05ba331a61add"
+	data-csrf="1795310589,e08d92a98df1a3294c2ecb134200b9f5"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -114,12 +114,12 @@
 	
 	
 
-	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
+	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
 
-	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
-<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
-<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
-<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
+	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
+<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
+<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
+<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
 
 
 	
@@ -141,7 +141,7 @@
 				url: {
 					fullBase: 'https://sixmanfootball.com/',
 					basePath: '/',
-					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1795278913',
+					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1795296700',
 					js: '/js/__SENTINEL__?_v=dedc5191',
 					icon: '/data/local/icons/__VARIANT__.svg?v=1795278961#__NAME__',
 					iconInline: '/styles/fa/__VARIANT__/__NAME__.svg?v=5.15.3',
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1795294526,488a826d6ca9f2f593a05ba331a61add',
+				csrf: '1795310589,e08d92a98df1a3294c2ecb134200b9f5',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=dedc5191":true,"\/js\/sixman\/team-tooltip.min.js?_v=dedc5191":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1795294526,
+					now: 1795310589,
 					today: 1795240800,
 					todayDow: 6,
 					tomorrow: 1795327200,
@@ -1098,7 +1098,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1795294526,488a826d6ca9f2f593a05ba331a61add" />
+									<input type="hidden" name="_xfToken" value="1795310589,e08d92a98df1a3294c2ecb134200b9f5" />
 								</form>
 							</div>
 						
@@ -1525,7 +1525,7 @@
 		<div class="block block--game-date">
 			<div class="block-container">
 				<h3 class="block-header">
-					Live scoreboard
+					Saturday results
 				</h3>
 				<div class="block-body block-row block-row--scores">
 					
@@ -1533,16 +1533,6 @@
 	
 	
 	<div class="block-matchup fauxBlockLink is-playoff">
-		
-			<div class="block-time">
-				<div class="block-update-user">
-					<span class="is-live">LIVE</span>
-					
-				</div>
-				<div class="block-time-updated">
-					<time  class="u-dt" dir="auto" datetime="2026-11-21T14:45:46-0600" data-timestamp="1795293946" data-date="Nov 21, 2026" data-time="2:45 PM" data-short="9m" title="Nov 21, 2026 at 2:45 PM">9 minutes ago</time>
-				</div>
-			</div>
 		
 		<div class="block-teams">
 			
@@ -1565,7 +1555,7 @@
 	
 	
 		
-			<span class="teamRank">#62</span>
+			<span class="teamRank">#63</span>
 		
 	
 	
@@ -1589,7 +1579,7 @@
 			</div>
 		</div>
 		<div class="contentRow-score winning">
-			28
+			62
 		</div>
 	</div>
 
@@ -1601,7 +1591,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-rocksprings-vs-blackwell.39438/">
-							5:30 - 2nd Qtr
+							Final
 						</a>
 					
 				</div>
@@ -1626,7 +1616,7 @@
 	
 	
 		
-			<span class="teamRank">#77</span>
+			<span class="teamRank">#80</span>
 		
 	
 	
@@ -1650,7 +1640,7 @@
 			</div>
 		</div>
 		<div class="contentRow-score">
-			16
+			50
 		</div>
 	</div>
 
@@ -1659,16 +1649,245 @@
 	</div>
 
 					
-				</div>
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff is-championship">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2164.jpg?1784148569" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#26</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/decatur-victory-christian-patriots.2164/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/decatur-victory-christian-patriots.2164/preview" data-team-id="2164">Decatur Victory Christian</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Patriots
 			</div>
 		</div>
+		<div class="contentRow-score winning">
+			85
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-decatur-victory-christian-vs-san-marcos-hill-country-christian.39446/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2362.jpg?1778029727" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
 	
-		<div class="block block--game-date">
-			<div class="block-container">
-				<h3 class="block-header">
-					Saturday results
-				</h3>
-				<div class="block-body block-row block-row--scores">
+	
+	
+	
+	
+		
+			<span class="teamRank">#68</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/san-marcos-hill-country-christian-rams.2362/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/san-marcos-hill-country-christian-rams.2362/preview" data-team-id="2362">San Marcos Hill Country Christian</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Rams
+			</div>
+		</div>
+		<div class="contentRow-score">
+			54
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2368.jpg?1778186348" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#25</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fort-worth-thesa-riders.2368/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fort-worth-thesa-riders.2368/preview" data-team-id="2368">Fort Worth THESA</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Riders
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			30
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-fort-bend-homeschool-vs-fort-worth-thesa.39456/">
+							Final
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/2/2364.jpg?1770306102" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#23</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/fort-bend-homeschool-chargers.2364/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fort-bend-homeschool-chargers.2364/preview" data-team-id="2364">Fort Bend Homeschool</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Chargers
+			</div>
+		</div>
+		<div class="contentRow-score">
+			28
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
 					
 						
 	
@@ -1696,7 +1915,7 @@
 	
 	
 		
-			<span class="teamRank">#36</span>
+			<span class="teamRank">#35</span>
 		
 	
 	
@@ -1757,7 +1976,7 @@
 	
 	
 		
-			<span class="teamRank">#76</span>
+			<span class="teamRank">#74</span>
 		
 	
 	
@@ -1816,7 +2035,7 @@
 	
 	
 		
-			<span class="teamRank">#51</span>
+			<span class="teamRank">#45</span>
 		
 	
 	
@@ -1877,7 +2096,7 @@
 	
 	
 		
-			<span class="teamRank">#213</span>
+			<span class="teamRank">#214</span>
 		
 	
 	
@@ -2008,7 +2227,7 @@
 	
 	
 		
-			<span class="teamRank">#15</span>
+			<span class="teamRank">#14</span>
 		
 	
 	
@@ -2067,7 +2286,7 @@
 	
 	
 		
-			<span class="teamRank">#23</span>
+			<span class="teamRank">#18</span>
 		
 	
 	
@@ -2128,7 +2347,7 @@
 	
 	
 		
-			<span class="teamRank">#17</span>
+			<span class="teamRank">#21</span>
 		
 	
 	
@@ -2248,7 +2467,7 @@
 	
 	
 		
-			<span class="teamRank">#13</span>
+			<span class="teamRank">#11</span>
 		
 	
 	
@@ -2307,7 +2526,7 @@
 	
 	
 		
-			<span class="teamRank">#105</span>
+			<span class="teamRank">#106</span>
 		
 	
 	
@@ -2427,7 +2646,7 @@
 	
 	
 		
-			<span class="teamRank">#7</span>
+			<span class="teamRank">#6</span>
 		
 	
 	
@@ -2488,7 +2707,7 @@
 	
 	
 		
-			<span class="teamRank">#11</span>
+			<span class="teamRank">#16</span>
 		
 	
 	
@@ -2608,7 +2827,7 @@
 	
 	
 		
-			<span class="teamRank">#208</span>
+			<span class="teamRank">#204</span>
 		
 	
 	
@@ -2667,7 +2886,7 @@
 	
 	
 		
-			<span class="teamRank">#176</span>
+			<span class="teamRank">#156</span>
 		
 	
 	
@@ -2728,7 +2947,7 @@
 	
 	
 		
-			<span class="teamRank">#169</span>
+			<span class="teamRank">#186</span>
 		
 	
 	
@@ -2787,7 +3006,7 @@
 	
 	
 		
-			<span class="teamRank">#18</span>
+			<span class="teamRank">#12</span>
 		
 	
 	
@@ -2848,7 +3067,7 @@
 	
 	
 		
-			<span class="teamRank">#30</span>
+			<span class="teamRank">#44</span>
 		
 	
 	
@@ -2907,7 +3126,7 @@
 	
 	
 		
-			<span class="teamRank">#26</span>
+			<span class="teamRank">#19</span>
 		
 	
 	
@@ -2968,7 +3187,7 @@
 	
 	
 		
-			<span class="teamRank">#14</span>
+			<span class="teamRank">#28</span>
 		
 	
 	
@@ -3027,7 +3246,7 @@
 	
 	
 		
-			<span class="teamRank">#12</span>
+			<span class="teamRank">#7</span>
 		
 	
 	
@@ -3088,7 +3307,7 @@
 	
 	
 		
-			<span class="teamRank">#2</span>
+			<span class="teamRank">#8</span>
 		
 	
 	
@@ -3147,7 +3366,7 @@
 	
 	
 		
-			<span class="teamRank">#6</span>
+			<span class="teamRank">#2</span>
 		
 	
 	
@@ -3208,7 +3427,7 @@
 	
 	
 		
-			<span class="teamRank">#8</span>
+			<span class="teamRank">#17</span>
 		
 	
 	
@@ -3267,7 +3486,7 @@
 	
 	
 		
-			<span class="teamRank">#22</span>
+			<span class="teamRank">#13</span>
 		
 	
 	
@@ -3328,7 +3547,7 @@
 	
 	
 		
-			<span class="teamRank">#10</span>
+			<span class="teamRank">#9</span>
 		
 	
 	
@@ -3387,7 +3606,7 @@
 	
 	
 		
-			<span class="teamRank">#72</span>
+			<span class="teamRank">#64</span>
 		
 	
 	
@@ -3448,7 +3667,7 @@
 	
 	
 		
-			<span class="teamRank">#120</span>
+			<span class="teamRank">#129</span>
 		
 	
 	
@@ -3507,7 +3726,7 @@
 	
 	
 		
-			<span class="teamRank">#40</span>
+			<span class="teamRank">#41</span>
 		
 	
 	
@@ -3568,7 +3787,7 @@
 	
 	
 		
-			<span class="teamRank">#55</span>
+			<span class="teamRank">#59</span>
 		
 	
 	
@@ -3627,7 +3846,7 @@
 	
 	
 		
-			<span class="teamRank">#9</span>
+			<span class="teamRank">#10</span>
 		
 	
 	
@@ -3688,7 +3907,7 @@
 	
 	
 		
-			<span class="teamRank">#61</span>
+			<span class="teamRank">#55</span>
 		
 	
 	
@@ -3867,7 +4086,7 @@
 	
 	
 		
-			<span class="teamRank">#29</span>
+			<span class="teamRank">#33</span>
 		
 	
 	
@@ -3928,7 +4147,7 @@
 	
 	
 		
-			<span class="teamRank">#87</span>
+			<span class="teamRank">#88</span>
 		
 	
 	
@@ -3987,7 +4206,7 @@
 	
 	
 		
-			<span class="teamRank">#171</span>
+			<span class="teamRank">#151</span>
 		
 	
 	
@@ -4048,7 +4267,7 @@
 	
 	
 		
-			<span class="teamRank">#155</span>
+			<span class="teamRank">#172</span>
 		
 	
 	
@@ -4107,7 +4326,7 @@
 	
 	
 		
-			<span class="teamRank">#39</span>
+			<span class="teamRank">#40</span>
 		
 	
 	
@@ -4168,7 +4387,7 @@
 	
 	
 		
-			<span class="teamRank">#98</span>
+			<span class="teamRank">#96</span>
 		
 	
 	
@@ -4227,7 +4446,7 @@
 	
 	
 		
-			<span class="teamRank">#48</span>
+			<span class="teamRank">#49</span>
 		
 	
 	
@@ -4288,7 +4507,7 @@
 	
 	
 		
-			<span class="teamRank">#95</span>
+			<span class="teamRank">#108</span>
 		
 	
 	
@@ -4419,7 +4638,7 @@
 	
 	
 		
-			<span class="teamRank">#59</span>
+			<span class="teamRank">#56</span>
 		
 	
 	
@@ -4539,7 +4758,7 @@
 	
 	
 		
-			<span class="teamRank">#86</span>
+			<span class="teamRank">#90</span>
 		
 	
 	
@@ -4560,257 +4779,6 @@
 			</div>
 			<div class="team-mascot">
 				Wildcats
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-				</div>
-			</div>
-		</div>
-	
-		<div class="block block--game-date">
-			<div class="block-container">
-				<h3 class="block-header">
-					Upcoming games
-				</h3>
-				<div class="block-body block-row block-row--scores">
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff is-championship">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2164.jpg?1784148569" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#31</span>
-		
-	
-	
-	
-		
-			
-		
-	
-	
-		
-			
-			<a href="/teams/decatur-victory-christian-patriots.2164/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/decatur-victory-christian-patriots.2164/preview" data-team-id="2164">Decatur Victory Christian</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Patriots
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-decatur-victory-christian-vs-san-marcos-hill-country-christian.39446/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2362.jpg?1778029727" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#57</span>
-		
-	
-	
-	
-		
-			
-		
-	
-	
-		
-			
-			<a href="/teams/san-marcos-hill-country-christian-rams.2362/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/san-marcos-hill-country-christian-rams.2362/preview" data-team-id="2362">San Marcos Hill Country Christian</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Rams
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2364.jpg?1770306102" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#19</span>
-		
-	
-	
-	
-		
-			
-		
-	
-	
-		
-			
-			<a href="/teams/fort-bend-homeschool-chargers.2364/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fort-bend-homeschool-chargers.2364/preview" data-team-id="2364">Fort Bend Homeschool</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Chargers
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-fort-bend-homeschool-vs-fort-worth-thesa.39456/">
-							Upcoming
-						</a>
-					
-				</div>
-			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/2/2368.jpg?1778186348" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#27</span>
-		
-	
-	
-	
-		
-			
-		
-	
-	
-		
-			
-			<a href="/teams/fort-worth-thesa-riders.2368/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/fort-worth-thesa-riders.2368/preview" data-team-id="2368">Fort Worth THESA</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Riders
 			</div>
 		</div>
 		<div class="contentRow-score">
@@ -5019,7 +4987,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1795294526%2C488a826d6ca9f2f593a05ba331a61add"
+	<a href="/misc/style-variation?reset=1&amp;t=1795310589%2Ce08d92a98df1a3294c2ecb134200b9f5"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -5034,7 +5002,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1795294526%2C488a826d6ca9f2f593a05ba331a61add"
+	<a href="/misc/style-variation?variation=default&amp;t=1795310589%2Ce08d92a98df1a3294c2ecb134200b9f5"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -5049,7 +5017,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1795294526%2C488a826d6ca9f2f593a05ba331a61add"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795310589%2Ce08d92a98df1a3294c2ecb134200b9f5"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -5249,7 +5217,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5e298659ba9b248',t:'MTc5NTI5NDUyNg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5e298659ba9b248',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5e4208d2927f42f',t:'MTc5NTMxMDU4OA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5e4208d2927f42f',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

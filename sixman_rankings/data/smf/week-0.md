@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1795294521,c76a7c4d11778625488680b358b2b80b"
+	data-csrf="1795310586,27b807087246e20184fdbcf702240ef5"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -114,12 +114,12 @@
 	
 	
 
-	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
+	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
 
-	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
-<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
-<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
-<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
+	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
+<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
+<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
+<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
 
 
 	
@@ -141,7 +141,7 @@
 				url: {
 					fullBase: 'https://sixmanfootball.com/',
 					basePath: '/',
-					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1795278913',
+					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1795296700',
 					js: '/js/__SENTINEL__?_v=dedc5191',
 					icon: '/data/local/icons/__VARIANT__.svg?v=1795278961#__NAME__',
 					iconInline: '/styles/fa/__VARIANT__/__NAME__.svg?v=5.15.3',
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1795294521,c76a7c4d11778625488680b358b2b80b',
+				csrf: '1795310586,27b807087246e20184fdbcf702240ef5',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=dedc5191":true,"\/js\/sixman\/team-tooltip.min.js?_v=dedc5191":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1795294521,
+					now: 1795310586,
 					today: 1795240800,
 					todayDow: 6,
 					tomorrow: 1795327200,
@@ -1098,7 +1098,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1795294521,c76a7c4d11778625488680b358b2b80b" />
+									<input type="hidden" name="_xfToken" value="1795310586,27b807087246e20184fdbcf702240ef5" />
 								</form>
 							</div>
 						
@@ -1668,7 +1668,7 @@
 	
 	
 		
-			<span class="teamRank">#118</span>
+			<span class="teamRank">#113</span>
 		
 	
 	
@@ -1729,7 +1729,7 @@
 	
 	
 		
-			<span class="teamRank">#252</span>
+			<span class="teamRank">#249</span>
 		
 	
 	
@@ -1788,7 +1788,7 @@
 	
 	
 		
-			<span class="teamRank">#209</span>
+			<span class="teamRank">#210</span>
 		
 	
 	
@@ -1908,7 +1908,7 @@
 	
 	
 		
-			<span class="teamRank">#93</span>
+			<span class="teamRank">#86</span>
 		
 	
 	
@@ -1969,7 +1969,7 @@
 	
 	
 		
-			<span class="teamRank">#68</span>
+			<span class="teamRank">#72</span>
 		
 	
 	
@@ -2028,7 +2028,7 @@
 	
 	
 		
-			<span class="teamRank">#42</span>
+			<span class="teamRank">#47</span>
 		
 	
 	
@@ -2089,7 +2089,7 @@
 	
 	
 		
-			<span class="teamRank">#31</span>
+			<span class="teamRank">#26</span>
 		
 	
 	
@@ -2148,7 +2148,7 @@
 	
 	
 		
-			<span class="teamRank">#204</span>
+			<span class="teamRank">#202</span>
 		
 	
 	
@@ -2261,7 +2261,7 @@
 	
 	
 		
-			<span class="teamRank">#207</span>
+			<span class="teamRank">#209</span>
 		
 	
 	
@@ -2322,7 +2322,7 @@
 	
 	
 		
-			<span class="teamRank">#208</span>
+			<span class="teamRank">#204</span>
 		
 	
 	
@@ -2501,7 +2501,7 @@
 	
 	
 		
-			<span class="teamRank">#35</span>
+			<span class="teamRank">#31</span>
 		
 	
 	
@@ -2562,7 +2562,7 @@
 	
 	
 		
-			<span class="teamRank">#78</span>
+			<span class="teamRank">#58</span>
 		
 	
 	
@@ -2621,7 +2621,7 @@
 	
 	
 		
-			<span class="teamRank">#58</span>
+			<span class="teamRank">#53</span>
 		
 	
 	
@@ -2682,7 +2682,7 @@
 	
 	
 		
-			<span class="teamRank">#124</span>
+			<span class="teamRank">#123</span>
 		
 	
 	
@@ -2741,7 +2741,7 @@
 	
 	
 		
-			<span class="teamRank">#205</span>
+			<span class="teamRank">#206</span>
 		
 	
 	
@@ -2802,7 +2802,7 @@
 	
 	
 		
-			<span class="teamRank">#197</span>
+			<span class="teamRank">#198</span>
 		
 	
 	
@@ -2922,7 +2922,7 @@
 	
 	
 		
-			<span class="teamRank">#44</span>
+			<span class="teamRank">#43</span>
 		
 	
 	
@@ -2992,7 +2992,7 @@
 	
 	
 		
-			<span class="teamRank">#11</span>
+			<span class="teamRank">#16</span>
 		
 	
 	
@@ -3053,7 +3053,7 @@
 	
 	
 		
-			<span class="teamRank">#92</span>
+			<span class="teamRank">#93</span>
 		
 	
 	
@@ -3402,7 +3402,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1795294521%2Cc76a7c4d11778625488680b358b2b80b"
+	<a href="/misc/style-variation?reset=1&amp;t=1795310586%2C27b807087246e20184fdbcf702240ef5"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -3417,7 +3417,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1795294521%2Cc76a7c4d11778625488680b358b2b80b"
+	<a href="/misc/style-variation?variation=default&amp;t=1795310586%2C27b807087246e20184fdbcf702240ef5"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -3432,7 +3432,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1795294521%2Cc76a7c4d11778625488680b358b2b80b"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795310586%2C27b807087246e20184fdbcf702240ef5"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -3632,7 +3632,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5e2984679d13d1b',t:'MTc5NTI5NDUyMQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5e2984679d13d1b',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5e4207b79345813',t:'MTc5NTMxMDU4Ng=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5e4207b79345813',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

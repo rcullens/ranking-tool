@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1795294523,02edcfa019cadab356031292610495e6"
+	data-csrf="1795310587,f8ddc5255f312c256b7abf2e21b4facc"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -114,12 +114,12 @@
 	
 	
 
-	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
+	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
 
-	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
-<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
-<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
-<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1795278913&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
+	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
+<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
+<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
+<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1795296700&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
 
 
 	
@@ -141,7 +141,7 @@
 				url: {
 					fullBase: 'https://sixmanfootball.com/',
 					basePath: '/',
-					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1795278913',
+					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1795296700',
 					js: '/js/__SENTINEL__?_v=dedc5191',
 					icon: '/data/local/icons/__VARIANT__.svg?v=1795278961#__NAME__',
 					iconInline: '/styles/fa/__VARIANT__/__NAME__.svg?v=5.15.3',
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1795294523,02edcfa019cadab356031292610495e6',
+				csrf: '1795310587,f8ddc5255f312c256b7abf2e21b4facc',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=dedc5191":true,"\/js\/sixman\/team-tooltip.min.js?_v=dedc5191":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1795294523,
+					now: 1795310587,
 					today: 1795240800,
 					todayDow: 6,
 					tomorrow: 1795327200,
@@ -1098,7 +1098,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1795294523,02edcfa019cadab356031292610495e6" />
+									<input type="hidden" name="_xfToken" value="1795310587,f8ddc5255f312c256b7abf2e21b4facc" />
 								</form>
 							</div>
 						
@@ -1548,7 +1548,7 @@
 	
 	
 		
-			<span class="teamRank">#23</span>
+			<span class="teamRank">#18</span>
 		
 	
 	
@@ -1609,7 +1609,7 @@
 	
 	
 		
-			<span class="teamRank">#80</span>
+			<span class="teamRank">#81</span>
 		
 	
 	
@@ -1668,7 +1668,7 @@
 	
 	
 		
-			<span class="teamRank">#11</span>
+			<span class="teamRank">#16</span>
 		
 	
 	
@@ -1729,7 +1729,7 @@
 	
 	
 		
-			<span class="teamRank">#26</span>
+			<span class="teamRank">#19</span>
 		
 	
 	
@@ -1788,7 +1788,7 @@
 	
 	
 		
-			<span class="teamRank">#42</span>
+			<span class="teamRank">#47</span>
 		
 	
 	
@@ -1849,7 +1849,7 @@
 	
 	
 		
-			<span class="teamRank">#100</span>
+			<span class="teamRank">#103</span>
 		
 	
 	
@@ -1908,7 +1908,7 @@
 	
 	
 		
-			<span class="teamRank">#218</span>
+			<span class="teamRank">#219</span>
 		
 	
 	
@@ -2028,7 +2028,7 @@
 	
 	
 		
-			<span class="teamRank">#134</span>
+			<span class="teamRank">#135</span>
 		
 	
 	
@@ -2089,7 +2089,7 @@
 	
 	
 		
-			<span class="teamRank">#242</span>
+			<span class="teamRank">#240</span>
 		
 	
 	
@@ -2148,7 +2148,7 @@
 	
 	
 		
-			<span class="teamRank">#9</span>
+			<span class="teamRank">#10</span>
 		
 	
 	
@@ -2209,7 +2209,7 @@
 	
 	
 		
-			<span class="teamRank">#172</span>
+			<span class="teamRank">#174</span>
 		
 	
 	
@@ -2268,7 +2268,7 @@
 	
 	
 		
-			<span class="teamRank">#17</span>
+			<span class="teamRank">#21</span>
 		
 	
 	
@@ -2329,7 +2329,7 @@
 	
 	
 		
-			<span class="teamRank">#45</span>
+			<span class="teamRank">#30</span>
 		
 	
 	
@@ -2628,7 +2628,7 @@
 	
 	
 		
-			<span class="teamRank">#216</span>
+			<span class="teamRank">#211</span>
 		
 	
 	
@@ -2689,7 +2689,7 @@
 	
 	
 		
-			<span class="teamRank">#199</span>
+			<span class="teamRank">#194</span>
 		
 	
 	
@@ -2759,7 +2759,7 @@
 	
 	
 		
-			<span class="teamRank">#37</span>
+			<span class="teamRank">#36</span>
 		
 	
 	
@@ -2820,7 +2820,7 @@
 	
 	
 		
-			<span class="teamRank">#58</span>
+			<span class="teamRank">#53</span>
 		
 	
 	
@@ -2879,7 +2879,7 @@
 	
 	
 		
-			<span class="teamRank">#68</span>
+			<span class="teamRank">#72</span>
 		
 	
 	
@@ -2940,7 +2940,7 @@
 	
 	
 		
-			<span class="teamRank">#102</span>
+			<span class="teamRank">#95</span>
 		
 	
 	
@@ -2999,7 +2999,7 @@
 	
 	
 		
-			<span class="teamRank">#241</span>
+			<span class="teamRank">#238</span>
 		
 	
 	
@@ -3119,7 +3119,7 @@
 	
 	
 		
-			<span class="teamRank">#126</span>
+			<span class="teamRank">#109</span>
 		
 	
 	
@@ -3300,7 +3300,7 @@
 	
 	
 		
-			<span class="teamRank">#181</span>
+			<span class="teamRank">#180</span>
 		
 	
 	
@@ -3420,7 +3420,7 @@
 	
 	
 		
-			<span class="teamRank">#190</span>
+			<span class="teamRank">#191</span>
 		
 	
 	
@@ -3479,7 +3479,7 @@
 	
 	
 		
-			<span class="teamRank">#197</span>
+			<span class="teamRank">#198</span>
 		
 	
 	
@@ -3708,7 +3708,7 @@
 	
 	
 		
-			<span class="teamRank">#49</span>
+			<span class="teamRank">#50</span>
 		
 	
 	
@@ -3769,7 +3769,7 @@
 	
 	
 		
-			<span class="teamRank">#132</span>
+			<span class="teamRank">#127</span>
 		
 	
 	
@@ -3828,7 +3828,7 @@
 	
 	
 		
-			<span class="teamRank">#143</span>
+			<span class="teamRank">#144</span>
 		
 	
 	
@@ -3948,7 +3948,7 @@
 	
 	
 		
-			<span class="teamRank">#92</span>
+			<span class="teamRank">#93</span>
 		
 	
 	
@@ -4068,7 +4068,7 @@
 	
 	
 		
-			<span class="teamRank">#194</span>
+			<span class="teamRank">#190</span>
 		
 	
 	
@@ -4188,7 +4188,7 @@
 	
 	
 		
-			<span class="teamRank">#62</span>
+			<span class="teamRank">#63</span>
 		
 	
 	
@@ -4249,7 +4249,7 @@
 	
 	
 		
-			<span class="teamRank">#67</span>
+			<span class="teamRank">#69</span>
 		
 	
 	
@@ -4369,7 +4369,7 @@
 	
 	
 		
-			<span class="teamRank">#129</span>
+			<span class="teamRank">#131</span>
 		
 	
 	
@@ -4428,7 +4428,7 @@
 	
 	
 		
-			<span class="teamRank">#130</span>
+			<span class="teamRank">#133</span>
 		
 	
 	
@@ -4489,7 +4489,7 @@
 	
 	
 		
-			<span class="teamRank">#196</span>
+			<span class="teamRank">#197</span>
 		
 	
 	
@@ -4609,7 +4609,7 @@
 	
 	
 		
-			<span class="teamRank">#8</span>
+			<span class="teamRank">#17</span>
 		
 	
 	
@@ -4668,7 +4668,7 @@
 	
 	
 		
-			<span class="teamRank">#54</span>
+			<span class="teamRank">#57</span>
 		
 	
 	
@@ -4788,7 +4788,7 @@
 	
 	
 		
-			<span class="teamRank">#208</span>
+			<span class="teamRank">#204</span>
 		
 	
 	
@@ -4849,7 +4849,7 @@
 	
 	
 		
-			<span class="teamRank">#210</span>
+			<span class="teamRank">#207</span>
 		
 	
 	
@@ -4908,7 +4908,7 @@
 	
 	
 		
-			<span class="teamRank">#157</span>
+			<span class="teamRank">#158</span>
 		
 	
 	
@@ -4969,7 +4969,7 @@
 	
 	
 		
-			<span class="teamRank">#159</span>
+			<span class="teamRank">#160</span>
 		
 	
 	
@@ -5028,7 +5028,7 @@
 	
 	
 		
-			<span class="teamRank">#99</span>
+			<span class="teamRank">#105</span>
 		
 	
 	
@@ -5148,7 +5148,7 @@
 	
 	
 		
-			<span class="teamRank">#116</span>
+			<span class="teamRank">#120</span>
 		
 	
 	
@@ -5209,7 +5209,7 @@
 	
 	
 		
-			<span class="teamRank">#198</span>
+			<span class="teamRank">#199</span>
 		
 	
 	
@@ -5268,7 +5268,7 @@
 	
 	
 		
-			<span class="teamRank">#43</span>
+			<span class="teamRank">#42</span>
 		
 	
 	
@@ -5329,7 +5329,7 @@
 	
 	
 		
-			<span class="teamRank">#119</span>
+			<span class="teamRank">#125</span>
 		
 	
 	
@@ -5388,7 +5388,7 @@
 	
 	
 		
-			<span class="teamRank">#75</span>
+			<span class="teamRank">#79</span>
 		
 	
 	
@@ -5449,7 +5449,7 @@
 	
 	
 		
-			<span class="teamRank">#187</span>
+			<span class="teamRank">#188</span>
 		
 	
 	
@@ -5508,7 +5508,7 @@
 	
 	
 		
-			<span class="teamRank">#53</span>
+			<span class="teamRank">#54</span>
 		
 	
 	
@@ -5569,7 +5569,7 @@
 	
 	
 		
-			<span class="teamRank">#192</span>
+			<span class="teamRank">#193</span>
 		
 	
 	
@@ -5748,7 +5748,7 @@
 	
 	
 		
-			<span class="teamRank">#25</span>
+			<span class="teamRank">#27</span>
 		
 	
 	
@@ -5809,7 +5809,7 @@
 	
 	
 		
-			<span class="teamRank">#106</span>
+			<span class="teamRank">#112</span>
 		
 	
 	
@@ -5868,7 +5868,7 @@
 	
 	
 		
-			<span class="teamRank">#145</span>
+			<span class="teamRank">#147</span>
 		
 	
 	
@@ -5929,7 +5929,7 @@
 	
 	
 		
-			<span class="teamRank">#184</span>
+			<span class="teamRank">#183</span>
 		
 	
 	
@@ -6108,7 +6108,7 @@
 	
 	
 		
-			<span class="teamRank">#209</span>
+			<span class="teamRank">#210</span>
 		
 	
 	
@@ -6169,7 +6169,7 @@
 	
 	
 		
-			<span class="teamRank">#207</span>
+			<span class="teamRank">#209</span>
 		
 	
 	
@@ -6348,7 +6348,7 @@
 	
 	
 		
-			<span class="teamRank">#31</span>
+			<span class="teamRank">#26</span>
 		
 	
 	
@@ -6468,7 +6468,7 @@
 	
 	
 		
-			<span class="teamRank">#19</span>
+			<span class="teamRank">#23</span>
 		
 	
 	
@@ -6529,7 +6529,7 @@
 	
 	
 		
-			<span class="teamRank">#91</span>
+			<span class="teamRank">#92</span>
 		
 	
 	
@@ -6588,7 +6588,7 @@
 	
 	
 		
-			<span class="teamRank">#7</span>
+			<span class="teamRank">#6</span>
 		
 	
 	
@@ -6649,7 +6649,7 @@
 	
 	
 		
-			<span class="teamRank">#14</span>
+			<span class="teamRank">#28</span>
 		
 	
 	
@@ -6708,7 +6708,7 @@
 	
 	
 		
-			<span class="teamRank">#27</span>
+			<span class="teamRank">#25</span>
 		
 	
 	
@@ -6769,7 +6769,7 @@
 	
 	
 		
-			<span class="teamRank">#89</span>
+			<span class="teamRank">#85</span>
 		
 	
 	
@@ -7068,7 +7068,7 @@
 	
 	
 		
-			<span class="teamRank">#229</span>
+			<span class="teamRank">#230</span>
 		
 	
 	
@@ -7249,7 +7249,7 @@
 	
 	
 		
-			<span class="teamRank">#59</span>
+			<span class="teamRank">#56</span>
 		
 	
 	
@@ -7308,7 +7308,7 @@
 	
 	
 		
-			<span class="teamRank">#50</span>
+			<span class="teamRank">#51</span>
 		
 	
 	
@@ -7369,7 +7369,7 @@
 	
 	
 		
-			<span class="teamRank">#88</span>
+			<span class="teamRank">#89</span>
 		
 	
 	
@@ -7428,7 +7428,7 @@
 	
 	
 		
-			<span class="teamRank">#55</span>
+			<span class="teamRank">#59</span>
 		
 	
 	
@@ -7489,7 +7489,7 @@
 	
 	
 		
-			<span class="teamRank">#93</span>
+			<span class="teamRank">#86</span>
 		
 	
 	
@@ -7548,7 +7548,7 @@
 	
 	
 		
-			<span class="teamRank">#78</span>
+			<span class="teamRank">#58</span>
 		
 	
 	
@@ -7609,7 +7609,7 @@
 	
 	
 		
-			<span class="teamRank">#167</span>
+			<span class="teamRank">#168</span>
 		
 	
 	
@@ -7668,7 +7668,7 @@
 	
 	
 		
-			<span class="teamRank">#85</span>
+			<span class="teamRank">#87</span>
 		
 	
 	
@@ -7729,7 +7729,7 @@
 	
 	
 		
-			<span class="teamRank">#131</span>
+			<span class="teamRank">#132</span>
 		
 	
 	
@@ -7788,7 +7788,7 @@
 	
 	
 		
-			<span class="teamRank">#65</span>
+			<span class="teamRank">#61</span>
 		
 	
 	
@@ -7849,7 +7849,7 @@
 	
 	
 		
-			<span class="teamRank">#191</span>
+			<span class="teamRank">#192</span>
 		
 	
 	
@@ -7908,7 +7908,7 @@
 	
 	
 		
-			<span class="teamRank">#95</span>
+			<span class="teamRank">#108</span>
 		
 	
 	
@@ -8028,7 +8028,7 @@
 	
 	
 		
-			<span class="teamRank">#123</span>
+			<span class="teamRank">#104</span>
 		
 	
 	
@@ -8089,7 +8089,7 @@
 	
 	
 		
-			<span class="teamRank">#87</span>
+			<span class="teamRank">#88</span>
 		
 	
 	
@@ -8148,7 +8148,7 @@
 	
 	
 		
-			<span class="teamRank">#18</span>
+			<span class="teamRank">#12</span>
 		
 	
 	
@@ -8209,7 +8209,7 @@
 	
 	
 		
-			<span class="teamRank">#30</span>
+			<span class="teamRank">#44</span>
 		
 	
 	
@@ -8268,7 +8268,7 @@
 	
 	
 		
-			<span class="teamRank">#115</span>
+			<span class="teamRank">#119</span>
 		
 	
 	
@@ -8388,7 +8388,7 @@
 	
 	
 		
-			<span class="teamRank">#108</span>
+			<span class="teamRank">#114</span>
 		
 	
 	
@@ -8449,7 +8449,7 @@
 	
 	
 		
-			<span class="teamRank">#127</span>
+			<span class="teamRank">#126</span>
 		
 	
 	
@@ -8508,7 +8508,7 @@
 	
 	
 		
-			<span class="teamRank">#12</span>
+			<span class="teamRank">#7</span>
 		
 	
 	
@@ -8628,7 +8628,7 @@
 	
 	
 		
-			<span class="teamRank">#60</span>
+			<span class="teamRank">#67</span>
 		
 	
 	
@@ -8689,7 +8689,7 @@
 	
 	
 		
-			<span class="teamRank">#211</span>
+			<span class="teamRank">#213</span>
 		
 	
 	
@@ -8748,7 +8748,7 @@
 	
 	
 		
-			<span class="teamRank">#98</span>
+			<span class="teamRank">#96</span>
 		
 	
 	
@@ -8809,7 +8809,7 @@
 	
 	
 		
-			<span class="teamRank">#124</span>
+			<span class="teamRank">#123</span>
 		
 	
 	
@@ -8868,7 +8868,7 @@
 	
 	
 		
-			<span class="teamRank">#121</span>
+			<span class="teamRank">#116</span>
 		
 	
 	
@@ -8929,7 +8929,7 @@
 	
 	
 		
-			<span class="teamRank">#214</span>
+			<span class="teamRank">#215</span>
 		
 	
 	
@@ -9049,7 +9049,7 @@
 	
 	
 		
-			<span class="teamRank">#206</span>
+			<span class="teamRank">#208</span>
 		
 	
 	
@@ -9108,7 +9108,7 @@
 	
 	
 		
-			<span class="teamRank">#135</span>
+			<span class="teamRank">#128</span>
 		
 	
 	
@@ -9169,7 +9169,7 @@
 	
 	
 		
-			<span class="teamRank">#155</span>
+			<span class="teamRank">#172</span>
 		
 	
 	
@@ -9228,7 +9228,7 @@
 	
 	
 		
-			<span class="teamRank">#230</span>
+			<span class="teamRank">#232</span>
 		
 	
 	
@@ -9468,7 +9468,7 @@
 	
 	
 		
-			<span class="teamRank">#114</span>
+			<span class="teamRank">#118</span>
 		
 	
 	
@@ -9529,7 +9529,7 @@
 	
 	
 		
-			<span class="teamRank">#133</span>
+			<span class="teamRank">#134</span>
 		
 	
 	
@@ -9588,7 +9588,7 @@
 	
 	
 		
-			<span class="teamRank">#66</span>
+			<span class="teamRank">#60</span>
 		
 	
 	
@@ -9708,7 +9708,7 @@
 	
 	
 		
-			<span class="teamRank">#125</span>
+			<span class="teamRank">#124</span>
 		
 	
 	
@@ -9769,7 +9769,7 @@
 	
 	
 		
-			<span class="teamRank">#109</span>
+			<span class="teamRank">#110</span>
 		
 	
 	
@@ -9828,7 +9828,7 @@
 	
 	
 		
-			<span class="teamRank">#15</span>
+			<span class="teamRank">#14</span>
 		
 	
 	
@@ -9889,7 +9889,7 @@
 	
 	
 		
-			<span class="teamRank">#44</span>
+			<span class="teamRank">#43</span>
 		
 	
 	
@@ -9948,7 +9948,7 @@
 	
 	
 		
-			<span class="teamRank">#6</span>
+			<span class="teamRank">#2</span>
 		
 	
 	
@@ -10009,7 +10009,7 @@
 	
 	
 		
-			<span class="teamRank">#48</span>
+			<span class="teamRank">#49</span>
 		
 	
 	
@@ -10068,7 +10068,7 @@
 	
 	
 		
-			<span class="teamRank">#22</span>
+			<span class="teamRank">#13</span>
 		
 	
 	
@@ -10129,7 +10129,7 @@
 	
 	
 		
-			<span class="teamRank">#47</span>
+			<span class="teamRank">#29</span>
 		
 	
 	
@@ -10249,7 +10249,7 @@
 	
 	
 		
-			<span class="teamRank">#61</span>
+			<span class="teamRank">#55</span>
 		
 	
 	
@@ -10308,7 +10308,7 @@
 	
 	
 		
-			<span class="teamRank">#72</span>
+			<span class="teamRank">#64</span>
 		
 	
 	
@@ -10428,7 +10428,7 @@
 	
 	
 		
-			<span class="teamRank">#235</span>
+			<span class="teamRank">#236</span>
 		
 	
 	
@@ -10609,7 +10609,7 @@
 	
 	
 		
-			<span class="teamRank">#122</span>
+			<span class="teamRank">#121</span>
 		
 	
 	
@@ -10668,7 +10668,7 @@
 	
 	
 		
-			<span class="teamRank">#28</span>
+			<span class="teamRank">#32</span>
 		
 	
 	
@@ -10729,7 +10729,7 @@
 	
 	
 		
-			<span class="teamRank">#81</span>
+			<span class="teamRank">#76</span>
 		
 	
 	
@@ -10788,7 +10788,7 @@
 	
 	
 		
-			<span class="teamRank">#166</span>
+			<span class="teamRank">#167</span>
 		
 	
 	
@@ -10849,7 +10849,7 @@
 	
 	
 		
-			<span class="teamRank">#173</span>
+			<span class="teamRank">#175</span>
 		
 	
 	
@@ -10908,7 +10908,7 @@
 	
 	
 		
-			<span class="teamRank">#138</span>
+			<span class="teamRank">#139</span>
 		
 	
 	
@@ -11028,7 +11028,7 @@
 	
 	
 		
-			<span class="teamRank">#152</span>
+			<span class="teamRank">#155</span>
 		
 	
 	
@@ -11089,7 +11089,7 @@
 	
 	
 		
-			<span class="teamRank">#176</span>
+			<span class="teamRank">#156</span>
 		
 	
 	
@@ -11209,7 +11209,7 @@
 	
 	
 		
-			<span class="teamRank">#222</span>
+			<span class="teamRank">#224</span>
 		
 	
 	
@@ -11268,7 +11268,7 @@
 	
 	
 		
-			<span class="teamRank">#35</span>
+			<span class="teamRank">#31</span>
 		
 	
 	
@@ -11329,7 +11329,7 @@
 	
 	
 		
-			<span class="teamRank">#183</span>
+			<span class="teamRank">#182</span>
 		
 	
 	
@@ -11388,7 +11388,7 @@
 	
 	
 		
-			<span class="teamRank">#40</span>
+			<span class="teamRank">#41</span>
 		
 	
 	
@@ -11449,7 +11449,7 @@
 	
 	
 		
-			<span class="teamRank">#74</span>
+			<span class="teamRank">#78</span>
 		
 	
 	
@@ -11508,7 +11508,7 @@
 	
 	
 		
-			<span class="teamRank">#164</span>
+			<span class="teamRank">#165</span>
 		
 	
 	
@@ -11569,7 +11569,7 @@
 	
 	
 		
-			<span class="teamRank">#238</span>
+			<span class="teamRank">#241</span>
 		
 	
 	
@@ -11628,7 +11628,7 @@
 	
 	
 		
-			<span class="teamRank">#63</span>
+			<span class="teamRank">#66</span>
 		
 	
 	
@@ -11689,7 +11689,7 @@
 	
 	
 		
-			<span class="teamRank">#64</span>
+			<span class="teamRank">#65</span>
 		
 	
 	
@@ -11748,7 +11748,7 @@
 	
 	
 		
-			<span class="teamRank">#77</span>
+			<span class="teamRank">#80</span>
 		
 	
 	
@@ -11809,7 +11809,7 @@
 	
 	
 		
-			<span class="teamRank">#170</span>
+			<span class="teamRank">#171</span>
 		
 	
 	
@@ -11868,7 +11868,7 @@
 	
 	
 		
-			<span class="teamRank">#147</span>
+			<span class="teamRank">#148</span>
 		
 	
 	
@@ -11929,7 +11929,7 @@
 	
 	
 		
-			<span class="teamRank">#144</span>
+			<span class="teamRank">#146</span>
 		
 	
 	
@@ -11988,7 +11988,7 @@
 	
 	
 		
-			<span class="teamRank">#213</span>
+			<span class="teamRank">#214</span>
 		
 	
 	
@@ -12108,7 +12108,7 @@
 	
 	
 		
-			<span class="teamRank">#236</span>
+			<span class="teamRank">#235</span>
 		
 	
 	
@@ -12228,7 +12228,7 @@
 	
 	
 		
-			<span class="teamRank">#169</span>
+			<span class="teamRank">#186</span>
 		
 	
 	
@@ -12289,7 +12289,7 @@
 	
 	
 		
-			<span class="teamRank">#182</span>
+			<span class="teamRank">#181</span>
 		
 	
 	
@@ -12348,7 +12348,7 @@
 	
 	
 		
-			<span class="teamRank">#148</span>
+			<span class="teamRank">#143</span>
 		
 	
 	
@@ -12409,7 +12409,7 @@
 	
 	
 		
-			<span class="teamRank">#215</span>
+			<span class="teamRank">#217</span>
 		
 	
 	
@@ -12468,7 +12468,7 @@
 	
 	
 		
-			<span class="teamRank">#90</span>
+			<span class="teamRank">#91</span>
 		
 	
 	
@@ -12529,7 +12529,7 @@
 	
 	
 		
-			<span class="teamRank">#120</span>
+			<span class="teamRank">#129</span>
 		
 	
 	
@@ -12588,7 +12588,7 @@
 	
 	
 		
-			<span class="teamRank">#57</span>
+			<span class="teamRank">#68</span>
 		
 	
 	
@@ -12649,7 +12649,7 @@
 	
 	
 		
-			<span class="teamRank">#174</span>
+			<span class="teamRank">#176</span>
 		
 	
 	
@@ -12708,7 +12708,7 @@
 	
 	
 		
-			<span class="teamRank">#33</span>
+			<span class="teamRank">#37</span>
 		
 	
 	
@@ -12769,7 +12769,7 @@
 	
 	
 		
-			<span class="teamRank">#69</span>
+			<span class="teamRank">#73</span>
 		
 	
 	
@@ -12828,7 +12828,7 @@
 	
 	
 		
-			<span class="teamRank">#156</span>
+			<span class="teamRank">#157</span>
 		
 	
 	
@@ -12948,7 +12948,7 @@
 	
 	
 		
-			<span class="teamRank">#163</span>
+			<span class="teamRank">#164</span>
 		
 	
 	
@@ -13068,7 +13068,7 @@
 	
 	
 		
-			<span class="teamRank">#112</span>
+			<span class="teamRank">#102</span>
 		
 	
 	
@@ -13188,7 +13188,7 @@
 	
 	
 		
-			<span class="teamRank">#193</span>
+			<span class="teamRank">#195</span>
 		
 	
 	
@@ -13249,7 +13249,7 @@
 	
 	
 		
-			<span class="teamRank">#217</span>
+			<span class="teamRank">#218</span>
 		
 	
 	
@@ -13369,7 +13369,7 @@
 	
 	
 		
-			<span class="teamRank">#118</span>
+			<span class="teamRank">#113</span>
 		
 	
 	
@@ -13548,7 +13548,7 @@
 	
 	
 		
-			<span class="teamRank">#188</span>
+			<span class="teamRank">#189</span>
 		
 	
 	
@@ -13609,7 +13609,7 @@
 	
 	
 		
-			<span class="teamRank">#203</span>
+			<span class="teamRank">#205</span>
 		
 	
 	
@@ -13668,7 +13668,7 @@
 	
 	
 		
-			<span class="teamRank">#29</span>
+			<span class="teamRank">#33</span>
 		
 	
 	
@@ -13729,7 +13729,7 @@
 	
 	
 		
-			<span class="teamRank">#103</span>
+			<span class="teamRank">#101</span>
 		
 	
 	
@@ -13788,7 +13788,7 @@
 	
 	
 		
-			<span class="teamRank">#171</span>
+			<span class="teamRank">#151</span>
 		
 	
 	
@@ -13849,7 +13849,7 @@
 	
 	
 		
-			<span class="teamRank">#250</span>
+			<span class="teamRank">#251</span>
 		
 	
 	
@@ -13969,7 +13969,7 @@
 	
 	
 		
-			<span class="teamRank">#39</span>
+			<span class="teamRank">#40</span>
 		
 	
 	
@@ -14028,7 +14028,7 @@
 	
 	
 		
-			<span class="teamRank">#13</span>
+			<span class="teamRank">#11</span>
 		
 	
 	
@@ -14089,7 +14089,7 @@
 	
 	
 		
-			<span class="teamRank">#16</span>
+			<span class="teamRank">#15</span>
 		
 	
 	
@@ -14148,7 +14148,7 @@
 	
 	
 		
-			<span class="teamRank">#175</span>
+			<span class="teamRank">#170</span>
 		
 	
 	
@@ -14268,7 +14268,7 @@
 	
 	
 		
-			<span class="teamRank">#86</span>
+			<span class="teamRank">#90</span>
 		
 	
 	
@@ -14329,7 +14329,7 @@
 	
 	
 		
-			<span class="teamRank">#111</span>
+			<span class="teamRank">#117</span>
 		
 	
 	
@@ -14388,7 +14388,7 @@
 	
 	
 		
-			<span class="teamRank">#113</span>
+			<span class="teamRank">#111</span>
 		
 	
 	
@@ -14449,7 +14449,7 @@
 	
 	
 		
-			<span class="teamRank">#237</span>
+			<span class="teamRank">#239</span>
 		
 	
 	
@@ -14508,7 +14508,7 @@
 	
 	
 		
-			<span class="teamRank">#2</span>
+			<span class="teamRank">#8</span>
 		
 	
 	
@@ -14569,7 +14569,7 @@
 	
 	
 		
-			<span class="teamRank">#32</span>
+			<span class="teamRank">#39</span>
 		
 	
 	
@@ -14700,7 +14700,7 @@
 	
 	
 		
-			<span class="teamRank">#151</span>
+			<span class="teamRank">#150</span>
 		
 	
 	
@@ -14868,7 +14868,7 @@
 	
 	
 		
-			<span class="teamRank">#79</span>
+			<span class="teamRank">#75</span>
 		
 	
 	
@@ -14988,7 +14988,7 @@
 	
 	
 		
-			<span class="teamRank">#101</span>
+			<span class="teamRank">#98</span>
 		
 	
 	
@@ -15049,7 +15049,7 @@
 	
 	
 		
-			<span class="teamRank">#162</span>
+			<span class="teamRank">#163</span>
 		
 	
 	
@@ -15228,7 +15228,7 @@
 	
 	
 		
-			<span class="teamRank">#146</span>
+			<span class="teamRank">#145</span>
 		
 	
 	
@@ -15289,7 +15289,7 @@
 	
 	
 		
-			<span class="teamRank">#202</span>
+			<span class="teamRank">#203</span>
 		
 	
 	
@@ -15507,7 +15507,7 @@
 	
 	
 		
-			<span class="teamRank">#232</span>
+			<span class="teamRank">#223</span>
 		
 	
 	
@@ -15566,7 +15566,7 @@
 	
 	
 		
-			<span class="teamRank">#41</span>
+			<span class="teamRank">#46</span>
 		
 	
 	
@@ -15686,7 +15686,7 @@
 	
 	
 		
-			<span class="teamRank">#160</span>
+			<span class="teamRank">#162</span>
 		
 	
 	
@@ -15747,7 +15747,7 @@
 	
 	
 		
-			<span class="teamRank">#168</span>
+			<span class="teamRank">#169</span>
 		
 	
 	
@@ -15806,7 +15806,7 @@
 	
 	
 		
-			<span class="teamRank">#158</span>
+			<span class="teamRank">#159</span>
 		
 	
 	
@@ -15867,7 +15867,7 @@
 	
 	
 		
-			<span class="teamRank">#251</span>
+			<span class="teamRank">#252</span>
 		
 	
 	
@@ -15926,7 +15926,7 @@
 	
 	
 		
-			<span class="teamRank">#221</span>
+			<span class="teamRank">#222</span>
 		
 	
 	
@@ -16046,7 +16046,7 @@
 	
 	
 		
-			<span class="teamRank">#10</span>
+			<span class="teamRank">#9</span>
 		
 	
 	
@@ -16166,7 +16166,7 @@
 	
 	
 		
-			<span class="teamRank">#56</span>
+			<span class="teamRank">#62</span>
 		
 	
 	
@@ -16286,7 +16286,7 @@
 	
 	
 		
-			<span class="teamRank">#104</span>
+			<span class="teamRank">#99</span>
 		
 	
 	
@@ -16347,7 +16347,7 @@
 	
 	
 		
-			<span class="teamRank">#96</span>
+			<span class="teamRank">#94</span>
 		
 	
 	
@@ -16406,7 +16406,7 @@
 	
 	
 		
-			<span class="teamRank">#21</span>
+			<span class="teamRank">#22</span>
 		
 	
 	
@@ -16467,7 +16467,7 @@
 	
 	
 		
-			<span class="teamRank">#46</span>
+			<span class="teamRank">#48</span>
 		
 	
 	
@@ -16526,7 +16526,7 @@
 	
 	
 		
-			<span class="teamRank">#137</span>
+			<span class="teamRank">#138</span>
 		
 	
 	
@@ -16587,7 +16587,7 @@
 	
 	
 		
-			<span class="teamRank">#179</span>
+			<span class="teamRank">#173</span>
 		
 	
 	
@@ -16755,7 +16755,7 @@
 	
 	
 		
-			<span class="teamRank">#228</span>
+			<span class="teamRank">#226</span>
 		
 	
 	
@@ -16816,7 +16816,7 @@
 	
 	
 		
-			<span class="teamRank">#240</span>
+			<span class="teamRank">#242</span>
 		
 	
 	
@@ -16875,7 +16875,7 @@
 	
 	
 		
-			<span class="teamRank">#51</span>
+			<span class="teamRank">#45</span>
 		
 	
 	
@@ -16936,7 +16936,7 @@
 	
 	
 		
-			<span class="teamRank">#110</span>
+			<span class="teamRank">#115</span>
 		
 	
 	
@@ -16995,7 +16995,7 @@
 	
 	
 		
-			<span class="teamRank">#252</span>
+			<span class="teamRank">#249</span>
 		
 	
 	
@@ -17056,7 +17056,7 @@
 	
 	
 		
-			<span class="teamRank">#249</span>
+			<span class="teamRank">#250</span>
 		
 	
 	
@@ -17285,7 +17285,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1795294523%2C02edcfa019cadab356031292610495e6"
+	<a href="/misc/style-variation?reset=1&amp;t=1795310587%2Cf8ddc5255f312c256b7abf2e21b4facc"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -17300,7 +17300,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1795294523%2C02edcfa019cadab356031292610495e6"
+	<a href="/misc/style-variation?variation=default&amp;t=1795310587%2Cf8ddc5255f312c256b7abf2e21b4facc"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -17315,7 +17315,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1795294523%2C02edcfa019cadab356031292610495e6"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795310587%2Cf8ddc5255f312c256b7abf2e21b4facc"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -17515,7 +17515,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5e2985208e25eec',t:'MTc5NTI5NDUyMw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5e2985208e25eec',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5e42080fbf5942e',t:'MTc5NTMxMDU4Nw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5e42080fbf5942e',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
