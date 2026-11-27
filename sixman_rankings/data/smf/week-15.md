@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1795737238,28110714868ce42fbab0f243874c89a3"
+	data-csrf="1795769252,827146727249b62eec66b526245913bc"
 	class="has-no-js template-sixman_score_hub"
 	>
 <head>
@@ -111,20 +111,20 @@
 	
 	
 
-	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1795668031&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
+	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1795742412&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
 
-	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1795668031&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
-<link rel="stylesheet" href="/css.php?css=public%3Asixman_hub.less&amp;s=8&amp;l=1&amp;d=1795668031&amp;k=5007fd01f3d9a89d648ffdf8497008bf9dceadb9" />
-<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1795668031&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
+	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1795742412&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
+<link rel="stylesheet" href="/css.php?css=public%3Asixman_hub.less&amp;s=8&amp;l=1&amp;d=1795742412&amp;k=5007fd01f3d9a89d648ffdf8497008bf9dceadb9" />
+<link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1795742412&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
 
-
-	
-		<script src="/js/xf/preamble.min.js?_v=3bec8dbe"></script>
-	
 
 	
-	<script src="/js/vendor/vendor-compiled.js?_v=3bec8dbe" defer></script>
-	<script src="/js/xf/core-compiled.js?_v=3bec8dbe" defer></script>
+		<script src="/js/xf/preamble.min.js?_v=5e40faad"></script>
+	
+
+	
+	<script src="/js/vendor/vendor-compiled.js?_v=5e40faad" defer></script>
+	<script src="/js/xf/core-compiled.js?_v=5e40faad" defer></script>
 
 	<script>
 		XF.ready(() =>
@@ -137,9 +137,9 @@
 				url: {
 					fullBase: 'https://sixmanfootball.com/',
 					basePath: '/',
-					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1795668031',
-					js: '/js/__SENTINEL__?_v=3bec8dbe',
-					icon: '/data/local/icons/__VARIANT__.svg?v=1795668002#__NAME__',
+					css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1795742412',
+					js: '/js/__SENTINEL__?_v=5e40faad',
+					icon: '/data/local/icons/__VARIANT__.svg?v=1795742461#__NAME__',
 					iconInline: '/styles/fa/__VARIANT__/__NAME__.svg?v=5.15.3',
 					keepAlive: '/login/keep-alive'
 				},
@@ -152,17 +152,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1795737238,28110714868ce42fbab0f243874c89a3',
+				csrf: '1795769252,827146727249b62eec66b526245913bc',
 				js: {},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_hub.less":true,"public:extra.less":true},
 				time: {
-					now: 1795737238,
-					today: 1795672800,
-					todayDow: 4,
-					tomorrow: 1795759200,
-					yesterday: 1795586400,
-					week: 1795154400,
+					now: 1795769252,
+					today: 1795759200,
+					todayDow: 5,
+					tomorrow: 1795845600,
+					yesterday: 1795672800,
+					week: 1795240800,
 					month: 1793509200,
 					year: 1767247200
 				},
@@ -1087,12 +1087,12 @@
 									</div>
 									<div class="menu-footer">
 									<span class="menu-footer-controls">
-										<button type="submit" class="button button--icon button--icon--search button--primary"><i class="fa--xf fal fa-search "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#search"></use></svg></i><span class="button-text">Search</span></button>
+										<button type="submit" class="button button--icon button--icon--search button--primary"><i class="fa--xf fal fa-search "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#search"></use></svg></i><span class="button-text">Search</span></button>
 										<button type="submit" class="button " name="from_search_menu"><span class="button-text">Advanced search…</span></button>
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1795737238,28110714868ce42fbab0f243874c89a3" />
+									<input type="hidden" name="_xfToken" value="1795769252,827146727249b62eec66b526245913bc" />
 								</form>
 							</div>
 						
@@ -1461,7 +1461,7 @@
 			<form action="/scores/" method="post" class=""
 				
 			>
-				<input type="hidden" name="_xfToken" value="1795737238,28110714868ce42fbab0f243874c89a3" />
+				<input type="hidden" name="_xfToken" value="1795769252,827146727249b62eec66b526245913bc" />
 				
 					
 			<select name="year" class="input" onchange="this.form.submit()">
@@ -1519,7 +1519,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Aug 17 - Aug 23
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Aug 17 - Aug 23
                 </div>
             </div>
             <div class="week-card-body">
@@ -1569,7 +1569,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Aug 24 - Aug 30
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Aug 24 - Aug 30
                 </div>
             </div>
             <div class="week-card-body">
@@ -1619,7 +1619,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Aug 31 - Sep 6
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Aug 31 - Sep 6
                 </div>
             </div>
             <div class="week-card-body">
@@ -1669,7 +1669,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Sep 7 - Sep 13
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Sep 7 - Sep 13
                 </div>
             </div>
             <div class="week-card-body">
@@ -1719,7 +1719,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Sep 14 - Sep 20
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Sep 14 - Sep 20
                 </div>
             </div>
             <div class="week-card-body">
@@ -1769,7 +1769,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Sep 21 - Sep 27
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Sep 21 - Sep 27
                 </div>
             </div>
             <div class="week-card-body">
@@ -1819,7 +1819,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Sep 28 - Oct 4
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Sep 28 - Oct 4
                 </div>
             </div>
             <div class="week-card-body">
@@ -1869,7 +1869,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Oct 5 - Oct 11
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Oct 5 - Oct 11
                 </div>
             </div>
             <div class="week-card-body">
@@ -1919,7 +1919,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Oct 12 - Oct 18
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Oct 12 - Oct 18
                 </div>
             </div>
             <div class="week-card-body">
@@ -1969,7 +1969,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Oct 19 - Oct 25
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Oct 19 - Oct 25
                 </div>
             </div>
             <div class="week-card-body">
@@ -2019,7 +2019,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Oct 26 - Nov 1
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Oct 26 - Nov 1
                 </div>
             </div>
             <div class="week-card-body">
@@ -2069,7 +2069,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Nov 2 - Nov 8
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Nov 2 - Nov 8
                 </div>
             </div>
             <div class="week-card-body">
@@ -2119,7 +2119,7 @@
                     <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Nov 9 - Nov 15
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Nov 9 - Nov 15
                 </div>
             </div>
             <div class="week-card-body">
@@ -2169,7 +2169,7 @@
                     <span class="status-pill">new</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Nov 16 - Nov 22
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Nov 16 - Nov 22
                 </div>
             </div>
             <div class="week-card-body">
@@ -2219,7 +2219,7 @@
                     <span class="status-pill">upcoming</span>
                 </div>
                 <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#calendar"></use></svg></i> Nov 23 - Nov 29
+                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Nov 23 - Nov 29
                 </div>
             </div>
             <div class="week-card-body">
@@ -2361,13 +2361,13 @@
 						</a>
 						<a href="https://www.facebook.com/sixmanfb/">
 							<span class="p-footer-social-icon">
-								<i class="fa--xf fab fa-facebook "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1795668002#facebook"></use></svg></i>
+								<i class="fa--xf fab fa-facebook "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1795742461#facebook"></use></svg></i>
 							</span>
 							SixManFB
 						</a>
 						<a href="https://www.instagram.com/sixmanfb/">
 							<span class="p-footer-social-icon">
-								<i class="fa--xf fab fa-instagram "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1795668002#instagram"></use></svg></i>
+								<i class="fa--xf fab fa-instagram "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/brands.svg?v=1795742461#instagram"></use></svg></i>
 							</span>
 							SixManFB
 						</a>
@@ -2424,7 +2424,7 @@
 				class="js-styleVariationsLink"
 				data-xf-init="tooltip" title="Style variation"
 				data-xf-click="menu" role="button" aria-expanded="false" aria-haspopup="true">
-				<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" ><title>Style variation</title><use href="/data/local/icons/light.svg?v=1795668002#adjust"></use></svg></i>
+				<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" ><title>Style variation</title><use href="/data/local/icons/light.svg?v=1795742461#adjust"></use></svg></i>
 			</a>
 			<div class="menu" data-menu="menu" aria-hidden="true">
 				<div class="menu-content js-styleVariationsMenu">
@@ -2433,12 +2433,12 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1795737238%2C28110714868ce42fbab0f243874c89a3"
+	<a href="/misc/style-variation?reset=1&amp;t=1795769252%2C827146727249b62eec66b526245913bc"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
 
-		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#adjust"></use></svg></i>
+		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#adjust"></use></svg></i>
 
 		
 			System
@@ -2448,12 +2448,12 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1795737238%2C28110714868ce42fbab0f243874c89a3"
+	<a href="/misc/style-variation?variation=default&amp;t=1795769252%2C827146727249b62eec66b526245913bc"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
 
-		<i class="fa--xf fal fa-sun "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#sun"></use></svg></i>
+		<i class="fa--xf fal fa-sun "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#sun"></use></svg></i>
 
 		
 			Light
@@ -2463,12 +2463,12 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1795737238%2C28110714868ce42fbab0f243874c89a3"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795769252%2C827146727249b62eec66b526245913bc"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
 
-		<i class="fa--xf fal fa-moon "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#moon"></use></svg></i>
+		<i class="fa--xf fal fa-moon "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#moon"></use></svg></i>
 
 		
 			Dark
@@ -2485,7 +2485,7 @@
 			</div>
 		
 		<div class="p-footer-rss">
-			<a href="/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf fal fa-rss "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#rss"></use></svg></i><span class="u-srOnly">RSS</span></span></a>
+			<a href="/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf fal fa-rss "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#rss"></use></svg></i><span class="u-srOnly">RSS</span></span></a>
 		</div>
 	</div>
 </div>
@@ -2641,12 +2641,12 @@
 </div>
 
 <div class="u-navButtons js-navButtons">
-	<a href="javascript:" class="button button--scroll"><span class="button-text"><i class="fa--xf fal fa-arrow-left "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#arrow-left"></use></svg></i><span class="u-srOnly">Back</span></span></a>
+	<a href="javascript:" class="button button--scroll"><span class="button-text"><i class="fa--xf fal fa-arrow-left "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#arrow-left"></use></svg></i><span class="u-srOnly">Back</span></span></a>
 </div>
 
 
 	<div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
-		<a href="#top" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf fal fa-arrow-up "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795668002#arrow-up"></use></svg></i><span class="u-srOnly">Top</span></span></a>
+		<a href="#top" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf fal fa-arrow-up "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#arrow-up"></use></svg></i><span class="u-srOnly">Top</span></span></a>
 		
 	</div>
 
@@ -2663,7 +2663,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a60cd0cccc70828c',t:'MTc5NTczNzIzOA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a60cd0cccc70828c',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a60fde64cbbbaa54',t:'MTc5NTc2OTI1Mg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a60fde64cbbbaa54',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
