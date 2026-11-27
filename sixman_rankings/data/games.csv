@@ -1257,7 +1257,7 @@ w12-apple-springs-benavides,12,2026-11-14,apple-springs,benavides,54,24,false,tr
 w12-bracken-christian-alpha-omega,12,2026-11-14,bracken-christian,alpha-omega,54,56,false,true
 w12-centex-homeschool-davinci,12,2026-11-14,centex-homeschool,davinci,6,54,false,true
 w12-covenant-classical-vanguard-college-prep,12,2026-11-14,covenant-classical,vanguard-college-prep,58,45,false,true
-w12-emery-weiner-first-baptist-christian,12,2026-11-14,emery-weiner,first-baptist-christian,24,23,true,true
+w12-first-baptist-christian-emery-weiner,12,2026-11-14,first-baptist-christian,emery-weiner,23,24,true,true
 w12-greenville-christian-christ-the-king,12,2026-11-14,greenville-christian,christ-the-king,36,55,false,true
 w12-hill-country-christian-allen-academy,12,2026-11-14,hill-country-christian,allen-academy,54,0,false,true
 w12-lubbock-titans-texas-wind,12,2026-11-14,lubbock-titans,texas-wind,0,45,true,true
@@ -1276,7 +1276,6 @@ w13-jubilee-brownsville-town-east-christian,13,2026-11-20,jubilee-brownsville,to
 w13-kings-academy-victoria-gators,13,2026-11-20,kings-academy,victoria-gators,52,87,false,true
 w13-knox-city-strawn,13,2026-11-20,knox-city,strawn,36,38,false,true
 w13-menard-rankin,13,2026-11-20,menard,rankin,61,14,false,false
-w13-motley-county-divine-savior,13,2026-11-20,motley-county,divine-savior,,,false,false
 w13-mount-calm-runge,13,2026-11-20,mount-calm,runge,53,7,false,true
 w13-nazareth-hermleigh,13,2026-11-20,nazareth,hermleigh,22,54,false,false
 w13-newcastle-milford,13,2026-11-20,newcastle,milford,41,47,false,true
@@ -1292,12 +1291,12 @@ w14-arlington-heights-christian-divine-savior,14,2026-11-27,arlington-heights-ch
 w14-divine-savior-lingleville,14,2026-11-27,divine-savior,lingleville,,,false,false
 w14-fannindel-mount-calm,14,2026-11-27,fannindel,mount-calm,,,true,false
 w14-first-baptist-christian-divine-savior,14,2026-11-27,first-baptist-christian,divine-savior,,,false,false
-w14-jayton-hermleigh,14,2026-11-27,jayton,hermleigh,,,true,true
+w14-hermleigh-jayton,14,2026-11-27,hermleigh,jayton,,,true,true
 w14-menard-borden-county,14,2026-11-27,menard,borden-county,,,false,false
 w14-milford-gordon,14,2026-11-27,milford,gordon,,,false,false
 w14-motley-county-divine-savior,14,2026-11-27,motley-county,divine-savior,,,false,false
 w14-motley-county-valley,14,2026-11-27,motley-county,valley,,,true,true
-w14-strawn-zephyr,14,2026-11-27,strawn,zephyr,,,false,true
+w14-strawn-zephyr,14,2026-11-27,strawn,zephyr,0,69,false,true
 w14-union-hill-aquilla,14,2026-11-27,union-hill,aquilla,,,false,false
 w14-blackwell-richland-springs,14,2026-11-28,blackwell,richland-springs,,,false,true
 w15-arlington-heights-christian-divine-savior,15,2026-12-04,arlington-heights-christian,divine-savior,,,false,false

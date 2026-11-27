@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1795769252,827146727249b62eec66b526245913bc"
+	data-csrf="1795822200,67d7077c40555fd79336535ba4f88853"
 	class="has-no-js template-sixman_score_hub"
 	>
 <head>
@@ -152,12 +152,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1795769252,827146727249b62eec66b526245913bc',
+				csrf: '1795822200,67d7077c40555fd79336535ba4f88853',
 				js: {},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_hub.less":true,"public:extra.less":true},
 				time: {
-					now: 1795769252,
+					now: 1795822200,
 					today: 1795759200,
 					todayDow: 5,
 					tomorrow: 1795845600,
@@ -1092,7 +1092,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1795769252,827146727249b62eec66b526245913bc" />
+									<input type="hidden" name="_xfToken" value="1795822200,67d7077c40555fd79336535ba4f88853" />
 								</form>
 							</div>
 						
@@ -1461,7 +1461,7 @@
 			<form action="/scores/" method="post" class=""
 				
 			>
-				<input type="hidden" name="_xfToken" value="1795769252,827146727249b62eec66b526245913bc" />
+				<input type="hidden" name="_xfToken" value="1795822200,67d7077c40555fd79336535ba4f88853" />
 				
 					
 			<select name="year" class="input" onchange="this.form.submit()">
@@ -2162,11 +2162,11 @@
             </div>
         </a>
     
-        <a href="/scores/2026/week-13/" class="week-card status-new">
+        <a href="/scores/2026/week-13/" class="week-card status-final">
             <div class="week-card-header">
                 <div class="header-top">
                     <h3 class="week-title">Week 13</h3>
-                    <span class="status-pill">new</span>
+                    <span class="status-pill">final</span>
                 </div>
                 <div class="week-dates">
                     <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Nov 16 - Nov 22
@@ -2176,7 +2176,7 @@
                 
                     <div class="stat-volume">
                         <span class="volume-num">27</span>
-                        <span class="volume-label">Games Scheduled</span>
+                        <span class="volume-label">Games Played</span>
                     </div>
                     <div class="stat-scoring-row">
                         <div class="scoring-item win">
@@ -2212,11 +2212,11 @@
             </div>
         </a>
     
-        <a href="/scores/2026/week-14/" class="week-card status-upcoming">
+        <a href="/scores/2026/week-14/" class="week-card status-new">
             <div class="week-card-header">
                 <div class="header-top">
                     <h3 class="week-title">Week 14</h3>
-                    <span class="status-pill">upcoming</span>
+                    <span class="status-pill">new</span>
                 </div>
                 <div class="week-dates">
                     <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Nov 23 - Nov 29
@@ -2224,16 +2224,39 @@
             </div>
             <div class="week-card-body">
                 
-                    <div class="empty-state-body">
-                        
-                            <div class="stat-volume upcoming">
-                                <span class="volume-num">11</span>
-                                <span class="volume-label">Games Scheduled</span>
-                            </div>
-                            <div class="upcoming-note">
-                                Check back for scores
-                            </div>
-                        
+                    <div class="stat-volume">
+                        <span class="volume-num">11</span>
+                        <span class="volume-label">Games Scheduled</span>
+                    </div>
+                    <div class="stat-scoring-row">
+                        <div class="scoring-item win">
+                            <span class="lbl">Winner PPG</span>
+                            <span class="val">46.00</span>
+                        </div>
+                        <div class="scoring-divider">vs</div>
+                        <div class="scoring-item loss">
+                            <span class="lbl">Loser PPG</span>
+                            <span class="val">35.00</span>
+                        </div>
+                    </div>
+                    <div class="stat-flavor-grid">
+                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
+                            <span class="flavor-val">0</span>
+                            <span class="flavor-lbl">Mercy</span>
+                        </div>
+                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
+                            <span class="flavor-val">0</span>
+                            <span class="flavor-lbl">Close</span>
+                        </div>
+                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
+                            <span class="flavor-val">0</span>
+                            <span class="flavor-lbl">SO</span>
+                        </div>
+                        <div class="flavor-item" 
+                             data-xf-init="tooltip" title="Forfeits">
+                            <span class="flavor-val">0</span>
+                            <span class="flavor-lbl">FF</span>
+                        </div>
                     </div>
                 
             </div>
@@ -2433,7 +2456,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1795769252%2C827146727249b62eec66b526245913bc"
+	<a href="/misc/style-variation?reset=1&amp;t=1795822200%2C67d7077c40555fd79336535ba4f88853"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -2448,7 +2471,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1795769252%2C827146727249b62eec66b526245913bc"
+	<a href="/misc/style-variation?variation=default&amp;t=1795822200%2C67d7077c40555fd79336535ba4f88853"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -2463,7 +2486,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1795769252%2C827146727249b62eec66b526245913bc"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795822200%2C67d7077c40555fd79336535ba4f88853"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -2663,7 +2686,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a60fde64cbbbaa54',t:'MTc5NTc2OTI1Mg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a60fde64cbbbaa54',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a614eb1139bb4bce',t:'MTc5NTgyMjIwMA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a614eb1139bb4bce',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

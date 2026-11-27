@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1795769251,b88b32c169506fe1ef839de1ade16901"
+	data-csrf="1795822200,b105a780c3ebb406b41731d38abfc853"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -41,7 +41,7 @@
 		
 
 	
-		<link rel="canonical" href="https://sixmanfootball.com/scores/" />
+		<link rel="canonical" href="https://sixmanfootball.com/scores/2026/week-13/" />
 	
 
 	
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1795769251,b88b32c169506fe1ef839de1ade16901',
+				csrf: '1795822200,b105a780c3ebb406b41731d38abfc853',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=5e40faad":true,"\/js\/sixman\/team-tooltip.min.js?_v=5e40faad":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1795769251,
+					now: 1795822200,
 					today: 1795759200,
 					todayDow: 5,
 					tomorrow: 1795845600,
@@ -1098,7 +1098,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1795769251,b88b32c169506fe1ef839de1ade16901" />
+									<input type="hidden" name="_xfToken" value="1795822200,b105a780c3ebb406b41731d38abfc853" />
 								</form>
 							</div>
 						
@@ -1409,13 +1409,6 @@
 									
 										<h1 class="p-title-value">2026 Week 13 Scores</h1>
 									
-									
-										<div class="p-title-pageAction">
-	
-		<a href="/scores/add" class="button button--icon button--icon--add button--cta" data-xf-click="overlay"><i class="fa--xf fal fa-plus-square "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#plus-square"></use></svg></i><span class="button-text">Add score</span></a>
-	
-	
-</div>
 									
 								
 							</div>
@@ -4987,7 +4980,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1795769251%2Cb88b32c169506fe1ef839de1ade16901"
+	<a href="/misc/style-variation?reset=1&amp;t=1795822200%2Cb105a780c3ebb406b41731d38abfc853"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -5002,7 +4995,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1795769251%2Cb88b32c169506fe1ef839de1ade16901"
+	<a href="/misc/style-variation?variation=default&amp;t=1795822200%2Cb105a780c3ebb406b41731d38abfc853"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -5017,7 +5010,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1795769251%2Cb88b32c169506fe1ef839de1ade16901"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795822200%2Cb105a780c3ebb406b41731d38abfc853"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -5217,7 +5210,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a60fde5f08e4ad2d',t:'MTc5NTc2OTI1MQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a60fde5f08e4ad2d',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a614eb0e8a458605',t:'MTc5NTgyMjIwMA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a614eb0e8a458605',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 

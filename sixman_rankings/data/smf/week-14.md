@@ -9,7 +9,7 @@
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1795769252,4c74464d586dc157231f01fdd93da845"
+	data-csrf="1795822200,108aee482313ab9dd4cfb008b3a15f34"
 	class="has-no-js template-sixman_score_index"
 	>
 <head>
@@ -41,7 +41,7 @@
 		
 
 	
-		<link rel="canonical" href="https://sixmanfootball.com/scores/2026/week-14/" />
+		<link rel="canonical" href="https://sixmanfootball.com/scores/" />
 	
 
 	
@@ -156,12 +156,12 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1795769252,4c74464d586dc157231f01fdd93da845',
+				csrf: '1795822200,108aee482313ab9dd4cfb008b3a15f34',
 				js: {"\/js\/sixman\/score-quick-search.min.js?_v=5e40faad":true,"\/js\/sixman\/team-tooltip.min.js?_v=5e40faad":true},
 				fullJs: false,
 				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1795769252,
+					now: 1795822200,
 					today: 1795759200,
 					todayDow: 5,
 					tomorrow: 1795845600,
@@ -1098,7 +1098,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1795769252,4c74464d586dc157231f01fdd93da845" />
+									<input type="hidden" name="_xfToken" value="1795822200,108aee482313ab9dd4cfb008b3a15f34" />
 								</form>
 							</div>
 						
@@ -1410,6 +1410,13 @@
 										<h1 class="p-title-value">2026 Week 14 Scores</h1>
 									
 									
+										<div class="p-title-pageAction">
+	
+		<a href="/scores/add" class="button button--icon button--icon--add button--cta" data-xf-click="overlay"><i class="fa--xf fal fa-plus-square "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#plus-square"></use></svg></i><span class="button-text">Add score</span></a>
+	
+	
+</div>
+									
 								
 							</div>
 						
@@ -1518,7 +1525,148 @@
 		<div class="block block--game-date">
 			<div class="block-container">
 				<h3 class="block-header">
-					Upcoming games
+					Live scoreboard
+				</h3>
+				<div class="block-body block-row block-row--scores">
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+			<div class="block-time">
+				<div class="block-update-user">
+					<span class="is-live">LIVE</span>
+					
+				</div>
+				<div class="block-time-updated">
+					<time  class="u-dt" dir="auto" datetime="2026-11-27T17:26:18-0600" data-timestamp="1795821978" data-date="Nov 27, 2026" data-time="5:26 PM" data-short="3m" title="Nov 27, 2026 at 5:26 PM">3 minutes ago</time>
+				</div>
+			</div>
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1406.jpg?1786452222" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#34</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/motley-county-matadors.1406/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/motley-county-matadors.1406/preview" data-team-id="1406">Motley County</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Matadors
+			</div>
+		</div>
+		<div class="contentRow-score winning">
+			24
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-valley-vs-motley-county.39464/">
+							End 1st
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1621.jpg?1776348799" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#33</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/valley-patriots.1621/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/valley-patriots.1621/preview" data-team-id="1621">Valley</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Patriots
+			</div>
+		</div>
+		<div class="contentRow-score">
+			14
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
+					Friday night lights
 				</h3>
 				<div class="block-body block-row block-row--scores">
 					
@@ -1571,8 +1719,8 @@
 				Greyhounds
 			</div>
 		</div>
-		<div class="contentRow-score">
-			0
+		<div class="contentRow-score winning">
+			46
 		</div>
 	</div>
 
@@ -1584,7 +1732,7 @@
 					
 					
 						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-strawn-vs-zephyr.39466/">
-							Upcoming
+							Final
 						</a>
 					
 				</div>
@@ -1633,7 +1781,7 @@
 			</div>
 		</div>
 		<div class="contentRow-score">
-			0
+			35
 		</div>
 	</div>
 
@@ -1641,126 +1789,17 @@
 		</div>
 	</div>
 
-					
-						
-	
-	
-	<div class="block-matchup fauxBlockLink is-playoff">
-		
-		<div class="block-teams">
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1621.jpg?1776348799" loading="lazy" />
-				
-			</span>
-		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
-	
-	
-	
-	
-	
-		
-			<span class="teamRank">#33</span>
-		
-	
-	
-	
-		
-			
-		
-	
-	
-		
-			
-			<a href="/teams/valley-patriots.1621/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/valley-patriots.1621/preview" data-team-id="1621">Valley</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Patriots
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-			<div class="contentRow contentRow--time-remaining">
-				<div>
-					
-						
-					
-					
-						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-valley-vs-motley-county.39464/">
-							Upcoming
-						</a>
 					
 				</div>
 			</div>
-			
-				
-	<div class="contentRow contentRow--team">
-		<div class="contentRow-figure">
-			<span class="avatar avatar--s">
-				
-					<img src="/data/sixman/teamlogo/s/1/1406.jpg?1786452222" loading="lazy" />
-				
-			</span>
 		</div>
-		<div class="contentRow-main">
-			<div class="team-name">
-				
-					
 	
-	
-	
-	
-	
-		
-			<span class="teamRank">#34</span>
-		
-	
-	
-	
-		
-			
-		
-	
-	
-		
-			
-			<a href="/teams/motley-county-matadors.1406/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/motley-county-matadors.1406/preview" data-team-id="1406">Motley County</a>
-		
-	
-	
-
-				
-			</div>
-			<div class="team-mascot">
-				Matadors
-			</div>
-		</div>
-		<div class="contentRow-score">
-			0
-		</div>
-	</div>
-
-			
-		</div>
-	</div>
-
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
+					Upcoming games
+				</h3>
+				<div class="block-body block-row block-row--scores">
 					
 						
 	
@@ -3038,7 +3077,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1795769252%2C4c74464d586dc157231f01fdd93da845"
+	<a href="/misc/style-variation?reset=1&amp;t=1795822200%2C108aee482313ab9dd4cfb008b3a15f34"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -3053,7 +3092,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1795769252%2C4c74464d586dc157231f01fdd93da845"
+	<a href="/misc/style-variation?variation=default&amp;t=1795822200%2C108aee482313ab9dd4cfb008b3a15f34"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -3068,7 +3107,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1795769252%2C4c74464d586dc157231f01fdd93da845"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795822200%2C108aee482313ab9dd4cfb008b3a15f34"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -3268,7 +3307,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a60fde61ab303099',t:'MTc5NTc2OTI1Mg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a60fde61ab303099',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a614eb0f89998605',t:'MTc5NTgyMjIwMA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a614eb0f89998605',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
