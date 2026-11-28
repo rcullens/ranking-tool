@@ -112,10 +112,10 @@ w01-lubbock-titans-balmorhea,1,2026-08-28,lubbock-titans,balmorhea,20,41,false,f
 w01-mclean-west-texas-tornadoes,1,2026-08-28,mclean,west-texas-tornadoes,54,8,false,false
 w01-morgan-lingleville,1,2026-08-28,morgan,lingleville,74,40,false,false
 w01-motley-county-claude,1,2026-08-28,motley-county,claude,38,34,false,false
+w01-motley-county-divine-savior,1,2026-08-28,motley-county,divine-savior,,,false,false
 w01-nueces-canyon-bracken-christian,1,2026-08-28,nueces-canyon,bracken-christian,0,54,false,false
 w01-oakwood-avalon,1,2026-08-28,oakwood,avalon,72,27,false,false
 w01-oglesby-coram-deo,1,2026-08-28,oglesby,coram-deo,86,84,false,false
-w01-oglesby-divine-savior,1,2026-08-28,oglesby,divine-savior,,,false,false
 w01-olfen-dawson,1,2026-08-28,olfen,dawson,14,60,false,false
 w01-our-lady-of-the-hills-grady,1,2026-08-28,our-lady-of-the-hills,grady,0,71,false,false
 w01-paint-creek-chillicothe,1,2026-08-28,paint-creek,chillicothe,6,53,false,false
@@ -123,7 +123,6 @@ w01-paint-rock-eden,1,2026-08-28,paint-rock,eden,30,42,false,false
 w01-panther-creek-blanket,1,2026-08-28,panther-creek,blanket,26,72,false,false
 w01-petersburg-springlake-earth,1,2026-08-28,petersburg,springlake-earth,25,31,false,false
 w01-prairie-lea-valor-kyle,1,2026-08-28,prairie-lea,valor-kyle,14,0,false,false
-w01-ranger-divine-savior,1,2026-08-28,ranger,divine-savior,,,false,false
 w01-roby-ira,1,2026-08-28,roby,ira,65,38,false,false
 w01-rochelle-sidney,1,2026-08-28,rochelle,sidney,22,25,false,false
 w01-runge-annapolis-christian,1,2026-08-28,runge,annapolis-christian,48,31,false,false
@@ -134,7 +133,6 @@ w01-spur-odonnell,1,2026-08-28,spur,odonnell,14,61,false,false
 w01-st-augustine-davinci,1,2026-08-28,st-augustine,davinci,19,66,false,false
 w01-sterling-city-grandfalls-royalty,1,2026-08-28,sterling-city,grandfalls-royalty,66,27,false,false
 w01-texas-school-for-the-deaf-buckholts,1,2026-08-28,texas-school-for-the-deaf,buckholts,64,32,false,false
-w01-thesa-divine-savior,1,2026-08-28,thesa,divine-savior,,,false,false
 w01-trinidad-tyler-heat,1,2026-08-28,trinidad,tyler-heat,32,48,false,false
 w01-valor-north-austin-valor-leander,1,2026-08-28,valor-north-austin,valor-leander,56,6,false,false
 w01-vanguard-college-prep-nazarene-christian,1,2026-08-28,vanguard-college-prep,nazarene-christian,28,52,false,false
@@ -220,15 +218,14 @@ w02-meadow-petersburg,2,2026-09-04,meadow,petersburg,56,32,false,false
 w02-menard-rochelle,2,2026-09-04,menard,rochelle,64,0,false,false
 w02-miami-claude,2,2026-09-04,miami,claude,0,60,false,false
 w02-motley-county-buena-vista,2,2026-09-04,motley-county,buena-vista,,,false,false
+w02-motley-county-divine-savior,2,2026-09-04,motley-county,divine-savior,,,false,false
 w02-mount-calm-garland-christian,2,2026-09-04,mount-calm,garland-christian,58,6,false,false
 w02-mullin-olfen,2,2026-09-04,mullin,olfen,61,16,false,false
 w02-newcastle-guthrie,2,2026-09-04,newcastle,guthrie,50,0,false,false
 w02-oglesby-abbott,2,2026-09-04,oglesby,abbott,80,42,false,false
 w02-ovilla-christian-faustina,2,2026-09-04,ovilla-christian,faustina,14,60,false,false
 w02-pawnee-priddy,2,2026-09-04,pawnee,priddy,,,false,false
-w02-perrin-whitt-divine-savior,2,2026-09-04,perrin-whitt,divine-savior,,,false,false
 w02-prairie-lea-valor-north-austin,2,2026-09-04,prairie-lea,valor-north-austin,50,0,false,false
-w02-ranger-divine-savior,2,2026-09-04,ranger,divine-savior,,,false,false
 w02-ranger-woodson,2,2026-09-04,ranger,woodson,0,46,false,false
 w02-robert-lee-grady,2,2026-09-04,robert-lee,grady,34,63,false,false
 w02-roby-lubbock-titans,2,2026-09-04,roby,lubbock-titans,46,20,false,false
@@ -276,7 +273,6 @@ w03-white-deer-san-jacinto-christian,3,2026-09-10,white-deer,san-jacinto-christi
 w03-whiteface-follett,3,2026-09-10,whiteface,follett,19,26,false,false
 w03-abbott-blum,3,2026-09-11,abbott,blum,62,0,false,false
 w03-abilene-christian-coram-deo,3,2026-09-11,abilene-christian,coram-deo,88,96,false,false
-w03-abilene-christian-divine-savior,3,2026-09-11,abilene-christian,divine-savior,,,false,false
 w03-arlington-heights-christian-divine-savior,3,2026-09-11,arlington-heights-christian,divine-savior,,,false,false
 w03-aspermont-bryson,3,2026-09-11,aspermont,bryson,69,20,false,false
 w03-austin-classical-texas-empowerment,3,2026-09-11,austin-classical,texas-empowerment,60,6,false,false
@@ -321,16 +317,12 @@ w03-lazbuddie-dawson,3,2026-09-11,lazbuddie,dawson,52,6,false,false
 w03-lefors-hart,3,2026-09-11,lefors,hart,6,53,false,false
 w03-lingleville-kopperl,3,2026-09-11,lingleville,kopperl,19,20,false,false
 w03-lorenzo-christ-the-king,3,2026-09-11,lorenzo,christ-the-king,0,50,false,false
-w03-lucas-christian-divine-savior,3,2026-09-11,lucas-christian,divine-savior,,,false,false
 w03-lueders-avoca-priddy,3,2026-09-11,lueders-avoca,priddy,,,false,false
 w03-meadow-amherst,3,2026-09-11,meadow,amherst,62,0,false,false
 w03-methodist-childrens-home-vanguard-college-prep,3,2026-09-11,methodist-childrens-home,vanguard-college-prep,6,74,false,false
 w03-milford-apple-springs,3,2026-09-11,milford,apple-springs,37,31,false,false
-w03-motley-county-divine-savior,3,2026-09-11,motley-county,divine-savior,,,false,false
 w03-nazarene-christian-buckholts,3,2026-09-11,nazarene-christian,buckholts,47,0,false,false
-w03-newcastle-divine-savior,3,2026-09-11,newcastle,divine-savior,,,false,false
 w03-newcastle-gold-burg,3,2026-09-11,newcastle,gold-burg,60,0,false,false
-w03-northside-divine-savior,3,2026-09-11,northside,divine-savior,,,false,false
 w03-odonnell-lubbock-titans,3,2026-09-11,odonnell,lubbock-titans,32,43,false,false
 w03-our-lady-of-the-hills-nueces-canyon,3,2026-09-11,our-lady-of-the-hills,nueces-canyon,0,46,false,false
 w03-paint-rock-holy-cross-midland,3,2026-09-11,paint-rock,holy-cross-midland,59,34,false,false
@@ -339,7 +331,6 @@ w03-penelope-trinidad,3,2026-09-11,penelope,trinidad,42,59,false,false
 w03-petersburg-wellman-union,3,2026-09-11,petersburg,wellman-union,44,36,false,false
 w03-prairie-lea-san-marcos-academy,3,2026-09-11,prairie-lea,san-marcos-academy,20,36,false,false
 w03-providence-academy-waco-christian,3,2026-09-11,providence-academy,waco-christian,47,30,false,false
-w03-ranger-divine-savior,3,2026-09-11,ranger,divine-savior,,,false,false
 w03-ranger-throckmorton,3,2026-09-11,ranger,throckmorton,51,53,false,false
 w03-rankin-westbrook,3,2026-09-11,rankin,westbrook,59,52,false,false
 w03-richland-springs-big-springs-charter,3,2026-09-11,richland-springs,big-springs-charter,,,false,false
@@ -362,7 +353,6 @@ w03-victoria-cobras-pawnee,3,2026-09-11,victoria-cobras,pawnee,,,false,false
 w03-victoria-gators-pawnee,3,2026-09-11,victoria-gators,pawnee,,,false,false
 w03-water-valley-sands,3,2026-09-11,water-valley,sands,89,47,false,false
 w03-westlake-academy-texas-wind,3,2026-09-11,westlake-academy,texas-wind,0,75,false,false
-w03-whiteface-divine-savior,3,2026-09-11,whiteface,divine-savior,,,false,false
 w03-whiteface-el-paso-leadership,3,2026-09-11,whiteface,el-paso-leadership,79,0,false,false
 w03-woodson-baird,3,2026-09-11,woodson,baird,70,24,false,false
 w03-davinci-klondike,3,2026-09-12,davinci,klondike,0,56,false,false
@@ -394,6 +384,7 @@ w04-anton-springlake-earth,4,2026-09-18,anton,springlake-earth,50,22,false,false
 w04-aquilla-kopperl,4,2026-09-18,aquilla,kopperl,60,6,false,false
 w04-arlington-heights-christian-divine-savior,4,2026-09-18,arlington-heights-christian,divine-savior,,,false,false
 w04-austin-classical-valor-leander,4,2026-09-18,austin-classical,valor-leander,54,0,false,false
+w04-austin-royals-divine-savior,4,2026-09-18,austin-royals,divine-savior,,,false,false
 w04-avalon-greenville-christian,4,2026-09-18,avalon,greenville-christian,26,76,false,false
 w04-azle-christian-ovilla-christian,4,2026-09-18,azle-christian,ovilla-christian,60,0,false,false
 w04-big-springs-charter-paint-rock,4,2026-09-18,big-springs-charter,paint-rock,40,6,false,false
@@ -413,11 +404,9 @@ w04-cranfills-gap-cherokee,4,2026-09-18,cranfills-gap,cherokee,8,58,false,false
 w04-divine-savior-lingleville,4,2026-09-18,divine-savior,lingleville,,,false,false
 w04-eden-panther-creek,4,2026-09-18,eden,panther-creek,20,46,false,false
 w04-evant-brookesmith,4,2026-09-18,evant,brookesmith,43,56,false,false
-w04-faith-academy-divine-savior,4,2026-09-18,faith-academy,divine-savior,,,false,false
 w04-faith-academy-medina,4,2026-09-18,faith-academy,medina,8,58,false,false
 w04-first-baptist-christian-divine-savior,4,2026-09-18,first-baptist-christian,divine-savior,,,false,false
 w04-fort-hancock-sanderson,4,2026-09-18,fort-hancock,sanderson,,,false,false
-w04-georgetown-grace-divine-savior,4,2026-09-18,georgetown-grace,divine-savior,,,false,false
 w04-gholson-fruitvale,4,2026-09-18,gholson,fruitvale,65,53,false,false
 w04-gold-burg-victory-christian,4,2026-09-18,gold-burg,victory-christian,16,63,false,false
 w04-gordon-bluff-dale,4,2026-09-18,gordon,bluff-dale,64,44,false,false
@@ -439,7 +428,6 @@ w04-marfa-buena-vista,4,2026-09-18,marfa,buena-vista,56,84,false,false
 w04-may-richland-springs,4,2026-09-18,may,richland-springs,28,53,false,false
 w04-methodist-childrens-home-brazos-valley-lions,4,2026-09-18,methodist-childrens-home,brazos-valley-lions,30,32,false,false
 w04-milford-bvchea,4,2026-09-18,milford,bvchea,58,46,false,false
-w04-motley-county-divine-savior,4,2026-09-18,motley-county,divine-savior,,,false,false
 w04-nazareth-hermleigh,4,2026-09-18,nazareth,hermleigh,0,50,false,false
 w04-newcastle-wichita-christian,4,2026-09-18,newcastle,wichita-christian,,,false,false
 w04-oglesby-oakwood,4,2026-09-18,oglesby,oakwood,83,34,false,false
@@ -448,14 +436,11 @@ w04-paducah-roby,4,2026-09-18,paducah,roby,65,20,false,false
 w04-paint-creek-mullin,4,2026-09-18,paint-creek,mullin,7,53,false,false
 w04-pawnee-benavides,4,2026-09-18,pawnee,benavides,0,2,true,false
 w04-penelope-buckholts,4,2026-09-18,penelope,buckholts,50,0,false,false
-w04-petersburg-divine-savior,4,2026-09-18,petersburg,divine-savior,,,false,false
 w04-prairie-lea-hill-country-christian,4,2026-09-18,prairie-lea,hill-country-christian,0,68,false,false
-w04-ranger-divine-savior,4,2026-09-18,ranger,divine-savior,,,false,false
 w04-ranger-rising-star,4,2026-09-18,ranger,rising-star,0,55,false,false
 w04-rankin-borden-county,4,2026-09-18,rankin,borden-county,36,82,false,false
 w04-robert-lee-sterling-city,4,2026-09-18,robert-lee,sterling-city,73,49,false,false
 w04-rochelle-lometa,4,2026-09-18,rochelle,lometa,18,35,false,false
-w04-rocksprings-divine-savior,4,2026-09-18,rocksprings,divine-savior,,,false,false
 w04-rocksprings-nueces-canyon,4,2026-09-18,rocksprings,nueces-canyon,47,0,false,false
 w04-rotan-crowell,4,2026-09-18,rotan,crowell,59,44,false,false
 w04-saint-jo-forestburg,4,2026-09-18,saint-jo,forestburg,60,14,false,false
@@ -506,6 +491,7 @@ w05-trinidad-avalon,5,2026-09-24,trinidad,avalon,81,34,false,false
 w05-woodson-guthrie,5,2026-09-24,woodson,guthrie,46,41,false,false
 w05-abilene-christian-may,5,2026-09-25,abilene-christian,may,86,74,false,false
 w05-allen-academy-san-marcos-academy,5,2026-09-25,allen-academy,san-marcos-academy,52,76,false,false
+w05-alpha-omega-divine-savior,5,2026-09-25,alpha-omega,divine-savior,,,false,false
 w05-apple-springs-st-joseph-bryan,5,2026-09-25,apple-springs,st-joseph-bryan,,,false,false
 w05-arlington-heights-christian-divine-savior,5,2026-09-25,arlington-heights-christian,divine-savior,,,false,false
 w05-arlington-heights-christian-westhoff,5,2026-09-25,arlington-heights-christian,westhoff,56,0,false,false
@@ -541,6 +527,7 @@ w05-groom-wildorado,5,2026-09-25,groom,wildorado,52,36,false,false
 w05-gustine-eden,5,2026-09-25,gustine,eden,50,0,false,false
 w05-hermleigh-west-texas-tornadoes,5,2026-09-25,hermleigh,west-texas-tornadoes,62,0,false,false
 w05-highland-blackwell,5,2026-09-25,highland,blackwell,40,62,false,false
+w05-hill-country-christian-divine-savior,5,2026-09-25,hill-country-christian,divine-savior,,,false,false
 w05-hill-country-christian-new-braunfels-spartans,5,2026-09-25,hill-country-christian,new-braunfels-spartans,72,7,false,false
 w05-holy-cross-midland-fort-davis,5,2026-09-25,holy-cross-midland,fort-davis,,,false,false
 w05-iredell-valor-north-austin,5,2026-09-25,iredell,valor-north-austin,56,7,false,false
@@ -554,6 +541,7 @@ w05-menard-paint-rock,5,2026-09-25,menard,paint-rock,78,0,false,false
 w05-miami-valley,5,2026-09-25,miami,valley,,,false,false
 w05-morgan-gholson,5,2026-09-25,morgan,gholson,54,6,false,false
 w05-motley-county-booker,5,2026-09-25,motley-county,booker,72,20,false,false
+w05-motley-county-divine-savior,5,2026-09-25,motley-county,divine-savior,,,false,false
 w05-nazareth-mclean,5,2026-09-25,nazareth,mclean,72,26,false,false
 w05-oakwood-coram-deo,5,2026-09-25,oakwood,coram-deo,14,62,false,false
 w05-paducah-spur,5,2026-09-25,paducah,spur,55,0,false,false
@@ -578,7 +566,10 @@ w05-temple-christian-cornerstone,5,2026-09-25,temple-christian,cornerstone,50,64
 w05-thesa-milford,5,2026-09-25,thesa,milford,50,49,false,false
 w05-three-way-community-christian-mineral-wells,5,2026-09-25,three-way,community-christian-mineral-wells,,,false,false
 w05-town-east-christian-valor-south-austin,5,2026-09-25,town-east-christian,valor-south-austin,38,14,false,false
+w05-tyler-heat-divine-savior,5,2026-09-25,tyler-heat,divine-savior,,,false,false
 w05-union-hill-tyler-heat,5,2026-09-25,union-hill,tyler-heat,65,14,false,false
+w05-valley-divine-savior,5,2026-09-25,valley,divine-savior,,,false,false
+w05-valor-leander-divine-savior,5,2026-09-25,valor-leander,divine-savior,,,false,false
 w05-vanguard-college-prep-lometa,5,2026-09-25,vanguard-college-prep,lometa,50,0,false,false
 w05-victory-christian-westlake-academy,5,2026-09-25,victory-christian,westlake-academy,48,0,false,false
 w05-wellman-union-klondike,5,2026-09-25,wellman-union,klondike,32,78,false,false
@@ -626,7 +617,6 @@ w06-garden-city-union-hill,6,2026-10-02,garden-city,union-hill,0,51,false,false
 w06-garland-christian-ovilla-christian,6,2026-10-02,garland-christian,ovilla-christian,22,39,true,false
 w06-gholson-evant,6,2026-10-02,gholson,evant,20,65,false,false
 w06-grandfalls-royalty-rankin,6,2026-10-02,grandfalls-royalty,rankin,26,74,false,false
-w06-happy-divine-savior,6,2026-10-02,happy,divine-savior,,,false,false
 w06-happy-mclean,6,2026-10-02,happy,mclean,41,40,false,false
 w06-highland-ranger,6,2026-10-02,highland,ranger,54,0,false,false
 w06-hill-country-christian-davinci,6,2026-10-02,hill-country-christian,davinci,54,6,false,false
@@ -645,7 +635,6 @@ w06-miami-boys-ranch,6,2026-10-02,miami,boys-ranch,,,false,false
 w06-mount-calm-coolidge,6,2026-10-02,mount-calm,coolidge,21,66,false,false
 w06-mullin-lueders-avoca,6,2026-10-02,mullin,lueders-avoca,84,38,false,false
 w06-nazareth-claude,6,2026-10-02,nazareth,claude,68,36,false,false
-w06-northside-divine-savior,6,2026-10-02,northside,divine-savior,,,false,false
 w06-oglesby-buckholts,6,2026-10-02,oglesby,buckholts,76,0,false,false
 w06-paducah-aspermont,6,2026-10-02,paducah,aspermont,48,0,false,false
 w06-panther-creek-strawn,6,2026-10-02,panther-creek,strawn,0,46,false,false
@@ -653,6 +642,7 @@ w06-penelope-covington,6,2026-10-02,penelope,covington,22,30,false,false
 w06-perrin-whitt-gold-burg,6,2026-10-02,perrin-whitt,gold-burg,35,32,false,false
 w06-petersburg-anton,6,2026-10-02,petersburg,anton,45,50,false,false
 w06-plainview-classical-hart,6,2026-10-02,plainview-classical,hart,6,54,false,false
+w06-ranger-divine-savior,6,2026-10-02,ranger,divine-savior,,,false,false
 w06-richland-springs-whitharral,6,2026-10-02,richland-springs,whitharral,73,50,false,false
 w06-rising-star-rochelle,6,2026-10-02,rising-star,rochelle,28,42,false,false
 w06-roby-knox-city,6,2026-10-02,roby,knox-city,80,86,false,false
@@ -742,7 +732,6 @@ w07-iredell-walnut-springs,7,2026-10-09,iredell,walnut-springs,66,0,true,false
 w07-irion-county-sterling-city,7,2026-10-09,irion-county,sterling-city,42,49,true,false
 w07-jayton-roby,7,2026-10-09,jayton,roby,70,8,true,false
 w07-klondike-westbrook,7,2026-10-09,klondike,westbrook,74,48,true,false
-w07-kress-divine-savior,7,2026-10-09,kress,divine-savior,,,false,false
 w07-leveretts-chapel-gustine,7,2026-10-09,leveretts-chapel,gustine,0,55,false,false
 w07-loraine-trent,7,2026-10-09,loraine,trent,52,8,true,false
 w07-mclean-miami,7,2026-10-09,mclean,miami,1,0,true,false
@@ -750,7 +739,6 @@ w07-meadow-southland,7,2026-10-09,meadow,southland,66,20,true,false
 w07-medina-big-springs-charter,7,2026-10-09,medina,big-springs-charter,55,0,true,false
 w07-methodist-childrens-home-calvert,7,2026-10-09,methodist-childrens-home,calvert,51,6,false,false
 w07-morgan-three-way,7,2026-10-09,morgan,three-way,28,58,true,false
-w07-motley-county-divine-savior,7,2026-10-09,motley-county,divine-savior,,,false,false
 w07-nazareth-kress,7,2026-10-09,nazareth,kress,67,0,false,false
 w07-nueces-canyon-knippa,7,2026-10-09,nueces-canyon,knippa,8,44,true,false
 w07-oglesby-bryson,7,2026-10-09,oglesby,bryson,61,14,false,false
@@ -759,11 +747,11 @@ w07-paducah-crowell,7,2026-10-09,paducah,crowell,72,36,true,false
 w07-pawnee-westhoff,7,2026-10-09,pawnee,westhoff,,,true,false
 w07-penelope-aquilla,7,2026-10-09,penelope,aquilla,0,50,true,false
 w07-perrin-whitt-campbell,7,2026-10-09,perrin-whitt,campbell,,,false,false
-w07-perrin-whitt-divine-savior,7,2026-10-09,perrin-whitt,divine-savior,,,false,false
 w07-perrin-whitt-lometa,7,2026-10-09,perrin-whitt,lometa,0,32,false,false
 w07-petersburg-whitharral,7,2026-10-09,petersburg,whitharral,50,56,false,false
 w07-prairie-lea-bruni,7,2026-10-09,prairie-lea,bruni,45,25,true,false
 w07-priddy-gustine,7,2026-10-09,priddy,gustine,,,true,false
+w07-ranger-divine-savior,7,2026-10-09,ranger,divine-savior,,,false,false
 w07-rankin-fort-hancock,7,2026-10-09,rankin,fort-hancock,67,6,true,false
 w07-rotan-hermleigh,7,2026-10-09,rotan,hermleigh,30,80,true,false
 w07-runge-victoria-cobras,7,2026-10-09,runge,victoria-cobras,64,12,false,false
@@ -776,11 +764,10 @@ w07-strawn-jonesboro,7,2026-10-09,strawn,jonesboro,69,24,false,false
 w07-summit-christian-austin-classical,7,2026-10-09,summit-christian,austin-classical,16,38,true,false
 w07-town-east-christian-coastal-christian,7,2026-10-09,town-east-christian,coastal-christian,1,0,false,false
 w07-valley-chillicothe,7,2026-10-09,valley,chillicothe,60,0,true,false
-w07-valor-leander-divine-savior,7,2026-10-09,valor-leander,divine-savior,,,false,false
 w07-veribest-eden,7,2026-10-09,veribest,eden,,,true,false
 w07-victory-christian-benjamin,7,2026-10-09,victory-christian,benjamin,45,0,false,false
 w07-water-valley-menard,7,2026-10-09,water-valley,menard,,,true,false
-w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,60,6,true,false
+w07-wellman-union-dawson,7,2026-10-09,wellman-union,dawson,,,true,false
 w07-bronte-highland,7,2026-10-10,bronte,highland,28,69,true,false
 w07-emery-weiner-brazosport-christian,7,2026-10-10,emery-weiner,brazosport-christian,62,0,false,false
 w07-greenville-christian-poetry-community,7,2026-10-10,greenville-christian,poetry-community,,,true,false
@@ -815,7 +802,6 @@ w08-bronte-baird,8,2026-10-16,bronte,baird,8,57,true,false
 w08-bruni-nueces-canyon,8,2026-10-16,bruni,nueces-canyon,6,47,true,false
 w08-chester-runge,8,2026-10-16,chester,runge,62,14,false,false
 w08-chillicothe-guthrie,8,2026-10-16,chillicothe,guthrie,59,58,true,false
-w08-claude-divine-savior,8,2026-10-16,claude,divine-savior,,,false,false
 w08-claude-wildorado,8,2026-10-16,claude,wildorado,52,0,true,false
 w08-coolidge-penelope,8,2026-10-16,coolidge,penelope,42,6,true,false
 w08-cotton-center-hart,8,2026-10-16,cotton-center,hart,,,true,false
@@ -825,7 +811,6 @@ w08-dallas-academy-faustina,8,2026-10-16,dallas-academy,faustina,0,47,true,false
 w08-davinci-north-star,8,2026-10-16,davinci,north-star,54,12,false,false
 w08-divine-savior-lingleville,8,2026-10-16,divine-savior,lingleville,,,false,false
 w08-eden-menard,8,2026-10-16,eden,menard,0,1,true,false
-w08-emery-weiner-divine-savior,8,2026-10-16,emery-weiner,divine-savior,,,false,false
 w08-fannindel-bynum,8,2026-10-16,fannindel,bynum,49,0,true,false
 w08-first-baptist-christian-divine-savior,8,2026-10-16,first-baptist-christian,divine-savior,,,false,false
 w08-fort-davis-marfa,8,2026-10-16,fort-davis,marfa,,,true,false
@@ -850,6 +835,7 @@ w08-lohn-cherokee,8,2026-10-16,lohn,cherokee,12,58,true,false
 w08-loop-meadow,8,2026-10-16,loop,meadow,0,14,true,false
 w08-may-gorman,8,2026-10-16,may,gorman,,,true,false
 w08-methodist-childrens-home-grayson-christian,8,2026-10-16,methodist-childrens-home,grayson-christian,19,66,true,false
+w08-motley-county-divine-savior,8,2026-10-16,motley-county,divine-savior,,,false,false
 w08-new-braunfels-spartans-davinci,8,2026-10-16,new-braunfels-spartans,davinci,0,52,true,false
 w08-oakwood-mount-calm,8,2026-10-16,oakwood,mount-calm,45,53,true,false
 w08-odonnell-sands,8,2026-10-16,odonnell,sands,0,46,true,false
@@ -859,6 +845,7 @@ w08-perrin-whitt-bryson,8,2026-10-16,perrin-whitt,bryson,22,46,true,false
 w08-prairie-lea-medina,8,2026-10-16,prairie-lea,medina,0,63,true,false
 w08-priddy-blanket,8,2026-10-16,priddy,blanket,,,true,false
 w08-providence-academy-azle-christian,8,2026-10-16,providence-academy,azle-christian,,,true,false
+w08-ranger-divine-savior,8,2026-10-16,ranger,divine-savior,,,false,false
 w08-richland-springs-brookesmith,8,2026-10-16,richland-springs,brookesmith,62,6,true,false
 w08-robert-lee-santa-anna,8,2026-10-16,robert-lee,santa-anna,54,0,true,false
 w08-round-rock-christian-st-augustine,8,2026-10-16,round-rock-christian,st-augustine,44,6,true,false
@@ -956,7 +943,6 @@ w09-menard-sterling-city,9,2026-10-23,menard,sterling-city,62,0,true,false
 w09-miami-follett,9,2026-10-23,miami,follett,0,1,true,false
 w09-milford-bluff-dale,9,2026-10-23,milford,bluff-dale,58,8,true,false
 w09-morgan-iredell,9,2026-10-23,morgan,iredell,0,51,true,false
-w09-motley-county-divine-savior,9,2026-10-23,motley-county,divine-savior,,,false,false
 w09-motley-county-valley,9,2026-10-23,motley-county,valley,54,28,true,false
 w09-mount-calm-fannindel,9,2026-10-23,mount-calm,fannindel,34,26,true,false
 w09-mullin-priddy,9,2026-10-23,mullin,priddy,,,true,false
@@ -968,7 +954,6 @@ w09-olfen-trent,9,2026-10-23,olfen,trent,7,44,true,false
 w09-paducah-chillicothe,9,2026-10-23,paducah,chillicothe,58,6,true,false
 w09-paint-rock-bronte,9,2026-10-23,paint-rock,bronte,37,64,true,false
 w09-penelope-gholson,9,2026-10-23,penelope,gholson,68,0,true,false
-w09-ranger-divine-savior,9,2026-10-23,ranger,divine-savior,,,false,false
 w09-ranger-may,9,2026-10-23,ranger,may,7,67,true,false
 w09-rising-star-moran,9,2026-10-23,rising-star,moran,64,0,true,false
 w09-roby-spur,9,2026-10-23,roby,spur,54,8,true,false
@@ -1024,7 +1009,6 @@ w10-balmorhea-rocksprings,10,2026-10-30,balmorhea,rocksprings,30,37,true,false
 w10-baytown-christian-brazosport-christian,10,2026-10-30,baytown-christian,brazosport-christian,40,38,true,false
 w10-benavides-westhoff,10,2026-10-30,benavides,westhoff,34,0,true,false
 w10-benjamin-knox-city,10,2026-10-30,benjamin,knox-city,12,56,true,false
-w10-bluff-dale-divine-savior,10,2026-10-30,bluff-dale,divine-savior,,,false,false
 w10-blum-covington,10,2026-10-30,blum,covington,21,51,true,false
 w10-booker-wildorado,10,2026-10-30,booker,wildorado,58,14,true,false
 w10-borden-county-ira,10,2026-10-30,borden-county,ira,46,0,true,false
@@ -1068,11 +1052,11 @@ w10-lingleville-ranger,10,2026-10-30,lingleville,ranger,38,30,true,false
 w10-logos-prep-covenant-christian,10,2026-10-30,logos-prep,covenant-christian,42,64,true,false
 w10-lometa-oglesby,10,2026-10-30,lometa,oglesby,0,46,true,false
 w10-loraine-blackwell,10,2026-10-30,loraine,blackwell,8,60,true,false
+w10-lubbock-titans-divine-savior,10,2026-10-30,lubbock-titans,divine-savior,,,false,false
 w10-lubbock-titans-holy-cross-midland,10,2026-10-30,lubbock-titans,holy-cross-midland,68,18,false,false
 w10-meadow-wellman-union,10,2026-10-30,meadow,wellman-union,30,47,true,false
 w10-methodist-childrens-home-dallas-academy,10,2026-10-30,methodist-childrens-home,dallas-academy,30,44,true,false
 w10-morgan-cranfills-gap,10,2026-10-30,morgan,cranfills-gap,62,14,true,false
-w10-motley-county-divine-savior,10,2026-10-30,motley-county,divine-savior,,,false,false
 w10-newcastle-perrin-whitt,10,2026-10-30,newcastle,perrin-whitt,52,6,true,false
 w10-nueces-canyon-medina,10,2026-10-30,nueces-canyon,medina,6,52,true,false
 w10-paint-rock-baird,10,2026-10-30,paint-rock,baird,0,51,true,false
@@ -1081,7 +1065,6 @@ w10-pawnee-runge,10,2026-10-30,pawnee,runge,,,true,false
 w10-poetry-community-trinity-school-of-texas,10,2026-10-30,poetry-community,trinity-school-of-texas,,,true,false
 w10-prairie-lea-big-springs-charter,10,2026-10-30,prairie-lea,big-springs-charter,2,0,true,false
 w10-providence-academy-greenville-christian,10,2026-10-30,providence-academy,greenville-christian,,,true,false
-w10-ranger-divine-savior,10,2026-10-30,ranger,divine-savior,,,false,false
 w10-rankin-grady,10,2026-10-30,rankin,grady,65,20,true,false
 w10-rotan-jayton,10,2026-10-30,rotan,jayton,7,69,true,false
 w10-sidney-rising-star,10,2026-10-30,sidney,rising-star,40,14,true,false
@@ -1100,7 +1083,6 @@ w10-town-east-christian-victoria-cobras,10,2026-10-30,town-east-christian,victor
 w10-trinity-school-of-texas-lakehill-prep,10,2026-10-30,trinity-school-of-texas,lakehill-prep,,,true,false
 w10-union-hill-chester,10,2026-10-30,union-hill,chester,64,16,true,false
 w10-valley-crowell,10,2026-10-30,valley,crowell,59,14,true,false
-w10-valor-leander-divine-savior,10,2026-10-30,valor-leander,divine-savior,,,false,false
 w10-veribest-water-valley,10,2026-10-30,veribest,water-valley,20,64,true,false
 w10-victory-christian-providence-academy,10,2026-10-30,victory-christian,providence-academy,,,true,false
 w10-weatherford-christian-nazarene-christian,10,2026-10-30,weatherford-christian,nazarene-christian,0,52,true,false
@@ -1177,6 +1159,7 @@ w11-mclean-follett,11,2026-11-06,mclean,follett,51,0,true,false
 w11-medina-bruni,11,2026-11-06,medina,bruni,68,0,true,false
 w11-miami-groom,11,2026-11-06,miami,groom,0,1,true,false
 w11-milford-blum,11,2026-11-06,milford,blum,62,14,true,false
+w11-motley-county-divine-savior,11,2026-11-06,motley-county,divine-savior,,,false,false
 w11-motley-county-paducah,11,2026-11-06,motley-county,paducah,52,58,true,false
 w11-mullin-gustine,11,2026-11-06,mullin,gustine,,,true,false
 w11-nazareth-whiteface,11,2026-11-06,nazareth,whiteface,22,71,true,false
@@ -1230,10 +1213,10 @@ w12-arlington-heights-christian-divine-savior,12,2026-11-13,arlington-heights-ch
 w12-arlington-heights-christian-town-east-christian,12,2026-11-13,arlington-heights-christian,town-east-christian,13,43,true,false
 w12-azle-christian-victory-christian,12,2026-11-13,azle-christian,victory-christian,88,89,true,true
 w12-blackwell-cherokee,12,2026-11-13,blackwell,cherokee,66,54,false,false
-w12-bluff-dale-campbell,12,2026-11-13,bluff-dale,campbell,,,false,true
 w12-borden-county-grady,12,2026-11-13,borden-county,grady,48,0,false,false
 w12-boys-ranch-nazareth,12,2026-11-13,boys-ranch,nazareth,42,73,false,false
 w12-brazos-valley-lions-nyos,12,2026-11-13,brazos-valley-lions,nyos,51,50,true,false
+w12-campbell-bluff-dale,12,2026-11-13,campbell,bluff-dale,,,false,true
 w12-chester-aquilla,12,2026-11-13,chester,aquilla,65,73,false,false
 w12-claude-whiteface,12,2026-11-13,claude,whiteface,12,57,false,false
 w12-divine-savior-lingleville,12,2026-11-13,divine-savior,lingleville,,,false,false
@@ -1245,6 +1228,7 @@ w12-jayton-kress,12,2026-11-13,jayton,kress,75,6,false,false
 w12-lefors-motley-county,12,2026-11-13,lefors,motley-county,0,72,false,true
 w12-may-newcastle,12,2026-11-13,may,newcastle,24,74,false,false
 w12-meadow-hart,12,2026-11-13,meadow,hart,77,22,false,false
+w12-motley-county-divine-savior,12,2026-11-13,motley-county,divine-savior,,,false,false
 w12-oglesby-knippa,12,2026-11-13,oglesby,knippa,54,8,false,false
 w12-panther-creek-richland-springs,12,2026-11-13,panther-creek,richland-springs,53,98,false,false
 w12-san-marcos-academy-valor-prep,12,2026-11-13,san-marcos-academy,valor-prep,16,62,true,true
@@ -1276,6 +1260,7 @@ w13-jubilee-brownsville-town-east-christian,13,2026-11-20,jubilee-brownsville,to
 w13-kings-academy-victoria-gators,13,2026-11-20,kings-academy,victoria-gators,52,87,false,true
 w13-knox-city-strawn,13,2026-11-20,knox-city,strawn,36,38,false,true
 w13-menard-rankin,13,2026-11-20,menard,rankin,61,14,false,false
+w13-motley-county-divine-savior,13,2026-11-20,motley-county,divine-savior,,,false,false
 w13-mount-calm-runge,13,2026-11-20,mount-calm,runge,53,7,false,true
 w13-nazareth-hermleigh,13,2026-11-20,nazareth,hermleigh,22,54,false,false
 w13-newcastle-milford,13,2026-11-20,newcastle,milford,41,47,false,true
@@ -1291,10 +1276,9 @@ w14-arlington-heights-christian-divine-savior,14,2026-11-27,arlington-heights-ch
 w14-divine-savior-lingleville,14,2026-11-27,divine-savior,lingleville,,,false,false
 w14-fannindel-mount-calm,14,2026-11-27,fannindel,mount-calm,,,true,false
 w14-first-baptist-christian-divine-savior,14,2026-11-27,first-baptist-christian,divine-savior,,,false,false
-w14-hermleigh-jayton,14,2026-11-27,hermleigh,jayton,,,true,true
+w14-hermleigh-jayton,14,2026-11-27,hermleigh,jayton,42,52,true,true
 w14-menard-borden-county,14,2026-11-27,menard,borden-county,,,false,false
 w14-milford-gordon,14,2026-11-27,milford,gordon,,,false,false
-w14-motley-county-divine-savior,14,2026-11-27,motley-county,divine-savior,,,false,false
 w14-motley-county-valley,14,2026-11-27,motley-county,valley,,,true,true
 w14-strawn-zephyr,14,2026-11-27,strawn,zephyr,0,69,false,true
 w14-union-hill-aquilla,14,2026-11-27,union-hill,aquilla,,,false,false

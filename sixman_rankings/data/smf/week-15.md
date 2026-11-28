@@ -4,13 +4,13 @@
 	data-app="public"
 	
 	
-	data-template="sixman_score_hub"
+	data-template="sixman_score_index"
 	data-container-key=""
 	data-content-key=""
 	data-logged-in="false"
 	data-cookie-prefix="xf_"
-	data-csrf="1795822200,67d7077c40555fd79336535ba4f88853"
-	class="has-no-js template-sixman_score_hub"
+	data-csrf="1795852928,a6fbe276bddcb0ccb50cc25dd69d0db9"
+	class="has-no-js template-sixman_score_index"
 	>
 <head>
 	
@@ -19,7 +19,7 @@
 
 	<meta charset="utf-8" />
 
-	<title>2026 Scores | Six-Man Football</title>
+	<title>2026 Week 15 Scores | Six-Man Football</title>
 
 	<link rel="manifest" href="/webmanifest.php">
 
@@ -41,7 +41,7 @@
 		
 
 	
-		<link rel="canonical" href="https://sixmanfootball.com/scores/2026/" />
+		<link rel="canonical" href="https://sixmanfootball.com/scores/2026/week-15/" />
 	
 
 	
@@ -65,8 +65,8 @@
 	
 	
 	
-		<meta property="og:title" content="2026 Scores" />
-		<meta property="twitter:title" content="2026 Scores" />
+		<meta property="og:title" content="2026 Week 15 Scores" />
+		<meta property="twitter:title" content="2026 Week 15 Scores" />
 	
 
 
@@ -76,9 +76,12 @@
 	
 	
 	
-		<meta name="description" content="Live 2026 Texas six-man football scores and weekly results. Track every game score, from week 1 through the State Championships. Updated Friday nights..." />
-		<meta property="og:description" content="Live 2026 Texas six-man football scores and weekly results. Track every game score, from week 1 through the State Championships. Updated Friday nights in real-time." />
-		<meta property="twitter:description" content="Live 2026 Texas six-man football scores and weekly results. Track every game score, from week 1 through the State Championships. Updated Friday nights in real-time." />
+		<meta name="description" content="Texas six-man football week 15 scoreboard for 2026. 
+		View live scores, final results, and upcoming schedules for every game in the state." />
+		<meta property="og:description" content="Texas six-man football week 15 scoreboard for 2026. 
+		View live scores, final results, and upcoming schedules for every game in the state." />
+		<meta property="twitter:description" content="Texas six-man football week 15 scoreboard for 2026. 
+		View live scores, final results, and upcoming schedules for every game in the state." />
 	
 
 
@@ -87,7 +90,7 @@
 		
 	
 	
-	<meta property="og:url" content="https://sixmanfootball.com/scores/2026/" />
+	<meta property="og:url" content="https://sixmanfootball.com/scores/2026/week-15/" />
 
 
 	
@@ -114,7 +117,8 @@
 	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1795742412&amp;k=95938c7e614a8d66dbca914c0091aef6c2a98314" />
 
 	<link rel="stylesheet" href="/css.php?css=public%3Afclt_footer.less&amp;s=8&amp;l=1&amp;d=1795742412&amp;k=d27381a1009018fc4c4b0f0d9d64da321b0b5564" />
-<link rel="stylesheet" href="/css.php?css=public%3Asixman_hub.less&amp;s=8&amp;l=1&amp;d=1795742412&amp;k=5007fd01f3d9a89d648ffdf8497008bf9dceadb9" />
+<link rel="stylesheet" href="/css.php?css=public%3Asixman_scoreboard.less&amp;s=8&amp;l=1&amp;d=1795742412&amp;k=1ecb2a6a08c1d9484d58c7b8e80aaf4af4d5be83" />
+<link rel="stylesheet" href="/css.php?css=public%3Astructured_list.less&amp;s=8&amp;l=1&amp;d=1795742412&amp;k=7625ac60fb3689f5a1dd7dfa32d213dfa26cf2ca" />
 <link rel="stylesheet" href="/css.php?css=public%3Aextra.less&amp;s=8&amp;l=1&amp;d=1795742412&amp;k=6c517de41c0b62df737ddb38f27d48e80afa8204" />
 
 
@@ -152,17 +156,17 @@
 					consented: ["optional","_third_party"]
 				},
 				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
-				csrf: '1795822200,67d7077c40555fd79336535ba4f88853',
-				js: {},
+				csrf: '1795852928,a6fbe276bddcb0ccb50cc25dd69d0db9',
+				js: {"\/js\/sixman\/score-quick-search.min.js?_v=5e40faad":true,"\/js\/sixman\/team-tooltip.min.js?_v=5e40faad":true},
 				fullJs: false,
-				css: {"public:fclt_footer.less":true,"public:sixman_hub.less":true,"public:extra.less":true},
+				css: {"public:fclt_footer.less":true,"public:sixman_scoreboard.less":true,"public:structured_list.less":true,"public:extra.less":true},
 				time: {
-					now: 1795822200,
-					today: 1795759200,
-					todayDow: 5,
-					tomorrow: 1795845600,
-					yesterday: 1795672800,
-					week: 1795240800,
+					now: 1795852928,
+					today: 1795845600,
+					todayDow: 6,
+					tomorrow: 1795932000,
+					yesterday: 1795759200,
+					week: 1795327200,
 					month: 1793509200,
 					year: 1767247200
 				},
@@ -279,7 +283,9 @@
 		})
 	</script>
 
-	
+	<script src="/js/sixman/score-quick-search.min.js?_v=5e40faad" defer></script>
+<script src="/js/sixman/team-tooltip.min.js?_v=5e40faad" defer></script>
+
 
 
 	
@@ -316,7 +322,7 @@
 	</script>
 	<!-- End of Raptive Head Tag -->
 </head>
-<body data-template="sixman_score_hub">
+<body data-template="sixman_score_index">
 
 	<div class="user-id-1"></div>
 
@@ -1092,7 +1098,7 @@
 									</span>
 									</div>
 
-									<input type="hidden" name="_xfToken" value="1795822200,67d7077c40555fd79336535ba4f88853" />
+									<input type="hidden" name="_xfToken" value="1795852928,a6fbe276bddcb0ccb50cc25dd69d0db9" />
 								</form>
 							</div>
 						
@@ -1371,6 +1377,16 @@
 
 				
 				
+					
+					
+	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="/scores/2026/" itemprop="item">
+			<span itemprop="name">2026 scores</span>
+		</a>
+		<meta itemprop="position" content="3" />
+	</li>
+
+				
 			
 		</ul>
 	
@@ -1391,7 +1407,7 @@
 							<div class="p-title ">
 								
 									
-										<h1 class="p-title-value">2026 Scores</h1>
+										<h1 class="p-title-value">2026 Week 15 Scores</h1>
 									
 									
 								
@@ -1401,8 +1417,9 @@
 						
 							<div class="p-description">
 	
-		Live 2026 Texas six-man football scores and weekly results. Track every game score, from week 1 through the State Championships. Updated Friday nights in real-time.
-	
+		Texas six-man football week 15 scoreboard for 2026. 
+		View live scores, final results, and upcoming schedules for every game in the state.
+    
 </div>
 						
 					
@@ -1444,841 +1461,438 @@
 
 
 
-<div class="block-outer block-outer--seasonNav">
-    <div class="block-outer-main">
-        <div class="pageNav">
-            
-				<div class="pageNav-link">
-					<a href="/scores/2025/" 
-					   class="pageNav-jump pageNav-jump--prev">
-						2025 Season
-					</a>
-				</div>
-            
-            
-			<div class="pageNav-input">
+
+
+
+
+
+
+	
+		<div class="tabs tabs--standalone">
+			<div class="hScroller" data-xf-init="h-scroller">
+				<span class="hScroller-scroll">
+					
+					
+						<a class="tabs-tab" href="/scores/2026/week-0/">Week 0</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-1/">Week 1</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-2/">Week 2</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-3/">Week 3</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-4/">Week 4</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-5/">Week 5</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-6/">Week 6</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-7/">Week 7</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-8/">Week 8</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-9/">Week 9</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-10/">Week 10</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-11/">Week 11</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-12/">Week 12</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-13/">Week 13</a>
+					
+						<a class="tabs-tab" href="/scores/2026/week-14/">Week 14</a>
+					
+						<a class="tabs-tab is-active" href="/scores/2026/week-15/">Week 15</a>
+					
+				</span>
+			</div>
+		</div>
+	
+
+
+
+
+	
+	<input type="search" class="input" data-xf-init="score-quick-search" name="score-quick-search" id="score-quick-search" placeholder="Quick search..." />
+	
+	
+		<div class="block block--game-date">
+			<div class="block-container">
+				<h3 class="block-header">
+					TBD
+				</h3>
+				<div class="block-body block-row block-row--scores">
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
 				
-			<form action="/scores/" method="post" class=""
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
 				
-			>
-				<input type="hidden" name="_xfToken" value="1795822200,67d7077c40555fd79336535ba4f88853" />
+					<img src="/data/sixman/teamlogo/s/1/1291.jpg?1728530749" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
 				
 					
-			<select name="year" class="input" onchange="this.form.submit()">
-				<option value="2026" selected="selected">2026</option>
-<option value="2025">2025</option>
-<option value="2024">2024</option>
-<option value="2023">2023</option>
-<option value="2022">2022</option>
-<option value="2021">2021</option>
-<option value="2020">2020</option>
-<option value="2019">2019</option>
-<option value="2018">2018</option>
-<option value="2017">2017</option>
-<option value="2016">2016</option>
-<option value="2015">2015</option>
-<option value="2014">2014</option>
-<option value="2013">2013</option>
-<option value="2012">2012</option>
-<option value="2011">2011</option>
-<option value="2010">2010</option>
-<option value="2009">2009</option>
-<option value="2008">2008</option>
-<option value="2007">2007</option>
-<option value="2006">2006</option>
-<option value="2005">2005</option>
-<option value="2004">2004</option>
-<option value="2003">2003</option>
-<option value="2002">2002</option>
-<option value="2001">2001</option>
-<option value="2000">2000</option>
-<option value="1999">1999</option>
-<option value="1998">1998</option>
-<option value="1997">1997</option>
-<option value="1996">1996</option>
-<option value="1995">1995</option>
-<option value="1994">1994</option>
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#7</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/jayton-jaybirds.1291/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/jayton-jaybirds.1291/preview" data-team-id="1291">Jayton</a>
+		
+	
+	
 
-			</select>
-		
 				
-				
-			</form>
-		
 			</div>
-        </div>
-    </div>
-</div>
+			<div class="team-mascot">
+				Jaybirds
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
 
-<div class="week-hub-grid week-hub-scores">
-    
-        <a href="/scores/2026/week-0/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 0</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Aug 17 - Aug 23
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">14</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">59.29</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">25.21</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">7</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">2</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">3</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">0</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-1/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 1</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Aug 24 - Aug 30
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">142</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">55.15</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">19.55</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">67</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">14</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">28</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item is-warning" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">3</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-2/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 2</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Aug 31 - Sep 6
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">133</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">55.49</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">19.18</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">77</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">18</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">29</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">0</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-3/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 3</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Sep 7 - Sep 13
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">137</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">56.17</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">20.11</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">68</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">16</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">26</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item is-warning" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">4</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-4/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 4</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Sep 14 - Sep 20
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">130</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">57.20</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">21.74</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">64</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">13</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">26</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item is-warning" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">1</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-5/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 5</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Sep 21 - Sep 27
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">122</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">57.45</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">23.35</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">61</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">19</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">24</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item is-warning" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">1</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-6/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 6</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Sep 28 - Oct 4
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">103</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">55.44</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">19.72</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">52</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">16</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">20</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item is-warning" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">4</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-7/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 7</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Oct 5 - Oct 11
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">117</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">58.15</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">18.26</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">71</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">12</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">29</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item is-warning" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">4</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-8/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 8</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Oct 12 - Oct 18
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">112</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">53.59</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">16.99</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">61</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">15</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">31</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item is-warning" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">4</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-9/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 9</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Oct 19 - Oct 25
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">128</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">56.87</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">17.74</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">77</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">18</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">30</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item is-warning" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">4</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-10/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 10</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Oct 26 - Nov 1
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">122</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">55.98</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">16.89</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">70</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">13</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">32</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item is-warning" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">10</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-11/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 11</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Nov 2 - Nov 8
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">115</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">59.60</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">17.19</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">74</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">11</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">29</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item is-warning" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">7</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-12/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 12</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Nov 9 - Nov 15
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">57</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">62.32</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">28.98</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">28</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">12</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">5</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item is-warning" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">1</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-13/" class="week-card status-final">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 13</h3>
-                    <span class="status-pill">final</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Nov 16 - Nov 22
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">27</span>
-                        <span class="volume-label">Games Played</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">64.33</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">35.37</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">9</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">5</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">2</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">0</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-        <a href="/scores/2026/week-14/" class="week-card status-new">
-            <div class="week-card-header">
-                <div class="header-top">
-                    <h3 class="week-title">Week 14</h3>
-                    <span class="status-pill">new</span>
-                </div>
-                <div class="week-dates">
-                    <i class="fa--xf fal fa-calendar "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" ><use href="/data/local/icons/light.svg?v=1795742461#calendar"></use></svg></i> Nov 23 - Nov 29
-                </div>
-            </div>
-            <div class="week-card-body">
-                
-                    <div class="stat-volume">
-                        <span class="volume-num">11</span>
-                        <span class="volume-label">Games Scheduled</span>
-                    </div>
-                    <div class="stat-scoring-row">
-                        <div class="scoring-item win">
-                            <span class="lbl">Winner PPG</span>
-                            <span class="val">46.00</span>
-                        </div>
-                        <div class="scoring-divider">vs</div>
-                        <div class="scoring-item loss">
-                            <span class="lbl">Loser PPG</span>
-                            <span class="val">35.00</span>
-                        </div>
-                    </div>
-                    <div class="stat-flavor-grid">
-                        <div class="flavor-item" data-xf-init="tooltip" title="Mercy Rules (45+ margin)">
-                            <span class="flavor-val">0</span>
-                            <span class="flavor-lbl">Mercy</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Close Games (10 pts or less)">
-                            <span class="flavor-val">0</span>
-                            <span class="flavor-lbl">Close</span>
-                        </div>
-                        <div class="flavor-item" data-xf-init="tooltip" title="Shutouts">
-                            <span class="flavor-val">0</span>
-                            <span class="flavor-lbl">SO</span>
-                        </div>
-                        <div class="flavor-item" 
-                             data-xf-init="tooltip" title="Forfeits">
-                            <span class="flavor-val">0</span>
-                            <span class="flavor-lbl">FF</span>
-                        </div>
-                    </div>
-                
-            </div>
-        </a>
-    
-</div>
-
-<div class="block-outer block-outer--seasonNav block-outer--after">
-    <div class="block-outer-main">
-        <div class="pageNav">
-            
-				<div class="pageNav-link">
-					<a href="/scores/2025/" 
-					   class="pageNav-jump pageNav-jump--prev">
-						2025 Season
-					</a>
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-jayton-vs-menard.39472/">
+							TBD
+						</a>
+					
 				</div>
-            
-            
-        </div>
-    </div>
-</div></div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/19/19077.jpg?1795230680" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#2</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/menard-yellowjackets.19077/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/menard-yellowjackets.19077/preview" data-team-id="19077">Menard</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Yellowjackets
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1591.jpg?1778074395" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#10</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/strawn-greyhounds.1591/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/strawn-greyhounds.1591/preview" data-team-id="1591">Strawn</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Greyhounds
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-strawn-vs-mount-calm.39473/">
+							TBD
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1409.jpg?1773585547" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#64</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/mount-calm-panthers.1409/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/mount-calm-panthers.1409/preview" data-team-id="1409">Mount Calm</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Panthers
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+						
+	
+	
+	<div class="block-matchup fauxBlockLink is-playoff">
+		
+		<div class="block-teams">
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1201.jpg?1788533370" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#5</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/gordon-longhorns.1201/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/gordon-longhorns.1201/preview" data-team-id="1201">Gordon</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Longhorns
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+			<div class="contentRow contentRow--time-remaining">
+				<div>
+					
+						
+					
+					
+						<a class="u-concealed fauxBlockLink-blockLink" href="/games/2026-gordon-vs-union-hill.39471/">
+							TBD
+						</a>
+					
+				</div>
+			</div>
+			
+				
+	<div class="contentRow contentRow--team">
+		<div class="contentRow-figure">
+			<span class="avatar avatar--s">
+				
+					<img src="/data/sixman/teamlogo/s/1/1608.jpg?1778027547" loading="lazy" />
+				
+			</span>
+		</div>
+		<div class="contentRow-main">
+			<div class="team-name">
+				
+					
+	
+	
+	
+	
+	
+		
+			<span class="teamRank">#3</span>
+		
+	
+	
+	
+		
+			
+		
+	
+	
+		
+			
+			<a href="/teams/union-hill-bulldogs.1608/schedule/2026/" data-xf-init="team-tooltip" data-preview-url="/teams/union-hill-bulldogs.1608/preview" data-team-id="1608">Union Hill</a>
+		
+	
+	
+
+				
+			</div>
+			<div class="team-mascot">
+				Bulldogs
+			</div>
+		</div>
+		<div class="contentRow-score">
+			0
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+
+					
+				</div>
+			</div>
+		</div>
+	
+
+
+
+
+</div>
 					
 				</div>
 
@@ -2319,6 +1933,16 @@
 	</li>
 
 				
+				
+					
+					
+	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="/scores/2026/" itemprop="item">
+			<span itemprop="name">2026 scores</span>
+		</a>
+		<meta itemprop="position" content="3" />
+	</li>
+
 				
 			
 		</ul>
@@ -2456,7 +2080,7 @@
 	
 		
 
-	<a href="/misc/style-variation?reset=1&amp;t=1795822200%2C67d7077c40555fd79336535ba4f88853"
+	<a href="/misc/style-variation?reset=1&amp;t=1795852928%2Ca6fbe276bddcb0ccb50cc25dd69d0db9"
 		class="menu-linkRow is-selected"
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="">
@@ -2471,7 +2095,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=default&amp;t=1795822200%2C67d7077c40555fd79336535ba4f88853"
+	<a href="/misc/style-variation?variation=default&amp;t=1795852928%2Ca6fbe276bddcb0ccb50cc25dd69d0db9"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="default">
@@ -2486,7 +2110,7 @@
 
 		
 
-	<a href="/misc/style-variation?variation=alternate&amp;t=1795822200%2C67d7077c40555fd79336535ba4f88853"
+	<a href="/misc/style-variation?variation=alternate&amp;t=1795852928%2Ca6fbe276bddcb0ccb50cc25dd69d0db9"
 		class="menu-linkRow "
 		rel="nofollow"
 		data-xf-click="style-variation" data-variation="alternate">
@@ -2686,7 +2310,7 @@
 
 
 
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a614eb1139bb4bce',t:'MTc5NTgyMjIwMA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a614eb1139bb4bce',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a617d9450f931150',t:'MTc5NTg1MjkyOA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a617d9450f931150',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
 
 
